@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="nn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#07111f" />
+  <title>Bygdebladet Lokalfotball</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-wrap shell">
+      <a class="brand" href="#" aria-label="Bygdebladet Lokalfotball">
+        <span class="brand-bb">BYGDEBLADET</span>
+        <span class="brand-product">LOKALFOTBALL</span>
+      </a>
+      <div class="status-pill"><span class="status-dot"></span> SIST OPPDATERT <span id="lastUpdated">–</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow">G13 / J13 OG OPPOVER</p>
+        <h1>Alle resultat.<br><span>Heile distriktet.</span></h1>
+        <p class="lede">Ferdigspelte offisielle kampar frå laga i Bygdebladet-distriktet – samla på éin stad.</p>
+      </div>
+      <div class="hero-score" id="heroScore" aria-live="polite"></div>
+    </section>
+
+    <section class="photo-cta shell" aria-labelledby="photoCtaTitle">
+      <div class="photo-cta-icon" aria-hidden="true">
+        <svg viewBox="0 0 64 64" fill="none"><path d="M12 19h9l4-6h14l4 6h9a6 6 0 0 1 6 6v25a6 6 0 0 1-6 6H12a6 6 0 0 1-6-6V25a6 6 0 0 1 6-6Z" stroke="currentColor" stroke-width="4"/><circle cx="32" cy="36" r="11" stroke="currentColor" stroke-width="4"/></svg>
+      </div>
+      <div class="photo-cta-copy">
+        <p class="eyebrow">HJELP OSS Å VISE LOKALFOTBALLEN</p>
+        <h2 id="photoCtaTitle">Har du bilde frå kampen?</h2>
+        <p>Foreldre, lagleiarar og klubbar kan sende inn kampbilde til Bygdebladet.</p>
+      </div>
+      <a class="cta-button" id="photoSubmitLink" href="#" target="_blank" rel="noopener">SEND INN BILDE <span>↗</span></a>
+    </section>
+
+    <section class="stats-strip shell" id="statsStrip"></section>
+
+    <section class="matches shell">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">RESULTAT</p>
+          <h2>Siste kampar</h2>
+        </div>
+        <p class="section-note">Berre kampar med registrert sluttresultat blir viste.</p>
+      </div>
+
+      <div class="filters" aria-label="Filtrer kampar">
+        <div class="filter-group" id="periodFilters">
+          <button class="filter-chip active" data-period="all">ALLE</button>
+          <button class="filter-chip" data-period="today">I DAG</button>
+          <button class="filter-chip" data-period="yesterday">I GÅR</button>
+          <button class="filter-chip" data-period="week">DENNE VEKA</button>
+        </div>
+        <select id="ageFilter" aria-label="Aldersklasse"><option value="all">Alle aldersklassar</option></select>
+        <select id="clubFilter" aria-label="Klubb"><option value="all">Alle klubbar</option></select>
+      </div>
+
+      <div id="matchList" class="match-list" aria-live="polite"></div>
+      <div id="emptyState" class="empty-state" hidden>Ingen kampar treff desse filtera.</div>
+    </section>
+  </main>
+
+  <dialog id="matchDialog" class="match-dialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Lukk">×</button>
+    <div id="dialogContent"></div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div><strong>BYGDEBLADET LOKALFOTBALL</strong><br><span>Resultat og kampfakta frå lokalfotballen.</span></div>
+      <div class="footer-source">Kampresultat skal vere stadfesta mot offisielle NFF/FIKS-data.</div>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
