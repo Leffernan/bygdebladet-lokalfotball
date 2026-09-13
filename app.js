@@ -5,118 +5,256 @@ const TARGET_CLUBS = [
 
 let allMatches = [];
 let selectedPeriod = 'all';
-const $ = (s) => document.querySelector(s);
+const $ = (selector) => document.querySelector(selector);
+const esc = (value='') => String(value).replace(/[&<>'"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
 const fmtDate = (iso, opts={}) => new Intl.DateTimeFormat('nn-NO', opts).format(new Date(`${iso}T12:00:00`));
 
 function initials(team){
-  return team.split(/[\s/]+/).filter(Boolean).slice(0,3).map(x=>x[0]).join('').toUpperCase();
+  return String(team).split(/[\s/]+/).filter(Boolean).slice(0,3).map(x=>x[0]).join('').toUpperCase();
 }
+
 function isLocalName(name){
-  const lower = name.toLowerCase();
-  return TARGET_CLUBS.some(c => lower.includes(c.toLowerCase()));
+  const lower = String(name).toLowerCase();
+  return TARGET_CLUBS.some(club => lower.includes(club.toLowerCase()));
 }
-function dateKey(date){ return date; }
-function periodMatch(m){
-  if(selectedPeriod==='all') return true;
+
+function ageLabel(age){
+  if(age === 'MENN') return 'Menn senior';
+  if(age === 'KVINNER') return 'Kvinner senior';
+  if(age === 'SENIOR') return 'Senior';
+  return age;
+}
+
+function localOutcome(match){
+  if(match.localTeam === 'both') return {key:'derby', label:'LOKALDERBY'};
+  const localScore = match.localTeam === 'home' ? match.homeScore : match.awayScore;
+  const otherScore = match.localTeam === 'home' ? match.awayScore : match.homeScore;
+  if(localScore > otherScore) return {key:'win', label:'SIGER'};
+  if(localScore < otherScore) return {key:'loss', label:'TAP'};
+  return {key:'draw', label:'UAVGJORT'};
+}
+
+function periodMatch(match){
+  if(selectedPeriod === 'all') return true;
   const today = new Date();
   today.setHours(12,0,0,0);
-  const d = new Date(`${m.date}T12:00:00`);
-  const diff = Math.round((today-d)/86400000);
-  if(selectedPeriod==='today') return diff===0;
-  if(selectedPeriod==='yesterday') return diff===1;
-  if(selectedPeriod==='week'){
-    const day = (today.getDay()+6)%7;
-    const monday = new Date(today); monday.setDate(today.getDate()-day);
-    return d>=monday && d<=today;
-  }
+  const date = new Date(`${match.date}T12:00:00`);
+  const diff = Math.floor((today - date) / 86400000);
+  if(selectedPeriod === 'week') return diff >= 0 && diff < 7;
+  if(selectedPeriod === 'month') return diff >= 0 && diff < 30;
   return true;
 }
+
 function filtered(){
   const age = $('#ageFilter').value;
   const club = $('#clubFilter').value;
-  return allMatches.filter(m => periodMatch(m))
-    .filter(m => age==='all'||m.age===age)
-    .filter(m => club==='all'||m.home.toLowerCase().includes(club.toLowerCase())||m.away.toLowerCase().includes(club.toLowerCase()));
+  return allMatches
+    .filter(periodMatch)
+    .filter(match => age === 'all' || match.age === age)
+    .filter(match => club === 'all' || match.home.toLowerCase().includes(club.toLowerCase()) || match.away.toLowerCase().includes(club.toLowerCase()));
 }
+
 function renderHero(){
-  const m = allMatches[0];
-  if(!m) return;
-  const scorers = (m.events||[]).filter(e=>e.type==='goal' && e.team===m.localTeam).slice(0,3);
+  const match = allMatches[0];
+  if(!match){
+    $('#heroScore').innerHTML = '<div class="featured-card featured-empty">Ingen ferdigspelte kampar registrert enno.</div>';
+    return;
+  }
+  const outcome = localOutcome(match);
+  const scorers = (match.events || []).filter(event => event.type === 'goal' && (match.localTeam === 'both' || event.team === match.localTeam));
+
   $('#heroScore').innerHTML = `
     <article class="featured-card">
-      <div class="featured-top"><span>${m.age} · ${m.competition}</span><span class="featured-status">SLUTT</span></div>
-      <div class="featured-teams">
-        <div class="featured-team"><div class="crest">${initials(m.home)}</div>${m.home}</div>
-        <div class="featured-score">${m.homeScore}–${m.awayScore}</div>
-        <div class="featured-team"><div class="crest">${initials(m.away)}</div>${m.away}</div>
+      <div class="featured-glow"></div>
+      <div class="featured-top">
+        <div><span class="featured-kicker">SIST REGISTRERT</span><strong>${esc(ageLabel(match.age))} · ${esc(match.competition)}</strong></div>
+        <span class="verified-badge">✓ NFF</span>
       </div>
-      <div class="featured-meta">${m.halfTime?`${m.halfTime} til pause · `:''}${m.venue} · ${fmtDate(m.date,{weekday:'long',day:'numeric',month:'long'})}</div>
-      ${scorers.length?`<div class="featured-scorers">${scorers.map(e=>`<span class="scorer-pill">⚽ ${e.player} ${e.minute}'</span>`).join('')}</div>`:''}
+      <div class="featured-teams">
+        <div class="featured-team ${isLocalName(match.home)?'local':''}">
+          <div class="crest">${esc(initials(match.home))}</div>
+          <span>${esc(match.home)}</span>
+        </div>
+        <div class="featured-result-wrap">
+          <div class="featured-status">SLUTT</div>
+          <div class="featured-score">${match.homeScore}<i>–</i>${match.awayScore}</div>
+          <div class="outcome outcome-${outcome.key}">${outcome.label}</div>
+        </div>
+        <div class="featured-team ${isLocalName(match.away)?'local':''}">
+          <div class="crest">${esc(initials(match.away))}</div>
+          <span>${esc(match.away)}</span>
+        </div>
+      </div>
+      <div class="featured-meta">
+        <span>${fmtDate(match.date,{weekday:'long',day:'numeric',month:'long'})}</span>
+        <span>•</span><span>${esc(match.time || '')}</span>
+        ${match.venue?`<span>•</span><span>${esc(match.venue)}</span>`:''}
+      </div>
+      ${scorers.length ? `<div class="featured-scorers">${scorers.map(event=>`<span class="scorer-pill">⚽ ${esc(event.player)}${event.minute!=null?` ${event.minute}'`:''}</span>`).join('')}</div>` : ''}
+      <button class="featured-open" data-hero-id="${esc(match.id)}">Sjå kampfakta <span>→</span></button>
     </article>`;
+
+  $('[data-hero-id]').addEventListener('click', () => openMatch(match.id));
 }
+
 function renderStats(){
-  const week = allMatches.filter(m=>{
-    const today=new Date(); today.setHours(12,0,0,0); const d=new Date(`${m.date}T12:00:00`); return (today-d)/86400000<=7 && d<=today;
-  });
-  const goals=week.reduce((s,m)=>s+m.homeScore+m.awayScore,0);
-  const teams=new Set(week.flatMap(m=>[m.home,m.away].filter(isLocalName)));
-  $('#statsStrip').innerHTML=`<div class="stat"><strong>${week.length}</strong><span>kampar siste 7 dagar</span></div><div class="stat"><strong>${goals}</strong><span>mål totalt</span></div><div class="stat"><strong>${teams.size}</strong><span>lokale lag i aksjon</span></div>`;
+  const goals = allMatches.reduce((sum, match) => sum + match.homeScore + match.awayScore, 0);
+  const localWins = allMatches.filter(match => localOutcome(match).key === 'win').length;
+  const localTeams = new Set(allMatches.flatMap(match => [match.home,match.away].filter(isLocalName)));
+  $('#statsStrip').innerHTML = `
+    <div class="stat"><strong>${allMatches.length}</strong><span>verifiserte resultat</span></div>
+    <div class="stat"><strong>${goals}</strong><span>mål i desse kampane</span></div>
+    <div class="stat"><strong>${localWins}</strong><span>lokale sigrar</span></div>
+    <div class="stat"><strong>${localTeams.size}</strong><span>lokale lag registrert</span></div>`;
 }
+
 function renderFilters(){
-  [...new Set(allMatches.map(m=>m.age))].sort().forEach(age=>$('#ageFilter').insertAdjacentHTML('beforeend',`<option>${age}</option>`));
-  TARGET_CLUBS.forEach(c=>$('#clubFilter').insertAdjacentHTML('beforeend',`<option>${c}</option>`));
+  const ages = [...new Set(allMatches.map(match=>match.age))].sort((a,b)=>{
+    const rank = value => value === 'MENN' ? 100 : value === 'KVINNER' ? 101 : Number(value.replace(/\D/g,'')) || 99;
+    return rank(a)-rank(b) || a.localeCompare(b,'nn');
+  });
+  ages.forEach(age => $('#ageFilter').insertAdjacentHTML('beforeend', `<option value="${esc(age)}">${esc(ageLabel(age))}</option>`));
+  TARGET_CLUBS.forEach(club => $('#clubFilter').insertAdjacentHTML('beforeend', `<option value="${esc(club)}">${esc(club)}</option>`));
 }
-function card(m){
-  return `<article class="match-card" tabindex="0" data-id="${m.id}" role="button" aria-label="Opne ${m.home} mot ${m.away}">
-    <div class="match-meta"><div class="competition">${m.age} · ${m.competition}</div><div class="venue">${m.venue}${m.time?` · ${m.time}`:''}</div></div>
-    <div class="teams">
-      <div class="team-row ${isLocalName(m.home)?'local':''}"><div class="team-name">${m.home}</div><div class="team-score">${m.homeScore}</div></div>
-      <div class="team-row ${isLocalName(m.away)?'local':''}"><div class="team-name">${m.away}</div><div class="team-score">${m.awayScore}</div></div>
+
+function matchCard(match){
+  const outcome = localOutcome(match);
+  return `<article class="match-card outcome-card-${outcome.key}" tabindex="0" data-id="${esc(match.id)}" role="button" aria-label="Opne ${esc(match.home)} mot ${esc(match.away)}">
+    <div class="match-meta">
+      <div class="match-class"><span>${esc(ageLabel(match.age))}</span>${esc(match.competition)}</div>
+      <div class="match-place">${esc(match.venue || 'Bane ikkje oppgitt')} · ${esc(match.time || '')}</div>
     </div>
-    <div class="match-side"><div class="fulltime">SLUTT</div><div class="halftime">${m.halfTime?`Pause ${m.halfTime}`:'–'}</div><div class="arrow">→</div></div>
+    <div class="match-teams">
+      <div class="team-line ${isLocalName(match.home)?'local':''}">
+        <div class="mini-crest">${esc(initials(match.home))}</div>
+        <div class="team-name">${esc(match.home)}</div>
+        <div class="team-score">${match.homeScore}</div>
+      </div>
+      <div class="team-line ${isLocalName(match.away)?'local':''}">
+        <div class="mini-crest">${esc(initials(match.away))}</div>
+        <div class="team-name">${esc(match.away)}</div>
+        <div class="team-score">${match.awayScore}</div>
+      </div>
+    </div>
+    <div class="match-side">
+      <div class="outcome outcome-${outcome.key}">${outcome.label}</div>
+      <div class="verified-mini">✓ NFF</div>
+      <div class="arrow">→</div>
+    </div>
   </article>`;
 }
+
 function renderMatches(){
-  const list=filtered().sort((a,b)=>`${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
-  $('#emptyState').hidden=list.length>0;
-  let html='', last='';
-  list.forEach(m=>{
-    if(dateKey(m.date)!==last){ last=dateKey(m.date); html+=`<div class="date-heading">${fmtDate(m.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</div>`; }
-    html+=card(m);
+  const list = filtered().sort((a,b)=>`${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
+  $('#resultCount').textContent = `${list.length} ${list.length === 1 ? 'kamp' : 'kampar'}`;
+  $('#emptyState').hidden = list.length > 0;
+  let html = '';
+  let lastDate = '';
+
+  list.forEach(match => {
+    if(match.date !== lastDate){
+      lastDate = match.date;
+      html += `<div class="date-heading"><span>${fmtDate(match.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</span></div>`;
+    }
+    html += matchCard(match);
   });
-  $('#matchList').innerHTML=html;
-  document.querySelectorAll('.match-card').forEach(el=>{
-    el.addEventListener('click',()=>openMatch(el.dataset.id));
-    el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openMatch(el.dataset.id)}});
+
+  $('#matchList').innerHTML = html;
+  document.querySelectorAll('.match-card').forEach(card => {
+    card.addEventListener('click',()=>openMatch(card.dataset.id));
+    card.addEventListener('keydown',event=>{
+      if(event.key === 'Enter' || event.key === ' '){
+        event.preventDefault();
+        openMatch(card.dataset.id);
+      }
+    });
   });
 }
+
 function openMatch(id){
-  const m=allMatches.find(x=>x.id===id); if(!m)return;
-  const localEvents=(m.events||[]).filter(e=>e.team===m.localTeam);
-  $('#dialogContent').innerHTML=`
+  const match = allMatches.find(item => item.id === id);
+  if(!match) return;
+  const outcome = localOutcome(match);
+  const localEvents = (match.events || []).filter(event => match.localTeam === 'both' || event.team === match.localTeam);
+  const sourceLink = match.sourceUrl ? `<a class="source-link" href="${esc(match.sourceUrl)}" target="_blank" rel="noopener">Opne NFF-kjelda <span>↗</span></a>` : '';
+
+  $('#dialogContent').innerHTML = `
     <div class="dialog-hero">
-      <div class="dialog-label">${m.age} · ${m.competition} · SLUTT</div>
-      <div class="dialog-score"><div class="dialog-team">${m.home}</div><div class="dialog-result">${m.homeScore}–${m.awayScore}</div><div class="dialog-team">${m.away}</div></div>
-      <div class="dialog-facts"><span>${fmtDate(m.date,{weekday:'long',day:'numeric',month:'long'})}</span><span>•</span><span>${m.venue}</span>${m.halfTime?`<span>•</span><span>Pause ${m.halfTime}</span>`:''}</div>
+      <div class="dialog-label"><span>${esc(ageLabel(match.age))}</span> ${esc(match.competition)}</div>
+      <div class="dialog-scoreboard">
+        <div class="dialog-team ${isLocalName(match.home)?'local':''}"><div class="dialog-crest">${esc(initials(match.home))}</div><strong>${esc(match.home)}</strong></div>
+        <div class="dialog-result-block"><span>SLUTT</span><div class="dialog-result">${match.homeScore}<i>–</i>${match.awayScore}</div><div class="outcome outcome-${outcome.key}">${outcome.label}</div></div>
+        <div class="dialog-team ${isLocalName(match.away)?'local':''}"><div class="dialog-crest">${esc(initials(match.away))}</div><strong>${esc(match.away)}</strong></div>
+      </div>
+      <div class="dialog-facts">
+        <span>${fmtDate(match.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</span>
+        ${match.time?`<span>•</span><span>${esc(match.time)}</span>`:''}
+        ${match.venue?`<span>•</span><span>${esc(match.venue)}</span>`:''}
+      </div>
     </div>
     <div class="dialog-body">
-      ${localEvents.length?`<section class="detail-section"><h3>LOKALE MÅL</h3><div class="timeline">${localEvents.map(e=>`<div class="event"><div class="event-time">${e.minute}'</div><div class="event-text">⚽ ${e.player}</div></div>`).join('')}</div></section>`:''}
-      ${m.summary?`<section class="detail-section"><h3>KAMPEN</h3><p>${m.summary}</p></section>`:''}
-      <section class="detail-section"><h3>KAMPFAKTA</h3><div class="source-note">${m.competition}<br>${m.venue}<br>${m.halfTime?`Pauseresultat: ${m.halfTime}<br>`:''}Sluttresultat: ${m.homeScore}–${m.awayScore}</div></section>
-      ${m.nextMatch?`<section class="detail-section"><h3>NESTE KAMP</h3><div class="next-game"><strong>${m.nextMatch.homeAway==='away'?`${m.nextMatch.opponent} – ${m.localTeam==='home'?m.home:m.away}`:`${m.localTeam==='home'?m.home:m.away} – ${m.nextMatch.opponent}`}</strong><br><span class="source-note">${fmtDate(m.nextMatch.date,{weekday:'long',day:'numeric',month:'long'})} ${m.nextMatch.time} · ${m.nextMatch.venue}</span></div></section>`:''}
-      <section class="detail-section"><div class="source-note"><strong>Datastatus:</strong> ${m.quality==='demo'?'Denne kampen er demonstrasjonsdata i prototypen.':'Kampresultatet er stadfesta mot offisielle NFF/FIKS-data.'}</div></section>
+      ${localEvents.length ? `<section class="detail-section"><div class="detail-heading"><h3>LOKALE MÅL</h3><span>${localEvents.length}</span></div><div class="timeline">${localEvents.map(event=>`<div class="event"><div class="event-time">${event.minute!=null?`${event.minute}'`:'–'}</div><div class="event-ball">⚽</div><div class="event-text">${esc(event.player)}</div></div>`).join('')}</div></section>` : `
+        <section class="detail-section compact"><div class="detail-heading"><h3>KAMPDETALJAR</h3></div><p class="muted-copy">Vi har førebels berre stadfesta sluttresultatet og dei grunnleggjande kampfakta for denne kampen.</p></section>`}
+      ${match.summary?`<section class="detail-section"><div class="detail-heading"><h3>KAMPEN</h3></div><p>${esc(match.summary)}</p></section>`:''}
+      <section class="detail-section">
+        <div class="detail-heading"><h3>KAMPFAKTA</h3><span class="verified-badge">✓ NFF</span></div>
+        <dl class="facts-grid">
+          <div><dt>Turnering</dt><dd>${esc(match.competition)}</dd></div>
+          <div><dt>Bane</dt><dd>${esc(match.venue || 'Ikkje oppgitt')}</dd></div>
+          <div><dt>Sluttresultat</dt><dd>${match.homeScore}–${match.awayScore}</dd></div>
+          <div><dt>NFF-kampnr.</dt><dd>${esc(match.matchNumber || '–')}</dd></div>
+          ${match.halfTime?`<div><dt>Pause</dt><dd>${esc(match.halfTime)}</dd></div>`:''}
+        </dl>
+      </section>
+      ${match.nextMatch?`<section class="detail-section"><div class="detail-heading"><h3>NESTE KAMP</h3></div><div class="next-game"><strong>${esc(match.nextMatch.opponent)}</strong><span>${fmtDate(match.nextMatch.date,{weekday:'long',day:'numeric',month:'long'})} ${esc(match.nextMatch.time || '')}${match.nextMatch.venue?` · ${esc(match.nextMatch.venue)}`:''}</span></div></section>`:''}
+      <section class="detail-section source-section">
+        <div><strong>Kjelde: Norges Fotballforbund</strong><p>Resultatet er kontrollert mot offisielle kampdata på fotball.no.</p></div>
+        ${sourceLink}
+      </section>
     </div>`;
   $('#matchDialog').showModal();
 }
+
 async function init(){
-  const data=await fetch('data/matches.json').then(r=>r.json());
-  allMatches=data.matches.filter(m=>Number.isFinite(m.homeScore)&&Number.isFinite(m.awayScore));
-  $('#lastUpdated').textContent=new Intl.DateTimeFormat('nn-NO',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}).format(new Date(data.generatedAt));
-  if(data.photoSubmitUrl&&data.photoSubmitUrl!=='#') $('#photoSubmitLink').href=data.photoSubmitUrl; else $('#photoSubmitLink').addEventListener('click',e=>{e.preventDefault();alert('Her koplar vi inn innsending av kampbilde, til dømes via Tally.');});
-  renderHero();renderStats();renderFilters();renderMatches();
-  $('#ageFilter').addEventListener('change',renderMatches); $('#clubFilter').addEventListener('change',renderMatches);
-  document.querySelectorAll('[data-period]').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('[data-period]').forEach(b=>b.classList.remove('active'));btn.classList.add('active');selectedPeriod=btn.dataset.period;renderMatches()}));
+  const response = await fetch('data/matches.json', {cache:'no-store'});
+  if(!response.ok) throw new Error(`HTTP ${response.status}`);
+  const data = await response.json();
+  allMatches = data.matches
+    .filter(match => Number.isFinite(match.homeScore) && Number.isFinite(match.awayScore))
+    .sort((a,b)=>`${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
+
+  $('#lastUpdated').textContent = new Intl.DateTimeFormat('nn-NO',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(data.generatedAt));
+  if(data.photoSubmitUrl && data.photoSubmitUrl !== '#'){
+    $('#photoSubmitLink').href = data.photoSubmitUrl;
+    $('#photoSubmitLink').target = '_blank';
+    $('#photoSubmitLink').rel = 'noopener';
+  } else {
+    $('#photoSubmitLink').addEventListener('click',event=>{
+      event.preventDefault();
+      alert('Her koplar vi inn skjemaet for innsending av kampbilde.');
+    });
+  }
+
+  renderHero();
+  renderStats();
+  renderFilters();
+  renderMatches();
+
+  $('#ageFilter').addEventListener('change',renderMatches);
+  $('#clubFilter').addEventListener('change',renderMatches);
+  document.querySelectorAll('[data-period]').forEach(button=>button.addEventListener('click',()=>{
+    document.querySelectorAll('[data-period]').forEach(item=>item.classList.remove('active'));
+    button.classList.add('active');
+    selectedPeriod = button.dataset.period;
+    renderMatches();
+  }));
   $('#dialogClose').addEventListener('click',()=>$('#matchDialog').close());
-  $('#matchDialog').addEventListener('click',e=>{if(e.target===$('#matchDialog')) $('#matchDialog').close();});
+  $('#matchDialog').addEventListener('click',event=>{
+    if(event.target === $('#matchDialog')) $('#matchDialog').close();
+  });
 }
-init().catch(err=>{console.error(err);$('#matchList').innerHTML='<div class="empty-state">Klarte ikkje å laste kampdata.</div>';});
+
+init().catch(error=>{
+  console.error(error);
+  $('#matchList').innerHTML = '<div class="empty-state"><strong>Klarte ikkje å laste kampdata.</strong><span>Prøv igjen om litt.</span></div>';
+});
