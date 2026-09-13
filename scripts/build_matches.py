@@ -45,45 +45,52 @@ def local_side(home: str, away: str, aliases: list[str]) -> str | None:
 
 
 def validate_match(raw: dict, cfg: dict) -> dict:
-    required = ["fiksId", "sourceUrl", "date", "age", "competition", "home", "away", "homeScore", "awayScore"]
+    required = ["matchNumber", "sourceUrl", "date", "age", "competition", "home", "away", "homeScore", "awayScore"]
     missing = [key for key in required if raw.get(key) in (None, "")]
     if missing:
         fail(f"Kamp mangler felt: {', '.join(missing)}")
 
-    fiks_id = str(raw["fiksId"]).strip()
-    if not re.fullmatch(r"\d+", fiks_id):
+    match_number = str(raw["matchNumber"]).strip()
+    if not re.fullmatch(r"\d{8,14}", match_number):
+        fail(f"Ugyldig NFF-kampnummer: {match_number}")
+
+    fiks_id = str(raw.get("fiksId") or "").strip()
+    if fiks_id and not re.fullmatch(r"\d+", fiks_id):
         fail(f"Ugyldig fiksId: {fiks_id}")
 
     source_url = str(raw["sourceUrl"]).strip()
-    host = (urlparse(source_url).hostname or "").lower()
+    parsed = urlparse(source_url)
+    host = (parsed.hostname or "").lower()
     if host not in {"fotball.no", "www.fotball.no"}:
-        fail(f"Kilde må være fotball.no for kamp {fiks_id}")
+        fail(f"Kilde må være fotball.no for kamp {match_number}")
+    if not parsed.path.startswith("/fotballdata/"):
+        fail(f"Kilde må være en offisiell fotballdata-side for kamp {match_number}")
 
     try:
         datetime.strptime(str(raw["date"]), "%Y-%m-%d")
     except ValueError:
-        fail(f"Ugyldig dato for kamp {fiks_id}")
+        fail(f"Ugyldig dato for kamp {match_number}")
 
     age = str(raw["age"]).upper().replace(" ", "")
     m = re.fullmatch(r"([GJ])(\d{2})", age)
     senior = age in {"MENN", "KVINNER", "SENIOR"}
     if not m and not senior:
-        fail(f"Ugyldig aldersklasse '{age}' for kamp {fiks_id}")
+        fail(f"Ugyldig aldersklasse '{age}' for kamp {match_number}")
     if m and int(m.group(2)) < int(cfg.get("minimumAge", 13)):
-        fail(f"Kamp {fiks_id} er yngre enn minimumsalder")
+        fail(f"Kamp {match_number} er yngre enn minimumsalder")
 
     try:
         home_score = int(raw["homeScore"])
         away_score = int(raw["awayScore"])
     except (TypeError, ValueError):
-        fail(f"Sluttresultat mangler/er ugyldig for kamp {fiks_id}")
+        fail(f"Sluttresultat mangler/er ugyldig for kamp {match_number}")
 
     aliases = []
     for club in cfg["clubs"]:
         aliases.extend([club["name"], *club.get("aliases", [])])
     side = local_side(str(raw["home"]), str(raw["away"]), aliases)
     if not side:
-        fail(f"Ingen godkjent lokal klubb funnet i kamp {fiks_id}")
+        fail(f"Ingen godkjent lokal klubb funnet i kamp {match_number}")
 
     events = raw.get("events") or []
     clean_events = []
@@ -91,21 +98,23 @@ def validate_match(raw: dict, cfg: dict) -> dict:
         if event.get("type") != "goal":
             continue
         if event.get("team") not in {"home", "away"}:
-            fail(f"Ugyldig event-lag i kamp {fiks_id}")
+            fail(f"Ugyldig event-lag i kamp {match_number}")
         player = str(event.get("player") or "").strip()
         if not player:
-            fail(f"Mål uten spiller i kamp {fiks_id}")
+            fail(f"Mål uten spiller i kamp {match_number}")
         minute = event.get("minute")
         if minute not in (None, ""):
             try:
                 minute = int(minute)
             except (TypeError, ValueError):
-                fail(f"Ugyldig målminutt i kamp {fiks_id}")
+                fail(f"Ugyldig målminutt i kamp {match_number}")
         clean_events.append({"minute": minute, "type": "goal", "team": event["team"], "player": player})
 
+    identity = fiks_id or match_number
     return {
-        "id": f"nff-{fiks_id}",
-        "fiksId": fiks_id,
+        "id": f"nff-{identity}",
+        "fiksId": fiks_id or None,
+        "matchNumber": match_number,
         "sourceUrl": source_url,
         "date": str(raw["date"]),
         "time": str(raw.get("time") or ""),
