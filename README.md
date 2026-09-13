@@ -7,35 +7,32 @@ En statisk GitHub Pages-plattform for ferdigspilte lokale fotballkamper fra G13/
 - `styles.css` – visuelt design
 - `app.js` – filtrering, kampkort, detaljmodal og statistikk
 - `data/matches.json` – datakilden frontend leser
-- `config/fotballdata.json` – målklubber, alias og FIKS-klubb-ID-er
-- `scripts/update_matches.py` – henter og normaliserer kampdata
-- `.github/workflows/update-football-data.yml` – automatisert oppdatering hver time
+- `data/nff-import.json` – redaksjonelt registrerte, NFF-verifiserte kampfakta
+- `config/nff.json` – målklubber, alias og publiseringsregler
+- `scripts/build_matches.py` – validerer og normaliserer kampdata
+- `.github/workflows/build-football-data.yml` – bygger og publiserer ved endringer
 
-## Datakilde
-Integrasjonen er klargjort for Fotballdata fra Garnes Data AS. Fotballdata opplyser at dataene deres hentes fra NFF/FIKS.
+## Autoritativ kilde
+NFF/fotball.no er fasit for kampdato og sluttresultat. Ingen kamp publiseres uten NFF-verifisert sluttresultat.
 
-Fotballdata er ikke konfigurert i dette repoet ennå. Tjenesten krever `cid` og `cwd`, og bruksvilkår/pris for Bygdebladets bruk på tvers av flere klubber må avklares med Garnes Data før produksjonssetting.
-
-Når tilgang er på plass, legges følgende inn som GitHub Actions secrets:
-
-- `FOTBALLDATA_CID`
-- `FOTBALLDATA_CWD`
-
-Deretter legges offisielle FIKS-klubb-ID-er inn som `clubId` i `config/fotballdata.json`.
+NFF opplyser at gjenbruk av innhold krever avtale og at automatiserte roboter/spidere ikke er tillatt på fotball.no. Repoet inneholder derfor ikke automatisk scraping av fotball.no. Dersom NFF senere gir tillatelse eller tilgang til en egnet datakilde, kan innhentingen kobles inn foran den eksisterende validerings-/publiseringspipeline uten at frontenden må bygges om.
 
 ## Publiseringsregler
-- G13/J13 og eldre.
+- G13/J13 og eldre, samt senior.
 - Samarbeidslag tas med når minst ett av de definerte klubbnavnene inngår.
 - Kamp publiseres aldri uten registrert sluttresultat.
-- Alder skal kunne identifiseres; scriptet gjetter ikke aldersklasse.
-- Målscorere og hendelser skal bare publiseres når feltene er verifisert mot den faktiske API-responsen.
-- Eksisterende data overskrives ikke dersom en API-kjøring gir null publiserbare kamper.
+- Hver kamp må ha FIKS-ID og kilde-URL på fotball.no.
+- Alder skal være kjent; systemet gjetter ikke aldersklasse.
+- Spillere, mål, målminutt, pauseresultat og øvrige hendelser publiseres bare når de er stadfestet.
+- Dersom bare resultatet er sikkert, skal kampen presenteres kort og nøkternt.
 
 ## Målklubber
 Vestnes Varfjell, Tomrefjord, Fiksdal/Rekdal, Ørskog, Stordal, Skodje, Brattvåg, Ravn, Norborg, HaNo, Harøy, Lepsøy og Hildre.
 
-## GitHub Pages
-Siden publiseres fra `main`. Når GitHub Action finner nye kampdata, committer boten ny `data/matches.json`, og Pages publiserer den oppdaterte versjonen.
+## GitHub Actions
+Når `data/nff-import.json`, NFF-konfigurasjonen eller valideringsscriptet endres, kjører GitHub Actions automatisk `scripts/build_matches.py`.
+
+Scriptet validerer kilden og kampdataene. Dersom alt er gyldig, bygges `data/matches.json` og committes automatisk. GitHub Pages publiserer deretter den nye versjonen.
 
 ## Nåværende status
-`data/matches.json` inneholder foreløpig demodata. Produksjonsdata aktiveres først når Fotballdata-tilgang, brukstillatelse og klubb-ID-er er på plass og API-feltene er testet.
+`data/matches.json` inneholder foreløpig demodata. `data/nff-import.json` er tom. Produksjonsdata aktiveres først når vi har en tillatt måte å registrere eller hente NFF-data på.
