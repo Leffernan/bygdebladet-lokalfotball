@@ -1,0 +1,19 @@
+{
+  "minimumAge": 13,
+  "sourceHost": "www.fotball.no",
+  "clubs": [
+    {"name": "Vestnes Varfjell", "aliases": ["Vestnes Varfjell"]},
+    {"name": "Tomrefjord", "aliases": ["Tomrefjord"]},
+    {"name": "Fiksdal/Rekdal", "aliases": ["Fiksdal/Rekdal", "Fiksdal", "Rekdal"]},
+    {"name": "Ørskog", "aliases": ["Ørskog"]},
+    {"name": "Stordal", "aliases": ["Stordal"]},
+    {"name": "Skodje", "aliases": ["Skodje"]},
+    {"name": "Brattvåg", "aliases": ["Brattvåg"]},
+    {"name": "Ravn", "aliases": ["Ravn"]},
+    {"name": "Norborg", "aliases": ["Norborg"]},
+    {"name": "HaNo", "aliases": ["HaNo"]},
+    {"name": "Harøy", "aliases": ["Harøy"]},
+    {"name": "Lepsøy", "aliases": ["Lepsøy"]},
+    {"name": "Hildre", "aliases": ["Hildre"]}
+  ]
+}
