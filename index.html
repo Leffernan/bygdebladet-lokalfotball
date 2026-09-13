@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="theme-color" content="#07111f" />
+  <meta name="theme-color" content="#071019" />
+  <meta name="description" content="Bygdebladet Lokalfotball samlar offisielle resultat frå lokale fotballag frå G13/J13 og oppover." />
   <title>Bygdebladet Lokalfotball</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,62 +12,86 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="topline"></div>
   <header class="site-header">
     <div class="brand-wrap shell">
-      <a class="brand" href="#" aria-label="Bygdebladet Lokalfotball">
+      <a class="brand" href="#top" aria-label="Bygdebladet Lokalfotball">
         <span class="brand-bb">BYGDEBLADET</span>
+        <span class="brand-divider"></span>
         <span class="brand-product">LOKALFOTBALL</span>
       </a>
-      <div class="status-pill"><span class="status-dot"></span> SIST OPPDATERT <span id="lastUpdated">–</span></div>
+      <div class="header-actions">
+        <a href="#results" class="header-link">Resultat</a>
+        <a href="#photo" class="header-link">Send inn bilde</a>
+        <div class="status-pill"><span class="status-dot"></span><span>NFF-VERIFISERT</span></div>
+      </div>
     </div>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero shell">
       <div class="hero-copy">
-        <p class="eyebrow">G13 / J13 OG OPPOVER</p>
-        <h1>Alle resultat.<br><span>Heile distriktet.</span></h1>
-        <p class="lede">Ferdigspelte offisielle kampar frå laga i Bygdebladet-distriktet – samla på éin stad.</p>
+        <div class="live-label"><span></span> RESULTAT FRÅ LOKALFOTBALLEN</div>
+        <h1>Lokalfotball.<br><em>Rett på resultatet.</em></h1>
+        <p class="lede">Ferdigspelte kampar frå G13/J13 og oppover – samla for laga i Bygdebladet-distriktet.</p>
+        <div class="hero-trust">
+          <span class="trust-icon">✓</span>
+          <div><strong>Resultatet skal alltid vere kontrollert mot NFF</strong><small>Vi viser aldri ein kamp utan registrert sluttresultat.</small></div>
+        </div>
       </div>
       <div class="hero-score" id="heroScore" aria-live="polite"></div>
     </section>
 
-    <section class="photo-cta shell" aria-labelledby="photoCtaTitle">
-      <div class="photo-cta-icon" aria-hidden="true">
-        <svg viewBox="0 0 64 64" fill="none"><path d="M12 19h9l4-6h14l4 6h9a6 6 0 0 1 6 6v25a6 6 0 0 1-6 6H12a6 6 0 0 1-6-6V25a6 6 0 0 1 6-6Z" stroke="currentColor" stroke-width="4"/><circle cx="32" cy="36" r="11" stroke="currentColor" stroke-width="4"/></svg>
+    <section class="photo-cta shell" id="photo" aria-labelledby="photoCtaTitle">
+      <div class="photo-visual" aria-hidden="true">
+        <svg viewBox="0 0 80 80" fill="none"><rect x="7" y="16" width="66" height="51" rx="12" stroke="currentColor" stroke-width="4"/><path d="M24 16l6-9h20l6 9" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle cx="40" cy="42" r="13" stroke="currentColor" stroke-width="4"/><circle cx="62" cy="27" r="3" fill="currentColor"/></svg>
       </div>
       <div class="photo-cta-copy">
-        <p class="eyebrow">HJELP OSS Å VISE LOKALFOTBALLEN</p>
+        <p class="eyebrow light">FRÅ SIDELINJA TIL BYGDEBLADET</p>
         <h2 id="photoCtaTitle">Har du bilde frå kampen?</h2>
-        <p>Foreldre, lagleiarar og klubbar kan sende inn kampbilde til Bygdebladet.</p>
+        <p>Foreldre, lagleiarar og klubbar: Hjelp oss å vise menneska bak resultata.</p>
       </div>
-      <a class="cta-button" id="photoSubmitLink" href="#" target="_blank" rel="noopener">SEND INN BILDE <span>↗</span></a>
+      <a class="cta-button" id="photoSubmitLink" href="#">SEND INN BILDE <span>↗</span></a>
     </section>
 
-    <section class="stats-strip shell" id="statsStrip"></section>
+    <section class="stats-strip shell" id="statsStrip" aria-label="Nøkkeltal"></section>
 
-    <section class="matches shell">
+    <section class="matches shell" id="results">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">RESULTAT</p>
-          <h2>Siste kampar</h2>
+          <p class="eyebrow">KAMPSENTER</p>
+          <h2>Siste resultat</h2>
         </div>
-        <p class="section-note">Berre kampar med registrert sluttresultat blir viste.</p>
+        <div class="update-note"><span class="update-dot"></span> Oppdatert <strong id="lastUpdated">–</strong></div>
       </div>
 
       <div class="filters" aria-label="Filtrer kampar">
         <div class="filter-group" id="periodFilters">
           <button class="filter-chip active" data-period="all">ALLE</button>
-          <button class="filter-chip" data-period="today">I DAG</button>
-          <button class="filter-chip" data-period="yesterday">I GÅR</button>
-          <button class="filter-chip" data-period="week">DENNE VEKA</button>
+          <button class="filter-chip" data-period="week">SISTE 7 DAGAR</button>
+          <button class="filter-chip" data-period="month">SISTE 30 DAGAR</button>
         </div>
-        <select id="ageFilter" aria-label="Aldersklasse"><option value="all">Alle aldersklassar</option></select>
-        <select id="clubFilter" aria-label="Klubb"><option value="all">Alle klubbar</option></select>
+        <div class="filter-selects">
+          <select id="ageFilter" aria-label="Aldersklasse"><option value="all">Alle klassar</option></select>
+          <select id="clubFilter" aria-label="Klubb"><option value="all">Alle klubbar</option></select>
+        </div>
       </div>
 
+      <div class="result-count" id="resultCount"></div>
       <div id="matchList" class="match-list" aria-live="polite"></div>
-      <div id="emptyState" class="empty-state" hidden>Ingen kampar treff desse filtera.</div>
+      <div id="emptyState" class="empty-state" hidden>
+        <strong>Ingen resultat her enno.</strong>
+        <span>Prøv eit anna filter.</span>
+      </div>
+    </section>
+
+    <section class="source-panel shell">
+      <div class="source-mark">NFF</div>
+      <div>
+        <p class="eyebrow">KJELDEPRINSIPP</p>
+        <h2>Fakta først.</h2>
+        <p>Sluttresultat blir kontrollert mot Norges Fotballforbund. Målscorarar, målminutt og andre kamphendingar blir berre viste når dei er stadfesta i ei truverdig kjelde.</p>
+      </div>
     </section>
   </main>
 
@@ -77,8 +102,8 @@
 
   <footer class="site-footer">
     <div class="shell footer-inner">
-      <div><strong>BYGDEBLADET LOKALFOTBALL</strong><br><span>Resultat og kampfakta frå lokalfotballen.</span></div>
-      <div class="footer-source">Kampresultat skal vere stadfesta mot offisielle NFF/FIKS-data.</div>
+      <div><strong>BYGDEBLADET LOKALFOTBALL</strong><br><span>Resultat frå laga i Bygdebladet-distriktet.</span></div>
+      <div class="footer-source">Kampdata blir redaksjonelt kontrollert mot offisielle NFF-kjelder.</div>
     </div>
   </footer>
 
