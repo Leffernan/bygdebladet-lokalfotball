@@ -403,3 +403,4 @@ def parse_detail(html: str, home: str | None = None, away: str | None = None):
     return result
 # markup revision 2
 # retry after pattern fix
+# parser revision 3
