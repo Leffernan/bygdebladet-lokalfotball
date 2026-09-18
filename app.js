@@ -1,260 +1,28 @@
-const TARGET_CLUBS = [
-  'Vestnes Varfjell','Tomrefjord','Fiksdal/Rekdal','Ørskog','Stordal','Skodje',
-  'Brattvåg','Ravn','Norborg','HaNo','Harøy','Lepsøy','Hildre'
-];
-
-let allMatches = [];
-let selectedPeriod = 'all';
-const $ = (selector) => document.querySelector(selector);
-const esc = (value='') => String(value).replace(/[&<>'"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
-const fmtDate = (iso, opts={}) => new Intl.DateTimeFormat('nn-NO', opts).format(new Date(`${iso}T12:00:00`));
-
-function initials(team){
-  return String(team).split(/[\s/]+/).filter(Boolean).slice(0,3).map(x=>x[0]).join('').toUpperCase();
-}
-
-function isLocalName(name){
-  const lower = String(name).toLowerCase();
-  return TARGET_CLUBS.some(club => lower.includes(club.toLowerCase()));
-}
-
-function ageLabel(age){
-  if(age === 'MENN') return 'Menn senior';
-  if(age === 'KVINNER') return 'Kvinner senior';
-  if(age === 'SENIOR') return 'Senior';
-  return age;
-}
-
-function localOutcome(match){
-  if(match.localTeam === 'both') return {key:'derby', label:'LOKALDERBY'};
-  const localScore = match.localTeam === 'home' ? match.homeScore : match.awayScore;
-  const otherScore = match.localTeam === 'home' ? match.awayScore : match.homeScore;
-  if(localScore > otherScore) return {key:'win', label:'SIGER'};
-  if(localScore < otherScore) return {key:'loss', label:'TAP'};
-  return {key:'draw', label:'UAVGJORT'};
-}
-
-function periodMatch(match){
-  if(selectedPeriod === 'all') return true;
-  const today = new Date();
-  today.setHours(12,0,0,0);
-  const date = new Date(`${match.date}T12:00:00`);
-  const diff = Math.floor((today - date) / 86400000);
-  if(selectedPeriod === 'week') return diff >= 0 && diff < 7;
-  if(selectedPeriod === 'month') return diff >= 0 && diff < 30;
-  return true;
-}
-
-function filtered(){
-  const age = $('#ageFilter').value;
-  const club = $('#clubFilter').value;
-  return allMatches
-    .filter(periodMatch)
-    .filter(match => age === 'all' || match.age === age)
-    .filter(match => club === 'all' || match.home.toLowerCase().includes(club.toLowerCase()) || match.away.toLowerCase().includes(club.toLowerCase()));
-}
-
-function renderHero(){
-  const match = allMatches[0];
-  if(!match){
-    $('#heroScore').innerHTML = '<div class="featured-card featured-empty">Ingen ferdigspelte kampar registrert enno.</div>';
-    return;
-  }
-  const outcome = localOutcome(match);
-  const scorers = (match.events || []).filter(event => event.type === 'goal' && (match.localTeam === 'both' || event.team === match.localTeam));
-
-  $('#heroScore').innerHTML = `
-    <article class="featured-card">
-      <div class="featured-glow"></div>
-      <div class="featured-top">
-        <div><span class="featured-kicker">SIST REGISTRERT</span><strong>${esc(ageLabel(match.age))} · ${esc(match.competition)}</strong></div>
-        <span class="verified-badge">✓ NFF</span>
-      </div>
-      <div class="featured-teams">
-        <div class="featured-team ${isLocalName(match.home)?'local':''}">
-          <div class="crest">${esc(initials(match.home))}</div>
-          <span>${esc(match.home)}</span>
-        </div>
-        <div class="featured-result-wrap">
-          <div class="featured-status">SLUTT</div>
-          <div class="featured-score">${match.homeScore}<i>–</i>${match.awayScore}</div>
-          <div class="outcome outcome-${outcome.key}">${outcome.label}</div>
-        </div>
-        <div class="featured-team ${isLocalName(match.away)?'local':''}">
-          <div class="crest">${esc(initials(match.away))}</div>
-          <span>${esc(match.away)}</span>
-        </div>
-      </div>
-      <div class="featured-meta">
-        <span>${fmtDate(match.date,{weekday:'long',day:'numeric',month:'long'})}</span>
-        <span>•</span><span>${esc(match.time || '')}</span>
-        ${match.venue?`<span>•</span><span>${esc(match.venue)}</span>`:''}
-      </div>
-      ${scorers.length ? `<div class="featured-scorers">${scorers.map(event=>`<span class="scorer-pill">⚽ ${esc(event.player)}${event.minute!=null?` ${event.minute}'`:''}</span>`).join('')}</div>` : ''}
-      <button class="featured-open" data-hero-id="${esc(match.id)}">Sjå kampfakta <span>→</span></button>
-    </article>`;
-
-  $('[data-hero-id]').addEventListener('click', () => openMatch(match.id));
-}
-
-function renderStats(){
-  const goals = allMatches.reduce((sum, match) => sum + match.homeScore + match.awayScore, 0);
-  const localWins = allMatches.filter(match => localOutcome(match).key === 'win').length;
-  const localTeams = new Set(allMatches.flatMap(match => [match.home,match.away].filter(isLocalName)));
-  $('#statsStrip').innerHTML = `
-    <div class="stat"><strong>${allMatches.length}</strong><span>verifiserte resultat</span></div>
-    <div class="stat"><strong>${goals}</strong><span>mål i desse kampane</span></div>
-    <div class="stat"><strong>${localWins}</strong><span>lokale sigrar</span></div>
-    <div class="stat"><strong>${localTeams.size}</strong><span>lokale lag registrert</span></div>`;
-}
-
-function renderFilters(){
-  const ages = [...new Set(allMatches.map(match=>match.age))].sort((a,b)=>{
-    const rank = value => value === 'MENN' ? 100 : value === 'KVINNER' ? 101 : Number(value.replace(/\D/g,'')) || 99;
-    return rank(a)-rank(b) || a.localeCompare(b,'nn');
-  });
-  ages.forEach(age => $('#ageFilter').insertAdjacentHTML('beforeend', `<option value="${esc(age)}">${esc(ageLabel(age))}</option>`));
-  TARGET_CLUBS.forEach(club => $('#clubFilter').insertAdjacentHTML('beforeend', `<option value="${esc(club)}">${esc(club)}</option>`));
-}
-
-function matchCard(match){
-  const outcome = localOutcome(match);
-  return `<article class="match-card outcome-card-${outcome.key}" tabindex="0" data-id="${esc(match.id)}" role="button" aria-label="Opne ${esc(match.home)} mot ${esc(match.away)}">
-    <div class="match-meta">
-      <div class="match-class"><span>${esc(ageLabel(match.age))}</span>${esc(match.competition)}</div>
-      <div class="match-place">${esc(match.venue || 'Bane ikkje oppgitt')} · ${esc(match.time || '')}</div>
-    </div>
-    <div class="match-teams">
-      <div class="team-line ${isLocalName(match.home)?'local':''}">
-        <div class="mini-crest">${esc(initials(match.home))}</div>
-        <div class="team-name">${esc(match.home)}</div>
-        <div class="team-score">${match.homeScore}</div>
-      </div>
-      <div class="team-line ${isLocalName(match.away)?'local':''}">
-        <div class="mini-crest">${esc(initials(match.away))}</div>
-        <div class="team-name">${esc(match.away)}</div>
-        <div class="team-score">${match.awayScore}</div>
-      </div>
-    </div>
-    <div class="match-side">
-      <div class="outcome outcome-${outcome.key}">${outcome.label}</div>
-      <div class="verified-mini">✓ NFF</div>
-      <div class="arrow">→</div>
-    </div>
-  </article>`;
-}
-
-function renderMatches(){
-  const list = filtered().sort((a,b)=>`${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
-  $('#resultCount').textContent = `${list.length} ${list.length === 1 ? 'kamp' : 'kampar'}`;
-  $('#emptyState').hidden = list.length > 0;
-  let html = '';
-  let lastDate = '';
-
-  list.forEach(match => {
-    if(match.date !== lastDate){
-      lastDate = match.date;
-      html += `<div class="date-heading"><span>${fmtDate(match.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</span></div>`;
-    }
-    html += matchCard(match);
-  });
-
-  $('#matchList').innerHTML = html;
-  document.querySelectorAll('.match-card').forEach(card => {
-    card.addEventListener('click',()=>openMatch(card.dataset.id));
-    card.addEventListener('keydown',event=>{
-      if(event.key === 'Enter' || event.key === ' '){
-        event.preventDefault();
-        openMatch(card.dataset.id);
-      }
-    });
-  });
-}
-
-function openMatch(id){
-  const match = allMatches.find(item => item.id === id);
-  if(!match) return;
-  const outcome = localOutcome(match);
-  const localEvents = (match.events || []).filter(event => match.localTeam === 'both' || event.team === match.localTeam);
-  const sourceLink = match.sourceUrl ? `<a class="source-link" href="${esc(match.sourceUrl)}" target="_blank" rel="noopener">Opne NFF-kjelda <span>↗</span></a>` : '';
-
-  $('#dialogContent').innerHTML = `
-    <div class="dialog-hero">
-      <div class="dialog-label"><span>${esc(ageLabel(match.age))}</span> ${esc(match.competition)}</div>
-      <div class="dialog-scoreboard">
-        <div class="dialog-team ${isLocalName(match.home)?'local':''}"><div class="dialog-crest">${esc(initials(match.home))}</div><strong>${esc(match.home)}</strong></div>
-        <div class="dialog-result-block"><span>SLUTT</span><div class="dialog-result">${match.homeScore}<i>–</i>${match.awayScore}</div><div class="outcome outcome-${outcome.key}">${outcome.label}</div></div>
-        <div class="dialog-team ${isLocalName(match.away)?'local':''}"><div class="dialog-crest">${esc(initials(match.away))}</div><strong>${esc(match.away)}</strong></div>
-      </div>
-      <div class="dialog-facts">
-        <span>${fmtDate(match.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</span>
-        ${match.time?`<span>•</span><span>${esc(match.time)}</span>`:''}
-        ${match.venue?`<span>•</span><span>${esc(match.venue)}</span>`:''}
-      </div>
-    </div>
-    <div class="dialog-body">
-      ${localEvents.length ? `<section class="detail-section"><div class="detail-heading"><h3>LOKALE MÅL</h3><span>${localEvents.length}</span></div><div class="timeline">${localEvents.map(event=>`<div class="event"><div class="event-time">${event.minute!=null?`${event.minute}'`:'–'}</div><div class="event-ball">⚽</div><div class="event-text">${esc(event.player)}</div></div>`).join('')}</div></section>` : `
-        <section class="detail-section compact"><div class="detail-heading"><h3>KAMPDETALJAR</h3></div><p class="muted-copy">Vi har førebels berre stadfesta sluttresultatet og dei grunnleggjande kampfakta for denne kampen.</p></section>`}
-      ${match.summary?`<section class="detail-section"><div class="detail-heading"><h3>KAMPEN</h3></div><p>${esc(match.summary)}</p></section>`:''}
-      <section class="detail-section">
-        <div class="detail-heading"><h3>KAMPFAKTA</h3><span class="verified-badge">✓ NFF</span></div>
-        <dl class="facts-grid">
-          <div><dt>Turnering</dt><dd>${esc(match.competition)}</dd></div>
-          <div><dt>Bane</dt><dd>${esc(match.venue || 'Ikkje oppgitt')}</dd></div>
-          <div><dt>Sluttresultat</dt><dd>${match.homeScore}–${match.awayScore}</dd></div>
-          <div><dt>NFF-kampnr.</dt><dd>${esc(match.matchNumber || '–')}</dd></div>
-          ${match.halfTime?`<div><dt>Pause</dt><dd>${esc(match.halfTime)}</dd></div>`:''}
-        </dl>
-      </section>
-      ${match.nextMatch?`<section class="detail-section"><div class="detail-heading"><h3>NESTE KAMP</h3></div><div class="next-game"><strong>${esc(match.nextMatch.opponent)}</strong><span>${fmtDate(match.nextMatch.date,{weekday:'long',day:'numeric',month:'long'})} ${esc(match.nextMatch.time || '')}${match.nextMatch.venue?` · ${esc(match.nextMatch.venue)}`:''}</span></div></section>`:''}
-      <section class="detail-section source-section">
-        <div><strong>Kjelde: Norges Fotballforbund</strong><p>Resultatet er kontrollert mot offisielle kampdata på fotball.no.</p></div>
-        ${sourceLink}
-      </section>
-    </div>`;
-  $('#matchDialog').showModal();
-}
-
-async function init(){
-  const response = await fetch('data/matches.json', {cache:'no-store'});
-  if(!response.ok) throw new Error(`HTTP ${response.status}`);
-  const data = await response.json();
-  allMatches = data.matches
-    .filter(match => Number.isFinite(match.homeScore) && Number.isFinite(match.awayScore))
-    .sort((a,b)=>`${b.date} ${b.time}`.localeCompare(`${a.date} ${a.time}`));
-
-  $('#lastUpdated').textContent = new Intl.DateTimeFormat('nn-NO',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(data.generatedAt));
-  if(data.photoSubmitUrl && data.photoSubmitUrl !== '#'){
-    $('#photoSubmitLink').href = data.photoSubmitUrl;
-    $('#photoSubmitLink').target = '_blank';
-    $('#photoSubmitLink').rel = 'noopener';
-  } else {
-    $('#photoSubmitLink').addEventListener('click',event=>{
-      event.preventDefault();
-      alert('Her koplar vi inn skjemaet for innsending av kampbilde.');
-    });
-  }
-
-  renderHero();
-  renderStats();
-  renderFilters();
-  renderMatches();
-
-  $('#ageFilter').addEventListener('change',renderMatches);
-  $('#clubFilter').addEventListener('change',renderMatches);
-  document.querySelectorAll('[data-period]').forEach(button=>button.addEventListener('click',()=>{
-    document.querySelectorAll('[data-period]').forEach(item=>item.classList.remove('active'));
-    button.classList.add('active');
-    selectedPeriod = button.dataset.period;
-    renderMatches();
-  }));
-  $('#dialogClose').addEventListener('click',()=>$('#matchDialog').close());
-  $('#matchDialog').addEventListener('click',event=>{
-    if(event.target === $('#matchDialog')) $('#matchDialog').close();
-  });
-}
-
-init().catch(error=>{
-  console.error(error);
-  $('#matchList').innerHTML = '<div class="empty-state"><strong>Klarte ikkje å laste kampdata.</strong><span>Prøv igjen om litt.</span></div>';
-});
+const CLUBS=['Vestnes Varfjell','Tomrefjord','Fiksdal/Rekdal','Ørskog','Stordal','Skodje','Brattvåg','Ravn','Norborg','HaNo','Harøy','Lepsøy','Hildre'];
+let matches=[],upcoming=[],logos={},competitions={competitions:{}},period='all';
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const esc=(v='')=>String(v).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+const date=(d,o={})=>new Intl.DateTimeFormat('nn-NO',o).format(new Date(`${d}T12:00:00`));
+const age=a=>a==='MENN'?'Menn senior':a==='KVINNER'?'Kvinner senior':a;
+const local=n=>CLUBS.some(c=>String(n).toLowerCase().includes(c.toLowerCase()));
+const initials=n=>String(n).split(/[\s/]+/).filter(Boolean).slice(0,3).map(x=>x[0]).join('').toUpperCase();
+function logo(n){const x=Object.entries(logos).filter(([,p])=>p).filter(([k])=>String(n).toLowerCase().includes(k.toLowerCase())).sort((a,b)=>b[0].length-a[0].length)[0];return x?.[1]||null}
+function crest(n,cl='crest'){const p=logo(n);return `<div class="${cl}">${p?`<img src="${esc(p)}" alt="">`:esc(initials(n))}</div>`}
+function outcome(m){if(m.localTeam==='both')return['derby','LOKALDERBY'];const a=m.localTeam==='home'?m.homeScore:m.awayScore,b=m.localTeam==='home'?m.awayScore:m.homeScore;return a>b?['win','SIGER']:a<b?['loss','TAP']:['draw','UAVGJORT']}
+function periodOk(m){if(period==='all')return true;const n=new Date();n.setHours(12,0,0,0);const d=new Date(`${m.date}T12:00:00`),x=Math.floor((n-d)/86400000);return period==='week'?x>=0&&x<7:x>=0&&x<30}
+function visible(){const a=$('#ageFilter').value,c=$('#clubFilter').value;return matches.filter(periodOk).filter(m=>a==='all'||m.age===a).filter(m=>c==='all'||m.home.toLowerCase().includes(c.toLowerCase())||m.away.toLowerCase().includes(c.toLowerCase()))}
+function renderUpcoming(){const now=new Date(),list=upcoming.filter(m=>new Date(`${m.date}T${m.time||'00:00'}:00`)>=now).sort((a,b)=>`${a.date}${a.time}`.localeCompare(`${b.date}${b.time}`));$('#upcomingStrip').innerHTML=list.length?list.map(m=>`<a class="fixture-card" href="${esc(m.sourceUrl||'#')}" ${m.sourceUrl?'target="_blank" rel="noopener"':''}><div class="fixture-meta"><span>${date(m.date,{weekday:'short',day:'numeric',month:'short'})} · ${esc(m.time||'')}</span><span>${esc(age(m.age||''))}</span></div><div class="fixture-teams"><div class="fixture-team">${crest(m.home,'fixture-team-logo')}<span>${esc(m.home)}</span></div><div class="fixture-team">${crest(m.away,'fixture-team-logo')}<span>${esc(m.away)}</span></div></div></a>`).join(''):'<div class="fixture-empty">Ingen kommande kampar registrerte akkurat no.</div>'}
+function renderHero(){const m=matches[0];if(!m){$('#heroScore').innerHTML='<div class="featured-card featured-empty">Ingen ferdigspelte kampar registrerte enno.</div>';return}const o=outcome(m);$('#heroScore').innerHTML=`<article class="featured-card"><div class="featured-top"><div><span class="featured-kicker">SIST REGISTRERT</span><strong>${esc(age(m.age))} · ${esc(m.competition)}</strong></div><span class="featured-status">SLUTT</span></div><div class="featured-teams"><div class="featured-team ${local(m.home)?'local':''}">${crest(m.home)}<span>${esc(m.home)}</span></div><div class="featured-result-wrap"><div class="featured-score">${m.homeScore}<i>–</i>${m.awayScore}</div><div class="outcome outcome-${o[0]}">${o[1]}</div></div><div class="featured-team ${local(m.away)?'local':''}">${crest(m.away)}<span>${esc(m.away)}</span></div></div><div class="featured-meta"><span>${date(m.date,{weekday:'long',day:'numeric',month:'long'})}</span>${m.time?`<span>•</span><span>${esc(m.time)}</span>`:''}${m.venue?`<span>•</span><span>${esc(m.venue)}</span>`:''}</div><button class="featured-open" data-id="${esc(m.id)}">Sjå kampen <span>→</span></button></article>`;$('[data-id]',$('#heroScore')).onclick=()=>openMatch(m.id)}
+function renderFilters(){const as=[...new Set(matches.map(m=>m.age))].sort();$('#ageFilter').innerHTML='<option value="all">Alle klassar</option>'+as.map(a=>`<option value="${esc(a)}">${esc(age(a))}</option>`).join('');$('#clubFilter').innerHTML='<option value="all">Alle klubbar</option>'+CLUBS.map(c=>`<option>${esc(c)}</option>`).join('')}
+function card(m){const o=outcome(m);return `<article class="match-card outcome-card-${o[0]}" data-id="${esc(m.id)}" tabindex="0"><div class="match-meta"><div class="match-class"><span>${esc(age(m.age))}</span>${esc(m.competition)}</div><div class="match-place">${esc(m.venue||'Bane ikkje oppgitt')} ${m.time?`· ${esc(m.time)}`:''}</div></div><div class="match-teams"><div class="team-line ${local(m.home)?'local':''}">${crest(m.home,'mini-crest')}<div class="team-name">${esc(m.home)}</div><div class="team-score">${m.homeScore}</div></div><div class="team-line ${local(m.away)?'local':''}">${crest(m.away,'mini-crest')}<div class="team-name">${esc(m.away)}</div><div class="team-score">${m.awayScore}</div></div></div><div class="match-side"><div class="outcome outcome-${o[0]}">${o[1]}</div><div class="arrow">→</div></div></article>`}
+function renderMatches(){let h='',last='';visible().sort((a,b)=>`${b.date}${b.time}`.localeCompare(`${a.date}${a.time}`)).forEach(m=>{if(m.date!==last){last=m.date;h+=`<div class="date-heading"><span>${date(m.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</span></div>`}h+=card(m)});$('#matchList').innerHTML=h;$('#emptyState').hidden=!!h;$$('.match-card').forEach(x=>{x.onclick=()=>openMatch(x.dataset.id);x.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openMatch(x.dataset.id)}}})}
+function event(e){const t=e.minute!=null?`${e.minute}'`:'–';if(e.type==='goal')return `<div class="event"><div class="event-time">${t}</div><div class="event-icon">⚽</div><div class="event-text">${esc(e.player||'Mål')}${e.assist?`<small>Målgjevande: ${esc(e.assist)}</small>`:''}</div></div>`;if(e.type==='substitution')return `<div class="event"><div class="event-time">${t}</div><div class="event-icon">↔</div><div class="event-text">${esc(e.playerIn||'Inn')} inn<small>${esc(e.playerOut||'Spelar')} ut</small></div></div>`;if(e.type==='yellow_card'||e.type==='red_card')return `<div class="event"><div class="event-time">${t}</div><div class="event-icon">${e.type==='yellow_card'?'🟨':'🟥'}</div><div class="event-text">${esc(e.player||'Kort')}</div></div>`;return''}
+function report(m){const es=[...(m.events||[])].sort((a,b)=>(a.minute??999)-(b.minute??999)),r=m.officials?.referee||m.referee||'Ikkje oppgitt';return `<div class="tab-panel active" data-panel="report"><section class="detail-section"><div class="detail-heading"><h3>KAMPFORLØP</h3></div>${es.length?`<div class="timeline">${es.map(event).join('')}</div>`:'<div class="no-data">Det er ikkje registrert detaljert kampforløp for denne kampen enno.</div>'}</section><section class="detail-section"><div class="detail-heading"><h3>KAMPFAKTA</h3></div><dl class="facts-grid"><div><dt>Turnering</dt><dd>${esc(m.competition)}</dd></div><div><dt>Bane</dt><dd>${esc(m.venue||'Ikkje oppgitt')}</dd></div><div><dt>Sluttresultat</dt><dd>${m.homeScore}–${m.awayScore}</dd></div><div><dt>Pause</dt><dd>${esc(m.halfTime||'Ikkje oppgitt')}</dd></div><div><dt>Dommar</dt><dd>${esc(r)}</dd></div><div><dt>Tilskodarar</dt><dd>${esc(m.attendance??'Ikkje oppgitt')}</dd></div></dl></section>${m.sourceUrl?`<section class="detail-section source-section"><div><strong>Kjelde for kampfakta</strong></div><a class="source-link" href="${esc(m.sourceUrl)}" target="_blank" rel="noopener">Opne kjelda ↗</a></section>`:''}</div>`}
+function standings(rs){const T=new Map(),g=n=>{if(!T.has(n))T.set(n,{team:n,played:0,wins:0,draws:0,losses:0,gf:0,ga:0,points:0});return T.get(n)};(rs||[]).forEach(x=>{if(!Number.isFinite(x.homeScore)||!Number.isFinite(x.awayScore))return;let h=g(x.home),a=g(x.away);h.played++;a.played++;h.gf+=x.homeScore;h.ga+=x.awayScore;a.gf+=x.awayScore;a.ga+=x.homeScore;if(x.homeScore>x.awayScore){h.wins++;a.losses++;h.points+=3}else if(x.homeScore<x.awayScore){a.wins++;h.losses++;a.points+=3}else{h.draws++;a.draws++;h.points++;a.points++}});return [...T.values()].map(x=>({...x,gd:x.gf-x.ga})).sort((a,b)=>b.points-a.points||b.gd-a.gd||b.gf-a.gf).map((x,i)=>({...x,position:i+1}))}
+function table(m){const c=competitions.competitions?.[m.competitionId||m.competition];let s=c?.standings||((c?.complete&&c?.matches)?standings(c.matches):null);if(!s?.length)return `<div class="tab-panel" data-panel="table"><section class="detail-section"><div class="detail-heading"><h3>TABELL</h3></div><div class="no-data">Vi har ikkje komplett divisjonsdata for denne turneringa enno. Tabellen blir vist når datagrunnlaget er komplett.</div></section></div>`;const f=n=>[m.home,m.away].some(x=>x.toLowerCase().includes(String(n).toLowerCase())||String(n).toLowerCase().includes(x.toLowerCase()));return `<div class="tab-panel" data-panel="table"><section class="detail-section"><div class="detail-heading"><h3>${esc(c.name||m.competition)}</h3></div><div class="table-wrap"><table class="standings"><thead><tr><th>#</th><th>Lag</th><th>K</th><th>V</th><th>U</th><th>T</th><th>MF</th><th>MM</th><th>+/-</th><th>P</th></tr></thead><tbody>${s.map((x,i)=>`<tr class="${f(x.team)?'focus':''}"><td>${x.position??i+1}</td><td>${esc(x.team)}</td><td>${x.played}</td><td>${x.wins}</td><td>${x.draws}</td><td>${x.losses}</td><td>${x.gf}</td><td>${x.ga}</td><td>${x.gd??x.gf-x.ga}</td><td><strong>${x.points}</strong></td></tr>`).join('')}</tbody></table></div><p class="table-note">Tabellen blir oppdatert når nye resultat kjem inn i det komplette divisjonsdatasettet.</p></section></div>`}
+function lineup(team,l){if(!l?.starters?.length)return `<div class="lineup-card"><div class="lineup-head"><div class="lineup-title">${crest(team,'mini-crest')}<span>${esc(team)}</span></div></div><div class="no-data" style="margin:14px">Lagoppstilling er ikkje tilgjengeleg.</div></div>`;return `<div class="lineup-card"><div class="lineup-head"><div class="lineup-title">${crest(team,'mini-crest')}<span>${esc(team)}</span></div>${l.formation?`<span class="formation">${esc(l.formation)}</span>`:''}</div><div class="squad-list"><h4>Startoppstilling</h4>${l.starters.map(p=>`<div class="squad-player"><span>${esc(p.number??'')}</span><strong>${esc(p.name||'')}</strong></div>`).join('')}${l.bench?.length?`<h4>Innbytarar</h4>${l.bench.map(p=>`<div class="squad-player"><span>${esc(p.number??'')}</span><strong>${esc(p.name||'')}</strong></div>`).join('')}`:''}</div></div>`}
+function teams(m){const l=m.lineups||{};return `<div class="tab-panel" data-panel="teams"><section class="detail-section"><div class="detail-heading"><h3>LAGOPPSTILLINGAR</h3></div><div class="lineups-grid">${lineup(m.home,l.home)}${lineup(m.away,l.away)}</div></section></div>`}
+function openMatch(id){const m=matches.find(x=>x.id===id);if(!m)return;const o=outcome(m);$('#dialogContent').innerHTML=`<div class="dialog-hero"><div class="dialog-label"><span>${esc(age(m.age))}</span> ${esc(m.competition)}</div><div class="dialog-scoreboard"><div class="dialog-team ${local(m.home)?'local':''}">${crest(m.home,'dialog-crest')}<strong>${esc(m.home)}</strong></div><div class="dialog-result-block"><span>SLUTT</span><div class="dialog-result">${m.homeScore}<i>–</i>${m.awayScore}</div><div class="outcome outcome-${o[0]}">${o[1]}</div></div><div class="dialog-team ${local(m.away)?'local':''}">${crest(m.away,'dialog-crest')}<strong>${esc(m.away)}</strong></div></div><div class="dialog-facts"><span>${date(m.date,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</span>${m.time?`<span>•</span><span>${esc(m.time)}</span>`:''}${m.venue?`<span>•</span><span>${esc(m.venue)}</span>`:''}</div></div><nav class="match-tabs"><button class="match-tab active" data-tab="report">RAPPORT</button><button class="match-tab" data-tab="table">TABELL</button><button class="match-tab" data-tab="teams">LAG</button></nav><div class="dialog-body">${report(m)}${table(m)}${teams(m)}</div>`;$$('.match-tab',$('#matchDialog')).forEach(b=>b.onclick=()=>{$$('.match-tab',$('#matchDialog')).forEach(x=>x.classList.toggle('active',x===b));$$('.tab-panel',$('#matchDialog')).forEach(x=>x.classList.toggle('active',x.dataset.panel===b.dataset.tab))});$('#matchDialog').showModal()}
+async function json(p){const r=await fetch(`${p}?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(p);return r.json()}
+async function init(){const [d,u,l,c]=await Promise.all(['data/matches.json','data/upcoming.json','data/team-logos.json','data/competitions.json'].map(json));matches=(d.matches||[]).filter(m=>Number.isFinite(m.homeScore)&&Number.isFinite(m.awayScore)).sort((a,b)=>`${b.date}${b.time}`.localeCompare(`${a.date}${a.time}`));upcoming=u.matches||[];logos=l.logos||{};competitions=c||{competitions:{}};$('#lastUpdated').textContent=new Intl.DateTimeFormat('nn-NO',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(d.generatedAt));if(d.photoSubmitUrl&&d.photoSubmitUrl!=='#'){$('#photoSubmitLink').href=d.photoSubmitUrl;$('#photoSubmitLink').target='_blank'}renderUpcoming();renderHero();renderFilters();renderMatches();$('#ageFilter').onchange=renderMatches;$('#clubFilter').onchange=renderMatches;$$('[data-period]').forEach(b=>b.onclick=()=>{$$('[data-period]').forEach(x=>x.classList.remove('active'));b.classList.add('active');period=b.dataset.period;renderMatches()});$('#dialogClose').onclick=()=>$('#matchDialog').close();$('#matchDialog').onclick=e=>{if(e.target===$('#matchDialog'))$('#matchDialog').close()}}
+init().catch(e=>{console.error(e);$('#matchList').innerHTML='<div class="empty-state"><strong>Klarte ikkje å laste kampdata.</strong><span>Prøv igjen om litt.</span></div>'});
