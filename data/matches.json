@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T19:39:56+02:00",
+  "generatedAt": "2026-09-18T20:26:51+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -17,16 +17,168 @@
       "away": "Vestnes Varfjell",
       "homeScore": 0,
       "awayScore": 5,
-      "halfTime": null,
+      "halfTime": "0–2",
       "localTeam": "away",
       "events": [],
       "summary": null,
       "nextMatch": null,
       "source": "fotball.no",
       "officials": {
-        "referee": "Helge Roar Åndal"
+        "referee": "Helge Roar Åndal",
+        "assistant1": "Håkon Løvold",
+        "assistant2": "Harald Vebenstad",
+        "refereeObserver": "Alf Jarle Yttervik-Adolfsen"
       },
-      "referee": "Helge Roar Åndal"
+      "referee": "Helge Roar Åndal",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 99,
+              "name": "Andreas Haugnes Mork"
+            },
+            {
+              "number": 3,
+              "name": "Johan Watz Halse"
+            },
+            {
+              "number": 6,
+              "name": "Aleksander Rambø"
+            },
+            {
+              "number": 14,
+              "name": "Ulrik Andersen Lystrup"
+            },
+            {
+              "number": 22,
+              "name": "Roar Hannasvik"
+            },
+            {
+              "number": 25,
+              "name": "Julian Ansnes"
+            },
+            {
+              "number": 32,
+              "name": "Sondre Lyster Biesmans"
+            },
+            {
+              "number": 8,
+              "name": "Fredrik Kvinge Hansen"
+            },
+            {
+              "number": 10,
+              "name": "Sindre Olai Haltland Gjøstøl"
+            },
+            {
+              "number": 15,
+              "name": "Isak Baarset Rønning"
+            },
+            {
+              "number": 17,
+              "name": "Sondre Rambø"
+            },
+            {
+              "number": 26,
+              "name": "Jesper Kofoed"
+            },
+            {
+              "number": 9,
+              "name": "Felix Christoffer Hjemgård"
+            },
+            {
+              "number": 11,
+              "name": "Herman Lie Waage"
+            },
+            {
+              "number": 20,
+              "name": "Elias Backer Teiseth"
+            },
+            {
+              "number": 27,
+              "name": "Thomas Christian Kjønnø Hoem"
+            },
+            {
+              "number": 30,
+              "name": "Jonas Sæther Frey"
+            }
+          ],
+          "bench": []
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Egil Dalhaug"
+            },
+            {
+              "number": 23,
+              "name": "Svein Erik Lange Male"
+            },
+            {
+              "number": 27,
+              "name": "Kristian Flittie Onstad"
+            },
+            {
+              "number": 45,
+              "name": "Cédric Ronnie Hellström Andreassen"
+            },
+            {
+              "number": 10,
+              "name": "Leo Villa Krogseth"
+            },
+            {
+              "number": 22,
+              "name": "Torstein Væge Nekstad"
+            },
+            {
+              "number": 24,
+              "name": "Didrik Selnes Sæter"
+            },
+            {
+              "number": 80,
+              "name": "Tommy Kanishi Andreassen"
+            },
+            {
+              "number": 90,
+              "name": "Casper Rolf Hellstrøm Andreassen"
+            },
+            {
+              "number": 14,
+              "name": "Knut Stian Eik"
+            },
+            {
+              "number": 20,
+              "name": "William Pedersen Hjelvik"
+            }
+          ],
+          "bench": [
+            {
+              "number": 5,
+              "name": "Jo Sigurd Vold"
+            },
+            {
+              "number": 6,
+              "name": "Ørjan Tangen"
+            },
+            {
+              "number": 9,
+              "name": "Magnus Nerheim"
+            },
+            {
+              "number": 11,
+              "name": "Sverre Olgar Lindset"
+            },
+            {
+              "number": 25,
+              "name": "Henrik Leao Tomren"
+            },
+            {
+              "number": 8,
+              "name": "'"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "match-9204237",
