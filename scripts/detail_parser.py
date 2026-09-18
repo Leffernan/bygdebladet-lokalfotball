@@ -128,9 +128,10 @@ def _extract_lineups(lines):
         starter_end = bench_i if bench_i is not None else end_i
         starters = _player_pairs(lines[start_i + 1:starter_end])
         bench = _player_pairs(lines[bench_i + 1:end_i]) if bench_i is not None else []
-        if bench_i is None and len(starters) > starter_limit:
-            bench = starters[starter_limit:]
+        if len(starters) > starter_limit:
+            overflow = starters[starter_limit:]
             starters = starters[:starter_limit]
+            bench = overflow + bench
         if starters or bench:
             result[side] = {"starters": starters, "bench": bench}
 
@@ -275,7 +276,59 @@ def _extract_events(lines, lineups):
     return sorted(unique, key=lambda item: item.get("minute") or 0)
 
 
-def parse_detail(html: str):
+
+def _page_score(lines, home=None, away=None):
+    # Prefer a score located close to the two team names in the match header.
+    if home and away:
+        home_cf = clean(home).casefold()
+        away_cf = clean(away).casefold()
+        home_hits = [i for i, line in enumerate(lines[:160]) if clean(line).casefold() == home_cf]
+        away_hits = [i for i, line in enumerate(lines[:160]) if clean(line).casefold() == away_cf]
+        for hi in home_hits:
+            for ai in away_hits:
+                lo, high = sorted((hi, ai))
+                if high - lo <= 30:
+                    for line in lines[lo:high + 1]:
+                        score = parse_score(line)
+                        if score:
+                            return score
+
+    # Fallback: the match header is near the top of the document.
+    for line in lines[:80]:
+        if line.startswith("(") and line.endswith(")"):
+            continue
+        score = parse_score(line)
+        if score:
+            return score
+    return None
+
+
+def _reconcile_goal_events(events, final_score):
+    if not final_score:
+        return events
+
+    allowed = {"home": int(final_score[0]), "away": int(final_score[1])}
+    kept = []
+    goal_counts = {"home": 0, "away": 0}
+
+    # Keep events in chronological order. If flattened two-column markup creates
+    # an extra goal, discard only goals that would make a team's event count
+    # exceed the actual final score. Never invent missing goals.
+    for item in sorted(events, key=lambda x: x.get("minute") or 0):
+        if item.get("type") != "goal":
+            kept.append(item)
+            continue
+        side = item.get("team")
+        if side not in allowed:
+            continue
+        if goal_counts[side] >= allowed[side]:
+            continue
+        goal_counts[side] += 1
+        kept.append(item)
+    return kept
+
+
+def parse_detail(html: str, home: str | None = None, away: str | None = None):
     soup = BeautifulSoup(html, "html.parser")
     text = clean(soup.get_text(" ", strip=True))
     lines = _lines(soup)
@@ -337,7 +390,10 @@ def parse_detail(html: str):
     if lineups:
         result["lineups"] = lineups
 
-    result["events"] = _extract_events(lines, lineups)
+    result["events"] = _reconcile_goal_events(
+        _extract_events(lines, lineups),
+        _page_score(lines, home, away),
+    )
 
     folded = text.casefold()
     no_events = "ingen kamphendelser registrert" in folded
