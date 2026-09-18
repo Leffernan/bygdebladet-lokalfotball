@@ -29,14 +29,14 @@ def _lines(soup: BeautifulSoup):
     while i < len(raw):
         value = raw[i]
         if (
-            re.fullmatch(r"\\d{1,3}", value)
+            re.fullmatch(r"\d{1,3}", value)
             and i + 1 < len(raw)
             and raw[i + 1] in {"'", "’", "′"}
         ):
             lines.append(f"{value}'")
             i += 2
             continue
-        m = re.fullmatch(r"(\\d{1,3})\\s*['’′]", value)
+        m = re.fullmatch(r"(\d{1,3})\s*['’′]", value)
         lines.append(f"{m.group(1)}'" if m else value)
         i += 1
     return lines
@@ -91,7 +91,7 @@ def _player_pairs(tokens):
 def _extract_lineups(lines):
     joined = " ".join(lines[:180])
     starter_limit = 11
-    form_match = re.search(r"Turnering:\\s*.{0,100}?\\b(5|7|9|11)er\\b", joined, re.I)
+    form_match = re.search(r"Turnering:\s*.{0,100}?\b(5|7|9|11)er\b", joined, re.I)
     if form_match:
         starter_limit = int(form_match.group(1))
 
