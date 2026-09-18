@@ -2,7 +2,7 @@
   "baseUrl": "https://www.fotball.no",
   "timeoutSeconds": 20,
   "minimumDelaySeconds": 1.5,
-  "dailyRefreshHour": 6,
+  "dailyRefreshHour": 16,
   "detailRetryMinutes": 60,
   "maxDetailFetches": 2,
   "detailBudgetPerRun": 8,
