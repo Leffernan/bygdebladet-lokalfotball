@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-09-18T13:27:00+02:00",
+  "matches": [
+    {
+      "date": "2026-09-18",
+      "time": "18:30",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "venue": "Sykkylven stadion",
+      "home": "Sykkylven",
+      "away": "HaNo/Harøy/Lepsøy",
+      "matchNumber": "23116124023",
+      "sourceUrl": "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=172406"
+    },
+    {
+      "date": "2026-09-19",
+      "time": "14:00",
+      "age": "J14",
+      "competition": "J14 9er 2.div Avd 2 Høst",
+      "venue": "Bankhallen",
+      "home": "Surnadal/Søya 1",
+      "away": "Vestnes Varfjell",
+      "sourceUrl": "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=173473"
+    },
+    {
+      "date": "2026-09-20",
+      "time": "16:00",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "venue": "Stranda stadion kg 11er",
+      "home": "Stranda 9er",
+      "away": "Ørskog/Stordal",
+      "sourceUrl": "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=180578"
+    },
+    {
+      "date": "2026-09-21",
+      "time": "18:30",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "venue": "Harøy Kunstgrasbane",
+      "home": "HaNo/Harøy/Lepsøy",
+      "away": "Valder 2",
+      "matchNumber": "23116124026",
+      "sourceUrl": "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=172406"
+    },
+    {
+      "date": "2026-09-22",
+      "time": "18:30",
+      "age": "J15",
+      "competition": "J15 3. div høst",
+      "venue": "Harøy Kunstgrasbane",
+      "home": "HaNo/Lepsøy/Harøy 9er",
+      "away": "Giske/Øyne 4 9er",
+      "matchNumber": "23214107034",
+      "sourceUrl": "https://www.fotball.no/fotballdata/lag/hjem/?fiksId=172415"
+    }
+  ]
+}
