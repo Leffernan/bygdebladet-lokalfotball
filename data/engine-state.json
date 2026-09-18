@@ -2056,8 +2056,207 @@
       "awayScore": 5,
       "status": "completed",
       "resultAt": "2026-09-18T16:10:34+02:00",
-      "detailFetches": 0,
-      "detailNextCheckAt": "2026-09-18T00:00:00+02:00"
+      "detailFetches": 1,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Knut Stian Eik",
+            "label": "Spillemål",
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "William Pedersen Hjelvik",
+            "label": "Spillemål",
+            "minute": 9
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "William Pedersen Hjelvik",
+            "label": "Spillemål",
+            "minute": 72
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Isak Baarset Rønning",
+            "label": "Spillemål",
+            "minute": 82
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "William Pedersen Hjelvik",
+            "label": "Spillemål",
+            "minute": 90
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Didrik Selnes Sæter",
+            "label": "Spillemål",
+            "minute": 90
+          }
+        ],
+        "officials": {
+          "referee": "Helge Roar Åndal",
+          "assistant1": "Håkon Løvold",
+          "assistant2": "Harald Vebenstad",
+          "refereeObserver": "Alf Jarle Yttervik-Adolfsen"
+        },
+        "referee": "Helge Roar Åndal",
+        "halfTime": "0–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 99,
+                "name": "Andreas Haugnes Mork"
+              },
+              {
+                "number": 3,
+                "name": "Johan Watz Halse"
+              },
+              {
+                "number": 6,
+                "name": "Aleksander Rambø"
+              },
+              {
+                "number": 14,
+                "name": "Ulrik Andersen Lystrup"
+              },
+              {
+                "number": 22,
+                "name": "Roar Hannasvik"
+              },
+              {
+                "number": 25,
+                "name": "Julian Ansnes"
+              },
+              {
+                "number": 32,
+                "name": "Sondre Lyster Biesmans"
+              },
+              {
+                "number": 8,
+                "name": "Fredrik Kvinge Hansen"
+              },
+              {
+                "number": 10,
+                "name": "Sindre Olai Haltland Gjøstøl"
+              },
+              {
+                "number": 15,
+                "name": "Isak Baarset Rønning"
+              },
+              {
+                "number": 17,
+                "name": "Sondre Rambø"
+              },
+              {
+                "number": 26,
+                "name": "Jesper Kofoed"
+              },
+              {
+                "number": 9,
+                "name": "Felix Christoffer Hjemgård"
+              },
+              {
+                "number": 11,
+                "name": "Herman Lie Waage"
+              },
+              {
+                "number": 20,
+                "name": "Elias Backer Teiseth"
+              },
+              {
+                "number": 27,
+                "name": "Thomas Christian Kjønnø Hoem"
+              },
+              {
+                "number": 30,
+                "name": "Jonas Sæther Frey"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Egil Dalhaug"
+              },
+              {
+                "number": 23,
+                "name": "Svein Erik Lange Male"
+              },
+              {
+                "number": 27,
+                "name": "Kristian Flittie Onstad"
+              },
+              {
+                "number": 45,
+                "name": "Cédric Ronnie Hellström Andreassen"
+              },
+              {
+                "number": 10,
+                "name": "Leo Villa Krogseth"
+              },
+              {
+                "number": 22,
+                "name": "Torstein Væge Nekstad"
+              },
+              {
+                "number": 24,
+                "name": "Didrik Selnes Sæter"
+              },
+              {
+                "number": 80,
+                "name": "Tommy Kanishi Andreassen"
+              },
+              {
+                "number": 90,
+                "name": "Casper Rolf Hellstrøm Andreassen"
+              },
+              {
+                "number": 14,
+                "name": "Knut Stian Eik"
+              },
+              {
+                "number": 20,
+                "name": "William Pedersen Hjelvik"
+              }
+            ],
+            "bench": [
+              {
+                "number": 5,
+                "name": "Jo Sigurd Vold"
+              },
+              {
+                "number": 6,
+                "name": "Ørjan Tangen"
+              },
+              {
+                "number": 9,
+                "name": "Magnus Nerheim"
+              },
+              {
+                "number": 11,
+                "name": "Sverre Olgar Lindset"
+              },
+              {
+                "number": 25,
+                "name": "Henrik Leao Tomren"
+              }
+            ]
+          }
+        }
+      },
+      "detailFetchedAt": "2026-09-18T20:29:52+02:00"
     },
     "15149017038": {
       "fiksId": "9177189",
