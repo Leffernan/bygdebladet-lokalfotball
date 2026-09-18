@@ -11,6 +11,7 @@ spec = importlib.util.spec_from_file_location("source_sync_base", here / "source
 base = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(base)
 base.parse_detail = parse_detail
+base.DETAIL_PARSER_VERSION = 3
 
 if __name__ == "__main__":
     raise SystemExit(base.main())
