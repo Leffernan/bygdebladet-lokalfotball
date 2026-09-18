@@ -10,6 +10,13 @@ on:
         required: false
         default: false
         type: boolean
+  push:
+    paths:
+      - ".github/workflows/source-sync.yml"
+      - "config/competitions.json"
+      - "config/sources.json"
+      - "data/fixture_schedule.csv.gz"
+      - "scripts/source_sync.py.gz"
 
 permissions:
   contents: write
