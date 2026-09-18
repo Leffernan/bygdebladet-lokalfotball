@@ -1,7 +1,199 @@
 {
-  "generatedAt": "2026-09-18T20:32:28+02:00",
+  "generatedAt": "2026-09-18T21:58:02+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9196235",
+      "fiksId": "9196235",
+      "matchNumber": "23116124023",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196235",
+      "date": "2026-09-18",
+      "time": "18:30",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "competitionId": "g16-2-div-host",
+      "venue": "Sykkylven stadion",
+      "home": "Sykkylven",
+      "away": "HaNo/Harøy/Lepsøy",
+      "homeScore": 1,
+      "awayScore": 3,
+      "halfTime": "0–2",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Markus Steinshamn",
+          "label": "Spillemål",
+          "minute": 36
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Andreas Silseth Harnes",
+          "label": "Straffemål",
+          "minute": 39
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Konrad Finnøy",
+          "label": "Spillemål",
+          "minute": 70
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Ruben Molnes",
+          "label": "Advarsel",
+          "minute": 78
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Jonathan Klokk Eidset",
+          "label": "Advarsel",
+          "minute": 80
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Adnan Hammouta"
+      },
+      "referee": "Adnan Hammouta",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Phillip Putra Meta Zeh"
+            },
+            {
+              "number": 2,
+              "name": "Petter Elias Langøy Velle"
+            },
+            {
+              "number": 5,
+              "name": "Daniel Andreassen"
+            },
+            {
+              "number": 11,
+              "name": "Odin Melseth Overå"
+            },
+            {
+              "number": 14,
+              "name": "Kesineb Bereket Tesfaselassie"
+            },
+            {
+              "number": 21,
+              "name": "Omar Radwan Alaswad"
+            },
+            {
+              "number": 8,
+              "name": "Ole Marius Alnes"
+            },
+            {
+              "number": 15,
+              "name": "Brage Knutsen Espe"
+            },
+            {
+              "number": 17,
+              "name": "Johan Aursnes"
+            },
+            {
+              "number": 23,
+              "name": "Amund Watters-Øye"
+            },
+            {
+              "number": 36,
+              "name": "Matihewos Tsegay Kahsay"
+            }
+          ],
+          "bench": [
+            {
+              "number": 60,
+              "name": "Jonathan Klokk Eidset"
+            },
+            {
+              "number": 9,
+              "name": "Casper Hovdenakk-Vadset"
+            },
+            {
+              "number": 19,
+              "name": "Olai Hole Bjørneseth"
+            },
+            {
+              "number": 38,
+              "name": "Håkon Andre Sæter"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Julian Nogva Vedeld"
+            },
+            {
+              "number": 2,
+              "name": "Noah Longva Hagen"
+            },
+            {
+              "number": 3,
+              "name": "Zen Kjerstad"
+            },
+            {
+              "number": 14,
+              "name": "Konrad Finnøy"
+            },
+            {
+              "number": 16,
+              "name": "Aron Leander Nogva"
+            },
+            {
+              "number": 22,
+              "name": "Jonas Sandøy"
+            },
+            {
+              "number": 24,
+              "name": "Aksel Mattias Börlin"
+            },
+            {
+              "number": 5,
+              "name": "Jarle Kristoffer Zienkiewicz Fitje"
+            },
+            {
+              "number": 9,
+              "name": "Ruben Molnes"
+            },
+            {
+              "number": 11,
+              "name": "Kristoffer Lee Sherman"
+            },
+            {
+              "number": 15,
+              "name": "Markus Steinshamn"
+            }
+          ],
+          "bench": [
+            {
+              "number": 18,
+              "name": "Markus Fjørtoft"
+            },
+            {
+              "number": 20,
+              "name": "Nathaniel Szmyd"
+            },
+            {
+              "number": 11,
+              "name": "Andreas Silseth Harnes"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "match-8991161",
       "fiksId": "8991161",
