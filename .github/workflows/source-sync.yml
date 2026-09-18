@@ -17,6 +17,8 @@ on:
       - "config/sources.json"
       - "data/fixture_schedule.csv.gz"
       - "scripts/source_sync.py.gz"
+      - "scripts/source_sync_runner.py"
+      - "scripts/detail_parser.py"
 
 permissions:
   contents: write
@@ -53,9 +55,9 @@ jobs:
         shell: bash
         run: |
           if [ "$FORCE_SYNC" = "true" ]; then
-            python scripts/source_sync.py --force
+            python scripts/source_sync_runner.py --force
           else
-            python scripts/source_sync.py
+            python scripts/source_sync_runner.py
           fi
 
       - name: Publish data
