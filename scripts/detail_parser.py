@@ -23,7 +23,23 @@ def parse_score(value: str):
 
 
 def _lines(soup: BeautifulSoup):
-    return [clean(x) for x in soup.stripped_strings if clean(x)]
+    raw = [clean(x) for x in soup.stripped_strings if clean(x)]
+    lines = []
+    i = 0
+    while i < len(raw):
+        value = raw[i]
+        if (
+            re.fullmatch(r"\\d{1,3}", value)
+            and i + 1 < len(raw)
+            and raw[i + 1] in {"'", "’", "′"}
+        ):
+            lines.append(f"{value}'")
+            i += 2
+            continue
+        m = re.fullmatch(r"(\\d{1,3})\\s*['’′]", value)
+        lines.append(f"{m.group(1)}'" if m else value)
+        i += 1
+    return lines
 
 
 def _player_pairs(tokens):
@@ -73,6 +89,12 @@ def _player_pairs(tokens):
 
 
 def _extract_lineups(lines):
+    joined = " ".join(lines[:180])
+    starter_limit = 11
+    form_match = re.search(r"Turnering:\\s*.{0,100}?\\b(5|7|9|11)er\\b", joined, re.I)
+    if form_match:
+        starter_limit = int(form_match.group(1))
+
     start_indexes = [
         i for i, line in enumerate(lines)
         if compact(line).startswith("startoppstilling")
@@ -106,6 +128,9 @@ def _extract_lineups(lines):
         starter_end = bench_i if bench_i is not None else end_i
         starters = _player_pairs(lines[start_i + 1:starter_end])
         bench = _player_pairs(lines[bench_i + 1:end_i]) if bench_i is not None else []
+        if bench_i is None and len(starters) > starter_limit:
+            bench = starters[starter_limit:]
+            starters = starters[:starter_limit]
         if starters or bench:
             result[side] = {"starters": starters, "bench": bench}
 
