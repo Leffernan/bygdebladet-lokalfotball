@@ -696,7 +696,7 @@
       "homeScore": 5,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "23113126004": {
       "fiksId": "9204205",
@@ -828,7 +828,7 @@
       "homeScore": 6,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "23116124003": {
       "fiksId": "9196215",
@@ -912,7 +912,7 @@
       "homeScore": 7,
       "awayScore": 8,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "23113123008": {
       "fiksId": "9201472",
@@ -972,7 +972,7 @@
       "homeScore": 3,
       "awayScore": 11,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "23214107014": {
       "fiksId": "9200046",
@@ -1152,7 +1152,7 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "15149017042": {
       "fiksId": "9177193",
@@ -1164,7 +1164,7 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "23116124008": {
       "fiksId": "9196220",
@@ -1236,7 +1236,7 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "23113123011": {
       "fiksId": "9201475",
@@ -1404,7 +1404,7 @@
       "homeScore": 5,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "15149017012": {
       "fiksId": "9177163",
@@ -1416,7 +1416,7 @@
       "homeScore": 4,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "15120501056": {
       "fiksId": "8991147",
@@ -1548,7 +1548,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "23214107022": {
       "fiksId": "9200054",
@@ -1596,7 +1596,7 @@
       "homeScore": 2,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "15120501065": {
       "fiksId": "8991156",
@@ -1680,7 +1680,7 @@
       "homeScore": 7,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "15149017019": {
       "fiksId": "9177170",
@@ -1692,7 +1692,7 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "23113126013": {
       "fiksId": "9204227",
@@ -2259,9 +2259,9 @@
       "home": "Træff 2 7er",
       "away": "Langfjorden/Skåla",
       "venue": "Cecilienfryd kunstgress 7er A",
-      "attempts": 2,
-      "lastAttemptAt": "2026-09-18T21:57:53+02:00",
-      "nextCheckAt": "2026-09-18T22:17:53+02:00"
+      "attempts": 3,
+      "lastAttemptAt": "2026-09-19T00:24:35+02:00",
+      "nextCheckAt": "2026-09-19T01:04:35+02:00"
     },
     "23113126018": {
       "fiksId": "9204240",
@@ -2501,7 +2501,7 @@
       "homeScore": 0,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-18T21:57:53+02:00"
+      "resultAt": "2026-09-19T00:24:35+02:00"
     },
     "15120501066": {
       "fiksId": "8991157",
