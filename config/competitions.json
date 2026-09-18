@@ -1,0 +1,22 @@
+{
+  "timezone": "Europe/Oslo",
+  "policy": {
+    "retryMinutes": [10, 20, 40, 75, 120],
+    "nextMorningHour": 7,
+    "firstCheckMinutes": {
+      "G13": 95,
+      "J14": 105,
+      "J15": 105,
+      "G16": 105,
+      "MENN": 120
+    }
+  },
+  "competitions": [
+    {"key":"g13-1-div-host","name":"G13 1. div høst","age":"G13","tournamentId":null,"discoveryMatchFiksId":"9201488"},
+    {"key":"g13-3-div-avd-2-host","name":"G13 3. div avd. 2 høst","age":"G13","tournamentId":null,"discoveryMatchFiksId":"9204198"},
+    {"key":"g16-2-div-host","name":"G16 2. div høst","age":"G16","tournamentId":"209864","discoveryMatchFiksId":null},
+    {"key":"j15-3-div-host","name":"J15 3. div høst","age":"J15","tournamentId":"209873","discoveryMatchFiksId":null},
+    {"key":"j14-9er-2-div-avd-2-host","name":"J14 9er 2.div Avd 2 Høst","age":"J14","tournamentId":"210122","discoveryMatchFiksId":null},
+    {"key":"5-div-menn","name":"5.div Menn","age":"MENN","tournamentId":"205959","discoveryMatchFiksId":null}
+  ]
+}
