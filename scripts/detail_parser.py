@@ -345,3 +345,4 @@ def parse_detail(html: str):
     result["hasRegisteredEvents"] = bool(result["events"]) or not no_events
     result["hasPublishedSquad"] = bool(lineups) and not no_squad
     return result
+# markup revision 2
