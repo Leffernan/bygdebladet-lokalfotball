@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:29:53+02:00",
+  "generatedAt": "2026-09-18T20:32:28+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -40,13 +40,6 @@
           "player": "William Pedersen Hjelvik",
           "label": "Spillemål",
           "minute": 72
-        },
-        {
-          "type": "goal",
-          "team": "home",
-          "player": "Isak Baarset Rønning",
-          "label": "Spillemål",
-          "minute": 82
         },
         {
           "type": "goal",
@@ -119,7 +112,9 @@
             {
               "number": 17,
               "name": "Sondre Rambø"
-            },
+            }
+          ],
+          "bench": [
             {
               "number": 26,
               "name": "Jesper Kofoed"
@@ -144,8 +139,7 @@
               "number": 30,
               "name": "Jonas Sæther Frey"
             }
-          ],
-          "bench": []
+          ]
         },
         "away": {
           "starters": [
