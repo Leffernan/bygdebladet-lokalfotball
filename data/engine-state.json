@@ -2056,15 +2056,8 @@
       "awayScore": 5,
       "status": "completed",
       "resultAt": "2026-09-18T16:10:34+02:00",
-      "detail": {
-        "events": [],
-        "officials": {
-          "referee": "Helge Roar Åndal"
-        },
-        "referee": "Helge Roar Åndal"
-      },
-      "detailFetches": 1,
-      "detailFetchedAt": "2026-09-18T16:10:34+02:00"
+      "detailFetches": 0,
+      "detailNextCheckAt": "2026-09-18T00:00:00+02:00"
     },
     "15149017038": {
       "fiksId": "9177189",
