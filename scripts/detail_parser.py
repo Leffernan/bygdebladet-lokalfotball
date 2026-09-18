@@ -346,3 +346,4 @@ def parse_detail(html: str):
     result["hasPublishedSquad"] = bool(lineups) and not no_squad
     return result
 # markup revision 2
+# retry after pattern fix
