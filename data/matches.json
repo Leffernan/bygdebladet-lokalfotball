@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T02:28:59+02:00",
+  "generatedAt": "2026-09-19T06:55:26+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -498,12 +498,214 @@
       "away": "Emblem",
       "homeScore": 4,
       "awayScore": 5,
-      "halfTime": null,
+      "halfTime": "2–2",
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Olivia Sue Sherman",
+          "label": "Spillemål",
+          "minute": 7
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 11
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Nina Marak Barstad",
+          "label": "Spillemål",
+          "minute": 18
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sofie Myrstad Schjelderup",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Alida Finnøy",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bertine Blomvik Tvedt",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Emma Amelia Dungca",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sofie Myrstad Schjelderup",
+          "label": "Spillemål",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Emma Amelia Dungca",
+          "label": "Spillemål",
+          "minute": 75
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Niklas Bertil Hurlen Spets"
+      },
+      "referee": "Niklas Bertil Hurlen Spets",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Thine Flem"
+            },
+            {
+              "number": 7,
+              "name": "Frøya Severine Farstad Dyb"
+            },
+            {
+              "number": 10,
+              "name": "Alida Finnøy"
+            },
+            {
+              "number": 11,
+              "name": "Mie Rudi Flem"
+            },
+            {
+              "number": 19,
+              "name": "Bertine Blomvik Tvedt"
+            },
+            {
+              "number": 22,
+              "name": "Vera Bergtun"
+            },
+            {
+              "number": 2,
+              "name": "Elsa Farstad Rogne"
+            },
+            {
+              "number": 3,
+              "name": "Olivia Sue Sherman"
+            },
+            {
+              "number": 9,
+              "name": "June Sofie Hellouli Harnes"
+            },
+            {
+              "number": 13,
+              "name": "Julia Lausund Klokk"
+            },
+            {
+              "number": 20,
+              "name": "Elisa Belen Røsok"
+            }
+          ],
+          "bench": [
+            {
+              "number": 4,
+              "name": "Laila Kristin Bueng Brunvoll"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 23,
+              "name": "Hedda Karoline Jarnes"
+            },
+            {
+              "number": 2,
+              "name": "LINA SOFIE HOLMEN BLINDHEIM"
+            },
+            {
+              "number": 28,
+              "name": "Alma Fikkan-Lied"
+            },
+            {
+              "number": 6,
+              "name": "Nina Marak Barstad"
+            },
+            {
+              "number": 7,
+              "name": "Sofie Myrstad Schjelderup"
+            },
+            {
+              "number": 8,
+              "name": "NIKOLINE FOSS BLINDHEIM"
+            },
+            {
+              "number": 18,
+              "name": "Amelia Karlsen Træet"
+            },
+            {
+              "number": 11,
+              "name": "Amalie Myrstad Schjelderup"
+            }
+          ],
+          "bench": [
+            {
+              "number": 1,
+              "name": "JOSEFINE SKORPEN-ROKKONES"
+            },
+            {
+              "number": 3,
+              "name": "Olivia Rørhus Truong"
+            },
+            {
+              "number": 4,
+              "name": "Emina Isabell Myklebust Lund"
+            },
+            {
+              "number": 5,
+              "name": "Jenni Emilie Almaas"
+            },
+            {
+              "number": 10,
+              "name": "Isabella Linea Herje Madsen"
+            },
+            {
+              "number": 14,
+              "name": "Otilie Heggland"
+            },
+            {
+              "number": 15,
+              "name": "Kornelia Olive Kopperstad"
+            },
+            {
+              "number": 17,
+              "name": "Ingrid Aarseth Sæter"
+            },
+            {
+              "number": 21,
+              "name": "Emma Amelia Dungca"
+            },
+            {
+              "number": 22,
+              "name": "Ava Perez-Rønneberg"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "match-9201492",

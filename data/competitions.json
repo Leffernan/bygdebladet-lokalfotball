@@ -3,7 +3,7 @@
     "5-div-menn": {
       "name": "5.div Menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-09-18T21:57:53+02:00",
+      "updatedAt": "2026-09-19T06:55:11+02:00",
       "standings": [
         {
           "position": 1,
@@ -130,7 +130,7 @@
     "g13-1-div-host": {
       "name": "G13 1. div høst",
       "tournamentId": "209849",
-      "updatedAt": "2026-09-18T20:26:40+02:00",
+      "updatedAt": "2026-09-19T06:55:11+02:00",
       "standings": [
         {
           "position": 1,
@@ -257,7 +257,7 @@
     "g13-3-div-avd-2-host": {
       "name": "G13 3. div avd. 2 høst",
       "tournamentId": "209852",
-      "updatedAt": "2026-09-18T20:26:40+02:00",
+      "updatedAt": "2026-09-19T06:55:11+02:00",
       "standings": [
         {
           "position": 1,
@@ -336,7 +336,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-09-18T21:57:53+02:00",
+      "updatedAt": "2026-09-19T06:55:11+02:00",
       "standings": [
         {
           "position": 1,
@@ -463,7 +463,7 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-09-19T02:28:57+02:00",
+      "updatedAt": "2026-09-19T06:55:11+02:00",
       "standings": [
         {
           "position": 1,
@@ -566,7 +566,7 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-18T16:10:34+02:00",
+      "updatedAt": "2026-09-19T06:55:11+02:00",
       "standings": [
         {
           "position": 1,
