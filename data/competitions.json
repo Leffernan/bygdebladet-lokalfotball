@@ -3,7 +3,7 @@
     "5-div-menn": {
       "name": "5.div Menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-09-19T18:29:38+02:00",
+      "updatedAt": "2026-09-20T16:08:36+02:00",
       "standings": [
         {
           "position": 1,
@@ -130,7 +130,7 @@
     "g13-1-div-host": {
       "name": "G13 1. div høst",
       "tournamentId": "209849",
-      "updatedAt": "2026-09-19T06:55:11+02:00",
+      "updatedAt": "2026-09-20T16:08:36+02:00",
       "standings": [
         {
           "position": 1,
@@ -170,18 +170,30 @@
         },
         {
           "position": 4,
-          "team": "Herd",
-          "played": 4,
+          "team": "Rollon/Guard",
+          "played": 5,
           "wins": 2,
-          "draws": 1,
+          "draws": 2,
           "losses": 1,
-          "gf": 26,
-          "ga": 12,
-          "gd": 14,
-          "points": 7
+          "gf": 13,
+          "ga": 8,
+          "gd": 5,
+          "points": 8
         },
         {
           "position": 5,
+          "team": "Herd",
+          "played": 5,
+          "wins": 2,
+          "draws": 1,
+          "losses": 2,
+          "gf": 28,
+          "ga": 15,
+          "gd": 13,
+          "points": 7
+        },
+        {
+          "position": 6,
           "team": "Ørsta",
           "played": 5,
           "wins": 2,
@@ -193,7 +205,7 @@
           "points": 7
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Langevåg",
           "played": 4,
           "wins": 2,
@@ -203,18 +215,6 @@
           "ga": 19,
           "gd": 3,
           "points": 6
-        },
-        {
-          "position": 7,
-          "team": "Rollon/Guard",
-          "played": 4,
-          "wins": 1,
-          "draws": 2,
-          "losses": 1,
-          "gf": 10,
-          "ga": 6,
-          "gd": 4,
-          "points": 5
         },
         {
           "position": 8,
