@@ -1,7 +1,241 @@
 {
-  "generatedAt": "2026-09-20T16:08:40+02:00",
+  "generatedAt": "2026-09-20T19:27:35+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9196237",
+      "fiksId": "9196237",
+      "matchNumber": "23116124025",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196237",
+      "date": "2026-09-20",
+      "time": "16:00",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "competitionId": "g16-2-div-host",
+      "venue": "Stranda stadion kg 11er",
+      "home": "Stranda 9er",
+      "away": "Ørskog/Stordal",
+      "homeScore": 1,
+      "awayScore": 9,
+      "halfTime": "1–6",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Marcus Karl Cevallos",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Marcus Karl Cevallos",
+          "label": "Spillemål",
+          "minute": 20
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Marcus Karl Cevallos",
+          "label": "Spillemål",
+          "minute": 27
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jørgen Nordli Sivertsen",
+          "label": "Spillemål",
+          "minute": 28
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leon Stavseng",
+          "label": "Spillemål",
+          "minute": 37
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Darius Mantea",
+          "label": "Spillemål",
+          "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Antoni Mateusz Adamiec",
+          "label": "Straffemål",
+          "minute": 39
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jørgen Nordli Sivertsen",
+          "label": "Spillemål",
+          "minute": 41
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Nathaniel Nybø Skjegstad",
+          "label": "Advarsel",
+          "minute": 49
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jørgen Nordli Sivertsen",
+          "label": "Spillemål",
+          "minute": 58
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lars Joakim Hole Sjåstad",
+          "label": "Spillemål",
+          "minute": 79
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Remi Andre Uri-Landsnes"
+      },
+      "referee": "Remi Andre Uri-Landsnes",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 30,
+              "name": "Theo Maxemiliam Blindheim"
+            },
+            {
+              "number": 2,
+              "name": "Ivar Blindheim"
+            },
+            {
+              "number": 3,
+              "name": "Lars Nærheim Knivsflå"
+            },
+            {
+              "number": 16,
+              "name": "Erik Søreide"
+            },
+            {
+              "number": 7,
+              "name": "Luca Engeset Sanchez"
+            },
+            {
+              "number": 10,
+              "name": "Adnan Hammouta"
+            },
+            {
+              "number": 18,
+              "name": "Mateo Engeset Sanchez"
+            },
+            {
+              "number": 20,
+              "name": "Darius Mantea"
+            },
+            {
+              "number": 9,
+              "name": "Emrik Furset Vågsæter"
+            }
+          ],
+          "bench": [
+            {
+              "number": 5,
+              "name": "Liam Teigen Norangshol"
+            },
+            {
+              "number": 6,
+              "name": "Mohamad Hammouta"
+            },
+            {
+              "number": 8,
+              "name": "William Habostad Eliassen"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Nathaniel Nybø Skjegstad"
+            },
+            {
+              "number": 2,
+              "name": "Julian André Uhlen"
+            },
+            {
+              "number": 8,
+              "name": "Syver Midtbust-Dyrkorn"
+            },
+            {
+              "number": 9,
+              "name": "Antoni Mateusz Adamiec"
+            },
+            {
+              "number": 16,
+              "name": "Sondre Hove Bull"
+            },
+            {
+              "number": 17,
+              "name": "Mateo Fernando Dyrkorn"
+            },
+            {
+              "number": 4,
+              "name": "Eriam Abelseth Søvik"
+            },
+            {
+              "number": 7,
+              "name": "Marcus Karl Cevallos"
+            },
+            {
+              "number": 10,
+              "name": "Leon Stavseng"
+            },
+            {
+              "number": 11,
+              "name": "Trym Vaksvik Sandberg"
+            },
+            {
+              "number": 14,
+              "name": "Jaden Alexander Grüner"
+            }
+          ],
+          "bench": [
+            {
+              "number": 25,
+              "name": "Adrian Tennfjord Myklebust"
+            },
+            {
+              "number": 66,
+              "name": "Filip Hjelle Busengdal"
+            },
+            {
+              "number": 99,
+              "name": "Magnus Sjøholt Alstadsæter"
+            },
+            {
+              "number": 19,
+              "name": "Jørgen Nordli Sivertsen"
+            },
+            {
+              "number": 26,
+              "name": "Lars Joakim Hole Sjåstad"
+            },
+            {
+              "number": 98,
+              "name": "Trym Falling Møller"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "match-9196235",
       "fiksId": "9196235",

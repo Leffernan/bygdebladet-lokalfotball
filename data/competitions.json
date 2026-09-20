@@ -3,7 +3,7 @@
     "5-div-menn": {
       "name": "5.div Menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-09-20T16:08:36+02:00",
+      "updatedAt": "2026-09-20T19:27:29+02:00",
       "standings": [
         {
           "position": 1,
@@ -44,37 +44,37 @@
         {
           "position": 4,
           "team": "Malmefjorden",
-          "played": 13,
+          "played": 14,
           "wins": 9,
           "draws": 0,
-          "losses": 4,
-          "gf": 46,
-          "ga": 21,
-          "gd": 25,
+          "losses": 5,
+          "gf": 49,
+          "ga": 25,
+          "gd": 24,
           "points": 27
         },
         {
           "position": 5,
           "team": "Molde 3",
-          "played": 12,
-          "wins": 5,
+          "played": 13,
+          "wins": 6,
           "draws": 1,
           "losses": 6,
-          "gf": 32,
+          "gf": 37,
           "ga": 26,
-          "gd": 6,
-          "points": 16
+          "gd": 11,
+          "points": 19
         },
         {
           "position": 6,
           "team": "Hjelset-Kleive",
-          "played": 13,
+          "played": 14,
           "wins": 5,
           "draws": 1,
-          "losses": 7,
+          "losses": 8,
           "gf": 19,
-          "ga": 26,
-          "gd": -7,
+          "ga": 31,
+          "gd": -12,
           "points": 16
         },
         {
@@ -91,6 +91,18 @@
         },
         {
           "position": 8,
+          "team": "Kårvåg/Havørn/Averøykameratene",
+          "played": 14,
+          "wins": 4,
+          "draws": 0,
+          "losses": 10,
+          "gf": 21,
+          "ga": 52,
+          "gd": -31,
+          "points": 12
+        },
+        {
+          "position": 9,
           "team": "Nordlandet/Frei",
           "played": 14,
           "wins": 3,
@@ -99,18 +111,6 @@
           "gf": 17,
           "ga": 45,
           "gd": -28,
-          "points": 9
-        },
-        {
-          "position": 9,
-          "team": "Kårvåg/Havørn/Averøykameratene",
-          "played": 13,
-          "wins": 3,
-          "draws": 0,
-          "losses": 10,
-          "gf": 17,
-          "ga": 49,
-          "gd": -32,
           "points": 9
         },
         {
@@ -336,7 +336,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-09-19T18:29:38+02:00",
+      "updatedAt": "2026-09-20T19:27:29+02:00",
       "standings": [
         {
           "position": 1,
@@ -352,6 +352,18 @@
         },
         {
           "position": 2,
+          "team": "Ørskog/Stordal",
+          "played": 5,
+          "wins": 4,
+          "draws": 1,
+          "losses": 0,
+          "gf": 23,
+          "ga": 5,
+          "gd": 18,
+          "points": 13
+        },
+        {
+          "position": 3,
           "team": "Spjelkavik",
           "played": 5,
           "wins": 3,
@@ -360,18 +372,6 @@
           "gf": 26,
           "ga": 13,
           "gd": 13,
-          "points": 10
-        },
-        {
-          "position": 3,
-          "team": "Ørskog/Stordal",
-          "played": 4,
-          "wins": 3,
-          "draws": 1,
-          "losses": 0,
-          "gf": 14,
-          "ga": 4,
-          "gd": 10,
           "points": 10
         },
         {
@@ -425,13 +425,13 @@
         {
           "position": 8,
           "team": "Stranda 9er",
-          "played": 4,
+          "played": 5,
           "wins": 1,
           "draws": 0,
-          "losses": 3,
-          "gf": 17,
-          "ga": 36,
-          "gd": -19,
+          "losses": 4,
+          "gf": 18,
+          "ga": 45,
+          "gd": -27,
           "points": 3
         },
         {
