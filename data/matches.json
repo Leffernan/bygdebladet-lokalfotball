@@ -1,7 +1,345 @@
 {
-  "generatedAt": "2026-09-21T21:24:24+02:00",
+  "generatedAt": "2026-09-22T00:41:39+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9204248",
+      "fiksId": "9204248",
+      "matchNumber": "23113126021",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204248",
+      "date": "2026-09-21",
+      "time": "18:45",
+      "age": "G13",
+      "competition": "G13 3. div avd. 2 høst",
+      "competitionId": "g13-3-div-avd-2-host",
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg 2",
+      "away": "Hareid 2",
+      "homeScore": 1,
+      "awayScore": 2,
+      "halfTime": "0–1",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Filip Oliwer Kmiec",
+          "label": "Spillemål",
+          "minute": 38
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Filip Rogne"
+      },
+      "referee": "Filip Rogne",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Kai-Leander Reistad Giske"
+            },
+            {
+              "number": 21,
+              "name": "Even Endré Frøysadal Hånde"
+            },
+            {
+              "number": 25,
+              "name": "Egide Ntumba Ushindi"
+            },
+            {
+              "number": 26,
+              "name": "Mathias Døving"
+            },
+            {
+              "number": 37,
+              "name": "Alexander Huang Nuo Risnes"
+            },
+            {
+              "number": 4,
+              "name": "Cian Lucas Pagara"
+            }
+          ],
+          "bench": []
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Jonas Kaldvansvik Øvrelid"
+            },
+            {
+              "number": 17,
+              "name": "Sondre Brune Slettebakk"
+            },
+            {
+              "number": 32,
+              "name": "Danylo Hetsyu"
+            },
+            {
+              "number": 4,
+              "name": "Kasper Saure Hatløy"
+            },
+            {
+              "number": 20,
+              "name": "Filip Oliwer Kmiec"
+            },
+            {
+              "number": 34,
+              "name": "Torkil Jessen"
+            }
+          ],
+          "bench": []
+        }
+      }
+    },
+    {
+      "id": "match-9196238",
+      "fiksId": "9196238",
+      "matchNumber": "23116124026",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196238",
+      "date": "2026-09-21",
+      "time": "18:30",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "competitionId": "g16-2-div-host",
+      "venue": "Harøy Kunstgrasbane",
+      "home": "HaNo/Harøy/Lepsøy",
+      "away": "Valder 2",
+      "homeScore": 7,
+      "awayScore": 4,
+      "halfTime": "5–3",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Silseth Harnes",
+          "label": "Spillemål",
+          "minute": 2
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Samuel Ailan Urkedal",
+          "label": "Spillemål",
+          "minute": 10
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Silseth Harnes",
+          "label": "Spillemål",
+          "minute": 17
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adrian Oksnes Berntsen",
+          "label": "Spillemål",
+          "minute": 20
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Fjørtoft",
+          "label": "Spillemål",
+          "minute": 32
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Silseth Harnes",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Josef Ghazi",
+          "label": "Spillemål",
+          "minute": 35
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Silseth Harnes",
+          "label": "Spillemål",
+          "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Fjørtoft",
+          "label": "Spillemål",
+          "minute": 41
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Markus Steinshamn",
+          "label": "Advarsel",
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Steinshamn",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Eirik Gjøsund Hareid",
+          "label": "Spillemål",
+          "minute": 60
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Adrian Oksnes Berntsen",
+          "label": "Advarsel",
+          "minute": 70
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Mariusz Anuszkiewicz"
+      },
+      "referee": "Mariusz Anuszkiewicz",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 24,
+              "name": "Tor Sandø Otterlei"
+            },
+            {
+              "number": 2,
+              "name": "Aksel Mattias Börlin"
+            },
+            {
+              "number": 3,
+              "name": "Jonas Sandøy"
+            },
+            {
+              "number": 4,
+              "name": "Noah Longva Hagen"
+            },
+            {
+              "number": 17,
+              "name": "Konrad Finnøy"
+            },
+            {
+              "number": 21,
+              "name": "Aron Leander Nogva"
+            },
+            {
+              "number": 7,
+              "name": "Markus Steinshamn"
+            },
+            {
+              "number": 10,
+              "name": "Ruben Molnes"
+            },
+            {
+              "number": 11,
+              "name": "Kristoffer Lee Sherman"
+            },
+            {
+              "number": 16,
+              "name": "Zen Kjerstad"
+            },
+            {
+              "number": 18,
+              "name": "Markus Fjørtoft"
+            }
+          ],
+          "bench": [
+            {
+              "number": 19,
+              "name": "Oleksandr Karavatskyi"
+            },
+            {
+              "number": 20,
+              "name": "Nathaniel Szmyd"
+            },
+            {
+              "number": 31,
+              "name": "Liam Morsund Buchinski"
+            },
+            {
+              "number": 13,
+              "name": "Andreas Silseth Harnes"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 17,
+              "name": "Amir Okai Narchi Halti"
+            },
+            {
+              "number": 3,
+              "name": "Aksel Hauge"
+            },
+            {
+              "number": 9,
+              "name": "Jakob Sverre Ytterland"
+            },
+            {
+              "number": 19,
+              "name": "Samuel Ailan Urkedal"
+            },
+            {
+              "number": 10,
+              "name": "Marius Patumsis"
+            },
+            {
+              "number": 18,
+              "name": "Eirik Gjøsund Hareid"
+            },
+            {
+              "number": 46,
+              "name": "Olai Mateo Farstad"
+            },
+            {
+              "number": 8,
+              "name": "Magnus Andreas Bugge Dyb"
+            },
+            {
+              "number": 16,
+              "name": "Josef Ghazi"
+            }
+          ],
+          "bench": [
+            {
+              "number": 17,
+              "name": "William Valderhaug Amdam"
+            },
+            {
+              "number": 33,
+              "name": "Aron Kvalheim Rogne"
+            },
+            {
+              "number": 35,
+              "name": "Adrian Oksnes Berntsen"
+            },
+            {
+              "number": 6,
+              "name": "Aron Nikolai Øverlid Gidske (strøket)"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "match-9196237",
       "fiksId": "9196237",
