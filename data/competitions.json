@@ -463,19 +463,19 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-09-20T07:29:13+02:00",
+      "updatedAt": "2026-09-21T09:10:23+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Surnadal/Søya 1",
-          "played": 4,
-          "wins": 3,
+          "played": 5,
+          "wins": 4,
           "draws": 1,
           "losses": 0,
-          "gf": 25,
+          "gf": 33,
           "ga": 10,
-          "gd": 15,
-          "points": 10
+          "gd": 23,
+          "points": 13
         },
         {
           "position": 2,
@@ -503,6 +503,18 @@
         },
         {
           "position": 4,
+          "team": "Langfjorden/Skåla",
+          "played": 4,
+          "wins": 2,
+          "draws": 0,
+          "losses": 2,
+          "gf": 14,
+          "ga": 16,
+          "gd": -2,
+          "points": 6
+        },
+        {
+          "position": 5,
           "team": "Dahle 3 7er",
           "played": 4,
           "wins": 2,
@@ -514,27 +526,15 @@
           "points": 6
         },
         {
-          "position": 5,
-          "team": "Træff 2 7er",
-          "played": 3,
-          "wins": 1,
-          "draws": 0,
-          "losses": 2,
-          "gf": 12,
-          "ga": 15,
-          "gd": -3,
-          "points": 3
-        },
-        {
           "position": 6,
-          "team": "Langfjorden/Skåla",
-          "played": 3,
+          "team": "Træff 2 7er",
+          "played": 4,
           "wins": 1,
           "draws": 0,
-          "losses": 2,
-          "gf": 7,
-          "ga": 11,
-          "gd": -4,
+          "losses": 3,
+          "gf": 17,
+          "ga": 22,
+          "gd": -5,
           "points": 3
         },
         {
@@ -552,13 +552,13 @@
         {
           "position": 8,
           "team": "Vestnes Varfjell",
-          "played": 3,
+          "played": 4,
           "wins": 0,
           "draws": 0,
-          "losses": 3,
+          "losses": 4,
           "gf": 2,
-          "ga": 12,
-          "gd": -10,
+          "ga": 20,
+          "gd": -18,
           "points": 0
         }
       ]
