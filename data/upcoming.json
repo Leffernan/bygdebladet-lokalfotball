@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-09-21T09:10:26+02:00",
+  "generatedAt": "2026-09-21T21:24:24+02:00",
   "matches": [
-    {
-      "date": "2026-09-21",
-      "time": "18:30",
-      "age": "G16",
-      "competition": "G16 2. div høst",
-      "venue": "Harøy Kunstgrasbane",
-      "home": "HaNo/Harøy/Lepsøy",
-      "away": "Valder 2",
-      "matchNumber": "23116124026",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196238"
-    },
-    {
-      "date": "2026-09-21",
-      "time": "18:45",
-      "age": "G13",
-      "competition": "G13 3. div avd. 2 høst",
-      "venue": "Brattvåg kunstgress",
-      "home": "Brattvåg 2",
-      "away": "Hareid 2",
-      "matchNumber": "23113126021",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204248"
-    },
     {
       "date": "2026-09-22",
       "time": "18:30",

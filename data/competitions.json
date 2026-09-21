@@ -130,7 +130,7 @@
     "g13-1-div-host": {
       "name": "G13 1. div høst",
       "tournamentId": "209849",
-      "updatedAt": "2026-09-20T16:08:36+02:00",
+      "updatedAt": "2026-09-21T21:24:14+02:00",
       "standings": [
         {
           "position": 1,
@@ -159,14 +159,14 @@
         {
           "position": 3,
           "team": "Sykkylven",
-          "played": 4,
-          "wins": 3,
+          "played": 5,
+          "wins": 4,
           "draws": 0,
           "losses": 1,
-          "gf": 27,
-          "ga": 6,
-          "gd": 21,
-          "points": 9
+          "gf": 34,
+          "ga": 10,
+          "gd": 24,
+          "points": 12
         },
         {
           "position": 4,
@@ -207,13 +207,13 @@
         {
           "position": 7,
           "team": "Langevåg",
-          "played": 4,
+          "played": 5,
           "wins": 2,
           "draws": 0,
-          "losses": 2,
-          "gf": 22,
-          "ga": 19,
-          "gd": 3,
+          "losses": 3,
+          "gf": 26,
+          "ga": 26,
+          "gd": 0,
           "points": 6
         },
         {
@@ -257,7 +257,7 @@
     "g13-3-div-avd-2-host": {
       "name": "G13 3. div avd. 2 høst",
       "tournamentId": "209852",
-      "updatedAt": "2026-09-19T06:55:11+02:00",
+      "updatedAt": "2026-09-21T21:24:14+02:00",
       "standings": [
         {
           "position": 1,
@@ -336,7 +336,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-09-20T19:27:29+02:00",
+      "updatedAt": "2026-09-21T21:24:14+02:00",
       "standings": [
         {
           "position": 1,
@@ -463,7 +463,7 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-09-21T09:10:23+02:00",
+      "updatedAt": "2026-09-21T21:24:14+02:00",
       "standings": [
         {
           "position": 1,
@@ -480,14 +480,14 @@
         {
           "position": 2,
           "team": "Elnesvågen/Bryn/Bud 2",
-          "played": 4,
+          "played": 5,
           "wins": 2,
-          "draws": 2,
+          "draws": 3,
           "losses": 0,
-          "gf": 20,
-          "ga": 13,
+          "gf": 22,
+          "ga": 15,
           "gd": 7,
-          "points": 8
+          "points": 9
         },
         {
           "position": 3,
@@ -504,14 +504,14 @@
         {
           "position": 4,
           "team": "Langfjorden/Skåla",
-          "played": 4,
+          "played": 5,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 2,
-          "gf": 14,
-          "ga": 16,
+          "gf": 16,
+          "ga": 18,
           "gd": -2,
-          "points": 6
+          "points": 7
         },
         {
           "position": 5,
