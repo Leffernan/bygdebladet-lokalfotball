@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-09-22T11:31:25+02:00",
+  "generatedAt": "2026-09-22T21:15:57+02:00",
   "matches": [
-    {
-      "date": "2026-09-22",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Ørskogbanken 9er",
-      "home": "Ørskog",
-      "away": "Skodje 2 7er",
-      "matchNumber": "23214107032",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200064"
-    },
-    {
-      "date": "2026-09-22",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Harøy Kunstgrasbane",
-      "home": "HaNo/Lepsøy/Harøy 9er",
-      "away": "Giske/Øyne 4 9er",
-      "matchNumber": "23214107034",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200066"
-    },
     {
       "date": "2026-09-24",
       "time": "18:30",
@@ -68,6 +46,17 @@
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196241"
     },
     {
+      "date": "2026-09-28",
+      "time": "18:30",
+      "age": "J15",
+      "competition": "J15 3. div høst",
+      "venue": "Emblem Stadion",
+      "home": "Emblem",
+      "away": "Ørskog",
+      "matchNumber": "23214107038",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200070"
+    },
+    {
       "date": "2026-09-29",
       "time": "18:30",
       "age": "J15",
@@ -110,17 +99,6 @@
       "away": "Aksla 2",
       "matchNumber": "23113126022",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204250"
-    },
-    {
-      "date": "2026-09-30",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Emblem Stadion",
-      "home": "Emblem",
-      "away": "Ørskog",
-      "matchNumber": "23214107038",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200070"
     },
     {
       "date": "2026-09-30",

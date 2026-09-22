@@ -209,7 +209,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-09-22T00:41:32+02:00",
+      "updatedAt": "2026-09-22T21:15:49+02:00",
       "standings": [
         {
           "position": 1,
@@ -285,18 +285,30 @@
         },
         {
           "position": 7,
-          "team": "Sykkylven 2",
-          "played": 4,
+          "team": "Sykkylven",
+          "played": 5,
           "wins": 1,
-          "draws": 0,
-          "losses": 3,
+          "draws": 2,
+          "losses": 2,
           "gf": 11,
-          "ga": 12,
-          "gd": -1,
-          "points": 3
+          "ga": 13,
+          "gd": -2,
+          "points": 5
         },
         {
           "position": 8,
+          "team": "Sykkylven 2",
+          "played": 5,
+          "wins": 1,
+          "draws": 0,
+          "losses": 4,
+          "gf": 13,
+          "ga": 16,
+          "gd": -3,
+          "points": 3
+        },
+        {
+          "position": 9,
           "team": "Stranda 9er",
           "played": 5,
           "wins": 1,
@@ -306,18 +318,6 @@
           "ga": 45,
           "gd": -27,
           "points": 3
-        },
-        {
-          "position": 9,
-          "team": "Sykkylven",
-          "played": 4,
-          "wins": 0,
-          "draws": 2,
-          "losses": 2,
-          "gf": 7,
-          "ga": 11,
-          "gd": -4,
-          "points": 2
         },
         {
           "position": 10,
@@ -439,22 +439,46 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-19T06:55:11+02:00",
+      "updatedAt": "2026-09-22T21:15:49+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Giske/Øyne 4 9er",
-          "played": 6,
+          "played": 7,
           "wins": 5,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "gf": 26,
-          "ga": 17,
+          "gf": 29,
+          "ga": 20,
           "gd": 9,
-          "points": 15
+          "points": 16
         },
         {
           "position": 2,
+          "team": "HaNo/Lepsøy/Harøy 9er",
+          "played": 6,
+          "wins": 4,
+          "draws": 1,
+          "losses": 1,
+          "gf": 38,
+          "ga": 26,
+          "gd": 12,
+          "points": 13
+        },
+        {
+          "position": 3,
+          "team": "Skodje 2 7er",
+          "played": 6,
+          "wins": 4,
+          "draws": 1,
+          "losses": 1,
+          "gf": 31,
+          "ga": 25,
+          "gd": 6,
+          "points": 13
+        },
+        {
+          "position": 4,
           "team": "Ellingsøy/Vigra/Valder 3",
           "played": 5,
           "wins": 4,
@@ -466,40 +490,16 @@
           "points": 12
         },
         {
-          "position": 3,
-          "team": "HaNo/Lepsøy/Harøy 9er",
-          "played": 5,
-          "wins": 4,
-          "draws": 0,
-          "losses": 1,
-          "gf": 35,
-          "ga": 23,
-          "gd": 12,
-          "points": 12
-        },
-        {
-          "position": 4,
-          "team": "Skodje 2 7er",
-          "played": 5,
-          "wins": 4,
-          "draws": 0,
-          "losses": 1,
-          "gf": 25,
-          "ga": 19,
-          "gd": 6,
-          "points": 12
-        },
-        {
           "position": 5,
           "team": "Ørskog",
-          "played": 5,
+          "played": 6,
           "wins": 2,
-          "draws": 1,
+          "draws": 2,
           "losses": 2,
-          "gf": 23,
-          "ga": 20,
+          "gf": 29,
+          "ga": 26,
           "gd": 3,
-          "points": 7
+          "points": 8
         },
         {
           "position": 6,
