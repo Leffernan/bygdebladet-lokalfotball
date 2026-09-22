@@ -166,12 +166,34 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
 .detail-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px}
 .detail-heading h3{margin:0;color:var(--bb-red);font-size:.68rem;font-weight:900;letter-spacing:.12em}
 .muted-copy{margin:0;color:var(--muted);font-size:.84rem;line-height:1.6}
-.timeline{display:grid;gap:10px}
-.event{display:grid;grid-template-columns:45px 30px minmax(0,1fr);gap:10px;align-items:center;background:#fff;padding:11px 12px;border:1px solid #e4ddd1;border-radius:11px}
-.event-time{font-weight:900}
-.event-icon{text-align:center;font-size:1rem}
-.event-text{font-size:.84rem;font-weight:700}
-.event-text small{display:block;color:var(--muted);font-size:.7rem;font-weight:400;margin-top:2px}
+.timeline{display:grid;gap:8px}
+.timeline-teams{display:grid;grid-template-columns:minmax(0,1fr) 54px minmax(0,1fr);align-items:center;margin-bottom:7px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.timeline-team{display:flex;align-items:center;gap:8px;min-width:0;font-size:.72rem;font-weight:900;line-height:1.15}
+.timeline-team span{overflow:hidden;text-overflow:ellipsis}
+.timeline-team-home{justify-content:flex-end;text-align:right}
+.timeline-team-away{justify-content:flex-start}
+.timeline-team-home .timeline-crest{order:2}
+.timeline-crest{width:30px;height:30px;flex:0 0 30px;display:grid;place-items:center;border-radius:50%;overflow:hidden;background:#fff;border:1px solid #ddd5c9;font-size:.48rem;font-weight:900}
+.timeline-crest img{width:100%;height:100%;object-fit:contain;background:#fff}
+.timeline-row{display:grid;grid-template-columns:minmax(0,1fr) 54px minmax(0,1fr);align-items:center;min-height:52px}
+.timeline-slot{min-width:0}
+.timeline-home{justify-self:end;text-align:right}
+.timeline-away{justify-self:start;text-align:left}
+.timeline-minute{grid-column:2;text-align:center;font-size:.72rem;font-weight:900;color:var(--ink);position:relative}
+.timeline-minute:before{content:"";position:absolute;left:50%;top:-18px;bottom:-18px;width:1px;background:#d5cec2;z-index:0}
+.timeline-minute{z-index:1}
+.timeline-minute::after{content:"";position:absolute;left:50%;top:50%;width:7px;height:7px;border-radius:50%;background:var(--bb-red);transform:translate(-50%,-50%);z-index:-1;box-shadow:0 0 0 5px var(--paper)}
+.timeline-event-card{display:inline-flex;align-items:center;gap:9px;max-width:100%;padding:10px 12px;border:1px solid #e4ddd1;border-radius:12px;background:#fff;box-shadow:0 4px 12px rgba(58,47,34,.035)}
+.timeline-home .timeline-event-card{flex-direction:row-reverse}
+.timeline-event-icon{flex:0 0 auto;font-size:1rem}
+.timeline-event-copy{min-width:0;font-size:.78rem;line-height:1.2}
+.timeline-event-copy strong{display:block}
+.timeline-event-copy small{display:block;margin-top:3px;color:var(--muted);font-size:.65rem;font-weight:400}
+.match-report{padding:18px 19px;border:1px solid var(--line);border-left:4px solid var(--bb-red);border-radius:14px;background:#fff}
+.match-report h4{margin:0 0 8px;font-size:1.12rem;letter-spacing:-.02em}
+.match-report p{margin:0;color:var(--ink-soft);font-size:.88rem;line-height:1.65}
+.report-source{display:inline-block;margin-top:13px;color:var(--bb-red);font-size:.68rem;font-weight:900;text-decoration:none}
+.report-source:hover{text-decoration:underline}
 .facts-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0}
 .facts-grid>div{padding:14px;border:1px solid var(--line);border-radius:12px;background:#fff}
 .facts-grid dt{color:var(--muted);font-size:.62rem;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
@@ -273,6 +295,11 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
   .facts-grid{grid-template-columns:1fr}
   .source-section{align-items:flex-start;flex-direction:column}
   .source-link{width:100%;justify-content:center}
+  .timeline-teams,.timeline-row{grid-template-columns:minmax(0,1fr) 42px minmax(0,1fr)}
+  .timeline-event-card{padding:9px 8px;gap:6px}
+  .timeline-event-copy{font-size:.68rem}
+  .timeline-event-copy small{font-size:.58rem}
+  .timeline-team{font-size:.63rem}
   .lineups-grid{grid-template-columns:1fr}
   .footer-inner{flex-direction:column}
   .footer-source{text-align:left}
@@ -297,4 +324,8 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
   .dialog-team:first-child{grid-row:2}
   .dialog-team:last-child{grid-row:3}
   .dialog-result{font-size:3.65rem}
+  .timeline-teams,.timeline-row{grid-template-columns:minmax(0,1fr) 36px minmax(0,1fr)}
+  .timeline-event-icon{font-size:.85rem}
+  .timeline-event-copy{font-size:.62rem}
+  .timeline-event-copy small{display:none}
 }
