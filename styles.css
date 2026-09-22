@@ -192,6 +192,18 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
 .match-report p{margin:0;color:var(--ink-soft);font-size:.88rem;line-height:1.65}
 .report-source{display:inline-block;margin-top:13px;color:var(--bb-red);font-size:.68rem;font-weight:900;text-decoration:none}
 .report-source:hover{text-decoration:underline}
+.match-photo-section{padding-top:27px}
+.match-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.match-photo{margin:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}
+.match-photo-main:first-child:nth-last-child(1){grid-column:1/-1}
+.match-photo a{display:block;background:#e9e4da}
+.match-photo img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}
+.match-photo figcaption{display:grid;gap:5px;padding:12px 14px}
+.match-photo figcaption span{font-size:.76rem;line-height:1.45;color:var(--ink-soft)}
+.match-photo figcaption small{font-size:.64rem;color:var(--muted);font-weight:900}
+.match-photo-submit{display:flex;justify-content:center}
+.match-photo-submit-link{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:13px 16px;border:1px solid var(--bb-red);border-radius:12px;color:var(--bb-red);background:transparent;text-decoration:none;font-size:.66rem;font-weight:900;letter-spacing:.07em}
+.match-photo-submit-link:hover{background:var(--bb-red);color:#fff}
 .facts-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin:0}
 .facts-grid>div{padding:14px;border:1px solid var(--line);border-radius:12px;background:#fff}
 .facts-grid dt{color:var(--muted);font-size:.62rem;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
@@ -299,6 +311,7 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
   .timeline-event-copy{font-size:.68rem}
   .timeline-event-copy small{font-size:.58rem}
   .timeline-team{font-size:.63rem}
+  .match-photo-grid{grid-template-columns:1fr}
   .lineups-grid{grid-template-columns:1fr}
   .footer-inner{flex-direction:column}
   .footer-source{text-align:left}
