@@ -419,3 +419,4 @@ def parse_detail(html: str, home: str | None = None, away: str | None = None):
 # markup revision 2
 # retry after pattern fix
 # parser revision 3
+# anonymous-goal parser refresh
