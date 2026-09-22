@@ -10,6 +10,7 @@ from collections import Counter
 from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, urldefrag
+from urllib.robotparser import RobotFileParser
 
 import requests
 from bs4 import BeautifulSoup
@@ -91,8 +92,26 @@ def safe_url(url, source):
     clean, _ = urldefrag(url)
     return clean
 
+ROBOTS = {}
+
+def robots_allowed(url, timeout):
+    p = urlparse(url)
+    base = f"{p.scheme}://{p.netloc}"
+    if base not in ROBOTS:
+        parser = RobotFileParser()
+        parser.set_url(urljoin(base, "/robots.txt"))
+        try:
+            parser.read()
+            ROBOTS[base] = parser
+        except Exception:
+            ROBOTS[base] = None
+    parser = ROBOTS.get(base)
+    return True if parser is None else parser.can_fetch(HEADERS["User-Agent"], url)
+
 def request(session, url, timeout):
     try:
+        if not robots_allowed(url, timeout):
+            return None
         r = session.get(url, timeout=timeout, allow_redirects=True)
         if r.status_code != 200:
             return None
