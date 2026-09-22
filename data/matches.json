@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T00:41:39+02:00",
+  "generatedAt": "2026-09-22T11:31:25+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -26,6 +26,22 @@
           "player": "Filip Oliwer Kmiec",
           "label": "Spillemål",
           "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 57
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 69
         }
       ],
       "summary": null,
@@ -602,6 +618,14 @@
         {
           "type": "goal",
           "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "home",
           "player": "Ellen Helgetun Schei",
           "label": "Spillemål",
           "minute": 43
@@ -633,6 +657,14 @@
           "player": "Oda Måøy",
           "label": "Spillemål",
           "minute": 68
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 70
         }
       ],
       "summary": null,
@@ -761,6 +793,14 @@
           "player": "Markus Steinshamn",
           "label": "Spillemål",
           "minute": 36
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 39
         },
         {
           "type": "goal",
@@ -1155,16 +1195,152 @@
       "away": "Skodje",
       "homeScore": 4,
       "awayScore": 3,
-      "halfTime": null,
+      "halfTime": "2–0",
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 35
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elliot Fosseng Sjøholt",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sakarias Ellefsen Hildre",
+          "label": "Spillemål",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Mohamad Ahmad Alosman",
+          "label": "Spillemål",
+          "minute": 60
+        }
+      ],
       "summary": null,
       "nextMatch": null,
       "source": "fotball.no",
       "officials": {
         "referee": "William Torvik"
       },
-      "referee": "William Torvik"
+      "referee": "William Torvik",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 2,
+              "name": "Stefan Løkka"
+            },
+            {
+              "number": 18,
+              "name": "Mohamad Ahmad Alosman"
+            },
+            {
+              "number": 25,
+              "name": "Magnus Øksenvåg Sand"
+            },
+            {
+              "number": 5,
+              "name": "Leaozinho Finnøy"
+            },
+            {
+              "number": 7,
+              "name": "Danielius Rakauskas"
+            },
+            {
+              "number": 26,
+              "name": "Arthur Cervinski"
+            }
+          ],
+          "bench": [
+            {
+              "number": 15,
+              "name": "Jørgen Sandvik Myklebust"
+            },
+            {
+              "number": 20,
+              "name": "Wilhelm Sakse Simlenes Opshaug"
+            },
+            {
+              "number": 49,
+              "name": "Jean Philip Ariew Endresen"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 49,
+              "name": "Dominik Hyrycz"
+            },
+            {
+              "number": 61,
+              "name": "Iver Hotvedt Lundbø"
+            },
+            {
+              "number": 18,
+              "name": "Filip Rødset Runde"
+            },
+            {
+              "number": 48,
+              "name": "Mathias Berge Honningdal"
+            },
+            {
+              "number": 52,
+              "name": "Elliot Fosseng Sjøholt"
+            },
+            {
+              "number": 11,
+              "name": "Christian Solholm"
+            }
+          ],
+          "bench": [
+            {
+              "number": 7,
+              "name": "Joakim Gundersen"
+            },
+            {
+              "number": 42,
+              "name": "Sakarias Ellefsen Hildre"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "match-9201496",
@@ -1181,16 +1357,153 @@
       "away": "Langevåg",
       "homeScore": 0,
       "awayScore": 7,
-      "halfTime": null,
+      "halfTime": "0–4",
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Mitan Alahmad",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jakob Korsnes Olsen",
+          "label": "Spillemål",
+          "minute": 16
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "William Hoff",
+          "label": "Spillemål",
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "William Hoff",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "red_card",
+          "team": "away",
+          "player": "William Hoff",
+          "label": "Utvisning",
+          "minute": 46
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Mitan Alahmad",
+          "label": "Spillemål",
+          "minute": 49
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jakob Korsnes Olsen",
+          "label": "Spillemål",
+          "minute": 53
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Mitan Alahmad",
+          "label": "Spillemål",
+          "minute": 56
+        }
+      ],
       "summary": null,
       "nextMatch": null,
       "source": "fotball.no",
       "officials": {
         "referee": "Lukasz Anuszkiewicz"
       },
-      "referee": "Lukasz Anuszkiewicz"
+      "referee": "Lukasz Anuszkiewicz",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "André Flem Dalhaug"
+            },
+            {
+              "number": 14,
+              "name": "Vebjørn Helland Otterlei"
+            },
+            {
+              "number": 26,
+              "name": "Mathias Døving"
+            },
+            {
+              "number": 34,
+              "name": "Henrik Alvestad Lillestøl"
+            },
+            {
+              "number": 36,
+              "name": "Youel Bahabelom Okubay"
+            },
+            {
+              "number": 28,
+              "name": "Leon Lorgen Moa"
+            },
+            {
+              "number": 38,
+              "name": "Edvard Frostad Myklebust"
+            },
+            {
+              "number": 40,
+              "name": "Lucas Bjørnland Remme"
+            },
+            {
+              "number": 43,
+              "name": "Julian Renè Krogsæter Zarif"
+            },
+            {
+              "number": 37,
+              "name": "Alexander Huang Nuo Risnes"
+            }
+          ],
+          "bench": []
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Mubasir Ahmadzai"
+            },
+            {
+              "number": 16,
+              "name": "Heine Hammer"
+            },
+            {
+              "number": 9,
+              "name": "Robin Ahmadi"
+            },
+            {
+              "number": 10,
+              "name": "Millian Marthinussen Hafsås"
+            },
+            {
+              "number": 49,
+              "name": "Jakob Korsnes Olsen"
+            },
+            {
+              "number": 7,
+              "name": "Mitan Alahmad"
+            },
+            {
+              "number": 8,
+              "name": "William Hoff"
+            }
+          ],
+          "bench": []
+        }
+      }
     },
     {
       "id": "match-9204235",
@@ -1207,16 +1520,160 @@
       "away": "Brattvåg 2",
       "homeScore": 9,
       "awayScore": 1,
-      "halfTime": null,
+      "halfTime": "5–0",
       "localTeam": "both",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 1
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 1
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 18
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Even Vestre Braute",
+          "label": "Spillemål",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 57
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Matheo Longva Austnes",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Odin Storheim Homlong",
+          "label": "Spillemål",
+          "minute": 68
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 69
+        }
+      ],
       "summary": null,
       "nextMatch": null,
       "source": "fotball.no",
       "officials": {
         "referee": "Christoffer Lervåg"
       },
-      "referee": "Christoffer Lervåg"
+      "referee": "Christoffer Lervåg",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 8,
+              "name": "Olav Bueide Henden"
+            },
+            {
+              "number": 32,
+              "name": "Filip Robert Cedro"
+            },
+            {
+              "number": 35,
+              "name": "Even Viset Stokke"
+            },
+            {
+              "number": 31,
+              "name": "Odin Storheim Homlong"
+            },
+            {
+              "number": 37,
+              "name": "Adrian Tennfjord Myklebust"
+            },
+            {
+              "number": 42,
+              "name": "Adrian Fylling Sjøholt"
+            },
+            {
+              "number": 30,
+              "name": "Matheo Longva Austnes"
+            }
+          ],
+          "bench": [
+            {
+              "number": 36,
+              "name": "Even Vestre Braute"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Kai-Leander Reistad Giske"
+            },
+            {
+              "number": 21,
+              "name": "Martin Krogsæter Sæterøy"
+            },
+            {
+              "number": 23,
+              "name": "Kevin Bjørshol Skjønberg"
+            },
+            {
+              "number": 25,
+              "name": "Egide Ntumba Ushindi"
+            },
+            {
+              "number": 34,
+              "name": "Abody Aldreeb"
+            },
+            {
+              "number": 4,
+              "name": "Cian Lucas Pagara"
+            }
+          ],
+          "bench": []
+        }
+      }
     },
     {
       "id": "match-9200056",

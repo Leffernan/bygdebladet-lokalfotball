@@ -1957,8 +1957,153 @@
       "awayScore": 7,
       "status": "completed",
       "resultAt": "2026-09-21T21:24:14+02:00",
-      "detailFetches": 0,
-      "detailNextCheckAt": "2026-09-22T00:00:00+02:00"
+      "detailFetches": 1,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Mitan Alahmad",
+            "label": "Spillemål",
+            "minute": 4
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Jakob Korsnes Olsen",
+            "label": "Spillemål",
+            "minute": 16
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "William Hoff",
+            "label": "Spillemål",
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "William Hoff",
+            "label": "Spillemål",
+            "minute": 34
+          },
+          {
+            "type": "red_card",
+            "team": "away",
+            "player": "William Hoff",
+            "label": "Utvisning",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Mitan Alahmad",
+            "label": "Spillemål",
+            "minute": 49
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Jakob Korsnes Olsen",
+            "label": "Spillemål",
+            "minute": 53
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Mitan Alahmad",
+            "label": "Spillemål",
+            "minute": 56
+          }
+        ],
+        "officials": {
+          "referee": "Lukasz Anuszkiewicz"
+        },
+        "referee": "Lukasz Anuszkiewicz",
+        "halfTime": "0–4",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "André Flem Dalhaug"
+              },
+              {
+                "number": 14,
+                "name": "Vebjørn Helland Otterlei"
+              },
+              {
+                "number": 26,
+                "name": "Mathias Døving"
+              },
+              {
+                "number": 34,
+                "name": "Henrik Alvestad Lillestøl"
+              },
+              {
+                "number": 36,
+                "name": "Youel Bahabelom Okubay"
+              },
+              {
+                "number": 28,
+                "name": "Leon Lorgen Moa"
+              },
+              {
+                "number": 38,
+                "name": "Edvard Frostad Myklebust"
+              },
+              {
+                "number": 40,
+                "name": "Lucas Bjørnland Remme"
+              },
+              {
+                "number": 43,
+                "name": "Julian Renè Krogsæter Zarif"
+              },
+              {
+                "number": 37,
+                "name": "Alexander Huang Nuo Risnes"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Mubasir Ahmadzai"
+              },
+              {
+                "number": 16,
+                "name": "Heine Hammer"
+              },
+              {
+                "number": 9,
+                "name": "Robin Ahmadi"
+              },
+              {
+                "number": 10,
+                "name": "Millian Marthinussen Hafsås"
+              },
+              {
+                "number": 49,
+                "name": "Jakob Korsnes Olsen"
+              },
+              {
+                "number": 7,
+                "name": "Mitan Alahmad"
+              },
+              {
+                "number": 8,
+                "name": "William Hoff"
+              }
+            ],
+            "bench": []
+          }
+        }
+      },
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
     },
     "23113123024": {
       "fiksId": "9201498",
@@ -1983,8 +2128,160 @@
       "awayScore": 1,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00",
-      "detailFetches": 0,
-      "detailNextCheckAt": "2026-09-22T00:00:00+02:00"
+      "detailFetches": 1,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 1
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 1
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 18
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Even Vestre Braute",
+            "label": "Spillemål",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Matheo Longva Austnes",
+            "label": "Spillemål",
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Odin Storheim Homlong",
+            "label": "Spillemål",
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 69
+          }
+        ],
+        "officials": {
+          "referee": "Christoffer Lervåg"
+        },
+        "referee": "Christoffer Lervåg",
+        "halfTime": "5–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 8,
+                "name": "Olav Bueide Henden"
+              },
+              {
+                "number": 32,
+                "name": "Filip Robert Cedro"
+              },
+              {
+                "number": 35,
+                "name": "Even Viset Stokke"
+              },
+              {
+                "number": 31,
+                "name": "Odin Storheim Homlong"
+              },
+              {
+                "number": 37,
+                "name": "Adrian Tennfjord Myklebust"
+              },
+              {
+                "number": 42,
+                "name": "Adrian Fylling Sjøholt"
+              },
+              {
+                "number": 30,
+                "name": "Matheo Longva Austnes"
+              }
+            ],
+            "bench": [
+              {
+                "number": 36,
+                "name": "Even Vestre Braute"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Kai-Leander Reistad Giske"
+              },
+              {
+                "number": 21,
+                "name": "Martin Krogsæter Sæterøy"
+              },
+              {
+                "number": 23,
+                "name": "Kevin Bjørshol Skjønberg"
+              },
+              {
+                "number": 25,
+                "name": "Egide Ntumba Ushindi"
+              },
+              {
+                "number": 34,
+                "name": "Abody Aldreeb"
+              },
+              {
+                "number": 4,
+                "name": "Cian Lucas Pagara"
+              }
+            ],
+            "bench": []
+          }
+        }
+      },
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
     },
     "23214107024": {
       "fiksId": "9200056",
@@ -2229,8 +2526,152 @@
       "awayScore": 3,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00",
-      "detailFetches": 0,
-      "detailNextCheckAt": "2026-09-22T00:00:00+02:00"
+      "detailFetches": 1,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 35
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elliot Fosseng Sjøholt",
+            "label": "Spillemål",
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Sakarias Ellefsen Hildre",
+            "label": "Spillemål",
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Mohamad Ahmad Alosman",
+            "label": "Spillemål",
+            "minute": 60
+          }
+        ],
+        "officials": {
+          "referee": "William Torvik"
+        },
+        "referee": "William Torvik",
+        "halfTime": "2–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 2,
+                "name": "Stefan Løkka"
+              },
+              {
+                "number": 18,
+                "name": "Mohamad Ahmad Alosman"
+              },
+              {
+                "number": 25,
+                "name": "Magnus Øksenvåg Sand"
+              },
+              {
+                "number": 5,
+                "name": "Leaozinho Finnøy"
+              },
+              {
+                "number": 7,
+                "name": "Danielius Rakauskas"
+              },
+              {
+                "number": 26,
+                "name": "Arthur Cervinski"
+              }
+            ],
+            "bench": [
+              {
+                "number": 15,
+                "name": "Jørgen Sandvik Myklebust"
+              },
+              {
+                "number": 20,
+                "name": "Wilhelm Sakse Simlenes Opshaug"
+              },
+              {
+                "number": 49,
+                "name": "Jean Philip Ariew Endresen"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 49,
+                "name": "Dominik Hyrycz"
+              },
+              {
+                "number": 61,
+                "name": "Iver Hotvedt Lundbø"
+              },
+              {
+                "number": 18,
+                "name": "Filip Rødset Runde"
+              },
+              {
+                "number": 48,
+                "name": "Mathias Berge Honningdal"
+              },
+              {
+                "number": 52,
+                "name": "Elliot Fosseng Sjøholt"
+              },
+              {
+                "number": 11,
+                "name": "Christian Solholm"
+              }
+            ],
+            "bench": [
+              {
+                "number": 7,
+                "name": "Joakim Gundersen"
+              },
+              {
+                "number": 42,
+                "name": "Sakarias Ellefsen Hildre"
+              }
+            ]
+          }
+        }
+      },
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
     },
     "15120501070": {
       "fiksId": "8991161",
@@ -2492,8 +2933,190 @@
       "awayScore": 3,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00",
-      "detailFetches": 0,
-      "detailNextCheckAt": "2026-09-22T00:00:00+02:00"
+      "detailFetches": 1,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Markus Steinshamn",
+            "label": "Spillemål",
+            "minute": 36
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Andreas Silseth Harnes",
+            "label": "Straffemål",
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Konrad Finnøy",
+            "label": "Spillemål",
+            "minute": 70
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Ruben Molnes",
+            "label": "Advarsel",
+            "minute": 78
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Jonathan Klokk Eidset",
+            "label": "Advarsel",
+            "minute": 80
+          }
+        ],
+        "officials": {
+          "referee": "Adnan Hammouta"
+        },
+        "referee": "Adnan Hammouta",
+        "halfTime": "0–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Phillip Putra Meta Zeh"
+              },
+              {
+                "number": 2,
+                "name": "Petter Elias Langøy Velle"
+              },
+              {
+                "number": 5,
+                "name": "Daniel Andreassen"
+              },
+              {
+                "number": 11,
+                "name": "Odin Melseth Overå"
+              },
+              {
+                "number": 14,
+                "name": "Kesineb Bereket Tesfaselassie"
+              },
+              {
+                "number": 21,
+                "name": "Omar Radwan Alaswad"
+              },
+              {
+                "number": 8,
+                "name": "Ole Marius Alnes"
+              },
+              {
+                "number": 15,
+                "name": "Brage Knutsen Espe"
+              },
+              {
+                "number": 17,
+                "name": "Johan Aursnes"
+              },
+              {
+                "number": 23,
+                "name": "Amund Watters-Øye"
+              },
+              {
+                "number": 36,
+                "name": "Matihewos Tsegay Kahsay"
+              }
+            ],
+            "bench": [
+              {
+                "number": 60,
+                "name": "Jonathan Klokk Eidset"
+              },
+              {
+                "number": 9,
+                "name": "Casper Hovdenakk-Vadset"
+              },
+              {
+                "number": 19,
+                "name": "Olai Hole Bjørneseth"
+              },
+              {
+                "number": 38,
+                "name": "Håkon Andre Sæter"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Julian Nogva Vedeld"
+              },
+              {
+                "number": 2,
+                "name": "Noah Longva Hagen"
+              },
+              {
+                "number": 3,
+                "name": "Zen Kjerstad"
+              },
+              {
+                "number": 14,
+                "name": "Konrad Finnøy"
+              },
+              {
+                "number": 16,
+                "name": "Aron Leander Nogva"
+              },
+              {
+                "number": 22,
+                "name": "Jonas Sandøy"
+              },
+              {
+                "number": 24,
+                "name": "Aksel Mattias Börlin"
+              },
+              {
+                "number": 5,
+                "name": "Jarle Kristoffer Zienkiewicz Fitje"
+              },
+              {
+                "number": 9,
+                "name": "Ruben Molnes"
+              },
+              {
+                "number": 11,
+                "name": "Kristoffer Lee Sherman"
+              },
+              {
+                "number": 15,
+                "name": "Markus Steinshamn"
+              }
+            ],
+            "bench": [
+              {
+                "number": 18,
+                "name": "Markus Fjørtoft"
+              },
+              {
+                "number": 20,
+                "name": "Nathaniel Szmyd"
+              },
+              {
+                "number": 11,
+                "name": "Andreas Silseth Harnes"
+              }
+            ]
+          }
+        }
+      },
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
     },
     "15120501069": {
       "fiksId": "8991160",
@@ -2544,8 +3167,169 @@
       "awayScore": 0,
       "status": "completed",
       "resultAt": "2026-09-21T21:24:14+02:00",
-      "detailFetches": 0,
-      "detailNextCheckAt": "2026-09-22T00:00:00+02:00"
+      "detailFetches": 1,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ellen Helgetun Schei",
+            "label": "Spillemål",
+            "minute": 1
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ellen Helgetun Schei",
+            "label": "Spillemål",
+            "minute": 43
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ellen Helgetun Schei",
+            "label": "Spillemål",
+            "minute": 51
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Lone Sandum",
+            "label": "Spillemål",
+            "minute": 52
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Oda Måøy",
+            "label": "Spillemål",
+            "minute": 63
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Oda Måøy",
+            "label": "Spillemål",
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 70
+          }
+        ],
+        "officials": {
+          "referee": "Eirik Andreas Fredheim Øystad"
+        },
+        "referee": "Eirik Andreas Fredheim Øystad",
+        "halfTime": "2–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Maja Kristine Moe"
+              },
+              {
+                "number": 2,
+                "name": "Oda Måøy"
+              },
+              {
+                "number": 4,
+                "name": "Tilde Mogstad Vaseng"
+              },
+              {
+                "number": 6,
+                "name": "Ariel Kjølstad Fiske"
+              },
+              {
+                "number": 16,
+                "name": "Ane Skei Gravvold"
+              },
+              {
+                "number": 14,
+                "name": "Idun Måøy"
+              },
+              {
+                "number": 17,
+                "name": "Ellen Helgetun Schei"
+              },
+              {
+                "number": 24,
+                "name": "Mira Rosa Forberg-Hagen"
+              },
+              {
+                "number": 5,
+                "name": "Maria Moen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 18,
+                "name": "Lone Sandum"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Layan Mansour Ghazalah"
+              },
+              {
+                "number": 3,
+                "name": "Tali Elise Scharf"
+              },
+              {
+                "number": 25,
+                "name": "Julie Bjørdalsbakke"
+              },
+              {
+                "number": 6,
+                "name": "Liana Tiron"
+              },
+              {
+                "number": 20,
+                "name": "Gjertine Løvik"
+              },
+              {
+                "number": 60,
+                "name": "Julie Eilertsen"
+              },
+              {
+                "number": 80,
+                "name": "Hyab Awet Teshome"
+              },
+              {
+                "number": 82,
+                "name": "Emilie Thomassen Bjermeland"
+              },
+              {
+                "number": 9,
+                "name": "Anna Kanutte Width-Osdal"
+              }
+            ],
+            "bench": [
+              {
+                "number": 81,
+                "name": "Milla Solskjær"
+              }
+            ]
+          }
+        }
+      },
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
     },
     "23116124024": {
       "fiksId": "9196236",
@@ -3108,8 +3892,100 @@
       "awayScore": 2,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00",
-      "detailFetches": 0,
-      "detailNextCheckAt": "2026-09-22T00:00:00+02:00"
+      "detailFetches": 1,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Filip Oliwer Kmiec",
+            "label": "Spillemål",
+            "minute": 38
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 69
+          }
+        ],
+        "officials": {
+          "referee": "Filip Rogne"
+        },
+        "referee": "Filip Rogne",
+        "halfTime": "0–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Kai-Leander Reistad Giske"
+              },
+              {
+                "number": 21,
+                "name": "Even Endré Frøysadal Hånde"
+              },
+              {
+                "number": 25,
+                "name": "Egide Ntumba Ushindi"
+              },
+              {
+                "number": 26,
+                "name": "Mathias Døving"
+              },
+              {
+                "number": 37,
+                "name": "Alexander Huang Nuo Risnes"
+              },
+              {
+                "number": 4,
+                "name": "Cian Lucas Pagara"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Jonas Kaldvansvik Øvrelid"
+              },
+              {
+                "number": 17,
+                "name": "Sondre Brune Slettebakk"
+              },
+              {
+                "number": 32,
+                "name": "Danylo Hetsyu"
+              },
+              {
+                "number": 4,
+                "name": "Kasper Saure Hatløy"
+              },
+              {
+                "number": 20,
+                "name": "Filip Oliwer Kmiec"
+              },
+              {
+                "number": 34,
+                "name": "Torkil Jessen"
+              }
+            ],
+            "bench": []
+          }
+        }
+      },
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
     },
     "23116124007": {
       "fiksId": "9196219",
