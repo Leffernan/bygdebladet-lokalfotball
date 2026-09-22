@@ -1,15 +1,3 @@
 {
-  "photos": {
-    "15120501070": [
-      {
-        "id": "tally-4ad1ky5-k4Q2a6",
-        "submissionId": "4ad1ky5",
-        "imageUrl": "https://storage.tally.so/private/DSC_6794-1-.JPG?id=k4Q2a6&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ims0UTJhNiIsImZvcm1JZCI6ImFRUkRKOSIsImlhdCI6MTc5MDA3MDg5MX0.sVz1jh7nqZ7J328EpUae1bvjGe-BlG2VIS_err082tM&signature=fbbc4afc7043deaff19f1296bcb4c03e5a7c3071c7340383e67c208933280ec2",
-        "photographer": "VVIL",
-        "caption": "William Pedersen Hjelvik skåra tre av måla då Vestnes Varfjell vann bortekampen mot Nordlandet/Frei 5-0 i 5. divisjon torsdag kveld.",
-        "submittedAt": "2026-09-22T09:53:37.000Z",
-        "storage": "tally"
-      }
-    ]
-  }
+  "photos": {}
 }
