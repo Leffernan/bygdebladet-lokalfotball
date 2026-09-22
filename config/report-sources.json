@@ -1,8 +1,8 @@
 {
   "settings": {
     "lookbackDays": 7,
-    "maxIndexRequestsPerRun": 8,
-    "maxArticleRequestsPerRun": 8,
+    "maxIndexRequestsPerRun": 12,
+    "maxArticleRequestsPerRun": 12,
     "maxCandidatesPerSource": 6,
     "retryHours": [
       3,
@@ -238,6 +238,460 @@
         "fotball",
         "kamp",
         "nyheiter",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "aksla",
+      "name": "Aksla IL",
+      "teamTokens": [
+        "Aksla"
+      ],
+      "indexUrls": [
+        "https://akslail.no/"
+      ],
+      "allowedHosts": [
+        "akslail.no",
+        "www.akslail.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyhet",
+        "nyheiter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "batnfjord",
+      "name": "Batnfjord IL",
+      "teamTokens": [
+        "Batnfjord"
+      ],
+      "indexUrls": [
+        "http://www.batnfjord-il.no/"
+      ],
+      "allowedHosts": [
+        "batnfjord-il.no",
+        "www.batnfjord-il.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyhet"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "bergsoy",
+      "name": "Bergsøy IL Fotball",
+      "teamTokens": [
+        "Bergsøy"
+      ],
+      "indexUrls": [
+        "https://www.bergsoyfotball.no/",
+        "https://www.bergsoy.no/fotball"
+      ],
+      "allowedHosts": [
+        "bergsoyfotball.no",
+        "www.bergsoyfotball.no",
+        "bergsoy.no",
+        "www.bergsoy.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter",
+        "nyheiter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dahle",
+      "name": "Dahle IL",
+      "teamTokens": [
+        "Dahle"
+      ],
+      "indexUrls": [
+        "https://www.dahleil.com/"
+      ],
+      "allowedHosts": [
+        "dahleil.com",
+        "www.dahleil.com"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "emblem",
+      "name": "Emblem IL",
+      "teamTokens": [
+        "Emblem"
+      ],
+      "indexUrls": [
+        "https://emblem-il.no/fotball",
+        "https://emblem-il.no/"
+      ],
+      "allowedHosts": [
+        "emblem-il.no",
+        "www.emblem-il.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "giske",
+      "name": "Giske IL",
+      "teamTokens": [
+        "Giske"
+      ],
+      "indexUrls": [
+        "https://www.giskeil.no/"
+      ],
+      "allowedHosts": [
+        "giskeil.no",
+        "www.giskeil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hareid",
+      "name": "Hareid IL",
+      "teamTokens": [
+        "Hareid"
+      ],
+      "indexUrls": [
+        "https://www.hareidil.no/"
+      ],
+      "allowedHosts": [
+        "hareidil.no",
+        "www.hareidil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheiter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hjelset-kleive",
+      "name": "Hjelset-Kleive Fotball",
+      "teamTokens": [
+        "Hjelset-Kleive"
+      ],
+      "indexUrls": [
+        "https://www.hjelset-kleivefotball.no/"
+      ],
+      "allowedHosts": [
+        "hjelset-kleivefotball.no",
+        "www.hjelset-kleivefotball.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "langevag",
+      "name": "Langevåg IL",
+      "teamTokens": [
+        "Langevåg"
+      ],
+      "indexUrls": [
+        "https://www.langevagil.no/"
+      ],
+      "allowedHosts": [
+        "langevagil.no",
+        "www.langevagil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "malmefjorden",
+      "name": "Malmefjorden IL",
+      "teamTokens": [
+        "Malmefjorden"
+      ],
+      "indexUrls": [
+        "https://www.malmefjordenil.no/"
+      ],
+      "allowedHosts": [
+        "malmefjordenil.no",
+        "www.malmefjordenil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "molde",
+      "name": "Molde FK",
+      "teamTokens": [
+        "Molde"
+      ],
+      "indexUrls": [
+        "https://www.moldefk.no/"
+      ],
+      "allowedHosts": [
+        "moldefk.no",
+        "www.moldefk.no"
+      ],
+      "pathHints": [
+        "bredde",
+        "akademi",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "mandalen",
+      "name": "Måndalen IL",
+      "teamTokens": [
+        "Måndalen"
+      ],
+      "indexUrls": [
+        "http://www.mandalenil.no/"
+      ],
+      "allowedHosts": [
+        "mandalenil.no",
+        "www.mandalenil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "nordlandet",
+      "name": "IL Nordlandet",
+      "teamTokens": [
+        "Nordlandet",
+        "Nordlandet/Frei"
+      ],
+      "indexUrls": [
+        "http://www.nordlandet.no/"
+      ],
+      "allowedHosts": [
+        "nordlandet.no",
+        "www.nordlandet.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "spjelkavik",
+      "name": "Spjelkavik IL",
+      "teamTokens": [
+        "Spjelkavik"
+      ],
+      "indexUrls": [
+        "https://spjelkavikil.no/fotball",
+        "https://spjelkavikil.no/"
+      ],
+      "allowedHosts": [
+        "spjelkavikil.no",
+        "www.spjelkavikil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "stranda",
+      "name": "Stranda IL",
+      "teamTokens": [
+        "Stranda"
+      ],
+      "indexUrls": [
+        "https://www.strandail.no/"
+      ],
+      "allowedHosts": [
+        "strandail.no",
+        "www.strandail.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheiter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "surnadal",
+      "name": "Surnadal IL",
+      "teamTokens": [
+        "Surnadal",
+        "Surnadal/Søya"
+      ],
+      "indexUrls": [
+        "https://surnadalil.no/"
+      ],
+      "allowedHosts": [
+        "surnadalil.no",
+        "www.surnadalil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sykkylven",
+      "name": "Sykkylven IL",
+      "teamTokens": [
+        "Sykkylven"
+      ],
+      "indexUrls": [
+        "https://sykkylven-il.no/"
+      ],
+      "allowedHosts": [
+        "sykkylven-il.no",
+        "www.sykkylven-il.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheiter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "traeff",
+      "name": "Sportsklubben Træff",
+      "teamTokens": [
+        "Træff"
+      ],
+      "indexUrls": [
+        "https://www.traeff.no/"
+      ],
+      "allowedHosts": [
+        "traeff.no",
+        "www.traeff.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "valder",
+      "name": "IL Valder",
+      "teamTokens": [
+        "Valder"
+      ],
+      "indexUrls": [
+        "https://ilvalder.no/fotball",
+        "https://ilvalder.no/"
+      ],
+      "allowedHosts": [
+        "ilvalder.no",
+        "www.ilvalder.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheiter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "orsta",
+      "name": "Ørsta IL",
+      "teamTokens": [
+        "Ørsta"
+      ],
+      "indexUrls": [
+        "https://orstail.no/fotball",
+        "https://orstail.no/"
+      ],
+      "allowedHosts": [
+        "orstail.no",
+        "www.orstail.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheiter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "averoykameratene",
+      "name": "IL Averøykameratene",
+      "teamTokens": [
+        "Averøykameratene",
+        "Kårvåg/Havørn/Averøykameratene"
+      ],
+      "indexUrls": [
+        "https://www.ak-fotball.no/"
+      ],
+      "allowedHosts": [
+        "ak-fotball.no",
+        "www.ak-fotball.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "havorn-averoy",
+      "name": "IL Havørn",
+      "teamTokens": [
+        "Havørn",
+        "Kårvåg/Havørn/Averøykameratene"
+      ],
+      "indexUrls": [
+        "https://www.ilhavorn.no/"
+      ],
+      "allowedHosts": [
+        "ilhavorn.no",
+        "www.ilhavorn.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
         "nyheter"
       ],
       "enabled": true
