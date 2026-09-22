@@ -1,0 +1,67 @@
+name: Publish match photo
+
+on:
+  workflow_dispatch:
+    inputs:
+      submission_id:
+        description: "Tally submission ID"
+        required: true
+        type: string
+      match_number:
+        description: "Optional match number override"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-match-photo
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      TALLY_API_KEY: ${{ secrets.TALLY_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencies
+        run: python -m pip install --disable-pip-version-check --quiet requests
+
+      - name: Publish approved photo
+        shell: bash
+        run: |
+          if [ -z "$TALLY_API_KEY" ]; then
+            echo "::error::Missing repository secret TALLY_API_KEY"
+            exit 1
+          fi
+
+          ARGS=(--submission-id "${{ inputs.submission_id }}")
+          if [ -n "${{ inputs.match_number }}" ]; then
+            ARGS+=(--match-number "${{ inputs.match_number }}")
+          fi
+          python scripts/photo_publish.py "${ARGS[@]}"
+
+      - name: Commit photo metadata
+        shell: bash
+        run: |
+          if git diff --quiet -- data/photos.json; then
+            echo "No new photo metadata."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/photos.json
+          git commit -m "Publish approved match photo"
+          git pull --rebase origin main
+          git push
