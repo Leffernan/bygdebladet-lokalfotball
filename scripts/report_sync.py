@@ -71,13 +71,33 @@ def is_local(match):
     return any(token.casefold() in joined for token in LOCAL_TOKENS)
 
 def matching_sources(match, sources):
-    joined = f"{match.get('home','')} {match.get('away','')}".casefold()
-    out = []
+    home = str(match.get("home","")).casefold()
+    away = str(match.get("away","")).casefold()
+    home_sources = []
+    away_sources = []
+    both_sources = []
+
     for src in sources:
         if not src.get("enabled", True):
             continue
-        if any(token.casefold() in joined for token in src.get("teamTokens", [])):
-            out.append(src)
+        tokens = [str(token).casefold() for token in src.get("teamTokens", [])]
+        hits_home = any(token and token in home for token in tokens)
+        hits_away = any(token and token in away for token in tokens)
+        if hits_home and hits_away:
+            both_sources.append(src)
+        elif hits_home:
+            home_sources.append(src)
+        elif hits_away:
+            away_sources.append(src)
+
+    # Alternate home/away so one side cannot consume the entire request budget.
+    out = []
+    for i in range(max(len(home_sources), len(away_sources))):
+        if i < len(home_sources):
+            out.append(home_sources[i])
+        if i < len(away_sources):
+            out.append(away_sources[i])
+    out.extend(both_sources)
     return out
 
 def safe_url(url, source):
