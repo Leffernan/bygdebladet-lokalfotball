@@ -57,17 +57,6 @@
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9177179"
     },
     {
-      "date": "2026-09-25",
-      "time": "19:00",
-      "age": "MENN",
-      "competition": "5.div Menn",
-      "venue": "Batnfjord stadion",
-      "home": "Batnfjord",
-      "away": "Vestnes Varfjell",
-      "matchNumber": "15120501074",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991165"
-    },
-    {
       "date": "2026-09-26",
       "time": "15:00",
       "age": "G16",
@@ -145,17 +134,6 @@
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200072"
     },
     {
-      "date": "2026-09-30",
-      "time": "19:00",
-      "age": "MENN",
-      "competition": "5.div Menn",
-      "venue": "Dahle kunstgresspark",
-      "home": "Dahle 2",
-      "away": "Vestnes Varfjell",
-      "matchNumber": "15120501078",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991169"
-    },
-    {
       "date": "2026-10-01",
       "time": "18:00",
       "age": "G16",
@@ -209,17 +187,6 @@
       "away": "Ørskog/Stordal",
       "matchNumber": "23113126023",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204253"
-    },
-    {
-      "date": "2026-10-10",
-      "time": "14:00",
-      "age": "MENN",
-      "competition": "5.div Menn",
-      "venue": "Opdølbanen",
-      "home": "Hjelset-Kleive",
-      "away": "Vestnes Varfjell",
-      "matchNumber": "15120501083",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991174"
     },
     {
       "date": "2026-10-12",
