@@ -1,0 +1,200 @@
+{
+  "settings": {
+    "lookbackDays": 7,
+    "maxIndexRequestsPerRun": 8,
+    "maxArticleRequestsPerRun": 8,
+    "maxCandidatesPerSource": 6,
+    "retryHours": [
+      3,
+      8,
+      18,
+      36,
+      72,
+      120
+    ],
+    "requestTimeoutSeconds": 12
+  },
+  "sources": [
+    {
+      "id": "vestnes-varfjell",
+      "name": "Vestnes Varfjell",
+      "teamTokens": [
+        "Vestnes Varfjell"
+      ],
+      "indexUrls": [
+        "https://www.varfjell.no/index.php/kampreferater-mainmenu-111",
+        "https://www.varfjell.no/"
+      ],
+      "allowedHosts": [
+        "varfjell.no",
+        "www.varfjell.no"
+      ],
+      "pathHints": [
+        "kampreferater-mainmenu-111"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "brattvag",
+      "name": "Brattvåg IL",
+      "teamTokens": [
+        "Brattvåg"
+      ],
+      "indexUrls": [
+        "https://brattvag-il.no/"
+      ],
+      "allowedHosts": [
+        "brattvag-il.no",
+        "www.brattvag-il.no"
+      ],
+      "pathHints": [
+        "kampreferat",
+        "yngres",
+        "fotball"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "norborg",
+      "name": "IL Norborg",
+      "teamTokens": [
+        "Norborg",
+        "Ravn/Norborg"
+      ],
+      "indexUrls": [
+        "https://www.norborg.com/"
+      ],
+      "allowedHosts": [
+        "norborg.com",
+        "www.norborg.com"
+      ],
+      "pathHints": [
+        "kamp",
+        "herrer",
+        "fotball"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tomrefjord",
+      "name": "Tomrefjord IL",
+      "teamTokens": [
+        "Tomrefjord"
+      ],
+      "indexUrls": [
+        "https://tomrefjordil.no/fotball/alag-herrer",
+        "https://tomrefjordil.no/"
+      ],
+      "allowedHosts": [
+        "tomrefjordil.no",
+        "www.tomrefjordil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kampreferat"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "fiksdal-rekdal",
+      "name": "Fiksdal/Rekdal BK",
+      "teamTokens": [
+        "Fiksdal/Rekdal",
+        "FiksRek"
+      ],
+      "indexUrls": [
+        "https://www.frbk.org/"
+      ],
+      "allowedHosts": [
+        "frbk.org",
+        "www.frbk.org"
+      ],
+      "pathHints": [
+        "nyheit",
+        "nyheter",
+        "kamp"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "ravn",
+      "name": "IL Ravn",
+      "teamTokens": [
+        "Ravn",
+        "Ravn/Norborg"
+      ],
+      "indexUrls": [
+        "https://il-ravn.no/"
+      ],
+      "allowedHosts": [
+        "il-ravn.no",
+        "www.il-ravn.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "stordal",
+      "name": "Stordal IL",
+      "teamTokens": [
+        "Stordal",
+        "Ørskog/Stordal"
+      ],
+      "indexUrls": [
+        "https://stordalil-new.klubbnettside.no/"
+      ],
+      "allowedHosts": [
+        "stordalil-new.klubbnettside.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "skodje",
+      "name": "Skodje IL",
+      "teamTokens": [
+        "Skodje"
+      ],
+      "indexUrls": [
+        "https://www.skodjeil.no/"
+      ],
+      "allowedHosts": [
+        "skodjeil.no",
+        "www.skodjeil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "hano",
+      "name": "HaNo FK",
+      "teamTokens": [
+        "HaNo",
+        "HaNo/Harøy/Lepsøy",
+        "HaNo/Lepsøy/Harøy",
+        "Harøy/HaNo/Lepsøy"
+      ],
+      "indexUrls": [
+        "https://hanofk.no/"
+      ],
+      "allowedHosts": [
+        "hanofk.no",
+        "www.hanofk.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp"
+      ],
+      "enabled": true
+    }
+  ]
+}
