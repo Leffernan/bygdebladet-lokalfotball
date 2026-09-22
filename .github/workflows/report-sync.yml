@@ -1,0 +1,64 @@
+name: Sync reports
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force report source check"
+        required: false
+        default: false
+        type: boolean
+  push:
+    paths:
+      - "data/matches.json"
+      - "config/report-sources.json"
+      - "scripts/report_sync.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: report-sync
+  cancel-in-progress: false
+
+jobs:
+  reports:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_REPORT_SYNC: ${{ github.event.inputs.force || 'false' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencies
+        run: python -m pip install --disable-pip-version-check --quiet requests beautifulsoup4
+
+      - name: Check sources
+        shell: bash
+        run: |
+          if [ "$FORCE_REPORT_SYNC" = "true" ]; then
+            python scripts/report_sync.py --force
+          else
+            python scripts/report_sync.py
+          fi
+
+      - name: Publish reports
+        shell: bash
+        run: |
+          if git diff --quiet -- data/reports.json data/report-state.json; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/reports.json data/report-state.json
+          git commit -m "Update reports"
+          git push
