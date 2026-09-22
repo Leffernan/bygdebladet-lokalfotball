@@ -193,6 +193,87 @@ def score_article(text, match, source):
         score += 2
     return score
 
+def split_sentences(text):
+    parts = re.split(r"(?<=[.!?])\\s+(?=[A-ZÆØÅ0-9])", " ".join(str(text or "").split()))
+    return [p.strip() for p in parts if 35 <= len(p.strip()) <= 320]
+
+def source_side(match, source):
+    tokens = [norm(x) for x in source.get("teamTokens", [])]
+    home = norm(match.get("home",""))
+    away = norm(match.get("away",""))
+    home_hit = any(t and (t in home or home in t) for t in tokens)
+    away_hit = any(t and (t in away or away in t) for t in tokens)
+    if home_hit and not away_hit:
+        return "home"
+    if away_hit and not home_hit:
+        return "away"
+    return None
+
+def article_context(text, match, source):
+    sentences = split_sentences(text)
+    if not sentences:
+        return None
+
+    cues = {
+        "dominance": ("dominer", "styrte kampen", "kontrollerte kampen", "førande laget", "best i store delar"),
+        "chances": ("sjans", "mulighet", "moglegheit", "avslutning", "avslutningar"),
+        "even": ("jamn kamp", "jevn kamp", "jamt", "jevnt", "bølgja fram og tilbake", "bølget fram og tilbake"),
+        "pressure": ("press", "trykk", "beleiring"),
+        "comeback": ("snudde", "comeback", "henta inn", "utlikna", "utlignet"),
+        "keeper": ("keeper", "målvakt", "redning", "redningar"),
+        "woodwork": ("stolpe", "tverrligger", "tverrliggjar"),
+    }
+
+    source_team = match.get(source_side(match, source) or "home", "")
+    source_words = team_words(source_team)
+    scorer_names = [
+        norm(e.get("player",""))
+        for e in match.get("events",[])
+        if e.get("type") == "goal" and e.get("player")
+    ]
+
+    best = []
+    for sentence in sentences:
+        n = norm(sentence)
+        score = 0
+        if any(w in n for w in source_words):
+            score += 3
+        if any(name and name in n for name in scorer_names):
+            score += 2
+        tags = []
+        for tag, words in cues.items():
+            if any(norm(word) in n for word in words):
+                tags.append(tag)
+                score += 2
+        if tags and score >= 2:
+            best.append((score, tags, sentence))
+    if not best:
+        return None
+
+    best.sort(key=lambda x: x[0], reverse=True)
+    tags = []
+    for _, found_tags, _ in best[:3]:
+        for tag in found_tags:
+            if tag not in tags:
+                tags.append(tag)
+
+    team = source_team or source.get("name") or "laget"
+    if "dominance" in tags:
+        return f"Klubbreferatet skildrar {team} som det førande laget i store delar av kampen."
+    if "comeback" in tags:
+        return "Klubbreferatet peikar på at kampbiletet endra seg undervegs."
+    if "even" in tags:
+        return "Klubben skildrar kampen som jamn i periodar."
+    if "pressure" in tags:
+        return f"Ifølgje klubbreferatet hadde {team} ein periode med tydeleg press."
+    if "chances" in tags:
+        return f"Klubbreferatet fortel at {team} skapte fleire gode sjansar gjennom kampen."
+    if "keeper" in tags:
+        return "Klubbreferatet trekkjer fram fleire viktige redningar."
+    if "woodwork" in tags:
+        return "Klubbreferatet omtalar også avslutningar i treverket."
+    return None
+
 def score_complete(match):
     goals = [e for e in match.get("events",[]) if e.get("type") == "goal"]
     by_side = Counter(e.get("team") for e in goals)
@@ -208,7 +289,7 @@ def name_list(counter):
         return parts[0]
     return ", ".join(parts[:-1]) + " og " + parts[-1]
 
-def make_summary(match, source_name):
+def make_summary(match, source_name, article_text_value="", source=None):
     home, away = match["home"], match["away"]
     hs, as_ = int(match["homeScore"]), int(match["awayScore"])
     if hs > as_:
@@ -244,8 +325,11 @@ def make_summary(match, source_name):
                 facts.append(f"{e['player']} ({minute}. minutt)" if minute is not None else e["player"])
             bits.append("Blant dei registrerte målscorarane var " + " og ".join(facts) + ".")
 
-    if source_name:
-        bits.append(f"Klubbreferatet er brukt som tilleggsgrunnlag.")
+    context = article_context(article_text_value, match, source or {}) if article_text_value else None
+    if context:
+        bits.append(context)
+    elif source_name:
+        bits.append("Klubbreferatet er brukt som tilleggsgrunnlag.")
     return " ".join(bits[:4])
 
 def make_title(match):
@@ -381,6 +465,7 @@ def main():
                         "source":source,
                         "url":url,
                         "score":score,
+                        "articleText":text,
                     }
                     break
             if found:
@@ -392,7 +477,7 @@ def main():
             source = found["source"]
             reports[key] = {
                 "title": make_title(match),
-                "summary": make_summary(match, source.get("name")),
+                "summary": make_summary(match, source.get("name"), found.get("articleText",""), source),
                 "sourceName": source.get("name"),
                 "sourceUrl": found["url"],
                 "mode": "auto",
