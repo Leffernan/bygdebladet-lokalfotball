@@ -2,510 +2,6 @@
   "version": 1,
   "lastDailyRefresh": "2026-09-19",
   "matches": {
-    "15120501004": {
-      "fiksId": "8991095",
-      "date": "2026-04-15",
-      "time": "19:00",
-      "home": "Dahle 2",
-      "away": "Hjelset-Kleive",
-      "venue": "Dahle kunstgresspark",
-      "homeScore": 4,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501003": {
-      "fiksId": "8991094",
-      "date": "2026-04-17",
-      "time": "19:00",
-      "home": "Batnfjord",
-      "away": "Malmefjorden",
-      "venue": "Batnfjord stadion",
-      "homeScore": 2,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501001": {
-      "fiksId": "8991092",
-      "date": "2026-04-18",
-      "time": "14:00",
-      "home": "Bud/Bryn",
-      "away": "Molde 3",
-      "venue": "Bud kunstgress",
-      "homeScore": 5,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501005": {
-      "fiksId": "8991096",
-      "date": "2026-04-18",
-      "time": "14:00",
-      "home": "Nordlandet/Frei",
-      "away": "Måndalen",
-      "venue": "Omsundet stadion",
-      "homeScore": 5,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501002": {
-      "fiksId": "8991093",
-      "date": "2026-04-18",
-      "time": "16:00",
-      "home": "Vestnes Varfjell",
-      "away": "Kårvåg/Havørn/Averøykameratene",
-      "venue": "Vestnes idrettspark",
-      "homeScore": 6,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501006": {
-      "fiksId": "8991097",
-      "date": "2026-04-22",
-      "time": "19:00",
-      "home": "Dahle 2",
-      "away": "Malmefjorden",
-      "venue": "Dahle kunstgresspark",
-      "homeScore": 2,
-      "awayScore": 4,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501007": {
-      "fiksId": "8991098",
-      "date": "2026-04-22",
-      "time": "19:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Batnfjord",
-      "venue": "Bruhagen kunstgressbane",
-      "homeScore": 1,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501009": {
-      "fiksId": "8991100",
-      "date": "2026-04-23",
-      "time": "19:00",
-      "home": "Måndalen",
-      "away": "Bud/Bryn",
-      "venue": "Måndalen stadion",
-      "homeScore": 0,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501010": {
-      "fiksId": "8991101",
-      "date": "2026-04-23",
-      "time": "19:00",
-      "home": "Nordlandet/Frei",
-      "away": "Hjelset-Kleive",
-      "venue": "Omsundet stadion",
-      "homeScore": 3,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501013": {
-      "fiksId": "8991104",
-      "date": "2026-04-29",
-      "time": "19:00",
-      "home": "Dahle 2",
-      "away": "Kårvåg/Havørn/Averøykameratene",
-      "venue": "Dahle kunstgresspark",
-      "homeScore": 1,
-      "awayScore": 4,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501015": {
-      "fiksId": "8991106",
-      "date": "2026-04-29",
-      "time": "19:00",
-      "home": "Bud/Bryn",
-      "away": "Nordlandet/Frei",
-      "venue": "Bryn kunstgress",
-      "homeScore": 6,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501011": {
-      "fiksId": "8991102",
-      "date": "2026-05-01",
-      "time": "14:00",
-      "home": "Vestnes Varfjell",
-      "away": "Måndalen",
-      "venue": "Vestnes idrettspark",
-      "homeScore": 2,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501014": {
-      "fiksId": "8991105",
-      "date": "2026-05-01",
-      "time": "14:00",
-      "home": "Hjelset-Kleive",
-      "away": "Malmefjorden",
-      "venue": "Reknesbanen",
-      "homeScore": 1,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501012": {
-      "fiksId": "8991103",
-      "date": "2026-05-06",
-      "time": "19:00",
-      "home": "Batnfjord",
-      "away": "Molde 3",
-      "venue": "Batnfjord stadion",
-      "homeScore": 5,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501020": {
-      "fiksId": "8991111",
-      "date": "2026-05-07",
-      "time": "19:00",
-      "home": "Nordlandet/Frei",
-      "away": "Malmefjorden",
-      "venue": "Nordlandet kunstgressbane",
-      "homeScore": 1,
-      "awayScore": 4,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501016": {
-      "fiksId": "8991107",
-      "date": "2026-05-09",
-      "time": "14:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Hjelset-Kleive",
-      "venue": "Bruhagen kunstgressbane",
-      "homeScore": 0,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501019": {
-      "fiksId": "8991110",
-      "date": "2026-05-09",
-      "time": "14:30",
-      "home": "Bud/Bryn",
-      "away": "Vestnes Varfjell",
-      "venue": "Bud kunstgress",
-      "homeScore": 2,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501017": {
-      "fiksId": "8991108",
-      "date": "2026-05-10",
-      "time": "14:00",
-      "home": "Molde 3",
-      "away": "Dahle 2",
-      "venue": "Molde kunstgress",
-      "homeScore": 3,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501018": {
-      "fiksId": "8991109",
-      "date": "2026-05-13",
-      "time": "19:00",
-      "home": "Måndalen",
-      "away": "Batnfjord",
-      "venue": "Måndalen stadion",
-      "homeScore": 1,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501022": {
-      "fiksId": "8991113",
-      "date": "2026-05-21",
-      "time": "19:00",
-      "home": "Hjelset-Kleive",
-      "away": "Molde 3",
-      "venue": "Opdølbanen",
-      "homeScore": 1,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501025": {
-      "fiksId": "8991116",
-      "date": "2026-05-21",
-      "time": "19:30",
-      "home": "Vestnes Varfjell",
-      "away": "Nordlandet/Frei",
-      "venue": "Vestnes idrettspark",
-      "homeScore": 3,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501024": {
-      "fiksId": "8991115",
-      "date": "2026-05-22",
-      "time": "19:00",
-      "home": "Batnfjord",
-      "away": "Bud/Bryn",
-      "venue": "Batnfjord stadion",
-      "homeScore": 2,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501023": {
-      "fiksId": "8991114",
-      "date": "2026-05-23",
-      "time": "14:00",
-      "home": "Malmefjorden",
-      "away": "Kårvåg/Havørn/Averøykameratene",
-      "venue": "Malmefjorden stadion",
-      "homeScore": 9,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501021": {
-      "fiksId": "8991112",
-      "date": "2026-05-25",
-      "time": "15:40",
-      "home": "Dahle 2",
-      "away": "Måndalen",
-      "venue": "Dahle kunstgresspark",
-      "homeScore": 4,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501030": {
-      "fiksId": "8991121",
-      "date": "2026-05-28",
-      "time": "19:00",
-      "home": "Nordlandet/Frei",
-      "away": "Kårvåg/Havørn/Averøykameratene",
-      "venue": "Nordlandet kunstgressbane",
-      "homeScore": 2,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501027": {
-      "fiksId": "8991118",
-      "date": "2026-05-29",
-      "time": "19:00",
-      "home": "Måndalen",
-      "away": "Hjelset-Kleive",
-      "venue": "Måndalen stadion",
-      "homeScore": 1,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501029": {
-      "fiksId": "8991120",
-      "date": "2026-05-29",
-      "time": "19:00",
-      "home": "Vestnes Varfjell",
-      "away": "Batnfjord",
-      "venue": "Vestnes idrettspark",
-      "homeScore": 3,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501026": {
-      "fiksId": "8991117",
-      "date": "2026-05-29",
-      "time": "19:30",
-      "home": "Molde 3",
-      "away": "Malmefjorden",
-      "venue": "Molde kunstgress",
-      "homeScore": 1,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501028": {
-      "fiksId": "8991119",
-      "date": "2026-05-31",
-      "time": "14:00",
-      "home": "Bud/Bryn",
-      "away": "Dahle 2",
-      "venue": "Bryn kunstgress",
-      "homeScore": 8,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501039": {
-      "fiksId": "8991130",
-      "date": "2026-06-03",
-      "time": "19:00",
-      "home": "Batnfjord",
-      "away": "Dahle 2",
-      "venue": "Batnfjord stadion",
-      "homeScore": 2,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501043": {
-      "fiksId": "8991134",
-      "date": "2026-06-04",
-      "time": "19:30",
-      "home": "Malmefjorden",
-      "away": "Vestnes Varfjell",
-      "venue": "Malmefjorden stadion",
-      "homeScore": 2,
-      "awayScore": 5,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501034": {
-      "fiksId": "8991125",
-      "date": "2026-06-11",
-      "time": "19:00",
-      "home": "Hjelset-Kleive",
-      "away": "Bud/Bryn",
-      "venue": "Opdølbanen",
-      "homeScore": 0,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501033": {
-      "fiksId": "8991124",
-      "date": "2026-06-11",
-      "time": "19:30",
-      "home": "Vestnes Varfjell",
-      "away": "Dahle 2",
-      "venue": "Vestnes idrettspark",
-      "homeScore": 8,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501031": {
-      "fiksId": "8991122",
-      "date": "2026-06-13",
-      "time": "13:00",
-      "home": "Malmefjorden",
-      "away": "Måndalen",
-      "venue": "Malmefjorden stadion",
-      "homeScore": 5,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501032": {
-      "fiksId": "8991123",
-      "date": "2026-06-14",
-      "time": "14:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Molde 3",
-      "venue": "Kårvåg stadion",
-      "homeScore": 0,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501038": {
-      "fiksId": "8991129",
-      "date": "2026-06-17",
-      "time": "19:00",
-      "home": "Vestnes Varfjell",
-      "away": "Hjelset-Kleive",
-      "venue": "Vestnes idrettspark",
-      "homeScore": 2,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501037": {
-      "fiksId": "8991128",
-      "date": "2026-06-18",
-      "time": "19:00",
-      "home": "Bud/Bryn",
-      "away": "Malmefjorden",
-      "venue": "Bryn kunstgress",
-      "homeScore": 2,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501036": {
-      "fiksId": "8991127",
-      "date": "2026-06-20",
-      "time": "14:00",
-      "home": "Måndalen",
-      "away": "Kårvåg/Havørn/Averøykameratene",
-      "venue": "Måndalen stadion",
-      "homeScore": 3,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501045": {
-      "fiksId": "8991136",
-      "date": "2026-06-24",
-      "time": "19:30",
-      "home": "Dahle 2",
-      "away": "Nordlandet/Frei",
-      "venue": "Dahle kunstgresspark",
-      "homeScore": 1,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501041": {
-      "fiksId": "8991132",
-      "date": "2026-06-24",
-      "time": "20:00",
-      "home": "Molde 3",
-      "away": "Måndalen",
-      "venue": "Molde kunstgress",
-      "homeScore": 9,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501042": {
-      "fiksId": "8991133",
-      "date": "2026-06-25",
-      "time": "19:00",
-      "home": "Hjelset-Kleive",
-      "away": "Batnfjord",
-      "venue": "Opdølbanen",
-      "homeScore": 4,
-      "awayScore": 4,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501044": {
-      "fiksId": "8991135",
-      "date": "2026-06-28",
-      "time": "14:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Bud/Bryn",
-      "venue": "Kårvåg stadion",
-      "homeScore": 2,
-      "awayScore": 6,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "23214107003": {
       "fiksId": "9200035",
       "date": "2026-08-11",
@@ -638,18 +134,6 @@
       "status": "completed",
       "resultAt": "2026-09-19T06:55:11+02:00"
     },
-    "15120501008": {
-      "fiksId": "8991099",
-      "date": "2026-08-18",
-      "time": "19:30",
-      "home": "Molde 3",
-      "away": "Vestnes Varfjell",
-      "venue": "Molde kunstgress",
-      "homeScore": 0,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "23113123001": {
       "fiksId": "9201465",
       "date": "2026-08-19",
@@ -673,18 +157,6 @@
       "awayScore": 5,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
-    },
-    "15120501049": {
-      "fiksId": "8991140",
-      "date": "2026-08-19",
-      "time": "19:00",
-      "home": "Hjelset-Kleive",
-      "away": "Dahle 2",
-      "venue": "Opdølbanen",
-      "homeScore": 3,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "15149017004": {
       "fiksId": "9177155",
@@ -806,18 +278,6 @@
       "status": "completed",
       "resultAt": "2026-09-19T06:55:11+02:00"
     },
-    "15120501050": {
-      "fiksId": "8991141",
-      "date": "2026-08-20",
-      "time": "19:00",
-      "home": "Måndalen",
-      "away": "Nordlandet/Frei",
-      "venue": "Måndalen stadion",
-      "homeScore": 2,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "15149017001": {
       "fiksId": "9177152",
       "date": "2026-08-20",
@@ -853,42 +313,6 @@
       "awayScore": 2,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
-    },
-    "15120501048": {
-      "fiksId": "8991139",
-      "date": "2026-08-21",
-      "time": "19:00",
-      "home": "Malmefjorden",
-      "away": "Batnfjord",
-      "venue": "Øyra stadion",
-      "homeScore": 1,
-      "awayScore": 4,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501046": {
-      "fiksId": "8991137",
-      "date": "2026-08-21",
-      "time": "19:30",
-      "home": "Molde 3",
-      "away": "Bud/Bryn",
-      "venue": "Molde kunstgress",
-      "homeScore": 3,
-      "awayScore": 7,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501047": {
-      "fiksId": "8991138",
-      "date": "2026-08-22",
-      "time": "14:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Vestnes Varfjell",
-      "venue": "Bruhagen kunstgressbane",
-      "homeScore": 2,
-      "awayScore": 6,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "23214107015": {
       "fiksId": "9200047",
@@ -950,18 +374,6 @@
       "status": "completed",
       "resultAt": "2026-09-19T06:55:11+02:00"
     },
-    "15120501051": {
-      "fiksId": "8991142",
-      "date": "2026-08-26",
-      "time": "19:00",
-      "home": "Malmefjorden",
-      "away": "Dahle 2",
-      "venue": "Malmefjorden stadion",
-      "homeScore": 6,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "15149017007": {
       "fiksId": "9177158",
       "date": "2026-08-26",
@@ -1021,18 +433,6 @@
       "awayScore": 1,
       "status": "completed",
       "resultAt": "2026-09-21T21:24:14+02:00"
-    },
-    "15120501055": {
-      "fiksId": "8991146",
-      "date": "2026-08-27",
-      "time": "19:00",
-      "home": "Hjelset-Kleive",
-      "away": "Nordlandet/Frei",
-      "venue": "Opdølbanen",
-      "homeScore": 4,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "23214107011": {
       "fiksId": "9200043",
@@ -1094,18 +494,6 @@
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
     },
-    "15120501053": {
-      "fiksId": "8991144",
-      "date": "2026-08-28",
-      "time": "19:00",
-      "home": "Vestnes Varfjell",
-      "away": "Molde 3",
-      "venue": "Vestnes idrettspark",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "23113126009": {
       "fiksId": "9204218",
       "date": "2026-08-29",
@@ -1117,30 +505,6 @@
       "awayScore": 4,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
-    },
-    "15120501052": {
-      "fiksId": "8991143",
-      "date": "2026-08-29",
-      "time": "14:00",
-      "home": "Batnfjord",
-      "away": "Kårvåg/Havørn/Averøykameratene",
-      "venue": "Batnfjord stadion",
-      "homeScore": 6,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501054": {
-      "fiksId": "8991145",
-      "date": "2026-08-29",
-      "time": "14:00",
-      "home": "Bud/Bryn",
-      "away": "Måndalen",
-      "venue": "Bud kunstgress",
-      "homeScore": 6,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "15149017009": {
       "fiksId": "9177160",
@@ -1274,18 +638,6 @@
       "status": "completed",
       "resultAt": "2026-09-19T06:55:11+02:00"
     },
-    "15120501060": {
-      "fiksId": "8991151",
-      "date": "2026-09-02",
-      "time": "19:00",
-      "home": "Nordlandet/Frei",
-      "away": "Bud/Bryn",
-      "venue": "Atlanten stadion",
-      "homeScore": 0,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "23116124011": {
       "fiksId": "9196223",
       "date": "2026-09-03",
@@ -1297,18 +649,6 @@
       "awayScore": 2,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
-    },
-    "15120501059": {
-      "fiksId": "8991150",
-      "date": "2026-09-03",
-      "time": "18:30",
-      "home": "Malmefjorden",
-      "away": "Hjelset-Kleive",
-      "venue": "Malmefjorden stadion",
-      "homeScore": 5,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "23113123012": {
       "fiksId": "9201476",
@@ -1418,18 +758,6 @@
       "status": "completed",
       "resultAt": "2026-09-21T21:24:14+02:00"
     },
-    "15120501056": {
-      "fiksId": "8991147",
-      "date": "2026-09-05",
-      "time": "13:00",
-      "home": "Måndalen",
-      "away": "Vestnes Varfjell",
-      "venue": "Måndalen stadion",
-      "homeScore": 0,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "23116124014": {
       "fiksId": "9196226",
       "date": "2026-09-05",
@@ -1441,18 +769,6 @@
       "awayScore": 2,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
-    },
-    "15120501035": {
-      "fiksId": "8991126",
-      "date": "2026-09-05",
-      "time": "14:00",
-      "home": "Batnfjord",
-      "away": "Nordlandet/Frei",
-      "venue": "Batnfjord stadion",
-      "homeScore": 4,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "23113123005": {
       "fiksId": "9201469",
@@ -1477,18 +793,6 @@
       "awayScore": 1,
       "status": "completed",
       "resultAt": "2026-09-21T21:24:14+02:00"
-    },
-    "15120501058": {
-      "fiksId": "8991149",
-      "date": "2026-09-06",
-      "time": "14:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Dahle 2",
-      "venue": "Kårvåg stadion",
-      "homeScore": 4,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "23113126006": {
       "fiksId": "9204210",
@@ -1598,18 +902,6 @@
       "status": "completed",
       "resultAt": "2026-09-21T21:24:14+02:00"
     },
-    "15120501065": {
-      "fiksId": "8991156",
-      "date": "2026-09-10",
-      "time": "18:00",
-      "home": "Malmefjorden",
-      "away": "Nordlandet/Frei",
-      "venue": "Malmefjorden stadion",
-      "homeScore": 3,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "23113123016": {
       "fiksId": "9201480",
       "date": "2026-09-10",
@@ -1718,42 +1010,6 @@
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
     },
-    "15120501063": {
-      "fiksId": "8991154",
-      "date": "2026-09-11",
-      "time": "19:00",
-      "home": "Batnfjord",
-      "away": "Måndalen",
-      "venue": "Batnfjord stadion",
-      "homeScore": 3,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501061": {
-      "fiksId": "8991152",
-      "date": "2026-09-12",
-      "time": "14:00",
-      "home": "Hjelset-Kleive",
-      "away": "Kårvåg/Havørn/Averøykameratene",
-      "venue": "Opdølbanen",
-      "homeScore": 3,
-      "awayScore": 1,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501064": {
-      "fiksId": "8991155",
-      "date": "2026-09-12",
-      "time": "15:00",
-      "home": "Vestnes Varfjell",
-      "away": "Bud/Bryn",
-      "venue": "Vestnes idrettspark",
-      "homeScore": 0,
-      "awayScore": 2,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "23116124019": {
       "fiksId": "9196231",
       "date": "2026-09-13",
@@ -1765,18 +1021,6 @@
       "awayScore": 1,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
-    },
-    "15120501040": {
-      "fiksId": "8991131",
-      "date": "2026-09-13",
-      "time": "19:00",
-      "home": "Nordlandet/Frei",
-      "away": "Molde 3",
-      "venue": "Omsundet stadion",
-      "homeScore": 0,
-      "awayScore": 6,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "23116124013": {
       "fiksId": "9196225",
@@ -1921,18 +1165,6 @@
       "awayScore": 7,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
-    },
-    "15120501062": {
-      "fiksId": "8991153",
-      "date": "2026-09-16",
-      "time": "19:00",
-      "home": "Dahle 2",
-      "away": "Molde 3",
-      "venue": "Dahle kunstgresspark",
-      "homeScore": 1,
-      "awayScore": 4,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "23116124021": {
       "fiksId": "9196233",
@@ -2673,213 +1905,6 @@
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00"
     },
-    "15120501070": {
-      "fiksId": "8991161",
-      "date": "2026-09-17",
-      "time": "19:30",
-      "home": "Nordlandet/Frei",
-      "away": "Vestnes Varfjell",
-      "venue": "Omsundet stadion",
-      "homeScore": 0,
-      "awayScore": 5,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00",
-      "detailFetches": 1,
-      "detail": {
-        "events": [
-          {
-            "type": "goal",
-            "team": "away",
-            "player": "Knut Stian Eik",
-            "label": "Spillemål",
-            "minute": 8
-          },
-          {
-            "type": "goal",
-            "team": "away",
-            "player": "William Pedersen Hjelvik",
-            "label": "Spillemål",
-            "minute": 9
-          },
-          {
-            "type": "goal",
-            "team": "away",
-            "player": "William Pedersen Hjelvik",
-            "label": "Spillemål",
-            "minute": 72
-          },
-          {
-            "type": "goal",
-            "team": "away",
-            "player": "William Pedersen Hjelvik",
-            "label": "Spillemål",
-            "minute": 90
-          },
-          {
-            "type": "goal",
-            "team": "away",
-            "player": "Didrik Selnes Sæter",
-            "label": "Spillemål",
-            "minute": 90
-          }
-        ],
-        "officials": {
-          "referee": "Helge Roar Åndal",
-          "assistant1": "Håkon Løvold",
-          "assistant2": "Harald Vebenstad",
-          "refereeObserver": "Alf Jarle Yttervik-Adolfsen"
-        },
-        "referee": "Helge Roar Åndal",
-        "halfTime": "0–2",
-        "lineups": {
-          "home": {
-            "starters": [
-              {
-                "number": 99,
-                "name": "Andreas Haugnes Mork"
-              },
-              {
-                "number": 3,
-                "name": "Johan Watz Halse"
-              },
-              {
-                "number": 6,
-                "name": "Aleksander Rambø"
-              },
-              {
-                "number": 14,
-                "name": "Ulrik Andersen Lystrup"
-              },
-              {
-                "number": 22,
-                "name": "Roar Hannasvik"
-              },
-              {
-                "number": 25,
-                "name": "Julian Ansnes"
-              },
-              {
-                "number": 32,
-                "name": "Sondre Lyster Biesmans"
-              },
-              {
-                "number": 8,
-                "name": "Fredrik Kvinge Hansen"
-              },
-              {
-                "number": 10,
-                "name": "Sindre Olai Haltland Gjøstøl"
-              },
-              {
-                "number": 15,
-                "name": "Isak Baarset Rønning"
-              },
-              {
-                "number": 17,
-                "name": "Sondre Rambø"
-              }
-            ],
-            "bench": [
-              {
-                "number": 26,
-                "name": "Jesper Kofoed"
-              },
-              {
-                "number": 9,
-                "name": "Felix Christoffer Hjemgård"
-              },
-              {
-                "number": 11,
-                "name": "Herman Lie Waage"
-              },
-              {
-                "number": 20,
-                "name": "Elias Backer Teiseth"
-              },
-              {
-                "number": 27,
-                "name": "Thomas Christian Kjønnø Hoem"
-              },
-              {
-                "number": 30,
-                "name": "Jonas Sæther Frey"
-              }
-            ]
-          },
-          "away": {
-            "starters": [
-              {
-                "number": 12,
-                "name": "Egil Dalhaug"
-              },
-              {
-                "number": 23,
-                "name": "Svein Erik Lange Male"
-              },
-              {
-                "number": 27,
-                "name": "Kristian Flittie Onstad"
-              },
-              {
-                "number": 45,
-                "name": "Cédric Ronnie Hellström Andreassen"
-              },
-              {
-                "number": 10,
-                "name": "Leo Villa Krogseth"
-              },
-              {
-                "number": 22,
-                "name": "Torstein Væge Nekstad"
-              },
-              {
-                "number": 24,
-                "name": "Didrik Selnes Sæter"
-              },
-              {
-                "number": 80,
-                "name": "Tommy Kanishi Andreassen"
-              },
-              {
-                "number": 90,
-                "name": "Casper Rolf Hellstrøm Andreassen"
-              },
-              {
-                "number": 14,
-                "name": "Knut Stian Eik"
-              },
-              {
-                "number": 20,
-                "name": "William Pedersen Hjelvik"
-              }
-            ],
-            "bench": [
-              {
-                "number": 5,
-                "name": "Jo Sigurd Vold"
-              },
-              {
-                "number": 6,
-                "name": "Ørjan Tangen"
-              },
-              {
-                "number": 9,
-                "name": "Magnus Nerheim"
-              },
-              {
-                "number": 11,
-                "name": "Sverre Olgar Lindset"
-              },
-              {
-                "number": 25,
-                "name": "Henrik Leao Tomren"
-              }
-            ]
-          }
-        }
-      },
-      "detailFetchedAt": "2026-09-18T20:32:26+02:00"
-    },
     "15149017038": {
       "fiksId": "9177189",
       "date": "2026-09-18",
@@ -3118,18 +2143,6 @@
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00"
     },
-    "15120501069": {
-      "fiksId": "8991160",
-      "date": "2026-09-18",
-      "time": "19:00",
-      "home": "Bud/Bryn",
-      "away": "Batnfjord",
-      "venue": "Bud kunstgress",
-      "homeScore": 0,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
     "15149017021": {
       "fiksId": "9177172",
       "date": "2026-09-18",
@@ -3141,18 +2154,6 @@
       "awayScore": 6,
       "status": "completed",
       "resultAt": "2026-09-21T21:24:14+02:00"
-    },
-    "15120501066": {
-      "fiksId": "8991157",
-      "date": "2026-09-19",
-      "time": "14:00",
-      "home": "Måndalen",
-      "away": "Dahle 2",
-      "venue": "Måndalen stadion",
-      "homeScore": 5,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "15149017024": {
       "fiksId": "9177175",
@@ -3342,34 +2343,6 @@
       "awayScore": 2,
       "status": "completed",
       "resultAt": "2026-09-22T00:41:32+02:00"
-    },
-    "15120501067": {
-      "fiksId": "8991158",
-      "date": "2026-09-20",
-      "time": "14:00",
-      "home": "Molde 3",
-      "away": "Hjelset-Kleive",
-      "venue": "Molde kunstgress",
-      "attempts": 1,
-      "lastAttemptAt": "2026-09-20T16:08:36+02:00",
-      "homeScore": 5,
-      "awayScore": 0,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
-    },
-    "15120501068": {
-      "fiksId": "8991159",
-      "date": "2026-09-20",
-      "time": "14:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Malmefjorden",
-      "venue": "Bruhagen kunstgressbane",
-      "attempts": 1,
-      "lastAttemptAt": "2026-09-20T16:08:36+02:00",
-      "homeScore": 4,
-      "awayScore": 3,
-      "status": "completed",
-      "resultAt": "2026-09-20T19:27:29+02:00"
     },
     "23113123021": {
       "fiksId": "9201490",
@@ -4035,14 +3008,6 @@
       "away": "MTG 7er",
       "venue": "Kiwihallen"
     },
-    "15120501073": {
-      "fiksId": "8991164",
-      "date": "2026-09-23",
-      "time": "19:00",
-      "home": "Dahle 2",
-      "away": "Bud/Bryn",
-      "venue": "Dahle kunstgresspark"
-    },
     "15149017027": {
       "fiksId": "9177178",
       "date": "2026-09-23",
@@ -4147,22 +3112,6 @@
       "away": "Stranda 9er",
       "venue": "Sykkylven stadion"
     },
-    "15120501074": {
-      "fiksId": "8991165",
-      "date": "2026-09-25",
-      "time": "19:00",
-      "home": "Batnfjord",
-      "away": "Vestnes Varfjell",
-      "venue": "Batnfjord stadion"
-    },
-    "15120501072": {
-      "fiksId": "8991163",
-      "date": "2026-09-26",
-      "time": "14:00",
-      "home": "Hjelset-Kleive",
-      "away": "Måndalen",
-      "venue": "Opdølbanen"
-    },
     "23116124029": {
       "fiksId": "9196241",
       "date": "2026-09-26",
@@ -4170,14 +3119,6 @@
       "home": "Sykkylven 2",
       "away": "Ørskog/Stordal",
       "venue": "Sykkylven stadion"
-    },
-    "15120501071": {
-      "fiksId": "8991162",
-      "date": "2026-09-27",
-      "time": "14:00",
-      "home": "Malmefjorden",
-      "away": "Molde 3",
-      "venue": "Malmefjorden stadion"
     },
     "23113123035": {
       "fiksId": "9201526",
@@ -4194,14 +3135,6 @@
       "home": "Bergsøy",
       "away": "Hareid",
       "venue": "Havila Stadion Fosnavåg"
-    },
-    "15120501075": {
-      "fiksId": "8991166",
-      "date": "2026-09-28",
-      "time": "19:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Nordlandet/Frei",
-      "venue": "Bruhagen kunstgressbane"
     },
     "23214107036": {
       "fiksId": "9200068",
@@ -4259,14 +3192,6 @@
       "away": "Spjelkavik 2",
       "venue": "Harøy Kunstgrasbane"
     },
-    "15120501078": {
-      "fiksId": "8991169",
-      "date": "2026-09-30",
-      "time": "19:00",
-      "home": "Dahle 2",
-      "away": "Vestnes Varfjell",
-      "venue": "Dahle kunstgresspark"
-    },
     "23113123031": {
       "fiksId": "9201516",
       "date": "2026-10-01",
@@ -4307,14 +3232,6 @@
       "away": "Ravn/Norborg",
       "venue": "Langevåg kunstgras 1"
     },
-    "15120501080": {
-      "fiksId": "8991171",
-      "date": "2026-10-01",
-      "time": "19:00",
-      "home": "Nordlandet/Frei",
-      "away": "Batnfjord",
-      "venue": "Omsundet stadion"
-    },
     "15149017032": {
       "fiksId": "9177183",
       "date": "2026-10-01",
@@ -4347,22 +3264,6 @@
       "away": "Sykkylven 2",
       "venue": "Stranda stadion kg 11er"
     },
-    "15120501079": {
-      "fiksId": "8991170",
-      "date": "2026-10-02",
-      "time": "19:00",
-      "home": "Bud/Bryn",
-      "away": "Hjelset-Kleive",
-      "venue": "Bryn kunstgress"
-    },
-    "15120501076": {
-      "fiksId": "8991167",
-      "date": "2026-10-03",
-      "time": "14:00",
-      "home": "Måndalen",
-      "away": "Malmefjorden",
-      "venue": "Måndalen stadion"
-    },
     "23113126023": {
       "fiksId": "9204253",
       "date": "2026-10-03",
@@ -4387,22 +3288,6 @@
       "away": "Spjelkavik",
       "venue": "Hareidsmyrane KGB"
     },
-    "15120501077": {
-      "fiksId": "8991168",
-      "date": "2026-10-04",
-      "time": "16:00",
-      "home": "Molde 3",
-      "away": "Kårvåg/Havørn/Averøykameratene",
-      "venue": "Molde kunstgress"
-    },
-    "15120501084": {
-      "fiksId": "8991175",
-      "date": "2026-10-07",
-      "time": "19:00",
-      "home": "Dahle 2",
-      "away": "Batnfjord",
-      "venue": "Dahle kunstgresspark"
-    },
     "15149017036": {
       "fiksId": "9177187",
       "date": "2026-10-07",
@@ -4410,30 +3295,6 @@
       "home": "FCK 2 7er",
       "away": "Dahle 3 7er",
       "venue": "Kristiansund kunstgress 7er A"
-    },
-    "15120501085": {
-      "fiksId": "8991176",
-      "date": "2026-10-08",
-      "time": "19:20",
-      "home": "Molde 3",
-      "away": "Nordlandet/Frei",
-      "venue": "Molde kunstgress"
-    },
-    "15120501081": {
-      "fiksId": "8991172",
-      "date": "2026-10-10",
-      "time": "14:00",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Måndalen",
-      "venue": "Kårvåg stadion"
-    },
-    "15120501083": {
-      "fiksId": "8991174",
-      "date": "2026-10-10",
-      "time": "14:00",
-      "home": "Hjelset-Kleive",
-      "away": "Vestnes Varfjell",
-      "venue": "Opdølbanen"
     },
     "15149017039": {
       "fiksId": "9177190",
@@ -4482,14 +3343,6 @@
       "home": "Giske/Øyne 4 9er",
       "away": "MTG 7er",
       "venue": "Godøy KGB"
-    },
-    "15120501057": {
-      "fiksId": "8991148",
-      "date": "2026-10-13",
-      "time": "19:20",
-      "home": "Molde 3",
-      "away": "Batnfjord",
-      "venue": "Reknesbanen"
     },
     "15149017044": {
       "fiksId": "9177195",
