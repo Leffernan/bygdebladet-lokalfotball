@@ -195,6 +195,52 @@
         "kamp"
       ],
       "enabled": true
+    },
+    {
+      "id": "orskog",
+      "name": "Ørskog IL",
+      "teamTokens": [
+        "Ørskog",
+        "Ørskog/Stordal"
+      ],
+      "indexUrls": [
+        "https://orskogil.no/"
+      ],
+      "allowedHosts": [
+        "orskogil.no",
+        "www.orskogil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheiter",
+        "nyheter"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "haroy",
+      "name": "Harøy IL",
+      "teamTokens": [
+        "Harøy",
+        "Harøy/HaNo/Lepsøy",
+        "HaNo/Harøy/Lepsøy",
+        "HaNo/Lepsøy/Harøy"
+      ],
+      "indexUrls": [
+        "https://www.haroyil.no/"
+      ],
+      "allowedHosts": [
+        "haroyil.no",
+        "www.haroyil.no"
+      ],
+      "pathHints": [
+        "fotball",
+        "kamp",
+        "nyheiter",
+        "nyheter"
+      ],
+      "enabled": true
     }
   ]
 }
