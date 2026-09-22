@@ -214,27 +214,42 @@ def _event_from_segment(segment, players, side, reverse=False):
         return sub
 
     player, player_i = _known_player(segment, players, side, reverse=reverse)
-    if not player:
-        return None
+    if player:
+        lo = max(0, player_i - 2)
+        hi = min(len(segment), player_i + 3)
+        event_type, label = _event_kind(segment[lo:hi])
+        if event_type:
+            return {
+                "type": event_type,
+                "team": side,
+                "player": player,
+                "label": label,
+            }
 
-    lo = max(0, player_i - 2)
-    hi = min(len(segment), player_i + 3)
-    event_type, label = _event_kind(segment[lo:hi])
-    if not event_type:
-        return None
+    # NFF can publish a scoring event without exposing player information.
+    # The event itself is still factual and must not disappear from the feed.
+    event_type, label = _event_kind(segment)
+    if event_type == "goal":
+        folded = " ".join(clean(x).casefold() for x in segment)
+        unavailable = (
+            "personinfo ikke tilgjengelig" in folded
+            or "personinfo ikkje tilgjengeleg" in folded
+            or "personinformasjon ikke tilgjengelig" in folded
+        )
+        if unavailable or label:
+            return {
+                "type": "goal",
+                "team": side,
+                "player": "Personinfo ikkje tilgjengeleg",
+                "label": label or "Spillemål",
+                "personUnavailable": True,
+            }
 
-    return {
-        "type": event_type,
-        "team": side,
-        "player": player,
-        "label": label,
-    }
+    return None
 
 
 def _extract_events(lines, lineups):
     players = _player_map(lineups)
-    if not players:
-        return []
 
     minute_indexes = [
         i for i, line in enumerate(lines)
