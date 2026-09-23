@@ -209,7 +209,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-09-22T21:15:49+02:00",
+      "updatedAt": "2026-09-23T20:46:17+02:00",
       "standings": [
         {
           "position": 1,
@@ -261,27 +261,27 @@
         },
         {
           "position": 5,
-          "team": "Valder 2",
+          "team": "Bergsøy",
           "played": 5,
           "wins": 2,
-          "draws": 0,
-          "losses": 3,
-          "gf": 17,
-          "ga": 23,
-          "gd": -6,
-          "points": 6
+          "draws": 2,
+          "losses": 1,
+          "gf": 19,
+          "ga": 16,
+          "gd": 3,
+          "points": 8
         },
         {
           "position": 6,
-          "team": "Bergsøy",
-          "played": 4,
-          "wins": 1,
-          "draws": 2,
-          "losses": 1,
-          "gf": 16,
-          "ga": 15,
-          "gd": 1,
-          "points": 5
+          "team": "Valder 2",
+          "played": 6,
+          "wins": 2,
+          "draws": 0,
+          "losses": 4,
+          "gf": 18,
+          "ga": 26,
+          "gd": -8,
+          "points": 6
         },
         {
           "position": 7,
@@ -336,7 +336,7 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-09-21T21:24:14+02:00",
+      "updatedAt": "2026-09-23T20:46:17+02:00",
       "standings": [
         {
           "position": 1,
@@ -364,6 +364,18 @@
         },
         {
           "position": 3,
+          "team": "Langfjorden/Skåla",
+          "played": 6,
+          "wins": 2,
+          "draws": 2,
+          "losses": 2,
+          "gf": 18,
+          "ga": 20,
+          "gd": -2,
+          "points": 8
+        },
+        {
+          "position": 4,
           "team": "Molde 2",
           "played": 4,
           "wins": 2,
@@ -375,28 +387,16 @@
           "points": 7
         },
         {
-          "position": 4,
-          "team": "Langfjorden/Skåla",
+          "position": 5,
+          "team": "Dahle 3 7er",
           "played": 5,
           "wins": 2,
           "draws": 1,
           "losses": 2,
-          "gf": 16,
-          "ga": 18,
-          "gd": -2,
-          "points": 7
-        },
-        {
-          "position": 5,
-          "team": "Dahle 3 7er",
-          "played": 4,
-          "wins": 2,
-          "draws": 0,
-          "losses": 2,
-          "gf": 10,
-          "ga": 14,
+          "gf": 12,
+          "ga": 16,
           "gd": -4,
-          "points": 6
+          "points": 7
         },
         {
           "position": 6,
@@ -439,7 +439,7 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-22T21:15:49+02:00",
+      "updatedAt": "2026-09-23T20:46:17+02:00",
       "standings": [
         {
           "position": 1,
@@ -504,13 +504,13 @@
         {
           "position": 6,
           "team": "Emblem",
-          "played": 5,
+          "played": 6,
           "wins": 2,
           "draws": 1,
-          "losses": 2,
-          "gf": 16,
-          "ga": 16,
-          "gd": 0,
+          "losses": 3,
+          "gf": 18,
+          "ga": 23,
+          "gd": -5,
           "points": 7
         },
         {
@@ -527,6 +527,18 @@
         },
         {
           "position": 8,
+          "team": "Sykkylven 2",
+          "played": 7,
+          "wins": 2,
+          "draws": 0,
+          "losses": 5,
+          "gf": 30,
+          "ga": 32,
+          "gd": -2,
+          "points": 6
+        },
+        {
+          "position": 9,
           "team": "Ørsta 2 7er",
           "played": 5,
           "wins": 2,
@@ -536,18 +548,6 @@
           "ga": 26,
           "gd": -5,
           "points": 6
-        },
-        {
-          "position": 9,
-          "team": "Sykkylven 2",
-          "played": 6,
-          "wins": 1,
-          "draws": 0,
-          "losses": 5,
-          "gf": 23,
-          "ga": 30,
-          "gd": -7,
-          "points": 3
         },
         {
           "position": 10,
