@@ -14,5 +14,15 @@ assert(card.indexOf('match-card-headline')<card.indexOf('match-meta'),'Card head
 assert(hero.indexOf('featured-editorial')<hero.indexOf('featured-teams'),'Featured title must appear above scoreboard');
 assert(dialog.indexOf('dialog-editorial-headline')<dialog.indexOf('dialog-scoreboard'),'Dialog headline must appear above scoreboard');
 assert(code.includes('data-panel="report">${reportStory(m)}${photoGallery(m)}'),'Story must appear before photos in report');
+const html=fs.readFileSync('index.html','utf8');
+assert(hero.includes('featured-card featured-clickable" role="button" tabindex="0"'),'Featured match must be a keyboard-accessible clickable card');
+assert(hero.includes("featured.onclick=()=>openMatch(m.id)"),'Click anywhere on featured match must open it');
+assert(hero.includes("featured.onkeydown=e=>"),'Featured match must support keyboard activation');
+assert(!hero.includes('featured-status')&&!hero.includes('<span>SLUTT</span>'),'Featured match must not show SLUTT');
+assert(!code.includes('AUTOMATISK GENERERT'),'Remove automatic-generation badge');
+assert(code.includes('Referatet er laga på grunnlag av offentlege kampdata. Informasjonen kan vere mangelfull, og kampbiletet blir ikkje skildra utover det opplysningane gir grunnlag for.'),'Correct public data disclaimer missing');
+assert(html.includes('<h1>Lokalfotballen i Bygdebladet-distriktet</h1>'),'Requested hero title missing');
+assert(html.includes('Har du bilde frå ein kamp?'),'Requested photo CTA missing');
+assert(html.includes('Resultat og faktabaserte kampreferat frå aldersbestemt fotball, G13/J13 og oppover – samla for laga i Bygdebladet-distriktet.'),'Existing lede must be preserved');
 new vm.Script(code,{filename:'app.js'});
 console.log('Frontend syntax and wiring smoke checks passed.');
