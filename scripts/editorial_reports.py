@@ -141,6 +141,8 @@ def generate(match):
     winning = match[side] if side else None
     losing = match["away" if side == "home" else "home"] if side else None
     win_goals = match["homeScore" if side == "home" else "awayScore"] if side else None
+    lose_goals = match["awayScore" if side == "home" else "homeScore"] if side else None
+    result = f"{win_goals}–{lose_goals}" if side else f"{hs}–{ac}"
     goals, complete, ordered = goal_data(match)
     known = scorers(e for e in goals if side and e["team"] == side)
     name, count = known.most_common(1)[0] if known else (None, 0)
@@ -153,7 +155,7 @@ def generate(match):
     total = hs + ac
 
     if all_by_one:
-        title = f"{name} herja framfor mål – {winning} vann {win_goals}–{match['awayScore' if side == 'home' else 'homeScore']}"
+        title = f"{name} herja framfor mål – {winning} vann {result}"
     elif decisive:
         event, _ = decisive
         if not anonymous(event) and not own_goal(event):
@@ -161,8 +163,10 @@ def generate(match):
         else:
             title = f"Seint vinnarmål sikra {winning} sigeren"
     elif comeback:
-        title = f"{winning} snudde kampen og vann {hs}–{ac}"
-    elif side and count >= 3:
+        title = f"{winning} snudde kampen og vann {result}"
+    elif side and count >= 4:
+        title = f"{number(count).capitalize()} mål av {name} då {winning} vann"
+    elif side and count == 3:
         title = f"Hattrick av {name} då {winning} vann"
     elif side and abs(hs-ac) >= 5:
         title = f"{winning} vann stort mot {losing}"
@@ -173,11 +177,11 @@ def generate(match):
     elif not side:
         title = f"Poengdeling mellom {home} og {away}"
     else:
-        title = f"{winning} vann {hs}–{ac} mot {losing}"
+        title = f"{winning} vann {result} mot {losing}"
 
     competition = str(match.get("competition") or match.get("age") or "aldersbestemt fotball")
     if side:
-        lead = f"{winning} vann {hs}–{ac} mot {losing} i {competition}."
+        lead = f"{winning} vann {result} mot {losing} i {competition}."
     else:
         lead = f"{home} og {away} spelte {hs}–{ac} i {competition}."
     if all_by_one:
@@ -207,8 +211,11 @@ def generate(match):
             who = str(event.get("player") or "").strip()
             actor = who if not anonymous(event) and not own_goal(event) else winning
             paras.append(
-                f"Med eit mål i det {event['minute']}. minuttet sende {actor} {winning} "
-                f"i leiinga for godt. Då var stillinga {after['home']}–{after['away']}."
+                f"I det {event['minute']}. minuttet skåra {actor} for {winning}. "
+                f"Målet sende laget i leiinga for godt, og stillinga vart {after['home']}–{after['away']}."
+            ) if actor != winning else paras.append(
+                f"I det {event['minute']}. minuttet kom målet som sende {winning} i leiinga for godt. "
+                f"Då var stillinga {after['home']}–{after['away']}."
             )
         elif comeback:
             paras.append(f"{winning} var bakpå undervegs, men snudde oppgjeret til siger.")
@@ -219,7 +226,7 @@ def generate(match):
         if all_by_one:
             paras.append(f"{name} stod for samtlege {number(win_goals)} mål til vinnarlaget og sikra seg hattrick.")
         else:
-            paras.append(f"{name} leverte hattrick med {number(count)} registrerte mål for {winning}.")
+            paras.append(f"{name} noterte seg for {number(count)} mål for {winning}" + (" og sikra seg hattrick." if count == 3 else "."))
     elif name and count == 2 and complete:
         paras.append(f"{name} noterte seg for to av måla til {winning}.")
     if not complete:
