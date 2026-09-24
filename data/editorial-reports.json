@@ -1,0 +1,664 @@
+{
+  "version": 1,
+  "reports": {
+    "23214107032": {
+      "title": "Målfest og poengdeling mellom Ørskog og Skodje 2 7er",
+      "lead": "Ørskog og Skodje 2 7er spelte 6–6 i J15 3. div høst. Heile 12 mål vart registrerte.",
+      "paragraphs": [],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23214107034": {
+      "title": "Målfest og poengdeling mellom HaNo/Lepsøy/Harøy 9er og Giske/Øyne 4 9er",
+      "lead": "HaNo/Lepsøy/Harøy 9er og Giske/Øyne 4 9er spelte 3–3 i J15 3. div høst. Heile seks mål vart registrerte.",
+      "paragraphs": [
+        "Til pause stod det 3–2."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23113126021": {
+      "title": "Seint vinnarmål sikra Hareid 2 sigeren",
+      "lead": "Hareid 2 vann 1–2 mot Brattvåg 2 i G13 3. div avd. 2 høst. Vinnarmålet kom i det 69. minuttet.",
+      "paragraphs": [
+        "Til pause stod det 0–1.",
+        "Filip Oliwer Kmiec stod for det første målet etter 38 minutt og sende stillinga til 0–1.",
+        "Med eit mål i det 69. minuttet sende Hareid 2 Hareid 2 i leiinga for godt. Då var stillinga 1–2."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23116124026": {
+      "title": "Hattrick av Andreas Silseth Harnes då HaNo/Harøy/Lepsøy vann",
+      "lead": "HaNo/Harøy/Lepsøy vann 7–4 mot Valder 2 i G16 2. div høst. Andreas Silseth Harnes skåra fire av måla.",
+      "paragraphs": [
+        "Til pause stod det 5–3.",
+        "Andreas Silseth Harnes stod for det første målet etter 2 minutt og sende stillinga til 1–0.",
+        "Andreas Silseth Harnes leverte hattrick med fire registrerte mål for HaNo/Harøy/Lepsøy."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23116124025": {
+      "title": "Hattrick av Marcus Karl Cevallos då Ørskog/Stordal vann",
+      "lead": "Ørskog/Stordal vann 1–9 mot Stranda 9er i G16 2. div høst. Marcus Karl Cevallos skåra tre av måla.",
+      "paragraphs": [
+        "Til pause stod det 1–6.",
+        "Marcus Karl Cevallos stod for det første målet etter 4 minutt og sende stillinga til 0–1.",
+        "Marcus Karl Cevallos leverte hattrick med tre registrerte mål for Ørskog/Stordal."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "15149017024": {
+      "title": "Hattrick av Ellen Helgetun Schei då Surnadal/Søya 1 vann",
+      "lead": "Surnadal/Søya 1 vann 8–0 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst. Ellen Helgetun Schei skåra tre av måla.",
+      "paragraphs": [
+        "Til pause stod det 2–0.",
+        "Ellen Helgetun Schei stod for det første målet etter 1 minutt og sende stillinga til 1–0.",
+        "Ellen Helgetun Schei leverte hattrick med tre registrerte mål for Surnadal/Søya 1."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23116124023": {
+      "title": "HaNo/Harøy/Lepsøy vann 1–3 mot Sykkylven",
+      "lead": "HaNo/Harøy/Lepsøy vann 1–3 mot Sykkylven i G16 2. div høst.",
+      "paragraphs": [
+        "Til pause stod det 0–2."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23113126017": {
+      "title": "Guard/Rollon 2 vann 4–3 mot Skodje",
+      "lead": "Guard/Rollon 2 vann 4–3 mot Skodje i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Til pause stod det 2–0."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23113123023": {
+      "title": "Hattrick av Mitan Alahmad då Langevåg vann",
+      "lead": "Langevåg vann 0–7 mot Brattvåg i G13 1. div høst. Mitan Alahmad skåra tre av måla.",
+      "paragraphs": [
+        "Til pause stod det 0–4.",
+        "Mitan Alahmad stod for det første målet etter 4 minutt og sende stillinga til 0–1.",
+        "Mitan Alahmad leverte hattrick med tre registrerte mål for Langevåg."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23113126016": {
+      "title": "Hattrick av Adrian Tennfjord Myklebust då Ørskog/Stordal vann",
+      "lead": "Ørskog/Stordal vann 9–1 mot Brattvåg 2 i G13 3. div avd. 2 høst. Adrian Tennfjord Myklebust skåra tre av måla.",
+      "paragraphs": [
+        "Til pause stod det 5–0.",
+        "Adrian Tennfjord Myklebust leverte hattrick med tre registrerte mål for Ørskog/Stordal."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23214107024": {
+      "title": "Emblem vann 4–5 mot Harøy/HaNo/Lepsøy 2 9er",
+      "lead": "Emblem vann 4–5 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
+      "paragraphs": [
+        "Til pause stod det 2–2.",
+        "Sofie Myrstad Schjelderup noterte seg for to av måla til Emblem."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 1
+    },
+    "23113123022": {
+      "title": "Aksla vann 4–1 mot Ravn/Norborg",
+      "lead": "Aksla vann 4–1 mot Ravn/Norborg i G13 1. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107027": {
+      "title": "Poengdeling mellom MTG 7er og Ørskog",
+      "lead": "MTG 7er og Ørskog spelte 2–2 i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107028": {
+      "title": "Skodje 2 7er vann 3–2 mot Sykkylven 2",
+      "lead": "Skodje 2 7er vann 3–2 mot Sykkylven 2 i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107030": {
+      "title": "Ellingsøy/Vigra/Valder 3 vann stort mot Harøy/HaNo/Lepsøy 2 9er",
+      "lead": "Ellingsøy/Vigra/Valder 3 vann 9–2 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23116124020": {
+      "title": "HaNo/Harøy/Lepsøy vann stort mot Stranda 9er",
+      "lead": "HaNo/Harøy/Lepsøy vann 15–2 mot Stranda 9er i G16 2. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23116124019": {
+      "title": "Ørskog/Stordal vann stort mot Hareid",
+      "lead": "Ørskog/Stordal vann 7–1 mot Hareid i G16 2. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126013": {
+      "title": "Aksla 2 vann 1–3 mot Skodje",
+      "lead": "Aksla 2 vann 1–3 mot Skodje i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "15149017019": {
+      "title": "Træff 2 7er vann 2–4 mot Vestnes Varfjell",
+      "lead": "Træff 2 7er vann 2–4 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123020": {
+      "title": "Ørsta vann stort mot Brattvåg",
+      "lead": "Ørsta vann 3–9 mot Brattvåg i G13 1. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126015": {
+      "title": "Ørskog/Stordal vann 3–1 mot Hareid 2",
+      "lead": "Ørskog/Stordal vann 3–1 mot Hareid 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107022": {
+      "title": "Giske/Øyne 4 9er vann 3–5 mot Ørskog",
+      "lead": "Giske/Øyne 4 9er vann 3–5 mot Ørskog i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107023": {
+      "title": "Ørsta 2 7er vann 8–5 mot HaNo/Lepsøy/Harøy 9er",
+      "lead": "Ørsta 2 7er vann 8–5 mot HaNo/Lepsøy/Harøy 9er i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123017": {
+      "title": "Målfest og poengdeling mellom Ravn/Norborg og Herd",
+      "lead": "Ravn/Norborg og Herd spelte 3–3 i G13 1. div høst. Heile seks mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107025": {
+      "title": "Skodje 2 7er vann 3–7 mot Spjelkavik 2",
+      "lead": "Skodje 2 7er vann 3–7 mot Spjelkavik 2 i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126006": {
+      "title": "Hareid 2 vann stort mot Brattvåg 2",
+      "lead": "Hareid 2 vann 8–1 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23116124014": {
+      "title": "HaNo/Harøy/Lepsøy vann 3–2 mot Spjelkavik",
+      "lead": "HaNo/Harøy/Lepsøy vann 3–2 mot Spjelkavik i G16 2. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123014": {
+      "title": "Sykkylven vann stort mot Ravn/Norborg",
+      "lead": "Sykkylven vann 11–1 mot Ravn/Norborg i G13 1. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126010": {
+      "title": "Poengdeling mellom Aksla 2 og Ørskog/Stordal",
+      "lead": "Aksla 2 og Ørskog/Stordal spelte 1–1 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123012": {
+      "title": "Aksla vann stort mot Brattvåg",
+      "lead": "Aksla vann 10–0 mot Brattvåg i G13 1. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126011": {
+      "title": "Skodje vann 0–4 mot Brattvåg 2",
+      "lead": "Skodje vann 0–4 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23116124011": {
+      "title": "Ørskog/Stordal vann 0–2 mot Herd",
+      "lead": "Ørskog/Stordal vann 0–2 mot Herd i G16 2. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107016": {
+      "title": "HaNo/Lepsøy/Harøy 9er vann 5–4 mot Ørskog",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 5–4 mot Ørskog i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107019": {
+      "title": "Skodje 2 7er vann 6–5 mot Harøy/HaNo/Lepsøy 2 9er",
+      "lead": "Skodje 2 7er vann 6–5 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23116124006": {
+      "title": "HaNo/Harøy/Lepsøy vann 2–6 mot Bergsøy",
+      "lead": "HaNo/Harøy/Lepsøy vann 2–6 mot Bergsøy i G16 2. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23116124008": {
+      "title": "Ørskog/Stordal vann 3–1 mot Valder 2",
+      "lead": "Ørskog/Stordal vann 3–1 mot Valder 2 i G16 2. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "15149017009": {
+      "title": "Dahle 3 7er vann 0–2 mot Vestnes Varfjell",
+      "lead": "Dahle 3 7er vann 0–2 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126009": {
+      "title": "Hareid 2 vann 1–4 mot Skodje",
+      "lead": "Hareid 2 vann 1–4 mot Skodje i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126007": {
+      "title": "Aksla 2 vann 4–1 mot Brattvåg 2",
+      "lead": "Aksla 2 vann 4–1 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126008": {
+      "title": "Ørskog/Stordal vann stort mot Guard/Rollon 2",
+      "lead": "Ørskog/Stordal vann 10–1 mot Guard/Rollon 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107011": {
+      "title": "HaNo/Lepsøy/Harøy 9er vann stort mot Sykkylven 2",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 7–13 mot Sykkylven 2 i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123006": {
+      "title": "Herd vann stort mot Brattvåg",
+      "lead": "Herd vann 0–15 mot Brattvåg i G13 1. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107014": {
+      "title": "Harøy/HaNo/Lepsøy 2 9er vann 6–3 mot MTG 7er",
+      "lead": "Harøy/HaNo/Lepsøy 2 9er vann 6–3 mot MTG 7er i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123008": {
+      "title": "Ravn/Norborg vann 4–2 mot Valder",
+      "lead": "Ravn/Norborg vann 4–2 mot Valder i G13 1. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107012": {
+      "title": "Ørskog vann 10–6 mot Ørsta 2 7er",
+      "lead": "Ørskog vann 10–6 mot Ørsta 2 7er i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107013": {
+      "title": "Ellingsøy/Vigra/Valder 3 vann 6–4 mot Skodje 2 7er",
+      "lead": "Ellingsøy/Vigra/Valder 3 vann 6–4 mot Skodje 2 7er i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23116124002": {
+      "title": "Poengdeling mellom Sykkylven og Ørskog/Stordal",
+      "lead": "Sykkylven og Ørskog/Stordal spelte 2–2 i G16 2. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23116124003": {
+      "title": "HaNo/Harøy/Lepsøy vann 4–3 mot Sykkylven 2",
+      "lead": "HaNo/Harøy/Lepsøy vann 4–3 mot Sykkylven 2 i G16 2. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "15149017001": {
+      "title": "Elnesvågen/Bryn/Bud 2 vann stort mot Vestnes Varfjell",
+      "lead": "Elnesvågen/Bryn/Bud 2 vann 6–0 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123004": {
+      "title": "Sykkylven vann stort mot Brattvåg",
+      "lead": "Sykkylven vann 13–1 mot Brattvåg i G13 1. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126005": {
+      "title": "Ørskog/Stordal vann stort mot Skodje",
+      "lead": "Ørskog/Stordal vann 5–0 mot Skodje i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107008": {
+      "title": "Giske/Øyne 4 9er vann 4–2 mot Harøy/HaNo/Lepsøy 2 9er",
+      "lead": "Giske/Øyne 4 9er vann 4–2 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123002": {
+      "title": "Spjelkavik vann 4–0 mot Ravn/Norborg",
+      "lead": "Spjelkavik vann 4–0 mot Ravn/Norborg i G13 1. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107007": {
+      "title": "HaNo/Lepsøy/Harøy 9er vann stort mot Spjelkavik 2",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 6–1 mot Spjelkavik 2 i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107010": {
+      "title": "Skodje 2 7er vann 5–3 mot Emblem",
+      "lead": "Skodje 2 7er vann 5–3 mot Emblem i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107004": {
+      "title": "HaNo/Lepsøy/Harøy 9er vann 3–6 mot Harøy/HaNo/Lepsøy 2 9er",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 3–6 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126001": {
+      "title": "Ørskog/Stordal vann stort mot Brattvåg 2",
+      "lead": "Ørskog/Stordal vann 0–7 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113126002": {
+      "title": "Guard/Rollon 2 vann stort mot Skodje",
+      "lead": "Guard/Rollon 2 vann 0–5 mot Skodje i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23214107001": {
+      "title": "Ørskog vann 2–4 mot Sykkylven 2",
+      "lead": "Ørskog vann 2–4 mot Sykkylven 2 i J15 3. div høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    }
+  }
+}
