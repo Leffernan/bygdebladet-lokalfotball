@@ -1,0 +1,11 @@
+const fs=require('node:fs');
+const assert=require('node:assert/strict');
+const vm=require('node:vm');
+const code=fs.readFileSync('app.js','utf8');
+assert(code.includes("data/editorial-reports.json"),'Editorial JSON source missing');
+assert(code.includes("function reportStory(m)"),'Report rendering missing');
+assert(code.includes("function bindPhotoFallbacks(root){$$("),'Photo query must return a list');
+assert(code.includes("$$('.match-tab',$('#matchDialog')).forEach"),'Tab query must return a list');
+assert(code.includes("function editorialStory(m)"),'Editorial report lookup missing');
+new vm.Script(code,{filename:'app.js'});
+console.log('Frontend syntax and wiring smoke checks passed.');
