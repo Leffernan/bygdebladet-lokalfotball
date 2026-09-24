@@ -1,7 +1,138 @@
 {
-  "generatedAt": "2026-09-24T06:34:55+02:00",
+  "generatedAt": "2026-09-24T20:30:01+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9204245",
+      "fiksId": "9204245",
+      "matchNumber": "23113126020",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204245",
+      "date": "2026-09-24",
+      "time": "18:30",
+      "age": "G13",
+      "competition": "G13 3. div avd. 2 høst",
+      "competitionId": "g13-3-div-avd-2-host",
+      "venue": "Skodje Kunstgras 1",
+      "home": "Skodje",
+      "away": "Ørskog/Stordal",
+      "homeScore": 1,
+      "awayScore": 4,
+      "halfTime": "0–1",
+      "localTeam": "both",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Selvmål",
+          "personUnavailable": true,
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Olav Bueide Henden",
+          "label": "Spillemål",
+          "minute": 54
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Filip Robert Cedro",
+          "label": "Spillemål",
+          "minute": 61
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Jørgen Gjerde Ramsvik"
+      },
+      "referee": "Jørgen Gjerde Ramsvik",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 8,
+              "name": "Matheus Grønbeck Grytten"
+            },
+            {
+              "number": 49,
+              "name": "Dominik Hyrycz"
+            },
+            {
+              "number": 15,
+              "name": "Even Farstad"
+            },
+            {
+              "number": 42,
+              "name": "Sakarias Ellefsen Hildre"
+            },
+            {
+              "number": 48,
+              "name": "Mathias Berge Honningdal"
+            },
+            {
+              "number": 11,
+              "name": "Christian Solholm"
+            }
+          ],
+          "bench": [
+            {
+              "number": 7,
+              "name": "Joakim Gundersen"
+            },
+            {
+              "number": 18,
+              "name": "Filip Rødset Runde"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 30,
+              "name": "Matheo Longva Austnes"
+            },
+            {
+              "number": 32,
+              "name": "Filip Robert Cedro"
+            },
+            {
+              "number": 37,
+              "name": "Adrian Tennfjord Myklebust"
+            },
+            {
+              "number": 42,
+              "name": "Adrian Fylling Sjøholt"
+            },
+            {
+              "number": 36,
+              "name": "Even Vestre Braute"
+            }
+          ],
+          "bench": [
+            {
+              "number": 8,
+              "name": "Olav Bueide Henden"
+            },
+            {
+              "number": 31,
+              "name": "Odin Storheim Homlong"
+            }
+          ]
+        }
+      }
+    },
     {
       "id": "match-9200064",
       "fiksId": "9200064",

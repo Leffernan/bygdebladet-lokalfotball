@@ -3,22 +3,34 @@
     "g13-1-div-host": {
       "name": "G13 1. div høst",
       "tournamentId": "209849",
-      "updatedAt": "2026-09-24T06:34:44+02:00",
+      "updatedAt": "2026-09-24T20:29:52+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Aksla",
-          "played": 5,
-          "wins": 5,
+          "played": 6,
+          "wins": 6,
           "draws": 0,
           "losses": 0,
-          "gf": 34,
-          "ga": 7,
-          "gd": 27,
-          "points": 15
+          "gf": 37,
+          "ga": 8,
+          "gd": 29,
+          "points": 18
         },
         {
           "position": 2,
+          "team": "Sykkylven",
+          "played": 6,
+          "wins": 5,
+          "draws": 0,
+          "losses": 1,
+          "gf": 39,
+          "ga": 11,
+          "gd": 28,
+          "points": 15
+        },
+        {
+          "position": 3,
           "team": "Spjelkavik",
           "played": 5,
           "wins": 4,
@@ -30,27 +42,15 @@
           "points": 13
         },
         {
-          "position": 3,
-          "team": "Sykkylven",
-          "played": 5,
-          "wins": 4,
-          "draws": 0,
-          "losses": 1,
-          "gf": 34,
-          "ga": 10,
-          "gd": 24,
-          "points": 12
-        },
-        {
           "position": 4,
           "team": "Rollon/Guard",
-          "played": 5,
+          "played": 6,
           "wins": 2,
           "draws": 2,
-          "losses": 1,
-          "gf": 13,
-          "ga": 8,
-          "gd": 5,
+          "losses": 2,
+          "gf": 14,
+          "ga": 11,
+          "gd": 3,
           "points": 8
         },
         {
@@ -104,13 +104,13 @@
         {
           "position": 9,
           "team": "Valder",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 0,
-          "losses": 5,
-          "gf": 6,
-          "ga": 39,
-          "gd": -33,
+          "losses": 6,
+          "gf": 7,
+          "ga": 44,
+          "gd": -37,
           "points": 0
         },
         {
@@ -130,19 +130,19 @@
     "g13-3-div-avd-2-host": {
       "name": "G13 3. div avd. 2 høst",
       "tournamentId": "209852",
-      "updatedAt": "2026-09-24T06:34:44+02:00",
+      "updatedAt": "2026-09-24T20:29:52+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Ørskog/Stordal",
-          "played": 6,
-          "wins": 5,
+          "played": 7,
+          "wins": 6,
           "draws": 1,
           "losses": 0,
-          "gf": 35,
-          "ga": 4,
-          "gd": 31,
-          "points": 16
+          "gf": 39,
+          "ga": 5,
+          "gd": 34,
+          "points": 19
         },
         {
           "position": 2,
@@ -183,13 +183,13 @@
         {
           "position": 5,
           "team": "Skodje",
-          "played": 6,
+          "played": 7,
           "wins": 1,
           "draws": 0,
-          "losses": 5,
-          "gf": 9,
-          "ga": 21,
-          "gd": -12,
+          "losses": 6,
+          "gf": 10,
+          "ga": 25,
+          "gd": -15,
           "points": 3
         },
         {
@@ -439,7 +439,7 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-24T06:34:44+02:00",
+      "updatedAt": "2026-09-24T20:29:52+02:00",
       "standings": [
         {
           "position": 1,

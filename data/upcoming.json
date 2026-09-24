@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-09-24T06:34:55+02:00",
+  "generatedAt": "2026-09-24T20:30:01+02:00",
   "matches": [
-    {
-      "date": "2026-09-24",
-      "time": "18:30",
-      "age": "G13",
-      "competition": "G13 1. div høst",
-      "venue": "Uggedal kunstgras",
-      "home": "Ravn/Norborg",
-      "away": "Brattvåg",
-      "matchNumber": "23113123026",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201503"
-    },
-    {
-      "date": "2026-09-24",
-      "time": "18:30",
-      "age": "G13",
-      "competition": "G13 3. div avd. 2 høst",
-      "venue": "Skodje Kunstgras 1",
-      "home": "Skodje",
-      "away": "Ørskog/Stordal",
-      "matchNumber": "23113126020",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204245"
-    },
     {
       "date": "2026-09-24",
       "time": "19:00",

@@ -1,6 +1,19 @@
 {
   "version": 1,
   "reports": {
+    "23113126020": {
+      "title": "Ørskog/Stordal vann 4–1 mot Skodje",
+      "lead": "Ørskog/Stordal vann 4–1 mot Skodje i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Til pause stod det 0–1.",
+        "Etter pause skåra Skodje eitt mål og Ørskog/Stordal tre mål.",
+        "NFF har ikkje ei fullstendig målrekkje registrert for oppgjeret. Berre stadfesta målscorarar og minutt blir viste."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
     "23214107032": {
       "title": "Målfest og poengdeling mellom Ørskog og Skodje 2 7er",
       "lead": "Ørskog og Skodje 2 7er spelte 6–6 i J15 3. div høst. Heile 12 mål vart registrerte.",
