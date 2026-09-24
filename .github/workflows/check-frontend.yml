@@ -1,0 +1,23 @@
+name: Check frontend
+
+on:
+  push:
+    paths:
+      - "app.js"
+      - "index.html"
+      - "tests/check_frontend.js"
+      - ".github/workflows/check-frontend.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JavaScript syntax
+        run: node --check app.js
+      - name: Frontend smoke test
+        run: node tests/check_frontend.js
