@@ -112,9 +112,9 @@ def did_turn(match, ordered):
     if not side:
         return False
     other = "away" if side == "home" else "home"
-    half = re.fullmatch(r"\s*(\d+)\s*[-–:]\s*(\d+)\s*", str(match.get("halfTime") or ""))
+    half = safe_half(match)
     if half:
-        values = {"home": int(half.group(1)), "away": int(half.group(2))}
+        values = {"home": half[0], "away": half[1]}
         if values[side] < values[other]:
             return True
     if ordered:
@@ -229,6 +229,24 @@ def generate(match):
             paras.append(f"{name} noterte seg for {number(count)} mål for {winning}" + (" og sikra seg hattrick." if count == 3 else "."))
     elif name and count == 2 and complete:
         paras.append(f"{name} noterte seg for to av måla til {winning}.")
+
+    if not side:
+        for team_side, team in (("home", home), ("away", away)):
+            players = scorers(e for e in goals if e["team"] == team_side)
+            multi = [(player, n) for player, n in players.most_common() if n >= 2]
+            if multi:
+                parts = [f"{player} ({number(n)} mål)" for player, n in multi[:3]]
+                paras.append(f"For {team} var " + ", ".join(parts) + " blant dei registrerte målscorarane.")
+
+    if half and (hs + ac) > sum(half) and not decisive:
+        h_after, a_after = hs - half[0], ac - half[1]
+        if h_after > 0 and a_after > 0:
+            paras.append(f"Etter pause skåra {home} {number(h_after)} mål og {away} {number(a_after)}.")
+        elif h_after > 0:
+            paras.append(f"Etter pause stod {home} for {number(h_after)} nye mål.")
+        elif a_after > 0:
+            paras.append(f"Etter pause stod {away} for {number(a_after)} nye mål.")
+
     if not complete:
         if goals:
             paras.append("NFF har ikkje ei fullstendig målrekkje registrert for oppgjeret. Berre stadfesta målscorarar og minutt blir viste.")
