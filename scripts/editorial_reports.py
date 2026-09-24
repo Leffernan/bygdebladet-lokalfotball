@@ -235,17 +235,21 @@ def generate(match):
             players = scorers(e for e in goals if e["team"] == team_side)
             multi = [(player, n) for player, n in players.most_common() if n >= 2]
             if multi:
-                parts = [f"{player} ({number(n)} mål)" for player, n in multi[:3]]
-                paras.append(f"For {team} var " + ", ".join(parts) + " blant dei registrerte målscorarane.")
+                if len(multi) == 1:
+                    player, n = multi[0]
+                    paras.append(f"{player} skåra {number(n)} av måla til {team}.")
+                else:
+                    parts = [f"{player} ({number(n)} mål)" for player, n in multi[:3]]
+                    paras.append(f"For {team} noterte desse seg for fleire mål: " + ", ".join(parts) + ".")
 
     if half and (hs + ac) > sum(half) and not decisive:
         h_after, a_after = hs - half[0], ac - half[1]
         if h_after > 0 and a_after > 0:
-            paras.append(f"Etter pause skåra {home} {number(h_after)} mål og {away} {number(a_after)}.")
+            paras.append(f"Etter pause skåra {home} {number(h_after)} mål og {away} {number(a_after)} mål.")
         elif h_after > 0:
-            paras.append(f"Etter pause stod {home} for {number(h_after)} nye mål.")
+            paras.append(f"Etter pause stod {home} for " + ("eitt mål til." if h_after == 1 else f"{number(h_after)} nye mål."))
         elif a_after > 0:
-            paras.append(f"Etter pause stod {away} for {number(a_after)} nye mål.")
+            paras.append(f"Etter pause stod {away} for " + ("eitt mål til." if a_after == 1 else f"{number(a_after)} nye mål."))
 
     if not complete:
         if goals:
