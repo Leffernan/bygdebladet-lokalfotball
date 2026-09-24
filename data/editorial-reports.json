@@ -1,6 +1,32 @@
 {
   "version": 1,
   "reports": {
+    "15149017028": {
+      "title": "Molde 2 vann 2–1 mot Vestnes Varfjell",
+      "lead": "Molde 2 vann 2–1 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst.",
+      "paragraphs": [
+        "Til pause stod det 1–1.",
+        "Etter pause stod Molde 2 for eitt mål til.",
+        "NFF har ikkje ei fullstendig målrekkje registrert for oppgjeret. Berre stadfesta målscorarar og minutt blir viste."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
+    "23113123026": {
+      "title": "Ravn/Norborg vann 4–0 mot Brattvåg",
+      "lead": "Ravn/Norborg vann 4–0 mot Brattvåg i G13 1. div høst.",
+      "paragraphs": [
+        "Til pause stod det 1–0.",
+        "Etter pause stod Ravn/Norborg for tre nye mål.",
+        "NFF har ikkje ei fullstendig målrekkje registrert for oppgjeret. Berre stadfesta målscorarar og minutt blir viste."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 1
+    },
     "23113126020": {
       "title": "Ørskog/Stordal vann 4–1 mot Skodje",
       "lead": "Ørskog/Stordal vann 4–1 mot Skodje i G13 3. div avd. 2 høst.",

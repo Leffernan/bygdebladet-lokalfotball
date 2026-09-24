@@ -3,7 +3,7 @@
     "g13-1-div-host": {
       "name": "G13 1. div høst",
       "tournamentId": "209849",
-      "updatedAt": "2026-09-24T20:29:52+02:00",
+      "updatedAt": "2026-09-24T23:44:14+02:00",
       "standings": [
         {
           "position": 1,
@@ -43,6 +43,18 @@
         },
         {
           "position": 4,
+          "team": "Ørsta",
+          "played": 6,
+          "wins": 2,
+          "draws": 2,
+          "losses": 2,
+          "gf": 22,
+          "ga": 13,
+          "gd": 9,
+          "points": 8
+        },
+        {
+          "position": 5,
           "team": "Rollon/Guard",
           "played": 6,
           "wins": 2,
@@ -54,7 +66,7 @@
           "points": 8
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Herd",
           "played": 5,
           "wins": 2,
@@ -66,40 +78,28 @@
           "points": 7
         },
         {
-          "position": 6,
-          "team": "Ørsta",
-          "played": 5,
-          "wins": 2,
-          "draws": 1,
-          "losses": 2,
-          "gf": 20,
-          "ga": 11,
-          "gd": 9,
-          "points": 7
-        },
-        {
           "position": 7,
           "team": "Langevåg",
-          "played": 5,
+          "played": 6,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 3,
-          "gf": 26,
-          "ga": 26,
+          "gf": 28,
+          "ga": 28,
           "gd": 0,
-          "points": 6
+          "points": 7
         },
         {
           "position": 8,
           "team": "Ravn/Norborg",
-          "played": 5,
-          "wins": 1,
+          "played": 6,
+          "wins": 2,
           "draws": 1,
           "losses": 3,
-          "gf": 9,
+          "gf": 13,
           "ga": 24,
-          "gd": -15,
-          "points": 4
+          "gd": -11,
+          "points": 7
         },
         {
           "position": 9,
@@ -116,13 +116,13 @@
         {
           "position": 10,
           "team": "Brattvåg",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 0,
-          "losses": 5,
+          "losses": 6,
           "gf": 4,
-          "ga": 54,
-          "gd": -50,
+          "ga": 58,
+          "gd": -54,
           "points": 0
         }
       ]
@@ -336,7 +336,7 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-09-24T06:34:44+02:00",
+      "updatedAt": "2026-09-24T23:44:14+02:00",
       "standings": [
         {
           "position": 1,
@@ -352,6 +352,18 @@
         },
         {
           "position": 2,
+          "team": "Molde 2",
+          "played": 5,
+          "wins": 3,
+          "draws": 1,
+          "losses": 1,
+          "gf": 14,
+          "ga": 8,
+          "gd": 6,
+          "points": 10
+        },
+        {
+          "position": 3,
           "team": "Elnesvågen/Bryn/Bud 2",
           "played": 5,
           "wins": 2,
@@ -363,7 +375,7 @@
           "points": 9
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Langfjorden/Skåla",
           "played": 6,
           "wins": 2,
@@ -373,18 +385,6 @@
           "ga": 20,
           "gd": -2,
           "points": 8
-        },
-        {
-          "position": 4,
-          "team": "Molde 2",
-          "played": 4,
-          "wins": 2,
-          "draws": 1,
-          "losses": 1,
-          "gf": 12,
-          "ga": 7,
-          "gd": 5,
-          "points": 7
         },
         {
           "position": 5,
@@ -425,13 +425,13 @@
         {
           "position": 8,
           "team": "Vestnes Varfjell",
-          "played": 4,
+          "played": 5,
           "wins": 0,
           "draws": 0,
-          "losses": 4,
-          "gf": 2,
-          "ga": 20,
-          "gd": -18,
+          "losses": 5,
+          "gf": 3,
+          "ga": 22,
+          "gd": -19,
           "points": 0
         }
       ]
@@ -439,7 +439,7 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-24T20:29:52+02:00",
+      "updatedAt": "2026-09-24T23:44:14+02:00",
       "standings": [
         {
           "position": 1,
@@ -455,6 +455,18 @@
         },
         {
           "position": 2,
+          "team": "Ellingsøy/Vigra/Valder 3",
+          "played": 6,
+          "wins": 5,
+          "draws": 0,
+          "losses": 1,
+          "gf": 30,
+          "ga": 13,
+          "gd": 17,
+          "points": 15
+        },
+        {
+          "position": 3,
           "team": "HaNo/Lepsøy/Harøy 9er",
           "played": 6,
           "wins": 4,
@@ -466,7 +478,7 @@
           "points": 13
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Skodje 2 7er",
           "played": 6,
           "wins": 4,
@@ -478,19 +490,19 @@
           "points": 13
         },
         {
-          "position": 4,
-          "team": "Ellingsøy/Vigra/Valder 3",
-          "played": 5,
-          "wins": 4,
+          "position": 5,
+          "team": "Ørsta 2 7er",
+          "played": 6,
+          "wins": 3,
           "draws": 0,
-          "losses": 1,
+          "losses": 3,
           "gf": 26,
-          "ga": 13,
-          "gd": 13,
-          "points": 12
+          "ga": 30,
+          "gd": -4,
+          "points": 9
         },
         {
-          "position": 5,
+          "position": 6,
           "team": "Ørskog",
           "played": 6,
           "wins": 2,
@@ -502,7 +514,7 @@
           "points": 8
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Emblem",
           "played": 6,
           "wins": 2,
@@ -514,19 +526,19 @@
           "points": 7
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Spjelkavik 2",
-          "played": 6,
+          "played": 7,
           "wins": 2,
           "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "gf": 16,
-          "ga": 24,
-          "gd": -8,
+          "ga": 28,
+          "gd": -12,
           "points": 7
         },
         {
-          "position": 8,
+          "position": 9,
           "team": "Sykkylven 2",
           "played": 7,
           "wins": 2,
@@ -535,18 +547,6 @@
           "gf": 30,
           "ga": 32,
           "gd": -2,
-          "points": 6
-        },
-        {
-          "position": 9,
-          "team": "Ørsta 2 7er",
-          "played": 5,
-          "wins": 2,
-          "draws": 0,
-          "losses": 3,
-          "gf": 21,
-          "ga": 26,
-          "gd": -5,
           "points": 6
         },
         {
@@ -564,13 +564,13 @@
         {
           "position": 11,
           "team": "MTG 7er",
-          "played": 6,
+          "played": 7,
           "wins": 0,
           "draws": 3,
-          "losses": 3,
-          "gf": 11,
-          "ga": 23,
-          "gd": -12,
+          "losses": 4,
+          "gf": 15,
+          "ga": 28,
+          "gd": -13,
           "points": 3
         }
       ]
