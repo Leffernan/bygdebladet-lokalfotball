@@ -499,7 +499,20 @@ def main():
                     continue
                 text = article_text(html)
                 score = score_article(text, match, source)
-                if score >= 12:
+                # A generic club page must not masquerade as a match report.
+                # Require opponent identification and the exact final score,
+                # in addition to the existing source/link relevance score.
+                source_team = source_side(match, source)
+                opponents = [match["away" if source_team == "home" else "home"]] if source_team else [match["home"], match["away"]]
+                normalized_article = norm(text)
+                opponent_found = all(any(re.search(r"\\b" + re.escape(word) + r"\\b", normalized_article) for word in team_words(team)) for team in opponents)
+                score_patterns = (
+                    rf"\\b{match['homeScore']}\\s*[-–:]\\s*{match['awayScore']}\\b",
+                    rf"\\b{match['awayScore']}\\s*[-–:]\\s*{match['homeScore']}\\b",
+                )
+                result_found = any(re.search(pattern, strip_marks(text)) for pattern in score_patterns)
+                generic_page = bool(re.search(r"/(?:kontakt|contact|personvern|privacy|om-oss|about)(?:/|$|\\?)", urlparse(url).path, re.I))
+                if score >= 12 and opponent_found and result_found and len(text) >= 150 and not generic_page:
                     found = {
                         "source":source,
                         "url":url,
