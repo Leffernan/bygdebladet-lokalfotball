@@ -83,6 +83,9 @@ a{color:inherit}
 .featured-meta{position:relative;z-index:1;display:flex;justify-content:center;gap:8px;flex-wrap:wrap;color:#bcbcbc;font-size:.73rem;margin-top:25px;text-align:center}
 .featured-scorers{position:relative;z-index:1;display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:15px}
 .scorer-pill{border:1px solid #393939;background:#202020;padding:7px 10px;border-radius:999px;font-size:.71rem}
+.featured-editorial{position:relative;z-index:1;margin:18px 0 35px;padding:0 9px;text-align:center}
+.featured-editorial strong{display:block;color:#fff;font-size:1.05rem;line-height:1.25;letter-spacing:-.02em}
+.featured-editorial p{margin:7px auto 0;max-width:440px;color:#c9c9c9;font-size:.76rem;line-height:1.4}
 .featured-open{position:absolute;z-index:2;right:24px;bottom:21px;border:0;background:transparent;color:#eee;font-size:.7rem;font-weight:900;cursor:pointer}
 .featured-open span{color:#ff7274;margin-left:6px}
 .featured-empty{display:grid;place-items:center;color:#bbb}
@@ -128,6 +131,7 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
 .team-line.local .mini-crest{box-shadow:0 0 0 2px rgba(216,29,30,.55)}
 .team-name{font-size:.91rem;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .team-score{text-align:right;font-size:1.28rem;font-weight:900}
+.match-card-headline{margin-top:3px;padding-top:9px;border-top:1px solid #ece6dc;color:var(--ink-soft);font-size:.77rem;font-weight:900;line-height:1.35}
 .match-side{text-align:right;display:grid;justify-items:end;gap:9px}
 .arrow{font-size:1.15rem;color:#555}
 .empty-state{display:grid;gap:5px;padding:48px;border:1px solid var(--line);border-radius:18px;background:#fff;text-align:center;color:var(--muted)}
@@ -190,6 +194,12 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
 .match-report{padding:18px 19px;border:1px solid var(--line);border-left:4px solid var(--bb-red);border-radius:14px;background:#fff}
 .match-report h4{margin:0 0 8px;font-size:1.12rem;letter-spacing:-.02em}
 .match-report p{margin:0;color:var(--ink-soft);font-size:.88rem;line-height:1.65}
+.editorial-report{border-left-width:5px;padding:23px 25px}
+.editorial-report h4{font-size:1.4rem;line-height:1.24;margin-bottom:12px}
+.editorial-report p{margin:0 0 13px}
+.editorial-report .report-lead{font-size:1rem;line-height:1.56;font-weight:900;color:var(--ink)}
+.editorial-badge{font-size:.54rem;font-weight:900;letter-spacing:.06em;border:1px solid #d4cabc;border-radius:100px;color:var(--muted);padding:5px 8px}
+.report-disclosure{border-top:1px solid var(--line);margin-top:17px;padding-top:13px;color:var(--muted);font-size:.7rem;line-height:1.5}
 .report-source{display:inline-block;margin-top:13px;color:var(--bb-red);font-size:.68rem;font-weight:900;text-decoration:none}
 .report-source:hover{text-decoration:underline}
 .match-photo-section{padding-top:27px}
@@ -277,6 +287,7 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
   .featured-team{font-size:.82rem}
   .featured-result-wrap{min-width:110px}
   .featured-score{font-size:3.55rem}
+  .featured-editorial{margin:16px 0 0}
   .featured-open{position:relative;right:auto;bottom:auto;width:100%;text-align:center;margin-top:24px;padding:0}
   .photo-cta{grid-template-columns:1fr;padding:23px}
   .photo-visual{display:none}
