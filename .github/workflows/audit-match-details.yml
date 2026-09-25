@@ -1,0 +1,64 @@
+name: Audit all match details
+
+on:
+  push:
+    paths:
+      - ".github/workflows/audit-match-details.yml"
+      - "scripts/audit_match_details.py"
+      - "scripts/detail_parser.py"
+      - "scripts/detail_corrections.py"
+      - "config/detail-corrections.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-sync
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencies
+        run: python -m pip install --disable-pip-version-check --quiet requests beautifulsoup4
+
+      - name: Audit all completed matches
+        run: python scripts/audit_match_details.py --delay 0.45
+
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Regenerate editorial reports
+        run: python scripts/editorial_reports.py
+
+      - name: Publish audit
+        shell: bash
+        run: |
+          git add data/matches.json data/engine-state.json data/editorial-reports.json data/detail-audit.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Audit all historical match details"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "::error::Could not publish match audit after three attempts"
+          exit 1
