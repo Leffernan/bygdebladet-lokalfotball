@@ -268,6 +268,59 @@ def _event_from_segment(segment, players, side, reverse=False):
     return None
 
 
+def _extract_structured_events(soup):
+    """Read NFF's actual event rows. Never infer a minute from adjacent rows."""
+    events = []
+    rows = soup.select(".a_matchTimeline .timelineEventLine")
+    for row in rows:
+        classes = set(row.get("class", []))
+        side = "home" if "homeTeam" in classes else "away" if "awayTeam" in classes else None
+        minute_node = row.select_one(".timelineMinute")
+        minute = integer(minute_node.get_text(" ", strip=True)) if minute_node else None
+        if not side or minute is None:
+            continue
+
+        # Every row owns exactly one side, one minute and its own content.
+        # The other event slot (if present) is an empty layout placeholder.
+        for content in row.select(".timelineEventContent"):
+            tokens = [clean(x) for x in content.stripped_strings if clean(x)]
+            if not tokens:
+                continue
+            event_type, label = _event_kind(reversed(tokens))
+            if not event_type:
+                continue
+
+            nonlabels = [x for x in tokens if x != label and
+                         not any(term in x.casefold() for term in (
+                             "spillemål", "straffemål", "selvmål", "sjølvmål",
+                             "advarsel", "utvisning", "gult kort", "rødt kort",
+                             "raudt kort"
+                         ))]
+            player = nonlabels[0] if nonlabels else "Personinfo ikkje tilgjengeleg"
+            unavailable = (
+                not nonlabels or "personinfo" in player.casefold()
+                or "skjult" in player.casefold()
+            )
+            if unavailable:
+                player = "Personinfo ikkje tilgjengeleg"
+
+            if event_type == "goal":
+                event = _goal_event(side, player, label, unavailable=unavailable)
+            else:
+                event = {
+                    "type": event_type, "team": side,
+                    "player": player, "label": label,
+                }
+                if unavailable:
+                    event["personUnavailable"] = True
+            event["minute"] = minute
+            events.append(event)
+
+    # Do not collapse separate DOM rows: two anonymous events at the same
+    # minute may be genuine, and deduplicating would silently drop a goal.
+    return sorted(events, key=lambda event: event["minute"])
+
+
 def _extract_events(lines, lineups):
     players = _player_map(lineups)
 
@@ -426,10 +479,17 @@ def parse_detail(html: str, home: str | None = None, away: str | None = None):
     if lineups:
         result["lineups"] = lineups
 
-    result["events"] = _reconcile_goal_events(
-        _extract_events(lines, lineups),
-        _page_score(lines, home, away),
-    )
+    structured_rows = soup.select(".a_matchTimeline .timelineEventLine")
+    if structured_rows:
+        result["events"] = _extract_structured_events(soup)
+        result["structuredTimeline"] = True
+    else:
+        # Legacy fallback only; it is not precise enough to certify event timing.
+        result["events"] = _reconcile_goal_events(
+            _extract_events(lines, lineups),
+            _page_score(lines, home, away),
+        )
+        result["structuredTimeline"] = False
 
     folded = text.casefold()
     no_events = "ingen kamphendelser registrert" in folded
