@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T11:50:56+02:00",
+  "generatedAt": "2026-09-25T20:57:40+02:00",
   "matches": [
     {
       "date": "2026-09-26",
@@ -22,6 +22,17 @@
       "away": "Ørskog",
       "matchNumber": "23214107038",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200070"
+    },
+    {
+      "date": "2026-09-28",
+      "time": "18:40",
+      "age": "G13",
+      "competition": "G13 3. div avd. 2 høst",
+      "venue": "Fjordlaks Arena Kunstgress",
+      "home": "Guard/Rollon 2",
+      "away": "Ørskog/Stordal",
+      "matchNumber": "23113126023",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204253"
     },
     {
       "date": "2026-09-29",
@@ -121,17 +132,6 @@
       "away": "Skodje",
       "matchNumber": "23113126024",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204255"
-    },
-    {
-      "date": "2026-10-03",
-      "time": "14:00",
-      "age": "G13",
-      "competition": "G13 3. div avd. 2 høst",
-      "venue": "Nørvebana KGB",
-      "home": "Guard/Rollon 2",
-      "away": "Ørskog/Stordal",
-      "matchNumber": "23113126023",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204253"
     },
     {
       "date": "2026-10-12",
