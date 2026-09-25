@@ -24,7 +24,56 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 15
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 30
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 44
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sonja Haugen",
+            "label": "Spillemål",
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sonja Haugen",
+            "label": "Spillemål",
+            "minute": 72
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107002": {
       "fiksId": "9200034",
@@ -60,7 +109,64 @@
       "homeScore": 0,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adrian Fylling Sjøholt",
+            "label": "Spillemål",
+            "minute": 10
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 11
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 29
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adrian Fylling Sjøholt",
+            "label": "Spillemål",
+            "minute": 34
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Even Vestre Braute",
+            "label": "Spillemål",
+            "minute": 58
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Even Vestre Braute",
+            "label": "Spillemål",
+            "minute": 59
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126002": {
       "fiksId": "9204200",
@@ -72,7 +178,57 @@
       "homeScore": 0,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Wilhelm Sakse Simlenes Opshaug",
+            "label": "Spillemål",
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adams Stals",
+            "label": "Spillemål",
+            "minute": 14
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 21
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Wilhelm Sakse Simlenes Opshaug",
+            "label": "Spillemål",
+            "minute": 40
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Advarsel",
+            "personUnavailable": true,
+            "minute": 49
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Wilhelm Sakse Simlenes Opshaug",
+            "label": "Spillemål",
+            "minute": 60
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126003": {
       "fiksId": "9204203",
@@ -96,7 +252,76 @@
       "homeScore": 3,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elsa Farstad Rogne",
+            "label": "Spillemål",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 38
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Vera Bergtun",
+            "label": "Spillemål",
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "JULIA ZACHARA",
+            "label": "Spillemål",
+            "minute": 51
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Lausund Klokk",
+            "label": "Spillemål",
+            "minute": 56
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Frøya Severine Farstad Dyb",
+            "label": "Spillemål",
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Stine Myskja Slyngstad",
+            "label": "Spillemål",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 70
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113123002": {
       "fiksId": "9201466",
@@ -108,7 +333,41 @@
       "homeScore": 4,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leon Alexander Bekken Henriksen",
+            "label": "Spillemål",
+            "minute": 29
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Storm Lesovsky Tollås Nation",
+            "label": "Spillemål",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Storm Lesovsky Tollås Nation",
+            "label": "Spillemål",
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Thomas Aasebø Løvland",
+            "label": "Spillemål",
+            "minute": 68
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107007": {
       "fiksId": "9200039",
@@ -120,7 +379,69 @@
       "homeScore": 6,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 7
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leah Indiane Farstad Dyb",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 27
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 33
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 51
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elena Sofie Gåseidnes Tangen",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Astri Longva Davik",
+            "label": "Advarsel",
+            "minute": 78
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107010": {
       "fiksId": "9200042",
@@ -132,7 +453,90 @@
       "homeScore": 5,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Alva Gausdal Vik",
+            "label": "Spillemål",
+            "minute": 9
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nina Marak Barstad",
+            "label": "Spillemål",
+            "minute": 19
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Isabella Linea Herje Madsen",
+            "label": "Spillemål",
+            "minute": 51
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Linnea Bakkom-Dokk",
+            "label": "Spillemål",
+            "minute": 52
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Lilly Hjelvik",
+            "label": "Advarsel",
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ava Perez-Rønneberg",
+            "label": "Spillemål",
+            "minute": 61
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Linnea Bakkom-Dokk",
+            "label": "Spillemål",
+            "minute": 62
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Linnea Bakkom-Dokk",
+            "label": "Spillemål",
+            "minute": 64
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Mia Myklebust Endresen",
+            "label": "Advarsel",
+            "minute": 64
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "LINA SOFIE HOLMEN BLINDHEIM",
+            "label": "Advarsel",
+            "minute": 77
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Lilly Hjelvik",
+            "label": "Spillemål",
+            "minute": 79
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113123001": {
       "fiksId": "9201465",
@@ -216,7 +620,113 @@
       "homeScore": 13,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elias Rokseth Nordstrand",
+            "label": "Spillemål",
+            "minute": 2
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Bendik Myrseth Utgård",
+            "label": "Spillemål",
+            "minute": 7
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Bendik Myrseth Utgård",
+            "label": "Spillemål",
+            "minute": 9
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Emil Vikås",
+            "label": "Spillemål",
+            "minute": 15
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Kristian Ringdal Linga",
+            "label": "Spillemål",
+            "minute": 19
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Bendik Myrseth Utgård",
+            "label": "Spillemål",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elias Rokseth Nordstrand",
+            "label": "Spillemål",
+            "minute": 37
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elias Rokseth Nordstrand",
+            "label": "Spillemål",
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elias Rokseth Nordstrand",
+            "label": "Spillemål",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Emil Vikås",
+            "label": "Spillemål",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elia Zikama",
+            "label": "Spillemål",
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Mathias Døving",
+            "label": "Spillemål",
+            "minute": 69
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126005": {
       "fiksId": "9204208",
@@ -228,7 +738,51 @@
       "homeScore": 5,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 17
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Storm Aleksander Slyngstadli",
+            "label": "Sjølvmål",
+            "ownGoal": true,
+            "playerTeam": "away",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 36
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Filip Robert Cedro",
+            "label": "Spillemål",
+            "minute": 51
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 64
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124004": {
       "fiksId": "9196216",
@@ -264,7 +818,55 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Martine Svinø",
+            "label": "Spillemål",
+            "minute": 10
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 26
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie I Lagabø Giskegjerde",
+            "label": "Spillemål",
+            "minute": 43
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Straffemål",
+            "minute": 50
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Bertine Giske Holvik",
+            "label": "Spillemål",
+            "minute": 58
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Martine Svinø",
+            "label": "Spillemål",
+            "minute": 67
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107009": {
       "fiksId": "9200041",
@@ -288,7 +890,55 @@
       "homeScore": 6,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-25T08:16:58+02:00"
+      "resultAt": "2026-09-25T08:16:58+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Nyheim Berg",
+            "label": "Spillemål",
+            "minute": 24
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Haukås",
+            "label": "Spillemål",
+            "minute": 33
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Nyheim Berg",
+            "label": "Spillemål",
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Haukås",
+            "label": "Spillemål",
+            "minute": 41
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Haukås",
+            "label": "Spillemål",
+            "minute": 52
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Haukås",
+            "label": "Spillemål",
+            "minute": 67
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124003": {
       "fiksId": "9196215",
@@ -300,7 +950,76 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ruben Molnes",
+            "label": "Spillemål",
+            "minute": 12
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Noah Longva Hagen",
+            "label": "Advarsel",
+            "minute": 23
+          },
+          {
+            "type": "red_card",
+            "team": "home",
+            "player": "Axel Mario Akselsen",
+            "label": "Utvisning",
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Sofian Allan Darrubi",
+            "label": "Spillemål",
+            "minute": 37
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ruben Molnes",
+            "label": "Spillemål",
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Teodor Dalhaug Ulla",
+            "label": "Spillemål",
+            "minute": 52
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Dmytro Nakonechnyi",
+            "label": "Spillemål",
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Markus Fjørtoft",
+            "label": "Spillemål",
+            "minute": 67
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Sofian Allan Darrubi",
+            "label": "Spillemål",
+            "minute": 74
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124002": {
       "fiksId": "9196214",
@@ -312,7 +1031,48 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Casper Hovdenakk-Vadset",
+            "label": "Spillemål",
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Marcus Karl Cevallos",
+            "label": "Straffemål",
+            "minute": 16
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Matihewos Tsegay Kahsay",
+            "label": "Spillemål",
+            "minute": 44
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Ole Marius Alnes",
+            "label": "Advarsel",
+            "minute": 79
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107015": {
       "fiksId": "9200047",
@@ -348,7 +1108,72 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adnan Khartabil",
+            "label": "Spillemål",
+            "minute": 6
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adnan Khartabil",
+            "label": "Spillemål",
+            "minute": 10
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Ludvik Dyb Giil",
+            "label": "Advarsel",
+            "minute": 24
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 44
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 62
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Adnan Khartabil",
+            "label": "Advarsel",
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Petter Amdam Misund",
+            "label": "Spillemål",
+            "minute": 66
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107012": {
       "fiksId": "9200044",
@@ -360,7 +1185,128 @@
       "homeScore": 10,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ella Heggdal Skare",
+            "label": "Spillemål",
+            "minute": 2
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 3
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 6
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Lina Rekkedal Nupen",
+            "label": "Spillemål",
+            "minute": 11
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Lina Rekkedal Nupen",
+            "label": "Spillemål",
+            "minute": 13
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Lina Rekkedal Nupen",
+            "label": "Spillemål",
+            "minute": 17
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 32
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 33
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Nikoline Alfer",
+            "label": "Spillemål",
+            "minute": 35
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ella Heggdal Skare",
+            "label": "Spillemål",
+            "minute": 36
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ella Heggdal Skare",
+            "label": "Spillemål",
+            "minute": 38
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 61
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 76
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107013": {
       "fiksId": "9200045",
@@ -372,7 +1318,83 @@
       "homeScore": 6,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Leine Giske",
+            "label": "Spillemål",
+            "minute": 20
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 27
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Anna Valen",
+            "label": "Spillemål",
+            "minute": 37
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Marit Toftnes Myklebust",
+            "label": "Spillemål",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Anna Valen",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Cornelia Aasen Alnes",
+            "label": "Spillemål",
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 67
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Leine Giske",
+            "label": "Spillemål",
+            "minute": 74
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 79
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "15149017007": {
       "fiksId": "9177158",
@@ -396,7 +1418,76 @@
       "homeScore": 6,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Rebecka Sandnes Pettersen",
+            "label": "Spillemål",
+            "minute": 0
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elsa Farstad Rogne",
+            "label": "Spillemål",
+            "minute": 3
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elsa Farstad Rogne",
+            "label": "Spillemål",
+            "minute": 18
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elsa Farstad Rogne",
+            "label": "Spillemål",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Alida Finnøy",
+            "label": "Spillemål",
+            "minute": 53
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Alida Finnøy",
+            "label": "Spillemål",
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Frøya Torset Bakken",
+            "label": "Spillemål",
+            "minute": 62
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Laila Kristin Bueng Brunvoll",
+            "label": "Spillemål",
+            "minute": 69
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Rebecka Sandnes Pettersen",
+            "label": "Spillemål",
+            "minute": 76
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113123006": {
       "fiksId": "9201470",
@@ -408,7 +1499,118 @@
       "homeScore": 0,
       "awayScore": 15,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "David Andreas Holm",
+            "label": "Spillemål",
+            "minute": 1
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Johan Lien Kleppe",
+            "label": "Spillemål",
+            "minute": 2
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elias Samson Tilahun",
+            "label": "Spillemål",
+            "minute": 4
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elias Samson Tilahun",
+            "label": "Spillemål",
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "David Andreas Holm",
+            "label": "Spillemål",
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "David Andreas Holm",
+            "label": "Spillemål",
+            "minute": 15
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Olai Badu Kwaasi-Eide",
+            "label": "Spillemål",
+            "minute": 16
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Olai Badu Kwaasi-Eide",
+            "label": "Spillemål",
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "David Andreas Holm",
+            "label": "Spillemål",
+            "minute": 26
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elias Samson Tilahun",
+            "label": "Spillemål",
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elias Samson Tilahun",
+            "label": "Spillemål",
+            "minute": 63
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elias Samson Tilahun",
+            "label": "Spillemål",
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elias Samson Tilahun",
+            "label": "Spillemål",
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "David Andreas Holm",
+            "label": "Spillemål",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elias Samson Tilahun",
+            "label": "Spillemål",
+            "minute": 70
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113123009": {
       "fiksId": "9201473",
@@ -444,7 +1646,153 @@
       "homeScore": 7,
       "awayScore": 13,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 1
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "JULIA ZACHARA",
+            "label": "Spillemål",
+            "minute": 16
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ida Marie Klokkehaug",
+            "label": "Spillemål",
+            "minute": 21
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Stine Myskja Slyngstad",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Stine Myskja Slyngstad",
+            "label": "Spillemål",
+            "minute": 26
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 27
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Olivia Sue Sherman",
+            "label": "Spillemål",
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Johanne Klokk Grøvlen",
+            "label": "Spillemål",
+            "minute": 32
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Stine Myskja Slyngstad",
+            "label": "Spillemål",
+            "minute": 36
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Lily Bakke Payling",
+            "label": "Spillemål",
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Lily Bakke Payling",
+            "label": "Spillemål",
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "JULIA ZACHARA",
+            "label": "Spillemål",
+            "minute": 43
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Kristin Helseth Nordang",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 56
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Kristin Helseth Nordang",
+            "label": "Spillemål",
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Lausund Klokk",
+            "label": "Spillemål",
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Lily Bakke Payling",
+            "label": "Spillemål",
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Lausund Klokk",
+            "label": "Spillemål",
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Lilli Marie Seth-Jonassen",
+            "label": "Spillemål",
+            "minute": 69
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "JULIA ZACHARA",
+            "label": "Spillemål",
+            "minute": 77
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126007": {
       "fiksId": "9204212",
@@ -456,7 +1804,49 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Marius Klauseth Kvalsvik",
+            "label": "Spillemål",
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Marius Klauseth Kvalsvik",
+            "label": "Spillemål",
+            "minute": 44
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Milian Lødøen Backlund",
+            "label": "Spillemål",
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ferdinand Amelius Haagensen",
+            "label": "Spillemål",
+            "minute": 65
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126008": {
       "fiksId": "9204215",
@@ -468,7 +1858,93 @@
       "homeScore": 10,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Even Vestre Braute",
+            "label": "Spillemål",
+            "minute": 1
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Even Vestre Braute",
+            "label": "Spillemål",
+            "minute": 2
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Wilhelm Sakse Simlenes Opshaug",
+            "label": "Spillemål",
+            "minute": 4
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 14
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Adrian Fylling Sjøholt",
+            "label": "Spillemål",
+            "minute": 19
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Even Vestre Braute",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 34
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Odin Storheim Homlong",
+            "label": "Spillemål",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Even Vestre Braute",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Matheo Longva Austnes",
+            "label": "Spillemål",
+            "minute": 68
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124009": {
       "fiksId": "9196221",
@@ -504,7 +1980,51 @@
       "homeScore": 1,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Aron Venås Ytrelid",
+            "label": "Spillemål",
+            "minute": 35
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Yaroslav Abuzarova",
+            "label": "Spillemål",
+            "minute": 50
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 58
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "15149017009": {
       "fiksId": "9177160",
@@ -516,7 +2036,28 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-25T08:16:58+02:00"
+      "resultAt": "2026-09-25T08:16:58+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ida Sofie Solheim",
+            "label": "Spillemål",
+            "minute": 25
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "15149017042": {
       "fiksId": "9177193",
@@ -540,7 +2081,41 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Filip Hjelle Busengdal",
+            "label": "Spillemål",
+            "minute": 16
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Marcus Karl Cevallos",
+            "label": "Spillemål",
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leon Stavseng",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Josef Ghazi",
+            "label": "Spillemål",
+            "minute": 64
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124006": {
       "fiksId": "9196218",
@@ -552,7 +2127,83 @@
       "homeScore": 2,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julian Nogva Vedeld",
+            "label": "Spillemål",
+            "minute": 10
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Konrad Finnøy",
+            "label": "Spillemål",
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julian Nogva Vedeld",
+            "label": "Spillemål",
+            "minute": 37
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Andreas Silseth Harnes",
+            "label": "Spillemål",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Mahmoud Zaki Saidi",
+            "label": "Spillemål",
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Markus Lima Rogne",
+            "label": "Spillemål",
+            "minute": 56
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Oscar Kessler Myking",
+            "label": "Advarsel",
+            "minute": 59
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Ruben Molnes",
+            "label": "Advarsel",
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathaniel Szmyd",
+            "label": "Spillemål",
+            "minute": 73
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Markus Fjørtoft",
+            "label": "Spillemål",
+            "minute": 80
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107017": {
       "fiksId": "9200049",
@@ -576,7 +2227,97 @@
       "homeScore": 6,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Oline Skotheim Gjerdsbakk",
+            "label": "Spillemål",
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "June Sofie Hellouli Harnes",
+            "label": "Spillemål",
+            "minute": 10
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elsa Farstad Rogne",
+            "label": "Spillemål",
+            "minute": 41
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Frøya Severine Farstad Dyb",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sofie Nydal",
+            "label": "Spillemål",
+            "minute": 53
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Mathilde Myren Lianes",
+            "label": "Advarsel",
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Olivia Sue Sherman",
+            "label": "Spillemål",
+            "minute": 63
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Vera Bergtun",
+            "label": "Spillemål",
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Linnea Bakkom-Dokk",
+            "label": "Spillemål",
+            "minute": 67
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 77
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107020": {
       "fiksId": "9200052",
@@ -636,7 +2377,79 @@
       "homeScore": 5,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leah Indiane Farstad Dyb",
+            "label": "Spillemål",
+            "minute": 7
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 17
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 21
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 24
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 32
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 78
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124011": {
       "fiksId": "9196223",
@@ -648,7 +2461,41 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Marcus Karl Cevallos",
+            "label": "Spillemål",
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Marcus Karl Cevallos",
+            "label": "Spillemål",
+            "minute": 30
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Sondre Hove Bull",
+            "label": "Advarsel",
+            "minute": 55
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Trym Falling Møller",
+            "label": "Advarsel",
+            "minute": 60
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113123012": {
       "fiksId": "9201476",
@@ -660,7 +2507,84 @@
       "homeScore": 10,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Håkon Teigen-Vestre",
+            "label": "Spillemål",
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Håkon Teigen-Vestre",
+            "label": "Spillemål",
+            "minute": 6
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Håkon Teigen-Vestre",
+            "label": "Spillemål",
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Håkon Teigen-Vestre",
+            "label": "Spillemål",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Jakob Helle Stordrange",
+            "label": "Spillemål",
+            "minute": 49
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Håkon Teigen-Vestre",
+            "label": "Spillemål",
+            "minute": 50
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Håkon Teigen-Vestre",
+            "label": "Spillemål",
+            "minute": 61
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Vegar Ljunggren Stave",
+            "label": "Spillemål",
+            "minute": 67
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Filip Berg Myrvang",
+            "label": "Spillemål",
+            "minute": 69
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126011": {
       "fiksId": "9204223",
@@ -672,7 +2596,51 @@
       "homeScore": 0,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 20
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 48
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Kai-Leander Reistad Giske",
+            "label": "Advarsel",
+            "minute": 50
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Iver Hotvedt Lundbø",
+            "label": "Spillemål",
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 70
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124012": {
       "fiksId": "9196224",
@@ -720,7 +2688,100 @@
       "homeScore": 11,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elias Rokseth Nordstrand",
+            "label": "Spillemål",
+            "minute": 4
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Bendik Myrseth Utgård",
+            "label": "Straffemål",
+            "minute": 9
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Emil Vikås",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Emil Vikås",
+            "label": "Spillemål",
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Bendik Myrseth Utgård",
+            "label": "Spillemål",
+            "minute": 34
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 38
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Bendik Myrseth Utgård",
+            "label": "Spillemål",
+            "minute": 44
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elia Zikama",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "David Kjerstad Nesje",
+            "label": "Spillemål",
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Elias Rokseth Nordstrand",
+            "label": "Spillemål",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 69
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126010": {
       "fiksId": "9204220",
@@ -732,7 +2793,27 @@
       "homeScore": 1,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 19
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Gustav Bjørkhaug Henriksen",
+            "label": "Spillemål",
+            "minute": 44
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "15149017011": {
       "fiksId": "9177162",
@@ -768,7 +2849,55 @@
       "homeScore": 3,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Aron Tuva Holkestad",
+            "label": "Spillemål",
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Markus Steinshamn",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Markus Steinshamn",
+            "label": "Spillemål",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Andreas Silseth Harnes",
+            "label": "Spillemål",
+            "minute": 48
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Oliver Valentin Bunes",
+            "label": "Advarsel",
+            "minute": 50
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Aron Tuva Holkestad",
+            "label": "Spillemål",
+            "minute": 79
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113123005": {
       "fiksId": "9201469",
@@ -804,7 +2933,78 @@
       "homeScore": 8,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Aron Haddal",
+            "label": "Spillemål",
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Aron Haddal",
+            "label": "Spillemål",
+            "minute": 11
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 21
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Hans Theodor Gaasø Teigene",
+            "label": "Spillemål",
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Timian André Holstad",
+            "label": "Spillemål",
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Egide Ntumba Ushindi",
+            "label": "Spillemål",
+            "minute": 37
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Timian André Holstad",
+            "label": "Spillemål",
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Øystein Ulfseth Åsmo",
+            "label": "Spillemål",
+            "minute": 70
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124015": {
       "fiksId": "9196227",
@@ -828,7 +3028,83 @@
       "homeScore": 3,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Oline Skotheim Gjerdsbakk",
+            "label": "Spillemål",
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Mathilde Urke Brusdal",
+            "label": "Spillemål",
+            "minute": 27
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Sunde Kleiveland",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Oline Skotheim Gjerdsbakk",
+            "label": "Spillemål",
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Oline Skotheim Gjerdsbakk",
+            "label": "Spillemål",
+            "minute": 67
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Leah Emilie Myren Lianes",
+            "label": "Spillemål",
+            "minute": 70
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Sunde Kleiveland",
+            "label": "Spillemål",
+            "minute": 76
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Alva Gausdal Vik",
+            "label": "Spillemål",
+            "minute": 79
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elle Louise Ytredal",
+            "label": "Spillemål",
+            "minute": 80
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113123017": {
       "fiksId": "9201481",
@@ -840,7 +3116,55 @@
       "homeScore": 3,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Erik Sætre Baadnes",
+            "label": "Spillemål",
+            "minute": 1
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Olai Badu Kwaasi-Eide",
+            "label": "Spillemål",
+            "minute": 6
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "David Brandtzæg Haugen",
+            "label": "Spillemål",
+            "minute": 7
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "David Kjerstad Nesje",
+            "label": "Spillemål",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Kevin Rogne",
+            "label": "Spillemål",
+            "minute": 52
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Petter Amdam Misund",
+            "label": "Spillemål",
+            "minute": 59
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "15149017017": {
       "fiksId": "9177168",
@@ -864,7 +3188,72 @@
       "homeScore": 3,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 26
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Johanna Aamodt",
+            "label": "Spillemål",
+            "minute": 34
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julie I Lagabø Giskegjerde",
+            "label": "Straffemål",
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Martine Svinø",
+            "label": "Spillemål",
+            "minute": 71
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Martine Svinø",
+            "label": "Spillemål",
+            "minute": 74
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23214107023": {
       "fiksId": "9200055",
@@ -876,7 +3265,104 @@
       "homeScore": 8,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Lina Rekkedal Nupen",
+            "label": "Spillemål",
+            "minute": 4
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 7
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Leah Indiane Farstad Dyb",
+            "label": "Spillemål",
+            "minute": 14
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Lina Rekkedal Nupen",
+            "label": "Spillemål",
+            "minute": 18
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 32
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Moe Fet",
+            "label": "Spillemål",
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Dina Flem Øye",
+            "label": "Spillemål",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Moe Fet",
+            "label": "Spillemål",
+            "minute": 56
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Dina Flem Øye",
+            "label": "Spillemål",
+            "minute": 67
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Leah Indiane Farstad Dyb",
+            "label": "Spillemål",
+            "minute": 73
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Dina Flem Øye",
+            "label": "Spillemål",
+            "minute": 75
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Maja Moe Fet",
+            "label": "Spillemål",
+            "minute": 79
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126015": {
       "fiksId": "9204232",
@@ -888,7 +3374,55 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Daverik Holstad Füssle",
+            "label": "Spillemål",
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Even Vestre Braute",
+            "label": "Spillemål",
+            "minute": 33
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Odin Storheim Homlong",
+            "label": "Advarsel",
+            "minute": 34
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Daverik Holstad Füssle",
+            "label": "Advarsel",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 43
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Olav Bueide Henden",
+            "label": "Spillemål",
+            "minute": 45
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "15149017016": {
       "fiksId": "9177167",
@@ -936,7 +3470,97 @@
       "homeScore": 3,
       "awayScore": 9,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Joakim Tran Winjevoll",
+            "label": "Spillemål",
+            "minute": 5
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Joakim Tran Winjevoll",
+            "label": "Spillemål",
+            "minute": 15
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Joakim Tran Winjevoll",
+            "label": "Spillemål",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Edvard Frostad Myklebust",
+            "label": "Spillemål",
+            "minute": 26
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Dominic Mino-Martinsen",
+            "label": "Spillemål",
+            "minute": 34
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Liam Olai Hammond-Vatle",
+            "label": "Spillemål",
+            "minute": 41
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Dominic Mino-Martinsen",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Fredrik Moltudal",
+            "label": "Spillemål",
+            "minute": 52
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Alexander Huang Nuo Risnes",
+            "label": "Spillemål",
+            "minute": 53
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leon Lorgen Moa",
+            "label": "Spillemål",
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Christian B Skare",
+            "label": "Spillemål",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Christian B Skare",
+            "label": "Spillemål",
+            "minute": 68
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124016": {
       "fiksId": "9196228",
@@ -984,7 +3608,58 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-25T08:16:58+02:00"
+      "resultAt": "2026-09-25T08:16:58+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 24
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Gjertine Løvik",
+            "label": "Spillemål",
+            "minute": 49
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Sofia Lillian Brudeseth Løseth",
+            "label": "Spillemål",
+            "minute": 50
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Liana Tiron",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 70
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113126013": {
       "fiksId": "9204227",
@@ -996,7 +3671,42 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Gustav Bjørkhaug Henriksen",
+            "label": "Spillemål",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Gustav Bjørkhaug Henriksen",
+            "label": "Spillemål",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Gustav Bjørkhaug Henriksen",
+            "label": "Spillemål",
+            "minute": 57
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124018": {
       "fiksId": "9196230",
@@ -1020,7 +3730,69 @@
       "homeScore": 7,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Jørgen Nordli Sivertsen",
+            "label": "Spillemål",
+            "minute": 22
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Filip Hjelle Busengdal",
+            "label": "Spillemål",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Levi Johan Moldskred",
+            "label": "Spillemål",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Adrian Tennfjord Myklebust",
+            "label": "Spillemål",
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Leon Stavseng",
+            "label": "Spillemål",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Jørgen Nordli Sivertsen",
+            "label": "Spillemål",
+            "minute": 73
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Lars Joakim Hole Sjåstad",
+            "label": "Spillemål",
+            "minute": 74
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Marcus Karl Cevallos",
+            "label": "Spillemål",
+            "minute": 78
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23116124013": {
       "fiksId": "9196225",
@@ -1044,7 +3816,132 @@
       "homeScore": 15,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-25T06:46:42+02:00"
+      "resultAt": "2026-09-25T06:46:42+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Emrik Furset Vågsæter",
+            "label": "Spillemål",
+            "minute": 4
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ruben Molnes",
+            "label": "Spillemål",
+            "minute": 6
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Noah Longva Hagen",
+            "label": "Spillemål",
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Noah Longva Hagen",
+            "label": "Spillemål",
+            "minute": 21
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Markus Fjørtoft",
+            "label": "Spillemål",
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Aron Leander Nogva",
+            "label": "Spillemål",
+            "minute": 29
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Oleksandr Karavatskyi",
+            "label": "Spillemål",
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Aron Leander Nogva",
+            "label": "Spillemål",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Andreas Silseth Harnes",
+            "label": "Spillemål",
+            "minute": 52
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Andreas Silseth Harnes",
+            "label": "Spillemål",
+            "minute": 54
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Adnan Hammouta",
+            "label": "Spillemål",
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Kristoffer Lee Sherman",
+            "label": "Spillemål",
+            "minute": 62
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Zen Kjerstad",
+            "label": "Spillemål",
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Zen Kjerstad",
+            "label": "Spillemål",
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Kristoffer Lee Sherman",
+            "label": "Spillemål",
+            "minute": 70
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Liam Morsund Buchinski",
+            "label": "Spillemål",
+            "minute": 74
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Markus Fjørtoft",
+            "label": "Spillemål",
+            "minute": 79
+          }
+        ],
+        "structuredTimeline": true
+      },
+      "goalTimelineVerified": true
     },
     "23113123013": {
       "fiksId": "9201477",
@@ -1070,14 +3967,45 @@
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
       "detail": {
-        "events": [],
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 23
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Julia Sollied Lande",
+            "label": "Spillemål",
+            "minute": 24
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Jessica Maria Kleppestrand",
+            "label": "Spillemål",
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Serine Ulfstein",
+            "label": "Straffemål",
+            "minute": 76
+          }
+        ],
         "officials": {
           "referee": "Elias Gjelseth Røyset"
         },
-        "referee": "Elias Gjelseth Røyset"
+        "referee": "Elias Gjelseth Røyset",
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-18T16:10:34+02:00"
+      "detailFetchedAt": "2026-09-18T16:10:34+02:00",
+      "goalTimelineVerified": true
     },
     "23214107028": {
       "fiksId": "9200060",
@@ -1091,14 +4019,66 @@
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
       "detail": {
-        "events": [],
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sigrid Fjørtoft Nes",
+            "label": "Spillemål",
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Alva Gausdal Vik",
+            "label": "Spillemål",
+            "minute": 17
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ida Marie Klokkehaug",
+            "label": "Spillemål",
+            "minute": 19
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sofie Nydal",
+            "label": "Spillemål",
+            "minute": 43
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ida Marie Klokkehaug",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Endre Kjølås (Trener)",
+            "label": "Advarsel for Leder",
+            "minute": 60
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Ida Marie Klokkehaug",
+            "label": "Advarsel",
+            "minute": 78
+          }
+        ],
         "officials": {
           "referee": "Filip Hyrycz"
         },
-        "referee": "Filip Hyrycz"
+        "referee": "Filip Hyrycz",
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-18T16:10:34+02:00"
+      "detailFetchedAt": "2026-09-18T16:10:34+02:00",
+      "goalTimelineVerified": true
     },
     "23214107029": {
       "fiksId": "9200061",
@@ -1124,14 +4104,96 @@
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
       "detail": {
-        "events": [],
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Leine Giske",
+            "label": "Straffemål",
+            "minute": 6
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Marit Toftnes Myklebust",
+            "label": "Spillemål",
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Synne Haram Farstad",
+            "label": "Spillemål",
+            "minute": 11
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Frøya Severine Farstad Dyb",
+            "label": "Sjølvmål",
+            "ownGoal": true,
+            "playerTeam": "away",
+            "minute": 16
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elsa Farstad Rogne",
+            "label": "Spillemål",
+            "minute": 38
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Hanna Tomren Ulla",
+            "label": "Spillemål",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Leine Giske",
+            "label": "Spillemål",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Leine Giske",
+            "label": "Spillemål",
+            "minute": 49
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elsa Farstad Rogne",
+            "label": "Spillemål",
+            "minute": 54
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Synne Haram Farstad",
+            "label": "Spillemål",
+            "minute": 62
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Leine Giske",
+            "label": "Spillemål",
+            "minute": 73
+          }
+        ],
         "officials": {
           "referee": "Meder Ergul"
         },
-        "referee": "Meder Ergul"
+        "referee": "Meder Ergul",
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-18T16:10:34+02:00"
+      "detailFetchedAt": "2026-09-18T16:10:34+02:00",
+      "goalTimelineVerified": true
     },
     "23113123022": {
       "fiksId": "9201492",
@@ -1145,14 +4207,52 @@
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
       "detail": {
-        "events": [],
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Vegar Ljunggren Stave",
+            "label": "Spillemål",
+            "minute": 7
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Vegar Ljunggren Stave",
+            "label": "Spillemål",
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Håkon Teigen-Vestre",
+            "label": "Spillemål",
+            "minute": 35
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Isak Juliebø Ekelund",
+            "label": "Spillemål",
+            "minute": 52
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "David Kjerstad Nesje",
+            "label": "Spillemål",
+            "minute": 63
+          }
+        ],
         "officials": {
           "referee": "Moncif Boudra"
         },
-        "referee": "Moncif Boudra"
+        "referee": "Moncif Boudra",
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-18T16:10:34+02:00"
+      "detailFetchedAt": "2026-09-18T16:10:34+02:00",
+      "goalTimelineVerified": true
     },
     "23116124022": {
       "fiksId": "9196234",
@@ -1335,7 +4435,8 @@
           }
         }
       },
-      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00",
+      "goalTimelineVerified": false
     },
     "23113123024": {
       "fiksId": "9201498",
@@ -1368,14 +4469,6 @@
             "team": "home",
             "player": "Adrian Tennfjord Myklebust",
             "label": "Spillemål",
-            "minute": 1
-          },
-          {
-            "type": "goal",
-            "team": "away",
-            "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Spillemål",
-            "personUnavailable": true,
             "minute": 1
           },
           {
@@ -1414,6 +4507,14 @@
             "label": "Spillemål",
             "personUnavailable": true,
             "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 61
           },
           {
             "type": "goal",
@@ -1511,9 +4612,11 @@
             ],
             "bench": []
           }
-        }
+        },
+        "structuredTimeline": true
       },
-      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00",
+      "goalTimelineVerified": true
     },
     "23214107024": {
       "fiksId": "9200056",
@@ -1730,10 +4833,12 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-19T06:55:11+02:00"
+      "detailFetchedAt": "2026-09-19T06:55:11+02:00",
+      "goalTimelineVerified": true
     },
     "23214107026": {
       "fiksId": "9200058",
@@ -1771,14 +4876,6 @@
           },
           {
             "type": "goal",
-            "team": "away",
-            "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Spillemål",
-            "personUnavailable": true,
-            "minute": 22
-          },
-          {
-            "type": "goal",
             "team": "home",
             "player": "Personinfo ikkje tilgjengeleg",
             "label": "Spillemål",
@@ -1794,25 +4891,38 @@
           },
           {
             "type": "goal",
-            "team": "home",
-            "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Spillemål",
-            "personUnavailable": true,
-            "minute": 60
-          },
-          {
-            "type": "goal",
             "team": "away",
             "player": "Sakarias Ellefsen Hildre",
             "label": "Spillemål",
             "minute": 60
           },
           {
-            "type": "goal",
+            "type": "yellow_card",
             "team": "home",
             "player": "Mohamad Ahmad Alosman",
-            "label": "Spillemål",
+            "label": "Advarsel",
             "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Elliot Fosseng Sjøholt",
+            "label": "Spillemål",
+            "minute": 63
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Wilhelm Sakse Simlenes Opshaug",
+            "label": "Spillemål",
+            "minute": 67
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Wilhelm Sakse Simlenes Opshaug",
+            "label": "Spillemål",
+            "minute": 70
           }
         ],
         "officials": {
@@ -1901,9 +5011,11 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
-      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00",
+      "goalTimelineVerified": true
     },
     "15149017038": {
       "fiksId": "9177189",
@@ -1970,14 +5082,6 @@
           },
           {
             "type": "goal",
-            "team": "home",
-            "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Spillemål",
-            "personUnavailable": true,
-            "minute": 39
-          },
-          {
-            "type": "goal",
             "team": "away",
             "player": "Andreas Silseth Harnes",
             "label": "Straffemål",
@@ -1998,10 +5102,10 @@
             "minute": 78
           },
           {
-            "type": "yellow_card",
+            "type": "goal",
             "team": "home",
             "player": "Jonathan Klokk Eidset",
-            "label": "Advarsel",
+            "label": "Spillemål",
             "minute": 80
           }
         ],
@@ -2139,9 +5243,11 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
-      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00",
+      "goalTimelineVerified": true
     },
     "15149017021": {
       "fiksId": "9177172",
@@ -2328,9 +5434,11 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
-      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00",
+      "goalTimelineVerified": true
     },
     "23116124024": {
       "fiksId": "9196236",
@@ -2581,10 +5689,12 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-20T19:27:29+02:00"
+      "detailFetchedAt": "2026-09-20T19:27:29+02:00",
+      "goalTimelineVerified": true
     },
     "15149017022": {
       "fiksId": "9177173",
@@ -2847,10 +5957,12 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-22T00:41:32+02:00"
+      "detailFetchedAt": "2026-09-22T00:41:32+02:00",
+      "goalTimelineVerified": true
     },
     "23113126021": {
       "fiksId": "9204248",
@@ -2956,9 +6068,11 @@
             ],
             "bench": []
           }
-        }
+        },
+        "structuredTimeline": true
       },
-      "detailFetchedAt": "2026-09-22T11:31:14+02:00"
+      "detailFetchedAt": "2026-09-22T11:31:14+02:00",
+      "goalTimelineVerified": true
     },
     "23116124007": {
       "fiksId": "9196219",
@@ -3001,14 +6115,6 @@
           },
           {
             "type": "goal",
-            "team": "away",
-            "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Spillemål",
-            "personUnavailable": true,
-            "minute": 5
-          },
-          {
-            "type": "goal",
             "team": "home",
             "player": "Haley Nybø Skjegstad",
             "label": "Spillemål",
@@ -3046,14 +6152,6 @@
           },
           {
             "type": "goal",
-            "team": "away",
-            "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Spillemål",
-            "personUnavailable": true,
-            "minute": 33
-          },
-          {
-            "type": "goal",
             "team": "home",
             "player": "Julia Sollied Lande",
             "label": "Spillemål",
@@ -3068,11 +6166,24 @@
           },
           {
             "type": "goal",
-            "team": "home",
-            "player": "Personinfo ikkje tilgjengeleg",
+            "team": "away",
+            "player": "Lilly Hjelvik",
             "label": "Spillemål",
-            "personUnavailable": true,
             "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Lilly Hjelvik",
+            "label": "Spillemål",
+            "minute": 67
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Julie Vinje Kjersem",
+            "label": "Spillemål",
+            "minute": 75
           }
         ],
         "officials": {
@@ -3180,10 +6291,12 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-22T21:15:49+02:00"
+      "detailFetchedAt": "2026-09-22T21:15:49+02:00",
+      "goalTimelineVerified": true
     },
     "23214107034": {
       "fiksId": "9200066",
@@ -3200,39 +6313,9 @@
         "events": [
           {
             "type": "goal",
-            "team": "away",
-            "player": "Bertine Giske Holvik",
-            "label": "Spillemål",
-            "minute": 0
-          },
-          {
-            "type": "goal",
-            "team": "home",
-            "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Spillemål",
-            "personUnavailable": true,
-            "minute": 0
-          },
-          {
-            "type": "goal",
-            "team": "away",
-            "player": "Sofie Lande Dybvik",
-            "label": "Spillemål",
-            "minute": 0
-          },
-          {
-            "type": "goal",
             "team": "home",
             "player": "Pia Fjørtoft",
             "label": "Spillemål",
-            "minute": 1
-          },
-          {
-            "type": "goal",
-            "team": "away",
-            "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Spillemål",
-            "personUnavailable": true,
             "minute": 1
           },
           {
@@ -3241,6 +6324,34 @@
             "player": "Julia Lausund Klokk",
             "label": "Spillemål",
             "minute": 3
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Sofie Lande Dybvik",
+            "label": "Spillemål",
+            "minute": 15
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Pia Fjørtoft",
+            "label": "Spillemål",
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Bertine Giske Holvik",
+            "label": "Spillemål",
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Martine Svinø",
+            "label": "Spillemål",
+            "minute": 75
           }
         ],
         "officials": {
@@ -3352,10 +6463,12 @@
             ],
             "bench": []
           }
-        }
+        },
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-22T21:15:49+02:00"
+      "detailFetchedAt": "2026-09-22T21:15:49+02:00",
+      "goalTimelineVerified": true
     },
     "23116124017": {
       "fiksId": "9196229",
@@ -3542,10 +6655,12 @@
             ],
             "bench": []
           }
-        }
+        },
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-24T23:44:14+02:00"
+      "detailFetchedAt": "2026-09-24T23:44:14+02:00",
+      "goalTimelineVerified": true
     },
     "23113123027": {
       "fiksId": "9201506",
@@ -3600,9 +6715,11 @@
         "events": [
           {
             "type": "goal",
-            "team": "home",
+            "team": "away",
             "player": "Personinfo ikkje tilgjengeleg",
-            "label": "Selvmål",
+            "label": "Sjølvmål",
+            "ownGoal": true,
+            "playerTeam": "home",
             "personUnavailable": true,
             "minute": 26
           },
@@ -3627,6 +6744,13 @@
             "player": "Filip Robert Cedro",
             "label": "Spillemål",
             "minute": 61
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Matheus Grønbeck Grytten",
+            "label": "Spillemål",
+            "minute": 65
           }
         ],
         "officials": {
@@ -3707,10 +6831,12 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-24T20:29:52+02:00"
+      "detailFetchedAt": "2026-09-24T20:29:52+02:00",
+      "goalTimelineVerified": true
     },
     "23214107035": {
       "fiksId": "9200067",
@@ -3879,10 +7005,12 @@
               }
             ]
           }
-        }
+        },
+        "structuredTimeline": true
       },
       "detailFetches": 1,
-      "detailFetchedAt": "2026-09-24T23:44:14+02:00"
+      "detailFetchedAt": "2026-09-24T23:44:14+02:00",
+      "goalTimelineVerified": true
     },
     "23113123028": {
       "fiksId": "9201509",

@@ -33,13 +33,12 @@
       "lead": "Ørskog/Stordal vann 4–1 mot Skodje i G13 3. div avd. 2 høst.",
       "paragraphs": [
         "Til pause stod det 0–1.",
-        "Eit sjølvmål i det 26. minuttet vart kreditert Skodje.",
-        "Etter pause skåra Skodje eitt mål og Ørskog/Stordal tre mål.",
-        "NFF har ikkje ei fullstendig målrekkje registrert for oppgjeret. Berre stadfesta målscorarar og minutt blir viste."
+        "Eit sjølvmål frå Skodje etter 26 minutt gav Ørskog/Stordal leiinga 0–1.",
+        "Etter pause skåra Skodje eitt mål og Ørskog/Stordal tre mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107032": {
@@ -47,7 +46,7 @@
       "lead": "Ørskog og Skodje 2 7er spelte 6–6 i J15 3. div høst. Heile 12 mål vart registrerte.",
       "paragraphs": [
         "Haley Nybø Skjegstad skåra to av måla til Ørskog.",
-        "Linnea Bakkom-Dokk skåra to av måla til Skodje 2 7er."
+        "For Skodje 2 7er noterte desse seg for fleire mål: Linnea Bakkom-Dokk (to mål), Lilly Hjelvik (to mål)."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
@@ -59,6 +58,8 @@
       "lead": "HaNo/Lepsøy/Harøy 9er og Giske/Øyne 4 9er spelte 3–3 i J15 3. div høst. Heile seks mål vart registrerte.",
       "paragraphs": [
         "Til pause stod det 3–2.",
+        "Pia Fjørtoft stod for det første målet etter 1 minutt og sende stillinga til 1–0.",
+        "Pia Fjørtoft skåra to av måla til HaNo/Lepsøy/Harøy 9er.",
         "Etter pause stod Giske/Øyne 4 9er for eitt mål til."
       ],
       "mode": "automatic",
@@ -126,6 +127,7 @@
       "lead": "HaNo/Harøy/Lepsøy vann 3–1 mot Sykkylven i G16 2. div høst.",
       "paragraphs": [
         "Til pause stod det 0–2.",
+        "Markus Steinshamn stod for det første målet etter 36 minutt og sende stillinga til 0–1.",
         "Etter pause skåra Sykkylven eitt mål og HaNo/Harøy/Lepsøy eitt mål."
       ],
       "mode": "automatic",
@@ -134,11 +136,13 @@
       "generatorVersion": 1
     },
     "23113126017": {
-      "title": "Guard/Rollon 2 vann 4–3 mot Skodje",
-      "lead": "Guard/Rollon 2 vann 4–3 mot Skodje i G13 3. div avd. 2 høst.",
+      "title": "Wilhelm Sakse Simlenes Opshaug avgjorde seint for Guard/Rollon 2",
+      "lead": "Guard/Rollon 2 vann 4–3 mot Skodje i G13 3. div avd. 2 høst. Vinnarmålet kom i det 70. minuttet.",
       "paragraphs": [
         "Til pause stod det 2–0.",
-        "Etter pause skåra Guard/Rollon 2 to mål og Skodje tre mål."
+        "Guard/Rollon 2 stod for det første målet etter 22 minutt og sende stillinga til 1–0.",
+        "I det 70. minuttet skåra Wilhelm Sakse Simlenes Opshaug for Guard/Rollon 2. Målet sende laget i leiinga for godt, og stillinga vart 4–3.",
+        "Wilhelm Sakse Simlenes Opshaug noterte seg for to av måla til Guard/Rollon 2."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
@@ -164,6 +168,7 @@
       "lead": "Ørskog/Stordal vann 9–1 mot Brattvåg 2 i G13 3. div avd. 2 høst. Adrian Tennfjord Myklebust skåra tre av måla.",
       "paragraphs": [
         "Til pause stod det 5–0.",
+        "Adrian Tennfjord Myklebust stod for det første målet etter 1 minutt og sende stillinga til 1–0.",
         "Adrian Tennfjord Myklebust noterte seg for tre mål for Ørskog/Stordal og sikra seg hattrick.",
         "Etter pause skåra Ørskog/Stordal fire mål og Brattvåg 2 eitt mål."
       ],
@@ -189,528 +194,578 @@
       "title": "Aksla vann 4–1 mot Ravn/Norborg",
       "lead": "Aksla vann 4–1 mot Ravn/Norborg i G13 1. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Vegar Ljunggren Stave stod for det første målet etter 7 minutt og sende stillinga til 1–0.",
+        "Vegar Ljunggren Stave noterte seg for to av måla til Aksla."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107027": {
       "title": "Poengdeling mellom MTG 7er og Ørskog",
       "lead": "MTG 7er og Ørskog spelte 2–2 i J15 3. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Julia Sollied Lande stod for det første målet etter 23 minutt og sende stillinga til 0–1.",
+        "Julia Sollied Lande skåra to av måla til Ørskog."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107028": {
       "title": "Skodje 2 7er vann 3–2 mot Sykkylven 2",
       "lead": "Skodje 2 7er vann 3–2 mot Sykkylven 2 i J15 3. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Sigrid Fjørtoft Nes stod for det første målet etter 8 minutt og sende stillinga til 1–0."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107030": {
-      "title": "Ellingsøy/Vigra/Valder 3 vann stort mot Harøy/HaNo/Lepsøy 2 9er",
-      "lead": "Ellingsøy/Vigra/Valder 3 vann 9–2 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
+      "title": "Fire mål av Julie Leine Giske då Ellingsøy/Vigra/Valder 3 vann",
+      "lead": "Ellingsøy/Vigra/Valder 3 vann 9–2 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst. Julie Leine Giske skåra fire av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Julie Leine Giske stod for det første målet etter 6 minutt og sende stillinga til 1–0.",
+        "Eit sjølvmål frå Harøy/HaNo/Lepsøy 2 9er i det 16. minuttet vart kreditert Ellingsøy/Vigra/Valder 3.",
+        "Julie Leine Giske noterte seg for fire mål for Ellingsøy/Vigra/Valder 3."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23116124020": {
-      "title": "HaNo/Harøy/Lepsøy vann stort mot Stranda 9er",
-      "lead": "HaNo/Harøy/Lepsøy vann 15–2 mot Stranda 9er i G16 2. div høst.",
+      "title": "HaNo/Harøy/Lepsøy snudde kampen og vann 15–2",
+      "lead": "HaNo/Harøy/Lepsøy vann 15–2 mot Stranda 9er i G16 2. div høst. HaNo/Harøy/Lepsøy måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Emrik Furset Vågsæter stod for det første målet etter 4 minutt og sende stillinga til 0–1.",
+        "HaNo/Harøy/Lepsøy var bakpå undervegs, men snudde oppgjeret til siger.",
+        "Noah Longva Hagen noterte seg for to av måla til HaNo/Harøy/Lepsøy."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23116124019": {
       "title": "Ørskog/Stordal vann stort mot Hareid",
       "lead": "Ørskog/Stordal vann 7–1 mot Hareid i G16 2. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Jørgen Nordli Sivertsen stod for det første målet etter 22 minutt og sende stillinga til 1–0.",
+        "Jørgen Nordli Sivertsen noterte seg for to av måla til Ørskog/Stordal."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126013": {
-      "title": "Aksla 2 vann 3–1 mot Skodje",
-      "lead": "Aksla 2 vann 3–1 mot Skodje i G13 3. div avd. 2 høst.",
+      "title": "Gustav Bjørkhaug Henriksen herja framfor mål – Aksla 2 vann 3–1",
+      "lead": "Aksla 2 vann 3–1 mot Skodje i G13 3. div avd. 2 høst. Gustav Bjørkhaug Henriksen stod for alle dei tre måla til Aksla 2.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Skodje stod for det første målet etter 31 minutt og sende stillinga til 1–0.",
+        "Aksla 2 var bakpå undervegs, men snudde oppgjeret til siger.",
+        "Gustav Bjørkhaug Henriksen stod for samtlege tre mål til vinnarlaget og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "15149017019": {
       "title": "Træff 2 7er vann 4–2 mot Vestnes Varfjell",
       "lead": "Træff 2 7er vann 4–2 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Træff 2 7er stod for det første målet etter 8 minutt og sende stillinga til 0–1."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113123020": {
-      "title": "Ørsta vann stort mot Brattvåg",
-      "lead": "Ørsta vann 9–3 mot Brattvåg i G13 1. div høst.",
+      "title": "Hattrick av Joakim Tran Winjevoll då Ørsta vann",
+      "lead": "Ørsta vann 9–3 mot Brattvåg i G13 1. div høst. Joakim Tran Winjevoll skåra tre av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Joakim Tran Winjevoll stod for det første målet etter 5 minutt og sende stillinga til 0–1.",
+        "Joakim Tran Winjevoll noterte seg for tre mål for Ørsta og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126015": {
-      "title": "Ørskog/Stordal vann 3–1 mot Hareid 2",
-      "lead": "Ørskog/Stordal vann 3–1 mot Hareid 2 i G13 3. div avd. 2 høst.",
+      "title": "Ørskog/Stordal snudde kampen og vann 3–1",
+      "lead": "Ørskog/Stordal vann 3–1 mot Hareid 2 i G13 3. div avd. 2 høst. Ørskog/Stordal måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Daverik Holstad Füssle stod for det første målet etter 31 minutt og sende stillinga til 0–1.",
+        "Ørskog/Stordal var bakpå undervegs, men snudde oppgjeret til siger."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107022": {
-      "title": "Giske/Øyne 4 9er vann 5–3 mot Ørskog",
-      "lead": "Giske/Øyne 4 9er vann 5–3 mot Ørskog i J15 3. div høst.",
+      "title": "Giske/Øyne 4 9er snudde kampen og vann 5–3",
+      "lead": "Giske/Øyne 4 9er vann 5–3 mot Ørskog i J15 3. div høst. Giske/Øyne 4 9er måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Ørskog stod for det første målet etter 12 minutt og sende stillinga til 1–0.",
+        "Giske/Øyne 4 9er var bakpå undervegs, men snudde oppgjeret til siger.",
+        "Martine Svinø noterte seg for to av måla til Giske/Øyne 4 9er."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107023": {
-      "title": "Ørsta 2 7er vann 8–5 mot HaNo/Lepsøy/Harøy 9er",
-      "lead": "Ørsta 2 7er vann 8–5 mot HaNo/Lepsøy/Harøy 9er i J15 3. div høst.",
+      "title": "Ørsta 2 7er snudde kampen og vann 8–5",
+      "lead": "Ørsta 2 7er vann 8–5 mot HaNo/Lepsøy/Harøy 9er i J15 3. div høst. Ørsta 2 7er måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Lina Rekkedal Nupen stod for det første målet etter 4 minutt og sende stillinga til 1–0.",
+        "Ørsta 2 7er var bakpå undervegs, men snudde oppgjeret til siger.",
+        "Maja Moe Fet noterte seg for tre mål for Ørsta 2 7er og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113123017": {
       "title": "Målfest og poengdeling mellom Ravn/Norborg og Herd",
       "lead": "Ravn/Norborg og Herd spelte 3–3 i G13 1. div høst. Heile seks mål vart registrerte.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Erik Sætre Baadnes stod for det første målet etter 1 minutt og sende stillinga til 0–1."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107025": {
-      "title": "Skodje 2 7er vann 7–3 mot Spjelkavik 2",
-      "lead": "Skodje 2 7er vann 7–3 mot Spjelkavik 2 i J15 3. div høst.",
+      "title": "Hattrick av Oline Skotheim Gjerdsbakk då Skodje 2 7er vann",
+      "lead": "Skodje 2 7er vann 7–3 mot Spjelkavik 2 i J15 3. div høst. Oline Skotheim Gjerdsbakk skåra tre av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Oline Skotheim Gjerdsbakk stod for det første målet etter 5 minutt og sende stillinga til 0–1.",
+        "Oline Skotheim Gjerdsbakk noterte seg for tre mål for Skodje 2 7er og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126006": {
       "title": "Hareid 2 vann stort mot Brattvåg 2",
       "lead": "Hareid 2 vann 8–1 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Aron Haddal stod for det første målet etter 5 minutt og sende stillinga til 1–0.",
+        "Aron Haddal noterte seg for to av måla til Hareid 2."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23116124014": {
-      "title": "HaNo/Harøy/Lepsøy vann 3–2 mot Spjelkavik",
-      "lead": "HaNo/Harøy/Lepsøy vann 3–2 mot Spjelkavik i G16 2. div høst.",
+      "title": "HaNo/Harøy/Lepsøy snudde kampen og vann 3–2",
+      "lead": "HaNo/Harøy/Lepsøy vann 3–2 mot Spjelkavik i G16 2. div høst. HaNo/Harøy/Lepsøy måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Aron Tuva Holkestad stod for det første målet etter 5 minutt og sende stillinga til 0–1.",
+        "HaNo/Harøy/Lepsøy var bakpå undervegs, men snudde oppgjeret til siger.",
+        "Markus Steinshamn noterte seg for to av måla til HaNo/Harøy/Lepsøy."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113123014": {
-      "title": "Sykkylven vann stort mot Ravn/Norborg",
-      "lead": "Sykkylven vann 11–1 mot Ravn/Norborg i G13 1. div høst.",
+      "title": "Hattrick av Bendik Myrseth Utgård då Sykkylven vann",
+      "lead": "Sykkylven vann 11–1 mot Ravn/Norborg i G13 1. div høst. Bendik Myrseth Utgård skåra tre av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Elias Rokseth Nordstrand stod for det første målet etter 4 minutt og sende stillinga til 1–0.",
+        "Bendik Myrseth Utgård noterte seg for tre mål for Sykkylven og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126010": {
       "title": "Poengdeling mellom Aksla 2 og Ørskog/Stordal",
       "lead": "Aksla 2 og Ørskog/Stordal spelte 1–1 i G13 3. div avd. 2 høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Adrian Tennfjord Myklebust stod for det første målet etter 19 minutt og sende stillinga til 0–1."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113123012": {
-      "title": "Aksla vann stort mot Brattvåg",
-      "lead": "Aksla vann 10–0 mot Brattvåg i G13 1. div høst.",
+      "title": "Seks mål av Håkon Teigen-Vestre då Aksla vann",
+      "lead": "Aksla vann 10–0 mot Brattvåg i G13 1. div høst. Håkon Teigen-Vestre skåra seks av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Håkon Teigen-Vestre stod for det første målet etter 5 minutt og sende stillinga til 1–0.",
+        "Håkon Teigen-Vestre noterte seg for seks mål for Aksla."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126011": {
       "title": "Skodje vann 4–0 mot Brattvåg 2",
       "lead": "Skodje vann 4–0 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Skodje stod for det første målet etter 20 minutt og sende stillinga til 0–1."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23116124011": {
       "title": "Ørskog/Stordal vann 2–0 mot Herd",
       "lead": "Ørskog/Stordal vann 2–0 mot Herd i G16 2. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Marcus Karl Cevallos stod for det første målet etter 12 minutt og sende stillinga til 0–1.",
+        "Marcus Karl Cevallos noterte seg for to av måla til Ørskog/Stordal."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107016": {
-      "title": "HaNo/Lepsøy/Harøy 9er vann 5–4 mot Ørskog",
-      "lead": "HaNo/Lepsøy/Harøy 9er vann 5–4 mot Ørskog i J15 3. div høst.",
+      "title": "Pia Fjørtoft avgjorde seint for HaNo/Lepsøy/Harøy 9er",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 5–4 mot Ørskog i J15 3. div høst. Vinnarmålet kom i det 78. minuttet.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Pia Fjørtoft stod for det første målet etter 5 minutt og sende stillinga til 1–0.",
+        "I det 78. minuttet skåra Pia Fjørtoft for HaNo/Lepsøy/Harøy 9er. Målet sende laget i leiinga for godt, og stillinga vart 5–4.",
+        "Pia Fjørtoft noterte seg for fire mål for HaNo/Lepsøy/Harøy 9er."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107019": {
-      "title": "Skodje 2 7er vann 6–5 mot Harøy/HaNo/Lepsøy 2 9er",
-      "lead": "Skodje 2 7er vann 6–5 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
+      "title": "Leah Emilie Myren Lianes avgjorde seint for Skodje 2 7er",
+      "lead": "Skodje 2 7er vann 6–5 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst. Vinnarmålet kom i det 77. minuttet.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Oline Skotheim Gjerdsbakk stod for det første målet etter 5 minutt og sende stillinga til 1–0.",
+        "I det 77. minuttet skåra Leah Emilie Myren Lianes for Skodje 2 7er. Målet sende laget i leiinga for godt, og stillinga vart 6–5.",
+        "Leah Emilie Myren Lianes noterte seg for tre mål for Skodje 2 7er og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23116124006": {
       "title": "HaNo/Harøy/Lepsøy vann 6–2 mot Bergsøy",
       "lead": "HaNo/Harøy/Lepsøy vann 6–2 mot Bergsøy i G16 2. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Julian Nogva Vedeld stod for det første målet etter 10 minutt og sende stillinga til 0–1.",
+        "Julian Nogva Vedeld noterte seg for to av måla til HaNo/Harøy/Lepsøy."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23116124008": {
       "title": "Ørskog/Stordal vann 3–1 mot Valder 2",
       "lead": "Ørskog/Stordal vann 3–1 mot Valder 2 i G16 2. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Filip Hjelle Busengdal stod for det første målet etter 16 minutt og sende stillinga til 1–0."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "15149017009": {
       "title": "Dahle 3 7er vann 2–0 mot Vestnes Varfjell",
       "lead": "Dahle 3 7er vann 2–0 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Dahle 3 7er stod for det første målet etter 5 minutt og sende stillinga til 0–1."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126009": {
       "title": "Hareid 2 vann 4–1 mot Skodje",
       "lead": "Hareid 2 vann 4–1 mot Skodje i G13 3. div avd. 2 høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Hareid 2 stod for det første målet etter 23 minutt og sende stillinga til 0–1."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126007": {
       "title": "Aksla 2 vann 4–1 mot Brattvåg 2",
       "lead": "Aksla 2 vann 4–1 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Marius Klauseth Kvalsvik stod for det første målet etter 39 minutt og sende stillinga til 1–0.",
+        "Marius Klauseth Kvalsvik noterte seg for to av måla til Aksla 2."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126008": {
-      "title": "Ørskog/Stordal vann stort mot Guard/Rollon 2",
-      "lead": "Ørskog/Stordal vann 10–1 mot Guard/Rollon 2 i G13 3. div avd. 2 høst.",
+      "title": "Fire mål av Even Vestre Braute då Ørskog/Stordal vann",
+      "lead": "Ørskog/Stordal vann 10–1 mot Guard/Rollon 2 i G13 3. div avd. 2 høst. Even Vestre Braute skåra fire av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Even Vestre Braute stod for det første målet etter 1 minutt og sende stillinga til 1–0.",
+        "Even Vestre Braute noterte seg for fire mål for Ørskog/Stordal."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107011": {
-      "title": "HaNo/Lepsøy/Harøy 9er vann stort mot Sykkylven 2",
-      "lead": "HaNo/Lepsøy/Harøy 9er vann 13–7 mot Sykkylven 2 i J15 3. div høst.",
+      "title": "Hattrick av Pia Fjørtoft då HaNo/Lepsøy/Harøy 9er vann",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 13–7 mot Sykkylven 2 i J15 3. div høst. Pia Fjørtoft skåra tre av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Pia Fjørtoft stod for det første målet etter 1 minutt og sende stillinga til 0–1.",
+        "Pia Fjørtoft noterte seg for tre mål for HaNo/Lepsøy/Harøy 9er og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113123006": {
-      "title": "Herd vann stort mot Brattvåg",
-      "lead": "Herd vann 15–0 mot Brattvåg i G13 1. div høst.",
+      "title": "Sju mål av Elias Samson Tilahun då Herd vann",
+      "lead": "Herd vann 15–0 mot Brattvåg i G13 1. div høst. Elias Samson Tilahun skåra sju av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "David Andreas Holm stod for det første målet etter 1 minutt og sende stillinga til 0–1.",
+        "Elias Samson Tilahun noterte seg for sju mål for Herd."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107014": {
-      "title": "Harøy/HaNo/Lepsøy 2 9er vann 6–3 mot MTG 7er",
-      "lead": "Harøy/HaNo/Lepsøy 2 9er vann 6–3 mot MTG 7er i J15 3. div høst.",
+      "title": "Hattrick av Elsa Farstad Rogne då Harøy/HaNo/Lepsøy 2 9er vann",
+      "lead": "Harøy/HaNo/Lepsøy 2 9er vann 6–3 mot MTG 7er i J15 3. div høst. Elsa Farstad Rogne skåra tre av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Elsa Farstad Rogne noterte seg for tre mål for Harøy/HaNo/Lepsøy 2 9er og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113123008": {
-      "title": "Ravn/Norborg vann 4–2 mot Valder",
-      "lead": "Ravn/Norborg vann 4–2 mot Valder i G13 1. div høst.",
+      "title": "Ravn/Norborg snudde kampen og vann 4–2",
+      "lead": "Ravn/Norborg vann 4–2 mot Valder i G13 1. div høst. Ravn/Norborg måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Adnan Khartabil stod for det første målet etter 6 minutt og sende stillinga til 0–1.",
+        "Ravn/Norborg var bakpå undervegs, men snudde oppgjeret til siger."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107012": {
-      "title": "Ørskog vann 10–6 mot Ørsta 2 7er",
-      "lead": "Ørskog vann 10–6 mot Ørsta 2 7er i J15 3. div høst.",
+      "title": "Ørskog snudde kampen og vann 10–6",
+      "lead": "Ørskog vann 10–6 mot Ørsta 2 7er i J15 3. div høst. Ørskog måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Ella Heggdal Skare stod for det første målet etter 2 minutt og sende stillinga til 0–1.",
+        "Ørskog var bakpå undervegs, men snudde oppgjeret til siger.",
+        "Julia Sollied Lande noterte seg for fire mål for Ørskog."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107013": {
       "title": "Ellingsøy/Vigra/Valder 3 vann 6–4 mot Skodje 2 7er",
       "lead": "Ellingsøy/Vigra/Valder 3 vann 6–4 mot Skodje 2 7er i J15 3. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Julie Leine Giske stod for det første målet etter 20 minutt og sende stillinga til 1–0.",
+        "Julie Leine Giske noterte seg for to av måla til Ellingsøy/Vigra/Valder 3."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23116124002": {
       "title": "Poengdeling mellom Sykkylven og Ørskog/Stordal",
       "lead": "Sykkylven og Ørskog/Stordal spelte 2–2 i G16 2. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Casper Hovdenakk-Vadset stod for det første målet etter 8 minutt og sende stillinga til 1–0."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23116124003": {
       "title": "HaNo/Harøy/Lepsøy vann 4–3 mot Sykkylven 2",
       "lead": "HaNo/Harøy/Lepsøy vann 4–3 mot Sykkylven 2 i G16 2. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Ruben Molnes stod for det første målet etter 12 minutt og sende stillinga til 1–0.",
+        "Ruben Molnes noterte seg for to av måla til HaNo/Harøy/Lepsøy."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "15149017001": {
-      "title": "Elnesvågen/Bryn/Bud 2 vann stort mot Vestnes Varfjell",
-      "lead": "Elnesvågen/Bryn/Bud 2 vann 6–0 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst.",
+      "title": "Fire mål av Maja Haukås då Elnesvågen/Bryn/Bud 2 vann",
+      "lead": "Elnesvågen/Bryn/Bud 2 vann 6–0 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst. Maja Haukås skåra fire av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Maja Nyheim Berg stod for det første målet etter 24 minutt og sende stillinga til 1–0.",
+        "Maja Haukås noterte seg for fire mål for Elnesvågen/Bryn/Bud 2."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113123004": {
-      "title": "Sykkylven vann stort mot Brattvåg",
-      "lead": "Sykkylven vann 13–1 mot Brattvåg i G13 1. div høst.",
+      "title": "Fire mål av Elias Rokseth Nordstrand då Sykkylven vann",
+      "lead": "Sykkylven vann 13–1 mot Brattvåg i G13 1. div høst. Elias Rokseth Nordstrand skåra fire av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Elias Rokseth Nordstrand stod for det første målet etter 2 minutt og sende stillinga til 1–0.",
+        "Elias Rokseth Nordstrand noterte seg for fire mål for Sykkylven."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126005": {
       "title": "Ørskog/Stordal vann stort mot Skodje",
       "lead": "Ørskog/Stordal vann 5–0 mot Skodje i G13 3. div avd. 2 høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Adrian Tennfjord Myklebust stod for det første målet etter 17 minutt og sende stillinga til 1–0.",
+        "Eit sjølvmål frå Skodje i det 22. minuttet vart kreditert Ørskog/Stordal.",
+        "Adrian Tennfjord Myklebust noterte seg for to av måla til Ørskog/Stordal."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107008": {
       "title": "Giske/Øyne 4 9er vann 4–2 mot Harøy/HaNo/Lepsøy 2 9er",
       "lead": "Giske/Øyne 4 9er vann 4–2 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Martine Svinø stod for det første målet etter 10 minutt og sende stillinga til 1–0.",
+        "Martine Svinø noterte seg for to av måla til Giske/Øyne 4 9er."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113123002": {
       "title": "Spjelkavik vann 4–0 mot Ravn/Norborg",
       "lead": "Spjelkavik vann 4–0 mot Ravn/Norborg i G13 1. div høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Leon Alexander Bekken Henriksen stod for det første målet etter 29 minutt og sende stillinga til 1–0.",
+        "Storm Lesovsky Tollås Nation noterte seg for to av måla til Spjelkavik."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107007": {
-      "title": "HaNo/Lepsøy/Harøy 9er vann stort mot Spjelkavik 2",
-      "lead": "HaNo/Lepsøy/Harøy 9er vann 6–1 mot Spjelkavik 2 i J15 3. div høst.",
+      "title": "Fem mål av Pia Fjørtoft då HaNo/Lepsøy/Harøy 9er vann",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 6–1 mot Spjelkavik 2 i J15 3. div høst. Pia Fjørtoft skåra fem av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Pia Fjørtoft stod for det første målet etter 7 minutt og sende stillinga til 1–0.",
+        "Pia Fjørtoft noterte seg for fem mål for HaNo/Lepsøy/Harøy 9er."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107010": {
-      "title": "Skodje 2 7er vann 5–3 mot Emblem",
-      "lead": "Skodje 2 7er vann 5–3 mot Emblem i J15 3. div høst.",
+      "title": "Skodje 2 7er snudde kampen og vann 5–3",
+      "lead": "Skodje 2 7er vann 5–3 mot Emblem i J15 3. div høst. Skodje 2 7er måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Alva Gausdal Vik stod for det første målet etter 9 minutt og sende stillinga til 1–0.",
+        "Skodje 2 7er var bakpå undervegs, men snudde oppgjeret til siger.",
+        "Linnea Bakkom-Dokk noterte seg for tre mål for Skodje 2 7er og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107004": {
-      "title": "HaNo/Lepsøy/Harøy 9er vann 6–3 mot Harøy/HaNo/Lepsøy 2 9er",
-      "lead": "HaNo/Lepsøy/Harøy 9er vann 6–3 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst.",
+      "title": "HaNo/Lepsøy/Harøy 9er snudde kampen og vann 6–3",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 6–3 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst. HaNo/Lepsøy/Harøy 9er måtte hente inn eit underlag før sigeren var sikra.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Elsa Farstad Rogne stod for det første målet etter 22 minutt og sende stillinga til 1–0.",
+        "HaNo/Lepsøy/Harøy 9er var bakpå undervegs, men snudde oppgjeret til siger.",
+        "Pia Fjørtoft noterte seg for tre mål for HaNo/Lepsøy/Harøy 9er og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126001": {
       "title": "Ørskog/Stordal vann stort mot Brattvåg 2",
       "lead": "Ørskog/Stordal vann 7–0 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Adrian Fylling Sjøholt stod for det første målet etter 10 minutt og sende stillinga til 0–1.",
+        "Adrian Fylling Sjøholt noterte seg for to av måla til Ørskog/Stordal."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126002": {
-      "title": "Guard/Rollon 2 vann stort mot Skodje",
-      "lead": "Guard/Rollon 2 vann 5–0 mot Skodje i G13 3. div avd. 2 høst.",
+      "title": "Hattrick av Wilhelm Sakse Simlenes Opshaug då Guard/Rollon 2 vann",
+      "lead": "Guard/Rollon 2 vann 5–0 mot Skodje i G13 3. div avd. 2 høst. Wilhelm Sakse Simlenes Opshaug skåra tre av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Wilhelm Sakse Simlenes Opshaug stod for det første målet etter 8 minutt og sende stillinga til 0–1.",
+        "Wilhelm Sakse Simlenes Opshaug noterte seg for tre mål for Guard/Rollon 2 og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23214107001": {
-      "title": "Ørskog vann 4–2 mot Sykkylven 2",
-      "lead": "Ørskog vann 4–2 mot Sykkylven 2 i J15 3. div høst.",
+      "title": "Hattrick av Julia Sollied Lande då Ørskog vann",
+      "lead": "Ørskog vann 4–2 mot Sykkylven 2 i J15 3. div høst. Julia Sollied Lande skåra tre av måla.",
       "paragraphs": [
-        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+        "Julia Sollied Lande stod for det første målet etter 15 minutt og sende stillinga til 0–1.",
+        "Julia Sollied Lande noterte seg for tre mål for Ørskog og sikra seg hattrick."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     }
   }

@@ -151,7 +151,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201503",
@@ -295,7 +296,8 @@
           ],
           "bench": []
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204245",
@@ -317,9 +319,11 @@
       "events": [
         {
           "type": "goal",
-          "team": "home",
+          "team": "away",
           "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Selvmål",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "home",
           "personUnavailable": true,
           "minute": 26
         },
@@ -344,6 +348,13 @@
           "player": "Filip Robert Cedro",
           "label": "Spillemål",
           "minute": 61
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Matheus Grønbeck Grytten",
+          "label": "Spillemål",
+          "minute": 65
         }
       ],
       "summary": null,
@@ -426,7 +437,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200064",
@@ -458,14 +470,6 @@
           "team": "home",
           "player": "Haley Nybø Skjegstad",
           "label": "Spillemål",
-          "minute": 5
-        },
-        {
-          "type": "goal",
-          "team": "away",
-          "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Spillemål",
-          "personUnavailable": true,
           "minute": 5
         },
         {
@@ -507,14 +511,6 @@
         },
         {
           "type": "goal",
-          "team": "away",
-          "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Spillemål",
-          "personUnavailable": true,
-          "minute": 33
-        },
-        {
-          "type": "goal",
           "team": "home",
           "player": "Julia Sollied Lande",
           "label": "Spillemål",
@@ -529,11 +525,24 @@
         },
         {
           "type": "goal",
-          "team": "home",
-          "player": "Personinfo ikkje tilgjengeleg",
+          "team": "away",
+          "player": "Lilly Hjelvik",
           "label": "Spillemål",
-          "personUnavailable": true,
           "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lilly Hjelvik",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Vinje Kjersem",
+          "label": "Spillemål",
+          "minute": 75
         }
       ],
       "summary": null,
@@ -644,7 +653,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200066",
@@ -666,39 +676,9 @@
       "events": [
         {
           "type": "goal",
-          "team": "away",
-          "player": "Bertine Giske Holvik",
-          "label": "Spillemål",
-          "minute": 0
-        },
-        {
-          "type": "goal",
-          "team": "home",
-          "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Spillemål",
-          "personUnavailable": true,
-          "minute": 0
-        },
-        {
-          "type": "goal",
-          "team": "away",
-          "player": "Sofie Lande Dybvik",
-          "label": "Spillemål",
-          "minute": 0
-        },
-        {
-          "type": "goal",
           "team": "home",
           "player": "Pia Fjørtoft",
           "label": "Spillemål",
-          "minute": 1
-        },
-        {
-          "type": "goal",
-          "team": "away",
-          "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Spillemål",
-          "personUnavailable": true,
           "minute": 1
         },
         {
@@ -707,6 +687,34 @@
           "player": "Julia Lausund Klokk",
           "label": "Spillemål",
           "minute": 3
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sofie Lande Dybvik",
+          "label": "Spillemål",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 39
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Bertine Giske Holvik",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Martine Svinø",
+          "label": "Spillemål",
+          "minute": 75
         }
       ],
       "summary": null,
@@ -820,7 +828,8 @@
           ],
           "bench": []
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204248",
@@ -930,7 +939,8 @@
           ],
           "bench": []
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196238",
@@ -1174,7 +1184,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196237",
@@ -1408,7 +1419,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9177175",
@@ -1587,7 +1599,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196235",
@@ -1616,14 +1629,6 @@
         },
         {
           "type": "goal",
-          "team": "home",
-          "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Spillemål",
-          "personUnavailable": true,
-          "minute": 39
-        },
-        {
-          "type": "goal",
           "team": "away",
           "player": "Andreas Silseth Harnes",
           "label": "Straffemål",
@@ -1644,10 +1649,10 @@
           "minute": 78
         },
         {
-          "type": "yellow_card",
+          "type": "goal",
           "team": "home",
           "player": "Jonathan Klokk Eidset",
-          "label": "Advarsel",
+          "label": "Spillemål",
           "minute": 80
         }
       ],
@@ -1787,7 +1792,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204237",
@@ -1817,14 +1823,6 @@
         },
         {
           "type": "goal",
-          "team": "away",
-          "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Spillemål",
-          "personUnavailable": true,
-          "minute": 22
-        },
-        {
-          "type": "goal",
           "team": "home",
           "player": "Personinfo ikkje tilgjengeleg",
           "label": "Spillemål",
@@ -1840,25 +1838,38 @@
         },
         {
           "type": "goal",
-          "team": "home",
-          "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Spillemål",
-          "personUnavailable": true,
-          "minute": 60
-        },
-        {
-          "type": "goal",
           "team": "away",
           "player": "Sakarias Ellefsen Hildre",
           "label": "Spillemål",
           "minute": 60
         },
         {
-          "type": "goal",
+          "type": "yellow_card",
           "team": "home",
           "player": "Mohamad Ahmad Alosman",
-          "label": "Spillemål",
+          "label": "Advarsel",
           "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elliot Fosseng Sjøholt",
+          "label": "Spillemål",
+          "minute": 63
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 70
         }
       ],
       "summary": null,
@@ -1949,7 +1960,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201496",
@@ -2112,7 +2124,8 @@
           ],
           "bench": []
         }
-      }
+      },
+      "goalTimelineVerified": false
     },
     {
       "id": "match-9204235",
@@ -2137,14 +2150,6 @@
           "team": "home",
           "player": "Adrian Tennfjord Myklebust",
           "label": "Spillemål",
-          "minute": 1
-        },
-        {
-          "type": "goal",
-          "team": "away",
-          "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Spillemål",
-          "personUnavailable": true,
           "minute": 1
         },
         {
@@ -2183,6 +2188,14 @@
           "label": "Spillemål",
           "personUnavailable": true,
           "minute": 57
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 61
         },
         {
           "type": "goal",
@@ -2282,7 +2295,8 @@
           ],
           "bench": []
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200056",
@@ -2506,7 +2520,8 @@
             }
           ]
         }
-      }
+      },
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201492",
@@ -2525,14 +2540,51 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Vegar Ljunggren Stave",
+          "label": "Spillemål",
+          "minute": 7
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Vegar Ljunggren Stave",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Teigen-Vestre",
+          "label": "Spillemål",
+          "minute": 35
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Isak Juliebø Ekelund",
+          "label": "Spillemål",
+          "minute": 52
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "David Kjerstad Nesje",
+          "label": "Spillemål",
+          "minute": 63
+        }
+      ],
       "summary": null,
       "nextMatch": null,
       "source": "fotball.no",
       "officials": {
         "referee": "Moncif Boudra"
       },
-      "referee": "Moncif Boudra"
+      "referee": "Moncif Boudra",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200059",
@@ -2551,14 +2603,44 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 24
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Jessica Maria Kleppestrand",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Serine Ulfstein",
+          "label": "Straffemål",
+          "minute": 76
+        }
+      ],
       "summary": null,
       "nextMatch": null,
       "source": "fotball.no",
       "officials": {
         "referee": "Elias Gjelseth Røyset"
       },
-      "referee": "Elias Gjelseth Røyset"
+      "referee": "Elias Gjelseth Røyset",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200060",
@@ -2577,14 +2659,65 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sigrid Fjørtoft Nes",
+          "label": "Spillemål",
+          "minute": 8
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Alva Gausdal Vik",
+          "label": "Spillemål",
+          "minute": 17
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Ida Marie Klokkehaug",
+          "label": "Spillemål",
+          "minute": 19
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sofie Nydal",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Ida Marie Klokkehaug",
+          "label": "Spillemål",
+          "minute": 47
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Endre Kjølås (Trener)",
+          "label": "Advarsel for Leder",
+          "minute": 60
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Ida Marie Klokkehaug",
+          "label": "Advarsel",
+          "minute": 78
+        }
+      ],
       "summary": null,
       "nextMatch": null,
       "source": "fotball.no",
       "officials": {
         "referee": "Filip Hyrycz"
       },
-      "referee": "Filip Hyrycz"
+      "referee": "Filip Hyrycz",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200062",
@@ -2603,14 +2736,95 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Leine Giske",
+          "label": "Straffemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Marit Toftnes Myklebust",
+          "label": "Spillemål",
+          "minute": 8
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Synne Haram Farstad",
+          "label": "Spillemål",
+          "minute": 11
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Frøya Severine Farstad Dyb",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "away",
+          "minute": 16
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Hanna Tomren Ulla",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Leine Giske",
+          "label": "Spillemål",
+          "minute": 46
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Leine Giske",
+          "label": "Spillemål",
+          "minute": 49
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 54
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Synne Haram Farstad",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Leine Giske",
+          "label": "Spillemål",
+          "minute": 73
+        }
+      ],
       "summary": null,
       "nextMatch": null,
       "source": "fotball.no",
       "officials": {
         "referee": "Meder Ergul"
       },
-      "referee": "Meder Ergul"
+      "referee": "Meder Ergul",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196232",
@@ -2629,10 +2843,131 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Emrik Furset Vågsæter",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Ruben Molnes",
+          "label": "Spillemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Noah Longva Hagen",
+          "label": "Spillemål",
+          "minute": 8
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Noah Longva Hagen",
+          "label": "Spillemål",
+          "minute": 21
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Fjørtoft",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Aron Leander Nogva",
+          "label": "Spillemål",
+          "minute": 29
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Oleksandr Karavatskyi",
+          "label": "Spillemål",
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Aron Leander Nogva",
+          "label": "Spillemål",
+          "minute": 45
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Silseth Harnes",
+          "label": "Spillemål",
+          "minute": 52
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Silseth Harnes",
+          "label": "Spillemål",
+          "minute": 54
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adnan Hammouta",
+          "label": "Spillemål",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Kristoffer Lee Sherman",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Zen Kjerstad",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Zen Kjerstad",
+          "label": "Spillemål",
+          "minute": 68
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Kristoffer Lee Sherman",
+          "label": "Spillemål",
+          "minute": 70
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Liam Morsund Buchinski",
+          "label": "Spillemål",
+          "minute": 74
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Fjørtoft",
+          "label": "Spillemål",
+          "minute": 79
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196231",
@@ -2651,10 +2986,68 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Jørgen Nordli Sivertsen",
+          "label": "Spillemål",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Filip Hjelle Busengdal",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Levi Johan Moldskred",
+          "label": "Spillemål",
+          "minute": 45
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leon Stavseng",
+          "label": "Spillemål",
+          "minute": 66
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Jørgen Nordli Sivertsen",
+          "label": "Spillemål",
+          "minute": 73
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lars Joakim Hole Sjåstad",
+          "label": "Spillemål",
+          "minute": 74
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Marcus Karl Cevallos",
+          "label": "Spillemål",
+          "minute": 78
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204227",
@@ -2673,10 +3066,41 @@
       "awayScore": 3,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Gustav Bjørkhaug Henriksen",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Gustav Bjørkhaug Henriksen",
+          "label": "Spillemål",
+          "minute": 46
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Gustav Bjørkhaug Henriksen",
+          "label": "Spillemål",
+          "minute": 57
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9177170",
@@ -2695,10 +3119,57 @@
       "awayScore": 4,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 8
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 24
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Gjertine Løvik",
+          "label": "Spillemål",
+          "minute": 49
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sofia Lillian Brudeseth Løseth",
+          "label": "Spillemål",
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Liana Tiron",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 70
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201488",
@@ -2717,10 +3188,96 @@
       "awayScore": 9,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Joakim Tran Winjevoll",
+          "label": "Spillemål",
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Joakim Tran Winjevoll",
+          "label": "Spillemål",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Joakim Tran Winjevoll",
+          "label": "Spillemål",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Edvard Frostad Myklebust",
+          "label": "Spillemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Dominic Mino-Martinsen",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Liam Olai Hammond-Vatle",
+          "label": "Spillemål",
+          "minute": 41
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Dominic Mino-Martinsen",
+          "label": "Spillemål",
+          "minute": 47
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Fredrik Moltudal",
+          "label": "Spillemål",
+          "minute": 52
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Alexander Huang Nuo Risnes",
+          "label": "Spillemål",
+          "minute": 53
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leon Lorgen Moa",
+          "label": "Spillemål",
+          "minute": 57
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Christian B Skare",
+          "label": "Spillemål",
+          "minute": 66
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Christian B Skare",
+          "label": "Spillemål",
+          "minute": 68
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204232",
@@ -2739,10 +3296,54 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Daverik Holstad Füssle",
+          "label": "Spillemål",
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Even Vestre Braute",
+          "label": "Spillemål",
+          "minute": 33
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Odin Storheim Homlong",
+          "label": "Advarsel",
+          "minute": 34
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Daverik Holstad Füssle",
+          "label": "Advarsel",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Olav Bueide Henden",
+          "label": "Spillemål",
+          "minute": 45
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200054",
@@ -2761,10 +3362,71 @@
       "awayScore": 5,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Johanna Aamodt",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julie I Lagabø Giskegjerde",
+          "label": "Straffemål",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Martine Svinø",
+          "label": "Spillemål",
+          "minute": 71
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Martine Svinø",
+          "label": "Spillemål",
+          "minute": 74
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200055",
@@ -2783,10 +3445,103 @@
       "awayScore": 5,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lina Rekkedal Nupen",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 7
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Indiane Farstad Dyb",
+          "label": "Spillemål",
+          "minute": 14
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lina Rekkedal Nupen",
+          "label": "Spillemål",
+          "minute": 18
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 32
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Moe Fet",
+          "label": "Spillemål",
+          "minute": 39
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Dina Flem Øye",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Moe Fet",
+          "label": "Spillemål",
+          "minute": 56
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Dina Flem Øye",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Indiane Farstad Dyb",
+          "label": "Spillemål",
+          "minute": 73
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Dina Flem Øye",
+          "label": "Spillemål",
+          "minute": 75
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Moe Fet",
+          "label": "Spillemål",
+          "minute": 79
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201481",
@@ -2805,10 +3560,54 @@
       "awayScore": 3,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Erik Sætre Baadnes",
+          "label": "Spillemål",
+          "minute": 1
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Olai Badu Kwaasi-Eide",
+          "label": "Spillemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "David Brandtzæg Haugen",
+          "label": "Spillemål",
+          "minute": 7
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "David Kjerstad Nesje",
+          "label": "Spillemål",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Kevin Rogne",
+          "label": "Spillemål",
+          "minute": 52
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Petter Amdam Misund",
+          "label": "Spillemål",
+          "minute": 59
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200057",
@@ -2827,10 +3626,82 @@
       "awayScore": 7,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Oline Skotheim Gjerdsbakk",
+          "label": "Spillemål",
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Mathilde Urke Brusdal",
+          "label": "Spillemål",
+          "minute": 27
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Sunde Kleiveland",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Oline Skotheim Gjerdsbakk",
+          "label": "Spillemål",
+          "minute": 59
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Oline Skotheim Gjerdsbakk",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 70
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Sunde Kleiveland",
+          "label": "Spillemål",
+          "minute": 76
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Alva Gausdal Vik",
+          "label": "Spillemål",
+          "minute": 79
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elle Louise Ytredal",
+          "label": "Spillemål",
+          "minute": 80
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204210",
@@ -2849,10 +3720,77 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Aron Haddal",
+          "label": "Spillemål",
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Aron Haddal",
+          "label": "Spillemål",
+          "minute": 11
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 21
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Hans Theodor Gaasø Teigene",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Timian André Holstad",
+          "label": "Spillemål",
+          "minute": 28
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Egide Ntumba Ushindi",
+          "label": "Spillemål",
+          "minute": 37
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Timian André Holstad",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Øystein Ulfseth Åsmo",
+          "label": "Spillemål",
+          "minute": 70
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196226",
@@ -2871,10 +3809,54 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Aron Tuva Holkestad",
+          "label": "Spillemål",
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Steinshamn",
+          "label": "Spillemål",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Steinshamn",
+          "label": "Spillemål",
+          "minute": 45
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Silseth Harnes",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Oliver Valentin Bunes",
+          "label": "Advarsel",
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Aron Tuva Holkestad",
+          "label": "Spillemål",
+          "minute": 79
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201478",
@@ -2893,10 +3875,99 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elias Rokseth Nordstrand",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bendik Myrseth Utgård",
+          "label": "Straffemål",
+          "minute": 9
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Emil Vikås",
+          "label": "Spillemål",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Emil Vikås",
+          "label": "Spillemål",
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bendik Myrseth Utgård",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bendik Myrseth Utgård",
+          "label": "Spillemål",
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elia Zikama",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "David Kjerstad Nesje",
+          "label": "Spillemål",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elias Rokseth Nordstrand",
+          "label": "Spillemål",
+          "minute": 66
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 69
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204220",
@@ -2915,10 +3986,26 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 19
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Gustav Bjørkhaug Henriksen",
+          "label": "Spillemål",
+          "minute": 44
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201476",
@@ -2937,10 +4024,83 @@
       "awayScore": 0,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Teigen-Vestre",
+          "label": "Spillemål",
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Teigen-Vestre",
+          "label": "Spillemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Teigen-Vestre",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Teigen-Vestre",
+          "label": "Spillemål",
+          "minute": 45
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Jakob Helle Stordrange",
+          "label": "Spillemål",
+          "minute": 49
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Teigen-Vestre",
+          "label": "Spillemål",
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Teigen-Vestre",
+          "label": "Spillemål",
+          "minute": 61
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Vegar Ljunggren Stave",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Filip Berg Myrvang",
+          "label": "Spillemål",
+          "minute": 69
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204223",
@@ -2959,10 +4119,50 @@
       "awayScore": 4,
       "halfTime": null,
       "localTeam": "both",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 20
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 48
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Kai-Leander Reistad Giske",
+          "label": "Advarsel",
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Iver Hotvedt Lundbø",
+          "label": "Spillemål",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 70
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196223",
@@ -2981,10 +4181,40 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Marcus Karl Cevallos",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Marcus Karl Cevallos",
+          "label": "Spillemål",
+          "minute": 30
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Sondre Hove Bull",
+          "label": "Advarsel",
+          "minute": 55
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Trym Falling Møller",
+          "label": "Advarsel",
+          "minute": 60
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200048",
@@ -3003,10 +4233,78 @@
       "awayScore": 4,
       "halfTime": null,
       "localTeam": "both",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leah Indiane Farstad Dyb",
+          "label": "Spillemål",
+          "minute": 7
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 17
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 21
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 24
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 32
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 78
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200051",
@@ -3025,10 +4323,96 @@
       "awayScore": 5,
       "halfTime": null,
       "localTeam": "both",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Oline Skotheim Gjerdsbakk",
+          "label": "Spillemål",
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "June Sofie Hellouli Harnes",
+          "label": "Spillemål",
+          "minute": 10
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 28
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 41
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Frøya Severine Farstad Dyb",
+          "label": "Spillemål",
+          "minute": 47
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sofie Nydal",
+          "label": "Spillemål",
+          "minute": 53
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Mathilde Myren Lianes",
+          "label": "Advarsel",
+          "minute": 59
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Olivia Sue Sherman",
+          "label": "Spillemål",
+          "minute": 63
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Vera Bergtun",
+          "label": "Spillemål",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Linnea Bakkom-Dokk",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 68
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 77
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196218",
@@ -3047,10 +4431,82 @@
       "awayScore": 6,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julian Nogva Vedeld",
+          "label": "Spillemål",
+          "minute": 10
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Konrad Finnøy",
+          "label": "Spillemål",
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julian Nogva Vedeld",
+          "label": "Spillemål",
+          "minute": 37
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Andreas Silseth Harnes",
+          "label": "Spillemål",
+          "minute": 46
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Mahmoud Zaki Saidi",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Lima Rogne",
+          "label": "Spillemål",
+          "minute": 56
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Oscar Kessler Myking",
+          "label": "Advarsel",
+          "minute": 59
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Ruben Molnes",
+          "label": "Advarsel",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Nathaniel Szmyd",
+          "label": "Spillemål",
+          "minute": 73
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Markus Fjørtoft",
+          "label": "Spillemål",
+          "minute": 80
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196220",
@@ -3069,10 +4525,40 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Filip Hjelle Busengdal",
+          "label": "Spillemål",
+          "minute": 16
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Marcus Karl Cevallos",
+          "label": "Spillemål",
+          "minute": 28
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leon Stavseng",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Josef Ghazi",
+          "label": "Spillemål",
+          "minute": 64
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9177160",
@@ -3091,10 +4577,27 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Ida Sofie Solheim",
+          "label": "Spillemål",
+          "minute": 25
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204218",
@@ -3113,10 +4616,50 @@
       "awayScore": 4,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Aron Venås Ytrelid",
+          "label": "Spillemål",
+          "minute": 35
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Yaroslav Abuzarova",
+          "label": "Spillemål",
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 58
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204212",
@@ -3135,10 +4678,48 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Marius Klauseth Kvalsvik",
+          "label": "Spillemål",
+          "minute": 39
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Marius Klauseth Kvalsvik",
+          "label": "Spillemål",
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Milian Lødøen Backlund",
+          "label": "Spillemål",
+          "minute": 59
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Ferdinand Amelius Haagensen",
+          "label": "Spillemål",
+          "minute": 65
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204215",
@@ -3157,10 +4738,92 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Even Vestre Braute",
+          "label": "Spillemål",
+          "minute": 1
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Even Vestre Braute",
+          "label": "Spillemål",
+          "minute": 2
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 14
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Adrian Fylling Sjøholt",
+          "label": "Spillemål",
+          "minute": 19
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Even Vestre Braute",
+          "label": "Spillemål",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Odin Storheim Homlong",
+          "label": "Spillemål",
+          "minute": 46
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Even Vestre Braute",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Matheo Longva Austnes",
+          "label": "Spillemål",
+          "minute": 68
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200043",
@@ -3179,10 +4842,152 @@
       "awayScore": 13,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 1
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "JULIA ZACHARA",
+          "label": "Spillemål",
+          "minute": 16
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Ida Marie Klokkehaug",
+          "label": "Spillemål",
+          "minute": 21
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Stine Myskja Slyngstad",
+          "label": "Spillemål",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Stine Myskja Slyngstad",
+          "label": "Spillemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 27
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Olivia Sue Sherman",
+          "label": "Spillemål",
+          "minute": 28
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Johanne Klokk Grøvlen",
+          "label": "Spillemål",
+          "minute": 32
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Stine Myskja Slyngstad",
+          "label": "Spillemål",
+          "minute": 36
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lily Bakke Payling",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lily Bakke Payling",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "JULIA ZACHARA",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Kristin Helseth Nordang",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 56
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Kristin Helseth Nordang",
+          "label": "Spillemål",
+          "minute": 57
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Lausund Klokk",
+          "label": "Spillemål",
+          "minute": 59
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lily Bakke Payling",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Lausund Klokk",
+          "label": "Spillemål",
+          "minute": 68
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lilli Marie Seth-Jonassen",
+          "label": "Spillemål",
+          "minute": 69
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "JULIA ZACHARA",
+          "label": "Spillemål",
+          "minute": 77
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201470",
@@ -3201,10 +5006,117 @@
       "awayScore": 15,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "David Andreas Holm",
+          "label": "Spillemål",
+          "minute": 1
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Johan Lien Kleppe",
+          "label": "Spillemål",
+          "minute": 2
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elias Samson Tilahun",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elias Samson Tilahun",
+          "label": "Spillemål",
+          "minute": 5
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "David Andreas Holm",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "David Andreas Holm",
+          "label": "Spillemål",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Olai Badu Kwaasi-Eide",
+          "label": "Spillemål",
+          "minute": 16
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Olai Badu Kwaasi-Eide",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "David Andreas Holm",
+          "label": "Spillemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elias Samson Tilahun",
+          "label": "Spillemål",
+          "minute": 28
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elias Samson Tilahun",
+          "label": "Spillemål",
+          "minute": 63
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elias Samson Tilahun",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elias Samson Tilahun",
+          "label": "Spillemål",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "David Andreas Holm",
+          "label": "Spillemål",
+          "minute": 66
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elias Samson Tilahun",
+          "label": "Spillemål",
+          "minute": 70
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200046",
@@ -3223,10 +5135,75 @@
       "awayScore": 3,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Rebecka Sandnes Pettersen",
+          "label": "Spillemål",
+          "minute": 0
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 3
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 18
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Alida Finnøy",
+          "label": "Spillemål",
+          "minute": 53
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Alida Finnøy",
+          "label": "Spillemål",
+          "minute": 59
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Frøya Torset Bakken",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Laila Kristin Bueng Brunvoll",
+          "label": "Spillemål",
+          "minute": 69
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Rebecka Sandnes Pettersen",
+          "label": "Spillemål",
+          "minute": 76
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201472",
@@ -3245,10 +5222,71 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adnan Khartabil",
+          "label": "Spillemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adnan Khartabil",
+          "label": "Spillemål",
+          "minute": 10
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Ludvik Dyb Giil",
+          "label": "Advarsel",
+          "minute": 24
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 62
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Adnan Khartabil",
+          "label": "Advarsel",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Petter Amdam Misund",
+          "label": "Spillemål",
+          "minute": 66
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200044",
@@ -3267,10 +5305,127 @@
       "awayScore": 6,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Ella Heggdal Skare",
+          "label": "Spillemål",
+          "minute": 2
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 3
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lina Rekkedal Nupen",
+          "label": "Spillemål",
+          "minute": 11
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lina Rekkedal Nupen",
+          "label": "Spillemål",
+          "minute": 13
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lina Rekkedal Nupen",
+          "label": "Spillemål",
+          "minute": 17
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 32
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 33
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Nikoline Alfer",
+          "label": "Spillemål",
+          "minute": 35
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Ella Heggdal Skare",
+          "label": "Spillemål",
+          "minute": 36
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Ella Heggdal Skare",
+          "label": "Spillemål",
+          "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 47
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Haley Nybø Skjegstad",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Haley Nybø Skjegstad",
+          "label": "Spillemål",
+          "minute": 61
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 76
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200045",
@@ -3289,10 +5444,82 @@
       "awayScore": 4,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Leine Giske",
+          "label": "Spillemål",
+          "minute": 20
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 27
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Anna Valen",
+          "label": "Spillemål",
+          "minute": 37
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 39
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Marit Toftnes Myklebust",
+          "label": "Spillemål",
+          "minute": 45
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Anna Valen",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Cornelia Aasen Alnes",
+          "label": "Spillemål",
+          "minute": 57
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie Leine Giske",
+          "label": "Spillemål",
+          "minute": 74
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 79
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196214",
@@ -3311,10 +5538,47 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Casper Hovdenakk-Vadset",
+          "label": "Spillemål",
+          "minute": 8
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Marcus Karl Cevallos",
+          "label": "Straffemål",
+          "minute": 16
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Matihewos Tsegay Kahsay",
+          "label": "Spillemål",
+          "minute": 44
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Ole Marius Alnes",
+          "label": "Advarsel",
+          "minute": 79
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9196215",
@@ -3333,10 +5597,75 @@
       "awayScore": 3,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Ruben Molnes",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Noah Longva Hagen",
+          "label": "Advarsel",
+          "minute": 23
+        },
+        {
+          "type": "red_card",
+          "team": "home",
+          "player": "Axel Mario Akselsen",
+          "label": "Utvisning",
+          "minute": 28
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sofian Allan Darrubi",
+          "label": "Spillemål",
+          "minute": 37
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Ruben Molnes",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Teodor Dalhaug Ulla",
+          "label": "Spillemål",
+          "minute": 52
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Dmytro Nakonechnyi",
+          "label": "Spillemål",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Fjørtoft",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sofian Allan Darrubi",
+          "label": "Spillemål",
+          "minute": 74
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9177152",
@@ -3355,10 +5684,54 @@
       "awayScore": 0,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Nyheim Berg",
+          "label": "Spillemål",
+          "minute": 24
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Haukås",
+          "label": "Spillemål",
+          "minute": 33
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Nyheim Berg",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Haukås",
+          "label": "Spillemål",
+          "minute": 41
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Haukås",
+          "label": "Spillemål",
+          "minute": 52
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Maja Haukås",
+          "label": "Spillemål",
+          "minute": 67
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201468",
@@ -3377,10 +5750,112 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elias Rokseth Nordstrand",
+          "label": "Spillemål",
+          "minute": 2
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bendik Myrseth Utgård",
+          "label": "Spillemål",
+          "minute": 7
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bendik Myrseth Utgård",
+          "label": "Spillemål",
+          "minute": 9
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Emil Vikås",
+          "label": "Spillemål",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Kristian Ringdal Linga",
+          "label": "Spillemål",
+          "minute": 19
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bendik Myrseth Utgård",
+          "label": "Spillemål",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elias Rokseth Nordstrand",
+          "label": "Spillemål",
+          "minute": 37
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elias Rokseth Nordstrand",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elias Rokseth Nordstrand",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Emil Vikås",
+          "label": "Spillemål",
+          "minute": 45
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 47
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elia Zikama",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Mathias Døving",
+          "label": "Spillemål",
+          "minute": 69
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204208",
@@ -3399,10 +5874,50 @@
       "awayScore": 0,
       "halfTime": null,
       "localTeam": "both",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 17
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Storm Aleksander Slyngstadli",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "away",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 36
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Filip Robert Cedro",
+          "label": "Spillemål",
+          "minute": 51
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 64
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200040",
@@ -3421,10 +5936,54 @@
       "awayScore": 2,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Martine Svinø",
+          "label": "Spillemål",
+          "minute": 10
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julie I Lagabø Giskegjerde",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Straffemål",
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bertine Giske Holvik",
+          "label": "Spillemål",
+          "minute": 58
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Martine Svinø",
+          "label": "Spillemål",
+          "minute": 67
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9201466",
@@ -3443,10 +6002,40 @@
       "awayScore": 0,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leon Alexander Bekken Henriksen",
+          "label": "Spillemål",
+          "minute": 29
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Storm Lesovsky Tollås Nation",
+          "label": "Spillemål",
+          "minute": 46
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Storm Lesovsky Tollås Nation",
+          "label": "Spillemål",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Thomas Aasebø Løvland",
+          "label": "Spillemål",
+          "minute": 68
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200039",
@@ -3465,10 +6054,68 @@
       "awayScore": 1,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 7
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Leah Indiane Farstad Dyb",
+          "label": "Spillemål",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 27
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 33
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 51
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elena Sofie Gåseidnes Tangen",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Astri Longva Davik",
+          "label": "Advarsel",
+          "minute": 78
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200042",
@@ -3487,10 +6134,89 @@
       "awayScore": 3,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Alva Gausdal Vik",
+          "label": "Spillemål",
+          "minute": 9
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Nina Marak Barstad",
+          "label": "Spillemål",
+          "minute": 19
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Isabella Linea Herje Madsen",
+          "label": "Spillemål",
+          "minute": 51
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Linnea Bakkom-Dokk",
+          "label": "Spillemål",
+          "minute": 52
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Lilly Hjelvik",
+          "label": "Advarsel",
+          "minute": 57
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Ava Perez-Rønneberg",
+          "label": "Spillemål",
+          "minute": 61
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Linnea Bakkom-Dokk",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Linnea Bakkom-Dokk",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Mia Myklebust Endresen",
+          "label": "Advarsel",
+          "minute": 64
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "LINA SOFIE HOLMEN BLINDHEIM",
+          "label": "Advarsel",
+          "minute": 77
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lilly Hjelvik",
+          "label": "Spillemål",
+          "minute": 79
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200036",
@@ -3509,10 +6235,75 @@
       "awayScore": 6,
       "halfTime": null,
       "localTeam": "both",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Vera Bergtun",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "JULIA ZACHARA",
+          "label": "Spillemål",
+          "minute": 51
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Lausund Klokk",
+          "label": "Spillemål",
+          "minute": 56
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Frøya Severine Farstad Dyb",
+          "label": "Spillemål",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Stine Myskja Slyngstad",
+          "label": "Spillemål",
+          "minute": 66
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 68
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 70
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204198",
@@ -3531,10 +6322,63 @@
       "awayScore": 7,
       "halfTime": null,
       "localTeam": "both",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adrian Fylling Sjøholt",
+          "label": "Spillemål",
+          "minute": 10
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 11
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adrian Tennfjord Myklebust",
+          "label": "Spillemål",
+          "minute": 29
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adrian Fylling Sjøholt",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Even Vestre Braute",
+          "label": "Spillemål",
+          "minute": 58
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Even Vestre Braute",
+          "label": "Spillemål",
+          "minute": 59
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9204200",
@@ -3553,10 +6397,56 @@
       "awayScore": 5,
       "halfTime": null,
       "localTeam": "home",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 8
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adams Stals",
+          "label": "Spillemål",
+          "minute": 14
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 21
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Advarsel",
+          "personUnavailable": true,
+          "minute": 49
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 60
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     },
     {
       "id": "match-9200033",
@@ -3575,10 +6465,55 @@
       "awayScore": 4,
       "halfTime": null,
       "localTeam": "away",
-      "events": [],
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 30
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julia Sollied Lande",
+          "label": "Spillemål",
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 59
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sonja Haugen",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sonja Haugen",
+          "label": "Spillemål",
+          "minute": 72
+        }
+      ],
       "summary": null,
       "nextMatch": null,
-      "source": "fotball.no"
+      "source": "fotball.no",
+      "goalTimelineVerified": true
     }
   ]
 }
