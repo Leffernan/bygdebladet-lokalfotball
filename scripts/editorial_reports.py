@@ -206,12 +206,36 @@ def chronological_paragraphs(match, ordered, half, decisive):
     states = score_at_event(match, ordered)
     boundary = half_time_split(ordered, half)
     paras = []
-    for index, item in enumerate(states):
-        if boundary is not None and index == boundary:
+    i = 0
+    while i < len(states):
+        if boundary is not None and i == boundary:
             paras.append(f"Til pause stod det {half[0]}–{half[1]}.")
-        event = item[0]
-        paras.append(goal_sentence(match, item, first=(index == 0),
-                                   decisive=bool(decisive and event is decisive[0])))
+
+        event, before, after = states[i]
+        side = event["team"]
+        other = "away" if side == "home" else "home"
+        j = i
+        if i > 0 and not own_goal(event) and anonymous(event):
+            while j < len(states):
+                current, old, new = states[j]
+                if (current["team"] != side or own_goal(current) or not anonymous(current)
+                    or (decisive and current is decisive[0])
+                    or old[side] <= old[other] or new[side] <= new[other]
+                    or (boundary is not None and j == boundary and j > i)
+                    or (j > i and current["minute"] == states[j - 1][0]["minute"])):
+                    break
+                j += 1
+        if j - i >= 2:
+            minutes = [states[k][0]["minute"] for k in range(i, j)]
+            paras.append(f"{match[side]} auka leiinga med mål {minute_clause(minutes)}.")
+            i = j
+            continue
+        paras.append(goal_sentence(
+            match, states[i], first=(i == 0),
+            decisive=bool(decisive and event is decisive[0]),
+        ))
+        i += 1
+
     if boundary is not None and boundary == len(states):
         paras.append(f"Til pause stod det {half[0]}–{half[1]}.")
     return paras
