@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MATCHES = ROOT / "data" / "matches.json"
 OUTPUT = ROOT / "data" / "editorial-reports.json"
-VERSION = 1
+VERSION = 2
 
 NUMBERS = {0: "null", 1: "eitt", 2: "to", 3: "tre", 4: "fire", 5: "fem",
            6: "seks", 7: "sju", 8: "åtte", 9: "ni", 10: "ti"}
