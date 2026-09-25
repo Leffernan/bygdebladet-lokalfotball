@@ -27,5 +27,7 @@ assert(html.includes('Resultat og faktabaserte kampreferat frå aldersbestemt fo
 assert(code.includes("if(e.ownGoal||/selvmål|sjølvmål/i.test(e.label||''))"),'Own goals must be identified in timeline');
 assert(code.includes("main='Sjølvmål'"),'Anonymous own goals must not appear as ordinary scorer names');
 assert(code.includes("es.map(e=>event(e,m))"),'Timeline must pass match teams to own-goal display');
+assert(code.includes("const flagged=m.goalTimelineVerified===false"),'Unverified goal timeline must be suppressed');
+assert(code.includes("filter(e=>!flagged||e.type!=='goal')"),'Cards may remain, unverified goals must be hidden');
 new vm.Script(code,{filename:'app.js'});
 console.log('Frontend syntax and wiring smoke checks passed.');
