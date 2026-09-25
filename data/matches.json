@@ -182,7 +182,17 @@
           "type": "goal",
           "team": "home",
           "player": "Personinfo ikkje tilgjengeleg",
-          "label": "Selvmål",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "away",
+          "personUnavailable": true,
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
           "personUnavailable": true,
           "minute": 49
         },
