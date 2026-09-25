@@ -21,6 +21,7 @@ on:
       - "scripts/detail_parser.py"
       - "scripts/editorial_reports.py"
       - "tests/test_editorial_reports.py"
+      - "tests/test_detail_parser.py"
 
 permissions:
   contents: write
@@ -63,7 +64,7 @@ jobs:
           fi
 
       - name: Test editorial rules
-        run: python -m unittest discover -s tests -p 'test_editorial_reports.py' -v
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
 
       - name: Generate editorial reports
         run: python scripts/editorial_reports.py
