@@ -24,5 +24,8 @@ assert(code.includes('Referatet er laga på grunnlag av offentlege kampdata. Inf
 assert(html.includes('<h1>Lokalfotballen i Bygdebladet-distriktet</h1>'),'Requested hero title missing');
 assert(html.includes('Har du bilde frå ein kamp?'),'Requested photo CTA missing');
 assert(html.includes('Resultat og faktabaserte kampreferat frå aldersbestemt fotball, G13/J13 og oppover – samla for laga i Bygdebladet-distriktet.'),'Existing lede must be preserved');
+assert(code.includes("if(e.ownGoal||/selvmål|sjølvmål/i.test(e.label||''))"),'Own goals must be identified in timeline');
+assert(code.includes("main='Sjølvmål'"),'Anonymous own goals must not appear as ordinary scorer names');
+assert(code.includes("es.map(e=>event(e,m))"),'Timeline must pass match teams to own-goal display');
 new vm.Script(code,{filename:'app.js'});
 console.log('Frontend syntax and wiring smoke checks passed.');
