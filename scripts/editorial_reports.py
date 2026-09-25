@@ -303,15 +303,15 @@ def generate(match):
         if complete and goals:
             paras.append("Nokre mål er registrerte på same minutt, så den innbyrdes rekkjefølgja er ikkje stadfesta.")
 
-    if name and count >= 3:
+    if not ordered and name and count >= 3:
         if all_by_one:
             paras.append(f"{name} stod for samtlege {number(win_goals)} mål til vinnarlaget og sikra seg hattrick.")
         else:
             paras.append(f"{name} noterte seg for {number(count)} mål for {winning}" + (" og sikra seg hattrick." if count == 3 else "."))
-    elif name and count == 2 and complete:
+    elif not ordered and name and count == 2 and complete:
         paras.append(f"{name} noterte seg for to av måla til {winning}.")
 
-    if not side:
+    if not ordered and not side:
         for team_side, team in (("home", home), ("away", away)):
             players = scorers(e for e in goals if e["team"] == team_side)
             multi = [(player, n) for player, n in players.most_common() if n >= 2]
@@ -323,7 +323,7 @@ def generate(match):
                     parts = [f"{player} ({number(n)} mål)" for player, n in multi[:3]]
                     paras.append(f"For {team} noterte desse seg for fleire mål: " + ", ".join(parts) + ".")
 
-    if half and (hs + ac) > sum(half) and not decisive:
+    if not ordered and half and (hs + ac) > sum(half) and not decisive and not goals:
         h_after, a_after = hs - half[0], ac - half[1]
         if h_after > 0 and a_after > 0:
             paras.append(f"Etter pause fekk {home} {number(h_after)} mål og {away} {number(a_after)} mål.")
