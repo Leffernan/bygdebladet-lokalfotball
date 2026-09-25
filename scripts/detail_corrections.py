@@ -17,6 +17,47 @@ MATCHES = ROOT / "data" / "matches.json"
 STATE = ROOT / "data" / "engine-state.json"
 
 
+def reconcile_goal_totals(matches_doc, state_doc):
+    """Trim impossible surplus goal events against the confirmed final score.
+
+    This never invents missing goals. It only removes goal events that would make
+    a side exceed the published full-time score, while preserving non-goal events.
+    """
+    changes = 0
+    matches_by_key = {
+        str(m.get("matchNumber")): m for m in matches_doc.get("matches", [])
+        if m.get("matchNumber") is not None
+    }
+
+    for key, match in matches_by_key.items():
+        expected = {
+            "home": int(match.get("homeScore", 0)),
+            "away": int(match.get("awayScore", 0)),
+        }
+        for record in (match, state_doc.get("matches", {}).get(key)):
+            if record is None:
+                continue
+            detail = record if record is match else record.setdefault("detail", {})
+            events = detail.get("events") or []
+            counts = {"home": 0, "away": 0}
+            kept = []
+            for event in sorted(events, key=lambda e: e.get("minute") if isinstance(e.get("minute"), int) else 999):
+                if event.get("type") != "goal":
+                    kept.append(event)
+                    continue
+                side = event.get("team")
+                if side not in counts:
+                    continue
+                if counts[side] >= expected[side]:
+                    continue
+                counts[side] += 1
+                kept.append(event)
+            if kept != events:
+                detail["events"] = kept
+                changes += 1
+    return changes
+
+
 def apply_corrections(matches_doc, state_doc, config_doc):
     changes = 0
     for key, correction in config_doc.get("matches", {}).items():
@@ -59,11 +100,14 @@ def main():
     config = json.loads(CONFIG.read_text(encoding="utf-8"))
     matches = json.loads(MATCHES.read_text(encoding="utf-8"))
     state = json.loads(STATE.read_text(encoding="utf-8"))
-    count = apply_corrections(matches, state, config)
+    reconciled = reconcile_goal_totals(matches, state)
+    corrected = apply_corrections(matches, state, config)
+    count = reconciled + corrected
     if count:
         MATCHES.write_text(json.dumps(matches, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         STATE.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Reviewed goal correction record updates: {count}")
+    print(f"Goal reconciliation updates: {reconciled}")
+    print(f"Reviewed goal correction record updates: {corrected}")
     return 0
 
 
