@@ -208,6 +208,24 @@ def _substitution(segment, players, side):
     return None
 
 
+def _goal_event(side, player, label, unavailable=False):
+    """The timeline column is the player's team, not the beneficiary of an own goal."""
+    own_goal = bool(re.search(r"selvmål|sjølvmål|own\\s*goal", clean(label), re.I))
+    scoring_side = ("away" if side == "home" else "home") if own_goal else side
+    event = {
+        "type": "goal",
+        "team": scoring_side,
+        "player": player,
+        "label": "Sjølvmål" if own_goal else label,
+    }
+    if own_goal:
+        event["ownGoal"] = True
+        event["playerTeam"] = side
+    if unavailable:
+        event["personUnavailable"] = True
+    return event
+
+
 def _event_from_segment(segment, players, side, reverse=False):
     sub = _substitution(segment, players, side)
     if sub:
@@ -219,6 +237,8 @@ def _event_from_segment(segment, players, side, reverse=False):
         hi = min(len(segment), player_i + 3)
         event_type, label = _event_kind(segment[lo:hi])
         if event_type:
+            if event_type == "goal":
+                return _goal_event(side, player, label)
             return {
                 "type": event_type,
                 "team": side,
@@ -237,13 +257,10 @@ def _event_from_segment(segment, players, side, reverse=False):
             or "personinformasjon ikke tilgjengelig" in folded
         )
         if unavailable or label:
-            return {
-                "type": "goal",
-                "team": side,
-                "player": "Personinfo ikkje tilgjengeleg",
-                "label": label or "Spillemål",
-                "personUnavailable": True,
-            }
+            return _goal_event(
+                side, "Personinfo ikkje tilgjengeleg",
+                label or "Spillemål", unavailable=True,
+            )
 
     return None
 
@@ -284,6 +301,7 @@ def _extract_events(lines, lineups):
         key = (
             item.get("minute"), item.get("type"), item.get("team"),
             item.get("player"), item.get("playerIn"), item.get("playerOut"),
+            item.get("ownGoal"), item.get("playerTeam"), item.get("label"),
         )
         if key not in seen:
             seen.add(key)
@@ -420,3 +438,4 @@ def parse_detail(html: str, home: str | None = None, away: str | None = None):
 # retry after pattern fix
 # parser revision 3
 # anonymous-goal parser refresh
+# own-goal attribution to benefiting team
