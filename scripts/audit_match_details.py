@@ -15,7 +15,7 @@ from pathlib import Path
 import requests
 
 from detail_parser import parse_detail
-from detail_corrections import apply_corrections
+from detail_corrections import apply_corrections, reconcile_goal_totals
 
 ROOT = Path(__file__).resolve().parents[1]
 MATCHES_PATH = ROOT / "data" / "matches.json"
@@ -141,9 +141,11 @@ def main():
         if args.delay > 0:
             time.sleep(args.delay)
 
-    # Reviewed corrections are applied after the raw parse so known parsing
-    # edge cases cannot regress. They remain fully auditable in config.
+    # First enforce the confirmed full-time score, then apply narrowly reviewed
+    # corrections for documented parser edge cases.
+    reconciliation_changes = reconcile_goal_totals(matches_doc, state_doc)
     correction_changes = apply_corrections(matches_doc, state_doc, corrections)
+    audit["goalReconciliationRecordUpdates"] = reconciliation_changes
     audit["reviewedCorrectionRecordUpdates"] = correction_changes
 
     # Recalculate completeness after corrections for final published state.
