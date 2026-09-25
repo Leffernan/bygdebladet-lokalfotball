@@ -55,7 +55,12 @@ def anonymous(event):
 
 def own_goal(event):
     label = str(event.get("label") or "").casefold()
-    return "sjølv" in label or "selv" in label or "own goal" in label
+    return bool(event.get("ownGoal")) or "sjølv" in label or "selv" in label or "own goal" in label
+
+
+def own_goal_team(match, event):
+    side = event.get("playerTeam")
+    return match.get(side) if side in {"home", "away"} else None
 
 
 def goal_data(match):
@@ -158,7 +163,9 @@ def generate(match):
         title = f"{name} herja framfor mål – {winning} vann {result}"
     elif decisive:
         event, _ = decisive
-        if not anonymous(event) and not own_goal(event):
+        if own_goal(event):
+            title = f"Seint sjølvmål gav {winning} sigeren"
+        elif not anonymous(event):
             title = f"{event['player']} avgjorde seint for {winning}"
         else:
             title = f"Seint vinnarmål sikra {winning} sigeren"
@@ -188,7 +195,12 @@ def generate(match):
         lead += f" {name} stod for alle dei {number(win_goals)} måla til {winning}."
     elif decisive:
         event, _ = decisive
-        lead += f" Vinnarmålet kom i det {event['minute']}. minuttet."
+        if own_goal(event):
+            owner = own_goal_team(match, event)
+            lead += (f" Eit sjølvmål frå {owner} i det {event['minute']}. minuttet avgjorde kampen."
+                     if owner else f" Eit sjølvmål i det {event['minute']}. minuttet avgjorde kampen.")
+        else:
+            lead += f" Vinnarmålet kom i det {event['minute']}. minuttet."
     elif comeback:
         lead += f" {winning} måtte hente inn eit underlag før sigeren var sikra."
     elif side and count >= 3:
@@ -204,23 +216,46 @@ def generate(match):
         first = ordered[0]
         first_score = "1–0" if first["team"] == "home" else "0–1"
         who = first.get("player")
-        by = str(who).strip() if not anonymous(first) and not own_goal(first) else match[first["team"]]
-        paras.append(f"{by} stod for det første målet etter {first['minute']} minutt og sende stillinga til {first_score}.")
+        if own_goal(first):
+            owner = own_goal_team(match, first)
+            by = f"Eit sjølvmål frå {owner}" if owner else "Eit sjølvmål"
+            paras.append(f"{by} etter {first['minute']} minutt gav {match[first['team']]} leiinga {first_score}.")
+        else:
+            by = str(who).strip() if not anonymous(first) else match[first["team"]]
+            paras.append(f"{by} stod for det første målet etter {first['minute']} minutt og sende stillinga til {first_score}.")
         if decisive:
             event, after = decisive
-            who = str(event.get("player") or "").strip()
-            actor = who if not anonymous(event) and not own_goal(event) else winning
-            paras.append(
-                f"I det {event['minute']}. minuttet skåra {actor} for {winning}. "
-                f"Målet sende laget i leiinga for godt, og stillinga vart {after['home']}–{after['away']}."
-            ) if actor != winning else paras.append(
-                f"I det {event['minute']}. minuttet kom målet som sende {winning} i leiinga for godt. "
-                f"Då var stillinga {after['home']}–{after['away']}."
-            )
+            if own_goal(event):
+                owner = own_goal_team(match, event)
+                by = f"Eit sjølvmål frå {owner}" if owner else "Eit sjølvmål"
+                paras.append(
+                    f"{by} i det {event['minute']}. minuttet sende {winning} i leiinga for godt. "
+                    f"Då var stillinga {after['home']}–{after['away']}."
+                )
+            elif not anonymous(event):
+                paras.append(
+                    f"I det {event['minute']}. minuttet skåra {event['player']} for {winning}. "
+                    f"Målet sende laget i leiinga for godt, og stillinga vart {after['home']}–{after['away']}."
+                )
+            else:
+                paras.append(
+                    f"I det {event['minute']}. minuttet kom målet som sende {winning} i leiinga for godt. "
+                    f"Då var stillinga {after['home']}–{after['away']}."
+                )
         elif comeback:
             paras.append(f"{winning} var bakpå undervegs, men snudde oppgjeret til siger.")
     elif comeback and half:
         paras.append(f"{winning} låg under ved pause, men snudde kampen etter kvilen.")
+
+    for event in goals:
+        if not own_goal(event):
+            continue
+        if (ordered and event is ordered[0]) or (decisive and event is decisive[0]):
+            continue
+        owner = own_goal_team(match, event)
+        by = f"Eit sjølvmål frå {owner}" if owner else "Eit sjølvmål"
+        when = f" i det {event['minute']}. minuttet" if type(event.get("minute")) is int and event["minute"] > 0 else ""
+        paras.append(f"{by}{when} vart kreditert {match[event['team']] }.")
 
     if name and count >= 3:
         if all_by_one:
