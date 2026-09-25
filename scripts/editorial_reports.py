@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MATCHES = ROOT / "data" / "matches.json"
 OUTPUT = ROOT / "data" / "editorial-reports.json"
-VERSION = 2
+VERSION = 3
 
 NUMBERS = {0: "null", 1: "eitt", 2: "to", 3: "tre", 4: "fire", 5: "fem",
            6: "seks", 7: "sju", 8: "åtte", 9: "ni", 10: "ti"}
@@ -135,6 +135,28 @@ def safe_half(match):
     if h > match["homeScore"] or a > match["awayScore"]:
         return None
     return h, a
+
+
+def half_time_split(ordered, half):
+    """Use the official pause score to place halftime without guessing a minute."""
+    if half is None or not ordered:
+        return None
+    boundary = sum(half)
+    if boundary > len(ordered):
+        return None
+    before = Counter(e["team"] for e in ordered[:boundary])
+    if (before["home"], before["away"]) != half:
+        return None
+    if 0 < boundary < len(ordered) and ordered[boundary-1]["minute"] == ordered[boundary]["minute"]:
+        return None
+    return boundary
+
+
+def minute_clause(minutes):
+    if len(minutes) == 1:
+        return f"i det {minutes[0]}. minuttet"
+    values = [str(m) for m in minutes]
+    return "i minutta " + ", ".join(values[:-1]) + " og " + values[-1]
 
 
 def generate(match):
