@@ -20,6 +20,7 @@ on:
       - "scripts/source_sync_runner.py"
       - "scripts/detail_parser.py"
       - "scripts/detail_corrections.py"
+      - "scripts/goal_timeline_safety.py"
       - "config/detail-corrections.json"
       - "scripts/editorial_reports.py"
       - "tests/test_editorial_reports.py"
@@ -68,6 +69,9 @@ jobs:
 
       - name: Apply reviewed goal corrections
         run: python scripts/detail_corrections.py
+
+      - name: Guard goal timeline integrity
+        run: python scripts/goal_timeline_safety.py
 
       - name: Test editorial rules
         run: python -m unittest discover -s tests -p 'test_*.py' -v
