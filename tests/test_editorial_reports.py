@@ -66,6 +66,50 @@ class EditorialTests(unittest.TestCase):
         self.assertNotIn("alle dei tre", s["lead"])
         self.assertNotIn("Personinfo", s["title"])
 
+    def test_anonymous_late_own_goal_decides_molde_match(self):
+        m = match(1, 2, [
+            goal(26, "away", "Elvira Anker"),
+            goal(35, "home", "Milla Solskjær"),
+            goal(72, "away", "Personinfo ikkje tilgjengeleg",
+                 label="Sjølvmål", ownGoal=True, playerTeam="home",
+                 personUnavailable=True),
+        ], age="J14", half="1–1")
+        m["home"] = "Vestnes Varfjell"
+        m["away"] = "Molde 2"
+        story = editorial.generate(m)
+        text = " ".join([story["title"], story["lead"], *story["paragraphs"]])
+        self.assertTrue(story["completeGoalTimeline"])
+        self.assertIn("sjølvmål", text.casefold())
+        self.assertIn("Vestnes Varfjell", story["lead"])
+        self.assertIn("72.", text)
+        self.assertNotIn("ikkje ei fullstendig målrekkje", text)
+        self.assertNotIn("Personinfo", text)
+        self.assertIn("sjølvmål", story["title"].casefold())
+
+    def test_own_goal_is_not_counted_as_player_scorer(self):
+        m = match(0, 3, [
+            goal(10, "away", "A"),
+            goal(21, "away", "A"),
+            goal(42, "away", "Personinfo ikkje tilgjengeleg",
+                 label="Selvmål", ownGoal=True, playerTeam="home",
+                 personUnavailable=True),
+        ])
+        story = editorial.generate(m)
+        self.assertNotIn("alle dei tre", story["lead"])
+        self.assertIn("sjølvmål", " ".join(story["paragraphs"]).casefold())
+
+    def test_non_decisive_own_goal_is_still_mentioned(self):
+        m = match(1, 3, [
+            goal(12, "away", "A"),
+            goal(20, "away", "Personinfo ikkje tilgjengeleg",
+                 label="Selvmål", ownGoal=True, playerTeam="home",
+                 personUnavailable=True),
+            goal(32, "home", "B"),
+            goal(58, "away", "A"),
+        ])
+        story = editorial.generate(m)
+        self.assertIn("sjølvmål", " ".join(story["paragraphs"]).casefold())
+
     def test_zero_minute_blocks_chronology(self):
         m = match(1, 1, [goal(0, "home", "A"), goal(0, "away", "B")])
         s = editorial.generate(m)
