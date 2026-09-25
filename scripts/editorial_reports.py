@@ -202,6 +202,21 @@ def goal_sentence(match, item, first=False, decisive=False):
             else f"{team} reduserte til {score} {when}.")
 
 
+def chronological_paragraphs(match, ordered, half, decisive):
+    states = score_at_event(match, ordered)
+    boundary = half_time_split(ordered, half)
+    paras = []
+    for index, item in enumerate(states):
+        if boundary is not None and index == boundary:
+            paras.append(f"Til pause stod det {half[0]}–{half[1]}.")
+        event = item[0]
+        paras.append(goal_sentence(match, item, first=(index == 0),
+                                   decisive=bool(decisive and event is decisive[0])))
+    if boundary is not None and boundary == len(states):
+        paras.append(f"Til pause stod det {half[0]}–{half[1]}.")
+    return paras
+
+
 def generate(match):
     if not youth(match) or not final(match):
         return None
