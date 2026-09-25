@@ -79,7 +79,7 @@ def main():
     session.headers.update({"User-Agent": UA, "Accept": "text/html,application/xhtml+xml"})
 
     audit = {
-        "version": 1,
+        "version": 2,
         "checked": 0,
         "changed": 0,
         "completeGoalTimelines": 0,
