@@ -9451,13 +9451,6 @@
             "player": "Mitan Alahmad",
             "label": "Spillemål",
             "minute": 56
-          },
-          {
-            "type": "goal",
-            "team": "home",
-            "player": "Youel Bahabelom Okubay",
-            "label": "Spillemål",
-            "minute": 65
           }
         ],
         "officials": {
@@ -9550,7 +9543,7 @@
         "hasPublishedSquad": true
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true
     },
     "23113123024": {
       "fiksId": "9201498",

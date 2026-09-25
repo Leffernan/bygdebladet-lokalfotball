@@ -2070,13 +2070,6 @@
           "player": "Mitan Alahmad",
           "label": "Spillemål",
           "minute": 56
-        },
-        {
-          "type": "goal",
-          "team": "home",
-          "player": "Youel Bahabelom Okubay",
-          "label": "Spillemål",
-          "minute": 65
         }
       ],
       "summary": null,
@@ -2166,7 +2159,7 @@
           "bench": []
         }
       },
-      "goalTimelineVerified": false,
+      "goalTimelineVerified": true,
       "hasRegisteredEvents": true,
       "hasPublishedSquad": true
     },

@@ -150,16 +150,17 @@
       "generatorVersion": 2
     },
     "23113123023": {
-      "title": "Langevåg vann stort mot Brattvåg",
-      "lead": "Langevåg vann 7–0 mot Brattvåg i G13 1. div høst.",
+      "title": "Hattrick av Mitan Alahmad då Langevåg vann",
+      "lead": "Langevåg vann 7–0 mot Brattvåg i G13 1. div høst. Mitan Alahmad skåra tre av måla.",
       "paragraphs": [
         "Til pause stod det 0–4.",
-        "Etter pause fekk Langevåg tre nye mål.",
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+        "Mitan Alahmad stod for det første målet etter 4 minutt og sende stillinga til 0–1.",
+        "Mitan Alahmad noterte seg for tre mål for Langevåg og sikra seg hattrick.",
+        "Etter pause fekk Langevåg tre nye mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 2
     },
     "23113126016": {
