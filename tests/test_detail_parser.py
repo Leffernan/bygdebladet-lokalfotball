@@ -32,6 +32,39 @@ class OwnGoalParserTests(unittest.TestCase):
         self.assertEqual(event["team"], "home")
         self.assertNotIn("ownGoal", event)
 
+    def test_structured_rows_do_not_borrow_neighbouring_minutes_or_labels(self):
+        from bs4 import BeautifulSoup
+        rows = [
+            ("homeTeam", 25, "Rubin-Augustin Kleiven", "Spillemål"),
+            ("awayTeam", 44, "Personinfo ikke tilgjengelig", "Selvmål"),
+            ("homeTeam", 49, "Personinfo ikke tilgjengelig", "Spillemål"),
+            ("homeTeam", 51, "Personinfo ikke tilgjengelig", "Spillemål"),
+        ]
+        html = '<section class="a_matchTimeline">' + "".join(
+            '<div class="timelineEventLine ' + side + '"><div class="timelineEvent">'
+            + ('<div class="timelineEventContent"><div>' + person + '</div><div>' + label +
+               '</div></div></div><div class="timelineMinute">' + str(minute) + "<span>'</span></div>"
+               + '<div class="timelineEvent"></div></div>')
+            for side, minute, person, label in rows
+        ) + '</section>'
+        result = parser.parse_detail(html)
+        goals = [e for e in result["events"] if e["type"] == "goal"]
+        self.assertTrue(result["structuredTimeline"])
+        self.assertEqual([e["minute"] for e in goals], [25, 44, 49, 51])
+        self.assertEqual([e.get("ownGoal", False) for e in goals], [False, True, False, False])
+        self.assertEqual([e["team"] for e in goals], ["home", "home", "home", "home"])
+        self.assertEqual(goals[1]["playerTeam"], "away")
+
+    def test_structured_identical_minute_rows_are_not_deduplicated(self):
+        html = '<section class="a_matchTimeline">' + ''.join(
+            '<div class="timelineEventLine homeTeam"><div class="timelineEvent">'
+            '<div class="timelineEventContent"><div>Personinfo ikke tilgjengelig</div>'
+            '<div>Spillemål</div></div></div><div class="timelineMinute">27<span>\'</span>'
+            '</div><div class="timelineEvent"></div></div>' for _ in range(2)
+        ) + '</section>'
+        result = parser.parse_detail(html)
+        self.assertEqual(len(result["events"]), 2)
+
     def test_molde_match_interleaved_column_and_score_reconciliation(self):
         lineups = {
             "home": {"starters": [{"name": "Milla Solskjær"}], "bench": []},
