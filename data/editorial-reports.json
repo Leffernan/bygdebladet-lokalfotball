@@ -19,13 +19,13 @@
       "lead": "Ravn/Norborg vann 4–0 mot Brattvåg i G13 1. div høst.",
       "paragraphs": [
         "Til pause stod det 1–0.",
-        "Eit sjølvmål i det 49. minuttet vart kreditert Ravn/Norborg.",
-        "Etter pause stod Ravn/Norborg for tre nye mål.",
-        "NFF har ikkje ei fullstendig målrekkje registrert for oppgjeret. Berre stadfesta målscorarar og minutt blir viste."
+        "Rubin-Augustin Kleiven stod for det første målet etter 25 minutt og sende stillinga til 1–0.",
+        "Eit sjølvmål frå Brattvåg i det 44. minuttet vart kreditert Ravn/Norborg.",
+        "Etter pause stod Ravn/Norborg for tre nye mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
+      "completeGoalTimeline": true,
       "generatorVersion": 1
     },
     "23113126020": {
