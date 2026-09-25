@@ -137,7 +137,7 @@ def safe_half(match):
     return h, a
 
 
-def half_time_split(ordered, half):
+def half_time_split(ordered, half, duration=None):
     """Use the official pause score to place halftime without guessing a minute."""
     if half is None or not ordered:
         return None
@@ -149,6 +149,12 @@ def half_time_split(ordered, half):
         return None
     if 0 < boundary < len(ordered) and ordered[boundary-1]["minute"] == ordered[boundary]["minute"]:
         return None
+    if duration:
+        midpoint = duration / 2
+        if boundary and ordered[boundary - 1]["minute"] > midpoint + 5:
+            return None
+        if boundary < len(ordered) and ordered[boundary]["minute"] < midpoint - 5:
+            return None
     return boundary
 
 
@@ -204,7 +210,7 @@ def goal_sentence(match, item, first=False, decisive=False):
 
 def chronological_paragraphs(match, ordered, half, decisive):
     states = score_at_event(match, ordered)
-    boundary = half_time_split(ordered, half)
+    boundary = half_time_split(ordered, half, age_duration(match))
     paras = []
     i = 0
     while i < len(states):
