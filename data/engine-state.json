@@ -71,9 +71,133 @@
             "minute": 72
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Camilo Gimenez Hovet-Cruz"
+        },
+        "referee": "Camilo Gimenez Hovet-Cruz",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Alvilde Kristine Tandstad"
+              },
+              {
+                "number": 18,
+                "name": "Anna Netland Brunstad"
+              },
+              {
+                "number": 22,
+                "name": "Ida Marie Klokkehaug"
+              },
+              {
+                "number": 29,
+                "name": "Sara Gjelseth Sølvik"
+              },
+              {
+                "number": 39,
+                "name": "Mie Ånstad Nerhus"
+              },
+              {
+                "number": 47,
+                "name": "Lillian Ludviksen"
+              },
+              {
+                "number": 8,
+                "name": "Lovise Utgård Heggdal"
+              },
+              {
+                "number": 11,
+                "name": "Sofia Hausvik Kjølås"
+              },
+              {
+                "number": 19,
+                "name": "Annamaria Björk-Bergene"
+              },
+              {
+                "number": 24,
+                "name": "Ester Björk-Bergene"
+              },
+              {
+                "number": 81,
+                "name": "Mathilde Sandvik"
+              }
+            ],
+            "bench": [
+              {
+                "number": 3,
+                "name": "Andrine Løkken Vangen"
+              },
+              {
+                "number": 7,
+                "name": "Julie Kristin Helseth Nordang"
+              },
+              {
+                "number": 14,
+                "name": "Paraskevi Dimitriou"
+              },
+              {
+                "number": 50,
+                "name": "Sonja Haugen"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Camilla Gausdal-Langø"
+              },
+              {
+                "number": 4,
+                "name": "Leah Sæther Lukkedal"
+              },
+              {
+                "number": 6,
+                "name": "Hanne Børretzen Fjørtoft"
+              },
+              {
+                "number": 7,
+                "name": "Noora Njoya Øvstedal"
+              },
+              {
+                "number": 9,
+                "name": "Aria Sofie Vethe Kvamme"
+              },
+              {
+                "number": 15,
+                "name": "Isabell Rudolph Sjøholt"
+              },
+              {
+                "number": 5,
+                "name": "Julie Vinje Kjersem"
+              },
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              },
+              {
+                "number": 16,
+                "name": "Nikoline Alfer"
+              },
+              {
+                "number": 3,
+                "name": "Anine Kristin Liabø-Sæter"
+              },
+              {
+                "number": 8,
+                "name": "Julia Sollied Lande"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107002": {
       "fiksId": "9200034",
@@ -164,9 +288,82 @@
             "minute": 59
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Filip Hyrycz",
+          "refereeObserver": "Fredrik Klokk Løken"
+        },
+        "referee": "Filip Hyrycz",
+        "halfTime": "0–4",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Kai-Leander Reistad Giske"
+              },
+              {
+                "number": 6,
+                "name": "Kevin Bjørshol Skjønberg"
+              },
+              {
+                "number": 14,
+                "name": "Even Endré Frøysadal Hånde"
+              },
+              {
+                "number": 25,
+                "name": "Egide Ntumba Ushindi"
+              },
+              {
+                "number": 5,
+                "name": "Olivia Austbø Skaar"
+              },
+              {
+                "number": 36,
+                "name": "Youel Bahabelom Okubay"
+              },
+              {
+                "number": 45,
+                "name": "Kajus Kuvikas"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 30,
+                "name": "Matheo Longva Austnes"
+              },
+              {
+                "number": 32,
+                "name": "Filip Robert Cedro"
+              },
+              {
+                "number": 35,
+                "name": "Even Viset Stokke"
+              },
+              {
+                "number": 37,
+                "name": "Adrian Tennfjord Myklebust"
+              },
+              {
+                "number": 42,
+                "name": "Adrian Fylling Sjøholt"
+              },
+              {
+                "number": 36,
+                "name": "Even Vestre Braute"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126002": {
       "fiksId": "9204200",
@@ -226,9 +423,90 @@
             "minute": 60
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Jørgen Gjerde Ramsvik"
+        },
+        "referee": "Jørgen Gjerde Ramsvik",
+        "halfTime": "0–3",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 19,
+                "name": "Storm Aleksander Slyngstadli"
+              },
+              {
+                "number": 49,
+                "name": "Dominik Hyrycz"
+              },
+              {
+                "number": 18,
+                "name": "Filip Rødset Runde"
+              },
+              {
+                "number": 42,
+                "name": "Sakarias Ellefsen Hildre"
+              },
+              {
+                "number": 48,
+                "name": "Mathias Berge Honningdal"
+              }
+            ],
+            "bench": [
+              {
+                "number": 11,
+                "name": "Christian Solholm"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 4,
+                "name": "Colin Crevisier"
+              },
+              {
+                "number": 5,
+                "name": "Leaozinho Finnøy"
+              },
+              {
+                "number": 14,
+                "name": "Elias Skårbrevik Gjermundrød"
+              },
+              {
+                "number": 15,
+                "name": "Jørgen Sandvik Myklebust"
+              },
+              {
+                "number": 18,
+                "name": "Adams Stals"
+              },
+              {
+                "number": 20,
+                "name": "Wilhelm Sakse Simlenes Opshaug"
+              },
+              {
+                "number": 26,
+                "name": "Arthur Cervinski"
+              },
+              {
+                "number": 28,
+                "name": "Matheo Balsnes"
+              },
+              {
+                "number": 49,
+                "name": "Jean Philip Ariew Endresen"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126003": {
       "fiksId": "9204203",
@@ -319,9 +597,105 @@
             "minute": 70
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Norvald Helge Lausund"
+        },
+        "referee": "Norvald Helge Lausund",
+        "halfTime": "1–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Thine Flem"
+              },
+              {
+                "number": 7,
+                "name": "Frøya Severine Farstad Dyb"
+              },
+              {
+                "number": 10,
+                "name": "Alida Finnøy"
+              },
+              {
+                "number": 22,
+                "name": "Vera Bergtun"
+              },
+              {
+                "number": 2,
+                "name": "Elsa Farstad Rogne"
+              },
+              {
+                "number": 3,
+                "name": "Olivia Sue Sherman"
+              },
+              {
+                "number": 9,
+                "name": "June Sofie Hellouli Harnes"
+              },
+              {
+                "number": 20,
+                "name": "Elisa Belen Røsok"
+              },
+              {
+                "number": 4,
+                "name": "Laila Kristin Bueng Brunvoll"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aurell Annelynn Akselsen"
+              },
+              {
+                "number": 16,
+                "name": "Bertine Blomvik Tvedt"
+              },
+              {
+                "number": 21,
+                "name": "Vilde Rogne Furnes"
+              },
+              {
+                "number": 25,
+                "name": "Pia Fjørtoft"
+              },
+              {
+                "number": 19,
+                "name": "Leah Indiane Farstad Dyb"
+              },
+              {
+                "number": 23,
+                "name": "Astri Longva Davik"
+              },
+              {
+                "number": 24,
+                "name": "Julia Lausund Klokk"
+              },
+              {
+                "number": 36,
+                "name": "Stine Myskja Slyngstad"
+              },
+              {
+                "number": 34,
+                "name": "Lilli Marie Seth-Jonassen"
+              },
+              {
+                "number": 37,
+                "name": "JULIA ZACHARA"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113123002": {
       "fiksId": "9201466",
@@ -365,9 +739,105 @@
             "minute": 68
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Jørgen Gjerde Ramsvik"
+        },
+        "referee": "Jørgen Gjerde Ramsvik",
+        "halfTime": "1–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 88,
+                "name": "SAKARIAS LORGEN SÆTH"
+              },
+              {
+                "number": 4,
+                "name": "Eirik Rindal Flaaen"
+              },
+              {
+                "number": 6,
+                "name": "Theodor Nystøyl Kravik"
+              },
+              {
+                "number": 21,
+                "name": "Alfred Teigen Ulveraker"
+              },
+              {
+                "number": 24,
+                "name": "Filip Krøvel Balsnes"
+              },
+              {
+                "number": 8,
+                "name": "Sondre Tennebø Rødset"
+              },
+              {
+                "number": 10,
+                "name": "Ulrik Dahl Østerbø"
+              },
+              {
+                "number": 11,
+                "name": "Thomas Aasebø Løvland"
+              },
+              {
+                "number": 18,
+                "name": "Leon Alexander Bekken Henriksen"
+              },
+              {
+                "number": 2,
+                "name": "Emilian Alexander Nygård Eide"
+              },
+              {
+                "number": 17,
+                "name": "Storm Lesovsky Tollås Nation"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Iver Harstad Solheim"
+              },
+              {
+                "number": 12,
+                "name": "Jesper Aarseth"
+              },
+              {
+                "number": 14,
+                "name": "Bendik Helle Nygård"
+              },
+              {
+                "number": 29,
+                "name": "David Kjerstad Nesje"
+              },
+              {
+                "number": 3,
+                "name": "Petter Amdam Misund"
+              },
+              {
+                "number": 4,
+                "name": "Kevin Rogne"
+              },
+              {
+                "number": 25,
+                "name": "Rubin-Augustin Kleiven"
+              },
+              {
+                "number": 15,
+                "name": "Sebastian Thomassen Eide"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107007": {
       "fiksId": "9200039",
@@ -439,9 +909,127 @@
             "minute": 78
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Alf Gunnar Furland"
+        },
+        "referee": "Alf Gunnar Furland",
+        "halfTime": "5–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aurell Annelynn Akselsen"
+              },
+              {
+                "number": 16,
+                "name": "Bertine Blomvik Tvedt"
+              },
+              {
+                "number": 21,
+                "name": "Vilde Rogne Furnes"
+              },
+              {
+                "number": 22,
+                "name": "Frøya Severine Farstad Dyb"
+              },
+              {
+                "number": 25,
+                "name": "Pia Fjørtoft"
+              },
+              {
+                "number": 19,
+                "name": "Leah Indiane Farstad Dyb"
+              },
+              {
+                "number": 23,
+                "name": "Astri Longva Davik"
+              },
+              {
+                "number": 24,
+                "name": "Julia Lausund Klokk"
+              },
+              {
+                "number": 36,
+                "name": "Stine Myskja Slyngstad"
+              },
+              {
+                "number": 38,
+                "name": "Rannveig Kristine Martinsen"
+              },
+              {
+                "number": 34,
+                "name": "Lilli Marie Seth-Jonassen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 37,
+                "name": "JULIA ZACHARA"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Christina Kvam Magerøy"
+              },
+              {
+                "number": 13,
+                "name": "Tomine Bøe Storlykken"
+              },
+              {
+                "number": 15,
+                "name": "Sara Rogne Røyset"
+              },
+              {
+                "number": 20,
+                "name": "Johanne Cecilie Strømmen"
+              },
+              {
+                "number": 22,
+                "name": "Mina Elise Solberg"
+              },
+              {
+                "number": 2,
+                "name": "Maria Isabell Rossland Herje"
+              },
+              {
+                "number": 16,
+                "name": "Nora Johanne Myrold"
+              },
+              {
+                "number": 21,
+                "name": "Elena Sofie Gåseidnes Tangen"
+              },
+              {
+                "number": 28,
+                "name": "Mathilde Urke Brusdal"
+              },
+              {
+                "number": 31,
+                "name": "VILDE STRANDEN"
+              },
+              {
+                "number": 6,
+                "name": "Lovise Rødal Nerbø"
+              }
+            ],
+            "bench": [
+              {
+                "number": 7,
+                "name": "Sofia Olsen Lohela"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107010": {
       "fiksId": "9200042",
@@ -534,9 +1122,135 @@
             "minute": 79
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Martinus Holvik"
+        },
+        "referee": "Martinus Holvik",
+        "halfTime": "1–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Mia Myklebust Endresen"
+              },
+              {
+                "number": 5,
+                "name": "Alina Elouise Kjerstad Farstad"
+              },
+              {
+                "number": 15,
+                "name": "Marie Nordal Longva"
+              },
+              {
+                "number": 8,
+                "name": "Linnea Bakkom-Dokk"
+              },
+              {
+                "number": 9,
+                "name": "Alva Gausdal Vik"
+              },
+              {
+                "number": 11,
+                "name": "Lilly Hove-Ekornes"
+              },
+              {
+                "number": 10,
+                "name": "Sigrid Fjørtoft Nes"
+              }
+            ],
+            "bench": [
+              {
+                "number": 7,
+                "name": "Mathilde Myren Lianes"
+              },
+              {
+                "number": 13,
+                "name": "Hanna Regine Nerland Otterlei"
+              },
+              {
+                "number": 17,
+                "name": "Lilly Hjelvik"
+              },
+              {
+                "number": 19,
+                "name": "Betty Munkvold"
+              },
+              {
+                "number": 22,
+                "name": "Leah Emilie Myren Lianes"
+              },
+              {
+                "number": 23,
+                "name": "Sofie Nydal"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "JOSEFINE SKORPEN-ROKKONES"
+              },
+              {
+                "number": 10,
+                "name": "Isabella Linea Herje Madsen"
+              },
+              {
+                "number": 15,
+                "name": "Kornelia Olive Kopperstad"
+              },
+              {
+                "number": 7,
+                "name": "Sofie Myrstad Schjelderup"
+              },
+              {
+                "number": 8,
+                "name": "NIKOLINE FOSS BLINDHEIM"
+              },
+              {
+                "number": 17,
+                "name": "Ingrid Aarseth Sæter"
+              },
+              {
+                "number": 19,
+                "name": "Nikoline Hatløy"
+              }
+            ],
+            "bench": [
+              {
+                "number": 2,
+                "name": "LINA SOFIE HOLMEN BLINDHEIM"
+              },
+              {
+                "number": 3,
+                "name": "Olivia Rørhus Truong"
+              },
+              {
+                "number": 5,
+                "name": "Jenni Emilie Almaas"
+              },
+              {
+                "number": 6,
+                "name": "Nina Marak Barstad"
+              },
+              {
+                "number": 11,
+                "name": "Amalie Myrstad Schjelderup"
+              },
+              {
+                "number": 22,
+                "name": "Ava Perez-Rønneberg"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113123001": {
       "fiksId": "9201465",
@@ -724,9 +1438,100 @@
             "minute": 69
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Brage Knutsen Espe"
+        },
+        "referee": "Brage Knutsen Espe",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 7,
+                "name": "Elias Rokseth Nordstrand"
+              },
+              {
+                "number": 10,
+                "name": "Bendik Myrseth Utgård"
+              },
+              {
+                "number": 14,
+                "name": "Hassan Abdi Mohamed"
+              },
+              {
+                "number": 17,
+                "name": "Erik Svenning"
+              },
+              {
+                "number": 18,
+                "name": "Kristian Ringdal Linga"
+              },
+              {
+                "number": 11,
+                "name": "Emil Vikås"
+              },
+              {
+                "number": 9,
+                "name": "Elia Zikama"
+              },
+              {
+                "number": 23,
+                "name": "Benjamin Lundstad"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "André Flem Dalhaug"
+              },
+              {
+                "number": 14,
+                "name": "Vebjørn Helland Otterlei"
+              },
+              {
+                "number": 26,
+                "name": "Mathias Døving"
+              },
+              {
+                "number": 34,
+                "name": "Henrik Alvestad Lillestøl"
+              },
+              {
+                "number": 28,
+                "name": "Leon Lorgen Moa"
+              },
+              {
+                "number": 38,
+                "name": "Edvard Frostad Myklebust"
+              },
+              {
+                "number": 40,
+                "name": "Lucas Bjørnland Remme"
+              },
+              {
+                "number": 43,
+                "name": "Julian Renè Krogsæter Zarif"
+              },
+              {
+                "number": 36,
+                "name": "Youel Bahabelom Okubay"
+              },
+              {
+                "number": 37,
+                "name": "Alexander Huang Nuo Risnes"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126005": {
       "fiksId": "9204208",
@@ -780,9 +1585,82 @@
             "minute": 64
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Mariusz Anuszkiewicz"
+        },
+        "referee": "Mariusz Anuszkiewicz",
+        "halfTime": "2–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 32,
+                "name": "Filip Robert Cedro"
+              },
+              {
+                "number": 35,
+                "name": "Even Viset Stokke"
+              },
+              {
+                "number": 37,
+                "name": "Adrian Tennfjord Myklebust"
+              },
+              {
+                "number": 42,
+                "name": "Adrian Fylling Sjøholt"
+              },
+              {
+                "number": 36,
+                "name": "Even Vestre Braute"
+              }
+            ],
+            "bench": [
+              {
+                "number": 30,
+                "name": "Matheo Longva Austnes"
+              },
+              {
+                "number": 31,
+                "name": "Odin Storheim Homlong"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 19,
+                "name": "Storm Aleksander Slyngstadli"
+              },
+              {
+                "number": 42,
+                "name": "Sakarias Ellefsen Hildre"
+              },
+              {
+                "number": 49,
+                "name": "Dominik Hyrycz"
+              },
+              {
+                "number": 18,
+                "name": "Filip Rødset Runde"
+              },
+              {
+                "number": 48,
+                "name": "Mathias Berge Honningdal"
+              },
+              {
+                "number": 11,
+                "name": "Christian Solholm"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124004": {
       "fiksId": "9196216",
@@ -864,9 +1742,131 @@
             "minute": 67
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Niklas Stokke Solemdal"
+        },
+        "referee": "Niklas Stokke Solemdal",
+        "halfTime": "1–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Sofie Søbstad Olsen"
+              },
+              {
+                "number": 2,
+                "name": "Julie I Lagabø Giskegjerde"
+              },
+              {
+                "number": 3,
+                "name": "Ella Marie Akerø Giske"
+              },
+              {
+                "number": 4,
+                "name": "Alma Gidske"
+              },
+              {
+                "number": 6,
+                "name": "Mia Adele Remmen"
+              },
+              {
+                "number": 18,
+                "name": "Sanne Espnes Alnes"
+              },
+              {
+                "number": 8,
+                "name": "Ella Mannsverk"
+              },
+              {
+                "number": 9,
+                "name": "Vilja Giske"
+              },
+              {
+                "number": 10,
+                "name": "Johanna Aamodt"
+              },
+              {
+                "number": 14,
+                "name": "Bertine Giske Holvik"
+              },
+              {
+                "number": 15,
+                "name": "Runa Kristin Hoel Alnes"
+              }
+            ],
+            "bench": [
+              {
+                "number": 20,
+                "name": "Sofie Lande Dybvik"
+              },
+              {
+                "number": 7,
+                "name": "Martine Svinø"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aurell Annelynn Akselsen"
+              },
+              {
+                "number": 7,
+                "name": "Frøya Severine Farstad Dyb"
+              },
+              {
+                "number": 10,
+                "name": "Alida Finnøy"
+              },
+              {
+                "number": 19,
+                "name": "Bertine Blomvik Tvedt"
+              },
+              {
+                "number": 22,
+                "name": "Vera Bergtun"
+              },
+              {
+                "number": 3,
+                "name": "Olivia Sue Sherman"
+              },
+              {
+                "number": 9,
+                "name": "June Sofie Hellouli Harnes"
+              },
+              {
+                "number": 14,
+                "name": "Pia Fjørtoft"
+              },
+              {
+                "number": 15,
+                "name": "Stine Myskja Slyngstad"
+              },
+              {
+                "number": 20,
+                "name": "Elisa Belen Røsok"
+              },
+              {
+                "number": 4,
+                "name": "Laila Kristin Bueng Brunvoll"
+              }
+            ],
+            "bench": [
+              {
+                "number": 8,
+                "name": "Thine Flem"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107009": {
       "fiksId": "9200041",
@@ -936,9 +1936,115 @@
             "minute": 67
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "David Mircea Rus"
+        },
+        "referee": "David Mircea Rus",
+        "halfTime": "2–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Hanna Sunde Skutholm"
+              },
+              {
+                "number": 8,
+                "name": "Aurora Helene Flønes"
+              },
+              {
+                "number": 15,
+                "name": "Aurora Elise Lervik"
+              },
+              {
+                "number": 27,
+                "name": "Julie Drejer Torsen"
+              },
+              {
+                "number": 6,
+                "name": "Mia Farstad"
+              },
+              {
+                "number": 16,
+                "name": "Amanda Christine Lossius"
+              },
+              {
+                "number": 25,
+                "name": "Mathea Henøen Strand"
+              },
+              {
+                "number": 2,
+                "name": "Maja Nyheim Berg"
+              },
+              {
+                "number": 10,
+                "name": "Maja Haukås"
+              }
+            ],
+            "bench": [
+              {
+                "number": 22,
+                "name": "Malin Røv"
+              },
+              {
+                "number": 29,
+                "name": "Olava Kalliainen Vestavik"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 10,
+                "name": "Arminia Murgus Tira"
+              },
+              {
+                "number": 25,
+                "name": "Julie Bjørdalsbakke"
+              },
+              {
+                "number": 6,
+                "name": "Liana Tiron"
+              },
+              {
+                "number": 7,
+                "name": "Junira Murgus Tira"
+              },
+              {
+                "number": 20,
+                "name": "Gjertine Løvik"
+              },
+              {
+                "number": 81,
+                "name": "Sigrid Wilhelmine Skjegstad Neraas"
+              },
+              {
+                "number": 9,
+                "name": "Anna Kanutte Width-Osdal"
+              }
+            ],
+            "bench": [
+              {
+                "number": 3,
+                "name": "Tali Elise Scharf"
+              },
+              {
+                "number": 80,
+                "name": "Hyab Awet Teshome"
+              },
+              {
+                "number": 82,
+                "name": "Emilie Thomassen Bjermeland"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124003": {
       "fiksId": "9196215",
@@ -1017,9 +2123,147 @@
             "minute": 74
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Marcus Andreassen"
+        },
+        "referee": "Marcus Andreassen",
+        "halfTime": "2–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Axel Mario Akselsen"
+              },
+              {
+                "number": 24,
+                "name": "Tor Sandø Otterlei"
+              },
+              {
+                "number": 2,
+                "name": "Noah Longva Hagen"
+              },
+              {
+                "number": 3,
+                "name": "Zen Kjerstad"
+              },
+              {
+                "number": 16,
+                "name": "Aron Leander Nogva"
+              },
+              {
+                "number": 22,
+                "name": "Jonas Sandøy"
+              },
+              {
+                "number": 24,
+                "name": "Aksel Mattias Börlin"
+              },
+              {
+                "number": 18,
+                "name": "Markus Fjørtoft"
+              },
+              {
+                "number": 19,
+                "name": "Oleksandr Karavatskyi"
+              },
+              {
+                "number": 20,
+                "name": "Nathaniel Szmyd"
+              },
+              {
+                "number": 23,
+                "name": "Teodor Dalhaug Ulla"
+              }
+            ],
+            "bench": [
+              {
+                "number": 25,
+                "name": "Oliver Vedeld Molnes"
+              },
+              {
+                "number": 27,
+                "name": "Kristoffer Lee Sherman"
+              },
+              {
+                "number": 29,
+                "name": "Liam Morsund Buchinski"
+              },
+              {
+                "number": 40,
+                "name": "Ruben Molnes"
+              },
+              {
+                "number": 11,
+                "name": "Andreas Silseth Harnes"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Liam Viktor Spjuth Hafsås"
+              },
+              {
+                "number": 12,
+                "name": "FEDIR SMYRNOV"
+              },
+              {
+                "number": 6,
+                "name": "Dmytro Nakonechnyi"
+              },
+              {
+                "number": 16,
+                "name": "Camilo Gimenez Hovet-Cruz"
+              },
+              {
+                "number": 26,
+                "name": "Eskil Auflem Vestvik"
+              },
+              {
+                "number": 31,
+                "name": "Lucas Emblem Lade"
+              },
+              {
+                "number": 5,
+                "name": "Daniel Andreassen"
+              },
+              {
+                "number": 7,
+                "name": "Naod Gebrebrhan Gebrebrhan Hailemariam"
+              },
+              {
+                "number": 13,
+                "name": "Mikkel Ibsen Lervåg"
+              },
+              {
+                "number": 17,
+                "name": "Johan Aursnes"
+              },
+              {
+                "number": 27,
+                "name": "Isak Hjellegjerde"
+              }
+            ],
+            "bench": [
+              {
+                "number": 3,
+                "name": "Dominik Zbroszczyk"
+              },
+              {
+                "number": 22,
+                "name": "Trym Øvstegård Utgård"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124002": {
       "fiksId": "9196214",
@@ -1070,9 +2314,159 @@
             "minute": 79
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Christoffer Lervåg"
+        },
+        "referee": "Christoffer Lervåg",
+        "halfTime": "1–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Phillip Putra Meta Zeh"
+              },
+              {
+                "number": 2,
+                "name": "Petter Elias Langøy Velle"
+              },
+              {
+                "number": 11,
+                "name": "Odin Melseth Overå"
+              },
+              {
+                "number": 14,
+                "name": "Kesineb Bereket Tesfaselassie"
+              },
+              {
+                "number": 20,
+                "name": "Sander Svenning"
+              },
+              {
+                "number": 21,
+                "name": "Omar Radwan Alaswad"
+              },
+              {
+                "number": 8,
+                "name": "Ole Marius Alnes"
+              },
+              {
+                "number": 15,
+                "name": "Brage Knutsen Espe"
+              },
+              {
+                "number": 23,
+                "name": "Amund Watters-Øye"
+              },
+              {
+                "number": 36,
+                "name": "Matihewos Tsegay Kahsay"
+              },
+              {
+                "number": 60,
+                "name": "Jonathan Klokk Eidset"
+              }
+            ],
+            "bench": [
+              {
+                "number": 9,
+                "name": "Casper Hovdenakk-Vadset"
+              },
+              {
+                "number": 19,
+                "name": "Olai Hole Bjørneseth"
+              },
+              {
+                "number": 38,
+                "name": "Håkon Andre Sæter"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Nathaniel Nybø Skjegstad"
+              },
+              {
+                "number": 2,
+                "name": "Julian André Uhlen"
+              },
+              {
+                "number": 8,
+                "name": "Syver Midtbust-Dyrkorn"
+              },
+              {
+                "number": 9,
+                "name": "Antoni Mateusz Adamiec"
+              },
+              {
+                "number": 16,
+                "name": "Sondre Hove Bull"
+              },
+              {
+                "number": 17,
+                "name": "Mateo Fernando Dyrkorn"
+              },
+              {
+                "number": 66,
+                "name": "Filip Hjelle Busengdal"
+              },
+              {
+                "number": 4,
+                "name": "Eriam Abelseth Søvik"
+              },
+              {
+                "number": 7,
+                "name": "Marcus Karl Cevallos"
+              },
+              {
+                "number": 11,
+                "name": "Trym Vaksvik Sandberg"
+              },
+              {
+                "number": 14,
+                "name": "Jaden Alexander Grüner"
+              }
+            ],
+            "bench": [
+              {
+                "number": 15,
+                "name": "Magnus Vad"
+              },
+              {
+                "number": 25,
+                "name": "Adrian Tennfjord Myklebust"
+              },
+              {
+                "number": 99,
+                "name": "Magnus Sjøholt Alstadsæter"
+              },
+              {
+                "number": 3,
+                "name": "Olav Bueide Henden"
+              },
+              {
+                "number": 13,
+                "name": "Jørgen Gjerde Ramsvik"
+              },
+              {
+                "number": 21,
+                "name": "Johannes Isvik"
+              },
+              {
+                "number": 26,
+                "name": "Lars Joakim Hole Sjåstad"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107015": {
       "fiksId": "9200047",
@@ -1171,9 +2565,113 @@
             "minute": 66
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Mariusz Anuszkiewicz"
+        },
+        "referee": "Mariusz Anuszkiewicz",
+        "halfTime": "2–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 18,
+                "name": "Sebastian Thomassen Eide"
+              },
+              {
+                "number": 1,
+                "name": "Iver Harstad Solheim"
+              },
+              {
+                "number": 3,
+                "name": "Sivert Tenfjord Tennøy"
+              },
+              {
+                "number": 3,
+                "name": "Sigve Bringsvor Åkre"
+              },
+              {
+                "number": 7,
+                "name": "Petter Amdam Misund"
+              },
+              {
+                "number": 14,
+                "name": "Jesper Aarseth"
+              },
+              {
+                "number": 20,
+                "name": "Bendik Helle Nygård"
+              },
+              {
+                "number": 6,
+                "name": "Vinjar Krogsethagen Ringstad"
+              },
+              {
+                "number": 11,
+                "name": "David Kjerstad Nesje"
+              },
+              {
+                "number": 26,
+                "name": "Kevin Rogne"
+              },
+              {
+                "number": 9,
+                "name": "Rubin-Augustin Kleiven"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 30,
+                "name": "Ludvik Dyb Giil"
+              },
+              {
+                "number": 4,
+                "name": "Kian-Tharcy Bizumuremyi"
+              },
+              {
+                "number": 9,
+                "name": "Ask Gausdal Lübbe"
+              },
+              {
+                "number": 5,
+                "name": "Filip Husevåg-Alnes"
+              },
+              {
+                "number": 6,
+                "name": "Sander Armando van der Klaauw"
+              },
+              {
+                "number": 8,
+                "name": "Moses Tegen Roaldsnes Bremer"
+              },
+              {
+                "number": 17,
+                "name": "Julian Markus Longva"
+              },
+              {
+                "number": 47,
+                "name": "Mathyas Tibi Milu"
+              },
+              {
+                "number": 16,
+                "name": "Adnan Khartabil"
+              },
+              {
+                "number": 18,
+                "name": "Vetle Vincent Eikrem"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107012": {
       "fiksId": "9200044",
@@ -1304,9 +2802,119 @@
             "minute": 76
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Jørgen Gjerde Ramsvik"
+        },
+        "referee": "Jørgen Gjerde Ramsvik",
+        "halfTime": "6–6",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Camilla Gausdal-Langø"
+              },
+              {
+                "number": 4,
+                "name": "Leah Sæther Lukkedal"
+              },
+              {
+                "number": 6,
+                "name": "Hanne Børretzen Fjørtoft"
+              },
+              {
+                "number": 7,
+                "name": "Noora Njoya Øvstedal"
+              },
+              {
+                "number": 9,
+                "name": "Aria Sofie Vethe Kvamme"
+              },
+              {
+                "number": 15,
+                "name": "Isabell Rudolph Sjøholt"
+              },
+              {
+                "number": 5,
+                "name": "Julie Vinje Kjersem"
+              },
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              },
+              {
+                "number": 16,
+                "name": "Nikoline Alfer"
+              }
+            ],
+            "bench": [
+              {
+                "number": 43,
+                "name": "Jenna Lid"
+              },
+              {
+                "number": 3,
+                "name": "Anine Kristin Liabø-Sæter"
+              },
+              {
+                "number": 8,
+                "name": "Julia Sollied Lande"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 20,
+                "name": "Leanna Standal Myklebust"
+              },
+              {
+                "number": 13,
+                "name": "Sunniva Aam Kriken"
+              },
+              {
+                "number": 16,
+                "name": "LOTTE LIANES FOLLESTAD"
+              },
+              {
+                "number": 12,
+                "name": "Ella Heggdal Skare"
+              },
+              {
+                "number": 26,
+                "name": "Melina Ness Skogen"
+              },
+              {
+                "number": 29,
+                "name": "Sophia Urke Eriksen"
+              },
+              {
+                "number": 2,
+                "name": "Lina Rekkedal Nupen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 14,
+                "name": "Linéa Olava Lie"
+              },
+              {
+                "number": 27,
+                "name": "Jorunn Oline Hovden"
+              },
+              {
+                "number": 30,
+                "name": "Ella Hellebust Kleppe"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107013": {
       "fiksId": "9200045",
@@ -1392,9 +3000,119 @@
             "minute": 79
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Vegard Hareide Øvrelid"
+        },
+        "referee": "Vegard Hareide Øvrelid",
+        "halfTime": "2–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 3,
+                "name": "Mia Pernille Alnes"
+              },
+              {
+                "number": 5,
+                "name": "Hanna Tomren Ulla"
+              },
+              {
+                "number": 7,
+                "name": "Synne Haram Farstad"
+              },
+              {
+                "number": 8,
+                "name": "Leah Brand-Hansen"
+              },
+              {
+                "number": 17,
+                "name": "Leah Revheim Olsen"
+              },
+              {
+                "number": 11,
+                "name": "Anna Valen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 9,
+                "name": "Marit Toftnes Myklebust"
+              },
+              {
+                "number": 10,
+                "name": "Julie Leine Giske"
+              },
+              {
+                "number": 14,
+                "name": "Sandra Berge Kvam"
+              },
+              {
+                "number": 15,
+                "name": "Cornelia Aasen Alnes"
+              },
+              {
+                "number": 20,
+                "name": "Marie Nedregotten"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Sofie Nydal"
+              },
+              {
+                "number": 4,
+                "name": "Mia Myklebust Endresen"
+              },
+              {
+                "number": 6,
+                "name": "Maria Myklebust Endresen"
+              },
+              {
+                "number": 7,
+                "name": "Mathilde Myren Lianes"
+              },
+              {
+                "number": 15,
+                "name": "Marie Nordal Longva"
+              },
+              {
+                "number": 16,
+                "name": "Teoline Næs Tafjord"
+              },
+              {
+                "number": 17,
+                "name": "Lilly Hjelvik"
+              },
+              {
+                "number": 20,
+                "name": "Elle Louise Ytredal"
+              },
+              {
+                "number": 26,
+                "name": "Betty Munkvold"
+              }
+            ],
+            "bench": [
+              {
+                "number": 11,
+                "name": "Lilly Hove-Ekornes"
+              },
+              {
+                "number": 22,
+                "name": "Leah Emilie Myren Lianes"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "15149017007": {
       "fiksId": "9177158",
@@ -1485,9 +3203,143 @@
             "minute": 76
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Personinfo ikke tilgjengelig"
+        },
+        "referee": "Personinfo ikke tilgjengelig",
+        "halfTime": "2–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aurell Annelynn Akselsen"
+              },
+              {
+                "number": 7,
+                "name": "Frøya Severine Farstad Dyb"
+              },
+              {
+                "number": 10,
+                "name": "Alida Finnøy"
+              },
+              {
+                "number": 11,
+                "name": "Mie Rudi Flem"
+              },
+              {
+                "number": 22,
+                "name": "Vera Bergtun"
+              },
+              {
+                "number": 2,
+                "name": "Elsa Farstad Rogne"
+              },
+              {
+                "number": 3,
+                "name": "Olivia Sue Sherman"
+              },
+              {
+                "number": 9,
+                "name": "June Sofie Hellouli Harnes"
+              },
+              {
+                "number": 13,
+                "name": "Julia Lausund Klokk"
+              },
+              {
+                "number": 16,
+                "name": "Leah Indiane Farstad Dyb"
+              },
+              {
+                "number": 20,
+                "name": "Elisa Belen Røsok"
+              }
+            ],
+            "bench": [
+              {
+                "number": 4,
+                "name": "Laila Kristin Bueng Brunvoll"
+              },
+              {
+                "number": 8,
+                "name": "Thine Flem"
+              },
+              {
+                "number": 14,
+                "name": "Pia Fjørtoft (strøket)"
+              },
+              {
+                "number": 15,
+                "name": "Stine Myskja Slyngstad (strøket)"
+              },
+              {
+                "number": 19,
+                "name": "Bertine Blomvik Tvedt (strøket)"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 22,
+                "name": "Tyra Kleppe"
+              },
+              {
+                "number": 17,
+                "name": "Klara Elisabeth Voldnes"
+              },
+              {
+                "number": 20,
+                "name": "Ada Kvalsund Aksnes"
+              },
+              {
+                "number": 34,
+                "name": "Vanessa Fugledal"
+              },
+              {
+                "number": 41,
+                "name": "Line Sandanger"
+              },
+              {
+                "number": 60,
+                "name": "Bertine Baugstø Vonheim"
+              },
+              {
+                "number": 26,
+                "name": "Jessica Maria Kleppestrand"
+              },
+              {
+                "number": 30,
+                "name": "Serine Ulfstein"
+              },
+              {
+                "number": 7,
+                "name": "Frøya Torset Bakken"
+              },
+              {
+                "number": 10,
+                "name": "Rebecka Sandnes Pettersen"
+              },
+              {
+                "number": 14,
+                "name": "Sigrun Elisa Wiencke"
+              }
+            ],
+            "bench": [
+              {
+                "number": 29,
+                "name": "Cassandra Hauge Vike"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": false
+      "goalTimelineVerified": false,
+      "detailFetches": 1
     },
     "23113123006": {
       "fiksId": "9201470",
@@ -1608,9 +3460,116 @@
             "minute": 70
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Jørgen Gjerde Ramsvik",
+          "refereeObserver": "Fredrik Klokk Løken"
+        },
+        "referee": "Jørgen Gjerde Ramsvik",
+        "halfTime": "0–10",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Egide Ntumba Ushindi"
+              },
+              {
+                "number": 14,
+                "name": "Vebjørn Helland Otterlei"
+              },
+              {
+                "number": 26,
+                "name": "Mathias Døving"
+              },
+              {
+                "number": 34,
+                "name": "Henrik Alvestad Lillestøl"
+              },
+              {
+                "number": 28,
+                "name": "Leon Lorgen Moa"
+              },
+              {
+                "number": 38,
+                "name": "Edvard Frostad Myklebust"
+              },
+              {
+                "number": 40,
+                "name": "Lucas Bjørnland Remme"
+              },
+              {
+                "number": 43,
+                "name": "Julian Renè Krogsæter Zarif"
+              },
+              {
+                "number": 23,
+                "name": "Kevin Bjørshol Skjønberg"
+              },
+              {
+                "number": 36,
+                "name": "Youel Bahabelom Okubay"
+              },
+              {
+                "number": 37,
+                "name": "Alexander Huang Nuo Risnes"
+              }
+            ],
+            "bench": [
+              {
+                "number": 12,
+                "name": "André Flem Dalhaug (strøket)"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 23,
+                "name": "Iver Bersås Ytterdal"
+              },
+              {
+                "number": 2,
+                "name": "Johan Lien Kleppe"
+              },
+              {
+                "number": 4,
+                "name": "Elias Syversen Eikrem"
+              },
+              {
+                "number": 7,
+                "name": "David Andreas Holm"
+              },
+              {
+                "number": 10,
+                "name": "Olai Badu Kwaasi-Eide"
+              },
+              {
+                "number": 14,
+                "name": "Elias Samson Tilahun"
+              },
+              {
+                "number": 16,
+                "name": "Erdal Islek"
+              },
+              {
+                "number": 8,
+                "name": "David Brandtzæg Haugen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 26,
+                "name": "Samuel Karlson Andersen"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113123009": {
       "fiksId": "9201473",
@@ -1790,9 +3749,127 @@
             "minute": 77
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Nora Johanne Iversen"
+        },
+        "referee": "Nora Johanne Iversen",
+        "halfTime": "3–7",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Alvilde Kristine Tandstad"
+              },
+              {
+                "number": 2,
+                "name": "Kristina Langås Myrnes"
+              },
+              {
+                "number": 20,
+                "name": "Hedda Bjørnevik"
+              },
+              {
+                "number": 22,
+                "name": "Ida Marie Klokkehaug"
+              },
+              {
+                "number": 47,
+                "name": "Lillian Ludviksen"
+              },
+              {
+                "number": 1,
+                "name": "Johanne Klokk Grøvlen"
+              },
+              {
+                "number": 10,
+                "name": "Lily Bakke Payling"
+              },
+              {
+                "number": 11,
+                "name": "Sofia Hausvik Kjølås"
+              },
+              {
+                "number": 13,
+                "name": "Sarloté Jevsikovaite"
+              },
+              {
+                "number": 27,
+                "name": "Serafima Maximovna Berg-Gerashchenko"
+              },
+              {
+                "number": 7,
+                "name": "Julie Kristin Helseth Nordang"
+              }
+            ],
+            "bench": [
+              {
+                "number": 14,
+                "name": "Paraskevi Dimitriou"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aurell Annelynn Akselsen"
+              },
+              {
+                "number": 16,
+                "name": "Bertine Blomvik Tvedt"
+              },
+              {
+                "number": 25,
+                "name": "Pia Fjørtoft"
+              },
+              {
+                "number": 19,
+                "name": "Leah Indiane Farstad Dyb"
+              },
+              {
+                "number": 23,
+                "name": "Astri Longva Davik"
+              },
+              {
+                "number": 24,
+                "name": "Julia Lausund Klokk"
+              },
+              {
+                "number": 30,
+                "name": "Laila Kristin Bueng Brunvoll"
+              },
+              {
+                "number": 36,
+                "name": "Stine Myskja Slyngstad"
+              },
+              {
+                "number": 38,
+                "name": "Rannveig Kristine Martinsen"
+              },
+              {
+                "number": 39,
+                "name": "Olivia Sue Sherman"
+              },
+              {
+                "number": 34,
+                "name": "Lilli Marie Seth-Jonassen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 37,
+                "name": "JULIA ZACHARA"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126007": {
       "fiksId": "9204212",
@@ -1844,9 +3921,89 @@
             "minute": 65
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Sem Eloy Middelhoek"
+        },
+        "referee": "Sem Eloy Middelhoek",
+        "halfTime": "0–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 70,
+                "name": "Sondre Alvestad Furholm"
+              },
+              {
+                "number": 71,
+                "name": "Kristian Myrvoll Bjørlo"
+              },
+              {
+                "number": 55,
+                "name": "Herman Istad Hide"
+              },
+              {
+                "number": 60,
+                "name": "Milian Lødøen Backlund"
+              },
+              {
+                "number": 83,
+                "name": "Gustav Bjørkhaug Henriksen"
+              },
+              {
+                "number": 53,
+                "name": "Sverre Vedvik Moa"
+              },
+              {
+                "number": 86,
+                "name": "Marius Klauseth Kvalsvik"
+              },
+              {
+                "number": 87,
+                "name": "Malte Bolseth Persson"
+              },
+              {
+                "number": 89,
+                "name": "Ferdinand Amelius Haagensen"
+              },
+              {
+                "number": 58,
+                "name": "Wilhelm Eliah Bårdsgjerde"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Kai-Leander Reistad Giske"
+              },
+              {
+                "number": 14,
+                "name": "Even Endré Frøysadal Hånde"
+              },
+              {
+                "number": 23,
+                "name": "Kevin Bjørshol Skjønberg"
+              },
+              {
+                "number": 25,
+                "name": "Egide Ntumba Ushindi"
+              },
+              {
+                "number": 4,
+                "name": "Cian Lucas Pagara"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126008": {
       "fiksId": "9204215",
@@ -1942,9 +4099,94 @@
             "minute": 68
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Mariusz Anuszkiewicz"
+        },
+        "referee": "Mariusz Anuszkiewicz",
+        "halfTime": "6–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 32,
+                "name": "Filip Robert Cedro"
+              },
+              {
+                "number": 35,
+                "name": "Even Viset Stokke"
+              },
+              {
+                "number": 30,
+                "name": "Matheo Longva Austnes"
+              },
+              {
+                "number": 42,
+                "name": "Adrian Fylling Sjøholt"
+              },
+              {
+                "number": 36,
+                "name": "Even Vestre Braute"
+              }
+            ],
+            "bench": [
+              {
+                "number": 31,
+                "name": "Odin Storheim Homlong"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 5,
+                "name": "Leaozinho Finnøy"
+              },
+              {
+                "number": 14,
+                "name": "Elias Skårbrevik Gjermundrød"
+              },
+              {
+                "number": 15,
+                "name": "Jørgen Sandvik Myklebust"
+              },
+              {
+                "number": 20,
+                "name": "Wilhelm Sakse Simlenes Opshaug"
+              },
+              {
+                "number": 26,
+                "name": "Arthur Cervinski"
+              },
+              {
+                "number": 26,
+                "name": "Colin Crevisier"
+              },
+              {
+                "number": 49,
+                "name": "Jean Philip Ariew Endresen"
+              },
+              {
+                "number": 2,
+                "name": "Odin Sylte Westlie"
+              },
+              {
+                "number": 33,
+                "name": "Stefan Løkka"
+              },
+              {
+                "number": 25,
+                "name": "Magnus Øksenvåg Sand"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124009": {
       "fiksId": "9196221",
@@ -2022,9 +4264,87 @@
             "minute": 58
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Hjalmar Holvik"
+        },
+        "referee": "Hjalmar Holvik",
+        "halfTime": "1–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 19,
+                "name": "Storm Aleksander Slyngstadli"
+              },
+              {
+                "number": 42,
+                "name": "Sakarias Ellefsen Hildre"
+              },
+              {
+                "number": 49,
+                "name": "Dominik Hyrycz"
+              },
+              {
+                "number": 31,
+                "name": "Johan Ekrem Lillebø"
+              },
+              {
+                "number": 48,
+                "name": "Mathias Berge Honningdal"
+              },
+              {
+                "number": 32,
+                "name": "Aron Venås Ytrelid"
+              }
+            ],
+            "bench": [
+              {
+                "number": 18,
+                "name": "Filip Rødset Runde"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Gulliver Gryt"
+              },
+              {
+                "number": 4,
+                "name": "Yaroslav Abuzarova"
+              },
+              {
+                "number": 6,
+                "name": "Hans Theodor Gaasø Teigene"
+              },
+              {
+                "number": 14,
+                "name": "Latheeshan Jeyachandran"
+              },
+              {
+                "number": 16,
+                "name": "Leon Hove Røyset"
+              },
+              {
+                "number": 20,
+                "name": "Filip Oliwer Kmiec"
+              }
+            ],
+            "bench": [
+              {
+                "number": 15,
+                "name": "Emil Grimstad Beiermann (strøket)"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "15149017009": {
       "fiksId": "9177160",
@@ -2055,9 +4375,86 @@
             "minute": 25
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Sindre Ristesund Støylen"
+        },
+        "referee": "Sindre Ristesund Støylen",
+        "halfTime": "0–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 3,
+                "name": "Tali Elise Scharf"
+              },
+              {
+                "number": 25,
+                "name": "Julie Bjørdalsbakke"
+              },
+              {
+                "number": 6,
+                "name": "Liana Tiron"
+              },
+              {
+                "number": 80,
+                "name": "Hyab Awet Teshome"
+              },
+              {
+                "number": 82,
+                "name": "Emilie Thomassen Bjermeland"
+              },
+              {
+                "number": 9,
+                "name": "Anna Kanutte Width-Osdal"
+              }
+            ],
+            "bench": [
+              {
+                "number": 60,
+                "name": "Julie Eilertsen"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 65,
+                "name": "Malin Brevik Grøthe"
+              },
+              {
+                "number": 8,
+                "name": "Malin Steen Fiskvik"
+              },
+              {
+                "number": 10,
+                "name": "Leonora Stokholm Sivertsen"
+              },
+              {
+                "number": 21,
+                "name": "Millie Sofie Krekvik Eidem Zahl-Jansen"
+              },
+              {
+                "number": 15,
+                "name": "Marion Reiten Bøklep"
+              },
+              {
+                "number": 9,
+                "name": "Leonora Johansen"
+              },
+              {
+                "number": 11,
+                "name": "Ida Sofie Solheim"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "15149017042": {
       "fiksId": "9177193",
@@ -2113,9 +4510,167 @@
             "minute": 64
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Oddbjørn Aam"
+        },
+        "referee": "Oddbjørn Aam",
+        "halfTime": "2–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Nathaniel Nybø Skjegstad"
+              },
+              {
+                "number": 2,
+                "name": "Antoni Mateusz Adamiec"
+              },
+              {
+                "number": 9,
+                "name": "Julian André Uhlen"
+              },
+              {
+                "number": 11,
+                "name": "Sondre Hove Bull"
+              },
+              {
+                "number": 18,
+                "name": "Syver Midtbust-Dyrkorn"
+              },
+              {
+                "number": 20,
+                "name": "Mateo Fernando Dyrkorn"
+              },
+              {
+                "number": 6,
+                "name": "Eriam Abelseth Søvik"
+              },
+              {
+                "number": 7,
+                "name": "Magnus Sjøholt Alstadsæter"
+              },
+              {
+                "number": 16,
+                "name": "Jaden Alexander Grüner"
+              },
+              {
+                "number": 17,
+                "name": "Leon Stavseng"
+              },
+              {
+                "number": 21,
+                "name": "Marcus Karl Cevallos"
+              }
+            ],
+            "bench": [
+              {
+                "number": 22,
+                "name": "Trym Vaksvik Sandberg"
+              },
+              {
+                "number": 38,
+                "name": "Jørgen Nordli Sivertsen"
+              },
+              {
+                "number": 4,
+                "name": "Trym Falling Møller"
+              },
+              {
+                "number": 5,
+                "name": "Lars Joakim Hole Sjåstad"
+              },
+              {
+                "number": 8,
+                "name": "Olav Bueide Henden"
+              },
+              {
+                "number": 10,
+                "name": "Filip Hjelle Busengdal"
+              },
+              {
+                "number": 13,
+                "name": "Markus Hovden Ulvestad"
+              },
+              {
+                "number": 15,
+                "name": "Jørgen Gjerde Ramsvik"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aadne Eikrem"
+              },
+              {
+                "number": 2,
+                "name": "Stian Valderhaug"
+              },
+              {
+                "number": 4,
+                "name": "Liam Bjørge Valderhaug"
+              },
+              {
+                "number": 9,
+                "name": "Jakob Sverre Ytterland"
+              },
+              {
+                "number": 12,
+                "name": "Samuel Ailan Urkedal"
+              },
+              {
+                "number": 15,
+                "name": "Viktor Heimland Løkling"
+              },
+              {
+                "number": 18,
+                "name": "Eirik Gjøsund Hareid"
+              },
+              {
+                "number": 20,
+                "name": "Herman Ask Giskeødegård"
+              },
+              {
+                "number": 21,
+                "name": "Aron Kvalheim Rogne"
+              },
+              {
+                "number": 46,
+                "name": "Olai Mateo Farstad"
+              },
+              {
+                "number": 10,
+                "name": "Magnus Andreas Bugge Dyb"
+              }
+            ],
+            "bench": [
+              {
+                "number": 9,
+                "name": "William Valderhaug Amdam"
+              },
+              {
+                "number": 19,
+                "name": "Jonah Storsæter Giske"
+              },
+              {
+                "number": 26,
+                "name": "Josef Ghazi"
+              },
+              {
+                "number": 29,
+                "name": "Millian Johann Vindvik Nordstrand"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124006": {
       "fiksId": "9196218",
@@ -2201,9 +4756,159 @@
             "minute": 80
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Niklas Bertil Hurlen Spets"
+        },
+        "referee": "Niklas Bertil Hurlen Spets",
+        "halfTime": "0–3",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Rostyslav Kosteniuk"
+              },
+              {
+                "number": 3,
+                "name": "Isak Vangen Kvalsund"
+              },
+              {
+                "number": 4,
+                "name": "Emil Wilnes Remøy"
+              },
+              {
+                "number": 8,
+                "name": "Kevin Rafteseth Vike"
+              },
+              {
+                "number": 19,
+                "name": "Peter Stenersløkken Kvalsvik"
+              },
+              {
+                "number": 25,
+                "name": "Oliver Zahl Tarberg"
+              },
+              {
+                "number": 28,
+                "name": "William Keri Onen"
+              },
+              {
+                "number": 5,
+                "name": "Bård Arild Kopperstad"
+              },
+              {
+                "number": 10,
+                "name": "Mahmoud Zaki Saidi"
+              },
+              {
+                "number": 6,
+                "name": "Markus Lima Rogne"
+              },
+              {
+                "number": 7,
+                "name": "Muhib Alrahim"
+              }
+            ],
+            "bench": [
+              {
+                "number": 9,
+                "name": "Mohammed Joud Kaisson"
+              },
+              {
+                "number": 18,
+                "name": "Oscar Kessler Myking"
+              },
+              {
+                "number": 20,
+                "name": "Ulrik Notø Kvalsvik"
+              },
+              {
+                "number": 13,
+                "name": "Magnus Bøe"
+              },
+              {
+                "number": 81,
+                "name": "Matheo Østraat"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 24,
+                "name": "Tor Sandø Otterlei"
+              },
+              {
+                "number": 2,
+                "name": "Aksel Mattias Börlin"
+              },
+              {
+                "number": 5,
+                "name": "Jonas Sandøy"
+              },
+              {
+                "number": 7,
+                "name": "Aron Leander Nogva"
+              },
+              {
+                "number": 14,
+                "name": "Zen Kjerstad"
+              },
+              {
+                "number": 17,
+                "name": "Konrad Finnøy"
+              },
+              {
+                "number": 19,
+                "name": "Noah Longva Hagen"
+              },
+              {
+                "number": 6,
+                "name": "Liam Morsund Buchinski"
+              },
+              {
+                "number": 8,
+                "name": "Markus Fjørtoft"
+              },
+              {
+                "number": 10,
+                "name": "Markus Steinshamn"
+              },
+              {
+                "number": 11,
+                "name": "Kristoffer Lee Sherman"
+              }
+            ],
+            "bench": [
+              {
+                "number": 15,
+                "name": "Oleksandr Karavatskyi"
+              },
+              {
+                "number": 18,
+                "name": "Nathaniel Szmyd"
+              },
+              {
+                "number": 22,
+                "name": "Ruben Molnes"
+              },
+              {
+                "number": 4,
+                "name": "Julian Nogva Vedeld"
+              },
+              {
+                "number": 9,
+                "name": "Andreas Silseth Harnes"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107017": {
       "fiksId": "9200049",
@@ -2315,9 +5020,127 @@
             "minute": 77
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Martinus Holvik"
+        },
+        "referee": "Martinus Holvik",
+        "halfTime": "2–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Mia Myklebust Endresen"
+              },
+              {
+                "number": 2,
+                "name": "Nicoline Tomren Nystøyl"
+              },
+              {
+                "number": 7,
+                "name": "Mathilde Myren Lianes"
+              },
+              {
+                "number": 24,
+                "name": "Ella Haugen"
+              },
+              {
+                "number": 8,
+                "name": "Linnea Bakkom-Dokk"
+              },
+              {
+                "number": 9,
+                "name": "Alva Gausdal Vik"
+              },
+              {
+                "number": 14,
+                "name": "Oline Skotheim Gjerdsbakk"
+              },
+              {
+                "number": 16,
+                "name": "Teoline Næs Tafjord"
+              },
+              {
+                "number": 23,
+                "name": "Sofie Nydal"
+              }
+            ],
+            "bench": [
+              {
+                "number": 10,
+                "name": "Sigrid Fjørtoft Nes"
+              },
+              {
+                "number": 11,
+                "name": "Lilly Hove-Ekornes"
+              },
+              {
+                "number": 19,
+                "name": "Betty Munkvold"
+              },
+              {
+                "number": 22,
+                "name": "Leah Emilie Myren Lianes"
+              },
+              {
+                "number": 15,
+                "name": "Marie Nordal Longva (strøket)"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aurell Annelynn Akselsen"
+              },
+              {
+                "number": 7,
+                "name": "Frøya Severine Farstad Dyb"
+              },
+              {
+                "number": 10,
+                "name": "Alida Finnøy"
+              },
+              {
+                "number": 22,
+                "name": "Vera Bergtun"
+              },
+              {
+                "number": 2,
+                "name": "Elsa Farstad Rogne"
+              },
+              {
+                "number": 3,
+                "name": "Olivia Sue Sherman"
+              },
+              {
+                "number": 9,
+                "name": "June Sofie Hellouli Harnes"
+              },
+              {
+                "number": 20,
+                "name": "Elisa Belen Røsok"
+              },
+              {
+                "number": 4,
+                "name": "Laila Kristin Bueng Brunvoll"
+              }
+            ],
+            "bench": [
+              {
+                "number": 8,
+                "name": "Thine Flem"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107020": {
       "fiksId": "9200052",
@@ -2447,9 +5270,126 @@
             "minute": 78
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Thomas Toven"
+        },
+        "referee": "Thomas Toven",
+        "halfTime": "4–3",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aurell Annelynn Akselsen"
+              },
+              {
+                "number": 9,
+                "name": "Vera Bergtun"
+              },
+              {
+                "number": 16,
+                "name": "Bertine Blomvik Tvedt"
+              },
+              {
+                "number": 21,
+                "name": "Vilde Rogne Furnes"
+              },
+              {
+                "number": 25,
+                "name": "Pia Fjørtoft"
+              },
+              {
+                "number": 19,
+                "name": "Leah Indiane Farstad Dyb"
+              },
+              {
+                "number": 23,
+                "name": "Astri Longva Davik"
+              },
+              {
+                "number": 24,
+                "name": "Julia Lausund Klokk"
+              },
+              {
+                "number": 36,
+                "name": "Stine Myskja Slyngstad"
+              },
+              {
+                "number": 38,
+                "name": "Rannveig Kristine Martinsen"
+              },
+              {
+                "number": 34,
+                "name": "Lilli Marie Seth-Jonassen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 37,
+                "name": "JULIA ZACHARA"
+              },
+              {
+                "number": 40,
+                "name": "Thine Flem"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Camilla Gausdal-Langø"
+              },
+              {
+                "number": 4,
+                "name": "Leah Sæther Lukkedal"
+              },
+              {
+                "number": 6,
+                "name": "Hanne Børretzen Fjørtoft"
+              },
+              {
+                "number": 7,
+                "name": "Noora Njoya Øvstedal"
+              },
+              {
+                "number": 9,
+                "name": "Aria Sofie Vethe Kvamme"
+              },
+              {
+                "number": 15,
+                "name": "Isabell Rudolph Sjøholt"
+              },
+              {
+                "number": 5,
+                "name": "Julie Vinje Kjersem"
+              },
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              },
+              {
+                "number": 43,
+                "name": "Jenna Lid"
+              },
+              {
+                "number": 3,
+                "name": "Anine Kristin Liabø-Sæter"
+              },
+              {
+                "number": 8,
+                "name": "Julia Sollied Lande"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124011": {
       "fiksId": "9196223",
@@ -2493,9 +5433,170 @@
             "minute": 60
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "William Torvik"
+        },
+        "referee": "William Torvik",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Daniel Eskil Erdal"
+              },
+              {
+                "number": 18,
+                "name": "Yinabiel Semereab Abrha"
+              },
+              {
+                "number": 20,
+                "name": "Noah Spangen Hustad"
+              },
+              {
+                "number": 21,
+                "name": "Åsmund Stave Blindheim"
+              },
+              {
+                "number": 25,
+                "name": "August Ryan Smogeli"
+              },
+              {
+                "number": 27,
+                "name": "Eirik Hansen"
+              },
+              {
+                "number": 83,
+                "name": "Jens André Marøy-Nogva"
+              },
+              {
+                "number": 83,
+                "name": "Jon Hellouli Lundberg"
+              },
+              {
+                "number": 99,
+                "name": "Isak Rangsæter-Larsen"
+              },
+              {
+                "number": 3,
+                "name": "Marius Liang Stette Pettersen"
+              },
+              {
+                "number": 9,
+                "name": "Florian Brügger-Synnes"
+              }
+            ],
+            "bench": [
+              {
+                "number": 15,
+                "name": "Borger Andersen Loe"
+              },
+              {
+                "number": 23,
+                "name": "Mathias Bollingmo"
+              },
+              {
+                "number": 62,
+                "name": "Phillip Grebstad"
+              },
+              {
+                "number": 17,
+                "name": "Julian Falkhytten Rønning"
+              },
+              {
+                "number": 49,
+                "name": "Jonas Farstad Nerland"
+              },
+              {
+                "number": 64,
+                "name": "Gaute Willumsen"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Nathaniel Nybø Skjegstad"
+              },
+              {
+                "number": 2,
+                "name": "Julian André Uhlen"
+              },
+              {
+                "number": 8,
+                "name": "Syver Midtbust-Dyrkorn"
+              },
+              {
+                "number": 9,
+                "name": "Antoni Mateusz Adamiec"
+              },
+              {
+                "number": 11,
+                "name": "Trym Vaksvik Sandberg"
+              },
+              {
+                "number": 16,
+                "name": "Sondre Hove Bull"
+              },
+              {
+                "number": 17,
+                "name": "Mateo Fernando Dyrkorn"
+              },
+              {
+                "number": 4,
+                "name": "Eriam Abelseth Søvik"
+              },
+              {
+                "number": 7,
+                "name": "Marcus Karl Cevallos"
+              },
+              {
+                "number": 14,
+                "name": "Magnus Vad"
+              },
+              {
+                "number": 16,
+                "name": "Jaden Alexander Grüner"
+              }
+            ],
+            "bench": [
+              {
+                "number": 25,
+                "name": "Adrian Tennfjord Myklebust"
+              },
+              {
+                "number": 66,
+                "name": "Filip Hjelle Busengdal"
+              },
+              {
+                "number": 98,
+                "name": "Trym Falling Møller"
+              },
+              {
+                "number": 99,
+                "name": "Magnus Sjøholt Alstadsæter"
+              },
+              {
+                "number": 3,
+                "name": "Olav Bueide Henden"
+              },
+              {
+                "number": 13,
+                "name": "Jørgen Gjerde Ramsvik"
+              },
+              {
+                "number": 26,
+                "name": "Lars Joakim Hole Sjåstad"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113123012": {
       "fiksId": "9201476",
@@ -2582,9 +5683,114 @@
             "minute": 69
           }
         ],
-        "structuredTimeline": true
+        "halfTime": "3–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 71,
+                "name": "Kristian Myrvoll Bjørlo"
+              },
+              {
+                "number": 85,
+                "name": "Jakob Helle Stordrange"
+              },
+              {
+                "number": 87,
+                "name": "Malte Bolseth Persson"
+              },
+              {
+                "number": 88,
+                "name": "Filip Berg Myrvang"
+              },
+              {
+                "number": 57,
+                "name": "Zeki Furkan Koc"
+              },
+              {
+                "number": 59,
+                "name": "Isak Juliebø Ekelund"
+              },
+              {
+                "number": 74,
+                "name": "Olav Nilsen Røsvik"
+              },
+              {
+                "number": 75,
+                "name": "Vegar Ljunggren Stave"
+              },
+              {
+                "number": 86,
+                "name": "Marius Klauseth Kvalsvik"
+              },
+              {
+                "number": 81,
+                "name": "Håkon Teigen-Vestre"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "André Flem Dalhaug"
+              },
+              {
+                "number": 14,
+                "name": "Vebjørn Helland Otterlei"
+              },
+              {
+                "number": 26,
+                "name": "Mathias Døving"
+              },
+              {
+                "number": 34,
+                "name": "Henrik Alvestad Lillestøl"
+              },
+              {
+                "number": 28,
+                "name": "Leon Lorgen Moa"
+              },
+              {
+                "number": 38,
+                "name": "Edvard Frostad Myklebust"
+              },
+              {
+                "number": 40,
+                "name": "Lucas Bjørnland Remme"
+              },
+              {
+                "number": 43,
+                "name": "Julian Renè Krogsæter Zarif"
+              },
+              {
+                "number": 37,
+                "name": "Alexander Huang Nuo Risnes"
+              }
+            ],
+            "bench": [
+              {
+                "number": 1,
+                "name": "Egide Ntumba Ushindi (strøket)"
+              },
+              {
+                "number": 23,
+                "name": "Kevin Bjørshol Skjønberg (strøket)"
+              },
+              {
+                "number": 36,
+                "name": "Youel Bahabelom Okubay (strøket)"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126011": {
       "fiksId": "9204223",
@@ -2638,9 +5844,85 @@
             "minute": 70
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Filip Rogne"
+        },
+        "referee": "Filip Rogne",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Kai-Leander Reistad Giske"
+              },
+              {
+                "number": 14,
+                "name": "Even Endré Frøysadal Hånde"
+              },
+              {
+                "number": 23,
+                "name": "Kevin Bjørshol Skjønberg"
+              },
+              {
+                "number": 25,
+                "name": "Egide Ntumba Ushindi"
+              },
+              {
+                "number": 99,
+                "name": "Cezary Mikolaj Piotrowski"
+              },
+              {
+                "number": 4,
+                "name": "Cian Lucas Pagara"
+              },
+              {
+                "number": 45,
+                "name": "Kajus Kuvikas"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 42,
+                "name": "Sakarias Ellefsen Hildre"
+              },
+              {
+                "number": 49,
+                "name": "Dominik Hyrycz"
+              },
+              {
+                "number": 18,
+                "name": "Filip Rødset Runde"
+              },
+              {
+                "number": 33,
+                "name": "Tor Lopez Ukkelberg"
+              },
+              {
+                "number": 48,
+                "name": "Mathias Berge Honningdal"
+              },
+              {
+                "number": 61,
+                "name": "Iver Hotvedt Lundbø"
+              }
+            ],
+            "bench": [
+              {
+                "number": 11,
+                "name": "Christian Solholm"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124012": {
       "fiksId": "9196224",
@@ -2779,9 +6061,92 @@
             "minute": 69
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Tobias Lødemel Hansen"
+        },
+        "referee": "Tobias Lødemel Hansen",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 7,
+                "name": "Elias Rokseth Nordstrand"
+              },
+              {
+                "number": 10,
+                "name": "Bendik Myrseth Utgård"
+              },
+              {
+                "number": 14,
+                "name": "Hassan Abdi Mohamed"
+              },
+              {
+                "number": 17,
+                "name": "Erik Svenning"
+              },
+              {
+                "number": 18,
+                "name": "Kristian Ringdal Linga"
+              },
+              {
+                "number": 11,
+                "name": "Emil Vikås"
+              },
+              {
+                "number": 9,
+                "name": "Elia Zikama"
+              },
+              {
+                "number": 23,
+                "name": "Benjamin Lundstad"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 15,
+                "name": "Sebastian Thomassen Eide"
+              },
+              {
+                "number": 12,
+                "name": "Jesper Aarseth"
+              },
+              {
+                "number": 14,
+                "name": "Bendik Helle Nygård"
+              },
+              {
+                "number": 23,
+                "name": "Sigve Bringsvor Åkre"
+              },
+              {
+                "number": 4,
+                "name": "Kevin Rogne"
+              },
+              {
+                "number": 8,
+                "name": "Vinjar Krogsethagen Ringstad"
+              },
+              {
+                "number": 25,
+                "name": "Rubin-Augustin Kleiven"
+              },
+              {
+                "number": 29,
+                "name": "David Kjerstad Nesje"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126010": {
       "fiksId": "9204220",
@@ -2811,9 +6176,98 @@
             "minute": 44
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Moncif Boudra"
+        },
+        "referee": "Moncif Boudra",
+        "halfTime": "0–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 70,
+                "name": "Sondre Alvestad Furholm"
+              },
+              {
+                "number": 55,
+                "name": "Herman Istad Hide"
+              },
+              {
+                "number": 60,
+                "name": "Milian Lødøen Backlund"
+              },
+              {
+                "number": 83,
+                "name": "Gustav Bjørkhaug Henriksen"
+              },
+              {
+                "number": 53,
+                "name": "Sverre Vedvik Moa"
+              },
+              {
+                "number": 57,
+                "name": "Zeki Furkan Koc"
+              },
+              {
+                "number": 58,
+                "name": "Wilhelm Eliah Bårdsgjerde"
+              },
+              {
+                "number": 74,
+                "name": "Olav Nilsen Røsvik"
+              },
+              {
+                "number": 87,
+                "name": "Malte Bolseth Persson"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 30,
+                "name": "Matheo Longva Austnes"
+              },
+              {
+                "number": 32,
+                "name": "Filip Robert Cedro"
+              },
+              {
+                "number": 35,
+                "name": "Even Viset Stokke"
+              },
+              {
+                "number": 31,
+                "name": "Odin Storheim Homlong"
+              },
+              {
+                "number": 37,
+                "name": "Adrian Tennfjord Myklebust"
+              },
+              {
+                "number": 42,
+                "name": "Adrian Fylling Sjøholt"
+              },
+              {
+                "number": 36,
+                "name": "Even Vestre Braute"
+              }
+            ],
+            "bench": [
+              {
+                "number": 8,
+                "name": "Olav Bueide Henden"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "15149017011": {
       "fiksId": "9177162",
@@ -2895,9 +6349,147 @@
             "minute": 79
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Meder Ergul"
+        },
+        "referee": "Meder Ergul",
+        "halfTime": "1–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Axel Mario Akselsen"
+              },
+              {
+                "number": 2,
+                "name": "Noah Longva Hagen"
+              },
+              {
+                "number": 3,
+                "name": "Zen Kjerstad"
+              },
+              {
+                "number": 6,
+                "name": "Emrik Longva Hagen"
+              },
+              {
+                "number": 14,
+                "name": "Konrad Finnøy"
+              },
+              {
+                "number": 16,
+                "name": "Aron Leander Nogva"
+              },
+              {
+                "number": 22,
+                "name": "Jonas Sandøy"
+              },
+              {
+                "number": 24,
+                "name": "Aksel Mattias Börlin"
+              },
+              {
+                "number": 15,
+                "name": "Markus Steinshamn"
+              },
+              {
+                "number": 18,
+                "name": "Markus Fjørtoft"
+              },
+              {
+                "number": 19,
+                "name": "Oleksandr Karavatskyi"
+              }
+            ],
+            "bench": [
+              {
+                "number": 20,
+                "name": "Nathaniel Szmyd"
+              },
+              {
+                "number": 25,
+                "name": "Oliver Vedeld Molnes"
+              },
+              {
+                "number": 27,
+                "name": "Kristoffer Lee Sherman"
+              },
+              {
+                "number": 40,
+                "name": "Ruben Molnes"
+              },
+              {
+                "number": 11,
+                "name": "Andreas Silseth Harnes"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 88,
+                "name": "SAKARIAS LORGEN SÆTH"
+              },
+              {
+                "number": 11,
+                "name": "Noa Steien Seljeset"
+              },
+              {
+                "number": 30,
+                "name": "Oliver Valentin Bunes"
+              },
+              {
+                "number": 99,
+                "name": "Tobias Olander Bunes"
+              },
+              {
+                "number": 5,
+                "name": "Stian Nykrem"
+              },
+              {
+                "number": 7,
+                "name": "Aron Tuva Holkestad"
+              },
+              {
+                "number": 10,
+                "name": "Liam Dahl Østerbø"
+              },
+              {
+                "number": 16,
+                "name": "Adnan Kvassheim Kutluca"
+              },
+              {
+                "number": 21,
+                "name": "Trygve Skoghaug Strømmen"
+              },
+              {
+                "number": 71,
+                "name": "Erik Walderhaug Lange"
+              },
+              {
+                "number": 101,
+                "name": "Elliott Bøe Indrevåg"
+              }
+            ],
+            "bench": [
+              {
+                "number": 15,
+                "name": "Storm Tuva Holkestad"
+              },
+              {
+                "number": 17,
+                "name": "Mikkel André Stensrud-Schlingloff"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113123005": {
       "fiksId": "9201469",
@@ -3002,9 +6594,77 @@
             "minute": 70
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "William Torvik"
+        },
+        "referee": "William Torvik",
+        "halfTime": "5–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Jonas Kaldvansvik Øvrelid"
+              },
+              {
+                "number": 6,
+                "name": "Hans Theodor Gaasø Teigene"
+              },
+              {
+                "number": 18,
+                "name": "Øystein Ulfseth Åsmo"
+              },
+              {
+                "number": 34,
+                "name": "Torkil Jessen"
+              },
+              {
+                "number": 13,
+                "name": "Timian André Holstad"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Kai-Leander Reistad Giske"
+              },
+              {
+                "number": 14,
+                "name": "Even Endré Frøysadal Hånde"
+              },
+              {
+                "number": 23,
+                "name": "Kevin Bjørshol Skjønberg"
+              },
+              {
+                "number": 25,
+                "name": "Egide Ntumba Ushindi"
+              },
+              {
+                "number": 34,
+                "name": "Henrik Alvestad Lillestøl"
+              },
+              {
+                "number": 43,
+                "name": "Julian Renè Krogsæter Zarif"
+              },
+              {
+                "number": 4,
+                "name": "Cian Lucas Pagara"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124015": {
       "fiksId": "9196227",
@@ -3102,9 +6762,109 @@
             "minute": 80
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Theevika Sathunalingam"
+        },
+        "referee": "Theevika Sathunalingam",
+        "halfTime": "1–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Christina Kvam Magerøy"
+              },
+              {
+                "number": 5,
+                "name": "Julia Giske Gudmundsdottir"
+              },
+              {
+                "number": 15,
+                "name": "Sara Rogne Røyset"
+              },
+              {
+                "number": 18,
+                "name": "Julie Sunde Kleiveland"
+              },
+              {
+                "number": 22,
+                "name": "Mina Elise Solberg"
+              },
+              {
+                "number": 25,
+                "name": "Amalie Grødal Bratseth"
+              },
+              {
+                "number": 6,
+                "name": "Lovise Rødal Nerbø"
+              },
+              {
+                "number": 28,
+                "name": "Mathilde Urke Brusdal"
+              },
+              {
+                "number": 9,
+                "name": "Cordelia Engkrog Gjelsvik"
+              },
+              {
+                "number": 31,
+                "name": "VILDE STRANDEN"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Belinda Petrine Sæthre Græsdal"
+              },
+              {
+                "number": 2,
+                "name": "Nicoline Tomren Nystøyl"
+              },
+              {
+                "number": 15,
+                "name": "Marie Nordal Longva"
+              },
+              {
+                "number": 9,
+                "name": "Alva Gausdal Vik"
+              },
+              {
+                "number": 14,
+                "name": "Oline Skotheim Gjerdsbakk"
+              },
+              {
+                "number": 16,
+                "name": "Teoline Næs Tafjord"
+              },
+              {
+                "number": 20,
+                "name": "Elle Louise Ytredal"
+              },
+              {
+                "number": 23,
+                "name": "Sofie Nydal"
+              },
+              {
+                "number": 19,
+                "name": "Betty Munkvold"
+              },
+              {
+                "number": 22,
+                "name": "Leah Emilie Myren Lianes"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113123017": {
       "fiksId": "9201481",
@@ -3162,9 +6922,102 @@
             "minute": 59
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Filip Rogne"
+        },
+        "referee": "Filip Rogne",
+        "halfTime": "1–3",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Iver Harstad Solheim"
+              },
+              {
+                "number": 4,
+                "name": "Axel Fjørtoft Østraat"
+              },
+              {
+                "number": 6,
+                "name": "Vinjar Krogsethagen Ringstad"
+              },
+              {
+                "number": 11,
+                "name": "David Kjerstad Nesje"
+              },
+              {
+                "number": 14,
+                "name": "Jesper Aarseth"
+              },
+              {
+                "number": 7,
+                "name": "Petter Amdam Misund"
+              },
+              {
+                "number": 9,
+                "name": "Rubin-Augustin Kleiven"
+              },
+              {
+                "number": 26,
+                "name": "Kevin Rogne"
+              },
+              {
+                "number": 18,
+                "name": "Sebastian Thomassen Eide"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 22,
+                "name": "Benjamin Riise Godwin"
+              },
+              {
+                "number": 2,
+                "name": "Johan Lien Kleppe"
+              },
+              {
+                "number": 4,
+                "name": "Elias Syversen Eikrem"
+              },
+              {
+                "number": 10,
+                "name": "Olai Badu Kwaasi-Eide"
+              },
+              {
+                "number": 20,
+                "name": "Erik Sætre Baadnes"
+              },
+              {
+                "number": 23,
+                "name": "Iver Bersås Ytterdal"
+              },
+              {
+                "number": 8,
+                "name": "David Brandtzæg Haugen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 6,
+                "name": "Torbjørn Hellouli Lundberg"
+              },
+              {
+                "number": 15,
+                "name": "Moses Rucyahanira"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "15149017017": {
       "fiksId": "9177168",
@@ -3251,9 +7104,127 @@
             "minute": 74
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Jørgen Gjerde Ramsvik"
+        },
+        "referee": "Jørgen Gjerde Ramsvik",
+        "halfTime": "2–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Camilla Gausdal-Langø"
+              },
+              {
+                "number": 4,
+                "name": "Leah Sæther Lukkedal"
+              },
+              {
+                "number": 6,
+                "name": "Hanne Børretzen Fjørtoft"
+              },
+              {
+                "number": 7,
+                "name": "Noora Njoya Øvstedal"
+              },
+              {
+                "number": 5,
+                "name": "Julie Vinje Kjersem"
+              },
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              },
+              {
+                "number": 42,
+                "name": "Ramida Olsen"
+              },
+              {
+                "number": 43,
+                "name": "Jenna Lid"
+              },
+              {
+                "number": 3,
+                "name": "Anine Kristin Liabø-Sæter"
+              }
+            ],
+            "bench": [
+              {
+                "number": 8,
+                "name": "Julia Sollied Lande"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 20,
+                "name": "Sofie Lande Dybvik"
+              },
+              {
+                "number": 2,
+                "name": "Julie I Lagabø Giskegjerde"
+              },
+              {
+                "number": 3,
+                "name": "Ella Marie Akerø Giske"
+              },
+              {
+                "number": 4,
+                "name": "Alma Gidske"
+              },
+              {
+                "number": 6,
+                "name": "Mia Adele Remmen"
+              },
+              {
+                "number": 13,
+                "name": "Sofie Igland Pettersen"
+              },
+              {
+                "number": 18,
+                "name": "Sanne Espnes Alnes"
+              },
+              {
+                "number": 35,
+                "name": "Thea Holmeset"
+              },
+              {
+                "number": 5,
+                "name": "Nanna Amalie Aarseth Holmen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 10,
+                "name": "Johanna Aamodt"
+              },
+              {
+                "number": 15,
+                "name": "Emma Kanutte Kiplesund"
+              },
+              {
+                "number": 17,
+                "name": "Runa Kristin Hoel Alnes"
+              },
+              {
+                "number": 7,
+                "name": "Martine Svinø"
+              },
+              {
+                "number": 8,
+                "name": "Ella Mannsverk"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23214107023": {
       "fiksId": "9200055",
@@ -3360,9 +7331,114 @@
             "minute": 79
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Nikolai Midtbø Sørvik"
+        },
+        "referee": "Nikolai Midtbø Sørvik",
+        "halfTime": "3–4",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 20,
+                "name": "Leanna Standal Myklebust"
+              },
+              {
+                "number": 4,
+                "name": "Maja Moe Fet"
+              },
+              {
+                "number": 15,
+                "name": "Sienna Vartdal Larosai"
+              },
+              {
+                "number": 19,
+                "name": "Ella Heggdal Skare"
+              },
+              {
+                "number": 26,
+                "name": "Melina Ness Skogen"
+              },
+              {
+                "number": 29,
+                "name": "Sophia Urke Eriksen"
+              },
+              {
+                "number": 2,
+                "name": "Lina Rekkedal Nupen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 5,
+                "name": "Dina Ellen Mikael Tesfay"
+              },
+              {
+                "number": 7,
+                "name": "Rahim Said Ali"
+              },
+              {
+                "number": 14,
+                "name": "Linéa Olava Lie"
+              },
+              {
+                "number": 22,
+                "name": "Dina Flem Øye"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Aurell Annelynn Akselsen"
+              },
+              {
+                "number": 16,
+                "name": "Bertine Blomvik Tvedt"
+              },
+              {
+                "number": 21,
+                "name": "Vilde Rogne Furnes"
+              },
+              {
+                "number": 25,
+                "name": "Pia Fjørtoft"
+              },
+              {
+                "number": 19,
+                "name": "Leah Indiane Farstad Dyb"
+              },
+              {
+                "number": 23,
+                "name": "Astri Longva Davik"
+              },
+              {
+                "number": 36,
+                "name": "Stine Myskja Slyngstad"
+              },
+              {
+                "number": 38,
+                "name": "Rannveig Kristine Martinsen"
+              },
+              {
+                "number": 34,
+                "name": "Lilli Marie Seth-Jonassen"
+              },
+              {
+                "number": 37,
+                "name": "JULIA ZACHARA"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126015": {
       "fiksId": "9204232",
@@ -3420,9 +7496,102 @@
             "minute": 45
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Martinus Holvik"
+        },
+        "referee": "Martinus Holvik",
+        "halfTime": "1–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 8,
+                "name": "Olav Bueide Henden"
+              },
+              {
+                "number": 35,
+                "name": "Even Viset Stokke"
+              },
+              {
+                "number": 31,
+                "name": "Odin Storheim Homlong"
+              },
+              {
+                "number": 42,
+                "name": "Adrian Fylling Sjøholt"
+              }
+            ],
+            "bench": [
+              {
+                "number": 19,
+                "name": "Johannes Isvik"
+              },
+              {
+                "number": 30,
+                "name": "Matheo Longva Austnes"
+              },
+              {
+                "number": 36,
+                "name": "Even Vestre Braute"
+              },
+              {
+                "number": 37,
+                "name": "Adrian Tennfjord Myklebust"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Jonas Kaldvansvik Øvrelid"
+              },
+              {
+                "number": 39,
+                "name": "Fillip Bøe Storøy"
+              },
+              {
+                "number": 46,
+                "name": "Latheeshan Jeyachandran"
+              },
+              {
+                "number": 6,
+                "name": "Hans Theodor Gaasø Teigene"
+              },
+              {
+                "number": 14,
+                "name": "Daverik Holstad Füssle"
+              },
+              {
+                "number": 15,
+                "name": "Emil Grimstad Beiermann"
+              },
+              {
+                "number": 18,
+                "name": "Øystein Ulfseth Åsmo"
+              },
+              {
+                "number": 13,
+                "name": "Timian André Holstad"
+              },
+              {
+                "number": 16,
+                "name": "Leon Hove Røyset"
+              },
+              {
+                "number": 25,
+                "name": "Trym Urke Reite"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "15149017016": {
       "fiksId": "9177167",
@@ -3558,9 +7727,105 @@
             "minute": 68
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Jørgen Gjerde Ramsvik"
+        },
+        "referee": "Jørgen Gjerde Ramsvik",
+        "halfTime": "1–4",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "André Flem Dalhaug"
+              },
+              {
+                "number": 14,
+                "name": "Vebjørn Helland Otterlei"
+              },
+              {
+                "number": 26,
+                "name": "Mathias Døving"
+              },
+              {
+                "number": 34,
+                "name": "Henrik Alvestad Lillestøl"
+              },
+              {
+                "number": 28,
+                "name": "Leon Lorgen Moa"
+              },
+              {
+                "number": 38,
+                "name": "Edvard Frostad Myklebust"
+              },
+              {
+                "number": 40,
+                "name": "Lucas Bjørnland Remme"
+              },
+              {
+                "number": 43,
+                "name": "Julian Renè Krogsæter Zarif"
+              },
+              {
+                "number": 37,
+                "name": "Alexander Huang Nuo Risnes"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 10,
+                "name": "Christian B Skare"
+              },
+              {
+                "number": 16,
+                "name": "Isaac Yumvagusenga"
+              },
+              {
+                "number": 17,
+                "name": "Natan Mikael Tesfay"
+              },
+              {
+                "number": 21,
+                "name": "Alexander Rudi Stokke"
+              },
+              {
+                "number": 2,
+                "name": "Ruben Mohara"
+              },
+              {
+                "number": 7,
+                "name": "Joakim Tran Winjevoll"
+              },
+              {
+                "number": 8,
+                "name": "Fredrik Moltudal"
+              },
+              {
+                "number": 11,
+                "name": "Liam Olai Hammond-Vatle"
+              },
+              {
+                "number": 14,
+                "name": "Olav Alun Akkhakraisi Roth"
+              },
+              {
+                "number": 19,
+                "name": "Dominic Mino-Martinsen"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124016": {
       "fiksId": "9196228",
@@ -3657,9 +7922,82 @@
             "minute": 70
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Kadir Nemutlu"
+        },
+        "referee": "Kadir Nemutlu",
+        "halfTime": "0–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Layan Mansour Ghazalah"
+              },
+              {
+                "number": 25,
+                "name": "Julie Bjørdalsbakke"
+              },
+              {
+                "number": 6,
+                "name": "Liana Tiron"
+              },
+              {
+                "number": 20,
+                "name": "Gjertine Løvik"
+              },
+              {
+                "number": 9,
+                "name": "Anna Kanutte Width-Osdal"
+              }
+            ],
+            "bench": [
+              {
+                "number": 3,
+                "name": "Tali Elise Scharf"
+              },
+              {
+                "number": 60,
+                "name": "Julie Eilertsen"
+              },
+              {
+                "number": 80,
+                "name": "Hyab Awet Teshome"
+              },
+              {
+                "number": 82,
+                "name": "Emilie Thomassen Bjermeland"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 6,
+                "name": "Makda Teklemariam Unquay"
+              },
+              {
+                "number": 2,
+                "name": "Sofia Lillian Brudeseth Løseth"
+              },
+              {
+                "number": 24,
+                "name": "Ingrid Sekkesæter Bjordal"
+              },
+              {
+                "number": 9,
+                "name": "Solomiia Tyshchenko"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113126013": {
       "fiksId": "9204227",
@@ -3704,9 +8042,82 @@
             "minute": 57
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Elle Louise Ytredal"
+        },
+        "referee": "Elle Louise Ytredal",
+        "halfTime": "1–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 31,
+                "name": "Johan Ekrem Lillebø"
+              },
+              {
+                "number": 49,
+                "name": "Dominik Hyrycz"
+              },
+              {
+                "number": 18,
+                "name": "Filip Rødset Runde"
+              },
+              {
+                "number": 48,
+                "name": "Mathias Berge Honningdal"
+              },
+              {
+                "number": 11,
+                "name": "Christian Solholm"
+              }
+            ],
+            "bench": [
+              {
+                "number": 7,
+                "name": "Joakim Gundersen"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 70,
+                "name": "Sondre Alvestad Furholm"
+              },
+              {
+                "number": 55,
+                "name": "Herman Istad Hide"
+              },
+              {
+                "number": 60,
+                "name": "Milian Lødøen Backlund"
+              },
+              {
+                "number": 83,
+                "name": "Gustav Bjørkhaug Henriksen"
+              },
+              {
+                "number": 53,
+                "name": "Sverre Vedvik Moa"
+              },
+              {
+                "number": 58,
+                "name": "Wilhelm Eliah Bårdsgjerde"
+              },
+              {
+                "number": 89,
+                "name": "Ferdinand Amelius Haagensen"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124018": {
       "fiksId": "9196230",
@@ -3790,9 +8201,151 @@
             "minute": 78
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Remi Andre Uri-Landsnes"
+        },
+        "referee": "Remi Andre Uri-Landsnes",
+        "halfTime": "1–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Nathaniel Nybø Skjegstad"
+              },
+              {
+                "number": 2,
+                "name": "Julian André Uhlen"
+              },
+              {
+                "number": 8,
+                "name": "Syver Midtbust-Dyrkorn"
+              },
+              {
+                "number": 9,
+                "name": "Antoni Mateusz Adamiec"
+              },
+              {
+                "number": 17,
+                "name": "Mateo Fernando Dyrkorn"
+              },
+              {
+                "number": 7,
+                "name": "Marcus Karl Cevallos"
+              },
+              {
+                "number": 10,
+                "name": "Leon Stavseng"
+              },
+              {
+                "number": 11,
+                "name": "Trym Vaksvik Sandberg"
+              },
+              {
+                "number": 14,
+                "name": "Jaden Alexander Grüner"
+              },
+              {
+                "number": 25,
+                "name": "Adrian Tennfjord Myklebust"
+              },
+              {
+                "number": 66,
+                "name": "Filip Hjelle Busengdal"
+              }
+            ],
+            "bench": [
+              {
+                "number": 99,
+                "name": "Magnus Sjøholt Alstadsæter"
+              },
+              {
+                "number": 3,
+                "name": "Olav Bueide Henden"
+              },
+              {
+                "number": 13,
+                "name": "Jørgen Gjerde Ramsvik"
+              },
+              {
+                "number": 15,
+                "name": "Magnus Vad"
+              },
+              {
+                "number": 19,
+                "name": "Jørgen Nordli Sivertsen"
+              },
+              {
+                "number": 26,
+                "name": "Lars Joakim Hole Sjåstad"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Karl Riise Grimstad"
+              },
+              {
+                "number": 3,
+                "name": "Magnus Djupvik Korsnes"
+              },
+              {
+                "number": 4,
+                "name": "Gullik Røyset"
+              },
+              {
+                "number": 5,
+                "name": "Joakim Indreflø Øvrelid"
+              },
+              {
+                "number": 6,
+                "name": "Benjamin Teigene-Sæter"
+              },
+              {
+                "number": 8,
+                "name": "Noah Teigene Eidsvik"
+              },
+              {
+                "number": 7,
+                "name": "Simon Jøsokbakke Bigset"
+              },
+              {
+                "number": 14,
+                "name": "Iver Indreflø Øvrelid"
+              },
+              {
+                "number": 17,
+                "name": "Ask Willhelm Emdal Fure"
+              },
+              {
+                "number": 19,
+                "name": "Abilasan Jeyathas"
+              },
+              {
+                "number": 20,
+                "name": "Levi Johan Moldskred"
+              }
+            ],
+            "bench": [
+              {
+                "number": 22,
+                "name": "Dennis Dimmen-Furset"
+              },
+              {
+                "number": 30,
+                "name": "Sander Leikanger Nesset"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23116124013": {
       "fiksId": "9196225",
@@ -3939,9 +8492,127 @@
             "minute": 79
           }
         ],
-        "structuredTimeline": true
+        "officials": {
+          "referee": "Thomas Toven"
+        },
+        "referee": "Thomas Toven",
+        "halfTime": "6–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Axel Mario Akselsen"
+              },
+              {
+                "number": 24,
+                "name": "Tor Sandø Otterlei"
+              },
+              {
+                "number": 5,
+                "name": "Jonas Sandøy"
+              },
+              {
+                "number": 7,
+                "name": "Aron Leander Nogva"
+              },
+              {
+                "number": 14,
+                "name": "Zen Kjerstad"
+              },
+              {
+                "number": 19,
+                "name": "Noah Longva Hagen"
+              },
+              {
+                "number": 6,
+                "name": "Liam Morsund Buchinski"
+              },
+              {
+                "number": 8,
+                "name": "Markus Fjørtoft"
+              },
+              {
+                "number": 11,
+                "name": "Kristoffer Lee Sherman"
+              },
+              {
+                "number": 15,
+                "name": "Oleksandr Karavatskyi"
+              },
+              {
+                "number": 18,
+                "name": "Nathaniel Szmyd"
+              }
+            ],
+            "bench": [
+              {
+                "number": 22,
+                "name": "Ruben Molnes"
+              },
+              {
+                "number": 9,
+                "name": "Andreas Silseth Harnes"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Nikola Cvetkovic"
+              },
+              {
+                "number": 17,
+                "name": "Erik Søreide"
+              },
+              {
+                "number": 35,
+                "name": "Lars Nærheim Knivsflå"
+              },
+              {
+                "number": 38,
+                "name": "Ivar Blindheim"
+              },
+              {
+                "number": 10,
+                "name": "Adnan Hammouta"
+              },
+              {
+                "number": 11,
+                "name": "Luca Engeset Sanchez"
+              },
+              {
+                "number": 13,
+                "name": "Darius Mantea"
+              },
+              {
+                "number": 18,
+                "name": "Mateo Engeset Sanchez"
+              },
+              {
+                "number": 9,
+                "name": "Emrik Furset Vågsæter"
+              }
+            ],
+            "bench": [
+              {
+                "number": 6,
+                "name": "Mohamad Hammouta"
+              },
+              {
+                "number": 22,
+                "name": "Rapolas Gailiunas"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "goalTimelineVerified": true
+      "goalTimelineVerified": true,
+      "detailFetches": 1
     },
     "23113123013": {
       "fiksId": "9201477",
@@ -4001,9 +8672,105 @@
           "referee": "Elias Gjelseth Røyset"
         },
         "referee": "Elias Gjelseth Røyset",
-        "structuredTimeline": true
+        "halfTime": "0–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Michelle Flatøy Vorren"
+              },
+              {
+                "number": 20,
+                "name": "Ada Kvalsund Aksnes"
+              },
+              {
+                "number": 28,
+                "name": "Kiara Mariam Khoury"
+              },
+              {
+                "number": 41,
+                "name": "Line Sandanger"
+              },
+              {
+                "number": 29,
+                "name": "Cassandra Hauge Vike"
+              },
+              {
+                "number": 30,
+                "name": "Serine Ulfstein"
+              },
+              {
+                "number": 7,
+                "name": "Frøya Torset Bakken"
+              },
+              {
+                "number": 10,
+                "name": "Rebecka Sandnes Pettersen"
+              },
+              {
+                "number": 26,
+                "name": "Jessica Maria Kleppestrand"
+              }
+            ],
+            "bench": [
+              {
+                "number": 101,
+                "name": "Leah Gausemel Moldskred"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Camilla Gausdal-Langø"
+              },
+              {
+                "number": 6,
+                "name": "Hanne Børretzen Fjørtoft"
+              },
+              {
+                "number": 7,
+                "name": "Noora Njoya Øvstedal"
+              },
+              {
+                "number": 15,
+                "name": "Isabell Rudolph Sjøholt"
+              },
+              {
+                "number": 5,
+                "name": "Julie Vinje Kjersem"
+              },
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              },
+              {
+                "number": 42,
+                "name": "Ramida Olsen"
+              },
+              {
+                "number": 43,
+                "name": "Jenna Lid"
+              },
+              {
+                "number": 3,
+                "name": "Anine Kristin Liabø-Sæter"
+              },
+              {
+                "number": 8,
+                "name": "Julia Sollied Lande"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-18T16:10:34+02:00",
       "goalTimelineVerified": true
     },
@@ -4074,9 +8841,110 @@
           "referee": "Filip Hyrycz"
         },
         "referee": "Filip Hyrycz",
-        "structuredTimeline": true
+        "halfTime": "2–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Mia Myklebust Endresen"
+              },
+              {
+                "number": 2,
+                "name": "Nicoline Tomren Nystøyl"
+              },
+              {
+                "number": 7,
+                "name": "Mathilde Myren Lianes"
+              },
+              {
+                "number": 24,
+                "name": "Ella Haugen"
+              },
+              {
+                "number": 9,
+                "name": "Alva Gausdal Vik"
+              },
+              {
+                "number": 11,
+                "name": "Lilly Hove-Ekornes"
+              },
+              {
+                "number": 19,
+                "name": "Betty Munkvold"
+              },
+              {
+                "number": 20,
+                "name": "Elle Louise Ytredal"
+              },
+              {
+                "number": 23,
+                "name": "Sofie Nydal"
+              }
+            ],
+            "bench": [
+              {
+                "number": 10,
+                "name": "Sigrid Fjørtoft Nes"
+              },
+              {
+                "number": 22,
+                "name": "Leah Emilie Myren Lianes"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "Alvilde Kristine Tandstad"
+              },
+              {
+                "number": 2,
+                "name": "Kristina Langås Myrnes"
+              },
+              {
+                "number": 13,
+                "name": "Sarloté Jevsikovaite"
+              },
+              {
+                "number": 22,
+                "name": "Ida Marie Klokkehaug"
+              },
+              {
+                "number": 11,
+                "name": "Sofia Hausvik Kjølås"
+              },
+              {
+                "number": 14,
+                "name": "Paraskevi Dimitriou"
+              },
+              {
+                "number": 19,
+                "name": "Annamaria Björk-Bergene"
+              },
+              {
+                "number": 20,
+                "name": "Hedda Bjørnevik"
+              },
+              {
+                "number": 27,
+                "name": "Serafima Maximovna Berg-Gerashchenko"
+              }
+            ],
+            "bench": [
+              {
+                "number": 7,
+                "name": "Julie Kristin Helseth Nordang"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-18T16:10:34+02:00",
       "goalTimelineVerified": true
     },
@@ -4189,9 +9057,146 @@
           "referee": "Meder Ergul"
         },
         "referee": "Meder Ergul",
-        "structuredTimeline": true
+        "halfTime": "4–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Anna Støle Sperre"
+              },
+              {
+                "number": 4,
+                "name": "Marte I Lagabø Roald"
+              },
+              {
+                "number": 5,
+                "name": "Hanna Tomren Ulla"
+              },
+              {
+                "number": 15,
+                "name": "Cornelia Aasen Alnes"
+              },
+              {
+                "number": 16,
+                "name": "Tuva Indine Tunheim Bjørnelv"
+              },
+              {
+                "number": 7,
+                "name": "Synne Haram Farstad"
+              },
+              {
+                "number": 10,
+                "name": "Julie Leine Giske"
+              },
+              {
+                "number": 18,
+                "name": "Carmen Fylkesnes"
+              },
+              {
+                "number": 9,
+                "name": "Marit Toftnes Myklebust"
+              },
+              {
+                "number": 11,
+                "name": "Anna Valen"
+              },
+              {
+                "number": 17,
+                "name": "Leah Revheim Olsen"
+              }
+            ],
+            "bench": [
+              {
+                "number": 3,
+                "name": "Mia Pernille Alnes"
+              },
+              {
+                "number": 6,
+                "name": "Tale Røsvik Husevåg"
+              },
+              {
+                "number": 14,
+                "name": "Sandra Berge Kvam"
+              },
+              {
+                "number": 19,
+                "name": "Jenny Schaug-Pettersen"
+              },
+              {
+                "number": 20,
+                "name": "Marie Nedregotten"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Thine Flem"
+              },
+              {
+                "number": 7,
+                "name": "Frøya Severine Farstad Dyb"
+              },
+              {
+                "number": 10,
+                "name": "Alida Finnøy"
+              },
+              {
+                "number": 22,
+                "name": "Vera Bergtun"
+              },
+              {
+                "number": 23,
+                "name": "Vilde Rogne Furnes"
+              },
+              {
+                "number": 2,
+                "name": "Elsa Farstad Rogne"
+              },
+              {
+                "number": 3,
+                "name": "Olivia Sue Sherman"
+              },
+              {
+                "number": 9,
+                "name": "June Sofie Hellouli Harnes"
+              },
+              {
+                "number": 15,
+                "name": "Stine Myskja Slyngstad"
+              },
+              {
+                "number": 16,
+                "name": "Leah Indiane Farstad Dyb"
+              },
+              {
+                "number": 20,
+                "name": "Elisa Belen Røsok"
+              }
+            ],
+            "bench": [
+              {
+                "number": 24,
+                "name": "Astri Longva Davik"
+              },
+              {
+                "number": 4,
+                "name": "Laila Kristin Bueng Brunvoll"
+              },
+              {
+                "number": 14,
+                "name": "Pia Fjørtoft"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-18T16:10:34+02:00",
       "goalTimelineVerified": true
     },
@@ -4248,9 +9253,100 @@
           "referee": "Moncif Boudra"
         },
         "referee": "Moncif Boudra",
-        "structuredTimeline": true
+        "halfTime": "3–0",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 71,
+                "name": "Kristian Myrvoll Bjørlo"
+              },
+              {
+                "number": 57,
+                "name": "Zeki Furkan Koc"
+              },
+              {
+                "number": 60,
+                "name": "Milian Lødøen Backlund"
+              },
+              {
+                "number": 85,
+                "name": "Jakob Helle Stordrange"
+              },
+              {
+                "number": 88,
+                "name": "Filip Berg Myrvang"
+              },
+              {
+                "number": 59,
+                "name": "Isak Juliebø Ekelund"
+              },
+              {
+                "number": 75,
+                "name": "Vegar Ljunggren Stave"
+              },
+              {
+                "number": 86,
+                "name": "Marius Klauseth Kvalsvik"
+              },
+              {
+                "number": 87,
+                "name": "Malte Bolseth Persson"
+              },
+              {
+                "number": 81,
+                "name": "Håkon Teigen-Vestre"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Iver Harstad Solheim"
+              },
+              {
+                "number": 4,
+                "name": "Axel Fjørtoft Østraat"
+              },
+              {
+                "number": 6,
+                "name": "Vinjar Krogsethagen Ringstad"
+              },
+              {
+                "number": 14,
+                "name": "Jesper Aarseth"
+              },
+              {
+                "number": 23,
+                "name": "Sigve Bringsvor Åkre"
+              },
+              {
+                "number": 9,
+                "name": "Rubin-Augustin Kleiven"
+              },
+              {
+                "number": 11,
+                "name": "David Kjerstad Nesje"
+              },
+              {
+                "number": 26,
+                "name": "Kevin Rogne"
+              },
+              {
+                "number": 18,
+                "name": "Sebastian Thomassen Eide"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-18T16:10:34+02:00",
       "goalTimelineVerified": true
     },
@@ -4289,7 +9385,7 @@
       "awayScore": 7,
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detail": {
         "events": [
           {
@@ -4321,6 +9417,14 @@
             "minute": 34
           },
           {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Advarsel",
+            "personUnavailable": true,
+            "minute": 41
+          },
+          {
             "type": "red_card",
             "team": "away",
             "player": "William Hoff",
@@ -4347,6 +9451,13 @@
             "player": "Mitan Alahmad",
             "label": "Spillemål",
             "minute": 56
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Youel Bahabelom Okubay",
+            "label": "Spillemål",
+            "minute": 65
           }
         ],
         "officials": {
@@ -4433,7 +9544,10 @@
             ],
             "bench": []
           }
-        }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00",
       "goalTimelineVerified": false
@@ -4461,7 +9575,7 @@
       "awayScore": 1,
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detail": {
         "events": [
           {
@@ -4613,7 +9727,9 @@
             "bench": []
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00",
       "goalTimelineVerified": true
@@ -4834,9 +9950,11 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-19T06:55:11+02:00",
       "goalTimelineVerified": true
     },
@@ -4863,7 +9981,7 @@
       "awayScore": 3,
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detail": {
         "events": [
           {
@@ -5012,7 +10130,9 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00",
       "goalTimelineVerified": true
@@ -5070,7 +10190,7 @@
       "awayScore": 3,
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detail": {
         "events": [
           {
@@ -5244,7 +10364,9 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00",
       "goalTimelineVerified": true
@@ -5274,7 +10396,7 @@
       "awayScore": 0,
       "status": "completed",
       "resultAt": "2026-09-25T08:16:58+02:00",
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detail": {
         "events": [
           {
@@ -5435,7 +10557,9 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00",
       "goalTimelineVerified": true
@@ -5690,9 +10814,11 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-20T19:27:29+02:00",
       "goalTimelineVerified": true
     },
@@ -5894,6 +11020,10 @@
                 "name": "Liam Morsund Buchinski"
               },
               {
+                "number": 71,
+                "name": "Teodor Dalhaug Ulla"
+              },
+              {
                 "number": 13,
                 "name": "Andreas Silseth Harnes"
               }
@@ -5958,9 +11088,11 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-22T00:41:32+02:00",
       "goalTimelineVerified": true
     },
@@ -5977,7 +11109,7 @@
       "awayScore": 2,
       "status": "completed",
       "resultAt": "2026-09-25T06:46:42+02:00",
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detail": {
         "events": [
           {
@@ -6069,7 +11201,9 @@
             "bench": []
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
       "detailFetchedAt": "2026-09-22T11:31:14+02:00",
       "goalTimelineVerified": true
@@ -6292,9 +11426,11 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-22T21:15:49+02:00",
       "goalTimelineVerified": true
     },
@@ -6464,9 +11600,11 @@
             "bench": []
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-22T21:15:49+02:00",
       "goalTimelineVerified": true
     },
@@ -6656,9 +11794,11 @@
             "bench": []
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-24T23:44:14+02:00",
       "goalTimelineVerified": true
     },
@@ -6832,9 +11972,11 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-24T20:29:52+02:00",
       "goalTimelineVerified": true
     },
@@ -7006,9 +12148,11 @@
             ]
           }
         },
-        "structuredTimeline": true
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
       },
-      "detailFetches": 1,
+      "detailFetches": 2,
       "detailFetchedAt": "2026-09-24T23:44:14+02:00",
       "goalTimelineVerified": true
     },
