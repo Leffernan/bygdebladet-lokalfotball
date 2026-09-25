@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "notes": "Redaksjonelt kontrollerte kampdetaljar. Overstyr berre mål når mållista er dokumentert; behald andre kamphendingar.",
+  "matches": {
+    "23113123026": {
+      "fiksId": "9201503",
+      "home": "Ravn/Norborg",
+      "away": "Brattvåg",
+      "homeScore": 4,
+      "awayScore": 0,
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201503",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Rubin-Augustin Kleiven",
+          "label": "Spillemål",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "away",
+          "personUnavailable": true,
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 49
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 51
+        }
+      ]
+    },
+    "15149017028": {
+      "fiksId": "9177179",
+      "home": "Vestnes Varfjell",
+      "away": "Molde 2",
+      "homeScore": 1,
+      "awayScore": 2,
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9177179",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Elvira Anker",
+          "label": "Spillemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Milla Solskjær",
+          "label": "Spillemål",
+          "minute": 35
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "home",
+          "personUnavailable": true,
+          "minute": 72
+        }
+      ]
+    }
+  }
+}
