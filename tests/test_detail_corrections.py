@@ -51,6 +51,26 @@ class CorrectionTests(unittest.TestCase):
         self.assertNotIn("ikkje ei fullstendig målrekkje", body)
         self.assertNotIn("sjølvmål frå Brattvåg i det 49. minuttet", body)
 
+    def test_reconcile_removes_impossible_surplus_goal_but_keeps_cards(self):
+        match = {
+            "matchNumber": "x", "home": "A", "away": "B", "fiksId": "1",
+            "homeScore": 0, "awayScore": 2,
+            "events": [
+                {"type": "goal", "team": "away", "minute": 10},
+                {"type": "yellow_card", "team": "home", "minute": 20},
+                {"type": "goal", "team": "away", "minute": 30},
+                {"type": "goal", "team": "home", "minute": 40},
+            ],
+        }
+        state = {"matches": {"x": {
+            "home": "A", "away": "B", "fiksId": "1", "homeScore": 0, "awayScore": 2,
+            "detail": {"events": deepcopy(match["events"])}
+        }}}
+        self.assertEqual(corrections.reconcile_goal_totals({"matches": [match]}, state), 2)
+        self.assertEqual([(e["type"], e.get("team")) for e in match["events"]],
+                         [("goal", "away"), ("yellow_card", "home"), ("goal", "away")])
+        self.assertEqual(corrections.reconcile_goal_totals({"matches": [match]}, state), 0)
+
     def test_refuses_wrong_team_or_result(self):
         row = CONFIG["matches"]["23113123026"]
         match = {"matchNumber": "23113123026", **{x: row[x] for x in
