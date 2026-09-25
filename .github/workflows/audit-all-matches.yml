@@ -1,0 +1,53 @@
+name: Audit all published match details
+
+on:
+  push:
+    paths:
+      - "scripts/audit_all_matches.py"
+      - ".github/workflows/audit-all-matches.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-sync
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Dependencies
+        run: python -m pip install --disable-pip-version-check --quiet requests beautifulsoup4
+      - name: Audit official match timelines
+        run: python scripts/audit_all_matches.py
+      - name: Test updated rules
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Regenerate editorial reports
+        run: python scripts/editorial_reports.py
+      - name: Publish reviewed match data
+        shell: bash
+        run: |
+          git add data/matches.json data/engine-state.json data/editorial-reports.json data/detail-audit.json
+          if git diff --cached --quiet; then
+            echo "No audit changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Audit all youth match event timelines"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "::error::Audit results could not be published"
+          exit 1
