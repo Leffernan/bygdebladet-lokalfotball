@@ -40,6 +40,16 @@
           "player": "Goda Matulyte",
           "label": "Advarsel",
           "minute": 37
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "home",
+          "personUnavailable": true,
+          "minute": 72
         }
       ],
       "summary": null,
