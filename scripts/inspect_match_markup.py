@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from detail_parser import _lines, _extract_lineups, _extract_events
 
 URL="https://www.fotball.no/fotballdata/kamp/?fiksId="
-for fiks in ("9201503","9200064","9200066"):
+for fiks in ("9201496",):
     response=requests.get(URL+fiks,headers={"User-Agent":"Mozilla/5.0","Accept":"text/html"},timeout=25)
     response.raise_for_status()
     soup=BeautifulSoup(response.text,"html.parser")
@@ -27,6 +27,9 @@ for fiks in ("9201503","9200064","9200066"):
         print("ELEMENT",profile,flush=True)
     rows=soup.select(".a_matchTimeline .timelineEventLine")
     print("ROWS",len(rows),flush=True)
-    for row in rows[:7]:
-        print("ROW_HTML",str(row)[:1050],flush=True)
+    for row in rows:
+        minute=row.select_one(".timelineMinute")
+        contents=[list(x.stripped_strings) for x in row.select(".timelineEventContent")]
+        icons=[x.get("data-icon") for x in row.select("[data-icon]")]
+        print("STRUCT",row.get("class"),minute.get_text(" ",strip=True) if minute else None,contents,icons,flush=True)
     time.sleep(1.5)
