@@ -209,7 +209,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-09-25T20:57:34+02:00",
+      "updatedAt": "2026-09-26T00:05:38+02:00",
       "standings": [
         {
           "position": 1,
@@ -273,6 +273,18 @@
         },
         {
           "position": 6,
+          "team": "Sykkylven",
+          "played": 6,
+          "wins": 2,
+          "draws": 2,
+          "losses": 2,
+          "gf": 19,
+          "ga": 18,
+          "gd": 1,
+          "points": 8
+        },
+        {
+          "position": 7,
           "team": "Valder 2",
           "played": 6,
           "wins": 2,
@@ -282,18 +294,6 @@
           "ga": 26,
           "gd": -8,
           "points": 6
-        },
-        {
-          "position": 7,
-          "team": "Sykkylven",
-          "played": 5,
-          "wins": 1,
-          "draws": 2,
-          "losses": 2,
-          "gf": 11,
-          "ga": 13,
-          "gd": -2,
-          "points": 5
         },
         {
           "position": 8,
@@ -310,13 +310,13 @@
         {
           "position": 9,
           "team": "Stranda 9er",
-          "played": 5,
+          "played": 6,
           "wins": 1,
           "draws": 0,
-          "losses": 4,
-          "gf": 18,
-          "ga": 45,
-          "gd": -27,
+          "losses": 5,
+          "gf": 23,
+          "ga": 53,
+          "gd": -30,
           "points": 3
         },
         {
