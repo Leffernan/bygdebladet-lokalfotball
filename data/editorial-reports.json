@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "reports": {
     "15149017028": {
       "title": "Seint sjølvmål gav Molde 2 sigeren",
@@ -12,7 +12,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123026": {
       "title": "Ravn/Norborg vann 4–0 mot Brattvåg",
@@ -21,12 +21,12 @@
         "Til pause stod det 1–0.",
         "Rubin-Augustin Kleiven stod for det første målet etter 25 minutt og sende stillinga til 1–0.",
         "Eit sjølvmål frå Brattvåg i det 44. minuttet vart kreditert Ravn/Norborg.",
-        "Etter pause stod Ravn/Norborg for tre nye mål."
+        "Etter pause fekk Ravn/Norborg tre nye mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126020": {
       "title": "Ørskog/Stordal vann 4–1 mot Skodje",
@@ -34,12 +34,12 @@
       "paragraphs": [
         "Til pause stod det 0–1.",
         "Eit sjølvmål frå Skodje etter 26 minutt gav Ørskog/Stordal leiinga 0–1.",
-        "Etter pause skåra Skodje eitt mål og Ørskog/Stordal tre mål."
+        "Etter pause fekk Skodje eitt mål og Ørskog/Stordal tre mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107032": {
       "title": "Målfest og poengdeling mellom Ørskog og Skodje 2 7er",
@@ -51,7 +51,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107034": {
       "title": "Målfest og poengdeling mellom HaNo/Lepsøy/Harøy 9er og Giske/Øyne 4 9er",
@@ -60,12 +60,12 @@
         "Til pause stod det 3–2.",
         "Pia Fjørtoft stod for det første målet etter 1 minutt og sende stillinga til 1–0.",
         "Pia Fjørtoft skåra to av måla til HaNo/Lepsøy/Harøy 9er.",
-        "Etter pause stod Giske/Øyne 4 9er for eitt mål til."
+        "Etter pause fekk Giske/Øyne 4 9er eitt mål til."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126021": {
       "title": "Seint vinnarmål sikra Hareid 2 sigeren",
@@ -78,7 +78,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124026": {
       "title": "Fire mål av Andreas Silseth Harnes då HaNo/Harøy/Lepsøy vann",
@@ -87,12 +87,12 @@
         "Til pause stod det 5–3.",
         "Andreas Silseth Harnes stod for det første målet etter 2 minutt og sende stillinga til 1–0.",
         "Andreas Silseth Harnes noterte seg for fire mål for HaNo/Harøy/Lepsøy.",
-        "Etter pause skåra HaNo/Harøy/Lepsøy to mål og Valder 2 eitt mål."
+        "Etter pause fekk HaNo/Harøy/Lepsøy to mål og Valder 2 eitt mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124025": {
       "title": "Hattrick av Marcus Karl Cevallos då Ørskog/Stordal vann",
@@ -101,12 +101,12 @@
         "Til pause stod det 1–6.",
         "Marcus Karl Cevallos stod for det første målet etter 4 minutt og sende stillinga til 0–1.",
         "Marcus Karl Cevallos noterte seg for tre mål for Ørskog/Stordal og sikra seg hattrick.",
-        "Etter pause stod Ørskog/Stordal for tre nye mål."
+        "Etter pause fekk Ørskog/Stordal tre nye mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "15149017024": {
       "title": "Hattrick av Ellen Helgetun Schei då Surnadal/Søya 1 vann",
@@ -115,12 +115,12 @@
         "Til pause stod det 2–0.",
         "Ellen Helgetun Schei stod for det første målet etter 1 minutt og sende stillinga til 1–0.",
         "Ellen Helgetun Schei noterte seg for tre mål for Surnadal/Søya 1 og sikra seg hattrick.",
-        "Etter pause stod Surnadal/Søya 1 for seks nye mål."
+        "Etter pause fekk Surnadal/Søya 1 seks nye mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124023": {
       "title": "HaNo/Harøy/Lepsøy vann 3–1 mot Sykkylven",
@@ -128,12 +128,12 @@
       "paragraphs": [
         "Til pause stod det 0–2.",
         "Markus Steinshamn stod for det første målet etter 36 minutt og sende stillinga til 0–1.",
-        "Etter pause skåra Sykkylven eitt mål og HaNo/Harøy/Lepsøy eitt mål."
+        "Etter pause fekk Sykkylven eitt mål og HaNo/Harøy/Lepsøy eitt mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126017": {
       "title": "Wilhelm Sakse Simlenes Opshaug avgjorde seint for Guard/Rollon 2",
@@ -147,21 +147,20 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123023": {
-      "title": "Hattrick av Mitan Alahmad då Langevåg vann",
-      "lead": "Langevåg vann 7–0 mot Brattvåg i G13 1. div høst. Mitan Alahmad skåra tre av måla.",
+      "title": "Langevåg vann stort mot Brattvåg",
+      "lead": "Langevåg vann 7–0 mot Brattvåg i G13 1. div høst.",
       "paragraphs": [
         "Til pause stod det 0–4.",
-        "Mitan Alahmad stod for det første målet etter 4 minutt og sende stillinga til 0–1.",
-        "Mitan Alahmad noterte seg for tre mål for Langevåg og sikra seg hattrick.",
-        "Etter pause stod Langevåg for tre nye mål."
+        "Etter pause fekk Langevåg tre nye mål.",
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
-      "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "completeGoalTimeline": false,
+      "generatorVersion": 2
     },
     "23113126016": {
       "title": "Hattrick av Adrian Tennfjord Myklebust då Ørskog/Stordal vann",
@@ -170,12 +169,12 @@
         "Til pause stod det 5–0.",
         "Adrian Tennfjord Myklebust stod for det første målet etter 1 minutt og sende stillinga til 1–0.",
         "Adrian Tennfjord Myklebust noterte seg for tre mål for Ørskog/Stordal og sikra seg hattrick.",
-        "Etter pause skåra Ørskog/Stordal fire mål og Brattvåg 2 eitt mål."
+        "Etter pause fekk Ørskog/Stordal fire mål og Brattvåg 2 eitt mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107024": {
       "title": "Emblem vann 5–4 mot Harøy/HaNo/Lepsøy 2 9er",
@@ -183,12 +182,12 @@
       "paragraphs": [
         "Til pause stod det 2–2.",
         "Sofie Myrstad Schjelderup noterte seg for to av måla til Emblem.",
-        "Etter pause skåra Harøy/HaNo/Lepsøy 2 9er to mål og Emblem tre mål."
+        "Etter pause fekk Harøy/HaNo/Lepsøy 2 9er to mål og Emblem tre mål."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123022": {
       "title": "Aksla vann 4–1 mot Ravn/Norborg",
@@ -200,7 +199,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107027": {
       "title": "Poengdeling mellom MTG 7er og Ørskog",
@@ -212,7 +211,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107028": {
       "title": "Skodje 2 7er vann 3–2 mot Sykkylven 2",
@@ -223,7 +222,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107030": {
       "title": "Fire mål av Julie Leine Giske då Ellingsøy/Vigra/Valder 3 vann",
@@ -236,7 +235,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124020": {
       "title": "HaNo/Harøy/Lepsøy snudde kampen og vann 15–2",
@@ -249,7 +248,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124019": {
       "title": "Ørskog/Stordal vann stort mot Hareid",
@@ -261,7 +260,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126013": {
       "title": "Gustav Bjørkhaug Henriksen herja framfor mål – Aksla 2 vann 3–1",
@@ -274,7 +273,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "15149017019": {
       "title": "Træff 2 7er vann 4–2 mot Vestnes Varfjell",
@@ -285,7 +284,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123020": {
       "title": "Hattrick av Joakim Tran Winjevoll då Ørsta vann",
@@ -297,7 +296,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126015": {
       "title": "Ørskog/Stordal snudde kampen og vann 3–1",
@@ -309,7 +308,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107022": {
       "title": "Giske/Øyne 4 9er snudde kampen og vann 5–3",
@@ -322,7 +321,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107023": {
       "title": "Ørsta 2 7er snudde kampen og vann 8–5",
@@ -335,7 +334,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123017": {
       "title": "Målfest og poengdeling mellom Ravn/Norborg og Herd",
@@ -346,7 +345,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107025": {
       "title": "Hattrick av Oline Skotheim Gjerdsbakk då Skodje 2 7er vann",
@@ -358,7 +357,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126006": {
       "title": "Hareid 2 vann stort mot Brattvåg 2",
@@ -370,7 +369,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124014": {
       "title": "HaNo/Harøy/Lepsøy snudde kampen og vann 3–2",
@@ -383,7 +382,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123014": {
       "title": "Hattrick av Bendik Myrseth Utgård då Sykkylven vann",
@@ -395,7 +394,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126010": {
       "title": "Poengdeling mellom Aksla 2 og Ørskog/Stordal",
@@ -406,7 +405,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123012": {
       "title": "Seks mål av Håkon Teigen-Vestre då Aksla vann",
@@ -418,7 +417,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126011": {
       "title": "Skodje vann 4–0 mot Brattvåg 2",
@@ -429,7 +428,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124011": {
       "title": "Ørskog/Stordal vann 2–0 mot Herd",
@@ -441,7 +440,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107016": {
       "title": "Pia Fjørtoft avgjorde seint for HaNo/Lepsøy/Harøy 9er",
@@ -454,7 +453,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107019": {
       "title": "Leah Emilie Myren Lianes avgjorde seint for Skodje 2 7er",
@@ -467,7 +466,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124006": {
       "title": "HaNo/Harøy/Lepsøy vann 6–2 mot Bergsøy",
@@ -479,7 +478,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124008": {
       "title": "Ørskog/Stordal vann 3–1 mot Valder 2",
@@ -490,7 +489,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "15149017009": {
       "title": "Dahle 3 7er vann 2–0 mot Vestnes Varfjell",
@@ -501,7 +500,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126009": {
       "title": "Hareid 2 vann 4–1 mot Skodje",
@@ -512,7 +511,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126007": {
       "title": "Aksla 2 vann 4–1 mot Brattvåg 2",
@@ -524,7 +523,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126008": {
       "title": "Fire mål av Even Vestre Braute då Ørskog/Stordal vann",
@@ -536,7 +535,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107011": {
       "title": "Hattrick av Pia Fjørtoft då HaNo/Lepsøy/Harøy 9er vann",
@@ -548,7 +547,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123006": {
       "title": "Sju mål av Elias Samson Tilahun då Herd vann",
@@ -560,7 +559,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107014": {
       "title": "Hattrick av Elsa Farstad Rogne då Harøy/HaNo/Lepsøy 2 9er vann",
@@ -571,7 +570,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123008": {
       "title": "Ravn/Norborg snudde kampen og vann 4–2",
@@ -583,7 +582,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107012": {
       "title": "Ørskog snudde kampen og vann 10–6",
@@ -596,7 +595,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107013": {
       "title": "Ellingsøy/Vigra/Valder 3 vann 6–4 mot Skodje 2 7er",
@@ -608,7 +607,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124002": {
       "title": "Poengdeling mellom Sykkylven og Ørskog/Stordal",
@@ -619,7 +618,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23116124003": {
       "title": "HaNo/Harøy/Lepsøy vann 4–3 mot Sykkylven 2",
@@ -631,7 +630,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "15149017001": {
       "title": "Fire mål av Maja Haukås då Elnesvågen/Bryn/Bud 2 vann",
@@ -643,7 +642,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123004": {
       "title": "Fire mål av Elias Rokseth Nordstrand då Sykkylven vann",
@@ -655,7 +654,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126005": {
       "title": "Ørskog/Stordal vann stort mot Skodje",
@@ -668,7 +667,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107008": {
       "title": "Giske/Øyne 4 9er vann 4–2 mot Harøy/HaNo/Lepsøy 2 9er",
@@ -680,7 +679,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113123002": {
       "title": "Spjelkavik vann 4–0 mot Ravn/Norborg",
@@ -692,7 +691,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107007": {
       "title": "Fem mål av Pia Fjørtoft då HaNo/Lepsøy/Harøy 9er vann",
@@ -704,7 +703,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107010": {
       "title": "Skodje 2 7er snudde kampen og vann 5–3",
@@ -717,7 +716,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107004": {
       "title": "HaNo/Lepsøy/Harøy 9er snudde kampen og vann 6–3",
@@ -730,7 +729,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126001": {
       "title": "Ørskog/Stordal vann stort mot Brattvåg 2",
@@ -742,7 +741,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23113126002": {
       "title": "Hattrick av Wilhelm Sakse Simlenes Opshaug då Guard/Rollon 2 vann",
@@ -754,7 +753,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     },
     "23214107001": {
       "title": "Hattrick av Julia Sollied Lande då Ørskog vann",
@@ -766,7 +765,7 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 1
+      "generatorVersion": 2
     }
   }
 }
