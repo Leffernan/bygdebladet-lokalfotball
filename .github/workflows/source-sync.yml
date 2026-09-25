@@ -26,6 +26,7 @@ on:
       - "tests/test_editorial_reports.py"
       - "tests/test_detail_parser.py"
       - "tests/test_detail_corrections.py"
+      - "tests/test_goal_timeline_safety.py"
 
 permissions:
   contents: write
