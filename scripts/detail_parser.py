@@ -67,7 +67,7 @@ def _player_pairs(tokens):
                 and not re.fullmatch(r"\d{1,3}", candidate)
                 and not re.fullmatch(r"\d{1,3}'", candidate)
                 and not any(word in folded for word in (
-                    "spillemål", "straffemål", "selvmål",
+                    "spillemål", "straffemål", "selvmål", "sjølvmål",
                     "advarsel", "utvisning"
                 ))
             ):
@@ -163,6 +163,7 @@ def _event_kind(segment):
     terms = (
         ("straffemål", "goal"),
         ("selvmål", "goal"),
+        ("sjølvmål", "goal"),
         ("spillemål", "goal"),
         ("advarsel", "yellow_card"),
         ("gult kort", "yellow_card"),
@@ -210,7 +211,7 @@ def _substitution(segment, players, side):
 
 def _goal_event(side, player, label, unavailable=False):
     """The timeline column is the player's team, not the beneficiary of an own goal."""
-    own_goal = bool(re.search(r"selvmål|sjølvmål|own\\s*goal", clean(label), re.I))
+    own_goal = bool(re.search(r"selvmål|sjølvmål|own\s*goal", clean(label), re.I))
     scoring_side = ("away" if side == "home" else "home") if own_goal else side
     event = {
         "type": "goal",
@@ -248,7 +249,9 @@ def _event_from_segment(segment, players, side, reverse=False):
 
     # NFF can publish a scoring event without exposing player information.
     # The event itself is still factual and must not disappear from the feed.
-    event_type, label = _event_kind(segment)
+    # Prefer the event closest to the minute marker; the two-column page
+    # sometimes interleaves the opposite team's previous event.
+    event_type, label = _event_kind(reversed(segment) if reverse else segment)
     if event_type == "goal":
         folded = " ".join(clean(x).casefold() for x in segment)
         unavailable = (
