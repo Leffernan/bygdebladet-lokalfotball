@@ -148,7 +148,8 @@ def generate(match):
     win_goals = match["homeScore" if side == "home" else "awayScore"] if side else None
     lose_goals = match["awayScore" if side == "home" else "homeScore"] if side else None
     result = f"{win_goals}–{lose_goals}" if side else f"{hs}–{ac}"
-    goals, complete, ordered = goal_data(match)
+    goal_data_trusted = match.get("goalTimelineVerified") is not False
+    goals, complete, ordered = goal_data(match) if goal_data_trusted else ([], False, [])
     known = scorers(e for e in goals if side and e["team"] == side)
     name, count = known.most_common(1)[0] if known else (None, 0)
     total_known_goals = sum(known.values())
@@ -280,14 +281,16 @@ def generate(match):
     if half and (hs + ac) > sum(half) and not decisive:
         h_after, a_after = hs - half[0], ac - half[1]
         if h_after > 0 and a_after > 0:
-            paras.append(f"Etter pause skåra {home} {number(h_after)} mål og {away} {number(a_after)} mål.")
+            paras.append(f"Etter pause fekk {home} {number(h_after)} mål og {away} {number(a_after)} mål.")
         elif h_after > 0:
-            paras.append(f"Etter pause stod {home} for " + ("eitt mål til." if h_after == 1 else f"{number(h_after)} nye mål."))
+            paras.append(f"Etter pause fekk {home} " + ("eitt mål til." if h_after == 1 else f"{number(h_after)} nye mål."))
         elif a_after > 0:
-            paras.append(f"Etter pause stod {away} for " + ("eitt mål til." if a_after == 1 else f"{number(a_after)} nye mål."))
+            paras.append(f"Etter pause fekk {away} " + ("eitt mål til." if a_after == 1 else f"{number(a_after)} nye mål."))
 
     if not complete:
-        if goals:
+        if not goal_data_trusted:
+            paras.append("Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet.")
+        elif goals:
             paras.append("NFF har ikkje ei fullstendig målrekkje registrert for oppgjeret. Berre stadfesta målscorarar og minutt blir viste.")
         else:
             paras.append("Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF.")
