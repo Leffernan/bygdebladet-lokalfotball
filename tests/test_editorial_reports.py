@@ -110,6 +110,20 @@ class EditorialTests(unittest.TestCase):
         story = editorial.generate(m)
         self.assertIn("sjølvmål", " ".join(story["paragraphs"]).casefold())
 
+    def test_disputed_timeline_does_not_invent_scorers_or_match_sequence(self):
+        m = match(0, 7, [
+            goal(4, "away", "A"), goal(16, "away", "A"),
+            goal(31, "away", "A"), goal(34, "away", "B"),
+            goal(49, "away", "B"), goal(53, "away", "C"), goal(56, "away", "C"),
+        ], half="0–4")
+        m["goalTimelineVerified"] = False
+        s = editorial.generate(m)
+        body = " ".join([s["title"], s["lead"], *s["paragraphs"]])
+        self.assertNotIn("Hattrick", body)
+        self.assertNotIn("stod for det første målet", body)
+        self.assertIn("ikkje stadfesta", body)
+        self.assertFalse(s["completeGoalTimeline"])
+
     def test_zero_minute_blocks_chronology(self):
         m = match(1, 1, [goal(0, "home", "A"), goal(0, "away", "B")])
         s = editorial.generate(m)
