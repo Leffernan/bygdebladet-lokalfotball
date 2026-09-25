@@ -24,6 +24,7 @@ on:
       - "config/detail-corrections.json"
       - "scripts/editorial_reports.py"
       - "tests/test_editorial_reports.py"
+      - "tests/test_editorial_dataset.py"
       - "tests/test_detail_parser.py"
       - "tests/test_detail_corrections.py"
       - "tests/test_goal_timeline_safety.py"
