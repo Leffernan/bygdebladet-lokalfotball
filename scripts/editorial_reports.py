@@ -159,6 +159,49 @@ def minute_clause(minutes):
     return "i minutta " + ", ".join(values[:-1]) + " og " + values[-1]
 
 
+def goal_sentence(match, item, first=False, decisive=False):
+    event, before, after = item
+    side = event["team"]
+    other = "away" if side == "home" else "home"
+    team = match[side]
+    when = minute_clause([event["minute"]])
+    score = f"{after['home']}–{after['away']}"
+    if own_goal(event):
+        owner = own_goal_team(match, event)
+        subject = f"Eit sjølvmål frå {owner}" if owner else "Eit sjølvmål"
+        if first:
+            return f"{subject} {when} gav {team} leiinga."
+        if decisive:
+            return f"{subject} {when} sende {team} i leiinga for godt."
+        if before[side] > before[other]:
+            return f"{subject} {when} auka leiinga til {score} for {team}."
+        if before[side] == before[other]:
+            return f"{subject} {when} gav {team} leiinga."
+        if after[side] == after[other]:
+            return f"{subject} {when} gav {team} utlikninga til {score}."
+        return f"{subject} {when} reduserte til {score} for {team}."
+
+    named = not anonymous(event)
+    player = str(event["player"]).strip() if named else team
+    if first:
+        return (f"{player} gav {team} leiinga {when}." if named
+                else f"{team} tok leiinga {when}.")
+    if decisive:
+        return (f"{player} skåra vinnarmålet for {team} {when}." if named
+                else f"{team} skåra vinnarmålet {when}.")
+    if after[side] == after[other]:
+        return (f"{player} utlikna til {score} for {team} {when}." if named
+                else f"{team} utlikna til {score} {when}.")
+    if before[side] == before[other]:
+        return (f"{player} sende {team} i leiinga {when}." if named
+                else f"{team} tok leiinga {when}.")
+    if before[side] > before[other]:
+        return (f"{player} auka til {score} for {team} {when}." if named
+                else f"{team} auka leiinga til {score} {when}.")
+    return (f"{player} reduserte til {score} for {team} {when}." if named
+            else f"{team} reduserte til {score} {when}.")
+
+
 def generate(match):
     if not youth(match) or not final(match):
         return None
