@@ -1,6 +1,23 @@
 {
   "version": 3,
   "reports": {
+    "23116124029": {
+      "title": "Ørskog/Stordal snudde kampen og vann 4–2",
+      "lead": "Ørskog/Stordal vann 4–2 mot Sykkylven 2 i G16 2. div høst. Ørskog/Stordal måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Dmytro Nakonechnyi gav Sykkylven 2 leiinga i det 9. minuttet.",
+        "Jørgen Nordli Sivertsen utlikna til 1–1 for Ørskog/Stordal i det 29. minuttet.",
+        "Jørgen Nordli Sivertsen sende Ørskog/Stordal i leiinga i det 33. minuttet.",
+        "Til pause stod det 1–2.",
+        "Marcus Karl Cevallos auka til 1–3 for Ørskog/Stordal i det 47. minuttet.",
+        "Marcus Karl Cevallos auka til 1–4 for Ørskog/Stordal i det 51. minuttet.",
+        "Johan Aursnes reduserte til 2–4 for Sykkylven 2 i det 64. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "15149017028": {
       "title": "Seint sjølvmål gav Molde 2 sigeren",
       "lead": "Molde 2 vann 2–1 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst. Eit sjølvmål frå Vestnes Varfjell i det 72. minuttet avgjorde kampen.",

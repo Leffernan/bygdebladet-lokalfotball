@@ -1274,7 +1274,7 @@
       "homeScore": 7,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "15149017004": {
       "fiksId": "9177155",
@@ -1310,7 +1310,7 @@
       "homeScore": 5,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23113123003": {
       "fiksId": "9201467",
@@ -1672,7 +1672,7 @@
       "homeScore": 4,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23214107006": {
       "fiksId": "9200038",
@@ -2056,7 +2056,7 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -2275,7 +2275,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -4198,7 +4198,7 @@
       "homeScore": 6,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23116124010": {
       "fiksId": "9196222",
@@ -4210,7 +4210,7 @@
       "homeScore": 3,
       "awayScore": 9,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23113126009": {
       "fiksId": "9204218",
@@ -4478,7 +4478,7 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -4682,7 +4682,7 @@
       "homeScore": 2,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -5401,7 +5401,7 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -5934,7 +5934,7 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23214107018": {
       "fiksId": "9200050",
@@ -6303,7 +6303,7 @@
       "homeScore": 3,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -6676,7 +6676,7 @@
       "homeScore": 6,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23214107025": {
       "fiksId": "9200057",
@@ -7837,7 +7837,7 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23214107021": {
       "fiksId": "9200053",
@@ -8129,7 +8129,7 @@
       "homeScore": 5,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23116124019": {
       "fiksId": "9196231",
@@ -8141,7 +8141,7 @@
       "homeScore": 7,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -8357,7 +8357,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23116124020": {
       "fiksId": "9196232",
@@ -8369,7 +8369,7 @@
       "homeScore": 15,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -9360,7 +9360,7 @@
       "homeScore": 1,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23116124021": {
       "fiksId": "9196233",
@@ -9372,7 +9372,7 @@
       "homeScore": 3,
       "awayScore": 8,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23113123023": {
       "fiksId": "9201496",
@@ -10182,7 +10182,7 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detailFetches": 4,
       "detail": {
         "events": [
@@ -10567,7 +10567,7 @@
       "homeScore": 3,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23113123021": {
       "fiksId": "9201490",
@@ -10591,7 +10591,7 @@
       "homeScore": 1,
       "awayScore": 9,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -10851,7 +10851,7 @@
       "homeScore": 7,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00",
+      "resultAt": "2026-09-26T19:52:25+02:00",
       "detail": {
         "events": [
           {
@@ -11211,7 +11211,7 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23214107032": {
       "fiksId": "9200064",
@@ -11611,7 +11611,7 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23214107031": {
       "fiksId": "9200063",
@@ -12183,7 +12183,7 @@
       "homeScore": 2,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23116124030": {
       "fiksId": "9196242",
@@ -12197,7 +12197,7 @@
       "homeScore": 8,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-09-26T00:05:38+02:00"
+      "resultAt": "2026-09-26T19:52:25+02:00"
     },
     "23116124029": {
       "fiksId": "9196241",
@@ -12205,7 +12205,238 @@
       "time": "15:00",
       "home": "Sykkylven 2",
       "away": "Ørskog/Stordal",
-      "venue": "Sykkylven stadion"
+      "venue": "Sykkylven stadion",
+      "homeScore": 2,
+      "awayScore": 4,
+      "status": "completed",
+      "resultAt": "2026-09-26T19:52:25+02:00",
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Dmytro Nakonechnyi",
+            "label": "Spillemål",
+            "minute": 9
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Jørgen Nordli Sivertsen",
+            "label": "Spillemål",
+            "minute": 29
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Jørgen Nordli Sivertsen",
+            "label": "Spillemål",
+            "minute": 33
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Filip Hjelle Busengdal",
+            "label": "Advarsel",
+            "minute": 35
+          },
+          {
+            "type": "yellow_card",
+            "team": "home",
+            "player": "Ole Marius Alnes",
+            "label": "Advarsel",
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Marcus Karl Cevallos",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Marcus Karl Cevallos",
+            "label": "Spillemål",
+            "minute": 51
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Jørgen Nordli Sivertsen",
+            "label": "Advarsel",
+            "minute": 55
+          },
+          {
+            "type": "yellow_card",
+            "team": "away",
+            "player": "Leon Stavseng",
+            "label": "Advarsel",
+            "minute": 59
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Johan Aursnes",
+            "label": "Spillemål",
+            "minute": 64
+          }
+        ],
+        "officials": {
+          "referee": "William Munton-Bjørge",
+          "assistant1": "Nora Johanne Iversen",
+          "assistant2": "Emilija Capskaite"
+        },
+        "referee": "William Munton-Bjørge",
+        "halfTime": "1–2",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 12,
+                "name": "FEDIR SMYRNOV"
+              },
+              {
+                "number": 10,
+                "name": "Daniel Lade"
+              },
+              {
+                "number": 16,
+                "name": "Camilo Gimenez Hovet-Cruz"
+              },
+              {
+                "number": 19,
+                "name": "Petter Elias Langøy Velle"
+              },
+              {
+                "number": 26,
+                "name": "Eskil Auflem Vestvik"
+              },
+              {
+                "number": 31,
+                "name": "Lucas Emblem Lade"
+              },
+              {
+                "number": 5,
+                "name": "Daniel Andreassen"
+              },
+              {
+                "number": 6,
+                "name": "Dmytro Nakonechnyi"
+              },
+              {
+                "number": 7,
+                "name": "Naod Gebrebrhan Gebrebrhan Hailemariam"
+              },
+              {
+                "number": 11,
+                "name": "Ole Marius Alnes"
+              },
+              {
+                "number": 17,
+                "name": "Johan Aursnes"
+              }
+            ],
+            "bench": [
+              {
+                "number": 27,
+                "name": "Isak Hjellegjerde"
+              },
+              {
+                "number": 3,
+                "name": "Dominik Zbroszczyk"
+              },
+              {
+                "number": 22,
+                "name": "Trym Øvstegård Utgård"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Nathaniel Nybø Skjegstad"
+              },
+              {
+                "number": 8,
+                "name": "Syver Midtbust-Dyrkorn"
+              },
+              {
+                "number": 9,
+                "name": "Antoni Mateusz Adamiec"
+              },
+              {
+                "number": 16,
+                "name": "Sondre Hove Bull"
+              },
+              {
+                "number": 17,
+                "name": "Mateo Fernando Dyrkorn"
+              },
+              {
+                "number": 4,
+                "name": "Eriam Abelseth Søvik"
+              },
+              {
+                "number": 7,
+                "name": "Marcus Karl Cevallos"
+              },
+              {
+                "number": 10,
+                "name": "Leon Stavseng"
+              },
+              {
+                "number": 11,
+                "name": "Trym Vaksvik Sandberg"
+              },
+              {
+                "number": 14,
+                "name": "Jaden Alexander Grüner"
+              },
+              {
+                "number": 25,
+                "name": "Adrian Tennfjord Myklebust"
+              }
+            ],
+            "bench": [
+              {
+                "number": 66,
+                "name": "Filip Hjelle Busengdal"
+              },
+              {
+                "number": 99,
+                "name": "Magnus Sjøholt Alstadsæter"
+              },
+              {
+                "number": 5,
+                "name": "Markus Hovden Ulvestad"
+              },
+              {
+                "number": 15,
+                "name": "Magnus Vad"
+              },
+              {
+                "number": 26,
+                "name": "Lars Joakim Hole Sjåstad"
+              },
+              {
+                "number": 98,
+                "name": "Trym Falling Møller"
+              },
+              {
+                "number": 111,
+                "name": "Jørgen Nordli Sivertsen"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-26T19:52:25+02:00",
+      "goalTimelineVerified": true
     },
     "23113123035": {
       "fiksId": "9201526",
