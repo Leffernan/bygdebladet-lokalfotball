@@ -3,7 +3,7 @@
     "g13-1-div-host": {
       "name": "G13 1. div høst",
       "tournamentId": "209849",
-      "updatedAt": "2026-09-25T20:57:34+02:00",
+      "updatedAt": "2026-09-27T19:11:32+02:00",
       "standings": [
         {
           "position": 1,
@@ -209,7 +209,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-09-26T19:52:25+02:00",
+      "updatedAt": "2026-09-27T19:11:32+02:00",
       "standings": [
         {
           "position": 1,
@@ -250,26 +250,26 @@
         {
           "position": 4,
           "team": "Hareid",
-          "played": 5,
+          "played": 6,
           "wins": 3,
-          "draws": 0,
+          "draws": 1,
           "losses": 2,
-          "gf": 22,
-          "ga": 25,
+          "gf": 25,
+          "ga": 28,
           "gd": -3,
-          "points": 9
+          "points": 10
         },
         {
           "position": 5,
           "team": "Bergsøy",
-          "played": 5,
+          "played": 6,
           "wins": 2,
-          "draws": 2,
+          "draws": 3,
           "losses": 1,
-          "gf": 19,
-          "ga": 16,
+          "gf": 22,
+          "ga": 19,
           "gd": 3,
-          "points": 8
+          "points": 9
         },
         {
           "position": 6,
