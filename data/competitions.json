@@ -3,7 +3,7 @@
     "g13-1-div-host": {
       "name": "G13 1. div høst",
       "tournamentId": "209849",
-      "updatedAt": "2026-09-27T19:11:32+02:00",
+      "updatedAt": "2026-09-27T22:08:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -20,14 +20,14 @@
         {
           "position": 2,
           "team": "Sykkylven",
-          "played": 6,
+          "played": 7,
           "wins": 5,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "gf": 39,
-          "ga": 11,
+          "gf": 43,
+          "ga": 15,
           "gd": 28,
-          "points": 15
+          "points": 16
         },
         {
           "position": 3,
@@ -43,6 +43,18 @@
         },
         {
           "position": 4,
+          "team": "Ørsta",
+          "played": 7,
+          "wins": 2,
+          "draws": 3,
+          "losses": 2,
+          "gf": 26,
+          "ga": 17,
+          "gd": 9,
+          "points": 9
+        },
+        {
+          "position": 5,
           "team": "Herd",
           "played": 6,
           "wins": 2,
@@ -51,18 +63,6 @@
           "gf": 30,
           "ga": 17,
           "gd": 13,
-          "points": 8
-        },
-        {
-          "position": 5,
-          "team": "Ørsta",
-          "played": 6,
-          "wins": 2,
-          "draws": 2,
-          "losses": 2,
-          "gf": 22,
-          "ga": 13,
-          "gd": 9,
           "points": 8
         },
         {

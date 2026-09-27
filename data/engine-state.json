@@ -707,7 +707,7 @@
       "homeScore": 4,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -1262,7 +1262,7 @@
       "homeScore": 2,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23116124001": {
       "fiksId": "9196213",
@@ -1322,7 +1322,7 @@
       "homeScore": 3,
       "awayScore": 9,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113123004": {
       "fiksId": "9201468",
@@ -1334,7 +1334,7 @@
       "homeScore": 13,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -2502,7 +2502,7 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -3351,7 +3351,7 @@
       "homeScore": 0,
       "awayScore": 15,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -3581,7 +3581,7 @@
       "homeScore": 3,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113123010": {
       "fiksId": "9201474",
@@ -3593,7 +3593,7 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23214107011": {
       "fiksId": "9200043",
@@ -5176,7 +5176,7 @@
       "homeScore": 6,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113123015": {
       "fiksId": "9201479",
@@ -5188,7 +5188,7 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23214107016": {
       "fiksId": "9200048",
@@ -5608,7 +5608,7 @@
       "homeScore": 10,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -5970,7 +5970,7 @@
       "homeScore": 11,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -6501,7 +6501,7 @@
       "homeScore": 1,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113123019": {
       "fiksId": "9201485",
@@ -6513,7 +6513,7 @@
       "homeScore": 11,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113126006": {
       "fiksId": "9204210",
@@ -6876,7 +6876,7 @@
       "homeScore": 3,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -7615,7 +7615,7 @@
       "homeScore": 3,
       "awayScore": 10,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113123018": {
       "fiksId": "9201483",
@@ -7627,7 +7627,7 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113123020": {
       "fiksId": "9201488",
@@ -7639,7 +7639,7 @@
       "homeScore": 3,
       "awayScore": 9,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -8624,7 +8624,7 @@
       "homeScore": 0,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23214107027": {
       "fiksId": "9200059",
@@ -9210,7 +9210,7 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -9384,7 +9384,7 @@
       "homeScore": 0,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detailFetches": 4,
       "detail": {
         "events": [
@@ -9555,7 +9555,7 @@
       "homeScore": 1,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113126016": {
       "fiksId": "9204235",
@@ -10168,7 +10168,7 @@
       "homeScore": 9,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23116124023": {
       "fiksId": "9196235",
@@ -10579,7 +10579,7 @@
       "homeScore": 2,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23116124025": {
       "fiksId": "9196237",
@@ -10837,7 +10837,7 @@
       "homeScore": 4,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23116124026": {
       "fiksId": "9196238",
@@ -11661,7 +11661,7 @@
       "homeScore": 4,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00",
+      "resultAt": "2026-09-27T22:08:57+02:00",
       "detail": {
         "events": [
           {
@@ -11805,7 +11805,7 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113123029": {
       "fiksId": "9201511",
@@ -11817,7 +11817,7 @@
       "homeScore": 1,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113123030": {
       "fiksId": "9201513",
@@ -11831,7 +11831,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113126020": {
       "fiksId": "9204245",
@@ -12159,7 +12159,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-09-27T19:11:32+02:00"
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23113126019": {
       "fiksId": "9204242",
@@ -12447,7 +12447,10 @@
       "venue": "Aurstad Arena Kunstgras",
       "attempts": 1,
       "lastAttemptAt": "2026-09-27T19:11:32+02:00",
-      "nextCheckAt": "2026-09-27T19:21:32+02:00"
+      "homeScore": 4,
+      "awayScore": 4,
+      "status": "completed",
+      "resultAt": "2026-09-27T22:08:57+02:00"
     },
     "23116124028": {
       "fiksId": "9196240",
