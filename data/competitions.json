@@ -130,19 +130,19 @@
     "g13-3-div-avd-2-host": {
       "name": "G13 3. div avd. 2 høst",
       "tournamentId": "209852",
-      "updatedAt": "2026-09-25T20:57:34+02:00",
+      "updatedAt": "2026-09-28T23:29:53+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Ørskog/Stordal",
-          "played": 7,
-          "wins": 6,
+          "played": 8,
+          "wins": 7,
           "draws": 1,
           "losses": 0,
-          "gf": 39,
+          "gf": 40,
           "ga": 5,
-          "gd": 34,
-          "points": 19
+          "gd": 35,
+          "points": 22
         },
         {
           "position": 2,
@@ -171,13 +171,13 @@
         {
           "position": 4,
           "team": "Guard/Rollon 2",
-          "played": 6,
+          "played": 7,
           "wins": 2,
           "draws": 1,
-          "losses": 3,
+          "losses": 4,
           "gf": 14,
-          "ga": 19,
-          "gd": -5,
+          "ga": 20,
+          "gd": -6,
           "points": 7
         },
         {
@@ -209,7 +209,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-09-27T19:11:32+02:00",
+      "updatedAt": "2026-09-28T23:29:53+02:00",
       "standings": [
         {
           "position": 1,
@@ -297,26 +297,26 @@
         },
         {
           "position": 8,
-          "team": "Sykkylven 2",
-          "played": 6,
-          "wins": 1,
+          "team": "Stranda 9er",
+          "played": 7,
+          "wins": 2,
           "draws": 0,
           "losses": 5,
-          "gf": 15,
-          "ga": 20,
-          "gd": -5,
-          "points": 3
+          "gf": 29,
+          "ga": 58,
+          "gd": -29,
+          "points": 6
         },
         {
           "position": 9,
-          "team": "Stranda 9er",
-          "played": 6,
+          "team": "Sykkylven 2",
+          "played": 7,
           "wins": 1,
           "draws": 0,
-          "losses": 5,
-          "gf": 23,
-          "ga": 53,
-          "gd": -30,
+          "losses": 6,
+          "gf": 20,
+          "ga": 26,
+          "gd": -6,
           "points": 3
         },
         {
@@ -439,7 +439,7 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-25T06:46:42+02:00",
+      "updatedAt": "2026-09-28T23:29:53+02:00",
       "standings": [
         {
           "position": 1,
@@ -491,6 +491,18 @@
         },
         {
           "position": 5,
+          "team": "Ørskog",
+          "played": 7,
+          "wins": 2,
+          "draws": 3,
+          "losses": 2,
+          "gf": 31,
+          "ga": 28,
+          "gd": 3,
+          "points": 9
+        },
+        {
+          "position": 6,
           "team": "Ørsta 2 7er",
           "played": 6,
           "wins": 3,
@@ -502,28 +514,16 @@
           "points": 9
         },
         {
-          "position": 6,
-          "team": "Ørskog",
-          "played": 6,
-          "wins": 2,
-          "draws": 2,
-          "losses": 2,
-          "gf": 29,
-          "ga": 26,
-          "gd": 3,
-          "points": 8
-        },
-        {
           "position": 7,
           "team": "Emblem",
-          "played": 6,
+          "played": 7,
           "wins": 2,
-          "draws": 1,
+          "draws": 2,
           "losses": 3,
-          "gf": 18,
-          "ga": 23,
+          "gf": 20,
+          "ga": 25,
           "gd": -5,
-          "points": 7
+          "points": 8
         },
         {
           "position": 8,

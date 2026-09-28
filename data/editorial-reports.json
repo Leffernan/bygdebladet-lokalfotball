@@ -1,6 +1,33 @@
 {
   "version": 3,
   "reports": {
+    "23113126023": {
+      "title": "Ørskog/Stordal vann 1–0 mot Guard/Rollon 2",
+      "lead": "Ørskog/Stordal vann 1–0 mot Guard/Rollon 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Til pause stod det 0–0.",
+        "Filip Robert Cedro gav Ørskog/Stordal leiinga i det 55. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23214107038": {
+      "title": "Poengdeling mellom Emblem og Ørskog",
+      "lead": "Emblem og Ørskog spelte 2–2 i J15 3. div høst.",
+      "paragraphs": [
+        "Dia Naderpour gav Emblem leiinga i det 4. minuttet.",
+        "Ørskog utlikna til 1–1 i det 10. minuttet.",
+        "Til pause stod det 1–1.",
+        "Julia Sollied Lande sende Ørskog i leiinga i det 43. minuttet.",
+        "Amalie Myrstad Schjelderup utlikna til 2–2 for Emblem i det 66. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23116124029": {
       "title": "Ørskog/Stordal snudde kampen og vann 4–2",
       "lead": "Ørskog/Stordal vann 4–2 mot Sykkylven 2 i G16 2. div høst. Ørskog/Stordal måtte hente inn eit underlag før sigeren var sikra.",
