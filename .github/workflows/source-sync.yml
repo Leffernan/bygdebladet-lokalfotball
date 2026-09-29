@@ -16,6 +16,7 @@ on:
       - "config/competitions.json"
       - "config/sources.json"
       - "data/fixture_schedule.csv.gz"
+      - "data/fixture_additions/j13-7er-host.csv"
       - "scripts/source_sync.py.gz"
       - "scripts/source_sync_runner.py"
       - "scripts/detail_parser.py"
@@ -59,6 +60,7 @@ jobs:
         run: |
           gzip -dc scripts/source_sync.py.gz > scripts/source_sync.py
           gzip -dc data/fixture_schedule.csv.gz > data/fixtures.csv
+          cat data/fixture_additions/j13-7er-host.csv >> data/fixtures.csv
 
       - name: Sync
         shell: bash
