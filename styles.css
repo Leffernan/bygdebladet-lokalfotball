@@ -106,6 +106,10 @@ a{color:inherit}
 .cta-button:hover{transform:translateY(-1px)}
 
 /* Resultat */
+.football-modes{display:inline-flex;gap:4px;margin:0 0 24px;padding:5px;border:1px solid var(--line);border-radius:13px;background:#fff}
+.mode-button{border:0;border-radius:9px;padding:11px 14px;background:transparent;color:var(--ink);font:900 .68rem Lato,sans-serif;letter-spacing:.05em;cursor:pointer}
+.mode-button.active{background:var(--bb-red);color:#fff}
+.mode-button:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
 .matches{padding:72px 0 90px}
 .section-heading h2,.source-panel h2{margin:0;font-size:2.8rem;letter-spacing:-.055em;color:var(--ink)}
 .filters{display:flex;justify-content:space-between;gap:16px;align-items:center;margin:28px 0 22px;padding:12px;border:1px solid var(--line);background:#f0eadf;border-radius:16px}
@@ -113,6 +117,7 @@ a{color:inherit}
 .filter-chip,select{border:1px solid #cfc7b9;background:#fff;color:var(--ink);border-radius:10px;padding:10px 12px;font-weight:900;font-size:.67rem;letter-spacing:.05em}
 .filter-chip{cursor:pointer}
 .filter-chip.active{background:var(--bb-red);border-color:var(--bb-red);color:#fff}
+select[hidden]{display:none}
 select{min-width:160px;letter-spacing:0;cursor:pointer}
 .match-list{display:grid;gap:10px}
 .date-heading{display:flex;align-items:center;gap:14px;margin:30px 0 7px;color:var(--ink);font-size:.67rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}

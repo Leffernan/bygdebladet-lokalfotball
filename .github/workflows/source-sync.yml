@@ -19,6 +19,7 @@ on:
       - "data/fixture_additions/j13-7er-host.csv"
       - "scripts/source_sync.py.gz"
       - "scripts/source_sync_runner.py"
+      - "scripts/import_senior_xlsx.py"
       - "scripts/detail_parser.py"
       - "scripts/detail_corrections.py"
       - "scripts/goal_timeline_safety.py"

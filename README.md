@@ -25,6 +25,10 @@ Når ein kamp er venta ferdig, blir den aktuelle turneringa kontrollert. Eitt tu
 - `data/team-logos.json` – kopling mellom lagnamn og logo.
 - `assets/team-logos/` – logofiler.
 
+Seniorseriane for 2026 er importerte frå NFF sine XLSX-terminlister. `scripts/import_senior_xlsx.py` byggjer den normaliserte terminplanen på nytt når alle kjeldefilene ligg i éi mappe. Brukargrensesnittet skil senior og aldersbestemt fotball og har sesongval for senior.
+
+Alle dei 14 planlagde 2026-seriane er importerte, med full terminliste for 4. divisjon menn Sunnmøre og dei tre kvinneseriane i Sunnmøre. Synkroniseringa hentar offisielle tabellar per turnering. Vår- og haustseriar har kvar sin turnerings-ID; offisielle tabellar blir ikkje rekna om frå andre seriar.
+
 ## Trafikkprinsipp
 
 Systemet er terminbasert og skal halde talet på kjeldeoppslag så lågt som praktisk mogleg. Resultatkontroll blir gruppert per turnering, ferdige kampar blir ikkje kontrollerte på nytt utan grunn, og detaljoppslag har eige budsjett per køyring. Den daglege kontrollen fangar opp flytta kampar og tabellendringar.

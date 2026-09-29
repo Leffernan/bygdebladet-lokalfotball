@@ -183,9 +183,11 @@ class EditorialTests(unittest.TestCase):
         m = match(2, 1, [goal(12, "home", "A"), goal(69, "away", "B"), goal(69, "home", "C")])
         self.assertNotIn("avgjorde seint", editorial.generate(m)["title"])
 
-    def test_goalless_match_and_senior_exclusion(self):
+    def test_goalless_and_senior_match(self):
         self.assertIn("Mållaus", editorial.generate(match(0, 0))["title"])
-        self.assertIsNone(editorial.generate(match(3, 0, age="MENN")))
+        senior = editorial.generate(match(3, 0, age="MENN"))
+        self.assertIn("3–0", senior["title"])
+        self.assertEqual(editorial.age_duration(match(3, 0, age="KVINNER")), 90)
 
     def test_half_time_must_not_exceed_final(self):
         m = match(2, 1, half="4–0")

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Nynorsk, fact-constrained editorial summaries of completed youth matches.
+"""Nynorsk, fact-constrained editorial summaries of completed local matches.
 
 This is deterministic editorial generation, not a claim of eyewitness reporting.
 Every storyline must be traceable to final score, half-time, or NFF goal events.
@@ -31,7 +31,7 @@ def final(match):
 
 
 def youth(match):
-    return bool(re.fullmatch(r"[GJ]\d{2}", str(match.get("age", "")).upper()))
+    return bool(re.fullmatch(r"[GJ]\d{2}|MENN|KVINNER", str(match.get("age", "")).upper()))
 
 
 def winner_side(match):
@@ -41,6 +41,8 @@ def winner_side(match):
 
 
 def age_duration(match):
+    if str(match.get("age", "")).upper() in {"MENN", "KVINNER"}:
+        return None if "7-er" in str(match.get("competition", "")) else 90
     found = re.fullmatch(r"[GJ](\d{2})", str(match.get("age", "")).upper())
     return DURATION.get(int(found.group(1))) if found else None
 

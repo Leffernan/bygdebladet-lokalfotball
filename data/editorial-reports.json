@@ -28,6 +28,39 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "15220701071": {
+      "title": "Poengdeling mellom Tomrefjord og Tingvoll/Kvass/Ulvungen",
+      "lead": "Tomrefjord og Tingvoll/Kvass/Ulvungen spelte 2–2 i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201144": {
+      "title": "Brattvåg vann 3–2 mot Arendal",
+      "lead": "Brattvåg vann 3–2 mot Arendal i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501107": {
+      "title": "HaNo vann 3–0 mot Sande",
+      "lead": "HaNo vann 3–0 mot Sande i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124029": {
       "title": "Ørskog/Stordal snudde kampen og vann 4–2",
       "lead": "Ørskog/Stordal vann 4–2 mot Sykkylven 2 i G16 2. div høst. Ørskog/Stordal måtte hente inn eit underlag før sigeren var sikra.",
@@ -43,6 +76,61 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15120501072": {
+      "title": "Hjelset-Kleive vann 2–0 mot Måndalen",
+      "lead": "Hjelset-Kleive vann 2–0 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700051": {
+      "title": "Straumsnes vann 3–2 mot Fiksdal/Rekdal",
+      "lead": "Straumsnes vann 3–2 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501074": {
+      "title": "Vestnes Varfjell vann 2–1 mot Batnfjord",
+      "lead": "Vestnes Varfjell vann 2–1 mot Batnfjord i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401106": {
+      "title": "Stordal vann stort mot Langevåg",
+      "lead": "Stordal vann 8–1 mot Langevåg i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401107": {
+      "title": "Ravn vann 3–2 mot Brattvåg 2",
+      "lead": "Ravn vann 3–2 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "15149017028": {
@@ -87,6 +175,72 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001032": {
+      "title": "Godøy vann 2–1 mot Harøy/Lepsøy/HaNo 2",
+      "lead": "Godøy vann 2–1 mot Harøy/Lepsøy/HaNo 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410073": {
+      "title": "Brattvåg/Norborg/Ravn vann 3–1 mot HaNo",
+      "lead": "Brattvåg/Norborg/Ravn vann 3–1 mot HaNo i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603043": {
+      "title": "Bjørset vann 1–0 mot Tomrefjord",
+      "lead": "Bjørset vann 1–0 mot Tomrefjord i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001034": {
+      "title": "Valldal vann 2–1 mot Ørskog/Stordal 2",
+      "lead": "Valldal vann 2–1 mot Ørskog/Stordal 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001033": {
+      "title": "Ravn 2 vann stort mot Skodje",
+      "lead": "Ravn 2 vann 9–1 mot Skodje i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700052": {
+      "title": "Vågstranda vann 10–6 mot Batnfjord",
+      "lead": "Vågstranda vann 10–6 mot Batnfjord i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23214107032": {
@@ -155,6 +309,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23220602005": {
+      "title": "Stordal/Ørskog/Skodje vann 1–0 mot Stranda",
+      "lead": "Stordal/Ørskog/Skodje vann 1–0 mot Stranda i 5. div. kvinner høst A.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124025": {
       "title": "Hattrick av Marcus Karl Cevallos då Ørskog/Stordal vann",
       "lead": "Ørskog/Stordal vann 9–1 mot Stranda 9er i G16 2. div høst. Marcus Karl Cevallos skåra tre av måla.",
@@ -176,6 +341,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "99120201140": {
+      "title": "Brattvåg vann 3–1 mot FK Eik Tønsberg 871",
+      "lead": "Brattvåg vann 3–1 mot FK Eik Tønsberg 871 i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "15149017024": {
       "title": "Hattrick av Ellen Helgetun Schei då Surnadal/Søya 1 vann",
       "lead": "Surnadal/Søya 1 vann 8–0 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst. Ellen Helgetun Schei skåra tre av måla.",
@@ -195,6 +371,50 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "15120501066": {
+      "title": "Måndalen vann 5–3 mot Dahle 2",
+      "lead": "Måndalen vann 5–3 mot Dahle 2 i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700047": {
+      "title": "Nordbyen vann 4–1 mot Fiksdal/Rekdal",
+      "lead": "Nordbyen vann 4–1 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700048": {
+      "title": "Målfest og poengdeling mellom Straumsnes og Vågstranda",
+      "lead": "Straumsnes og Vågstranda spelte 4–4 i Menn 7-er. Heile åtte mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603047": {
+      "title": "Poengdeling mellom Rival og Tomrefjord",
+      "lead": "Rival og Tomrefjord spelte 2–2 i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124023": {
       "title": "HaNo/Harøy/Lepsøy vann 3–1 mot Sykkylven",
       "lead": "HaNo/Harøy/Lepsøy vann 3–1 mot Sykkylven i G16 2. div høst.",
@@ -208,6 +428,50 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401100": {
+      "title": "Stordal vann 3–0 mot Brattvåg 2",
+      "lead": "Stordal vann 3–0 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401099": {
+      "title": "Målfest og poengdeling mellom Valder og Ravn",
+      "lead": "Valder og Ravn spelte 4–4 i 4. div. menn. Heile åtte mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410069": {
+      "title": "HaNo vann 1–0 mot SIF/Hessa",
+      "lead": "HaNo vann 1–0 mot SIF/Hessa i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501070": {
+      "title": "Vestnes Varfjell vann stort mot Nordlandet/Frei",
+      "lead": "Vestnes Varfjell vann 5–0 mot Nordlandet/Frei i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113126017": {
@@ -226,6 +490,28 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15220701068": {
+      "title": "Eide og Omegn FK vann 3–1 mot Tomrefjord",
+      "lead": "Eide og Omegn FK vann 3–1 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501099": {
+      "title": "HaNo vann 4–2 mot Emblem",
+      "lead": "HaNo vann 4–2 mot Emblem i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113123023": {
@@ -280,6 +566,59 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23220410066": {
+      "title": "Volda 2 vann 4–1 mot Brattvåg/Norborg/Ravn",
+      "lead": "Volda 2 vann 4–1 mot Brattvåg/Norborg/Ravn i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001027": {
+      "title": "Harøy/Lepsøy/HaNo 2 vann 5–4 mot Guard",
+      "lead": "Harøy/Lepsøy/HaNo 2 vann 5–4 mot Guard i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120604030": {
+      "title": "Norborg vann 2–0 mot Blindheim 2",
+      "lead": "Norborg vann 2–0 mot Blindheim 2 i 6. div. menn høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001026": {
+      "title": "Mållaus kamp mellom Godøy og Ravn 2",
+      "lead": "Godøy og Ravn 2 spelte 0–0 i 7. div. menn høst avd. 1.",
+      "paragraphs": [],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001029": {
+      "title": "Poengdeling mellom Valldal og Stranda 2",
+      "lead": "Valldal og Stranda 2 spelte 1–1 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23113123022": {
       "title": "Aksla vann 4–1 mot Ravn/Norborg",
       "lead": "Aksla vann 4–1 mot Ravn/Norborg i G13 1. div høst.",
@@ -294,6 +633,28 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001030": {
+      "title": "Ørskog/Stordal 2 vann 5–3 mot Brattvåg 3",
+      "lead": "Ørskog/Stordal 2 vann 5–3 mot Brattvåg 3 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700019": {
+      "title": "Målfest og poengdeling mellom Nordbyen og Fiksdal/Rekdal",
+      "lead": "Nordbyen og Fiksdal/Rekdal spelte 3–3 i Menn 7-er. Heile seks mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23214107027": {
@@ -347,6 +708,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15120603035": {
+      "title": "Tomrefjord vann 6–3 mot Skåla/Langfjorden 1",
+      "lead": "Tomrefjord vann 6–3 mot Skåla/Langfjorden 1 i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23116124020": {
@@ -411,6 +783,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23120401095": {
+      "title": "Hødd 2 vann 3–2 mot Brattvåg 2",
+      "lead": "Hødd 2 vann 3–2 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124019": {
       "title": "Ørskog/Stordal vann stort mot Hareid",
       "lead": "Ørskog/Stordal vann 7–1 mot Hareid i G16 2. div høst.",
@@ -430,6 +813,61 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23127001018": {
+      "title": "Valldal vann 3–1 mot Harøy/Lepsøy/HaNo 2",
+      "lead": "Valldal vann 3–1 mot Harøy/Lepsøy/HaNo 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410054": {
+      "title": "Poengdeling mellom HaNo og Volda 2",
+      "lead": "HaNo og Volda 2 spelte 1–1 i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201129": {
+      "title": "Jerv vann 3–1 mot Brattvåg",
+      "lead": "Jerv vann 3–1 mot Brattvåg i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501064": {
+      "title": "Bud/Bryn vann 2–0 mot Vestnes Varfjell",
+      "lead": "Bud/Bryn vann 2–0 mot Vestnes Varfjell i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501063": {
+      "title": "Batnfjord vann 3–1 mot Måndalen",
+      "lead": "Batnfjord vann 3–1 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23113126013": {
       "title": "Gustav Bjørkhaug Henriksen herja framfor mål – Aksla 2 vann 3–1",
       "lead": "Aksla 2 vann 3–1 mot Skodje i G13 3. div avd. 2 høst. Gustav Bjørkhaug Henriksen stod for alle dei tre måla til Aksla 2.",
@@ -443,6 +881,28 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401092": {
+      "title": "Hareid vann 5–4 mot Ravn",
+      "lead": "Hareid vann 5–4 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401091": {
+      "title": "Stordal vann 4–0 mot Valder",
+      "lead": "Stordal vann 4–0 mot Valder i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "15149017019": {
@@ -460,6 +920,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15120700044": {
+      "title": "Molde 4 vann 6–2 mot Vågstranda",
+      "lead": "Molde 4 vann 6–2 mot Vågstranda i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113123020": {
@@ -483,6 +954,50 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120501092": {
+      "title": "Hasundgot vann 3–1 mot HaNo",
+      "lead": "Hasundgot vann 3–1 mot HaNo i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410062": {
+      "title": "Blindheim 2 vann 2–0 mot Brattvåg/Norborg/Ravn",
+      "lead": "Blindheim 2 vann 2–0 mot Brattvåg/Norborg/Ravn i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603029": {
+      "title": "Tomrefjord vann 6–4 mot Molde 4",
+      "lead": "Tomrefjord vann 6–4 mot Molde 4 i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001025": {
+      "title": "Brattvåg 3 vann 1–0 mot Stranda 2",
+      "lead": "Brattvåg 3 vann 1–0 mot Stranda 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113126015": {
@@ -543,6 +1058,39 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23127001021": {
+      "title": "Valldal vann 3–2 mot Aksla 2",
+      "lead": "Valldal vann 3–2 mot Aksla 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001023": {
+      "title": "Ravn 2 vann 4–2 mot Guard",
+      "lead": "Ravn 2 vann 4–2 mot Guard i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700042": {
+      "title": "Eresfjord og Vistdal/Langfjorden vann stort mot Fiksdal/Rekdal",
+      "lead": "Eresfjord og Vistdal/Langfjorden vann 8–2 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23113123017": {
       "title": "Målfest og poengdeling mellom Ravn/Norborg og Herd",
       "lead": "Ravn/Norborg og Herd spelte 3–3 i G13 1. div høst. Heile seks mål vart registrerte.",
@@ -581,6 +1129,28 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401087": {
+      "title": "Målfest og poengdeling mellom Hareid og Stordal",
+      "lead": "Hareid og Stordal spelte 3–3 i 4. div. menn. Heile seks mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401089": {
+      "title": "Brattvåg 2 vann 4–1 mot Langevåg",
+      "lead": "Brattvåg 2 vann 4–1 mot Langevåg i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23214107025": {
@@ -624,6 +1194,28 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23127001022": {
+      "title": "Harøy/Lepsøy/HaNo 2 vann 4–1 mot Sykkylven 2",
+      "lead": "Harøy/Lepsøy/HaNo 2 vann 4–1 mot Sykkylven 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201126": {
+      "title": "Brattvåg vann 1–0 mot Kvik Halden",
+      "lead": "Brattvåg vann 1–0 mot Kvik Halden i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124014": {
       "title": "HaNo/Harøy/Lepsøy snudde kampen og vann 3–2",
       "lead": "HaNo/Harøy/Lepsøy vann 3–2 mot Spjelkavik i G16 2. div høst. HaNo/Harøy/Lepsøy måtte hente inn eit underlag før sigeren var sikra.",
@@ -638,6 +1230,28 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15120501056": {
+      "title": "Vestnes Varfjell vann 2–0 mot Måndalen",
+      "lead": "Vestnes Varfjell vann 2–0 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401086": {
+      "title": "Poengdeling mellom Ørsta og Ravn",
+      "lead": "Ørsta og Ravn spelte 2–2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113123014": {
@@ -672,6 +1286,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120501086": {
+      "title": "Poengdeling mellom Aksla og HaNo",
+      "lead": "Aksla og HaNo spelte 2–2 i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113123012": {
@@ -709,6 +1334,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23220410060": {
+      "title": "HaNo vann stort mot Hovdebygda",
+      "lead": "HaNo vann 5–0 mot Hovdebygda i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124011": {
       "title": "Ørskog/Stordal vann 2–0 mot Herd",
       "lead": "Ørskog/Stordal vann 2–0 mot Herd i G16 2. div høst.",
@@ -719,6 +1355,28 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15220701059": {
+      "title": "Bud/Bryn Kvinner vann stort mot Tomrefjord",
+      "lead": "Bud/Bryn Kvinner vann 7–0 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001016": {
+      "title": "Guard vann stort mot Skodje",
+      "lead": "Guard vann 6–1 mot Skodje i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23214107016": {
@@ -739,6 +1397,61 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120604019": {
+      "title": "Vigra vann 3–1 mot Norborg",
+      "lead": "Vigra vann 3–1 mot Norborg i 6. div. menn høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001019": {
+      "title": "Brattvåg 3 vann 5–2 mot Aksla 2",
+      "lead": "Brattvåg 3 vann 5–2 mot Aksla 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001020": {
+      "title": "Ørskog/Stordal 2 vann 6–2 mot Stranda 2",
+      "lead": "Ørskog/Stordal 2 vann 6–2 mot Stranda 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001017": {
+      "title": "Sykkylven 2 vann 3–1 mot Ravn 2",
+      "lead": "Sykkylven 2 vann 3–1 mot Ravn 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700038": {
+      "title": "Batnfjord vann 7–5 mot Fiksdal/Rekdal",
+      "lead": "Batnfjord vann 7–5 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23214107019": {
@@ -787,6 +1500,37 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23220410058": {
+      "title": "Mållaus kamp mellom Sykkylven og Brattvåg/Norborg/Ravn",
+      "lead": "Sykkylven og Brattvåg/Norborg/Ravn spelte 0–0 i 4. div. kvinner.",
+      "paragraphs": [],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23220601064": {
+      "title": "Stordal/Ørskog/Skodje vann 2–1 mot MTG",
+      "lead": "Stordal/Ørskog/Skodje vann 2–1 mot MTG i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401084": {
+      "title": "Brattvåg 2 vann 5–3 mot Spjelkavik 2",
+      "lead": "Brattvåg 2 vann 5–3 mot Spjelkavik 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124006": {
       "title": "HaNo/Harøy/Lepsøy vann 6–2 mot Bergsøy",
       "lead": "HaNo/Harøy/Lepsøy vann 6–2 mot Bergsøy i G16 2. div høst.",
@@ -821,6 +1565,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "99120201118": {
+      "title": "Målfest og poengdeling mellom Brattvåg og Sandviken",
+      "lead": "Brattvåg og Sandviken spelte 4–4 i 2. divisjon menn avd. 1. Heile åtte mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "15149017009": {
       "title": "Dahle 3 7er vann 2–0 mot Vestnes Varfjell",
       "lead": "Dahle 3 7er vann 2–0 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst.",
@@ -834,6 +1589,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "15120501054": {
+      "title": "Bud/Bryn vann stort mot Måndalen",
+      "lead": "Bud/Bryn vann 6–1 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23113126009": {
       "title": "Hareid 2 vann 4–1 mot Skodje",
       "lead": "Hareid 2 vann 4–1 mot Skodje i G13 3. div avd. 2 høst.",
@@ -845,6 +1611,26 @@
         "Yaroslav Abuzarova auka til 1–3 for Hareid 2 i det 50. minuttet.",
         "Hareid 2 auka leiinga til 1–4 i det 58. minuttet."
       ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401081": {
+      "title": "Ørsta vann 1–0 mot Stordal",
+      "lead": "Ørsta vann 1–0 mot Stordal i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501053": {
+      "title": "Mållaus kamp mellom Vestnes Varfjell og Molde 3",
+      "lead": "Vestnes Varfjell og Molde 3 spelte 0–0 i 5. div. menn.",
+      "paragraphs": [],
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
@@ -886,6 +1672,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401082": {
+      "title": "Ravn vann 3–1 mot Hovdebygda",
+      "lead": "Ravn vann 3–1 mot Hovdebygda i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23214107011": {
@@ -944,6 +1741,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23220410051": {
+      "title": "Aksla/Guard vann 3–0 mot Brattvåg/Norborg/Ravn",
+      "lead": "Aksla/Guard vann 3–0 mot Brattvåg/Norborg/Ravn i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23214107014": {
       "title": "Harøy/HaNo/Lepsøy 2 9er vann 6–3 mot MTG 7er",
       "lead": "Harøy/HaNo/Lepsøy 2 9er vann 6–3 mot MTG 7er i J15 3. div høst.",
@@ -955,6 +1763,26 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700033": {
+      "title": "Molde 4 vann stort mot Fiksdal/Rekdal",
+      "lead": "Molde 4 vann 9–0 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701051": {
+      "title": "Mållaus kamp mellom Sunndal og Tomrefjord",
+      "lead": "Sunndal og Tomrefjord spelte 0–0 i Kvinner 7-er.",
+      "paragraphs": [],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
       "generatorVersion": 3
     },
     "23113123008": {
@@ -1021,6 +1849,94 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23120501082": {
+      "title": "HaNo vann 3–1 mot NTNUIÅ",
+      "lead": "HaNo vann 3–1 mot NTNUIÅ i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120604012": {
+      "title": "Rollon 2 vann stort mot Norborg",
+      "lead": "Rollon 2 vann 8–3 mot Norborg i 6. div. menn høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001013": {
+      "title": "Valldal vann 3–1 mot Ravn 2",
+      "lead": "Valldal vann 3–1 mot Ravn 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001014": {
+      "title": "Skodje vann 4–2 mot Sykkylven 2",
+      "lead": "Skodje vann 4–2 mot Sykkylven 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001011": {
+      "title": "Ørskog/Stordal 2 vann 5–1 mot Aksla 2",
+      "lead": "Ørskog/Stordal 2 vann 5–1 mot Aksla 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001012": {
+      "title": "Harøy/Lepsøy/HaNo 2 vann 4–3 mot Brattvåg 3",
+      "lead": "Harøy/Lepsøy/HaNo 2 vann 4–3 mot Brattvåg 3 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700036": {
+      "title": "Malmefjorden 2 vann 5–1 mot Vågstranda",
+      "lead": "Malmefjorden 2 vann 5–1 mot Vågstranda i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601056": {
+      "title": "Stordal/Ørskog/Skodje vann stort mot Hornindal 9er",
+      "lead": "Stordal/Ørskog/Skodje vann 5–0 mot Hornindal 9er i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23213702006": {
       "title": "Sju mål av Nathalie Colclough-Flø då Sæbø vann",
       "lead": "Sæbø vann 11–4 mot Stordal i J13 7er høst. Nathalie Colclough-Flø skåra sju av måla.",
@@ -1032,6 +1948,39 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401073": {
+      "title": "Brattvåg 2 vann 3–1 mot Valder",
+      "lead": "Brattvåg 2 vann 3–1 mot Valder i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501077": {
+      "title": "HaNo vann 6–2 mot Volda 2",
+      "lead": "HaNo vann 6–2 mot Volda 2 i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501047": {
+      "title": "Vestnes Varfjell vann 6–2 mot Kårvåg/Havørn/Averøykameratene",
+      "lead": "Vestnes Varfjell vann 6–2 mot Kårvåg/Havørn/Averøykameratene i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23116124002": {
@@ -1047,6 +1996,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401077": {
+      "title": "Bergsøy vann 4–1 mot Ravn",
+      "lead": "Bergsøy vann 4–1 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23116124003": {
@@ -1082,6 +2042,39 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401076": {
+      "title": "Hovdebygda vann 3–2 mot Stordal",
+      "lead": "Hovdebygda vann 3–2 mot Stordal i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501050": {
+      "title": "Måndalen vann 2–0 mot Nordlandet/Frei",
+      "lead": "Måndalen vann 2–0 mot Nordlandet/Frei i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701048": {
+      "title": "Malmefjorden vann stort mot Tomrefjord",
+      "lead": "Malmefjorden vann 6–1 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113123004": {
@@ -1152,6 +2145,72 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23220410046": {
+      "title": "Blindheim 2 vann 5–3 mot HaNo",
+      "lead": "Blindheim 2 vann 5–3 mot HaNo i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410049": {
+      "title": "Ørsta vann 1–0 mot Brattvåg/Norborg/Ravn",
+      "lead": "Ørsta vann 1–0 mot Brattvåg/Norborg/Ravn i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001007": {
+      "title": "Harøy/Lepsøy/HaNo 2 vann 4–1 mot Ørskog/Stordal 2",
+      "lead": "Harøy/Lepsøy/HaNo 2 vann 4–1 mot Ørskog/Stordal 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001008": {
+      "title": "Poengdeling mellom Brattvåg 3 og Ravn 2",
+      "lead": "Brattvåg 3 og Ravn 2 spelte 1–1 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001009": {
+      "title": "Valldal vann 4–1 mot Skodje",
+      "lead": "Valldal vann 4–1 mot Skodje i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501008": {
+      "title": "Vestnes Varfjell vann 3–0 mot Molde 3",
+      "lead": "Vestnes Varfjell vann 3–0 mot Molde 3 i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113123002": {
@@ -1228,6 +2287,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23220601051": {
+      "title": "Stordal/Ørskog/Skodje vann 5–2 mot Bergsøy 9er",
+      "lead": "Stordal/Ørskog/Skodje vann 5–2 mot Bergsøy 9er i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23214107004": {
       "title": "HaNo/Lepsøy/Harøy 9er snudde kampen og vann 6–3",
       "lead": "HaNo/Lepsøy/Harøy 9er vann 6–3 mot Harøy/HaNo/Lepsøy 2 9er i J15 3. div høst. HaNo/Lepsøy/Harøy 9er måtte hente inn eit underlag før sigeren var sikra.",
@@ -1246,6 +2316,39 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "99120201110": {
+      "title": "Brattvåg vann 3–0 mot Notodden",
+      "lead": "Brattvåg vann 3–0 mot Notodden i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401070": {
+      "title": "Stordal vann 4–0 mot Bergsøy",
+      "lead": "Stordal vann 4–0 mot Bergsøy i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401067": {
+      "title": "Hareid vann 3–1 mot Brattvåg 2",
+      "lead": "Hareid vann 3–1 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23113126001": {
@@ -1282,6 +2385,28 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23120501071": {
+      "title": "Målfest og poengdeling mellom HaNo og Blindheim",
+      "lead": "HaNo og Blindheim spelte 4–4 i 5. div. menn. Heile åtte mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401071": {
+      "title": "Ravn vann 4–2 mot Rollon",
+      "lead": "Ravn vann 4–2 mot Rollon i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23214107001": {
       "title": "Hattrick av Julia Sollied Lande då Ørskog vann",
       "lead": "Ørskog vann 4–2 mot Sykkylven 2 i J15 3. div høst. Julia Sollied Lande skåra tre av måla.",
@@ -1296,6 +2421,50 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120604003": {
+      "title": "Hasundgot 2 vann 1–0 mot Norborg",
+      "lead": "Hasundgot 2 vann 1–0 mot Norborg i 6. div. menn høst.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001002": {
+      "title": "Ravn 2 vann stort mot Ørskog/Stordal 2",
+      "lead": "Ravn 2 vann 7–1 mot Ørskog/Stordal 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001004": {
+      "title": "Godøy vann 4–2 mot Valldal",
+      "lead": "Godøy vann 4–2 mot Valldal i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23127001003": {
+      "title": "Skodje vann stort mot Brattvåg 3",
+      "lead": "Skodje vann 5–0 mot Brattvåg 3 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23213702002": {
@@ -1319,6 +2488,1861 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001001": {
+      "title": "Poengdeling mellom Harøy/Lepsøy/HaNo 2 og Stranda 2",
+      "lead": "Harøy/Lepsøy/HaNo 2 og Stranda 2 spelte 2–2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201105": {
+      "title": "Brattvåg vann 3–1 mot Lysekloster",
+      "lead": "Brattvåg vann 3–1 mot Lysekloster i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201095": {
+      "title": "Poengdeling mellom Pors og Brattvåg",
+      "lead": "Pors og Brattvåg spelte 1–1 i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201091": {
+      "title": "Mjøndalen vann 5–3 mot Brattvåg",
+      "lead": "Mjøndalen vann 5–3 mot Brattvåg i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401062": {
+      "title": "Poengdeling mellom Stordal og Rollon",
+      "lead": "Stordal og Rollon spelte 1–1 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201078": {
+      "title": "Poengdeling mellom Lysekloster og Brattvåg",
+      "lead": "Lysekloster og Brattvåg spelte 1–1 i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401059": {
+      "title": "Stordal vann 3–2 mot Ravn",
+      "lead": "Stordal vann 3–2 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401056": {
+      "title": "Brattvåg 2 vann 4–3 mot Hovdebygda",
+      "lead": "Brattvåg 2 vann 4–3 mot Hovdebygda i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501041": {
+      "title": "Molde 3 vann stort mot Måndalen",
+      "lead": "Molde 3 vann 9–1 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501059": {
+      "title": "Stranda vann 4–2 mot HaNo",
+      "lead": "Stranda vann 4–2 mot HaNo i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410045": {
+      "title": "Brattvåg/Norborg/Ravn vann 3–0 mot Hovdebygda",
+      "lead": "Brattvåg/Norborg/Ravn vann 3–0 mot Hovdebygda i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201077": {
+      "title": "Jerv vann 2–1 mot Brattvåg",
+      "lead": "Jerv vann 2–1 mot Brattvåg i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501036": {
+      "title": "Måndalen vann 3–0 mot Kårvåg/Havørn/Averøykameratene",
+      "lead": "Måndalen vann 3–0 mot Kårvåg/Havørn/Averøykameratene i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401054": {
+      "title": "Stordal vann 3–0 mot Spjelkavik 2",
+      "lead": "Stordal vann 3–0 mot Spjelkavik 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401051": {
+      "title": "Hødd 2 vann 5–1 mot Ravn",
+      "lead": "Hødd 2 vann 5–1 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501038": {
+      "title": "Vestnes Varfjell vann 2–1 mot Hjelset-Kleive",
+      "lead": "Vestnes Varfjell vann 2–1 mot Hjelset-Kleive i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401053": {
+      "title": "Brattvåg 2 vann 3–2 mot Bergsøy",
+      "lead": "Brattvåg 2 vann 3–2 mot Bergsøy i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602050": {
+      "title": "Valldal vann 4–3 mot Blindheim 2",
+      "lead": "Valldal vann 4–3 mot Blindheim 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602048": {
+      "title": "Sykkylven 2 vann 3–0 mot Ørskog/Stordal 2",
+      "lead": "Sykkylven 2 vann 3–0 mot Ørskog/Stordal 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700031": {
+      "title": "Malmefjorden 2 vann 2–0 mot Fiksdal/Rekdal",
+      "lead": "Malmefjorden 2 vann 2–0 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501051": {
+      "title": "SIF/Hessa vann 4–1 mot HaNo",
+      "lead": "SIF/Hessa vann 4–1 mot HaNo i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410044": {
+      "title": "HaNo vann 1–0 mot Sykkylven",
+      "lead": "HaNo vann 1–0 mot Sykkylven i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201065": {
+      "title": "Brattvåg vann 1–0 mot Sotra",
+      "lead": "Brattvåg vann 1–0 mot Sotra i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501031": {
+      "title": "Malmefjorden vann 5–2 mot Måndalen",
+      "lead": "Malmefjorden vann 5–2 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700028": {
+      "title": "Vågstranda vann stort mot Fiksdal/Rekdal",
+      "lead": "Vågstranda vann 7–0 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401047": {
+      "title": "Stordal vann 2–1 mot Hødd 2",
+      "lead": "Stordal vann 2–1 mot Hødd 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401045": {
+      "title": "Rollon vann stort mot Brattvåg 2",
+      "lead": "Rollon vann 6–1 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501033": {
+      "title": "Vestnes Varfjell vann stort mot Dahle 2",
+      "lead": "Vestnes Varfjell vann 8–0 mot Dahle 2 i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603027": {
+      "title": "Isfjorden vann 2–1 mot Tomrefjord",
+      "lead": "Isfjorden vann 2–1 mot Tomrefjord i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501046": {
+      "title": "HaNo vann 4–0 mot Sykkylven",
+      "lead": "HaNo vann 4–0 mot Sykkylven i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401046": {
+      "title": "Ravn vann 3–0 mot Langevåg",
+      "lead": "Ravn vann 3–0 mot Langevåg i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410039": {
+      "title": "Brattvåg/Norborg/Ravn vann 2–1 mot SIF/Hessa",
+      "lead": "Brattvåg/Norborg/Ravn vann 2–1 mot SIF/Hessa i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701037": {
+      "title": "Træff 2 vann stort mot Tomrefjord",
+      "lead": "Træff 2 vann 6–0 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602042": {
+      "title": "Ellingsøy vann 2–1 mot Ørskog/Stordal 2",
+      "lead": "Ellingsøy vann 2–1 mot Ørskog/Stordal 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603042": {
+      "title": "Norborg vann 4–1 mot Rollon 2",
+      "lead": "Norborg vann 4–1 mot Rollon 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603043": {
+      "title": "Målfest og poengdeling mellom Skodje og Aksla 2",
+      "lead": "Skodje og Aksla 2 spelte 3–3 i 6. div. menn vår avd. 3. Heile seks mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410037": {
+      "title": "Aksla/Guard vann 1–0 mot HaNo",
+      "lead": "Aksla/Guard vann 1–0 mot HaNo i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601045": {
+      "title": "Stordal/Ørskog/Skodje vann stort mot Hareid 9er",
+      "lead": "Stordal/Ørskog/Skodje vann 10–0 mot Hareid 9er i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603044": {
+      "title": "Harøy/Lepsøy/HaNo 2 vann 2–0 mot Ravn 2",
+      "lead": "Harøy/Lepsøy/HaNo 2 vann 2–0 mot Ravn 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410033": {
+      "title": "Brattvåg/Norborg/Ravn vann 3–0 mot Hasundgot",
+      "lead": "Brattvåg/Norborg/Ravn vann 3–0 mot Hasundgot i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602051": {
+      "title": "Ellingsøy vann 2–1 mot Valldal",
+      "lead": "Ellingsøy vann 2–1 mot Valldal i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401066": {
+      "title": "Spjelkavik 2 vann 4–2 mot Ravn",
+      "lead": "Spjelkavik 2 vann 4–2 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401065": {
+      "title": "Brattvåg 2 vann stort mot Ørsta",
+      "lead": "Brattvåg 2 vann 6–0 mot Ørsta i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501043": {
+      "title": "Vestnes Varfjell vann 5–2 mot Malmefjorden",
+      "lead": "Vestnes Varfjell vann 5–2 mot Malmefjorden i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700024": {
+      "title": "Batnfjord vann 5–2 mot Vågstranda",
+      "lead": "Batnfjord vann 5–2 mot Vågstranda i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410034": {
+      "title": "HaNo vann 2–1 mot Ørsta",
+      "lead": "HaNo vann 2–1 mot Ørsta i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701031": {
+      "title": "Tomrefjord vann 3–0 mot Averøykameratene/Kårvåg/Havørn",
+      "lead": "Tomrefjord vann 3–0 mot Averøykameratene/Kårvåg/Havørn i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602039": {
+      "title": "Blindheim 2 vann 2–0 mot Ørskog/Stordal 2",
+      "lead": "Blindheim 2 vann 2–0 mot Ørskog/Stordal 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602040": {
+      "title": "Godøy vann 1–0 mot Valldal",
+      "lead": "Godøy vann 1–0 mot Valldal i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603037": {
+      "title": "Norborg vann 2–0 mot Aksla 2",
+      "lead": "Norborg vann 2–0 mot Aksla 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603022": {
+      "title": "Tomrefjord vann 5–2 mot Ekko/Aureosen",
+      "lead": "Tomrefjord vann 5–2 mot Ekko/Aureosen i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700023": {
+      "title": "Fiksdal/Rekdal vann 5–1 mot Straumsnes",
+      "lead": "Fiksdal/Rekdal vann 5–1 mot Straumsnes i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603036": {
+      "title": "Ravn 2 vann 3–1 mot Skodje",
+      "lead": "Ravn 2 vann 3–1 mot Skodje i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601037": {
+      "title": "Stordal/Ørskog/Skodje vann 2–1 mot Aksla/Guard/Rollon 2 9er",
+      "lead": "Stordal/Ørskog/Skodje vann 2–1 mot Aksla/Guard/Rollon 2 9er i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410019": {
+      "title": "HaNo vann 5–1 mot Hasundgot",
+      "lead": "HaNo vann 5–1 mot Hasundgot i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201057": {
+      "title": "Sandviken vann 1–0 mot Brattvåg",
+      "lead": "Sandviken vann 1–0 mot Brattvåg i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501029": {
+      "title": "Vestnes Varfjell vann 3–1 mot Batnfjord",
+      "lead": "Vestnes Varfjell vann 3–1 mot Batnfjord i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501027": {
+      "title": "Måndalen vann 1–0 mot Hjelset-Kleive",
+      "lead": "Måndalen vann 1–0 mot Hjelset-Kleive i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401040": {
+      "title": "Mållaus kamp mellom Langevåg og Stordal",
+      "lead": "Langevåg og Stordal spelte 0–0 i 4. div. menn.",
+      "paragraphs": [],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401041": {
+      "title": "Brattvåg 2 vann 1–0 mot Ravn",
+      "lead": "Brattvåg 2 vann 1–0 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501041": {
+      "title": "HaNo vann 5–1 mot Sande",
+      "lead": "HaNo vann 5–1 mot Sande i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603019": {
+      "title": "Poengdeling mellom Tomrefjord og Rival",
+      "lead": "Tomrefjord og Rival spelte 2–2 i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701026": {
+      "title": "Tingvoll/Kvass/Ulvungen vann 4–1 mot Tomrefjord",
+      "lead": "Tingvoll/Kvass/Ulvungen vann 4–1 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603033": {
+      "title": "Norborg vann 3–1 mot Ravn 2",
+      "lead": "Norborg vann 3–1 mot Ravn 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410028": {
+      "title": "HaNo vann 2–0 mot Brattvåg/Norborg/Ravn",
+      "lead": "HaNo vann 2–0 mot Brattvåg/Norborg/Ravn i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700020": {
+      "title": "Straumsnes vann 5–4 mot Vågstranda",
+      "lead": "Straumsnes vann 5–4 mot Vågstranda i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602035": {
+      "title": "Ørskog/Stordal 2 vann 3–2 mot Valldal",
+      "lead": "Ørskog/Stordal 2 vann 3–2 mot Valldal i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601034": {
+      "title": "Valder/Øyne vann 3–1 mot Stordal/Ørskog/Skodje",
+      "lead": "Valder/Øyne vann 3–1 mot Stordal/Ørskog/Skodje i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603034": {
+      "title": "Skodje vann 5–4 mot Harøy/Lepsøy/HaNo 2",
+      "lead": "Skodje vann 5–4 mot Harøy/Lepsøy/HaNo 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501021": {
+      "title": "Dahle 2 vann 4–1 mot Måndalen",
+      "lead": "Dahle 2 vann 4–1 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201055": {
+      "title": "Brattvåg vann 2–0 mot Notodden",
+      "lead": "Brattvåg vann 2–0 mot Notodden i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401034": {
+      "title": "Stordal vann 3–0 mot Brattvåg 2",
+      "lead": "Stordal vann 3–0 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401033": {
+      "title": "Ravn vann 1–0 mot Valder",
+      "lead": "Ravn vann 1–0 mot Valder i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501025": {
+      "title": "Vestnes Varfjell vann 3–2 mot Nordlandet/Frei",
+      "lead": "Vestnes Varfjell vann 3–2 mot Nordlandet/Frei i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603015": {
+      "title": "Bjørset vann 4–2 mot Tomrefjord",
+      "lead": "Bjørset vann 4–2 mot Tomrefjord i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501033": {
+      "title": "HaNo vann stort mot Emblem",
+      "lead": "HaNo vann 7–0 mot Emblem i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410021": {
+      "title": "Brattvåg/Norborg/Ravn vann 2–1 mot Volda 2",
+      "lead": "Brattvåg/Norborg/Ravn vann 2–1 mot Volda 2 i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602029": {
+      "title": "Valldal vann 3–1 mot Emblem 2",
+      "lead": "Valldal vann 3–1 mot Emblem 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700016": {
+      "title": "Molde 4 vann stort mot Vågstranda",
+      "lead": "Molde 4 vann 14–0 mot Vågstranda i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701023": {
+      "title": "Eide og Omegn FK vann 6–2 mot Tomrefjord",
+      "lead": "Eide og Omegn FK vann 6–2 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603026": {
+      "title": "Norborg vann 3–0 mot Harøy/Lepsøy/HaNo 2",
+      "lead": "Norborg vann 3–0 mot Harøy/Lepsøy/HaNo 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410024": {
+      "title": "HaNo vann 3–2 mot SIF/Hessa",
+      "lead": "HaNo vann 3–2 mot SIF/Hessa i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601023": {
+      "title": "Stordal/Ørskog/Skodje vann 3–1 mot Stranda",
+      "lead": "Stordal/Ørskog/Skodje vann 3–1 mot Stranda i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700014": {
+      "title": "Eresfjord og Vistdal/Langfjorden vann 5–1 mot Fiksdal/Rekdal",
+      "lead": "Eresfjord og Vistdal/Langfjorden vann 5–1 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602030": {
+      "title": "Ørskog/Stordal 2 vann 4–3 mot Godøy",
+      "lead": "Ørskog/Stordal 2 vann 4–3 mot Godøy i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603027": {
+      "title": "Ravn 2 vann 3–1 mot Blindheim 3",
+      "lead": "Ravn 2 vann 3–1 mot Blindheim 3 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201046": {
+      "title": "Brattvåg vann 6–2 mot Bjarg",
+      "lead": "Brattvåg vann 6–2 mot Bjarg i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501018": {
+      "title": "Batnfjord vann 3–1 mot Måndalen",
+      "lead": "Batnfjord vann 3–1 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501066": {
+      "title": "Giske vann 3–1 mot HaNo",
+      "lead": "Giske vann 3–1 mot HaNo i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603022": {
+      "title": "Harøy/Lepsøy/HaNo 2 vann 1–0 mot Blindheim 3",
+      "lead": "Harøy/Lepsøy/HaNo 2 vann 1–0 mot Blindheim 3 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603004": {
+      "title": "Herd 2 vann stort mot Norborg",
+      "lead": "Herd 2 vann 7–2 mot Norborg i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700010": {
+      "title": "Batnfjord vann 5–1 mot Fiksdal/Rekdal",
+      "lead": "Batnfjord vann 5–1 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700012": {
+      "title": "Nordbyen vann 4–1 mot Vågstranda",
+      "lead": "Nordbyen vann 4–1 mot Vågstranda i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602053": {
+      "title": "Sula vann 1–0 mot Ørskog/Stordal 2",
+      "lead": "Sula vann 1–0 mot Ørskog/Stordal 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601028": {
+      "title": "Stordal/Ørskog/Skodje vann 5–3 mot Sykkylven 2 9er",
+      "lead": "Stordal/Ørskog/Skodje vann 5–3 mot Sykkylven 2 9er i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401029": {
+      "title": "Hødd 2 vann 4–0 mot Brattvåg 2",
+      "lead": "Hødd 2 vann 4–0 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201042": {
+      "title": "Brattvåg vann 2–0 mot Arendal",
+      "lead": "Brattvåg vann 2–0 mot Arendal i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501019": {
+      "title": "Vestnes Varfjell vann 3–2 mot Bud/Bryn",
+      "lead": "Vestnes Varfjell vann 3–2 mot Bud/Bryn i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701014": {
+      "title": "Bud/Bryn Kvinner vann stort mot Tomrefjord",
+      "lead": "Bud/Bryn Kvinner vann 9–3 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401025": {
+      "title": "Stordal vann stort mot Valder",
+      "lead": "Stordal vann 5–0 mot Valder i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401026": {
+      "title": "Mållaus kamp mellom Hareid og Ravn",
+      "lead": "Hareid og Ravn spelte 0–0 i 4. div. menn.",
+      "paragraphs": [],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120501026": {
+      "title": "HaNo vann 4–3 mot Hasundgot",
+      "lead": "HaNo vann 4–3 mot Hasundgot i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410017": {
+      "title": "Blindheim 2 vann 4–1 mot Brattvåg/Norborg/Ravn",
+      "lead": "Blindheim 2 vann 4–1 mot Brattvåg/Norborg/Ravn i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603021": {
+      "title": "Målfest og poengdeling mellom Guard og Ravn 2",
+      "lead": "Guard og Ravn 2 spelte 4–4 i 6. div. menn vår avd. 3. Heile åtte mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700008": {
+      "title": "Malmefjorden 2 vann stort mot Vågstranda",
+      "lead": "Malmefjorden 2 vann 8–1 mot Vågstranda i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602025": {
+      "title": "Poengdeling mellom Valldal og Vigra",
+      "lead": "Valldal og Vigra spelte 1–1 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603023": {
+      "title": "Norborg vann 4–0 mot Skodje",
+      "lead": "Norborg vann 4–0 mot Skodje i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700005": {
+      "title": "Molde 4 vann stort mot Fiksdal/Rekdal",
+      "lead": "Molde 4 vann 5–0 mot Fiksdal/Rekdal i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401023": {
+      "title": "Brattvåg 2 vann 2–1 mot Langevåg",
+      "lead": "Brattvåg 2 vann 2–1 mot Langevåg i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603018": {
+      "title": "Herd 2 vann 2–1 mot Ravn 2",
+      "lead": "Herd 2 vann 2–1 mot Ravn 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201034": {
+      "title": "Brattvåg vann 2–0 mot Kvik Halden",
+      "lead": "Brattvåg vann 2–0 mot Kvik Halden i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401021": {
+      "title": "Stordal vann 3–1 mot Hareid",
+      "lead": "Stordal vann 3–1 mot Hareid i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501011": {
+      "title": "Vestnes Varfjell vann 2–1 mot Måndalen",
+      "lead": "Vestnes Varfjell vann 2–1 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401020": {
+      "title": "Ravn vann 1–0 mot Ørsta",
+      "lead": "Ravn vann 1–0 mot Ørsta i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501020": {
+      "title": "Aksla vann 4–2 mot HaNo",
+      "lead": "Aksla vann 4–2 mot HaNo i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410013": {
+      "title": "Brattvåg/Norborg/Ravn vann 3–0 mot Sykkylven",
+      "lead": "Brattvåg/Norborg/Ravn vann 3–0 mot Sykkylven i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603007": {
+      "title": "Skåla/Langfjorden 1 vann 3–0 mot Tomrefjord",
+      "lead": "Skåla/Langfjorden 1 vann 3–0 mot Tomrefjord i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701006": {
+      "title": "Sunndal vann stort mot Tomrefjord",
+      "lead": "Sunndal vann 10–0 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602020": {
+      "title": "Emblem 2 vann 2–1 mot Ørskog/Stordal 2",
+      "lead": "Emblem 2 vann 2–1 mot Ørskog/Stordal 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603016": {
+      "title": "Poengdeling mellom Skodje og Blindheim 3",
+      "lead": "Skodje og Blindheim 3 spelte 2–2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410015": {
+      "title": "HaNo vann 4–0 mot Hovdebygda",
+      "lead": "HaNo vann 4–0 mot Hovdebygda i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602018": {
+      "title": "Stranda 2 vann 2–1 mot Valldal",
+      "lead": "Stranda 2 vann 2–1 mot Valldal i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700004": {
+      "title": "Eresfjord og Vistdal/Langfjorden vann stort mot Vågstranda",
+      "lead": "Eresfjord og Vistdal/Langfjorden vann 8–0 mot Vågstranda i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120700003": {
+      "title": "Fiksdal/Rekdal vann 4–3 mot Malmefjorden 2",
+      "lead": "Fiksdal/Rekdal vann 4–3 mot Malmefjorden 2 i Menn 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601018": {
+      "title": "Stordal/Ørskog/Skodje vann 4–2 mot Ørsta 2 9er",
+      "lead": "Stordal/Ørskog/Skodje vann 4–2 mot Ørsta 2 9er i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603017": {
+      "title": "Harøy/Lepsøy/HaNo 2 vann 5–1 mot Guard",
+      "lead": "Harøy/Lepsøy/HaNo 2 vann 5–1 mot Guard i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401018": {
+      "title": "Målfest og poengdeling mellom Spjelkavik 2 og Brattvåg 2",
+      "lead": "Spjelkavik 2 og Brattvåg 2 spelte 3–3 i 4. div. menn. Heile seks mål vart registrerte.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201028": {
+      "title": "Brattvåg vann 3–0 mot Vidar",
+      "lead": "Brattvåg vann 3–0 mot Vidar i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401015": {
+      "title": "Ørsta vann 3–2 mot Stordal",
+      "lead": "Ørsta vann 3–2 mot Stordal i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501016": {
+      "title": "HaNo vann 4–0 mot NTNUIÅ",
+      "lead": "HaNo vann 4–0 mot NTNUIÅ i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120603001": {
+      "title": "Molde 4 vann stort mot Tomrefjord",
+      "lead": "Molde 4 vann 12–3 mot Tomrefjord i 6. div. menn avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501009": {
+      "title": "Bud/Bryn vann 1–0 mot Måndalen",
+      "lead": "Bud/Bryn vann 1–0 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701003": {
+      "title": "Malmefjorden vann 3–0 mot Tomrefjord",
+      "lead": "Malmefjorden vann 3–0 mot Tomrefjord i Kvinner 7-er.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410006": {
+      "title": "Aksla/Guard vann 2–0 mot Brattvåg/Norborg/Ravn",
+      "lead": "Aksla/Guard vann 2–0 mot Brattvåg/Norborg/Ravn i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603011": {
+      "title": "Skodje vann stort mot Guard",
+      "lead": "Skodje vann 8–1 mot Guard i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602015": {
+      "title": "Valldal vann 4–2 mot Langevåg 2",
+      "lead": "Valldal vann 4–2 mot Langevåg 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602013": {
+      "title": "Vigra vann 3–1 mot Ørskog/Stordal 2",
+      "lead": "Vigra vann 3–1 mot Ørskog/Stordal 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603012": {
+      "title": "Blindheim 3 vann stort mot Norborg",
+      "lead": "Blindheim 3 vann 6–1 mot Norborg i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603013": {
+      "title": "Rollon 2 vann 2–1 mot Ravn 2",
+      "lead": "Rollon 2 vann 2–1 mot Ravn 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401016": {
+      "title": "Hovdebygda vann 2–0 mot Ravn",
+      "lead": "Hovdebygda vann 2–0 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410009": {
+      "title": "HaNo vann 2–1 mot Volda 2",
+      "lead": "HaNo vann 2–1 mot Volda 2 i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601011": {
+      "title": "Stordal/Ørskog/Skodje vann 3–0 mot Spjelkavik",
+      "lead": "Stordal/Ørskog/Skodje vann 3–0 mot Spjelkavik i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603014": {
+      "title": "Herd 2 vann stort mot Harøy/Lepsøy/HaNo 2",
+      "lead": "Herd 2 vann 10–1 mot Harøy/Lepsøy/HaNo 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501002": {
+      "title": "Vestnes Varfjell vann stort mot Kårvåg/Havørn/Averøykameratene",
+      "lead": "Vestnes Varfjell vann 6–0 mot Kårvåg/Havørn/Averøykameratene i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15120501005": {
+      "title": "Nordlandet/Frei vann 5–2 mot Måndalen",
+      "lead": "Nordlandet/Frei vann 5–2 mot Måndalen i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201017": {
+      "title": "Brattvåg vann 2–0 mot FK Eik Tønsberg 871",
+      "lead": "Brattvåg vann 2–0 mot FK Eik Tønsberg 871 i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401010": {
+      "title": "Stordal vann 2–0 mot Hovdebygda",
+      "lead": "Stordal vann 2–0 mot Hovdebygda i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401007": {
+      "title": "Poengdeling mellom Brattvåg 2 og Valder",
+      "lead": "Brattvåg 2 og Valder spelte 1–1 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401011": {
+      "title": "Bergsøy vann 2–1 mot Ravn",
+      "lead": "Bergsøy vann 2–1 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501011": {
+      "title": "Volda 2 vann 4–2 mot HaNo",
+      "lead": "Volda 2 vann 4–2 mot HaNo i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410001": {
+      "title": "Blindheim 2 vann 3–0 mot HaNo",
+      "lead": "Blindheim 2 vann 3–0 mot HaNo i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220410004": {
+      "title": "Brattvåg/Norborg/Ravn vann 4–1 mot Ørsta",
+      "lead": "Brattvåg/Norborg/Ravn vann 4–1 mot Ørsta i 4. div. kvinner.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602009": {
+      "title": "Ørskog/Stordal 2 vann 3–1 mot Stranda 2",
+      "lead": "Ørskog/Stordal 2 vann 3–1 mot Stranda 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602007": {
+      "title": "Sula vann 6–2 mot Valldal",
+      "lead": "Sula vann 6–2 mot Valldal i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603006": {
+      "title": "Norborg vann 3–0 mot Guard",
+      "lead": "Norborg vann 3–0 mot Guard i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603008": {
+      "title": "Rollon 2 vann 1–0 mot Harøy/Lepsøy/HaNo 2",
+      "lead": "Rollon 2 vann 1–0 mot Harøy/Lepsøy/HaNo 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603009": {
+      "title": "Ravn 2 vann 4–0 mot Aksla 2",
+      "lead": "Ravn 2 vann 4–0 mot Aksla 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23220601002": {
+      "title": "Sula/Langevåg vann 3–2 mot Stordal/Ørskog/Skodje",
+      "lead": "Sula/Langevåg vann 3–2 mot Stordal/Ørskog/Skodje i 5. div. kvinner vår.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603007": {
+      "title": "Herd 2 vann 5–1 mot Skodje",
+      "lead": "Herd 2 vann 5–1 mot Skodje i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201014": {
+      "title": "Brattvåg vann 2–1 mot Pors",
+      "lead": "Brattvåg vann 2–1 mot Pors i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401004": {
+      "title": "Stordal vann 1–0 mot Bergsøy",
+      "lead": "Stordal vann 1–0 mot Bergsøy i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401005": {
+      "title": "Rollon vann 2–1 mot Ravn",
+      "lead": "Rollon vann 2–1 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120401001": {
+      "title": "Hareid vann 4–0 mot Brattvåg 2",
+      "lead": "Hareid vann 4–0 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120501005": {
+      "title": "Blindheim vann 5–2 mot HaNo",
+      "lead": "Blindheim vann 5–2 mot HaNo i 5. div. menn.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602003": {
+      "title": "Poengdeling mellom Ørskog/Stordal 2 og Langevåg 2",
+      "lead": "Ørskog/Stordal 2 og Langevåg 2 spelte 2–2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120602005": {
+      "title": "Valldal vann 6–3 mot Sykkylven 2",
+      "lead": "Valldal vann 6–3 mot Sykkylven 2 i 6. div. menn vår avd. 2.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603002": {
+      "title": "Aksla 2 vann 2–1 mot Harøy/Lepsøy/HaNo 2",
+      "lead": "Aksla 2 vann 2–1 mot Harøy/Lepsøy/HaNo 2 i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23120603003": {
+      "title": "Rollon 2 vann 5–4 mot Skodje",
+      "lead": "Rollon 2 vann 5–4 mot Skodje i 6. div. menn vår avd. 3.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "99120201007": {
+      "title": "Træff vann 2–0 mot Brattvåg",
+      "lead": "Træff vann 2–0 mot Brattvåg i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Det er førebels ikkje registrert ei detaljert målrekkje frå kampen hos NFF."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     }
   }

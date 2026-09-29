@@ -15,6 +15,10 @@ assert(hero.indexOf('featured-editorial')<hero.indexOf('featured-teams'),'Featur
 assert(dialog.indexOf('dialog-editorial-headline')<dialog.indexOf('dialog-scoreboard'),'Dialog headline must appear above scoreboard');
 assert(code.includes('data-panel="report">${reportStory(m)}${photoGallery(m)}'),'Story must appear before photos in report');
 const html=fs.readFileSync('index.html','utf8');
+assert(html.includes('data-mode="youth"')&&html.includes('data-mode="senior"'),'Both football sections must be selectable');
+assert(code.includes('const sectionMatches=()=>matches.filter(inMode)'),'Results must be scoped to the selected section');
+assert(code.includes('upcoming.filter(inMode)'),'Upcoming fixtures must be scoped to the selected section');
+assert(code.includes("$('#seasonFilter').onchange=renderSection"),'Senior season selection must update the section');
 assert(hero.includes('featured-card featured-clickable" role="button" tabindex="0"'),'Featured match must be a keyboard-accessible clickable card');
 assert(hero.includes("featured.onclick=()=>openMatch(m.id)"),'Click anywhere on featured match must open it');
 assert(hero.includes("featured.onkeydown=e=>"),'Featured match must support keyboard activation');

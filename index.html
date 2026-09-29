@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#F7F3E9" />
-  <meta name="description" content="Bygdebladet Lokalfotball samlar resultat og kampfakta frå aldersbestemt lokal fotball frå G13/J13 og oppover." />
+  <meta name="description" content="Bygdebladet Lokalfotball samlar resultat og kampfakta frå aldersbestemt fotball og seniorfotball i distriktet." />
   <title>Bygdebladet Lokalfotball</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,8 +41,12 @@
   <main id="top">
     <section class="hero shell">
       <div class="hero-copy">
+        <nav class="football-modes" aria-label="Vel fotballnivå">
+          <button type="button" class="mode-button active" data-mode="youth" aria-pressed="true">ALDERSBESTEMT</button>
+          <button type="button" class="mode-button" data-mode="senior" aria-pressed="false">SENIORFOTBALL</button>
+        </nav>
         <h1>Lokalfotballen i Bygdebladet-distriktet</h1>
-        <p class="lede">Resultat og faktabaserte kampreferat frå aldersbestemt fotball, G13/J13 og oppover – samla for laga i Bygdebladet-distriktet.</p>
+        <p class="lede" id="sectionIntro">Resultat og faktabaserte kampreferat frå aldersbestemt fotball, G13/J13 og oppover – samla for laga i Bygdebladet-distriktet.</p>
       </div>
       <div class="hero-score" id="heroScore" aria-live="polite"></div>
     </section>
@@ -75,7 +79,9 @@
         </div>
         <div class="filter-selects">
           <select id="ageFilter" aria-label="Aldersklasse"><option value="all">Alle klassar</option></select>
+          <select id="competitionFilter" aria-label="Divisjon" hidden><option value="all">Alle divisjonar</option></select>
           <select id="clubFilter" aria-label="Klubb"><option value="all">Alle klubbar</option></select>
+          <select id="seasonFilter" aria-label="Sesong" hidden><option value="2026">2026</option></select>
         </div>
       </div>
 

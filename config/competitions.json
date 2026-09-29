@@ -10,6 +10,8 @@
     ],
     "nextMorningHour": 7,
     "firstCheckMinutes": {
+      "MENN": 125,
+      "KVINNER": 125,
       "G13": 95,
       "J14": 105,
       "J15": 105,
@@ -54,11 +56,130 @@
       "discoveryMatchFiksId": null
     },
     {
-      "key": "j13-7er-host",
-      "name": "J13 7er høst",
-      "age": "J13",
-      "tournamentId": "209867",
-      "discoveryMatchFiksId": "9201141"
+      "key": "senior-2026-2-div-menn-avd-1",
+      "name": "2. divisjon menn avd. 1",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Nasjonalt",
+      "tournamentId": "206007",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-4-div-menn-sunnmore",
+      "name": "4. div. menn",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "205682",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-4-div-kvinner-sunnmore",
+      "name": "4. div. kvinner",
+      "age": "KVINNER",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "205920",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-5-div-kvinner-var",
+      "name": "5. div. kvinner vår",
+      "age": "KVINNER",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "207721",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-5-div-kvinner-host-a",
+      "name": "5. div. kvinner høst A",
+      "age": "KVINNER",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "211227",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-5-div-menn-sunnmore",
+      "name": "5. div. menn",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "205921",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-6-div-menn-var-2",
+      "name": "6. div. menn vår avd. 2",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "207728",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-6-div-menn-var-3",
+      "name": "6. div. menn vår avd. 3",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "207729",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-6-div-menn-host",
+      "name": "6. div. menn høst",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "209877",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-7-div-menn-host-1",
+      "name": "7. div. menn høst avd. 1",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Sunnmøre",
+      "tournamentId": "210497",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-5-div-menn-romsdal",
+      "name": "5. div. menn",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Nordmøre og Romsdal",
+      "tournamentId": "205959",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-6-div-menn-romsdal-3",
+      "name": "6. div. menn avd. 3",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Nordmøre og Romsdal",
+      "tournamentId": "207814",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-menn-7er-romsdal",
+      "name": "Menn 7-er",
+      "age": "MENN",
+      "season": 2026,
+      "district": "Nordmøre og Romsdal",
+      "tournamentId": "207913",
+      "discoveryMatchFiksId": null
+    },
+    {
+      "key": "senior-2026-kvinner-7er-romsdal",
+      "name": "Kvinner 7-er",
+      "age": "KVINNER",
+      "season": 2026,
+      "district": "Nordmøre og Romsdal",
+      "tournamentId": "208149",
+      "discoveryMatchFiksId": null
     }
   ]
 }
