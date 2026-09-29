@@ -44,7 +44,7 @@ const classes=new Set(),bodyStyle={position:'',top:'',left:'',right:'',width:'',
 let restoredScroll=null;
 const context=vm.createContext({
  document:{body:{style:bodyStyle},documentElement:{style:rootStyle,classList:{add:x=>classes.add(x),remove:x=>classes.delete(x)}}},
- window:{scrollY:420,scrollTo:(x,y)=>{restoredScroll=[x,y]},addEventListener:()=>{},parent:{}}
+ window:{scrollY:420,scrollTo:(x,y)=>{restoredScroll=[x,y]},addEventListener:()=>{},parent:{postMessage:()=>{}}}
 });
 vm.runInContext(modalSource+'\nlockMatchBackground();',context);
 assert(classes.has('match-modal-open'),'Modal opening must lock the document');
