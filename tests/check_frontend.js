@@ -29,5 +29,28 @@ assert(code.includes("main='Sjølvmål'"),'Anonymous own goals must not appear a
 assert(code.includes("es.map(e=>event(e,m))"),'Timeline must pass match teams to own-goal display');
 assert(code.includes("const flagged=m.goalTimelineVerified===false"),'Unverified goal timeline must be suppressed');
 assert(code.includes("filter(e=>!flagged||e.type!=='goal')"),'Cards may remain, unverified goals must be hidden');
+// Match details must scroll independently without moving the background results page.
+const css=fs.readFileSync('styles.css','utf8');
+assert(css.includes('html.match-modal-open{overflow:hidden}'),'Open modal must prevent document scrolling');
+assert(css.includes('overscroll-behavior:contain'),'Modal scrolling must not chain to the page');
+assert(code.includes("dialog.scrollTop=0"),'Each match must open at the start');
+assert(code.includes("addEventListener('close',unlockMatchBackground)"),'All close paths must restore page scrolling');
+const modalSource=code.slice(code.indexOf('let matchBackgroundScroll='),code.indexOf('function openMatch(id){'));
+assert(modalSource.startsWith('let matchBackgroundScroll='),'Match modal scroll functions missing');
+const classes=new Set(),bodyStyle={position:'',top:'',left:'',right:'',width:'',overflow:''},rootStyle={scrollBehavior:''};
+let restoredScroll=null;
+const context=vm.createContext({
+ document:{body:{style:bodyStyle},documentElement:{style:rootStyle,classList:{add:x=>classes.add(x),remove:x=>classes.delete(x)}}},
+ window:{scrollY:420,scrollTo:(x,y)=>{restoredScroll=[x,y]}}
+});
+vm.runInContext(modalSource+'\\nlockMatchBackground();',context);
+assert(classes.has('match-modal-open'),'Modal opening must lock the document');
+assert.equal(bodyStyle.position,'fixed','Mobile background must be fixed');
+assert.equal(bodyStyle.top,'-420px','Background scroll position must be retained');
+vm.runInContext('unlockMatchBackground();',context);
+assert(!classes.has('match-modal-open'),'Modal closing must unlock the document');
+assert.equal(bodyStyle.position,'','Original body styles must be restored');
+assert.equal(bodyStyle.top,'','Original body scroll offset must be removed');
+assert.deepEqual(restoredScroll,[0,420],'Closing must restore the exact page position');
 new vm.Script(code,{filename:'app.js'});
 console.log('Frontend syntax and wiring smoke checks passed.');
