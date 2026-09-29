@@ -146,6 +146,11 @@ select{min-width:160px;letter-spacing:0;cursor:pointer}
 .source-panel h2{font-size:2.15rem}
 .source-panel p:last-child{max-width:800px;margin:10px 0 0;color:var(--muted);line-height:1.65;font-size:.9rem}
 
+/* Embedded match reader: activated only after the newspaper acknowledges the iframe message. */
+html.match-embedded-fullscreen{background:#151515}
+html.match-embedded-fullscreen body{background:transparent}
+html.match-embedded-fullscreen body > :not(#matchDialog){visibility:hidden}
+
 /* Kampdialog */
 html.match-modal-open{overflow:hidden}
 .match-dialog{width:min(900px,calc(100% - 24px));max-height:calc(100vh - 26px);padding:0;border:1px solid #cfc7b8;border-radius:26px;background:var(--paper);color:var(--ink);box-shadow:0 30px 100px rgba(0,0,0,.3);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
