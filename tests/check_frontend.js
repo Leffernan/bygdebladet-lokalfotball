@@ -31,9 +31,12 @@ assert(code.includes("const flagged=m.goalTimelineVerified===false"),'Unverified
 assert(code.includes("filter(e=>!flagged||e.type!=='goal')"),'Cards may remain, unverified goals must be hidden');
 // Match details must scroll independently without moving the background results page.
 const css=fs.readFileSync('styles.css','utf8');
+assert(css.includes('.match-dialog[open]{display:flex;flex-direction:column}'),'Modal needs a bounded flex layout');
+assert(css.includes('#dialogContent{flex:1;min-width:0;min-height:0;overflow-y:auto;'),'The inner match content must be the scroll region');
+assert(css.includes('.match-dialog{position:fixed;'),'Modal must stay fixed while its inner content scrolls');
 assert(css.includes('html.match-modal-open{overflow:hidden}'),'Open modal must prevent document scrolling');
 assert(css.includes('overscroll-behavior:contain'),'Modal scrolling must not chain to the page');
-assert(code.includes("dialog.scrollTop=0"),'Each match must open at the start');
+assert(code.includes("$('#dialogContent').scrollTop=0"),'Match scroll region must open at the start');
 assert(code.includes("addEventListener('close',unlockMatchBackground)"),'All close paths must restore page scrolling');
 const modalSource=code.slice(code.indexOf('let matchBackgroundScroll='),code.indexOf('function openMatch(id){'));
 assert(modalSource.startsWith('let matchBackgroundScroll='),'Match modal scroll functions missing');
@@ -41,7 +44,7 @@ const classes=new Set(),bodyStyle={position:'',top:'',left:'',right:'',width:'',
 let restoredScroll=null;
 const context=vm.createContext({
  document:{body:{style:bodyStyle},documentElement:{style:rootStyle,classList:{add:x=>classes.add(x),remove:x=>classes.delete(x)}}},
- window:{scrollY:420,scrollTo:(x,y)=>{restoredScroll=[x,y]}}
+ window:{scrollY:420,scrollTo:(x,y)=>{restoredScroll=[x,y]},addEventListener:()=>{},parent:{}}
 });
 vm.runInContext(modalSource+'\nlockMatchBackground();',context);
 assert(classes.has('match-modal-open'),'Modal opening must lock the document');
@@ -52,5 +55,26 @@ assert(!classes.has('match-modal-open'),'Modal closing must unlock the document'
 assert.equal(bodyStyle.position,'','Original body styles must be restored');
 assert.equal(bodyStyle.top,'','Original body scroll offset must be removed');
 assert.deepEqual(restoredScroll,[0,420],'Closing must restore the exact page position');
+// Embedded mouse-wheel events must move the inner match, not the iframe page.
+assert(code.includes("addEventListener('wheel',routeEmbeddedMatchWheel,{passive:false})"),'Embedded wheel listener must be non-passive');
+const wheelSource=code.slice(code.indexOf('function routeEmbeddedMatchWheel(e){'),code.indexOf('function openMatch(id){'));
+const inner={scrollTop:0,clientHeight:500},modal={open:true};
+let embedded=true,prevented=false;
+const wheelContext=vm.createContext({
+ $:selector=>selector==='#matchDialog'?modal:inner,
+ document:{documentElement:{classList:{contains:()=>embedded}}},
+ event:{ctrlKey:false,shiftKey:false,deltaX:0,deltaY:120,deltaMode:0,
+  target:{closest:()=>null},preventDefault:()=>{prevented=true}}
+});
+vm.runInContext(wheelSource+'\\nrouteEmbeddedMatchWheel(event);',wheelContext);
+assert(prevented,'Embedded wheel must be consumed inside the match overlay');
+assert.equal(inner.scrollTop,120,'Embedded wheel must move match content');
+embedded=false;prevented=false;
+vm.runInContext('routeEmbeddedMatchWheel(event);',wheelContext);
+assert(!prevented,'Normal standalone page must retain native wheel behavior');
+assert.equal(inner.scrollTop,120,'Standalone page must not be manually scrolled');
+embedded=true;wheelContext.event.shiftKey=true;wheelContext.event.target.closest=()=>({});
+vm.runInContext('routeEmbeddedMatchWheel(event);',wheelContext);
+assert.equal(inner.scrollTop,120,'Horizontal table scrolling must remain native');
 new vm.Script(code,{filename:'app.js'});
 console.log('Frontend syntax and wiring smoke checks passed.');
