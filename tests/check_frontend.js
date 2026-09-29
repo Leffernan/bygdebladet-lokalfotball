@@ -43,7 +43,7 @@ const context=vm.createContext({
  document:{body:{style:bodyStyle},documentElement:{style:rootStyle,classList:{add:x=>classes.add(x),remove:x=>classes.delete(x)}}},
  window:{scrollY:420,scrollTo:(x,y)=>{restoredScroll=[x,y]}}
 });
-vm.runInContext(modalSource+'\\nlockMatchBackground();',context);
+vm.runInContext(modalSource+'\nlockMatchBackground();',context);
 assert(classes.has('match-modal-open'),'Modal opening must lock the document');
 assert.equal(bodyStyle.position,'fixed','Mobile background must be fixed');
 assert.equal(bodyStyle.top,'-420px','Background scroll position must be retained');
