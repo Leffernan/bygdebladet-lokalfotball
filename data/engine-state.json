@@ -13300,7 +13300,180 @@
       "awayScore": 12,
       "status": "completed",
       "resultAt": "2026-09-29T14:36:50+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 4
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 14
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 43
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 50
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 56
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Anea Marie Steffensen-Teige",
+            "label": "Spillemål",
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Astrid Chen Røsvik",
+            "label": "Spillemål",
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 69
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 70
+          }
+        ],
+        "officials": {
+          "referee": "William Munton-Bjørge"
+        },
+        "referee": "William Munton-Bjørge",
+        "halfTime": "0–3",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 56,
+                "name": "Astrid Chen Røsvik"
+              },
+              {
+                "number": 58,
+                "name": "Nora Kristin Devold Fiske"
+              },
+              {
+                "number": 63,
+                "name": "Karen Villa Bjermeland"
+              },
+              {
+                "number": 77,
+                "name": "Molly Kleven Fox"
+              },
+              {
+                "number": 59,
+                "name": "Aurora Nistad"
+              },
+              {
+                "number": 79,
+                "name": "Anea Marie Steffensen-Teige"
+              },
+              {
+                "number": 53,
+                "name": "Oda Kjerstad Sørhus"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 42,
+                "name": "Ramida Olsen"
+              },
+              {
+                "number": 33,
+                "name": "Live Emilie Opsal Nygård"
+              }
+            ],
+            "bench": [
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-29T14:39:41+02:00"
     },
     "23213702001": {
       "fiksId": "9201140",
@@ -13313,7 +13486,201 @@
       "awayScore": 15,
       "status": "completed",
       "resultAt": "2026-09-29T14:36:50+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ane Brenne Ringdal",
+            "label": "Spillemål",
+            "minute": 2
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Madeleine Bjørlykhaug Stadheim",
+            "label": "Spillemål",
+            "minute": 3
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Madeleine Bjørlykhaug Stadheim",
+            "label": "Spillemål",
+            "minute": 11
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Erle Kvamme Rusten",
+            "label": "Spillemål",
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 17
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Anea Olsen Søderstjerna",
+            "label": "Spillemål",
+            "minute": 26
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ane Brenne Ringdal",
+            "label": "Spillemål",
+            "minute": 34
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 38
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Erle Kvamme Rusten",
+            "label": "Spillemål",
+            "minute": 41
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Madeleine Bjørlykhaug Stadheim",
+            "label": "Spillemål",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Erle Kvamme Rusten",
+            "label": "Spillemål",
+            "minute": 44
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Madeleine Bjørlykhaug Stadheim",
+            "label": "Spillemål",
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Ane Brenne Ringdal",
+            "label": "Spillemål",
+            "minute": 57
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Erle Kvamme Rusten",
+            "label": "Spillemål",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 67
+          }
+        ],
+        "halfTime": "2–7",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 10,
+                "name": "Ingrid Meisal"
+              },
+              {
+                "number": 18,
+                "name": "Carmen Marie Cadavid Øvrebust"
+              },
+              {
+                "number": 6,
+                "name": "Anea Olsen Søderstjerna"
+              },
+              {
+                "number": 30,
+                "name": "Mathea Vad Kirkebøe"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 1,
+                "name": "Johanna Olave Hagen Røyrhus"
+              },
+              {
+                "number": 2,
+                "name": "Sofiia Fesenko"
+              },
+              {
+                "number": 13,
+                "name": "Erle Kvamme Rusten"
+              },
+              {
+                "number": 18,
+                "name": "Sofia Kristina Pacificar"
+              },
+              {
+                "number": 6,
+                "name": "Madeleine Bjørlykhaug Stadheim"
+              },
+              {
+                "number": 31,
+                "name": "Ane Brenne Ringdal"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-29T14:39:37+02:00"
     },
     "23213702003": {
       "fiksId": "9201142",
@@ -13326,7 +13693,155 @@
       "awayScore": 3,
       "status": "completed",
       "resultAt": "2026-09-29T14:36:50+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 4
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Anea Olsen Søderstjerna",
+            "label": "Spillemål",
+            "minute": 12
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 24
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Anea Olsen Søderstjerna",
+            "label": "Spillemål",
+            "minute": 41
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Jenna Lid",
+            "label": "Spillemål",
+            "minute": 53
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Anea Olsen Søderstjerna",
+            "label": "Spillemål",
+            "minute": 61
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 63
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Jenna Lid",
+            "label": "Spillemål",
+            "minute": 66
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Live Emilie Opsal Nygård",
+            "label": "Spillemål",
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Live Emilie Opsal Nygård",
+            "label": "Spillemål",
+            "minute": 70
+          }
+        ],
+        "officials": {
+          "referee": "Filip Hyrycz"
+        },
+        "referee": "Filip Hyrycz",
+        "halfTime": "2–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 42,
+                "name": "Ramida Olsen"
+              },
+              {
+                "number": 33,
+                "name": "Live Emilie Opsal Nygård"
+              }
+            ],
+            "bench": [
+              {
+                "number": 43,
+                "name": "Jenna Lid"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 10,
+                "name": "Ingrid Meisal"
+              },
+              {
+                "number": 18,
+                "name": "Carmen Marie Cadavid Øvrebust"
+              },
+              {
+                "number": 6,
+                "name": "Anea Olsen Søderstjerna"
+              },
+              {
+                "number": 19,
+                "name": "Sandra Sonja Sala"
+              },
+              {
+                "number": 30,
+                "name": "Mathea Vad Kirkebøe"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-29T14:39:39+02:00"
     },
     "23213702004": {
       "fiksId": "9201143",
@@ -13359,7 +13874,189 @@
       "awayScore": 11,
       "status": "completed",
       "resultAt": "2026-09-29T14:36:50+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathalie Colclough-Flø",
+            "label": "Spillemål",
+            "minute": 3
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Mathea Vad Kirkebøe",
+            "label": "Spillemål",
+            "minute": 8
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathalie Colclough-Flø",
+            "label": "Spillemål",
+            "minute": 24
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Anea Olsen Søderstjerna",
+            "label": "Spillemål",
+            "minute": 30
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Jenny Bergmann Riise",
+            "label": "Spillemål",
+            "minute": 31
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Anea Olsen Søderstjerna",
+            "label": "Spillemål",
+            "minute": 32
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathalie Colclough-Flø",
+            "label": "Spillemål",
+            "minute": 32
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Anea Olsen Søderstjerna",
+            "label": "Spillemål",
+            "minute": 36
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathalie Colclough-Flø",
+            "label": "Spillemål",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathalie Colclough-Flø",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathalie Colclough-Flø",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathalie Colclough-Flø",
+            "label": "Spillemål",
+            "minute": 65
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 68
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 70
+          }
+        ],
+        "officials": {
+          "referee": "Jørgen Gjerde Ramsvik"
+        },
+        "referee": "Jørgen Gjerde Ramsvik",
+        "halfTime": "3–5",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 10,
+                "name": "Ingrid Meisal"
+              },
+              {
+                "number": 18,
+                "name": "Carmen Marie Cadavid Øvrebust"
+              },
+              {
+                "number": 6,
+                "name": "Anea Olsen Søderstjerna"
+              },
+              {
+                "number": 19,
+                "name": "Sandra Sonja Sala"
+              },
+              {
+                "number": 30,
+                "name": "Mathea Vad Kirkebøe"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 4,
+                "name": "Eira Gjerløw Borgos"
+              },
+              {
+                "number": 15,
+                "name": "Sina Holen Myklebust"
+              },
+              {
+                "number": 23,
+                "name": "Inga Dale Frøland"
+              },
+              {
+                "number": 6,
+                "name": "Nathalie Colclough-Flø"
+              },
+              {
+                "number": 7,
+                "name": "Elise Holen Myklebust"
+              },
+              {
+                "number": 14,
+                "name": "Martha Aklestad Simonsen"
+              },
+              {
+                "number": 17,
+                "name": "Jenny Bergmann Riise"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-29T14:39:35+02:00"
     },
     "23213702008": {
       "fiksId": "9201147",
@@ -13372,7 +14069,171 @@
       "awayScore": 6,
       "status": "completed",
       "resultAt": "2026-09-29T14:36:50+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Madeleine Bjørlykhaug Stadheim",
+            "label": "Spillemål",
+            "minute": 7
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 10
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 16
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Madeleine Bjørlykhaug Stadheim",
+            "label": "Spillemål",
+            "minute": 20
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Madeleine Bjørlykhaug Stadheim",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sofiia Fesenko",
+            "label": "Spillemål",
+            "minute": 30
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 40
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 42
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sofiia Fesenko",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 48
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Madeleine Bjørlykhaug Stadheim",
+            "label": "Spillemål",
+            "minute": 55
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 61
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 68
+          }
+        ],
+        "officials": {
+          "referee": "Oddbjørn Aam"
+        },
+        "referee": "Oddbjørn Aam",
+        "halfTime": "5–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 10,
+                "name": "Johanna Olave Hagen Røyrhus"
+              },
+              {
+                "number": 2,
+                "name": "Sofiia Fesenko"
+              },
+              {
+                "number": 13,
+                "name": "Erle Kvamme Rusten"
+              },
+              {
+                "number": 18,
+                "name": "Sofia Kristina Pacificar"
+              },
+              {
+                "number": 6,
+                "name": "Madeleine Bjørlykhaug Stadheim"
+              },
+              {
+                "number": 31,
+                "name": "Ane Brenne Ringdal"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 42,
+                "name": "Ramida Olsen"
+              },
+              {
+                "number": 33,
+                "name": "Live Emilie Opsal Nygård"
+              }
+            ],
+            "bench": [
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              },
+              {
+                "number": 43,
+                "name": "Jenna Lid"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-29T14:39:32+02:00"
     },
     "23213702007": {
       "fiksId": "9201146",
@@ -13397,7 +14258,171 @@
       "awayScore": 4,
       "status": "completed",
       "resultAt": "2026-09-29T14:36:50+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 7
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ramida Olsen",
+            "label": "Spillemål",
+            "minute": 19
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Inga Dale Frøland",
+            "label": "Spillemål",
+            "minute": 30
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 36
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 43
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 45
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Haley Nybø Skjegstad",
+            "label": "Spillemål",
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Nathalie Colclough-Flø",
+            "label": "Spillemål",
+            "minute": 60
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Jenna Lid",
+            "label": "Spillemål",
+            "minute": 62
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Jenny Bergmann Riise",
+            "label": "Spillemål",
+            "minute": 68
+          }
+        ],
+        "officials": {
+          "referee": "Eriam Abelseth Søvik"
+        },
+        "referee": "Eriam Abelseth Søvik",
+        "halfTime": "3–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 42,
+                "name": "Ramida Olsen"
+              },
+              {
+                "number": 33,
+                "name": "Live Emilie Opsal Nygård"
+              }
+            ],
+            "bench": [
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              },
+              {
+                "number": 43,
+                "name": "Jenna Lid"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 4,
+                "name": "Eira Gjerløw Borgos"
+              },
+              {
+                "number": 15,
+                "name": "Sina Holen Myklebust"
+              },
+              {
+                "number": 23,
+                "name": "Inga Dale Frøland"
+              },
+              {
+                "number": 6,
+                "name": "Nathalie Colclough-Flø"
+              },
+              {
+                "number": 7,
+                "name": "Elise Holen Myklebust"
+              },
+              {
+                "number": 17,
+                "name": "Jenny Bergmann Riise"
+              },
+              {
+                "number": 25,
+                "name": "Michell Risper Flatnes"
+              }
+            ],
+            "bench": [
+              {
+                "number": 14,
+                "name": "Martha Aklestad Simonsen"
+              }
+            ]
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-29T14:39:30+02:00"
     },
     "23213702009": {
       "fiksId": "9201148",
@@ -13418,7 +14443,161 @@
       "awayScore": 5,
       "status": "completed",
       "resultAt": "2026-09-29T14:36:50+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Karen Villa Bjermeland",
+            "label": "Spillemål",
+            "minute": 2
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 3
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 26
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Astrid Chen Røsvik",
+            "label": "Spillemål",
+            "minute": 32
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Karen Villa Bjermeland",
+            "label": "Spillemål",
+            "minute": 36
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Karen Villa Bjermeland",
+            "label": "Spillemål",
+            "minute": 39
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 47
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 49
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 51
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 56
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 67
+          }
+        ],
+        "officials": {
+          "referee": "Jørgen Gjerde Ramsvik"
+        },
+        "referee": "Jørgen Gjerde Ramsvik",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 42,
+                "name": "Ramida Olsen"
+              },
+              {
+                "number": 33,
+                "name": "Live Emilie Opsal Nygård"
+              }
+            ],
+            "bench": [
+              {
+                "number": 10,
+                "name": "Haley Nybø Skjegstad"
+              },
+              {
+                "number": 43,
+                "name": "Jenna Lid"
+              }
+            ]
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 59,
+                "name": "Aurora Nistad"
+              },
+              {
+                "number": 58,
+                "name": "Nora Kristin Devold Fiske"
+              },
+              {
+                "number": 63,
+                "name": "Karen Villa Bjermeland"
+              },
+              {
+                "number": 64,
+                "name": "Ellie Fjørtoft Gjørtz"
+              },
+              {
+                "number": 56,
+                "name": "Astrid Chen Røsvik"
+              },
+              {
+                "number": 79,
+                "name": "Anea Marie Steffensen-Teige"
+              },
+              {
+                "number": 53,
+                "name": "Oda Kjerstad Sørhus"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-29T14:39:26+02:00"
     },
     "23213702011": {
       "fiksId": "9201150",
@@ -13431,7 +14610,153 @@
       "awayScore": 1,
       "status": "completed",
       "resultAt": "2026-09-29T14:36:50+02:00",
-      "goalTimelineVerified": false
+      "goalTimelineVerified": true,
+      "detail": {
+        "events": [
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sofiia Fesenko",
+            "label": "Spillemål",
+            "minute": 9
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sofiia Fesenko",
+            "label": "Spillemål",
+            "minute": 10
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Erle Kvamme Rusten",
+            "label": "Spillemål",
+            "minute": 17
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ane Brenne Ringdal",
+            "label": "Spillemål",
+            "minute": 21
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Ane Brenne Ringdal",
+            "label": "Spillemål",
+            "minute": 25
+          },
+          {
+            "type": "goal",
+            "team": "away",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 28
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Erle Kvamme Rusten",
+            "label": "Spillemål",
+            "minute": 34
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sofiia Fesenko",
+            "label": "Spillemål",
+            "minute": 46
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Personinfo ikkje tilgjengeleg",
+            "label": "Spillemål",
+            "personUnavailable": true,
+            "minute": 64
+          },
+          {
+            "type": "goal",
+            "team": "home",
+            "player": "Sofiia Fesenko",
+            "label": "Spillemål",
+            "minute": 65
+          }
+        ],
+        "halfTime": "7–1",
+        "lineups": {
+          "home": {
+            "starters": [
+              {
+                "number": 10,
+                "name": "Johanna Olave Hagen Røyrhus"
+              },
+              {
+                "number": 2,
+                "name": "Sofiia Fesenko"
+              },
+              {
+                "number": 13,
+                "name": "Erle Kvamme Rusten"
+              },
+              {
+                "number": 18,
+                "name": "Sofia Kristina Pacificar"
+              },
+              {
+                "number": 6,
+                "name": "Madeleine Bjørlykhaug Stadheim"
+              },
+              {
+                "number": 31,
+                "name": "Ane Brenne Ringdal"
+              }
+            ],
+            "bench": []
+          },
+          "away": {
+            "starters": [
+              {
+                "number": 10,
+                "name": "Ingrid Meisal"
+              },
+              {
+                "number": 18,
+                "name": "Carmen Marie Cadavid Øvrebust"
+              },
+              {
+                "number": 6,
+                "name": "Anea Olsen Søderstjerna"
+              },
+              {
+                "number": 19,
+                "name": "Sandra Sonja Sala"
+              },
+              {
+                "number": 30,
+                "name": "Mathea Vad Kirkebøe"
+              }
+            ],
+            "bench": []
+          }
+        },
+        "structuredTimeline": true,
+        "hasRegisteredEvents": true,
+        "hasPublishedSquad": true
+      },
+      "detailFetches": 1,
+      "detailFetchedAt": "2026-09-29T14:39:28+02:00"
     },
     "23213702014": {
       "fiksId": "9201153",
