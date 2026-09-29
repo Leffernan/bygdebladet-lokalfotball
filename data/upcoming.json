@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T16:07:08+02:00",
+  "generatedAt": "2026-09-29T16:12:05+02:00",
   "matches": [
     {
       "date": "2026-09-29",
@@ -39,12 +39,11 @@
       "time": "19:00",
       "age": "MENN",
       "competition": "Menn 7-er",
+      "venue": "Vågen Arena",
       "home": "Vågstranda",
       "away": "Eresfjord og Vistdal/Langfjorden",
       "matchNumber": "15120700032",
-      "competitionId": "senior-2026-menn-7er-romsdal",
-      "venue": "Vågen Arena",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=207913"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042920"
     },
     {
       "date": "2026-09-30",
@@ -82,6 +81,50 @@
     {
       "date": "2026-09-30",
       "time": "18:30",
+      "age": "MENN",
+      "competition": "6. div. menn høst",
+      "venue": "Mauseidvåg kunstgress",
+      "home": "Sula",
+      "away": "Norborg",
+      "matchNumber": "23120604040",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192696"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Valldal kunstgras",
+      "home": "Valldal",
+      "away": "Brattvåg 3",
+      "matchNumber": "23127001040",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193949"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Skodje Kunstgras 1",
+      "home": "Skodje",
+      "away": "Harøy/Lepsøy/HaNo 2",
+      "matchNumber": "23127001036",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193945"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Ikornnes Idrettspark",
+      "home": "Sykkylven 2",
+      "away": "Ørskog/Stordal 2",
+      "matchNumber": "23127001039",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193948"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "18:30",
       "age": "J13",
       "competition": "J13 7er høst",
       "venue": "Kirkebø stadion 9er A",
@@ -92,63 +135,14 @@
     },
     {
       "date": "2026-09-30",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "6. div. menn høst",
-      "home": "Sula",
-      "away": "Norborg",
-      "matchNumber": "23120604040",
-      "competitionId": "senior-2026-6-div-menn-host",
-      "venue": "Mauseidvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=209877"
-    },
-    {
-      "date": "2026-09-30",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Valldal",
-      "away": "Brattvåg 3",
-      "matchNumber": "23127001040",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Valldal kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-09-30",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Skodje",
-      "away": "Harøy/Lepsøy/HaNo 2",
-      "matchNumber": "23127001036",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Skodje Kunstgras 1",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-09-30",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Sykkylven 2",
-      "away": "Ørskog/Stordal 2",
-      "matchNumber": "23127001039",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Ikornnes Idrettspark",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-09-30",
       "time": "19:00",
       "age": "MENN",
       "competition": "5. div. menn",
+      "venue": "Dahle kunstgresspark",
       "home": "Dahle 2",
       "away": "Vestnes Varfjell",
       "matchNumber": "15120501078",
-      "competitionId": "senior-2026-5-div-menn-romsdal",
-      "venue": "Dahle kunstgresspark",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205959"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991169"
     },
     {
       "date": "2026-10-01",
@@ -188,36 +182,33 @@
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": "Langevåg kunstgress 2",
       "home": "Langevåg",
       "away": "Ravn",
       "matchNumber": "23120401112",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Langevåg kunstgress 2",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983870"
     },
     {
       "date": "2026-10-01",
       "time": "18:30",
       "age": "KVINNER",
       "competition": "4. div. kvinner",
+      "venue": "Harøy Kunstgrasbane",
       "home": "HaNo",
       "away": "Ørsta",
       "matchNumber": "23220410079",
-      "competitionId": "senior-2026-4-div-kvinner-sunnmore",
-      "venue": "Harøy Kunstgrasbane",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205920"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983351"
     },
     {
       "date": "2026-10-01",
       "time": "18:30",
       "age": "KVINNER",
       "competition": "5. div. kvinner høst A",
+      "venue": "Kirkebø stadion KGB",
       "home": "Stordal/Ørskog/Skodje",
       "away": "Valder/Øyne",
       "matchNumber": "23220602003",
-      "competitionId": "senior-2026-5-div-kvinner-host-a",
-      "venue": "Kirkebø stadion KGB",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=211227"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9233560"
     },
     {
       "date": "2026-10-01",
@@ -235,192 +226,176 @@
       "time": "19:00",
       "age": "KVINNER",
       "competition": "Kvinner 7-er",
+      "venue": "Nordmøre Arena 7er A",
       "home": "Averøykameratene/Kårvåg/Havørn",
       "away": "Tomrefjord",
       "matchNumber": "15220701076",
-      "competitionId": "senior-2026-kvinner-7er-romsdal",
-      "venue": "Nordmøre Arena 7er A",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=208149"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9060037"
     },
     {
       "date": "2026-10-02",
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": "Brattvåg kunstgress",
       "home": "Brattvåg 2",
       "away": "Rollon",
       "matchNumber": "23120401111",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Brattvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983869"
     },
     {
       "date": "2026-10-02",
       "time": "19:00",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": "Høddvoll",
       "home": "Hødd 2",
       "away": "Stordal",
       "matchNumber": "23120401113",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Høddvoll",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983871"
     },
     {
       "date": "2026-10-03",
       "time": "13:00",
       "age": "MENN",
       "competition": "5. div. menn",
+      "venue": "Sykkylven stadion",
       "home": "Sykkylven",
       "away": "HaNo",
       "matchNumber": "23120501112",
-      "competitionId": "senior-2026-5-div-menn-sunnmore",
-      "venue": "Sykkylven stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205921"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984113"
     },
     {
       "date": "2026-10-03",
       "time": "14:00",
       "age": "MENN",
       "competition": "5. div. menn",
+      "venue": "Måndalen stadion",
       "home": "Måndalen",
       "away": "Malmefjorden",
       "matchNumber": "15120501076",
-      "competitionId": "senior-2026-5-div-menn-romsdal",
-      "venue": "Måndalen stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205959"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991167"
     },
     {
       "date": "2026-10-03",
       "time": "14:00",
       "age": "MENN",
       "competition": "6. div. menn avd. 3",
+      "venue": "Isfjorden stadion",
       "home": "Isfjorden",
       "away": "Tomrefjord",
       "matchNumber": "15120603055",
-      "competitionId": "senior-2026-6-div-menn-romsdal-3",
-      "venue": "Isfjorden stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=207814"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042887"
     },
     {
       "date": "2026-10-03",
       "time": "16:00",
       "age": "MENN",
       "competition": "Menn 7-er",
+      "venue": "Fiksdal kunstgress",
       "home": "Fiksdal/Rekdal",
       "away": "Vågstranda",
       "matchNumber": "15120700056",
-      "competitionId": "senior-2026-menn-7er-romsdal",
-      "venue": "Fiksdal kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=207913"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042944"
     },
     {
       "date": "2026-10-04",
       "time": "16:00",
       "age": "MENN",
       "competition": "2. divisjon menn avd. 1",
+      "venue": "Brattvåg kunstgress",
       "home": "Brattvåg",
       "away": "Sotra",
       "matchNumber": "99120201154",
-      "competitionId": "senior-2026-2-div-menn-avd-1",
-      "venue": "Brattvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=206007"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987140"
     },
     {
       "date": "2026-10-08",
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": "Kirkebø stadion KGB",
       "home": "Stordal",
       "away": "Spjelkavik 2",
       "matchNumber": "23120401120",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Kirkebø stadion KGB",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983878"
     },
     {
       "date": "2026-10-09",
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": "Ravn kunstgras",
       "home": "Ravn",
       "away": "Hødd 2",
       "matchNumber": "23120401117",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Ravn kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983875"
     },
     {
       "date": "2026-10-09",
       "time": "19:00",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": "Havila Stadion Fosnavåg",
       "home": "Bergsøy",
       "away": "Brattvåg 2",
       "matchNumber": "23120401119",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Havila Stadion Fosnavåg",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983877"
     },
     {
       "date": "2026-10-10",
       "time": "14:00",
       "age": "MENN",
       "competition": "5. div. menn",
+      "venue": "Opdølbanen",
       "home": "Hjelset-Kleive",
       "away": "Vestnes Varfjell",
       "matchNumber": "15120501083",
-      "competitionId": "senior-2026-5-div-menn-romsdal",
-      "venue": "Opdølbanen",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205959"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991174"
     },
     {
       "date": "2026-10-10",
       "time": "14:00",
       "age": "MENN",
       "competition": "5. div. menn",
+      "venue": "Kårvåg stadion",
       "home": "Kårvåg/Havørn/Averøykameratene",
       "away": "Måndalen",
       "matchNumber": "15120501081",
-      "competitionId": "senior-2026-5-div-menn-romsdal",
-      "venue": "Kårvåg stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205959"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991172"
     },
     {
       "date": "2026-10-10",
       "time": "14:00",
       "age": "KVINNER",
       "competition": "Kvinner 7-er",
+      "venue": "Tomrefjord kunstgress",
       "home": "Tomrefjord",
       "away": "Træff 2",
       "matchNumber": "15220701082",
-      "competitionId": "senior-2026-kvinner-7er-romsdal",
-      "venue": "Tomrefjord kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=208149"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9060043"
     },
     {
       "date": "2026-10-10",
       "time": "15:00",
       "age": "MENN",
       "competition": "5. div. menn",
+      "venue": "Harøy Kunstgrasbane",
       "home": "HaNo",
       "away": "SIF/Hessa",
       "matchNumber": "23120501117",
-      "competitionId": "senior-2026-5-div-menn-sunnmore",
-      "venue": "Harøy Kunstgrasbane",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205921"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984118"
     },
     {
       "date": "2026-10-11",
       "time": "13:00",
       "age": "MENN",
       "competition": "2. divisjon menn avd. 1",
+      "venue": "Alustar Arena (Lassa)",
       "home": "Vidar",
       "away": "Brattvåg",
       "matchNumber": "99120201160",
-      "competitionId": "senior-2026-2-div-menn-avd-1",
-      "venue": "Alustar Arena (Lassa)",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=206007"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987146"
     },
     {
       "date": "2026-10-12",
@@ -436,6 +411,17 @@
     {
       "date": "2026-10-12",
       "time": "18:30",
+      "age": "KVINNER",
+      "competition": "5. div. kvinner høst A",
+      "venue": "Kirkebø stadion KGB",
+      "home": "Stordal/Ørskog/Skodje",
+      "away": "Aksla/Guard/Rollon 2",
+      "matchNumber": "23220602010",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9233567"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "18:30",
       "age": "J13",
       "competition": "J13 7er høst",
       "venue": "Ørskogbanken 9er",
@@ -443,18 +429,6 @@
       "away": "Sunnylven",
       "matchNumber": "23213702018",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201157"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "18:30",
-      "age": "KVINNER",
-      "competition": "5. div. kvinner høst A",
-      "home": "Stordal/Ørskog/Skodje",
-      "away": "Aksla/Guard/Rollon 2",
-      "matchNumber": "23220602010",
-      "competitionId": "senior-2026-5-div-kvinner-host-a",
-      "venue": "Kirkebø stadion KGB",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=211227"
     },
     {
       "date": "2026-10-13",
@@ -494,24 +468,22 @@
       "time": "18:30",
       "age": "MENN",
       "competition": "7. div. menn høst avd. 1",
+      "venue": "Ratvika 1",
       "home": "Aksla 2",
       "away": "Skodje",
       "matchNumber": "23127001041",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Ratvika 1",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193950"
     },
     {
       "date": "2026-10-13",
       "time": "19:00",
       "age": "MENN",
       "competition": "Menn 7-er",
+      "venue": "Råkhaugen kunstgress",
       "home": "Nordbyen",
       "away": "Vågstranda",
       "matchNumber": "15120700040",
-      "competitionId": "senior-2026-menn-7er-romsdal",
-      "venue": "Råkhaugen kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=207913"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042928"
     },
     {
       "date": "2026-10-14",
@@ -527,62 +499,57 @@
     {
       "date": "2026-10-14",
       "time": "18:30",
-      "age": "MENN",
-      "competition": "6. div. menn høst",
-      "home": "Norborg",
-      "away": "Vartdal",
-      "matchNumber": "23120604043",
-      "competitionId": "senior-2026-6-div-menn-host",
-      "venue": "Uggedal kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=209877"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Harøy/Lepsøy/HaNo 2",
-      "away": "Ravn 2",
-      "matchNumber": "23127001042",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Harøy Kunstgrasbane",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Brattvåg 3",
-      "away": "Sykkylven 2",
-      "matchNumber": "23127001043",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Brattvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Ørskog/Stordal 2",
-      "away": "Guard",
-      "matchNumber": "23127001044",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Ørskogbanken stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:30",
       "age": "KVINNER",
       "competition": "4. div. kvinner",
+      "venue": "Ratvika 1",
       "home": "Aksla/Guard",
       "away": "HaNo",
       "matchNumber": "23220410082",
-      "competitionId": "senior-2026-4-div-kvinner-sunnmore",
-      "venue": "Ratvika 1",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205920"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983354"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "6. div. menn høst",
+      "venue": "Uggedal kunstgras",
+      "home": "Norborg",
+      "away": "Vartdal",
+      "matchNumber": "23120604043",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192699"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Harøy Kunstgrasbane",
+      "home": "Harøy/Lepsøy/HaNo 2",
+      "away": "Ravn 2",
+      "matchNumber": "23127001042",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193951"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg 3",
+      "away": "Sykkylven 2",
+      "matchNumber": "23127001043",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193952"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Ørskogbanken stadion",
+      "home": "Ørskog/Stordal 2",
+      "away": "Guard",
+      "matchNumber": "23127001044",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193953"
     },
     {
       "date": "2026-10-15",
@@ -631,26 +598,24 @@
     {
       "date": "2026-10-15",
       "time": "18:30",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "home": "Stranda",
-      "away": "HaNo",
-      "matchNumber": "23120501125",
-      "competitionId": "senior-2026-5-div-menn-sunnmore",
-      "venue": "Stranda stadion kg 11er",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205921"
+      "age": "KVINNER",
+      "competition": "4. div. kvinner",
+      "venue": "Uggedal kunstgras",
+      "home": "Brattvåg/Norborg/Ravn",
+      "away": "SIF/Hessa",
+      "matchNumber": "23220410084",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983356"
     },
     {
       "date": "2026-10-15",
       "time": "18:30",
-      "age": "KVINNER",
-      "competition": "4. div. kvinner",
-      "home": "Brattvåg/Norborg/Ravn",
-      "away": "SIF/Hessa",
-      "matchNumber": "23220410084",
-      "competitionId": "senior-2026-4-div-kvinner-sunnmore",
-      "venue": "Uggedal kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205920"
+      "age": "MENN",
+      "competition": "5. div. menn",
+      "venue": "Stranda stadion kg 11er",
+      "home": "Stranda",
+      "away": "HaNo",
+      "matchNumber": "23120501125",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984126"
     },
     {
       "date": "2026-10-16",
@@ -668,48 +633,44 @@
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
-      "home": "Stordal",
-      "away": "Ravn",
-      "matchNumber": "23120401125",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Kirkebø stadion KGB",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg 2",
+      "away": "Hovdebygda",
+      "matchNumber": "23120401122",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983880"
     },
     {
       "date": "2026-10-16",
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
-      "home": "Brattvåg 2",
-      "away": "Hovdebygda",
-      "matchNumber": "23120401122",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Brattvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "venue": "Kirkebø stadion KGB",
+      "home": "Stordal",
+      "away": "Ravn",
+      "matchNumber": "23120401125",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983883"
     },
     {
       "date": "2026-10-17",
       "time": "14:00",
       "age": "MENN",
       "competition": "5. div. menn",
+      "venue": "Vestnes idrettspark",
       "home": "Vestnes Varfjell",
       "away": "Malmefjorden",
       "matchNumber": "15120501088",
-      "competitionId": "senior-2026-5-div-menn-romsdal",
-      "venue": "Vestnes idrettspark",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205959"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991179"
     },
     {
       "date": "2026-10-17",
       "time": "14:00",
       "age": "MENN",
       "competition": "5. div. menn",
+      "venue": "Måndalen stadion",
       "home": "Måndalen",
       "away": "Molde 3",
       "matchNumber": "15120501086",
-      "competitionId": "senior-2026-5-div-menn-romsdal",
-      "venue": "Måndalen stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205959"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991177"
     },
     {
       "date": "2026-10-17",
@@ -738,24 +699,22 @@
       "time": "16:00",
       "age": "MENN",
       "competition": "2. divisjon menn avd. 1",
+      "venue": "Brattvåg kunstgress",
       "home": "Brattvåg",
       "away": "Bjarg",
       "matchNumber": "99120201168",
-      "competitionId": "senior-2026-2-div-menn-avd-1",
-      "venue": "Brattvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=206007"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987154"
     },
     {
       "date": "2026-10-18",
       "time": "16:00",
       "age": "MENN",
       "competition": "7. div. menn høst avd. 1",
+      "venue": "Skodje Kunstgras 1",
       "home": "Skodje",
       "away": "Godøy",
       "matchNumber": "23127001024",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Skodje Kunstgras 1",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193933"
     },
     {
       "date": "2026-10-18",
@@ -837,86 +796,79 @@
     {
       "date": "2026-10-21",
       "time": "18:30",
-      "age": "MENN",
-      "competition": "6. div. menn høst",
-      "home": "Ellingsøy",
-      "away": "Norborg",
-      "matchNumber": "23120604049",
-      "competitionId": "senior-2026-6-div-menn-host",
-      "venue": "Nes stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=209877"
-    },
-    {
-      "date": "2026-10-21",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Godøy",
-      "away": "Ørskog/Stordal 2",
-      "matchNumber": "23127001048",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Godøy KGB",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-10-21",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Sykkylven 2",
-      "away": "Valldal",
-      "matchNumber": "23127001050",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Ikornnes Idrettspark",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-10-21",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Ravn 2",
-      "away": "Aksla 2",
-      "matchNumber": "23127001046",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Ravn kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-10-21",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "home": "Skodje",
-      "away": "Stranda 2",
-      "matchNumber": "23127001047",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Skodje Kunstgras 1",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
-    },
-    {
-      "date": "2026-10-21",
-      "time": "18:30",
       "age": "KVINNER",
       "competition": "5. div. kvinner høst A",
+      "venue": "Mauseidvåg kunstgress",
       "home": "Sula/Langevåg",
       "away": "Stordal/Ørskog/Skodje",
       "matchNumber": "23220602014",
-      "competitionId": "senior-2026-5-div-kvinner-host-a",
-      "venue": "Mauseidvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=211227"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9233571"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "6. div. menn høst",
+      "venue": "Nes stadion",
+      "home": "Ellingsøy",
+      "away": "Norborg",
+      "matchNumber": "23120604049",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192705"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Godøy KGB",
+      "home": "Godøy",
+      "away": "Ørskog/Stordal 2",
+      "matchNumber": "23127001048",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193957"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Ikornnes Idrettspark",
+      "home": "Sykkylven 2",
+      "away": "Valldal",
+      "matchNumber": "23127001050",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193959"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Ravn kunstgras",
+      "home": "Ravn 2",
+      "away": "Aksla 2",
+      "matchNumber": "23127001046",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193955"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Skodje Kunstgras 1",
+      "home": "Skodje",
+      "away": "Stranda 2",
+      "matchNumber": "23127001047",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193956"
     },
     {
       "date": "2026-10-21",
       "time": "20:30",
       "age": "MENN",
       "competition": "7. div. menn høst avd. 1",
+      "venue": "Color Line Stadion",
       "home": "Guard",
       "away": "Brattvåg 3",
       "matchNumber": "23127001049",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Color Line Stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193958"
     },
     {
       "date": "2026-10-22",
@@ -954,38 +906,35 @@
     {
       "date": "2026-10-22",
       "time": "18:30",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "home": "HaNo",
-      "away": "Giske",
-      "matchNumber": "23120501132",
-      "competitionId": "senior-2026-5-div-menn-sunnmore",
-      "venue": "Harøy Kunstgrasbane",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205921"
-    },
-    {
-      "date": "2026-10-22",
-      "time": "18:30",
       "age": "KVINNER",
       "competition": "4. div. kvinner",
+      "venue": null,
       "home": "HaNo",
       "away": "Sykkylven",
       "matchNumber": "23220410089",
-      "competitionId": "senior-2026-4-div-kvinner-sunnmore",
-      "venue": "",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205920"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983361"
     },
     {
       "date": "2026-10-22",
       "time": "18:30",
       "age": "KVINNER",
       "competition": "4. div. kvinner",
+      "venue": "Hovdebygda Kunstgras",
       "home": "Hovdebygda",
       "away": "Brattvåg/Norborg/Ravn",
       "matchNumber": "23220410090",
-      "competitionId": "senior-2026-4-div-kvinner-sunnmore",
-      "venue": "Hovdebygda Kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205920"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983362"
+    },
+    {
+      "date": "2026-10-22",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "5. div. menn",
+      "venue": "Harøy Kunstgrasbane",
+      "home": "HaNo",
+      "away": "Giske",
+      "matchNumber": "23120501132",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984133"
     },
     {
       "date": "2026-10-23",
@@ -1003,36 +952,33 @@
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": null,
       "home": "Rollon",
       "away": "Stordal",
       "matchNumber": "23120401128",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983886"
     },
     {
       "date": "2026-10-23",
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": "Aurstad Arena Kunstgras",
       "home": "Ørsta",
       "away": "Brattvåg 2",
       "matchNumber": "23120401131",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Aurstad Arena Kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983889"
     },
     {
       "date": "2026-10-23",
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
+      "venue": "Ravn kunstgras",
       "home": "Ravn",
       "away": "Spjelkavik 2",
       "matchNumber": "23120401132",
-      "competitionId": "senior-2026-4-div-menn-sunnmore",
-      "venue": "Ravn kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=205682"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983890"
     },
     {
       "date": "2026-10-23",
@@ -1050,36 +996,33 @@
       "time": "13:00",
       "age": "MENN",
       "competition": "2. divisjon menn avd. 1",
+      "venue": "Consto Arena",
       "home": "Mjøndalen",
       "away": "Brattvåg",
       "matchNumber": "99120201172",
-      "competitionId": "senior-2026-2-div-menn-avd-1",
-      "venue": "Consto Arena",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=206007"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987158"
     },
     {
       "date": "2026-10-25",
       "time": "13:00",
       "age": "MENN",
       "competition": "6. div. menn høst",
+      "venue": "Eidsåvoll stadion",
       "home": "Vanylven",
       "away": "Norborg",
       "matchNumber": "23120604025",
-      "competitionId": "senior-2026-6-div-menn-host",
-      "venue": "Eidsåvoll stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=209877"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192681"
     },
     {
       "date": "2026-10-26",
       "time": "19:00",
       "age": "MENN",
       "competition": "7. div. menn høst avd. 1",
+      "venue": "Stranda stadion kg 11er",
       "home": "Stranda 2",
       "away": "Ravn 2",
       "matchNumber": "23127001055",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Stranda stadion kg 11er",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193964"
     },
     {
       "date": "2026-10-27",
@@ -1130,72 +1073,66 @@
       "time": "18:30",
       "age": "MENN",
       "competition": "6. div. menn høst",
+      "venue": "Uggedal kunstgras",
       "home": "Norborg",
       "away": "Herd 2",
       "matchNumber": "23120604053",
-      "competitionId": "senior-2026-6-div-menn-host",
-      "venue": "Uggedal kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=209877"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192709"
     },
     {
       "date": "2026-10-28",
       "time": "18:30",
       "age": "MENN",
       "competition": "7. div. menn høst avd. 1",
+      "venue": "Brattvåg kunstgress",
       "home": "Brattvåg 3",
       "away": "Godøy",
       "matchNumber": "23127001053",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Brattvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193962"
     },
     {
       "date": "2026-10-28",
       "time": "18:30",
       "age": "MENN",
       "competition": "7. div. menn høst avd. 1",
+      "venue": "Valldal kunstgras",
       "home": "Valldal",
       "away": "Guard",
       "matchNumber": "23127001052",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Valldal kunstgras",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193961"
     },
     {
       "date": "2026-10-28",
       "time": "18:30",
       "age": "MENN",
       "competition": "7. div. menn høst avd. 1",
+      "venue": "Ratvika 1",
       "home": "Aksla 2",
       "away": "Harøy/Lepsøy/HaNo 2",
       "matchNumber": "23127001051",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Ratvika 1",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193960"
     },
     {
       "date": "2026-10-28",
       "time": "18:30",
       "age": "MENN",
       "competition": "7. div. menn høst avd. 1",
+      "venue": "Ørskogbanken stadion",
       "home": "Ørskog/Stordal 2",
       "away": "Skodje",
       "matchNumber": "23127001054",
-      "competitionId": "senior-2026-7-div-menn-host-1",
-      "venue": "Ørskogbanken stadion",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=210497"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193963"
     },
     {
       "date": "2026-10-31",
       "time": "13:00",
       "age": "MENN",
       "competition": "2. divisjon menn avd. 1",
+      "venue": "Brattvåg kunstgress",
       "home": "Brattvåg",
       "away": "Træff",
       "matchNumber": "99120201182",
-      "competitionId": "senior-2026-2-div-menn-avd-1",
-      "venue": "Brattvåg kunstgress",
-      "sourceUrl": "https://www.fotball.no/fotballdata/turnering/hjem/?fiksId=206007"
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987168"
     }
   ]
 }
