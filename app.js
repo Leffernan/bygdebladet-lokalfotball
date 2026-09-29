@@ -106,7 +106,7 @@ function routeEmbeddedMatchWheel(e){
  if(!dialog.open||!document.documentElement.classList.contains('match-embedded-fullscreen')||e.ctrlKey)return;
  const content=$('#dialogContent');
  if(!content)return;
- if((e.shiftKey||Math.abs(e.deltaX)>Math.abs(e.deltaY))&&e.target.closest('.table-wrap'))return;
+ if((e.shiftKey||Math.abs(e.deltaX)>Math.abs(e.deltaY))&&e.target.closest?.('.table-wrap'))return;
  e.preventDefault();
  const factor=e.deltaMode===1?16:e.deltaMode===2?content.clientHeight:1;
  content.scrollTop+=e.deltaY*factor;
