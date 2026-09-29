@@ -377,6 +377,28 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23213702012": {
+      "title": "Ørskog vann 6–5 mot Aksla 2",
+      "lead": "Ørskog vann 6–5 mot Aksla 2 i J13 7er høst.",
+      "paragraphs": [
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "23213702011": {
+      "title": "Sunnylven vann stort mot Stordal",
+      "lead": "Sunnylven vann 10–1 mot Stordal i J13 7er høst.",
+      "paragraphs": [
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124019": {
       "title": "Ørskog/Stordal vann stort mot Hareid",
       "lead": "Ørskog/Stordal vann 7–1 mot Hareid i G16 2. div høst.",
@@ -524,6 +546,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23213702010": {
+      "title": "Ørskog vann 8–4 mot Sæbø",
+      "lead": "Ørskog vann 8–4 mot Sæbø i J13 7er høst.",
+      "paragraphs": [
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23214107025": {
@@ -704,6 +737,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23213702008": {
+      "title": "Sunnylven vann 7–6 mot Ørskog",
+      "lead": "Sunnylven vann 7–6 mot Ørskog i J13 7er høst.",
+      "paragraphs": [
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23116124006": {
@@ -940,6 +984,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23213702006": {
+      "title": "Sæbø vann stort mot Stordal",
+      "lead": "Sæbø vann 11–4 mot Stordal i J13 7er høst.",
+      "paragraphs": [
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23116124002": {
       "title": "Poengdeling mellom Sykkylven og Ørskog/Stordal",
       "lead": "Sykkylven og Ørskog/Stordal spelte 2–2 i G16 2. div høst.",
@@ -1047,6 +1102,17 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23213702001": {
+      "title": "Sunnylven vann stort mot Stordal",
+      "lead": "Sunnylven vann 15–3 mot Stordal i J13 7er høst.",
+      "paragraphs": [
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
     "23113123002": {
       "title": "Spjelkavik vann 4–0 mot Ravn/Norborg",
       "lead": "Spjelkavik vann 4–0 mot Ravn/Norborg i G13 1. div høst.",
@@ -1097,6 +1163,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23213702003": {
+      "title": "Ørskog vann stort mot Stordal",
+      "lead": "Ørskog vann 9–3 mot Stordal i J13 7er høst.",
+      "paragraphs": [
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "23214107004": {
@@ -1167,6 +1244,17 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23213702002": {
+      "title": "Ørskog vann stort mot Aksla 2",
+      "lead": "Ørskog vann 12–2 mot Aksla 2 i J13 7er høst.",
+      "paragraphs": [
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
       "generatorVersion": 3
     }
   }

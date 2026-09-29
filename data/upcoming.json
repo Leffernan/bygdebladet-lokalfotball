@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T08:56:51+02:00",
+  "generatedAt": "2026-09-29T14:37:03+02:00",
   "matches": [
     {
       "date": "2026-09-29",
@@ -22,6 +22,17 @@
       "away": "Ørsta 2 7er",
       "matchNumber": "23214107037",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200069"
+    },
+    {
+      "date": "2026-09-29",
+      "time": "18:30",
+      "age": "J13",
+      "competition": "J13 7er høst",
+      "venue": "Sæbø kunstgras 9er A",
+      "home": "Sæbø",
+      "away": "Stordal",
+      "matchNumber": "23213702016",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201155"
     },
     {
       "date": "2026-09-30",
@@ -55,6 +66,17 @@
       "away": "Spjelkavik 2",
       "matchNumber": "23214107040",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200072"
+    },
+    {
+      "date": "2026-09-30",
+      "time": "18:30",
+      "age": "J13",
+      "competition": "J13 7er høst",
+      "venue": "Kirkebø stadion 9er A",
+      "home": "Stordal",
+      "away": "Ørskog",
+      "matchNumber": "23213702013",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201152"
     },
     {
       "date": "2026-10-01",
@@ -112,6 +134,17 @@
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196245"
     },
     {
+      "date": "2026-10-12",
+      "time": "18:30",
+      "age": "J13",
+      "competition": "J13 7er høst",
+      "venue": "Ørskogbanken 9er",
+      "home": "Ørskog",
+      "away": "Sunnylven",
+      "matchNumber": "23213702018",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201157"
+    },
+    {
       "date": "2026-10-13",
       "time": "18:30",
       "age": "G13",
@@ -154,6 +187,17 @@
       "away": "Vestnes Varfjell",
       "matchNumber": "15149017044",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9177195"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "17:00",
+      "age": "J13",
+      "competition": "J13 7er høst",
+      "venue": "Ratvika 2",
+      "home": "Aksla 2",
+      "away": "Stordal",
+      "matchNumber": "23213702009",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201148"
     },
     {
       "date": "2026-10-15",
@@ -242,6 +286,28 @@
       "away": "HaNo/Lepsøy/Harøy 9er",
       "matchNumber": "23214107047",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200079"
+    },
+    {
+      "date": "2026-10-20",
+      "time": "18:30",
+      "age": "J13",
+      "competition": "J13 7er høst",
+      "venue": "Sæbø kunstgras 9er A",
+      "home": "Sæbø",
+      "away": "Ørskog",
+      "matchNumber": "23213702020",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201159"
+    },
+    {
+      "date": "2026-10-20",
+      "time": "18:30",
+      "age": "J13",
+      "competition": "J13 7er høst",
+      "venue": "Kirkebø stadion 9er A",
+      "home": "Stordal",
+      "away": "Aksla 2",
+      "matchNumber": "23213702019",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201158"
     },
     {
       "date": "2026-10-21",
