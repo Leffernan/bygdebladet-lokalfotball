@@ -7,6 +7,7 @@ on:
       - "index.html"
       - "embed-host.js"
       - "tests/check_frontend.js"
+      - "tests/check_embed_host.js"
       - ".github/workflows/check-frontend.yml"
   workflow_dispatch:
 
@@ -24,3 +25,5 @@ jobs:
         run: node --check embed-host.js
       - name: Frontend smoke test
         run: node tests/check_frontend.js
+      - name: Embedded iframe host test
+        run: node tests/check_embed_host.js
