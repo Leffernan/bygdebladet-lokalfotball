@@ -5,6 +5,7 @@ on:
     paths:
       - "app.js"
       - "index.html"
+      - "embed-host.js"
       - "tests/check_frontend.js"
       - ".github/workflows/check-frontend.yml"
   workflow_dispatch:
@@ -19,5 +20,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: JavaScript syntax
         run: node --check app.js
+      - name: Embed host syntax
+        run: node --check embed-host.js
       - name: Frontend smoke test
         run: node tests/check_frontend.js
