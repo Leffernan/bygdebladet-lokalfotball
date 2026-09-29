@@ -13,7 +13,8 @@
       "G13": 95,
       "J14": 105,
       "J15": 105,
-      "G16": 105
+      "G16": 105,
+      "J13": 95
     }
   },
   "competitions": [
@@ -51,6 +52,13 @@
       "age": "J14",
       "tournamentId": "210122",
       "discoveryMatchFiksId": null
+    },
+    {
+      "key": "j13-7er-host",
+      "name": "J13 7er høst",
+      "age": "J13",
+      "tournamentId": "209867",
+      "discoveryMatchFiksId": "9201141"
     }
   ]
 }
