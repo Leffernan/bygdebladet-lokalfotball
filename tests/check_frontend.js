@@ -66,7 +66,7 @@ const wheelContext=vm.createContext({
  event:{ctrlKey:false,shiftKey:false,deltaX:0,deltaY:120,deltaMode:0,
   target:{closest:()=>null},preventDefault:()=>{prevented=true}}
 });
-vm.runInContext(wheelSource+'\\nrouteEmbeddedMatchWheel(event);',wheelContext);
+vm.runInContext(wheelSource+'\nrouteEmbeddedMatchWheel(event);',wheelContext);
 assert(prevented,'Embedded wheel must be consumed inside the match overlay');
 assert.equal(inner.scrollTop,120,'Embedded wheel must move match content');
 embedded=false;prevented=false;
