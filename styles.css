@@ -153,10 +153,14 @@ html.match-embedded-fullscreen body > :not(#matchDialog){visibility:hidden}
 
 /* Kampdialog */
 html.match-modal-open{overflow:hidden}
-.match-dialog{width:min(900px,calc(100% - 24px));max-height:calc(100vh - 26px);padding:0;border:1px solid #cfc7b8;border-radius:26px;background:var(--paper);color:var(--ink);box-shadow:0 30px 100px rgba(0,0,0,.3);overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
-@supports(height:100dvh){.match-dialog{max-height:calc(100dvh - 26px)}}
+/* Keep the modal shell fixed and scroll a dedicated inner element. This is
+   important when the host switches an embedded iframe to viewport height. */
+.match-dialog{position:fixed;inset:13px 12px;margin:auto;width:min(900px,calc(100% - 24px));height:calc(100vh - 26px);max-height:none;padding:0;border:1px solid #cfc7b8;border-radius:26px;background:var(--paper);color:var(--ink);box-shadow:0 30px 100px rgba(0,0,0,.3);overflow:hidden;overscroll-behavior:contain}
+.match-dialog[open]{display:flex;flex-direction:column}
+#dialogContent{flex:1;min-width:0;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y}
+@supports(height:100dvh){.match-dialog{height:calc(100dvh - 26px)}}
 .match-dialog::backdrop{background:rgba(17,17,17,.72);backdrop-filter:blur(6px)}
-.dialog-close{position:sticky;float:right;top:14px;right:14px;z-index:6;width:42px;height:42px;border:1px solid #d1cabd;border-radius:50%;background:#fff;color:#111;font-size:1.6rem;line-height:1;cursor:pointer}
+.dialog-close{position:absolute;top:14px;right:14px;z-index:6;width:42px;height:42px;border:1px solid #d1cabd;border-radius:50%;background:#fff;color:#111;font-size:1.6rem;line-height:1;cursor:pointer}
 .dialog-hero{padding:44px 42px 30px;background:var(--dark);color:#fff}
 .dialog-label{text-align:center;color:#b8b8b8;font-size:.67rem;font-weight:900;letter-spacing:.07em}
 .dialog-label span{color:#ff7778;margin-right:6px}
