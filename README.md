@@ -54,3 +54,21 @@ Berre personar med skrivetilgang til repositoryet kan laste opp eller endre logo
 ## Bildeinnsending
 
 CTA-en for kampbilde peikar til Tally-skjemaet som er kopla til sida.
+
+
+## Innbygging i iframe
+
+Når plattforma blir vist inne i ein iframe, må vertssida laste `embed-host.js` for at ein opna kamp skal kunne ta over den synlege nettlesarflata og hindre scroll-kjeding til nettavisa.
+
+Eksempel:
+
+```html
+<iframe
+  src="https://leffernan.github.io/bygdebladet-lokalfotball/"
+  title="Bygdebladet Lokalfotball"
+  style="width:100%;border:0"
+></iframe>
+<script src="https://leffernan.github.io/bygdebladet-lokalfotball/embed-host.js"></script>
+```
+
+Ved `match-open` blir iframe-en midlertidig gjort fullskjerm og vertssida låst. Ved `match-close` blir opphavleg iframe-stil og scrollposisjon gjenoppretta.
