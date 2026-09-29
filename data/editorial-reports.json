@@ -1,6 +1,42 @@
 {
   "version": 3,
   "reports": {
+    "23214107036": {
+      "title": "Fire mål av Pia Fjørtoft då HaNo/Lepsøy/Harøy 9er vann",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 5–2 mot MTG 7er i J15 3. div høst. Pia Fjørtoft skåra fire av måla.",
+      "paragraphs": [
+        "Til pause stod det 1–3.",
+        "Nokre mål er registrerte på same minutt, så den innbyrdes rekkjefølgja er ikkje stadfesta.",
+        "Pia Fjørtoft noterte seg for fire mål for HaNo/Lepsøy/Harøy 9er."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23214107037": {
+      "title": "Hattrick av Leah Emilie Myren Lianes då Skodje 2 7er vann",
+      "lead": "Skodje 2 7er vann 7–5 mot Ørsta 2 7er i J15 3. div høst. Leah Emilie Myren Lianes skåra tre av måla.",
+      "paragraphs": [
+        "Sofie Nydal gav Skodje 2 7er leiinga i det 3. minuttet.",
+        "Sophia Urke Eriksen utlikna til 1–1 for Ørsta 2 7er i det 15. minuttet.",
+        "Lilly Hjelvik sende Skodje 2 7er i leiinga i det 23. minuttet.",
+        "Leah Emilie Myren Lianes auka til 3–1 for Skodje 2 7er i det 26. minuttet.",
+        "Leah Emilie Myren Lianes auka til 4–1 for Skodje 2 7er i det 27. minuttet.",
+        "Dina Ellen Mikael Tesfay reduserte til 4–2 for Ørsta 2 7er i det 39. minuttet.",
+        "Til pause stod det 4–2.",
+        "Sienna Vartdal Larosai reduserte til 4–3 for Ørsta 2 7er i det 47. minuttet.",
+        "Lina Rekkedal Nupen utlikna til 4–4 for Ørsta 2 7er i det 48. minuttet.",
+        "Alva Gausdal Vik sende Skodje 2 7er i leiinga i det 55. minuttet.",
+        "Lina Rekkedal Nupen utlikna til 5–5 for Ørsta 2 7er i det 58. minuttet.",
+        "Oline Skotheim Gjerdsbakk sende Skodje 2 7er i leiinga i det 62. minuttet.",
+        "Leah Emilie Myren Lianes auka til 7–5 for Skodje 2 7er i det 78. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23113126023": {
       "title": "Ørskog/Stordal vann 1–0 mot Guard/Rollon 2",
       "lead": "Ørskog/Stordal vann 1–0 mot Guard/Rollon 2 i G13 3. div avd. 2 høst.",

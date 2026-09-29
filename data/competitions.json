@@ -439,10 +439,22 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-09-29T20:54:53+02:00",
       "standings": [
         {
           "position": 1,
+          "team": "HaNo/Lepsøy/Harøy 9er",
+          "played": 7,
+          "wins": 5,
+          "draws": 1,
+          "losses": 1,
+          "gf": 43,
+          "ga": 28,
+          "gd": 15,
+          "points": 16
+        },
+        {
+          "position": 2,
           "team": "Giske/Øyne 4 9er",
           "played": 7,
           "wins": 5,
@@ -454,7 +466,19 @@
           "points": 16
         },
         {
-          "position": 2,
+          "position": 3,
+          "team": "Skodje 2 7er",
+          "played": 7,
+          "wins": 5,
+          "draws": 1,
+          "losses": 1,
+          "gf": 38,
+          "ga": 30,
+          "gd": 8,
+          "points": 16
+        },
+        {
+          "position": 4,
           "team": "Ellingsøy/Vigra/Valder 3",
           "played": 6,
           "wins": 5,
@@ -464,30 +488,6 @@
           "ga": 13,
           "gd": 17,
           "points": 15
-        },
-        {
-          "position": 3,
-          "team": "HaNo/Lepsøy/Harøy 9er",
-          "played": 6,
-          "wins": 4,
-          "draws": 1,
-          "losses": 1,
-          "gf": 38,
-          "ga": 26,
-          "gd": 12,
-          "points": 13
-        },
-        {
-          "position": 4,
-          "team": "Skodje 2 7er",
-          "played": 6,
-          "wins": 4,
-          "draws": 1,
-          "losses": 1,
-          "gf": 31,
-          "ga": 25,
-          "gd": 6,
-          "points": 13
         },
         {
           "position": 5,
@@ -504,13 +504,13 @@
         {
           "position": 6,
           "team": "Ørsta 2 7er",
-          "played": 6,
+          "played": 7,
           "wins": 3,
           "draws": 0,
-          "losses": 3,
-          "gf": 26,
-          "ga": 30,
-          "gd": -4,
+          "losses": 4,
+          "gf": 31,
+          "ga": 37,
+          "gd": -6,
           "points": 9
         },
         {
@@ -564,13 +564,13 @@
         {
           "position": 11,
           "team": "MTG 7er",
-          "played": 7,
+          "played": 8,
           "wins": 0,
           "draws": 3,
-          "losses": 4,
-          "gf": 15,
-          "ga": 28,
-          "gd": -13,
+          "losses": 5,
+          "gf": 17,
+          "ga": 33,
+          "gd": -16,
           "points": 3
         }
       ]
@@ -1086,7 +1086,7 @@
     "senior-2026-5-div-kvinner-host-a": {
       "name": "5. div. kvinner høst A",
       "tournamentId": "211227",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-09-29T20:54:53+02:00",
       "standings": [
         {
           "position": 1,
@@ -1582,7 +1582,7 @@
     "senior-2026-6-div-menn-host": {
       "name": "6. div. menn høst",
       "tournamentId": "209877",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-09-29T20:54:53+02:00",
       "standings": [
         {
           "position": 1,
@@ -2042,7 +2042,7 @@
     "senior-2026-7-div-menn-host-1": {
       "name": "7. div. menn høst avd. 1",
       "tournamentId": "210497",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-09-29T20:54:53+02:00",
       "standings": [
         {
           "position": 1,

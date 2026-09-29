@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-09-29T16:12:05+02:00",
+  "generatedAt": "2026-09-29T20:55:06+02:00",
   "matches": [
-    {
-      "date": "2026-09-29",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Tjørvåg stadion",
-      "home": "MTG 7er",
-      "away": "HaNo/Lepsøy/Harøy 9er",
-      "matchNumber": "23214107036",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200068"
-    },
-    {
-      "date": "2026-09-29",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Skodje kunstgras 9er A",
-      "home": "Skodje 2 7er",
-      "away": "Ørsta 2 7er",
-      "matchNumber": "23214107037",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200069"
-    },
-    {
-      "date": "2026-09-29",
-      "time": "18:30",
-      "age": "J13",
-      "competition": "J13 7er høst",
-      "venue": "Sæbø kunstgras 9er A",
-      "home": "Sæbø",
-      "away": "Stordal",
-      "matchNumber": "23213702016",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201155"
-    },
     {
       "date": "2026-09-29",
       "time": "19:00",
