@@ -79,16 +79,25 @@ function lockMatchBackground(){
  document.documentElement.classList.add('match-modal-open');
  Object.assign(body.style,{position:'fixed',top:`-${matchBackgroundScroll}px`,left:'0',right:'0',width:'100%',overflow:'hidden'});
 }
+const MATCH_EMBED_SOURCE='bygdebladet-lokalfotball-v1';
+function notifyMatchHost(type){
+ if(window.parent!==window)window.parent.postMessage({source:MATCH_EMBED_SOURCE,type},'*');
+}
+window.addEventListener('message',e=>{
+ if(e.source!==window.parent||e.data?.source!==MATCH_EMBED_SOURCE||e.data?.type!=='match-activated')return;
+ if($('#matchDialog').open)document.documentElement.classList.add('match-embedded-fullscreen');
+});
 function unlockMatchBackground(){
  if(!matchBackgroundStyles)return;
  const body=document.body;
  Object.assign(body.style,matchBackgroundStyles);
  matchBackgroundStyles=null;
- document.documentElement.classList.remove('match-modal-open');
+ document.documentElement.classList.remove('match-modal-open','match-embedded-fullscreen');
  const root=document.documentElement,previousBehavior=root.style.scrollBehavior;
  root.style.scrollBehavior='auto';
  window.scrollTo(0,matchBackgroundScroll);
  root.style.scrollBehavior=previousBehavior;
+ notifyMatchHost('match-close');
 }
 function openMatch(id){
  const m=matches.find(x=>x.id===id);if(!m)return;
@@ -101,6 +110,7 @@ function openMatch(id){
  lockMatchBackground();
  dialog.showModal();
  dialog.scrollTop=0;
+ notifyMatchHost('match-open');
 }
 async function json(p){const r=await fetch(`${p}?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(p);return r.json()}
 async function init(){const [d,u,l,c,r,p,ed]=await Promise.all(['data/matches.json','data/upcoming.json','data/team-logos.json','data/competitions.json','data/reports.json','data/photos.json','data/editorial-reports.json'].map(x=>x==='data/editorial-reports.json'?json(x).catch(()=>({reports:{}})):json(x)));editorial=ed||{reports:{}};matches=(d.matches||[]).filter(youth).filter(m=>Number.isFinite(m.homeScore)&&Number.isFinite(m.awayScore)).sort((a,b)=>`${b.date}${b.time}`.localeCompare(`${a.date}${a.time}`));upcoming=(u.matches||[]).filter(youth);logos=l.logos||{};competitions=c||{competitions:{}};reports=r||{reports:{}};photos=p||{photos:{}};$('#lastUpdated').textContent=new Intl.DateTimeFormat('nn-NO',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(d.generatedAt));if(d.photoSubmitUrl&&d.photoSubmitUrl!=='#'){$('#photoSubmitLink').href=d.photoSubmitUrl;$('#photoSubmitLink').target='_blank'}renderUpcoming();renderHero();renderFilters();renderMatches();$('#ageFilter').onchange=renderMatches;$('#clubFilter').onchange=renderMatches;$$('[data-period]').forEach(b=>b.onclick=()=>{$$('[data-period]').forEach(x=>x.classList.remove('active'));b.classList.add('active');period=b.dataset.period;renderMatches()});$('#matchDialog').addEventListener('close',unlockMatchBackground);$('#dialogClose').onclick=()=>$('#matchDialog').close();$('#matchDialog').onclick=e=>{if(e.target===$('#matchDialog'))$('#matchDialog').close()}}
