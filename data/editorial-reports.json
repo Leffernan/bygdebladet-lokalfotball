@@ -1,6 +1,24 @@
 {
   "version": 3,
   "reports": {
+    "15120700032": {
+      "title": "Vågstranda vann 4–3 mot Eresfjord og Vistdal/Langfjorden",
+      "lead": "Vågstranda vann 4–3 mot Eresfjord og Vistdal/Langfjorden i Menn 7-er.",
+      "paragraphs": [
+        "Bjørn Lucas Da Silva Nerland gav Vågstranda leiinga i det 6. minuttet.",
+        "Niklas Gordon Ulvestad Frostad auka til 2–0 for Vågstranda i det 11. minuttet.",
+        "Til pause stod det 2–0.",
+        "Andreas Leikarnes Villa auka til 3–0 for Vågstranda i det 40. minuttet.",
+        "Oskar Alstad reduserte til 3–1 for Eresfjord og Vistdal/Langfjorden i det 41. minuttet.",
+        "Sturle Starheim reduserte til 3–2 for Eresfjord og Vistdal/Langfjorden i det 42. minuttet.",
+        "Oskar Alstad utlikna til 3–3 for Eresfjord og Vistdal/Langfjorden i det 53. minuttet.",
+        "Viacheslav Starkov-Budanov sende Vågstranda i leiinga i det 55. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23214107036": {
       "title": "Fire mål av Pia Fjørtoft då HaNo/Lepsøy/Harøy 9er vann",
       "lead": "HaNo/Lepsøy/Harøy 9er vann 5–2 mot MTG 7er i J15 3. div høst. Pia Fjørtoft skåra fire av måla.",

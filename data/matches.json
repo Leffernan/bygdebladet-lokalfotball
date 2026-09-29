@@ -1,7 +1,189 @@
 {
-  "generatedAt": "2026-09-29T20:55:06+02:00",
+  "generatedAt": "2026-09-30T00:49:36+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9042920",
+      "fiksId": "9042920",
+      "matchNumber": "15120700032",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042920",
+      "date": "2026-09-29",
+      "time": "19:00",
+      "age": "MENN",
+      "competition": "Menn 7-er",
+      "competitionId": "senior-2026-menn-7er-romsdal",
+      "venue": "Vågen Arena",
+      "home": "Vågstranda",
+      "away": "Eresfjord og Vistdal/Langfjorden",
+      "homeScore": 4,
+      "awayScore": 3,
+      "halfTime": "2–0",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Bjørn Lucas Da Silva Nerland",
+          "label": "Spillemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Niklas Gordon Ulvestad Frostad",
+          "label": "Spillemål",
+          "minute": 11
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Leikarnes Villa",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Oskar Alstad",
+          "label": "Spillemål",
+          "minute": 41
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sturle Starheim",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Oskar Alstad",
+          "label": "Spillemål",
+          "minute": 53
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Viacheslav Starkov-Budanov",
+          "label": "Spillemål",
+          "minute": 55
+        },
+        {
+          "type": "red_card",
+          "team": "home",
+          "player": "Eskild Svendson",
+          "label": "Utvisning",
+          "minute": 56
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Atle Oterhals"
+      },
+      "referee": "Atle Oterhals",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Eskild Svendson"
+            },
+            {
+              "number": 4,
+              "name": "Theodor Ekroll"
+            },
+            {
+              "number": 7,
+              "name": "Viacheslav Starkov-Budanov"
+            },
+            {
+              "number": 16,
+              "name": "Ciljan Pedersen Svendson"
+            },
+            {
+              "number": 3,
+              "name": "Einar Johnsen Vike"
+            },
+            {
+              "number": 8,
+              "name": "Niklas Gordon Ulvestad Frostad"
+            },
+            {
+              "number": 17,
+              "name": "Marius Myklebust Venanger"
+            }
+          ],
+          "bench": [
+            {
+              "number": 6,
+              "name": "Awet Teshome Gebreab"
+            },
+            {
+              "number": 11,
+              "name": "Andreas Leikarnes Villa"
+            },
+            {
+              "number": 22,
+              "name": "Bjørn Lucas Da Silva Nerland"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Martin Reiten Antonsen"
+            },
+            {
+              "number": 5,
+              "name": "Oskar Mittet"
+            },
+            {
+              "number": 9,
+              "name": "Oskar Alstad"
+            },
+            {
+              "number": 17,
+              "name": "Arne Håkon Sandnes"
+            },
+            {
+              "number": 7,
+              "name": "Audun Elias Lindreitli Dahle"
+            },
+            {
+              "number": 8,
+              "name": "Ola Lange"
+            },
+            {
+              "number": 21,
+              "name": "Sturle Starheim"
+            }
+          ],
+          "bench": [
+            {
+              "number": 3,
+              "name": "Kristian Klokset"
+            },
+            {
+              "number": 10,
+              "name": "Ola Øverås"
+            },
+            {
+              "number": 22,
+              "name": "Gunnar Sandnes Nauste"
+            },
+            {
+              "number": 24,
+              "name": "Arve Svensli Bugge"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9200068",
       "fiksId": "9200068",

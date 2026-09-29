@@ -439,10 +439,22 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-29T20:54:53+02:00",
+      "updatedAt": "2026-09-30T00:49:23+02:00",
       "standings": [
         {
           "position": 1,
+          "team": "Ellingsøy/Vigra/Valder 3",
+          "played": 7,
+          "wins": 6,
+          "draws": 0,
+          "losses": 1,
+          "gf": 32,
+          "ga": 13,
+          "gd": 19,
+          "points": 18
+        },
+        {
+          "position": 2,
           "team": "HaNo/Lepsøy/Harøy 9er",
           "played": 7,
           "wins": 5,
@@ -454,7 +466,7 @@
           "points": 16
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Giske/Øyne 4 9er",
           "played": 7,
           "wins": 5,
@@ -466,7 +478,7 @@
           "points": 16
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Skodje 2 7er",
           "played": 7,
           "wins": 5,
@@ -476,18 +488,6 @@
           "ga": 30,
           "gd": 8,
           "points": 16
-        },
-        {
-          "position": 4,
-          "team": "Ellingsøy/Vigra/Valder 3",
-          "played": 6,
-          "wins": 5,
-          "draws": 0,
-          "losses": 1,
-          "gf": 30,
-          "ga": 13,
-          "gd": 17,
-          "points": 15
         },
         {
           "position": 5,
@@ -540,13 +540,13 @@
         {
           "position": 9,
           "team": "Sykkylven 2",
-          "played": 7,
+          "played": 8,
           "wins": 2,
           "draws": 0,
-          "losses": 5,
+          "losses": 6,
           "gf": 30,
-          "ga": 32,
-          "gd": -2,
+          "ga": 34,
+          "gd": -4,
           "points": 6
         },
         {
@@ -1086,7 +1086,7 @@
     "senior-2026-5-div-kvinner-host-a": {
       "name": "5. div. kvinner høst A",
       "tournamentId": "211227",
-      "updatedAt": "2026-09-29T20:54:53+02:00",
+      "updatedAt": "2026-09-30T00:49:23+02:00",
       "standings": [
         {
           "position": 1,
@@ -1582,7 +1582,7 @@
     "senior-2026-6-div-menn-host": {
       "name": "6. div. menn høst",
       "tournamentId": "209877",
-      "updatedAt": "2026-09-29T20:54:53+02:00",
+      "updatedAt": "2026-09-30T00:49:23+02:00",
       "standings": [
         {
           "position": 1,
@@ -2042,7 +2042,7 @@
     "senior-2026-7-div-menn-host-1": {
       "name": "7. div. menn høst avd. 1",
       "tournamentId": "210497",
-      "updatedAt": "2026-09-29T20:54:53+02:00",
+      "updatedAt": "2026-09-30T00:49:23+02:00",
       "standings": [
         {
           "position": 1,
@@ -2284,7 +2284,7 @@
     "senior-2026-menn-7er-romsdal": {
       "name": "Menn 7-er",
       "tournamentId": "207913",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-09-30T00:49:23+02:00",
       "standings": [
         {
           "position": 1,
@@ -2313,26 +2313,26 @@
         {
           "position": 3,
           "team": "Eresfjord og Vistdal/Langfjorden",
-          "played": 12,
+          "played": 13,
           "wins": 8,
           "draws": 2,
-          "losses": 2,
-          "gf": 50,
-          "ga": 21,
-          "gd": 29,
+          "losses": 3,
+          "gf": 53,
+          "ga": 25,
+          "gd": 28,
           "points": 26
         },
         {
           "position": 4,
           "team": "Malmefjorden 2",
-          "played": 13,
-          "wins": 6,
+          "played": 14,
+          "wins": 7,
           "draws": 1,
           "losses": 6,
-          "gf": 52,
-          "ga": 47,
-          "gd": 5,
-          "points": 19
+          "gf": 60,
+          "ga": 51,
+          "gd": 9,
+          "points": 22
         },
         {
           "position": 5,
@@ -2349,14 +2349,14 @@
         {
           "position": 6,
           "team": "Vågstranda",
-          "played": 11,
-          "wins": 2,
+          "played": 12,
+          "wins": 3,
           "draws": 1,
           "losses": 8,
-          "gf": 32,
-          "ga": 65,
-          "gd": -33,
-          "points": 7
+          "gf": 36,
+          "ga": 68,
+          "gd": -32,
+          "points": 10
         },
         {
           "position": 7,
@@ -2373,13 +2373,13 @@
         {
           "position": 8,
           "team": "Straumsnes",
-          "played": 13,
+          "played": 14,
           "wins": 2,
           "draws": 1,
-          "losses": 10,
-          "gf": 39,
-          "ga": 88,
-          "gd": -49,
+          "losses": 11,
+          "gf": 43,
+          "ga": 96,
+          "gd": -53,
           "points": 7
         }
       ]
