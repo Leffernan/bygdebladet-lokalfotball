@@ -28,6 +28,8 @@
     active = {
       frame,
       frameStyle: frame.getAttribute('style'),
+      popoverAttribute: frame.getAttribute('popover'),
+      popoverOpen: false,
       bodyStyle: body.getAttribute('style'),
       htmlStyle: html.getAttribute('style'),
       scrollY
@@ -49,10 +51,27 @@
       maxWidth: 'none',
       maxHeight: 'none',
       margin: '0',
+      padding: '0',
       border: '0',
+      display: 'block',
+      boxSizing: 'border-box',
       zIndex: '2147483646',
       background: '#F7F3E9'
     });
+
+    // Promote the existing iframe to the browser top layer. Unlike simply
+    // applying position:fixed, this escapes clipped/transformed CMS wrappers
+    // without reparenting or reloading the iframe.
+    if (typeof frame.showPopover === 'function') {
+      try {
+        frame.setAttribute('popover', 'manual');
+        frame.showPopover();
+        active.popoverOpen = true;
+      } catch (error) {
+        // Retain the fixed-position fallback on browsers without usable popovers.
+        restoreAttribute(frame, 'popover', active.popoverAttribute);
+      }
+    }
 
     frame.contentWindow?.postMessage({ source: SOURCE, type: 'match-activated' }, ALLOWED_ORIGIN);
   }
@@ -67,6 +86,10 @@
     const state = active;
     active = null;
 
+    if (state.popoverOpen) {
+      try { state.frame.hidePopover(); } catch (error) { /* Already hidden. */ }
+    }
+    restoreAttribute(state.frame, 'popover', state.popoverAttribute);
     restoreAttribute(state.frame, 'style', state.frameStyle);
     restoreAttribute(document.body, 'style', state.bodyStyle);
     restoreAttribute(document.documentElement, 'style', state.htmlStyle);
