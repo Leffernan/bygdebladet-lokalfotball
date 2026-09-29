@@ -1,0 +1,71 @@
+name: Backfill competition details
+
+on:
+  push:
+    paths:
+      - ".github/workflows/backfill-competition.yml"
+  workflow_dispatch:
+    inputs:
+      competition_key:
+        description: "Competition key to backfill"
+        required: true
+        default: "j13-7er-host"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-sync
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencies
+        run: python -m pip install --disable-pip-version-check --quiet requests beautifulsoup4
+
+      - name: Fetch existing match details
+        env:
+          COMPETITION_KEY: ${{ inputs.competition_key || 'j13-7er-host' }}
+        run: python scripts/backfill_competition_details.py --competition-key "$COMPETITION_KEY"
+
+      - name: Guard goal timeline integrity
+        run: python scripts/goal_timeline_safety.py
+
+      - name: Test editorial rules
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Regenerate reports
+        run: python scripts/editorial_reports.py
+
+      - name: Publish backfilled details
+        shell: bash
+        run: |
+          git add data/matches.json data/engine-state.json data/editorial-reports.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Backfill new competition match details"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main
+            if git push; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "::error::Could not publish backfilled details"
+          exit 1
