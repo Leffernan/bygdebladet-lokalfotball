@@ -99,6 +99,18 @@ function unlockMatchBackground(){
  root.style.scrollBehavior=previousBehavior;
  notifyMatchHost('match-close');
 }
+// Explicitly route wheel input to the match content in fullscreen iframe mode.
+// Some hosts otherwise consume wheel events over the modal while the backdrop works.
+function routeEmbeddedMatchWheel(e){
+ const dialog=$('#matchDialog');
+ if(!dialog.open||!document.documentElement.classList.contains('match-embedded-fullscreen')||e.ctrlKey)return;
+ const content=$('#dialogContent');
+ if(!content)return;
+ if((e.shiftKey||Math.abs(e.deltaX)>Math.abs(e.deltaY))&&e.target.closest('.table-wrap'))return;
+ e.preventDefault();
+ const factor=e.deltaMode===1?16:e.deltaMode===2?content.clientHeight:1;
+ content.scrollTop+=e.deltaY*factor;
+}
 function openMatch(id){
  const m=matches.find(x=>x.id===id);if(!m)return;
  const o=outcome(m),s=editorialStory(m),club=reports.reports?.[String(m.matchNumber)]||reports.reports?.[m.id];
@@ -109,9 +121,9 @@ function openMatch(id){
  const dialog=$('#matchDialog');
  lockMatchBackground();
  dialog.showModal();
- dialog.scrollTop=0;
+ $('#dialogContent').scrollTop=0;
  notifyMatchHost('match-open');
 }
 async function json(p){const r=await fetch(`${p}?v=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw Error(p);return r.json()}
-async function init(){const [d,u,l,c,r,p,ed]=await Promise.all(['data/matches.json','data/upcoming.json','data/team-logos.json','data/competitions.json','data/reports.json','data/photos.json','data/editorial-reports.json'].map(x=>x==='data/editorial-reports.json'?json(x).catch(()=>({reports:{}})):json(x)));editorial=ed||{reports:{}};matches=(d.matches||[]).filter(youth).filter(m=>Number.isFinite(m.homeScore)&&Number.isFinite(m.awayScore)).sort((a,b)=>`${b.date}${b.time}`.localeCompare(`${a.date}${a.time}`));upcoming=(u.matches||[]).filter(youth);logos=l.logos||{};competitions=c||{competitions:{}};reports=r||{reports:{}};photos=p||{photos:{}};$('#lastUpdated').textContent=new Intl.DateTimeFormat('nn-NO',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(d.generatedAt));if(d.photoSubmitUrl&&d.photoSubmitUrl!=='#'){$('#photoSubmitLink').href=d.photoSubmitUrl;$('#photoSubmitLink').target='_blank'}renderUpcoming();renderHero();renderFilters();renderMatches();$('#ageFilter').onchange=renderMatches;$('#clubFilter').onchange=renderMatches;$$('[data-period]').forEach(b=>b.onclick=()=>{$$('[data-period]').forEach(x=>x.classList.remove('active'));b.classList.add('active');period=b.dataset.period;renderMatches()});$('#matchDialog').addEventListener('close',unlockMatchBackground);$('#dialogClose').onclick=()=>$('#matchDialog').close();$('#matchDialog').onclick=e=>{if(e.target===$('#matchDialog'))$('#matchDialog').close()}}
+async function init(){const [d,u,l,c,r,p,ed]=await Promise.all(['data/matches.json','data/upcoming.json','data/team-logos.json','data/competitions.json','data/reports.json','data/photos.json','data/editorial-reports.json'].map(x=>x==='data/editorial-reports.json'?json(x).catch(()=>({reports:{}})):json(x)));editorial=ed||{reports:{}};matches=(d.matches||[]).filter(youth).filter(m=>Number.isFinite(m.homeScore)&&Number.isFinite(m.awayScore)).sort((a,b)=>`${b.date}${b.time}`.localeCompare(`${a.date}${a.time}`));upcoming=(u.matches||[]).filter(youth);logos=l.logos||{};competitions=c||{competitions:{}};reports=r||{reports:{}};photos=p||{photos:{}};$('#lastUpdated').textContent=new Intl.DateTimeFormat('nn-NO',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}).format(new Date(d.generatedAt));if(d.photoSubmitUrl&&d.photoSubmitUrl!=='#'){$('#photoSubmitLink').href=d.photoSubmitUrl;$('#photoSubmitLink').target='_blank'}renderUpcoming();renderHero();renderFilters();renderMatches();$('#ageFilter').onchange=renderMatches;$('#clubFilter').onchange=renderMatches;$$('[data-period]').forEach(b=>b.onclick=()=>{$$('[data-period]').forEach(x=>x.classList.remove('active'));b.classList.add('active');period=b.dataset.period;renderMatches()});$('#matchDialog').addEventListener('close',unlockMatchBackground);$('#matchDialog').addEventListener('wheel',routeEmbeddedMatchWheel,{passive:false});$('#dialogClose').onclick=()=>$('#matchDialog').close();$('#matchDialog').onclick=e=>{if(e.target===$('#matchDialog'))$('#matchDialog').close()}}
 init().catch(e=>{console.error(e);$('#matchList').innerHTML='<div class="empty-state"><strong>Klarte ikkje å laste kampdata.</strong><span>Prøv igjen om litt.</span></div>'});
