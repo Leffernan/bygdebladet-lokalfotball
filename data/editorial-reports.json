@@ -1,6 +1,130 @@
 {
   "version": 3,
   "reports": {
+    "15120501078": {
+      "title": "Vestnes Varfjell vann 4–0 mot Dahle 2",
+      "lead": "Vestnes Varfjell vann 4–0 mot Dahle 2 i 5. div. menn.",
+      "paragraphs": [
+        "Til pause stod det 0–0.",
+        "Didrik Selnes Sæter gav Vestnes Varfjell leiinga i det 64. minuttet.",
+        "Svein Erik Lange Male auka til 0–2 for Vestnes Varfjell i det 68. minuttet.",
+        "Elling Furland Olafsen auka til 0–3 for Vestnes Varfjell i det 90. minuttet.",
+        "Sverre Olgar Lindset auka til 0–4 for Vestnes Varfjell i det 90. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15149017034": {
+      "title": "Albertine Herjehagen avgjorde seint for Langfjorden/Skåla",
+      "lead": "Langfjorden/Skåla vann 2–1 mot Vestnes Varfjell i J14 9er 2.div Avd 2 Høst. Vinnarmålet kom i det 68. minuttet.",
+      "paragraphs": [
+        "Til pause stod det 0–0.",
+        "Klara Eidsvåg Siem gav Langfjorden/Skåla leiinga i det 37. minuttet.",
+        "Anna Kanutte Width-Osdal utlikna til 1–1 for Vestnes Varfjell i det 54. minuttet.",
+        "Albertine Herjehagen skåra vinnarmålet for Langfjorden/Skåla i det 68. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23113126022": {
+      "title": "Aksla 2 vann 3–1 mot Brattvåg 2",
+      "lead": "Aksla 2 vann 3–1 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Gustav Bjørkhaug Henriksen gav Aksla 2 leiinga i det 47. minuttet.",
+        "Wilhelm Eliah Bårdsgjerde auka til 0–2 for Aksla 2 i det 50. minuttet.",
+        "Kevin Bjørshol Skjønberg reduserte til 1–2 for Brattvåg 2 i det 53. minuttet.",
+        "Zeki Furkan Koc auka til 1–3 for Aksla 2 i det 70. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23214107040": {
+      "title": "Elsa Farstad Rogne avgjorde seint for Harøy/HaNo/Lepsøy 2 9er",
+      "lead": "Harøy/HaNo/Lepsøy 2 9er vann 4–3 mot Spjelkavik 2 i J15 3. div høst. Vinnarmålet kom i det 75. minuttet.",
+      "paragraphs": [
+        "Thine Flem gav Harøy/HaNo/Lepsøy 2 9er leiinga i det 9. minuttet.",
+        "Ella Lovise Moldvær Rokstad utlikna til 1–1 for Spjelkavik 2 i det 33. minuttet.",
+        "Til pause stod det 1–1.",
+        "Elisa Belen Røsok sende Harøy/HaNo/Lepsøy 2 9er i leiinga i det 52. minuttet.",
+        "Elena Sofie Gåseidnes Tangen utlikna til 2–2 for Spjelkavik 2 i det 55. minuttet.",
+        "Vilde Sjåstad Stølan sende Spjelkavik 2 i leiinga i det 58. minuttet.",
+        "Elsa Farstad Rogne utlikna til 3–3 for Harøy/HaNo/Lepsøy 2 9er i det 72. minuttet.",
+        "Elsa Farstad Rogne skåra vinnarmålet for Harøy/HaNo/Lepsøy 2 9er i det 75. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120604040": {
+      "title": "Sula snudde kampen og vann 3–2",
+      "lead": "Sula vann 3–2 mot Norborg i 6. div. menn høst. Sula måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Tobias Vedlog Skare gav Sula leiinga i det 13. minuttet.",
+        "Robert Constantin Dulgheru utlikna til 1–1 for Norborg i det 45. minuttet.",
+        "Til pause stod det 1–1.",
+        "Niklas Rekdal sende Norborg i leiinga i det 48. minuttet.",
+        "William Nesseth Iversen Breivik utlikna til 2–2 for Sula i det 58. minuttet.",
+        "Jonas Karlsbakk sende Sula i leiinga i det 82. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001040": {
+      "title": "Valldal vann 3–1 mot Brattvåg 3",
+      "lead": "Valldal vann 3–1 mot Brattvåg 3 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Tobias Johnsen Grønmo gav Valldal leiinga i det 23. minuttet.",
+        "Magnus Kaldhusdal auka til 2–0 for Valldal i det 36. minuttet.",
+        "Til pause stod det 2–0.",
+        "Kevin Kajendran reduserte til 2–1 for Brattvåg 3 i det 65. minuttet.",
+        "Olai Hjelle Reiten auka til 3–1 for Valldal i det 80. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001036": {
+      "title": "Skodje vann stort mot Harøy/Lepsøy/HaNo 2",
+      "lead": "Skodje vann 6–1 mot Harøy/Lepsøy/HaNo 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Sondre Sandnes Beite gav Skodje leiinga i det 10. minuttet.",
+        "Sondre Sandnes Beite auka til 2–0 for Skodje i det 13. minuttet.",
+        "Levi Raanes Ludvigsen auka til 3–0 for Skodje i det 37. minuttet.",
+        "Til pause stod det 3–0.",
+        "Alexander Engebretsen Jensen auka til 4–0 for Skodje i det 75. minuttet.",
+        "Eirik Eivindsen Haugen reduserte til 4–1 for Harøy/Lepsøy/HaNo 2 i det 76. minuttet.",
+        "Jesper Gundersen auka til 5–1 for Skodje i det 82. minuttet.",
+        "Martin Buset Knudsen auka til 6–1 for Skodje i det 85. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001039": {
+      "title": "Sykkylven 2 snudde kampen og vann 2–1",
+      "lead": "Sykkylven 2 vann 2–1 mot Ørskog/Stordal 2 i 7. div. menn høst avd. 1. Sykkylven 2 måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Isak Søvik Benjaminsen gav Ørskog/Stordal 2 leiinga i det 9. minuttet.",
+        "Jonathan Klokk Eidset utlikna til 1–1 for Sykkylven 2 i det 40. minuttet.",
+        "Til pause stod det 1–1.",
+        "Martin Liseth Pedersen sende Sykkylven 2 i leiinga i det 61. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "15120700032": {
       "title": "Vågstranda vann 4–3 mot Eresfjord og Vistdal/Langfjorden",
       "lead": "Vågstranda vann 4–3 mot Eresfjord og Vistdal/Langfjorden i Menn 7-er.",
