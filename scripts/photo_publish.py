@@ -22,7 +22,6 @@ LABEL_DATE = "Dato for kampen"
 LABEL_PHOTOGRAPHER = "Kven har tatt bildet?"
 LABEL_FILE = "Last opp bilde"
 LABEL_CAPTION = "Bildetekst / kven er på bildet?"
-LABEL_RIGHTS = "Rett til publisering"
 
 
 def load_json(path: Path, default):
@@ -185,12 +184,6 @@ def file_items(value):
     return out
 
 
-def has_rights(value):
-    if isinstance(value, list):
-        value = " ".join(str(x) for x in value)
-    return "stadfestar" in norm(value) and "publisering" in norm(value)
-
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--submission-id", required=True)
@@ -207,10 +200,6 @@ def main():
         raise SystemExit("Submission is not completed.")
 
     flat, _ = flatten_answers(doc)
-    rights = answer_by_label(flat, LABEL_RIGHTS)
-    if rights is not None and not has_rights(rights):
-        raise SystemExit("Publication rights confirmation is missing.")
-
     matches_doc = load_json(MATCHES_PATH, {"matches": []})
     match = resolve_match(matches_doc.get("matches", []), flat, args.match_number)
     match_number = str(match.get("matchNumber") or match.get("id"))
