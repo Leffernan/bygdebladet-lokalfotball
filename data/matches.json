@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T09:28:05+02:00",
+  "generatedAt": "2026-09-30T16:08:01+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -588,6 +588,105 @@
         }
       },
       "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9233565",
+      "fiksId": "9233565",
+      "matchNumber": "23220602008",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9233565",
+      "date": "2026-09-28",
+      "time": "19:00",
+      "age": "KVINNER",
+      "competition": "5. div. kvinner høst A",
+      "competitionId": "senior-2026-5-div-kvinner-host-a",
+      "venue": "Kirkebø stadion KGB",
+      "home": "Stordal/Ørskog/Skodje",
+      "away": "MTG",
+      "homeScore": 3,
+      "awayScore": 0,
+      "halfTime": null,
+      "localTeam": "home",
+      "events": [],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Abubakar Abdullahi Ali"
+      },
+      "referee": "Abubakar Abdullahi Ali",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Andrine Valde Viset"
+            },
+            {
+              "number": 5,
+              "name": "Jeanette Kristiansen"
+            },
+            {
+              "number": 15,
+              "name": "Hedda Nicolaisen Saure"
+            },
+            {
+              "number": 16,
+              "name": "Astrid Larsen Stavseng"
+            },
+            {
+              "number": 18,
+              "name": "Sofie Jialin Hove Lirhus"
+            },
+            {
+              "number": 21,
+              "name": "Linnea Sjøholt Alstadsæter"
+            },
+            {
+              "number": 6,
+              "name": "Ingrid Lunde Hofseth"
+            },
+            {
+              "number": 8,
+              "name": "Saga Øvrebust Olsen"
+            },
+            {
+              "number": 9,
+              "name": "Marthe Færøy Stavseng"
+            },
+            {
+              "number": 11,
+              "name": "Celina Nes"
+            },
+            {
+              "number": 20,
+              "name": "Selma Midtbust-Dyrkorn"
+            }
+          ],
+          "bench": [
+            {
+              "number": 24,
+              "name": "Thea Karoline Drønnesund"
+            },
+            {
+              "number": 7,
+              "name": "Lilly Renate Kobbevik Uren"
+            },
+            {
+              "number": 19,
+              "name": "Hanna Øie"
+            },
+            {
+              "number": 22,
+              "name": "Martine Støversten Vassbotn"
+            },
+            {
+              "number": 26,
+              "name": "Susanna Marie Tafjord"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": false
     },
     {
       "id": "match-9204253",
