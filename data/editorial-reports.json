@@ -141,17 +141,6 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
-    "15120501072": {
-      "title": "Hjelset-Kleive vann 2–0 mot Måndalen",
-      "lead": "Hjelset-Kleive vann 2–0 mot Måndalen i 5. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
     "15120700051": {
       "title": "Straumsnes vann 3–2 mot Fiksdal/Rekdal",
       "lead": "Straumsnes vann 3–2 mot Fiksdal/Rekdal i Menn 7-er.",
@@ -432,17 +421,6 @@
       "mode": "automatic",
       "basis": "NFF-kampdata",
       "completeGoalTimeline": true,
-      "generatorVersion": 3
-    },
-    "15120501066": {
-      "title": "Måndalen vann 5–3 mot Dahle 2",
-      "lead": "Måndalen vann 5–3 mot Dahle 2 i 5. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
       "generatorVersion": 3
     },
     "15120700047": {
@@ -914,17 +892,6 @@
     "15120501064": {
       "title": "Bud/Bryn vann 2–0 mot Vestnes Varfjell",
       "lead": "Bud/Bryn vann 2–0 mot Vestnes Varfjell i 5. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
-    "15120501063": {
-      "title": "Batnfjord vann 3–1 mot Måndalen",
-      "lead": "Batnfjord vann 3–1 mot Måndalen i 5. div. menn.",
       "paragraphs": [
         "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
       ],
@@ -1656,17 +1623,6 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
-    "15120501054": {
-      "title": "Bud/Bryn vann stort mot Måndalen",
-      "lead": "Bud/Bryn vann 6–1 mot Måndalen i 5. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
     "23113126009": {
       "title": "Hareid 2 vann 4–1 mot Skodje",
       "lead": "Hareid 2 vann 4–1 mot Skodje i G13 3. div avd. 2 høst.",
@@ -2118,17 +2074,6 @@
     "23120401076": {
       "title": "Hovdebygda vann 3–2 mot Stordal",
       "lead": "Hovdebygda vann 3–2 mot Stordal i 4. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
-    "15120501050": {
-      "title": "Måndalen vann 2–0 mot Nordlandet/Frei",
-      "lead": "Måndalen vann 2–0 mot Nordlandet/Frei i 5. div. menn.",
       "paragraphs": [
         "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
       ],
@@ -2649,17 +2594,6 @@
       "completeGoalTimeline": false,
       "generatorVersion": 3
     },
-    "15120501041": {
-      "title": "Molde 3 vann stort mot Måndalen",
-      "lead": "Molde 3 vann 9–1 mot Måndalen i 5. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
     "23120501059": {
       "title": "Stranda vann 4–2 mot HaNo",
       "lead": "Stranda vann 4–2 mot HaNo i 5. div. menn.",
@@ -2685,17 +2619,6 @@
     "99120201077": {
       "title": "Jerv vann 2–1 mot Brattvåg",
       "lead": "Jerv vann 2–1 mot Brattvåg i 2. divisjon menn avd. 1.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
-    "15120501036": {
-      "title": "Måndalen vann 3–0 mot Kårvåg/Havørn/Averøykameratene",
-      "lead": "Måndalen vann 3–0 mot Kårvåg/Havørn/Averøykameratene i 5. div. menn.",
       "paragraphs": [
         "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
       ],
@@ -2806,17 +2729,6 @@
     "99120201065": {
       "title": "Brattvåg vann 1–0 mot Sotra",
       "lead": "Brattvåg vann 1–0 mot Sotra i 2. divisjon menn avd. 1.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
-    "15120501031": {
-      "title": "Malmefjorden vann 5–2 mot Måndalen",
-      "lead": "Malmefjorden vann 5–2 mot Måndalen i 5. div. menn.",
       "paragraphs": [
         "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
       ],
@@ -3188,17 +3100,6 @@
       "completeGoalTimeline": false,
       "generatorVersion": 3
     },
-    "15120501027": {
-      "title": "Måndalen vann 1–0 mot Hjelset-Kleive",
-      "lead": "Måndalen vann 1–0 mot Hjelset-Kleive i 5. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
     "23120401041": {
       "title": "Brattvåg 2 vann 1–0 mot Ravn",
       "lead": "Brattvåg 2 vann 1–0 mot Ravn i 4. div. menn.",
@@ -3312,17 +3213,6 @@
     "23120603034": {
       "title": "Skodje vann 5–4 mot Harøy/Lepsøy/HaNo 2",
       "lead": "Skodje vann 5–4 mot Harøy/Lepsøy/HaNo 2 i 6. div. menn vår avd. 3.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
-    "15120501021": {
-      "title": "Dahle 2 vann 4–1 mot Måndalen",
-      "lead": "Dahle 2 vann 4–1 mot Måndalen i 5. div. menn.",
       "paragraphs": [
         "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
       ],
@@ -3510,17 +3400,6 @@
     "99120201046": {
       "title": "Brattvåg vann 6–2 mot Bjarg",
       "lead": "Brattvåg vann 6–2 mot Bjarg i 2. divisjon menn avd. 1.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
-    "15120501018": {
-      "title": "Batnfjord vann 3–1 mot Måndalen",
-      "lead": "Batnfjord vann 3–1 mot Måndalen i 5. div. menn.",
       "paragraphs": [
         "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
       ],
@@ -4002,17 +3881,6 @@
       "completeGoalTimeline": false,
       "generatorVersion": 3
     },
-    "15120501009": {
-      "title": "Bud/Bryn vann 1–0 mot Måndalen",
-      "lead": "Bud/Bryn vann 1–0 mot Måndalen i 5. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
     "15220701003": {
       "title": "Malmefjorden vann 3–0 mot Tomrefjord",
       "lead": "Malmefjorden vann 3–0 mot Tomrefjord i Kvinner 7-er.",
@@ -4137,17 +4005,6 @@
     "15120501002": {
       "title": "Vestnes Varfjell vann stort mot Kårvåg/Havørn/Averøykameratene",
       "lead": "Vestnes Varfjell vann 6–0 mot Kårvåg/Havørn/Averøykameratene i 5. div. menn.",
-      "paragraphs": [
-        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
-      ],
-      "mode": "automatic",
-      "basis": "NFF-kampdata",
-      "completeGoalTimeline": false,
-      "generatorVersion": 3
-    },
-    "15120501005": {
-      "title": "Nordlandet/Frei vann 5–2 mot Måndalen",
-      "lead": "Nordlandet/Frei vann 5–2 mot Måndalen i 5. div. menn.",
       "paragraphs": [
         "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
       ],

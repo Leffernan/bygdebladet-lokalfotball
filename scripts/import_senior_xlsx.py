@@ -29,7 +29,7 @@ SOURCES = [
     ("6. div. menn avd. 3 vår", "6-div-menn-var-3", "6. div. menn vår avd. 3", "207729", "MENN", "Sunnmøre", {"Norborg", "Ravn 2", "Harøy/Lepsøy/HaNo 2", "Skodje"}),
     ("6. div. menn høst", "6-div-menn-host", "6. div. menn høst", "209877", "MENN", "Sunnmøre", {"Norborg"}),
     ("7. div. høst", "7-div-menn-host-1", "7. div. menn høst avd. 1", "210497", "MENN", "Sunnmøre", {"Harøy/Lepsøy/HaNo 2", "Valldal", "Ørskog/Stordal 2", "Ravn 2", "Brattvåg 3", "Skodje"}),
-    ("5.div Menn", "5-div-menn-romsdal", "5. div. menn", "205959", "MENN", "Nordmøre og Romsdal", {"Vestnes Varfjell", "Måndalen"}),
+    ("5.div Menn", "5-div-menn-romsdal", "5. div. menn", "205959", "MENN", "Nordmøre og Romsdal", {"Vestnes Varfjell"}),
     ("6.div Menn avd 03", "6-div-menn-romsdal-3", "6. div. menn avd. 3", "207814", "MENN", "Nordmøre og Romsdal", {"Tomrefjord"}),
     ("Menn 7er", "menn-7er-romsdal", "Menn 7-er", "207913", "MENN", "Nordmøre og Romsdal", {"Fiksdal/Rekdal", "Vågstranda"}),
     ("Kvinner 7er", "kvinner-7er-romsdal", "Kvinner 7-er", "208149", "KVINNER", "Nordmøre og Romsdal", {"Tomrefjord"}),

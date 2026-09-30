@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T03:39:42+02:00",
+  "generatedAt": "2026-09-30T08:35:33+02:00",
   "matches": [
     {
       "date": "2026-09-30",
@@ -225,17 +225,6 @@
       "date": "2026-10-03",
       "time": "14:00",
       "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Måndalen stadion",
-      "home": "Måndalen",
-      "away": "Malmefjorden",
-      "matchNumber": "15120501076",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991167"
-    },
-    {
-      "date": "2026-10-03",
-      "time": "14:00",
-      "age": "MENN",
       "competition": "6. div. menn avd. 3",
       "venue": "Isfjorden stadion",
       "home": "Isfjorden",
@@ -308,17 +297,6 @@
       "away": "Vestnes Varfjell",
       "matchNumber": "15120501083",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991174"
-    },
-    {
-      "date": "2026-10-10",
-      "time": "14:00",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Kårvåg stadion",
-      "home": "Kårvåg/Havørn/Averøykameratene",
-      "away": "Måndalen",
-      "matchNumber": "15120501081",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991172"
     },
     {
       "date": "2026-10-10",
@@ -616,17 +594,6 @@
       "away": "Malmefjorden",
       "matchNumber": "15120501088",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991179"
-    },
-    {
-      "date": "2026-10-17",
-      "time": "14:00",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Måndalen stadion",
-      "home": "Måndalen",
-      "away": "Molde 3",
-      "matchNumber": "15120501086",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991177"
     },
     {
       "date": "2026-10-17",

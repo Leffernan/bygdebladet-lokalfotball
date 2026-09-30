@@ -29,22 +29,30 @@ def main():
     with gzip.open(DATA / "fixture_schedule.csv.gz", "rt", encoding="utf-8", newline="") as fh:
         fixtures = list(csv.DictReader(fh))
     for r in fixtures:
-        if r["age"] not in {"MENN", "KVINNER"} or not r["localTeam"]:
+        if r["age"] not in {"MENN", "KVINNER"}:
             continue
         number = r["matchNumber"]
+        if not r["localTeam"]:
+            existing.pop(number, None)
+            future.pop(number, None)
+            continue
         url = f"https://www.fotball.no/fotballdata/turnering/hjem/?fiksId={r['tournamentId']}"
         score = re.fullmatch(r"(\d+)-(\d+)", r["seedResult"])
         common = {k: r[k] for k in ("date", "time", "age", "competition", "home", "away", "matchNumber", "localTeam")}
         common.update(competitionId=r["competitionKey"], venue=r["venue"], sourceUrl=url)
         if score:
-            existing[number] = {
-                "id": f"match-{number}", "fiksId": None, **common,
-                "homeScore": int(score[1]), "awayScore": int(score[2]),
-                "halfTime": None, "events": [], "summary": None,
-                "nextMatch": None, "source": "fotball.no",
-            }
-        elif datetime.fromisoformat(r["date"] + "T" + r["time"]).replace(tzinfo=now.tzinfo) >= now - timedelta(hours=2):
-            future[number] = {k: v for k, v in common.items() if k != "localTeam"}
+            if number in existing:
+                existing[number]["localTeam"] = r["localTeam"]
+            else:
+                existing[number] = {
+                    "id": f"match-{number}", "fiksId": None, **common,
+                    "homeScore": int(score[1]), "awayScore": int(score[2]),
+                    "halfTime": None, "events": [], "summary": None,
+                    "nextMatch": None, "source": "fotball.no",
+                }
+            future.pop(number, None)
+        elif number not in existing and datetime.fromisoformat(r["date"] + "T" + r["time"]).replace(tzinfo=now.tzinfo) >= now - timedelta(hours=2):
+            future.setdefault(number, {k: v for k, v in common.items() if k != "localTeam"})
     results["matches"] = sorted(existing.values(), key=lambda m: (m["date"], m.get("time") or ""), reverse=True)
     upcoming["matches"] = sorted(future.values(), key=lambda m: (m["date"], m.get("time") or ""))
     results["generatedAt"] = upcoming["generatedAt"] = now.isoformat(timespec="seconds")
