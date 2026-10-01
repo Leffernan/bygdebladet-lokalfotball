@@ -1,6 +1,142 @@
 {
   "version": 3,
   "reports": {
+    "23113126024": {
+      "title": "Skodje vann 4–2 mot Hareid 2",
+      "lead": "Skodje vann 4–2 mot Hareid 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Johan Ekrem Lillebø gav Skodje leiinga i det 8. minuttet.",
+        "Torkil Jessen utlikna til 1–1 for Hareid 2 i det 38. minuttet.",
+        "Til pause stod det 1–1.",
+        "David Lid Bozkurt sende Skodje i leiinga i det 50. minuttet.",
+        "Christian Solholm auka til 1–3 for Skodje i det 60. minuttet.",
+        "Christian Solholm auka til 1–4 for Skodje i det 64. minuttet.",
+        "Torkil Jessen reduserte til 2–4 for Hareid 2 i det 70. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15220701076": {
+      "title": "Averøykameratene/Kårvåg/Havørn snudde kampen og vann 4–1",
+      "lead": "Averøykameratene/Kårvåg/Havørn vann 4–1 mot Tomrefjord i Kvinner 7-er. Averøykameratene/Kårvåg/Havørn måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Hedda Eikebø-Amdam gav Tomrefjord leiinga i det 7. minuttet.",
+        "Eit sjølvmål frå Tomrefjord i det 22. minuttet gav Averøykameratene/Kårvåg/Havørn utlikninga til 1–1.",
+        "Til pause stod det 1–1.",
+        "Hanne Elise Vikene Nedal sende Averøykameratene/Kårvåg/Havørn i leiinga i det 31. minuttet.",
+        "Milla Istad Smenes auka til 3–1 for Averøykameratene/Kårvåg/Havørn i det 34. minuttet.",
+        "Milla Istad Smenes auka til 4–1 for Averøykameratene/Kårvåg/Havørn i det 51. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23113123033": {
+      "title": "Hattrick av Mohamad Ahmad Alosman då Rollon/Guard vann",
+      "lead": "Rollon/Guard vann 9–0 mot Brattvåg i G13 1. div høst. Mohamad Ahmad Alosman skåra tre av måla.",
+      "paragraphs": [
+        "Matheo Balsnes gav Rollon/Guard leiinga i det 5. minuttet.",
+        "Mohamad Ahmad Alosman auka til 0–2 for Rollon/Guard i det 12. minuttet.",
+        "Ohad Kikyarito auka til 0–3 for Rollon/Guard i det 25. minuttet.",
+        "Adams Stals auka til 0–4 for Rollon/Guard i det 29. minuttet.",
+        "Rollon/Guard auka leiinga til 0–5 i det 39. minuttet.",
+        "Mohamad Ahmad Alosman auka til 0–6 for Rollon/Guard i det 42. minuttet.",
+        "Mohamad Ahmad Alosman auka til 0–7 for Rollon/Guard i det 46. minuttet.",
+        "Matheo Balsnes auka til 0–8 for Rollon/Guard i det 49. minuttet.",
+        "Rollon/Guard auka leiinga til 0–9 i det 59. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23113123034": {
+      "title": "Langevåg vann 4–1 mot Ravn/Norborg",
+      "lead": "Langevåg vann 4–1 mot Ravn/Norborg i G13 1. div høst.",
+      "paragraphs": [
+        "Robin Ahmadi gav Langevåg leiinga i det 13. minuttet.",
+        "Ravn/Norborg utlikna til 1–1 i det 14. minuttet.",
+        "Til pause stod det 1–1.",
+        "Mitan Alahmad sende Langevåg i leiinga i det 55. minuttet.",
+        "William Hoff auka til 3–1 for Langevåg i det 65. minuttet.",
+        "Langevåg auka leiinga til 4–1 i det 69. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401112": {
+      "title": "Ravn snudde kampen og vann 5–2",
+      "lead": "Ravn vann 5–2 mot Langevåg i 4. div. menn. Ravn måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Marco Slyngstad Sandvik gav Langevåg leiinga i det 5. minuttet.",
+        "Eit sjølvmål frå Langevåg i det 28. minuttet gav Ravn utlikninga til 1–1.",
+        "Nikolas Arne Fjørtoft sende Ravn i leiinga i det 37. minuttet.",
+        "Til pause stod det 1–2.",
+        "Marco Slyngstad Sandvik utlikna til 2–2 for Langevåg i det 53. minuttet.",
+        "Nikolas Arne Fjørtoft sende Ravn i leiinga i det 61. minuttet.",
+        "Nikolas Arne Fjørtoft auka til 2–4 for Ravn i det 81. minuttet.",
+        "Tobias Aarseth Heggem auka til 2–5 for Ravn i det 90. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23220410079": {
+      "title": "HaNo vann 4–1 mot Ørsta",
+      "lead": "HaNo vann 4–1 mot Ørsta i 4. div. kvinner.",
+      "paragraphs": [
+        "Elsa Farstad Rogne gav HaNo leiinga i det 8. minuttet.",
+        "Til pause stod det 1–0.",
+        "Line Flem auka til 2–0 for HaNo i det 70. minuttet.",
+        "Elen Flem Øye reduserte til 2–1 for Ørsta i det 76. minuttet.",
+        "Elsa Farstad Rogne auka til 3–1 for HaNo i det 85. minuttet.",
+        "Ingrid Uri Standal auka til 4–1 for HaNo i det 88. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23220602003": {
+      "title": "Fire mål av Selma Midtbust-Dyrkorn då Stordal/Ørskog/Skodje vann",
+      "lead": "Stordal/Ørskog/Skodje vann 6–1 mot Valder/Øyne i 5. div. kvinner høst A. Selma Midtbust-Dyrkorn skåra fire av måla.",
+      "paragraphs": [
+        "Hanna Øie gav Stordal/Ørskog/Skodje leiinga i det 10. minuttet.",
+        "Selma Midtbust-Dyrkorn auka til 2–0 for Stordal/Ørskog/Skodje i det 31. minuttet.",
+        "Selma Midtbust-Dyrkorn auka til 3–0 for Stordal/Ørskog/Skodje i det 53. minuttet.",
+        "Selma Midtbust-Dyrkorn auka til 4–0 for Stordal/Ørskog/Skodje i det 56. minuttet.",
+        "Selma Midtbust-Dyrkorn auka til 5–0 for Stordal/Ørskog/Skodje i det 63. minuttet.",
+        "Susanna Marie Tafjord auka til 6–0 for Stordal/Ørskog/Skodje i det 64. minuttet.",
+        "Eline Gidske reduserte til 6–1 for Valder/Øyne i det 73. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23116124031": {
+      "title": "HaNo/Harøy/Lepsøy vann stort mot Herd",
+      "lead": "HaNo/Harøy/Lepsøy vann 6–0 mot Herd i G16 2. div høst.",
+      "paragraphs": [
+        "Markus Steinshamn gav HaNo/Harøy/Lepsøy leiinga i det 1. minuttet.",
+        "Andreas Silseth Harnes auka til 0–2 for HaNo/Harøy/Lepsøy i det 15. minuttet.",
+        "Liam Morsund Buchinski auka til 0–3 for HaNo/Harøy/Lepsøy i det 38. minuttet.",
+        "Andreas Silseth Harnes auka til 0–4 for HaNo/Harøy/Lepsøy i det 39. minuttet.",
+        "Til pause stod det 0–4.",
+        "Markus Fjørtoft auka til 0–5 for HaNo/Harøy/Lepsøy i det 52. minuttet.",
+        "Nathaniel Szmyd auka til 0–6 for HaNo/Harøy/Lepsøy i det 62. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "15120501078": {
       "title": "Vestnes Varfjell vann 4–0 mot Dahle 2",
       "lead": "Vestnes Varfjell vann 4–0 mot Dahle 2 i 5. div. menn.",
