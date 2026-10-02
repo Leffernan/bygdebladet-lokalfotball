@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-10-02T18:42:35+02:00",
+  "generatedAt": "2026-10-02T23:00:33+02:00",
   "matches": [
-    {
-      "date": "2026-10-02",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "4. div. menn",
-      "venue": "Brattvåg kunstgress",
-      "home": "Brattvåg 2",
-      "away": "Rollon",
-      "matchNumber": "23120401111",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983869"
-    },
-    {
-      "date": "2026-10-02",
-      "time": "19:00",
-      "age": "MENN",
-      "competition": "4. div. menn",
-      "venue": "Høddvoll",
-      "home": "Hødd 2",
-      "away": "Stordal",
-      "matchNumber": "23120401113",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983871"
-    },
     {
       "date": "2026-10-03",
       "time": "13:00",

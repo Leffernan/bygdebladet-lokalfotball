@@ -935,79 +935,79 @@
     "senior-2026-4-div-menn-sunnmore": {
       "name": "4. div. menn",
       "tournamentId": "205682",
-      "updatedAt": "2026-10-01T22:33:08+02:00",
+      "updatedAt": "2026-10-02T23:00:22+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Stordal",
-          "played": 18,
-          "wins": 12,
+          "played": 19,
+          "wins": 13,
           "draws": 3,
           "losses": 3,
-          "gf": 49,
-          "ga": 16,
-          "gd": 33,
-          "points": 39
+          "gf": 51,
+          "ga": 17,
+          "gd": 34,
+          "points": 42
         },
         {
           "position": 2,
-          "team": "Rollon",
-          "played": 18,
+          "team": "Hareid",
+          "played": 19,
           "wins": 11,
-          "draws": 3,
+          "draws": 4,
           "losses": 4,
-          "gf": 62,
-          "ga": 34,
-          "gd": 28,
-          "points": 36
+          "gf": 55,
+          "ga": 33,
+          "gd": 22,
+          "points": 37
         },
         {
           "position": 3,
-          "team": "Hareid",
-          "played": 18,
-          "wins": 10,
-          "draws": 4,
-          "losses": 4,
-          "gf": 54,
-          "ga": 33,
-          "gd": 21,
-          "points": 34
+          "team": "Rollon",
+          "played": 19,
+          "wins": 11,
+          "draws": 3,
+          "losses": 5,
+          "gf": 63,
+          "ga": 39,
+          "gd": 24,
+          "points": 36
         },
         {
           "position": 4,
           "team": "Hødd 2",
-          "played": 18,
+          "played": 19,
           "wins": 11,
           "draws": 1,
-          "losses": 6,
-          "gf": 53,
-          "ga": 35,
-          "gd": 18,
+          "losses": 7,
+          "gf": 54,
+          "ga": 37,
+          "gd": 17,
           "points": 34
         },
         {
           "position": 5,
           "team": "Bergsøy",
-          "played": 18,
+          "played": 19,
           "wins": 11,
           "draws": 1,
-          "losses": 6,
+          "losses": 7,
           "gf": 42,
-          "ga": 28,
-          "gd": 14,
+          "ga": 29,
+          "gd": 13,
           "points": 34
         },
         {
           "position": 6,
           "team": "Brattvåg 2",
-          "played": 18,
-          "wins": 8,
+          "played": 19,
+          "wins": 9,
           "draws": 2,
           "losses": 8,
-          "gf": 38,
-          "ga": 44,
-          "gd": -6,
-          "points": 26
+          "gf": 43,
+          "ga": 45,
+          "gd": -2,
+          "points": 29
         },
         {
           "position": 7,
@@ -1024,41 +1024,53 @@
         {
           "position": 8,
           "team": "Ørsta",
-          "played": 18,
+          "played": 19,
           "wins": 7,
           "draws": 2,
-          "losses": 9,
-          "gf": 26,
-          "ga": 40,
-          "gd": -14,
+          "losses": 10,
+          "gf": 27,
+          "ga": 45,
+          "gd": -18,
           "points": 23
         },
         {
           "position": 9,
-          "team": "Hovdebygda",
-          "played": 18,
+          "team": "Spjelkavik 2",
+          "played": 19,
           "wins": 5,
           "draws": 3,
-          "losses": 10,
-          "gf": 23,
-          "ga": 41,
-          "gd": -18,
+          "losses": 11,
+          "gf": 36,
+          "ga": 51,
+          "gd": -15,
           "points": 18
         },
         {
           "position": 10,
-          "team": "Spjelkavik 2",
-          "played": 18,
-          "wins": 4,
+          "team": "Hovdebygda",
+          "played": 19,
+          "wins": 5,
           "draws": 3,
           "losses": 11,
-          "gf": 31,
-          "ga": 50,
+          "gf": 23,
+          "ga": 42,
           "gd": -19,
-          "points": 15
+          "points": 18
         },
         {
           "position": 11,
+          "team": "Valder",
+          "played": 19,
+          "wins": 4,
+          "draws": 4,
+          "losses": 11,
+          "gf": 24,
+          "ga": 50,
+          "gd": -26,
+          "points": 16
+        },
+        {
+          "position": 12,
           "team": "Langevåg",
           "played": 19,
           "wins": 4,
@@ -1068,18 +1080,6 @@
           "ga": 58,
           "gd": -27,
           "points": 15
-        },
-        {
-          "position": 12,
-          "team": "Valder",
-          "played": 18,
-          "wins": 3,
-          "draws": 4,
-          "losses": 11,
-          "gf": 23,
-          "ga": 50,
-          "gd": -27,
-          "points": 13
         }
       ]
     },
@@ -1304,10 +1304,22 @@
     "senior-2026-5-div-menn-romsdal": {
       "name": "5. div. menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-10-02T02:08:52+02:00",
+      "updatedAt": "2026-10-02T23:00:22+02:00",
       "standings": [
         {
           "position": 1,
+          "team": "Bud/Bryn",
+          "played": 16,
+          "wins": 14,
+          "draws": 1,
+          "losses": 1,
+          "gf": 60,
+          "ga": 18,
+          "gd": 42,
+          "points": 43
+        },
+        {
+          "position": 2,
           "team": "Vestnes Varfjell",
           "played": 16,
           "wins": 14,
@@ -1317,18 +1329,6 @@
           "ga": 14,
           "gd": 40,
           "points": 43
-        },
-        {
-          "position": 2,
-          "team": "Bud/Bryn",
-          "played": 15,
-          "wins": 13,
-          "draws": 1,
-          "losses": 1,
-          "gf": 56,
-          "ga": 17,
-          "gd": 39,
-          "points": 40
         },
         {
           "position": 3,
@@ -1369,13 +1369,13 @@
         {
           "position": 6,
           "team": "Hjelset-Kleive",
-          "played": 15,
+          "played": 16,
           "wins": 6,
           "draws": 1,
-          "losses": 8,
-          "gf": 21,
-          "ga": 31,
-          "gd": -10,
+          "losses": 9,
+          "gf": 22,
+          "ga": 35,
+          "gd": -13,
           "points": 19
         },
         {
@@ -1709,7 +1709,7 @@
     "senior-2026-6-div-menn-romsdal-3": {
       "name": "6. div. menn avd. 3",
       "tournamentId": "207814",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-10-02T23:00:22+02:00",
       "standings": [
         {
           "position": 1,
@@ -1761,27 +1761,27 @@
         },
         {
           "position": 5,
-          "team": "Skåla/Langfjorden 1",
+          "team": "Molde 4",
           "played": 9,
           "wins": 2,
           "draws": 1,
           "losses": 6,
-          "gf": 18,
-          "ga": 29,
-          "gd": -11,
+          "gf": 29,
+          "ga": 38,
+          "gd": -9,
           "points": 7
         },
         {
           "position": 6,
-          "team": "Molde 4",
-          "played": 8,
-          "wins": 1,
+          "team": "Skåla/Langfjorden 1",
+          "played": 10,
+          "wins": 2,
           "draws": 1,
-          "losses": 6,
-          "gf": 26,
-          "ga": 36,
-          "gd": -10,
-          "points": 4
+          "losses": 7,
+          "gf": 20,
+          "ga": 32,
+          "gd": -12,
+          "points": 7
         }
       ]
     },
