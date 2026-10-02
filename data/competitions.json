@@ -1304,7 +1304,7 @@
     "senior-2026-5-div-menn-romsdal": {
       "name": "5. div. menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-10-01T22:33:08+02:00",
+      "updatedAt": "2026-10-02T02:08:52+02:00",
       "standings": [
         {
           "position": 1,
@@ -1332,6 +1332,18 @@
         },
         {
           "position": 3,
+          "team": "Batnfjord",
+          "played": 15,
+          "wins": 10,
+          "draws": 2,
+          "losses": 3,
+          "gf": 45,
+          "ga": 23,
+          "gd": 22,
+          "points": 32
+        },
+        {
+          "position": 4,
           "team": "Malmefjorden",
           "played": 15,
           "wins": 10,
@@ -1341,18 +1353,6 @@
           "ga": 26,
           "gd": 25,
           "points": 30
-        },
-        {
-          "position": 4,
-          "team": "Batnfjord",
-          "played": 14,
-          "wins": 9,
-          "draws": 2,
-          "losses": 3,
-          "gf": 40,
-          "ga": 20,
-          "gd": 20,
-          "points": 29
         },
         {
           "position": 5,
@@ -1405,13 +1405,13 @@
         {
           "position": 9,
           "team": "Nordlandet/Frei",
-          "played": 15,
+          "played": 16,
           "wins": 3,
           "draws": 0,
-          "losses": 12,
-          "gf": 19,
-          "ga": 50,
-          "gd": -31,
+          "losses": 13,
+          "gf": 22,
+          "ga": 55,
+          "gd": -33,
           "points": 9
         },
         {
@@ -1431,7 +1431,7 @@
     "senior-2026-5-div-menn-sunnmore": {
       "name": "5. div. menn",
       "tournamentId": "205921",
-      "updatedAt": "2026-10-01T22:33:08+02:00",
+      "updatedAt": "2026-10-02T02:08:52+02:00",
       "standings": [
         {
           "position": 1,
@@ -1460,13 +1460,13 @@
         {
           "position": 3,
           "team": "Blindheim",
-          "played": 18,
+          "played": 19,
           "wins": 10,
           "draws": 3,
-          "losses": 5,
-          "gf": 54,
-          "ga": 32,
-          "gd": 22,
+          "losses": 6,
+          "gf": 55,
+          "ga": 35,
+          "gd": 20,
           "points": 33
         },
         {
@@ -1483,6 +1483,18 @@
         },
         {
           "position": 5,
+          "team": "Sande",
+          "played": 19,
+          "wins": 9,
+          "draws": 2,
+          "losses": 8,
+          "gf": 45,
+          "ga": 49,
+          "gd": -4,
+          "points": 29
+        },
+        {
+          "position": 6,
           "team": "Sykkylven",
           "played": 18,
           "wins": 8,
@@ -1494,7 +1506,7 @@
           "points": 28
         },
         {
-          "position": 6,
+          "position": 7,
           "team": "Giske",
           "played": 18,
           "wins": 8,
@@ -1506,7 +1518,7 @@
           "points": 28
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Volda 2",
           "played": 19,
           "wins": 8,
@@ -1516,18 +1528,6 @@
           "ga": 42,
           "gd": 9,
           "points": 27
-        },
-        {
-          "position": 8,
-          "team": "Sande",
-          "played": 18,
-          "wins": 8,
-          "draws": 2,
-          "losses": 8,
-          "gf": 42,
-          "ga": 48,
-          "gd": -6,
-          "points": 26
         },
         {
           "position": 9,
