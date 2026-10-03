@@ -29901,9 +29901,8 @@
         },
         "structuredTimeline": false
       },
-      "detailFetches": 1,
-      "detailFetchedAt": "2026-10-03T20:24:43+02:00",
-      "detailNextCheckAt": "2026-10-03T21:24:43+02:00",
+      "detailFetches": 2,
+      "detailFetchedAt": "2026-10-03T23:37:30+02:00",
       "goalTimelineVerified": false
     },
     "15120700002": {
