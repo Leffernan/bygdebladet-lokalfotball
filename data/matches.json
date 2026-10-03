@@ -1,7 +1,347 @@
 {
-  "generatedAt": "2026-10-03T16:52:21+02:00",
+  "generatedAt": "2026-10-03T20:24:58+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9042944",
+      "fiksId": "9042944",
+      "matchNumber": "15120700056",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042944",
+      "date": "2026-10-03",
+      "time": "16:00",
+      "age": "MENN",
+      "competition": "Menn 7-er",
+      "competitionId": "senior-2026-menn-7er-romsdal",
+      "venue": "Fiksdal kunstgress",
+      "home": "Fiksdal/Rekdal",
+      "away": "Vågstranda",
+      "homeScore": 1,
+      "awayScore": 2,
+      "halfTime": "1–1",
+      "localTeam": "both",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Bjørn Lucas Da Silva Nerland",
+          "label": "Spillemål",
+          "minute": 9
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Fylling Ellingseter",
+          "label": "Spillemål",
+          "minute": 19
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Bjørn Lucas Da Silva Nerland",
+          "label": "Advarsel",
+          "minute": 43
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Stein Håvard Vike Bøe",
+          "label": "Advarsel",
+          "minute": 53
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Espen Pedersen",
+          "label": "Spillemål",
+          "minute": 54
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Johan Amelito Rekdal",
+          "label": "Advarsel",
+          "minute": 55
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Niklas Gordon Ulvestad Frostad",
+          "label": "Advarsel",
+          "minute": 58
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Eirik Andreas Fredheim Øystad"
+      },
+      "referee": "Eirik Andreas Fredheim Øystad",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Arvid Rafael Gallo Sanchez"
+            },
+            {
+              "number": 16,
+              "name": "Sondre Adrian Tomren"
+            },
+            {
+              "number": 17,
+              "name": "Stein Håvard Vike Bøe"
+            },
+            {
+              "number": 2,
+              "name": "Sander Vassvik Kleve"
+            },
+            {
+              "number": 4,
+              "name": "Andreas Fylling Ellingseter"
+            },
+            {
+              "number": 6,
+              "name": "Johan Amelito Rekdal"
+            },
+            {
+              "number": 3,
+              "name": "Brian Mareno Nakken"
+            }
+          ],
+          "bench": [
+            {
+              "number": 5,
+              "name": "Andreas Gjelsten Løviknes"
+            },
+            {
+              "number": 8,
+              "name": "Marius Vassvik Kleve"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Espen Pedersen"
+            },
+            {
+              "number": 7,
+              "name": "Viacheslav Starkov-Budanov"
+            },
+            {
+              "number": 16,
+              "name": "Ciljan Pedersen Svendson"
+            },
+            {
+              "number": 21,
+              "name": "Stig Robert Talberg"
+            },
+            {
+              "number": 8,
+              "name": "Niklas Gordon Ulvestad Frostad"
+            },
+            {
+              "number": 14,
+              "name": "Kristoffer Nerås Liabø"
+            },
+            {
+              "number": 17,
+              "name": "Marius Myklebust Venanger"
+            }
+          ],
+          "bench": [
+            {
+              "number": 6,
+              "name": "Awet Teshome Gebreab"
+            },
+            {
+              "number": 9,
+              "name": "Thomas Hoel"
+            },
+            {
+              "number": 11,
+              "name": "Andreas Leikarnes Villa"
+            },
+            {
+              "number": 22,
+              "name": "Bjørn Lucas Da Silva Nerland"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9042887",
+      "fiksId": "9042887",
+      "matchNumber": "15120603055",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042887",
+      "date": "2026-10-03",
+      "time": "14:00",
+      "age": "MENN",
+      "competition": "6. div. menn avd. 3",
+      "competitionId": "senior-2026-6-div-menn-romsdal-3",
+      "venue": "Isfjorden stadion",
+      "home": "Isfjorden",
+      "away": "Tomrefjord",
+      "homeScore": 3,
+      "awayScore": 5,
+      "halfTime": null,
+      "localTeam": "away",
+      "events": [],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Magnus Smørdal"
+      },
+      "referee": "Magnus Smørdal",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Simon Hagen Strand"
+            },
+            {
+              "number": 12,
+              "name": "Emil Kampanat Melbø"
+            },
+            {
+              "number": 3,
+              "name": "Lasse Frisvold"
+            },
+            {
+              "number": 4,
+              "name": "Mariano Shultz"
+            },
+            {
+              "number": 8,
+              "name": "Matias Remen Torp"
+            },
+            {
+              "number": 33,
+              "name": "Daniel Alexander Grøvdal Novik"
+            },
+            {
+              "number": 5,
+              "name": "José David Flydahl Næss"
+            },
+            {
+              "number": 9,
+              "name": "Birk Grøvdal"
+            },
+            {
+              "number": 10,
+              "name": "Thomas Alexander Grüner Kvisvik"
+            },
+            {
+              "number": 11,
+              "name": "Markus Johansen"
+            },
+            {
+              "number": 13,
+              "name": "Noah August Rødseth"
+            }
+          ],
+          "bench": [
+            {
+              "number": 14,
+              "name": "Jan-Roger Risan Brokstad"
+            },
+            {
+              "number": 15,
+              "name": "Aron Mork Malones"
+            },
+            {
+              "number": 39,
+              "name": "Knut-Leo Sæther"
+            },
+            {
+              "number": 20,
+              "name": "Anton Edvard Kristensen"
+            },
+            {
+              "number": 21,
+              "name": "Magnus Malones"
+            },
+            {
+              "number": 23,
+              "name": "Nils Petter Sæther"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Gunnar Rune Eik"
+            },
+            {
+              "number": 6,
+              "name": "Martin Kvernmo Langset"
+            },
+            {
+              "number": 9,
+              "name": "Gunnar Vincent Lid"
+            },
+            {
+              "number": 10,
+              "name": "Petter Kornelius Eik"
+            },
+            {
+              "number": 25,
+              "name": "Liam Lundbø-Slemmen"
+            },
+            {
+              "number": 5,
+              "name": "Erlend Søberg"
+            },
+            {
+              "number": 8,
+              "name": "Glenn Stenødegård"
+            },
+            {
+              "number": 11,
+              "name": "Ole-Martin Lid"
+            },
+            {
+              "number": 18,
+              "name": "Nirut Phuangphae Mjøs"
+            },
+            {
+              "number": 80,
+              "name": "Eirik Leao Tomren"
+            },
+            {
+              "number": 13,
+              "name": "Eskild Fjærli Helgevold"
+            }
+          ],
+          "bench": [
+            {
+              "number": 7,
+              "name": "Aron Berg Hølgenes"
+            },
+            {
+              "number": 14,
+              "name": "Thomas Blom Dolpen"
+            },
+            {
+              "number": 17,
+              "name": "Lucas Emilio Guadiamos"
+            },
+            {
+              "number": 22,
+              "name": "Kenneth Eik Frostad"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": false
+    },
     {
       "id": "match-8984113",
       "fiksId": "8984113",

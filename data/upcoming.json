@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-10-03T16:52:21+02:00",
+  "generatedAt": "2026-10-03T20:24:58+02:00",
   "matches": [
-    {
-      "date": "2026-10-03",
-      "time": "16:00",
-      "age": "MENN",
-      "competition": "Menn 7-er",
-      "venue": "Fiksdal kunstgress",
-      "home": "Fiksdal/Rekdal",
-      "away": "Vågstranda",
-      "matchNumber": "15120700056",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042944"
-    },
     {
       "date": "2026-10-04",
       "time": "16:00",
