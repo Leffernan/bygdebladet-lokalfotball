@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-10-03T12:34:07+02:00",
+  "generatedAt": "2026-10-03T16:52:21+02:00",
   "matches": [
-    {
-      "date": "2026-10-03",
-      "time": "13:00",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Sykkylven stadion",
-      "home": "Sykkylven",
-      "away": "HaNo",
-      "matchNumber": "23120501112",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984113"
-    },
-    {
-      "date": "2026-10-03",
-      "time": "14:00",
-      "age": "MENN",
-      "competition": "6. div. menn avd. 3",
-      "venue": "Isfjorden stadion",
-      "home": "Isfjorden",
-      "away": "Tomrefjord",
-      "matchNumber": "15120603055",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042887"
-    },
     {
       "date": "2026-10-03",
       "time": "16:00",
