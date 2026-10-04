@@ -1,6 +1,22 @@
 {
   "version": 3,
   "reports": {
+    "99120201154": {
+      "title": "Rasmus Sørensen Løvseth avgjorde seint for Brattvåg",
+      "lead": "Brattvåg vann 3–2 mot Sotra i 2. divisjon menn avd. 1. Vinnarmålet kom i det 88. minuttet.",
+      "paragraphs": [
+        "Andreas Tveiten gav Brattvåg leiinga i det 12. minuttet.",
+        "Lars Oskar Groos Kilen utlikna til 1–1 for Sotra i det 18. minuttet.",
+        "Andreas Tveiten sende Brattvåg i leiinga i det 22. minuttet.",
+        "Til pause stod det 2–1.",
+        "Isak Tomar Hjorteseth utlikna til 2–2 for Sotra i det 58. minuttet.",
+        "Rasmus Sørensen Løvseth skåra vinnarmålet for Brattvåg i det 88. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "15120700056": {
       "title": "Vågstranda vann 2–1 mot Fiksdal/Rekdal",
       "lead": "Vågstranda vann 2–1 mot Fiksdal/Rekdal i Menn 7-er.",

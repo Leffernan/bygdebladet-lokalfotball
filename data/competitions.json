@@ -645,22 +645,34 @@
     "senior-2026-2-div-menn-avd-1": {
       "name": "2. divisjon menn avd. 1",
       "tournamentId": "206007",
-      "updatedAt": "2026-10-04T17:51:19+02:00",
+      "updatedAt": "2026-10-04T20:50:35+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Jerv",
-          "played": 21,
+          "played": 22,
           "wins": 16,
-          "draws": 3,
+          "draws": 4,
           "losses": 2,
-          "gf": 44,
-          "ga": 18,
+          "gf": 47,
+          "ga": 21,
           "gd": 26,
-          "points": 51
+          "points": 52
         },
         {
           "position": 2,
+          "team": "Brattvåg",
+          "played": 22,
+          "wins": 14,
+          "draws": 3,
+          "losses": 5,
+          "gf": 47,
+          "ga": 28,
+          "gd": 19,
+          "points": 45
+        },
+        {
+          "position": 3,
           "team": "Bjarg",
           "played": 22,
           "wins": 14,
@@ -672,39 +684,27 @@
           "points": 44
         },
         {
-          "position": 3,
-          "team": "Brattvåg",
-          "played": 21,
-          "wins": 13,
-          "draws": 3,
-          "losses": 5,
-          "gf": 44,
-          "ga": 26,
-          "gd": 18,
-          "points": 42
-        },
-        {
           "position": 4,
           "team": "Mjøndalen",
-          "played": 21,
-          "wins": 13,
+          "played": 22,
+          "wins": 14,
           "draws": 2,
           "losses": 6,
-          "gf": 39,
+          "gf": 43,
           "ga": 28,
-          "gd": 11,
-          "points": 41
+          "gd": 15,
+          "points": 44
         },
         {
           "position": 5,
           "team": "Sotra",
-          "played": 21,
+          "played": 22,
           "wins": 12,
           "draws": 3,
-          "losses": 6,
-          "gf": 45,
-          "ga": 22,
-          "gd": 23,
+          "losses": 7,
+          "gf": 47,
+          "ga": 25,
+          "gd": 22,
           "points": 39
         },
         {
@@ -734,13 +734,13 @@
         {
           "position": 8,
           "team": "Træff",
-          "played": 21,
+          "played": 22,
           "wins": 8,
           "draws": 6,
-          "losses": 7,
+          "losses": 8,
           "gf": 36,
-          "ga": 40,
-          "gd": -4,
+          "ga": 44,
+          "gd": -8,
           "points": 30
         },
         {
@@ -782,14 +782,14 @@
         {
           "position": 12,
           "team": "Lysekloster",
-          "played": 21,
+          "played": 22,
           "wins": 3,
-          "draws": 5,
+          "draws": 6,
           "losses": 13,
-          "gf": 23,
-          "ga": 45,
+          "gf": 26,
+          "ga": 48,
           "gd": -22,
-          "points": 13
+          "points": 14
         },
         {
           "position": 13,
@@ -1304,7 +1304,7 @@
     "senior-2026-5-div-menn-romsdal": {
       "name": "5. div. menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-10-03T16:52:03+02:00",
+      "updatedAt": "2026-10-04T20:50:35+02:00",
       "standings": [
         {
           "position": 1,
@@ -1357,14 +1357,14 @@
         {
           "position": 5,
           "team": "Molde 3",
-          "played": 14,
-          "wins": 6,
+          "played": 15,
+          "wins": 7,
           "draws": 1,
           "losses": 7,
-          "gf": 38,
-          "ga": 28,
-          "gd": 10,
-          "points": 19
+          "gf": 46,
+          "ga": 29,
+          "gd": 17,
+          "points": 22
         },
         {
           "position": 6,
@@ -1381,13 +1381,13 @@
         {
           "position": 7,
           "team": "Kårvåg/Havørn/Averøykameratene",
-          "played": 15,
+          "played": 16,
           "wins": 5,
           "draws": 0,
-          "losses": 10,
-          "gf": 26,
-          "ga": 54,
-          "gd": -28,
+          "losses": 11,
+          "gf": 27,
+          "ga": 62,
+          "gd": -35,
           "points": 15
         },
         {

@@ -1,7 +1,269 @@
 {
-  "generatedAt": "2026-10-04T17:51:23+02:00",
+  "generatedAt": "2026-10-04T20:50:42+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-8987140",
+      "fiksId": "8987140",
+      "matchNumber": "99120201154",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987140",
+      "date": "2026-10-04",
+      "time": "16:00",
+      "age": "MENN",
+      "competition": "2. divisjon menn avd. 1",
+      "competitionId": "senior-2026-2-div-menn-avd-1",
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg",
+      "away": "Sotra",
+      "homeScore": 3,
+      "awayScore": 2,
+      "halfTime": "2–1",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Jacob Steinsland Kvarven",
+          "label": "Advarsel",
+          "minute": 10
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Tveiten",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lars Oskar Groos Kilen",
+          "label": "Spillemål",
+          "minute": 18
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andreas Tveiten",
+          "label": "Straffemål",
+          "minute": 22
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Karim Magdy Bata",
+          "label": "Advarsel",
+          "minute": 26
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Leandro Elvestad Neto",
+          "label": "Advarsel",
+          "minute": 54
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Isak Tomar Hjorteseth",
+          "label": "Spillemål",
+          "minute": 58
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Iver Krogh Hagen",
+          "label": "Advarsel",
+          "minute": 62
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Isak Tomar Hjorteseth",
+          "label": "Advarsel",
+          "minute": 64
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Lars Oskar Groos Kilen",
+          "label": "Advarsel",
+          "minute": 81
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Rasmus Sørensen Løvseth",
+          "label": "Spillemål",
+          "minute": 88
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Markus Lille",
+        "assistant1": "Even Myrheim",
+        "assistant2": "Nikodemus Garshol",
+        "refereeObserver": "Kim André Stavenæs Refvik"
+      },
+      "referee": "Markus Lille",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Iaroslav Sundling"
+            },
+            {
+              "number": 2,
+              "name": "Iver Krogh Hagen"
+            },
+            {
+              "number": 3,
+              "name": "Jonas Skjerven Valland"
+            },
+            {
+              "number": 16,
+              "name": "Ruben Kolseth Myers"
+            },
+            {
+              "number": 21,
+              "name": "Diedrick Bubahe"
+            },
+            {
+              "number": 4,
+              "name": "Karim Magdy Bata"
+            },
+            {
+              "number": 8,
+              "name": "Jacob Steinsland Kvarven"
+            },
+            {
+              "number": 20,
+              "name": "Leandro Elvestad Neto"
+            },
+            {
+              "number": 7,
+              "name": "Andreas Tveiten"
+            },
+            {
+              "number": 9,
+              "name": "Rasmus Sørensen Løvseth"
+            },
+            {
+              "number": 23,
+              "name": "Sivert Solli"
+            }
+          ],
+          "bench": [
+            {
+              "number": 1,
+              "name": "Owen Hjelme Connor"
+            },
+            {
+              "number": 5,
+              "name": "Adrian Cortes Ugelvik"
+            },
+            {
+              "number": 10,
+              "name": "Emil Dahle"
+            },
+            {
+              "number": 11,
+              "name": "Oliver Odde Henriksrud"
+            },
+            {
+              "number": 15,
+              "name": "Andreas Eikrem Myklebust"
+            },
+            {
+              "number": 17,
+              "name": "John Ruud Norvik"
+            },
+            {
+              "number": 19,
+              "name": "Samuel James Tattum"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Morten Grasmo"
+            },
+            {
+              "number": 2,
+              "name": "Kristian Skjørli Ree"
+            },
+            {
+              "number": 3,
+              "name": "Anders Johan Johansen"
+            },
+            {
+              "number": 8,
+              "name": "Håvard Arefjord Foldnes"
+            },
+            {
+              "number": 20,
+              "name": "Daniel Steensæth Tørum"
+            },
+            {
+              "number": 6,
+              "name": "Sander Wik"
+            },
+            {
+              "number": 19,
+              "name": "Isak Tomar Hjorteseth"
+            },
+            {
+              "number": 22,
+              "name": "Magnus Eide Bildøy"
+            },
+            {
+              "number": 24,
+              "name": "Erlend Hellevik Larsen"
+            },
+            {
+              "number": 10,
+              "name": "Lars Oskar Groos Kilen"
+            },
+            {
+              "number": 15,
+              "name": "Thorstein Horneland Hildal"
+            }
+          ],
+          "bench": [
+            {
+              "number": 16,
+              "name": "Ruben Haga Sulen"
+            },
+            {
+              "number": 5,
+              "name": "Ole Martin Dåvøy Skår"
+            },
+            {
+              "number": 7,
+              "name": "Frederic Doksæter Falck"
+            },
+            {
+              "number": 17,
+              "name": "Mads Foss Aaserud"
+            },
+            {
+              "number": 23,
+              "name": "Mats Gresvik Lunde"
+            },
+            {
+              "number": 27,
+              "name": "Vegard Sangolt Ekren"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9042944",
       "fiksId": "9042944",
