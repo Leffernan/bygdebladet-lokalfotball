@@ -645,7 +645,7 @@
     "senior-2026-2-div-menn-avd-1": {
       "name": "2. divisjon menn avd. 1",
       "tournamentId": "206007",
-      "updatedAt": "2026-10-03T20:24:43+02:00",
+      "updatedAt": "2026-10-04T17:51:19+02:00",
       "standings": [
         {
           "position": 1,
@@ -758,26 +758,26 @@
         {
           "position": 10,
           "team": "Arendal",
-          "played": 21,
+          "played": 22,
           "wins": 7,
           "draws": 5,
-          "losses": 9,
+          "losses": 10,
           "gf": 30,
-          "ga": 37,
-          "gd": -7,
+          "ga": 38,
+          "gd": -8,
           "points": 26
         },
         {
           "position": 11,
           "team": "Sandviken",
-          "played": 21,
-          "wins": 6,
+          "played": 22,
+          "wins": 7,
           "draws": 4,
           "losses": 11,
-          "gf": 32,
+          "gf": 33,
           "ga": 45,
-          "gd": -13,
-          "points": 22
+          "gd": -12,
+          "points": 25
         },
         {
           "position": 12,
@@ -2169,7 +2169,7 @@
     "senior-2026-kvinner-7er-romsdal": {
       "name": "Kvinner 7-er",
       "tournamentId": "208149",
-      "updatedAt": "2026-10-01T22:33:08+02:00",
+      "updatedAt": "2026-10-04T17:51:19+02:00",
       "standings": [
         {
           "position": 1,
@@ -2209,6 +2209,18 @@
         },
         {
           "position": 4,
+          "team": "Bud/Bryn Kvinner",
+          "played": 13,
+          "wins": 7,
+          "draws": 1,
+          "losses": 5,
+          "gf": 45,
+          "ga": 32,
+          "gd": 13,
+          "points": 22
+        },
+        {
+          "position": 5,
           "team": "Sunndal",
           "played": 13,
           "wins": 6,
@@ -2220,27 +2232,15 @@
           "points": 21
         },
         {
-          "position": 5,
-          "team": "Bud/Bryn Kvinner",
-          "played": 12,
-          "wins": 6,
-          "draws": 1,
-          "losses": 5,
-          "gf": 42,
-          "ga": 32,
-          "gd": 10,
-          "points": 19
-        },
-        {
           "position": 6,
           "team": "Tingvoll/Kvass/Ulvungen",
-          "played": 12,
+          "played": 13,
           "wins": 4,
           "draws": 2,
-          "losses": 6,
+          "losses": 7,
           "gf": 20,
-          "ga": 31,
-          "gd": -11,
+          "ga": 34,
+          "gd": -14,
           "points": 14
         },
         {
