@@ -23042,7 +23042,7 @@
       "homeScore": 1,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-07T07:48:44+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23220602003": {
       "fiksId": "9233560",
@@ -23054,7 +23054,7 @@
       "homeScore": 6,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-07T07:48:44+02:00",
+      "resultAt": "2026-10-07T20:53:21+02:00",
       "detail": {
         "events": [
           {
@@ -23265,9 +23265,9 @@
       "home": "MTG",
       "away": "Stranda",
       "venue": "Tjørvåg stadion",
-      "attempts": 2,
-      "lastAttemptAt": "2026-10-07T07:48:44+02:00",
-      "nextCheckAt": "2026-10-07T08:08:44+02:00"
+      "attempts": 3,
+      "lastAttemptAt": "2026-10-07T20:53:21+02:00",
+      "nextCheckAt": "2026-10-07T21:33:21+02:00"
     },
     "23220602004": {
       "fiksId": "9233561",
@@ -23279,7 +23279,7 @@
       "homeScore": 8,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-07T07:48:44+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23220602005": {
       "fiksId": "9233562",
@@ -23291,7 +23291,7 @@
       "homeScore": 0,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-07T07:48:44+02:00",
+      "resultAt": "2026-10-07T20:53:21+02:00",
       "goalTimelineVerified": false
     },
     "23220602006": {
@@ -23304,7 +23304,7 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-07T07:48:44+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23220602009": {
       "fiksId": "9233566",
@@ -23316,7 +23316,7 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-10-07T07:48:44+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23220602007": {
       "fiksId": "9233564",
@@ -23328,7 +23328,7 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-07T07:48:44+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23220602008": {
       "fiksId": "9233565",
@@ -23342,7 +23342,7 @@
       "homeScore": 3,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-07T07:48:44+02:00",
+      "resultAt": "2026-10-07T20:53:21+02:00",
       "detail": {
         "events": [],
         "officials": {
@@ -26360,7 +26360,7 @@
       "homeScore": 6,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604005": {
       "fiksId": "9192661",
@@ -26372,7 +26372,7 @@
       "homeScore": 1,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604001": {
       "fiksId": "9192657",
@@ -26384,7 +26384,7 @@
       "homeScore": 1,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604003": {
       "fiksId": "9192659",
@@ -26396,7 +26396,7 @@
       "homeScore": 1,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00",
+      "resultAt": "2026-10-07T20:53:21+02:00",
       "goalTimelineVerified": false
     },
     "23120604002": {
@@ -26409,7 +26409,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604009": {
       "fiksId": "9192665",
@@ -26421,7 +26421,7 @@
       "homeScore": 5,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604007": {
       "fiksId": "9192663",
@@ -26433,7 +26433,7 @@
       "homeScore": 6,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604010": {
       "fiksId": "9192666",
@@ -26445,7 +26445,7 @@
       "homeScore": 0,
       "awayScore": 8,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604006": {
       "fiksId": "9192662",
@@ -26457,7 +26457,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604011": {
       "fiksId": "9192667",
@@ -26469,7 +26469,7 @@
       "homeScore": 3,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604012": {
       "fiksId": "9192668",
@@ -26481,7 +26481,7 @@
       "homeScore": 8,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00",
+      "resultAt": "2026-10-07T20:53:21+02:00",
       "goalTimelineVerified": false
     },
     "23120604014": {
@@ -26494,7 +26494,7 @@
       "homeScore": 2,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604013": {
       "fiksId": "9192669",
@@ -26506,7 +26506,7 @@
       "homeScore": 2,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604015": {
       "fiksId": "9192671",
@@ -26514,7 +26514,11 @@
       "time": "18:00",
       "home": "Herd 2",
       "away": "Ellingsøy",
-      "venue": "AMFI Moa Stadion"
+      "venue": "AMFI Moa Stadion",
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "completed",
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604019": {
       "fiksId": "9192675",
@@ -26526,7 +26530,7 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00",
+      "resultAt": "2026-10-07T20:53:21+02:00",
       "goalTimelineVerified": false
     },
     "23120604018": {
@@ -26539,7 +26543,7 @@
       "homeScore": 10,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604020": {
       "fiksId": "9192676",
@@ -26551,7 +26555,7 @@
       "homeScore": 1,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604016": {
       "fiksId": "9192672",
@@ -26563,7 +26567,7 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604021": {
       "fiksId": "9192677",
@@ -26575,7 +26579,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604022": {
       "fiksId": "9192678",
@@ -26587,7 +26591,7 @@
       "homeScore": 0,
       "awayScore": 8,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604024": {
       "fiksId": "9192680",
@@ -26599,7 +26603,7 @@
       "homeScore": 0,
       "awayScore": 10,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604025": {
       "fiksId": "9192681",
@@ -26619,7 +26623,7 @@
       "homeScore": 4,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604028": {
       "fiksId": "9192684",
@@ -26631,7 +26635,7 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604027": {
       "fiksId": "9192683",
@@ -26643,7 +26647,7 @@
       "homeScore": 3,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604030": {
       "fiksId": "9192686",
@@ -26655,7 +26659,7 @@
       "homeScore": 2,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00",
+      "resultAt": "2026-10-07T20:53:21+02:00",
       "goalTimelineVerified": false
     },
     "23120604035": {
@@ -26670,7 +26674,7 @@
       "homeScore": 3,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604031": {
       "fiksId": "9192687",
@@ -26682,7 +26686,7 @@
       "homeScore": 3,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604034": {
       "fiksId": "9192690",
@@ -26694,7 +26698,7 @@
       "homeScore": 2,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604032": {
       "fiksId": "9192688",
@@ -26706,7 +26710,7 @@
       "homeScore": 5,
       "awayScore": 11,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604037": {
       "fiksId": "9192693",
@@ -26718,7 +26722,7 @@
       "homeScore": 2,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604036": {
       "fiksId": "9192692",
@@ -26726,7 +26730,11 @@
       "time": "18:30",
       "home": "Hasundgot 2",
       "away": "Rollon 2",
-      "venue": "Hasundgot kunstgras"
+      "venue": "Hasundgot kunstgras",
+      "homeScore": 5,
+      "awayScore": 1,
+      "status": "completed",
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604038": {
       "fiksId": "9192694",
@@ -26740,7 +26748,7 @@
       "homeScore": 2,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604040": {
       "fiksId": "9192696",
@@ -26752,7 +26760,7 @@
       "homeScore": 3,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00",
+      "resultAt": "2026-10-07T20:53:21+02:00",
       "detail": {
         "events": [
           {
@@ -27002,7 +27010,7 @@
       "homeScore": 3,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-01T01:03:36+02:00"
+      "resultAt": "2026-10-07T20:53:21+02:00"
     },
     "23120604045": {
       "fiksId": "9192701",

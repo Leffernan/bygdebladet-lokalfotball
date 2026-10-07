@@ -1086,7 +1086,7 @@
     "senior-2026-5-div-kvinner-host-a": {
       "name": "5. div. kvinner høst A",
       "tournamentId": "211227",
-      "updatedAt": "2026-10-07T07:48:44+02:00",
+      "updatedAt": "2026-10-07T20:53:21+02:00",
       "standings": [
         {
           "position": 1,
@@ -1582,10 +1582,22 @@
     "senior-2026-6-div-menn-host": {
       "name": "6. div. menn høst",
       "tournamentId": "209877",
-      "updatedAt": "2026-10-01T01:03:36+02:00",
+      "updatedAt": "2026-10-07T20:53:21+02:00",
       "standings": [
         {
           "position": 1,
+          "team": "Herd 2",
+          "played": 6,
+          "wins": 6,
+          "draws": 0,
+          "losses": 0,
+          "gf": 40,
+          "ga": 7,
+          "gd": 33,
+          "points": 18
+        },
+        {
+          "position": 2,
           "team": "Sula",
           "played": 7,
           "wins": 5,
@@ -1595,18 +1607,6 @@
           "ga": 10,
           "gd": 15,
           "points": 16
-        },
-        {
-          "position": 2,
-          "team": "Herd 2",
-          "played": 5,
-          "wins": 5,
-          "draws": 0,
-          "losses": 0,
-          "gf": 37,
-          "ga": 5,
-          "gd": 32,
-          "points": 15
         },
         {
           "position": 3,
@@ -1634,18 +1634,30 @@
         },
         {
           "position": 5,
-          "team": "Ellingsøy",
-          "played": 5,
-          "wins": 2,
-          "draws": 2,
-          "losses": 1,
-          "gf": 13,
-          "ga": 9,
-          "gd": 4,
-          "points": 8
+          "team": "Hasundgot 2",
+          "played": 6,
+          "wins": 3,
+          "draws": 0,
+          "losses": 3,
+          "gf": 9,
+          "ga": 21,
+          "gd": -12,
+          "points": 9
         },
         {
           "position": 6,
+          "team": "Ellingsøy",
+          "played": 6,
+          "wins": 2,
+          "draws": 2,
+          "losses": 2,
+          "gf": 15,
+          "ga": 12,
+          "gd": 3,
+          "points": 8
+        },
+        {
+          "position": 7,
           "team": "Vanylven",
           "played": 6,
           "wins": 2,
@@ -1655,18 +1667,6 @@
           "ga": 10,
           "gd": -2,
           "points": 8
-        },
-        {
-          "position": 7,
-          "team": "Hasundgot 2",
-          "played": 5,
-          "wins": 2,
-          "draws": 0,
-          "losses": 3,
-          "gf": 4,
-          "ga": 20,
-          "gd": -16,
-          "points": 6
         },
         {
           "position": 8,
@@ -1683,13 +1683,13 @@
         {
           "position": 9,
           "team": "Rollon 2",
-          "played": 7,
+          "played": 8,
           "wins": 1,
           "draws": 1,
-          "losses": 5,
-          "gf": 18,
-          "ga": 43,
-          "gd": -25,
+          "losses": 6,
+          "gf": 19,
+          "ga": 48,
+          "gd": -29,
           "points": 4
         },
         {
