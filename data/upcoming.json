@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-10-08T18:53:59+02:00",
+  "generatedAt": "2026-10-08T23:43:20+02:00",
   "matches": [
-    {
-      "date": "2026-10-08",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "4. div. menn",
-      "venue": "Kirkebø stadion KGB",
-      "home": "Stordal",
-      "away": "Spjelkavik 2",
-      "matchNumber": "23120401120",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983878"
-    },
     {
       "date": "2026-10-09",
       "time": "18:30",
@@ -55,17 +44,6 @@
       "away": "Træff 2",
       "matchNumber": "15220701082",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9060043"
-    },
-    {
-      "date": "2026-10-10",
-      "time": "15:00",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Harøy Kunstgrasbane",
-      "home": "HaNo",
-      "away": "SIF/Hessa",
-      "matchNumber": "23120501117",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984118"
     },
     {
       "date": "2026-10-11",

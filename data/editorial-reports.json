@@ -1,6 +1,34 @@
 {
   "version": 3,
   "reports": {
+    "23120401120": {
+      "title": "Poengdeling mellom Stordal og Spjelkavik 2",
+      "lead": "Stordal og Spjelkavik 2 spelte 1–1 i 4. div. menn.",
+      "paragraphs": [
+        "Elias Skogen Hauge gav Spjelkavik 2 leiinga i det 2. minuttet.",
+        "Isak Søvik Benjaminsen utlikna til 1–1 for Stordal i det 23. minuttet.",
+        "Til pause stod det 1–1."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120501117": {
+      "title": "Hattrick av Brian Fjørtoft då HaNo vann",
+      "lead": "HaNo vann 4–0 mot SIF/Hessa i 5. div. menn. Brian Fjørtoft skåra tre av måla.",
+      "paragraphs": [
+        "Brian Fjørtoft gav HaNo leiinga i det 35. minuttet.",
+        "Til pause stod det 1–0.",
+        "Brian Fjørtoft auka til 2–0 for HaNo i det 60. minuttet.",
+        "Oskar Jakub Zachara auka til 3–0 for HaNo i det 66. minuttet.",
+        "Brian Fjørtoft auka til 4–0 for HaNo i det 79. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "99120201154": {
       "title": "Rasmus Sørensen Løvseth avgjorde seint for Brattvåg",
       "lead": "Brattvåg vann 3–2 mot Sotra i 2. divisjon menn avd. 1. Vinnarmålet kom i det 88. minuttet.",
