@@ -23046,7 +23046,7 @@
       "homeScore": 1,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-08T11:33:21+02:00"
+      "resultAt": "2026-10-08T18:53:57+02:00"
     },
     "23220602003": {
       "fiksId": "9233560",
@@ -23058,7 +23058,7 @@
       "homeScore": 6,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-08T11:33:21+02:00",
+      "resultAt": "2026-10-08T18:53:57+02:00",
       "detail": {
         "events": [
           {
@@ -23269,9 +23269,9 @@
       "home": "MTG",
       "away": "Stranda",
       "venue": "Tjørvåg stadion",
-      "attempts": 5,
-      "lastAttemptAt": "2026-10-08T11:33:21+02:00",
-      "nextCheckAt": "2026-10-08T13:33:21+02:00"
+      "attempts": 6,
+      "lastAttemptAt": "2026-10-08T18:53:57+02:00",
+      "nextCheckAt": "2026-10-09T07:00:00+02:00"
     },
     "23220602004": {
       "fiksId": "9233561",
@@ -23283,7 +23283,7 @@
       "homeScore": 8,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-08T11:33:21+02:00"
+      "resultAt": "2026-10-08T18:53:57+02:00"
     },
     "23220602005": {
       "fiksId": "9233562",
@@ -23295,7 +23295,7 @@
       "homeScore": 0,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-08T11:33:21+02:00",
+      "resultAt": "2026-10-08T18:53:57+02:00",
       "goalTimelineVerified": false
     },
     "23220602006": {
@@ -23308,7 +23308,7 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-08T11:33:21+02:00"
+      "resultAt": "2026-10-08T18:53:57+02:00"
     },
     "23220602009": {
       "fiksId": "9233566",
@@ -23320,7 +23320,7 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-10-08T11:33:21+02:00"
+      "resultAt": "2026-10-08T18:53:57+02:00"
     },
     "23220602007": {
       "fiksId": "9233564",
@@ -23332,7 +23332,7 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-08T11:33:21+02:00"
+      "resultAt": "2026-10-08T18:53:57+02:00"
     },
     "23220602008": {
       "fiksId": "9233565",
@@ -23346,7 +23346,7 @@
       "homeScore": 3,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-08T11:33:21+02:00",
+      "resultAt": "2026-10-08T18:53:57+02:00",
       "detail": {
         "events": [],
         "officials": {
