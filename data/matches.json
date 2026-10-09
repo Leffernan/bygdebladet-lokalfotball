@@ -1,7 +1,440 @@
 {
-  "generatedAt": "2026-10-09T16:54:13+02:00",
+  "generatedAt": "2026-10-09T21:58:08+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-8983877",
+      "fiksId": "8983877",
+      "matchNumber": "23120401119",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983877",
+      "date": "2026-10-09",
+      "time": "19:00",
+      "age": "MENN",
+      "competition": "4. div. menn",
+      "competitionId": "senior-2026-4-div-menn-sunnmore",
+      "venue": "Havila Stadion Fosnavåg",
+      "home": "Bergsøy",
+      "away": "Brattvåg 2",
+      "homeScore": 0,
+      "awayScore": 3,
+      "halfTime": "0–2",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Martin Fylling Koch",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Magnus Austbø Seth",
+          "label": "Spillemål",
+          "minute": 7
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Adrian Belden",
+          "label": "Spillemål",
+          "minute": 50
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Anatolii Bieshliaha",
+          "label": "Advarsel",
+          "minute": 85
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Daniel Jøsok Kvalsvik",
+          "label": "Advarsel",
+          "minute": 90
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Haakon Javier Tronstad",
+        "assistant1": "Dagfinn Berg Tjervåg",
+        "assistant2": "Osvald Georg Hammer Nygjerde"
+      },
+      "referee": "Haakon Javier Tronstad",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Pedro Luis Moreno Gonzalez"
+            },
+            {
+              "number": 2,
+              "name": "Elias Holstad Walaunet"
+            },
+            {
+              "number": 16,
+              "name": "Daniel Jøsok Kvalsvik"
+            },
+            {
+              "number": 22,
+              "name": "Sander Kvalsund Schanche"
+            },
+            {
+              "number": 56,
+              "name": "Sondre Nygård Olsen"
+            },
+            {
+              "number": 4,
+              "name": "Kevin Rafteseth Vike"
+            },
+            {
+              "number": 8,
+              "name": "Nils-Erik Engen"
+            },
+            {
+              "number": 10,
+              "name": "Kjetil Steinsvik Paulsen"
+            },
+            {
+              "number": 7,
+              "name": "Enrique Crespo Søvik"
+            },
+            {
+              "number": 11,
+              "name": "Alexander Lillenes Hestad"
+            },
+            {
+              "number": 17,
+              "name": "Tomas Matuszczyk"
+            }
+          ],
+          "bench": [
+            {
+              "number": 3,
+              "name": "Markus Lima Rogne"
+            },
+            {
+              "number": 5,
+              "name": "Anatolii Bieshliaha"
+            },
+            {
+              "number": 9,
+              "name": "Magnus Waade Myklebust"
+            },
+            {
+              "number": 15,
+              "name": "Muhib Alrahim"
+            },
+            {
+              "number": 24,
+              "name": "Mahmoud Zaki Saidi"
+            },
+            {
+              "number": 14,
+              "name": "Eliah Hjelmeseth Nybø (strøket)"
+            },
+            {
+              "number": 18,
+              "name": "Linus Nygård Olsen (strøket)"
+            },
+            {
+              "number": 20,
+              "name": "Jimmy Monsen Nesbakk (strøket)"
+            },
+            {
+              "number": 31,
+              "name": "Ruben Bjørlykke Storøy (strøket)"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Fredrik Sørli"
+            },
+            {
+              "number": 2,
+              "name": "Elias Austbø Seth"
+            },
+            {
+              "number": 5,
+              "name": "Erlend Dahl Otterlei"
+            },
+            {
+              "number": 18,
+              "name": "Filip Hyrycz"
+            },
+            {
+              "number": 25,
+              "name": "Alexander Hesselberg Hatzikiriakidis"
+            },
+            {
+              "number": 8,
+              "name": "Thomas Eriksen Aarsund"
+            },
+            {
+              "number": 16,
+              "name": "Adrian Belden"
+            },
+            {
+              "number": 17,
+              "name": "Troy Bakke Payling"
+            },
+            {
+              "number": 23,
+              "name": "Nicholas Akbar Kvammen"
+            },
+            {
+              "number": 10,
+              "name": "Magnus Austbø Seth"
+            },
+            {
+              "number": 11,
+              "name": "Martin Fylling Koch"
+            }
+          ],
+          "bench": [
+            {
+              "number": 9,
+              "name": "Elias Vikestrand"
+            },
+            {
+              "number": 15,
+              "name": "Arman Maksumic"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-8983875",
+      "fiksId": "8983875",
+      "matchNumber": "23120401117",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983875",
+      "date": "2026-10-09",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "4. div. menn",
+      "competitionId": "senior-2026-4-div-menn-sunnmore",
+      "venue": "Ravn kunstgras",
+      "home": "Ravn",
+      "away": "Hødd 2",
+      "homeScore": 0,
+      "awayScore": 2,
+      "halfTime": "0–1",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Erlend Walseth Lid",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Jonas Melø",
+          "label": "Advarsel",
+          "minute": 23
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Sindre Fjørtoft",
+          "label": "Advarsel",
+          "minute": 42
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Christoffer Marcus Longva",
+          "label": "Advarsel",
+          "minute": 47
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sivert Frantsen-Skeide",
+          "label": "Spillemål",
+          "minute": 90
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Ole Kristian Engeset Aarseth",
+          "label": "Advarsel",
+          "minute": 90
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Martin Javier Solheim",
+        "assistant1": "Marius Urke",
+        "assistant2": "Henning Nygård"
+      },
+      "referee": "Martin Javier Solheim",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 99,
+              "name": "Benjamin Rørhus"
+            },
+            {
+              "number": 4,
+              "name": "Victor Harsjøen Gundersen"
+            },
+            {
+              "number": 6,
+              "name": "Sindre Fjørtoft"
+            },
+            {
+              "number": 8,
+              "name": "Mads Even Hatlehol"
+            },
+            {
+              "number": 42,
+              "name": "Fynn Luca Daniel"
+            },
+            {
+              "number": 10,
+              "name": "Matias Mork Vatneødegård"
+            },
+            {
+              "number": 17,
+              "name": "Christoffer Marcus Longva"
+            },
+            {
+              "number": 18,
+              "name": "Eirik Tomren"
+            },
+            {
+              "number": 15,
+              "name": "Ole Kristian Engeset Aarseth"
+            },
+            {
+              "number": 16,
+              "name": "Jørgen Hatlehol"
+            },
+            {
+              "number": 22,
+              "name": "Kristoffer Iversen Florvaag"
+            }
+          ],
+          "bench": [
+            {
+              "number": 5,
+              "name": "Øystein Longva Tennfjord"
+            },
+            {
+              "number": 30,
+              "name": "Jonatan Klokset Lilleng"
+            },
+            {
+              "number": 39,
+              "name": "Joakim Flem Hildre"
+            },
+            {
+              "number": 52,
+              "name": "Per-Stian Justsen Alvestad"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Christian Benedict Bantilan Hansen"
+            },
+            {
+              "number": 5,
+              "name": "Sivert Frantsen-Skeide"
+            },
+            {
+              "number": 7,
+              "name": "Kasper Reme Abrahamsen"
+            },
+            {
+              "number": 19,
+              "name": "Eirik Espelid Blikstad"
+            },
+            {
+              "number": 27,
+              "name": "Jonas Melø"
+            },
+            {
+              "number": 31,
+              "name": "Åsmund Dimmen Roppen"
+            },
+            {
+              "number": 11,
+              "name": "Vegard Håheim-Elveseter"
+            },
+            {
+              "number": 14,
+              "name": "Fredrik Dimmen Gjerde"
+            },
+            {
+              "number": 15,
+              "name": "Arn Rikard Roland"
+            },
+            {
+              "number": 9,
+              "name": "Erlend Walseth Lid"
+            },
+            {
+              "number": 10,
+              "name": "Sander Mäkiperä Vike"
+            }
+          ],
+          "bench": [
+            {
+              "number": 25,
+              "name": "David Hovden"
+            },
+            {
+              "number": 2,
+              "name": "Mathias Alstad Steinsvik"
+            },
+            {
+              "number": 3,
+              "name": "Torje Skodjevåg Bø"
+            },
+            {
+              "number": 6,
+              "name": "Martin Aarsand Vik"
+            },
+            {
+              "number": 8,
+              "name": "Markus Teige Moltubakk"
+            },
+            {
+              "number": 16,
+              "name": "Maxmillian Hansen Bjørlykke"
+            },
+            {
+              "number": 17,
+              "name": "Rolf Hauknes"
+            },
+            {
+              "number": 20,
+              "name": "Sigurd Hjellegjerde Aam"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-8983878",
       "fiksId": "8983878",

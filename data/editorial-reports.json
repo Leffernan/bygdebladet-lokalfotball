@@ -1,6 +1,33 @@
 {
   "version": 3,
   "reports": {
+    "23120401119": {
+      "title": "Brattvåg 2 vann 3–0 mot Bergsøy",
+      "lead": "Brattvåg 2 vann 3–0 mot Bergsøy i 4. div. menn.",
+      "paragraphs": [
+        "Martin Fylling Koch gav Brattvåg 2 leiinga i det 4. minuttet.",
+        "Magnus Austbø Seth auka til 0–2 for Brattvåg 2 i det 7. minuttet.",
+        "Til pause stod det 0–2.",
+        "Adrian Belden auka til 0–3 for Brattvåg 2 i det 50. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401117": {
+      "title": "Hødd 2 vann 2–0 mot Ravn",
+      "lead": "Hødd 2 vann 2–0 mot Ravn i 4. div. menn.",
+      "paragraphs": [
+        "Erlend Walseth Lid gav Hødd 2 leiinga i det 12. minuttet.",
+        "Til pause stod det 0–1.",
+        "Sivert Frantsen-Skeide auka til 0–2 for Hødd 2 i det 90. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23120401120": {
       "title": "Poengdeling mellom Stordal og Spjelkavik 2",
       "lead": "Stordal og Spjelkavik 2 spelte 1–1 i 4. div. menn.",

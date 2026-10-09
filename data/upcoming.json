@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-10-09T16:54:13+02:00",
+  "generatedAt": "2026-10-09T21:58:08+02:00",
   "matches": [
-    {
-      "date": "2026-10-09",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "4. div. menn",
-      "venue": "Ravn kunstgras",
-      "home": "Ravn",
-      "away": "Hødd 2",
-      "matchNumber": "23120401117",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983875"
-    },
-    {
-      "date": "2026-10-09",
-      "time": "19:00",
-      "age": "MENN",
-      "competition": "4. div. menn",
-      "venue": "Havila Stadion Fosnavåg",
-      "home": "Bergsøy",
-      "away": "Brattvåg 2",
-      "matchNumber": "23120401119",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983877"
-    },
     {
       "date": "2026-10-10",
       "time": "14:00",
@@ -600,7 +578,7 @@
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
-      "venue": null,
+      "venue": "Fjordlaks Arena Kunstgress",
       "home": "Rollon",
       "away": "Stordal",
       "matchNumber": "23120401128",
