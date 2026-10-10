@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-10-10T12:33:37+02:00",
+  "generatedAt": "2026-10-10T17:56:58+02:00",
   "matches": [
-    {
-      "date": "2026-10-10",
-      "time": "14:00",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Opdølbanen",
-      "home": "Hjelset-Kleive",
-      "away": "Vestnes Varfjell",
-      "matchNumber": "15120501083",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991174"
-    },
-    {
-      "date": "2026-10-10",
-      "time": "14:00",
-      "age": "KVINNER",
-      "competition": "Kvinner 7-er",
-      "venue": "Tomrefjord kunstgress",
-      "home": "Tomrefjord",
-      "away": "Træff 2",
-      "matchNumber": "15220701082",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9060043"
-    },
     {
       "date": "2026-10-11",
       "time": "13:00",

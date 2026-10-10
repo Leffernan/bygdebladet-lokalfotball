@@ -1,6 +1,36 @@
 {
   "version": 3,
   "reports": {
+    "15120501083": {
+      "title": "Vestnes Varfjell vann 4–1 mot Hjelset-Kleive",
+      "lead": "Vestnes Varfjell vann 4–1 mot Hjelset-Kleive i 5. div. menn.",
+      "paragraphs": [
+        "Til pause stod det 0–1.",
+        "Etter pause fekk Hjelset-Kleive eitt mål og Vestnes Varfjell tre mål.",
+        "Detaljert målrekkje er ikkje stadfesta. Inntil vidare viser vi berre det stadfesta sluttresultatet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": false,
+      "generatorVersion": 3
+    },
+    "15220701082": {
+      "title": "Træff 2 snudde kampen og vann 4–2",
+      "lead": "Træff 2 vann 4–2 mot Tomrefjord i Kvinner 7-er. Træff 2 måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Rizban Abraham Sium gav Træff 2 leiinga i det 18. minuttet.",
+        "Hedda Eikebø-Amdam utlikna til 1–1 for Tomrefjord i det 21. minuttet.",
+        "Sandra Vik sende Tomrefjord i leiinga i det 25. minuttet.",
+        "Til pause stod det 2–1.",
+        "Ida Sofie Danielsen Engelsen utlikna til 2–2 for Træff 2 i det 54. minuttet.",
+        "Ida Sofie Danielsen Engelsen sende Træff 2 i leiinga i det 59. minuttet.",
+        "Ida Sofie Danielsen Engelsen auka til 2–4 for Træff 2 i det 60. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23120401119": {
       "title": "Brattvåg 2 vann 3–0 mot Bergsøy",
       "lead": "Brattvåg 2 vann 3–0 mot Bergsøy i 4. div. menn.",
