@@ -3,7 +3,7 @@
     "g13-1-div-host": {
       "name": "G13 1. div høst",
       "tournamentId": "209849",
-      "updatedAt": "2026-10-01T22:33:08+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -130,7 +130,7 @@
     "g13-3-div-avd-2-host": {
       "name": "G13 3. div avd. 2 høst",
       "tournamentId": "209852",
-      "updatedAt": "2026-10-01T22:33:08+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -209,7 +209,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-10-03T20:24:43+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -336,7 +336,7 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-10-09T09:54:23+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -439,7 +439,7 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-09-30T21:15:48+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -645,7 +645,7 @@
     "senior-2026-2-div-menn-avd-1": {
       "name": "2. divisjon menn avd. 1",
       "tournamentId": "206007",
-      "updatedAt": "2026-10-04T20:50:35+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -793,18 +793,6 @@
         },
         {
           "position": 13,
-          "team": "FK Eik Tønsberg 871",
-          "played": 22,
-          "wins": 3,
-          "draws": 1,
-          "losses": 18,
-          "gf": 24,
-          "ga": 50,
-          "gd": -26,
-          "points": 10
-        },
-        {
-          "position": 14,
           "team": "Vidar",
           "played": 22,
           "wins": 2,
@@ -814,13 +802,25 @@
           "ga": 60,
           "gd": -40,
           "points": 10
+        },
+        {
+          "position": 14,
+          "team": "FK Eik Tønsberg 871",
+          "played": 22,
+          "wins": 3,
+          "draws": 1,
+          "losses": 18,
+          "gf": 24,
+          "ga": 50,
+          "gd": -26,
+          "points": 7
         }
       ]
     },
     "senior-2026-4-div-kvinner-sunnmore": {
       "name": "4. div. kvinner",
       "tournamentId": "205920",
-      "updatedAt": "2026-10-01T22:33:08+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -935,7 +935,7 @@
     "senior-2026-4-div-menn-sunnmore": {
       "name": "4. div. menn",
       "tournamentId": "205682",
-      "updatedAt": "2026-10-09T21:58:03+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -1086,7 +1086,7 @@
     "senior-2026-5-div-kvinner-host-a": {
       "name": "5. div. kvinner høst A",
       "tournamentId": "211227",
-      "updatedAt": "2026-10-09T09:54:23+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -1165,7 +1165,7 @@
     "senior-2026-5-div-kvinner-var": {
       "name": "5. div. kvinner vår",
       "tournamentId": "207721",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -1304,7 +1304,7 @@
     "senior-2026-5-div-menn-romsdal": {
       "name": "5. div. menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-10-08T23:43:07+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -1431,7 +1431,7 @@
     "senior-2026-5-div-menn-sunnmore": {
       "name": "5. div. menn",
       "tournamentId": "205921",
-      "updatedAt": "2026-10-08T23:43:07+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -1582,7 +1582,7 @@
     "senior-2026-6-div-menn-host": {
       "name": "6. div. menn høst",
       "tournamentId": "209877",
-      "updatedAt": "2026-10-07T20:53:21+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -1709,7 +1709,7 @@
     "senior-2026-6-div-menn-romsdal-3": {
       "name": "6. div. menn avd. 3",
       "tournamentId": "207814",
-      "updatedAt": "2026-10-03T20:24:43+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -1788,7 +1788,7 @@
     "senior-2026-6-div-menn-var-2": {
       "name": "6. div. menn vår avd. 2",
       "tournamentId": "207728",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -1927,7 +1927,7 @@
     "senior-2026-6-div-menn-var-3": {
       "name": "6. div. menn vår avd. 3",
       "tournamentId": "207729",
-      "updatedAt": "2026-09-29T16:11:13+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -2042,7 +2042,7 @@
     "senior-2026-7-div-menn-host-1": {
       "name": "7. div. menn høst avd. 1",
       "tournamentId": "210497",
-      "updatedAt": "2026-10-09T09:54:23+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -2169,7 +2169,7 @@
     "senior-2026-kvinner-7er-romsdal": {
       "name": "Kvinner 7-er",
       "tournamentId": "208149",
-      "updatedAt": "2026-10-08T23:43:07+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,
@@ -2272,7 +2272,7 @@
     "senior-2026-menn-7er-romsdal": {
       "name": "Menn 7-er",
       "tournamentId": "207913",
-      "updatedAt": "2026-10-03T20:24:43+02:00",
+      "updatedAt": "2026-10-10T06:04:57+02:00",
       "standings": [
         {
           "position": 1,

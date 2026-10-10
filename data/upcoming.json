@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T01:54:34+02:00",
+  "generatedAt": "2026-10-10T06:05:45+02:00",
   "matches": [
     {
       "date": "2026-10-10",
@@ -521,17 +521,6 @@
     {
       "date": "2026-10-22",
       "time": "18:30",
-      "age": "G16",
-      "competition": "G16 2. div høst",
-      "venue": "Kirkebø stadion KGB",
-      "home": "Ørskog/Stordal",
-      "away": "HaNo/Harøy/Lepsøy",
-      "matchNumber": "23116124043",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196255"
-    },
-    {
-      "date": "2026-10-22",
-      "time": "18:30",
       "age": "KVINNER",
       "competition": "4. div. kvinner",
       "venue": null,
@@ -627,6 +616,17 @@
       "away": "Brattvåg",
       "matchNumber": "99120201172",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987158"
+    },
+    {
+      "date": "2026-10-24",
+      "time": "15:00",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "venue": "Kirkebø stadion KGB",
+      "home": "Ørskog/Stordal",
+      "away": "HaNo/Harøy/Lepsøy",
+      "matchNumber": "23116124043",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196255"
     },
     {
       "date": "2026-10-25",
