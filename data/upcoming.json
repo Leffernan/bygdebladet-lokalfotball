@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T17:56:58+02:00",
+  "generatedAt": "2026-10-10T21:51:24+02:00",
   "matches": [
     {
       "date": "2026-10-11",
@@ -91,6 +91,17 @@
     },
     {
       "date": "2026-10-13",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "venue": "Harøy Kunstgrasbane",
+      "home": "Harøy/Lepsøy/HaNo 2",
+      "away": "Ravn 2",
+      "matchNumber": "23127001042",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193951"
+    },
+    {
+      "date": "2026-10-13",
       "time": "19:00",
       "age": "MENN",
       "competition": "Menn 7-er",
@@ -132,17 +143,6 @@
       "away": "Vartdal",
       "matchNumber": "23120604043",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192699"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "venue": "Harøy Kunstgrasbane",
-      "home": "Harøy/Lepsøy/HaNo 2",
-      "away": "Ravn 2",
-      "matchNumber": "23127001042",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193951"
     },
     {
       "date": "2026-10-14",
