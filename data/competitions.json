@@ -645,7 +645,7 @@
     "senior-2026-2-div-menn-avd-1": {
       "name": "2. divisjon menn avd. 1",
       "tournamentId": "206007",
-      "updatedAt": "2026-10-10T21:51:17+02:00",
+      "updatedAt": "2026-10-11T16:28:30+02:00",
       "standings": [
         {
           "position": 1,
@@ -661,6 +661,30 @@
         },
         {
           "position": 2,
+          "team": "Brattvåg",
+          "played": 23,
+          "wins": 15,
+          "draws": 3,
+          "losses": 5,
+          "gf": 50,
+          "ga": 29,
+          "gd": 21,
+          "points": 48
+        },
+        {
+          "position": 3,
+          "team": "Bjarg",
+          "played": 23,
+          "wins": 15,
+          "draws": 2,
+          "losses": 6,
+          "gf": 52,
+          "ga": 30,
+          "gd": 22,
+          "points": 47
+        },
+        {
+          "position": 4,
           "team": "Mjøndalen",
           "played": 23,
           "wins": 15,
@@ -670,30 +694,6 @@
           "ga": 28,
           "gd": 16,
           "points": 47
-        },
-        {
-          "position": 3,
-          "team": "Brattvåg",
-          "played": 22,
-          "wins": 14,
-          "draws": 3,
-          "losses": 5,
-          "gf": 47,
-          "ga": 28,
-          "gd": 19,
-          "points": 45
-        },
-        {
-          "position": 4,
-          "team": "Bjarg",
-          "played": 22,
-          "wins": 14,
-          "draws": 2,
-          "losses": 6,
-          "gf": 47,
-          "ga": 28,
-          "gd": 19,
-          "points": 44
         },
         {
           "position": 5,
@@ -710,13 +710,13 @@
         {
           "position": 6,
           "team": "Notodden",
-          "played": 22,
+          "played": 23,
           "wins": 10,
           "draws": 5,
-          "losses": 7,
-          "gf": 31,
-          "ga": 20,
-          "gd": 11,
+          "losses": 8,
+          "gf": 33,
+          "ga": 25,
+          "gd": 8,
           "points": 35
         },
         {
@@ -794,13 +794,13 @@
         {
           "position": 13,
           "team": "Vidar",
-          "played": 22,
+          "played": 23,
           "wins": 2,
           "draws": 4,
-          "losses": 16,
-          "gf": 20,
-          "ga": 60,
-          "gd": -40,
+          "losses": 17,
+          "gf": 21,
+          "ga": 63,
+          "gd": -42,
           "points": 10
         },
         {
@@ -1709,7 +1709,7 @@
     "senior-2026-6-div-menn-romsdal-3": {
       "name": "6. div. menn avd. 3",
       "tournamentId": "207814",
-      "updatedAt": "2026-10-11T09:52:13+02:00",
+      "updatedAt": "2026-10-11T16:28:30+02:00",
       "standings": [
         {
           "position": 1,
@@ -2042,7 +2042,7 @@
     "senior-2026-7-div-menn-host-1": {
       "name": "7. div. menn høst avd. 1",
       "tournamentId": "210497",
-      "updatedAt": "2026-10-11T09:52:13+02:00",
+      "updatedAt": "2026-10-11T16:28:30+02:00",
       "standings": [
         {
           "position": 1,

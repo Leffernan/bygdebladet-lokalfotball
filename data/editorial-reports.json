@@ -1,6 +1,21 @@
 {
   "version": 3,
   "reports": {
+    "99120201160": {
+      "title": "Brattvåg vann 3–1 mot Vidar",
+      "lead": "Brattvåg vann 3–1 mot Vidar i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Rasmus Sørensen Løvseth gav Brattvåg leiinga i det 12. minuttet.",
+        "Jacob Steinsland Kvarven auka til 0–2 for Brattvåg i det 17. minuttet.",
+        "Sivert Solli auka til 0–3 for Brattvåg i det 34. minuttet.",
+        "Til pause stod det 0–3.",
+        "Jesper Fiksdal reduserte til 1–3 for Vidar i det 65. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "15120501083": {
       "title": "Vestnes Varfjell vann 4–1 mot Hjelset-Kleive",
       "lead": "Vestnes Varfjell vann 4–1 mot Hjelset-Kleive i 5. div. menn.",

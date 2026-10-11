@@ -1,7 +1,230 @@
 {
-  "generatedAt": "2026-10-11T09:52:21+02:00",
+  "generatedAt": "2026-10-11T16:28:39+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-8987146",
+      "fiksId": "8987146",
+      "matchNumber": "99120201160",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987146",
+      "date": "2026-10-11",
+      "time": "13:00",
+      "age": "MENN",
+      "competition": "2. divisjon menn avd. 1",
+      "competitionId": "senior-2026-2-div-menn-avd-1",
+      "venue": "Alustar Arena (Lassa)",
+      "home": "Vidar",
+      "away": "Brattvåg",
+      "homeScore": 1,
+      "awayScore": 3,
+      "halfTime": "0–3",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Rasmus Sørensen Løvseth",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jacob Steinsland Kvarven",
+          "label": "Spillemål",
+          "minute": 17
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Sander Landa Vik",
+          "label": "Advarsel",
+          "minute": 25
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sivert Solli",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Frede Åsen Larsen",
+          "label": "Advarsel",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Jesper Fiksdal",
+          "label": "Spillemål",
+          "minute": 65
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Aleksander Vermundsen",
+        "assistant1": "Daniel Saltveit",
+        "assistant2": "Amar Hopovac",
+        "refereeObserver": "Tore Kristian Nybø"
+      },
+      "referee": "Aleksander Vermundsen",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Sondre Svanes Strand"
+            },
+            {
+              "number": 4,
+              "name": "Sander Landa Vik"
+            },
+            {
+              "number": 5,
+              "name": "Christian Finnesand Vaaland"
+            },
+            {
+              "number": 16,
+              "name": "William Schjølberg Husebø"
+            },
+            {
+              "number": 25,
+              "name": "Sebastian Sørlie Henriksen"
+            },
+            {
+              "number": 7,
+              "name": "Sander Remme"
+            },
+            {
+              "number": 10,
+              "name": "Frede Åsen Larsen"
+            },
+            {
+              "number": 18,
+              "name": "Sune Haug Espevoll"
+            },
+            {
+              "number": 9,
+              "name": "Simen Haughom"
+            },
+            {
+              "number": 22,
+              "name": "Kujtim Ismaili"
+            },
+            {
+              "number": 29,
+              "name": "Jesper Fiksdal"
+            }
+          ],
+          "bench": [
+            {
+              "number": 12,
+              "name": "Kristian Døble"
+            },
+            {
+              "number": 6,
+              "name": "Andreas Søraas Sebulonsen"
+            },
+            {
+              "number": 14,
+              "name": "Mathias Fister Andersen"
+            },
+            {
+              "number": 17,
+              "name": "Mateus van der Veen"
+            },
+            {
+              "number": 20,
+              "name": "Eivind Thomsen Joakimsen"
+            },
+            {
+              "number": 21,
+              "name": "Andreas Kirkevold Nilsen"
+            },
+            {
+              "number": 23,
+              "name": "Håkon Steen"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Iaroslav Sundling"
+            },
+            {
+              "number": 2,
+              "name": "Iver Krogh Hagen"
+            },
+            {
+              "number": 3,
+              "name": "Jonas Skjerven Valland"
+            },
+            {
+              "number": 16,
+              "name": "Ruben Kolseth Myers"
+            },
+            {
+              "number": 21,
+              "name": "Diedrick Bubahe"
+            },
+            {
+              "number": 8,
+              "name": "Jacob Steinsland Kvarven"
+            },
+            {
+              "number": 15,
+              "name": "Andreas Eikrem Myklebust"
+            },
+            {
+              "number": 20,
+              "name": "Leandro Elvestad Neto"
+            },
+            {
+              "number": 7,
+              "name": "Andreas Tveiten"
+            },
+            {
+              "number": 9,
+              "name": "Rasmus Sørensen Løvseth"
+            },
+            {
+              "number": 23,
+              "name": "Sivert Solli"
+            }
+          ],
+          "bench": [
+            {
+              "number": 1,
+              "name": "Owen Hjelme Connor"
+            },
+            {
+              "number": 5,
+              "name": "Adrian Cortes Ugelvik"
+            },
+            {
+              "number": 11,
+              "name": "Oliver Odde Henriksrud"
+            },
+            {
+              "number": 17,
+              "name": "John Ruud Norvik"
+            },
+            {
+              "number": 19,
+              "name": "Samuel James Tattum"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-8991174",
       "fiksId": "8991174",
