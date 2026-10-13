@@ -1,6 +1,70 @@
 {
   "version": 3,
   "reports": {
+    "15120700040": {
+      "title": "Vegard Bakken herja framfor mål – Nordbyen vann 3–2",
+      "lead": "Nordbyen vann 3–2 mot Vågstranda i Menn 7-er. Vegard Bakken stod for alle dei tre måla til Nordbyen.",
+      "paragraphs": [
+        "Vegard Bakken gav Nordbyen leiinga i det 14. minuttet.",
+        "Einar Johnsen Vike utlikna til 1–1 for Vågstranda i det 19. minuttet.",
+        "Andreas Leikarnes Villa sende Vågstranda i leiinga i det 22. minuttet.",
+        "Til pause stod det 1–2.",
+        "Vegard Bakken utlikna til 2–2 for Nordbyen i det 47. minuttet.",
+        "Vegard Bakken sende Nordbyen i leiinga i det 59. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23113126025": {
+      "title": "Ørskog/Stordal vann 3–1 mot Aksla 2",
+      "lead": "Ørskog/Stordal vann 3–1 mot Aksla 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "Eit sjølvmål frå Aksla 2 i det 6. minuttet gav Ørskog/Stordal leiinga.",
+        "Adrian Tennfjord Myklebust auka til 2–0 for Ørskog/Stordal i det 21. minuttet.",
+        "Til pause stod det 2–0.",
+        "Even Vestre Braute auka til 3–0 for Ørskog/Stordal i det 37. minuttet.",
+        "Zeki Furkan Koc reduserte til 3–1 for Aksla 2 i det 64. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23214107042": {
+      "title": "Ellingsøy/Vigra/Valder 3 vann 2–1 mot Ørskog",
+      "lead": "Ellingsøy/Vigra/Valder 3 vann 2–1 mot Ørskog i J15 3. div høst.",
+      "paragraphs": [
+        "Karoline Halonen Giske gav Ellingsøy/Vigra/Valder 3 leiinga i det 37. minuttet.",
+        "Til pause stod det 0–1.",
+        "Leah Sæther Lukkedal utlikna til 1–1 for Ørskog i det 50. minuttet.",
+        "Sandra Berge Kvam sende Ellingsøy/Vigra/Valder 3 i leiinga i det 56. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001042": {
+      "title": "Harøy/Lepsøy/HaNo 2 snudde kampen og vann 5–3",
+      "lead": "Harøy/Lepsøy/HaNo 2 vann 5–3 mot Ravn 2 i 7. div. menn høst avd. 1. Harøy/Lepsøy/HaNo 2 måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Mathias Johann Otterlei Sønderland gav Ravn 2 leiinga i det 6. minuttet.",
+        "Mathias Johann Otterlei Sønderland auka til 0–2 for Ravn 2 i det 19. minuttet.",
+        "Eit sjølvmål frå Ravn 2 i det 35. minuttet reduserte til 1–2 for Harøy/Lepsøy/HaNo 2.",
+        "Kevin Ramjit Bergtun utlikna til 2–2 for Harøy/Lepsøy/HaNo 2 i det 36. minuttet.",
+        "Kevin Ramjit Bergtun sende Harøy/Lepsøy/HaNo 2 i leiinga i det 39. minuttet.",
+        "Til pause stod det 3–2.",
+        "Torjus Vatne utlikna til 3–3 for Ravn 2 i det 66. minuttet.",
+        "Eirik Eivindsen Haugen sende Harøy/Lepsøy/HaNo 2 i leiinga i det 79. minuttet.",
+        "Eit sjølvmål frå Ravn 2 i det 89. minuttet auka leiinga til 5–3 for Harøy/Lepsøy/HaNo 2."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23220602010": {
       "title": "Poengdeling mellom Stordal/Ørskog/Skodje og Aksla/Guard/Rollon 2",
       "lead": "Stordal/Ørskog/Skodje og Aksla/Guard/Rollon 2 spelte 1–1 i 5. div. kvinner høst A.",

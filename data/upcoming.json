@@ -1,72 +1,6 @@
 {
-  "generatedAt": "2026-10-13T16:57:23+02:00",
+  "generatedAt": "2026-10-13T22:33:59+02:00",
   "matches": [
-    {
-      "date": "2026-10-13",
-      "time": "18:30",
-      "age": "G13",
-      "competition": "G13 3. div avd. 2 høst",
-      "venue": "Ørskogbanken 9er",
-      "home": "Ørskog/Stordal",
-      "away": "Aksla 2",
-      "matchNumber": "23113126025",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204258"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Sykkylven stadion",
-      "home": "Sykkylven 2",
-      "away": "Harøy/HaNo/Lepsøy 2 9er",
-      "matchNumber": "23214107041",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200073"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Ørskogbanken stadion",
-      "home": "Ørskog",
-      "away": "Ellingsøy/Vigra/Valder 3",
-      "matchNumber": "23214107042",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200074"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "venue": "Ratvika 1",
-      "home": "Aksla 2",
-      "away": "Skodje",
-      "matchNumber": "23127001041",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193950"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "venue": "Harøy Kunstgrasbane",
-      "home": "Harøy/Lepsøy/HaNo 2",
-      "away": "Ravn 2",
-      "matchNumber": "23127001042",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193951"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "19:00",
-      "age": "MENN",
-      "competition": "Menn 7-er",
-      "venue": "Råkhaugen kunstgress",
-      "home": "Nordbyen",
-      "away": "Vågstranda",
-      "matchNumber": "15120700040",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9042928"
-    },
     {
       "date": "2026-10-14",
       "time": "18:00",
@@ -160,7 +94,7 @@
       "time": "18:30",
       "age": "J15",
       "competition": "J15 3. div høst",
-      "venue": "Harøy Kunstgrasbane 9er A",
+      "venue": "Nordøyhallen",
       "home": "HaNo/Lepsøy/Harøy 9er",
       "away": "Skodje 2 7er",
       "matchNumber": "23214107044",
@@ -319,6 +253,17 @@
       "away": "Aksla 2",
       "matchNumber": "23213702019",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201158"
+    },
+    {
+      "date": "2026-10-21",
+      "time": "18:00",
+      "age": "G13",
+      "competition": "G13 3. div avd. 2 høst",
+      "venue": "Hareidsmyrane KGB",
+      "home": "Hareid 2",
+      "away": "Ørskog/Stordal",
+      "matchNumber": "23113126030",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204270"
     },
     {
       "date": "2026-10-21",
@@ -528,17 +473,6 @@
       "away": "Spjelkavik 2",
       "matchNumber": "23120401132",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983890"
-    },
-    {
-      "date": "2026-10-23",
-      "time": "19:00",
-      "age": "G13",
-      "competition": "G13 3. div avd. 2 høst",
-      "venue": "Hardarhallen",
-      "home": "Hareid 2",
-      "away": "Ørskog/Stordal",
-      "matchNumber": "23113126030",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204270"
     },
     {
       "date": "2026-10-24",
