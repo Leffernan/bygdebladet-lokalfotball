@@ -336,7 +336,7 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-10-12T10:14:01+02:00",
+      "updatedAt": "2026-10-13T09:02:12+02:00",
       "standings": [
         {
           "position": 1,
@@ -1709,7 +1709,7 @@
     "senior-2026-6-div-menn-romsdal-3": {
       "name": "6. div. menn avd. 3",
       "tournamentId": "207814",
-      "updatedAt": "2026-10-12T10:14:01+02:00",
+      "updatedAt": "2026-10-13T09:02:12+02:00",
       "standings": [
         {
           "position": 1,
@@ -1725,6 +1725,18 @@
         },
         {
           "position": 2,
+          "team": "Isfjorden",
+          "played": 10,
+          "wins": 5,
+          "draws": 2,
+          "losses": 3,
+          "gf": 32,
+          "ga": 25,
+          "gd": 7,
+          "points": 17
+        },
+        {
+          "position": 3,
           "team": "Rival",
           "played": 10,
           "wins": 4,
@@ -1734,18 +1746,6 @@
           "ga": 21,
           "gd": 2,
           "points": 16
-        },
-        {
-          "position": 3,
-          "team": "Isfjorden",
-          "played": 9,
-          "wins": 4,
-          "draws": 2,
-          "losses": 3,
-          "gf": 29,
-          "ga": 25,
-          "gd": 4,
-          "points": 14
         },
         {
           "position": 4,
@@ -1762,13 +1762,13 @@
         {
           "position": 5,
           "team": "Molde 4",
-          "played": 9,
+          "played": 10,
           "wins": 2,
           "draws": 1,
-          "losses": 6,
+          "losses": 7,
           "gf": 29,
-          "ga": 38,
-          "gd": -9,
+          "ga": 41,
+          "gd": -12,
           "points": 7
         },
         {
@@ -2042,7 +2042,7 @@
     "senior-2026-7-div-menn-host-1": {
       "name": "7. div. menn høst avd. 1",
       "tournamentId": "210497",
-      "updatedAt": "2026-10-12T10:14:01+02:00",
+      "updatedAt": "2026-10-13T09:02:12+02:00",
       "standings": [
         {
           "position": 1,
