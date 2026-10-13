@@ -209,7 +209,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-10-12T19:59:34+02:00",
+      "updatedAt": "2026-10-13T02:31:21+02:00",
       "standings": [
         {
           "position": 1,
@@ -226,26 +226,26 @@
         {
           "position": 2,
           "team": "Ørskog/Stordal",
-          "played": 6,
-          "wins": 5,
+          "played": 7,
+          "wins": 6,
           "draws": 1,
           "losses": 0,
-          "gf": 27,
-          "ga": 7,
-          "gd": 20,
-          "points": 16
+          "gf": 34,
+          "ga": 8,
+          "gd": 26,
+          "points": 19
         },
         {
           "position": 3,
           "team": "Spjelkavik",
-          "played": 6,
-          "wins": 4,
+          "played": 7,
+          "wins": 5,
           "draws": 1,
           "losses": 1,
-          "gf": 28,
-          "ga": 14,
-          "gd": 14,
-          "points": 13
+          "gf": 35,
+          "ga": 15,
+          "gd": 20,
+          "points": 16
         },
         {
           "position": 4,
@@ -262,25 +262,25 @@
         {
           "position": 5,
           "team": "Hareid",
-          "played": 6,
+          "played": 7,
           "wins": 3,
           "draws": 1,
-          "losses": 2,
-          "gf": 25,
-          "ga": 28,
-          "gd": -3,
+          "losses": 3,
+          "gf": 26,
+          "ga": 35,
+          "gd": -9,
           "points": 10
         },
         {
           "position": 6,
           "team": "Bergsøy",
-          "played": 6,
+          "played": 7,
           "wins": 2,
           "draws": 3,
-          "losses": 1,
-          "gf": 22,
-          "ga": 19,
-          "gd": 3,
+          "losses": 2,
+          "gf": 23,
+          "ga": 26,
+          "gd": -3,
           "points": 9
         },
         {
@@ -1086,19 +1086,19 @@
     "senior-2026-5-div-kvinner-host-a": {
       "name": "5. div. kvinner høst A",
       "tournamentId": "211227",
-      "updatedAt": "2026-10-12T10:14:01+02:00",
+      "updatedAt": "2026-10-13T02:31:21+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Stordal/Ørskog/Skodje",
-          "played": 3,
+          "played": 4,
           "wins": 3,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 49,
-          "ga": 17,
+          "gf": 50,
+          "ga": 18,
           "gd": 32,
-          "points": 33
+          "points": 34
         },
         {
           "position": 2,
@@ -1127,14 +1127,14 @@
         {
           "position": 4,
           "team": "Aksla/Guard/Rollon 2",
-          "played": 3,
+          "played": 4,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "gf": 38,
-          "ga": 31,
+          "gf": 39,
+          "ga": 32,
           "gd": 7,
-          "points": 20
+          "points": 21
         },
         {
           "position": 5,

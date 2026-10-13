@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-10-12T19:59:35+02:00",
+  "generatedAt": "2026-10-13T02:31:29+02:00",
   "matches": [
-    {
-      "date": "2026-10-12",
-      "time": "18:00",
-      "age": "G16",
-      "competition": "G16 2. div høst",
-      "venue": "Ørskogbanken stadion",
-      "home": "Ørskog/Stordal",
-      "away": "Bergsøy",
-      "matchNumber": "23116124033",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196245"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "18:30",
-      "age": "KVINNER",
-      "competition": "5. div. kvinner høst A",
-      "venue": "Kirkebø stadion KGB",
-      "home": "Stordal/Ørskog/Skodje",
-      "away": "Aksla/Guard/Rollon 2",
-      "matchNumber": "23220602010",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9233567"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "18:30",
-      "age": "J13",
-      "competition": "J13 7er høst",
-      "venue": "Ørskogbanken 9er",
-      "home": "Ørskog",
-      "away": "Sunnylven",
-      "matchNumber": "23213702018",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201157"
-    },
     {
       "date": "2026-10-13",
       "time": "18:30",

@@ -1,6 +1,38 @@
 {
   "version": 3,
   "reports": {
+    "23220602010": {
+      "title": "Poengdeling mellom Stordal/Ørskog/Skodje og Aksla/Guard/Rollon 2",
+      "lead": "Stordal/Ørskog/Skodje og Aksla/Guard/Rollon 2 spelte 1–1 i 5. div. kvinner høst A.",
+      "paragraphs": [
+        "Til pause stod det 0–0.",
+        "Julie Haugen gav Aksla/Guard/Rollon 2 leiinga i det 61. minuttet.",
+        "Hanna Øie utlikna til 1–1 for Stordal/Ørskog/Skodje i det 75. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23116124033": {
+      "title": "Fire mål av Marcus Karl Cevallos då Ørskog/Stordal vann",
+      "lead": "Ørskog/Stordal vann 7–1 mot Bergsøy i G16 2. div høst. Marcus Karl Cevallos skåra fire av måla.",
+      "paragraphs": [
+        "Jaden Alexander Grüner gav Ørskog/Stordal leiinga i det 6. minuttet.",
+        "Marcus Karl Cevallos auka til 2–0 for Ørskog/Stordal i det 12. minuttet.",
+        "Marcus Karl Cevallos auka til 3–0 for Ørskog/Stordal i det 29. minuttet.",
+        "Marcus Karl Cevallos auka til 4–0 for Ørskog/Stordal i det 35. minuttet.",
+        "Marcus Karl Cevallos auka til 5–0 for Ørskog/Stordal i det 38. minuttet.",
+        "Til pause stod det 5–0.",
+        "Lars Joakim Hole Sjåstad auka til 6–0 for Ørskog/Stordal i det 47. minuttet.",
+        "Felix Tarberg reduserte til 6–1 for Bergsøy i det 65. minuttet.",
+        "Jaden Alexander Grüner auka til 7–1 for Ørskog/Stordal i det 75. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "99120201160": {
       "title": "Brattvåg vann 3–1 mot Vidar",
       "lead": "Brattvåg vann 3–1 mot Vidar i 2. divisjon menn avd. 1.",
