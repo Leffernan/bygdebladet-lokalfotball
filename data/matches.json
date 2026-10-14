@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T04:13:28+02:00",
+  "generatedAt": "2026-10-14T09:41:04+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -324,6 +324,199 @@
             }
           ],
           "bench": []
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9200073",
+      "fiksId": "9200073",
+      "matchNumber": "23214107041",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200073",
+      "date": "2026-10-13",
+      "time": "18:30",
+      "age": "J15",
+      "competition": "J15 3. div høst",
+      "competitionId": "j15-3-div-host",
+      "venue": "Sykkylven stadion",
+      "home": "Sykkylven 2",
+      "away": "Harøy/HaNo/Lepsøy 2 9er",
+      "homeScore": 7,
+      "awayScore": 0,
+      "halfTime": "5–0",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lily Bakke Payling",
+          "label": "Spillemål",
+          "minute": 10
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sonja Haugen",
+          "label": "Spillemål",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Paraskevi Dimitriou",
+          "label": "Spillemål",
+          "minute": 22
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sonja Haugen",
+          "label": "Spillemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Ingrid Andreassen",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sonja Haugen",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Lily Bakke Payling",
+          "label": "Spillemål",
+          "minute": 49
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Naod Gebrebrhan Gebrebrhan Hailemariam",
+        "assistant1": "Håkon Andre Sæter",
+        "assistant2": "Eskil Auflem Vestvik"
+      },
+      "referee": "Naod Gebrebrhan Gebrebrhan Hailemariam",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Alvilde Kristine Tandstad"
+            },
+            {
+              "number": 6,
+              "name": "Ingrid Andreassen"
+            },
+            {
+              "number": 13,
+              "name": "Sarloté Jevsikovaite"
+            },
+            {
+              "number": 19,
+              "name": "Annamaria Björk-Bergene"
+            },
+            {
+              "number": 20,
+              "name": "Hedda Bjørnevik"
+            },
+            {
+              "number": 2,
+              "name": "Kristina Langås Myrnes"
+            },
+            {
+              "number": 10,
+              "name": "Lily Bakke Payling"
+            },
+            {
+              "number": 11,
+              "name": "Sofia Hausvik Kjølås"
+            },
+            {
+              "number": 14,
+              "name": "Paraskevi Dimitriou"
+            },
+            {
+              "number": 27,
+              "name": "Serafima Maximovna Berg-Gerashchenko"
+            },
+            {
+              "number": 47,
+              "name": "Lillian Ludviksen"
+            }
+          ],
+          "bench": [
+            {
+              "number": 7,
+              "name": "Julie Kristin Helseth Nordang"
+            },
+            {
+              "number": 50,
+              "name": "Sonja Haugen"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Bertine Blomvik Tvedt"
+            },
+            {
+              "number": 4,
+              "name": "Laila Kristin Bueng Brunvoll"
+            },
+            {
+              "number": 18,
+              "name": "Alida Finnøy"
+            },
+            {
+              "number": 22,
+              "name": "Vera Bergtun"
+            },
+            {
+              "number": 23,
+              "name": "Vilde Rogne Furnes"
+            },
+            {
+              "number": 3,
+              "name": "Olivia Sue Sherman"
+            },
+            {
+              "number": 9,
+              "name": "June Sofie Hellouli Harnes"
+            },
+            {
+              "number": 13,
+              "name": "Julia Lausund Klokk"
+            },
+            {
+              "number": 15,
+              "name": "Stine Myskja Slyngstad"
+            },
+            {
+              "number": 20,
+              "name": "Elisa Belen Røsok"
+            },
+            {
+              "number": 24,
+              "name": "Astri Longva Davik"
+            }
+          ],
+          "bench": [
+            {
+              "number": 8,
+              "name": "Thine Flem"
+            }
+          ]
         }
       },
       "goalTimelineVerified": true
