@@ -1,7 +1,146 @@
 {
-  "generatedAt": "2026-10-15T16:13:40+02:00",
+  "generatedAt": "2026-10-15T20:20:09+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9204260",
+      "fiksId": "9204260",
+      "matchNumber": "23113126026",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204260",
+      "date": "2026-10-15",
+      "time": "18:30",
+      "age": "G13",
+      "competition": "G13 3. div avd. 2 høst",
+      "competitionId": "g13-3-div-avd-2-host",
+      "venue": "Skodje Kunstgras 1",
+      "home": "Skodje",
+      "away": "Brattvåg 2",
+      "homeScore": 4,
+      "awayScore": 1,
+      "halfTime": "1–1",
+      "localTeam": "both",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "David Lid Bozkurt",
+          "label": "Spillemål",
+          "minute": 9
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 28
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Christian Solholm",
+          "label": "Spillemål",
+          "minute": 59
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 68
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 69
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Martinus Holvik"
+      },
+      "referee": "Martinus Holvik",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 8,
+              "name": "David Grønbeck Grytten"
+            },
+            {
+              "number": 49,
+              "name": "Dominik Hyrycz"
+            },
+            {
+              "number": 9,
+              "name": "David Lid Bozkurt"
+            },
+            {
+              "number": 18,
+              "name": "Filip Rødset Runde"
+            },
+            {
+              "number": 42,
+              "name": "Sakarias Ellefsen Hildre"
+            },
+            {
+              "number": 48,
+              "name": "Mathias Berge Honningdal"
+            },
+            {
+              "number": 11,
+              "name": "Christian Solholm"
+            }
+          ],
+          "bench": [
+            {
+              "number": 7,
+              "name": "Joakim Gundersen"
+            },
+            {
+              "number": 60,
+              "name": "Dennis Vågsholm Rekdal"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Kai-Leander Reistad Giske"
+            },
+            {
+              "number": 3,
+              "name": "Kevin Bjørshol Skjønberg"
+            },
+            {
+              "number": 15,
+              "name": "Cezary Mikolaj Piotrowski"
+            },
+            {
+              "number": 21,
+              "name": "Even Endré Frøysadal Hånde"
+            },
+            {
+              "number": 25,
+              "name": "Egide Ntumba Ushindi"
+            },
+            {
+              "number": 4,
+              "name": "Cian Lucas Pagara"
+            }
+          ],
+          "bench": []
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-8983354",
       "fiksId": "8983354",

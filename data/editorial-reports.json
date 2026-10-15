@@ -1,6 +1,21 @@
 {
   "version": 3,
   "reports": {
+    "23113126026": {
+      "title": "Skodje vann 4–1 mot Brattvåg 2",
+      "lead": "Skodje vann 4–1 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
+      "paragraphs": [
+        "David Lid Bozkurt gav Skodje leiinga i det 9. minuttet.",
+        "Brattvåg 2 utlikna til 1–1 i det 28. minuttet.",
+        "Til pause stod det 1–1.",
+        "Christian Solholm sende Skodje i leiinga i det 59. minuttet.",
+        "Skodje auka leiinga med mål i minutta 68 og 69."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23220410082": {
       "title": "HaNo snudde kampen og vann 2–1",
       "lead": "HaNo vann 2–1 mot Aksla/Guard i 4. div. kvinner. HaNo måtte hente inn eit underlag før sigeren var sikra.",

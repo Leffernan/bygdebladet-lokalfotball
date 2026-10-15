@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-10-15T16:13:40+02:00",
+  "generatedAt": "2026-10-15T20:20:09+02:00",
   "matches": [
-    {
-      "date": "2026-10-15",
-      "time": "17:00",
-      "age": "J13",
-      "competition": "J13 7er høst",
-      "venue": "Ratvika 2",
-      "home": "Aksla 2",
-      "away": "Stordal",
-      "matchNumber": "23213702009",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201148"
-    },
     {
       "date": "2026-10-15",
       "time": "18:30",
@@ -22,17 +11,6 @@
       "away": "Brattvåg",
       "matchNumber": "23113123037",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201530"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "18:30",
-      "age": "G13",
-      "competition": "G13 3. div avd. 2 høst",
-      "venue": "Skodje Kunstgras 1",
-      "home": "Skodje",
-      "away": "Brattvåg 2",
-      "matchNumber": "23113126026",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204260"
     },
     {
       "date": "2026-10-15",
@@ -176,6 +154,17 @@
       "away": "HaNo/Lepsøy/Harøy 9er",
       "matchNumber": "23214107047",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200079"
+    },
+    {
+      "date": "2026-10-20",
+      "time": "18:30",
+      "age": "G13",
+      "competition": "G13 1. div høst",
+      "venue": "Uggedal kunstgras",
+      "home": "Ravn/Norborg",
+      "away": "Rollon/Guard",
+      "matchNumber": "23113123044",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201548"
     },
     {
       "date": "2026-10-20",
@@ -330,17 +319,6 @@
       "away": "Valder",
       "matchNumber": "23113123042",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201543"
-    },
-    {
-      "date": "2026-10-22",
-      "time": "18:30",
-      "age": "G13",
-      "competition": "G13 1. div høst",
-      "venue": "Uggedal kunstgras",
-      "home": "Ravn/Norborg",
-      "away": "Rollon/Guard",
-      "matchNumber": "23113123044",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201548"
     },
     {
       "date": "2026-10-22",
