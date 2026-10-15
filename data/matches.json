@@ -1,7 +1,155 @@
 {
-  "generatedAt": "2026-10-15T20:20:09+02:00",
+  "generatedAt": "2026-10-15T23:32:32+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9201530",
+      "fiksId": "9201530",
+      "matchNumber": "23113123037",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201530",
+      "date": "2026-10-15",
+      "time": "18:30",
+      "age": "G13",
+      "competition": "G13 1. div høst",
+      "competitionId": "g13-1-div-host",
+      "venue": "Spjelkavik kunstgress",
+      "home": "Spjelkavik",
+      "away": "Brattvåg",
+      "homeScore": 2,
+      "awayScore": 0,
+      "halfTime": null,
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "SAKARIAS LORGEN SÆTH",
+          "label": "Spillemål",
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "SAKARIAS LORGEN SÆTH",
+          "label": "Spillemål",
+          "minute": 66
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Marius Ringset Fuglehaug"
+      },
+      "referee": "Marius Ringset Fuglehaug",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 16,
+              "name": "SAKARIAS LORGEN SÆTH"
+            },
+            {
+              "number": 4,
+              "name": "Eirik Rindal Flaaen"
+            },
+            {
+              "number": 6,
+              "name": "Theodor Nystøyl Kravik"
+            },
+            {
+              "number": 21,
+              "name": "Alfred Teigen Ulveraker"
+            },
+            {
+              "number": 24,
+              "name": "Filip Krøvel Balsnes"
+            },
+            {
+              "number": 7,
+              "name": "Zachary Owen Myers"
+            },
+            {
+              "number": 8,
+              "name": "Sondre Tennebø Rødset"
+            },
+            {
+              "number": 10,
+              "name": "Ulrik Dahl Østerbø"
+            },
+            {
+              "number": 15,
+              "name": "William Eriksen Skram"
+            },
+            {
+              "number": 18,
+              "name": "Leon Alexander Bekken Henriksen"
+            },
+            {
+              "number": 2,
+              "name": "Emilian Alexander Nygård Eide"
+            }
+          ],
+          "bench": [
+            {
+              "number": 23,
+              "name": "Daniel Shargorodskyy"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "André Flem Dalhaug"
+            },
+            {
+              "number": 14,
+              "name": "Vebjørn Helland Otterlei"
+            },
+            {
+              "number": 26,
+              "name": "Mathias Døving"
+            },
+            {
+              "number": 34,
+              "name": "Henrik Alvestad Lillestøl"
+            },
+            {
+              "number": 35,
+              "name": "Dan Arthur Magdaraog Overland"
+            },
+            {
+              "number": 36,
+              "name": "Youel Bahabelom Okubay"
+            },
+            {
+              "number": 38,
+              "name": "Edvard Frostad Myklebust"
+            },
+            {
+              "number": 40,
+              "name": "Lucas Bjørnland Remme"
+            },
+            {
+              "number": 43,
+              "name": "Julian Renè Krogsæter Zarif"
+            },
+            {
+              "number": 37,
+              "name": "Alexander Huang Nuo Risnes"
+            }
+          ],
+          "bench": [
+            {
+              "number": 28,
+              "name": "Leon Lorgen Moa"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9204260",
       "fiksId": "9204260",
@@ -137,6 +285,576 @@
             }
           ],
           "bench": []
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9200076",
+      "fiksId": "9200076",
+      "matchNumber": "23214107044",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200076",
+      "date": "2026-10-15",
+      "time": "18:30",
+      "age": "J15",
+      "competition": "J15 3. div høst",
+      "competitionId": "j15-3-div-host",
+      "venue": "Nordøyhallen",
+      "home": "HaNo/Lepsøy/Harøy 9er",
+      "away": "Skodje 2 7er",
+      "homeScore": 5,
+      "awayScore": 4,
+      "halfTime": "3–1",
+      "localTeam": "both",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Alva Gausdal Vik",
+          "label": "Spillemål",
+          "minute": 10
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Julia Lausund Klokk",
+          "label": "Spillemål",
+          "minute": 29
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Alva Gausdal Vik",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Pia Fjørtoft",
+          "label": "Spillemål",
+          "minute": 46
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Alva Gausdal Vik",
+          "label": "Spillemål",
+          "minute": 51
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Oline Skotheim Gjerdsbakk",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Olivia Sue Sherman",
+          "label": "Spillemål",
+          "minute": 75
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Thomas Toven"
+      },
+      "referee": "Thomas Toven",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 16,
+              "name": "Bertine Blomvik Tvedt"
+            },
+            {
+              "number": 21,
+              "name": "Vilde Rogne Furnes"
+            },
+            {
+              "number": 30,
+              "name": "Vera Bergtun"
+            },
+            {
+              "number": 23,
+              "name": "Astri Longva Davik"
+            },
+            {
+              "number": 24,
+              "name": "Julia Lausund Klokk"
+            },
+            {
+              "number": 36,
+              "name": "Stine Myskja Slyngstad"
+            },
+            {
+              "number": 38,
+              "name": "Rannveig Kristine Martinsen"
+            },
+            {
+              "number": 39,
+              "name": "Olivia Sue Sherman"
+            },
+            {
+              "number": 25,
+              "name": "Pia Fjørtoft"
+            }
+          ],
+          "bench": []
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Belinda Petrine Sæthre Græsdal"
+            },
+            {
+              "number": 14,
+              "name": "Oline Skotheim Gjerdsbakk"
+            },
+            {
+              "number": 20,
+              "name": "Elle Louise Ytredal"
+            },
+            {
+              "number": 9,
+              "name": "Alva Gausdal Vik"
+            },
+            {
+              "number": 16,
+              "name": "Teoline Næs Tafjord"
+            },
+            {
+              "number": 23,
+              "name": "Sofie Nydal"
+            },
+            {
+              "number": 10,
+              "name": "Sigrid Fjørtoft Nes"
+            },
+            {
+              "number": 19,
+              "name": "Betty Munkvold"
+            }
+          ],
+          "bench": []
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-8983356",
+      "fiksId": "8983356",
+      "matchNumber": "23220410084",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983356",
+      "date": "2026-10-15",
+      "time": "18:30",
+      "age": "KVINNER",
+      "competition": "4. div. kvinner",
+      "competitionId": "senior-2026-4-div-kvinner-sunnmore",
+      "venue": "Uggedal kunstgras",
+      "home": "Brattvåg/Norborg/Ravn",
+      "away": "SIF/Hessa",
+      "homeScore": 2,
+      "awayScore": 1,
+      "halfTime": "2–1",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Zara Langlo",
+          "label": "Spillemål",
+          "minute": 13
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Helene Skodje",
+          "label": "Spillemål",
+          "minute": 80
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Vibecke Koppen Krogsæter",
+          "label": "Spillemål",
+          "minute": 88
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Jan Helge Lund",
+        "assistant1": "Mariusz Anuszkiewicz",
+        "assistant2": "Hjalmar Holvik"
+      },
+      "referee": "Jan Helge Lund",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Sara Nagell-Hågensen"
+            },
+            {
+              "number": 5,
+              "name": "Anne Margrethe Ulla Staurset"
+            },
+            {
+              "number": 8,
+              "name": "Leah Berit Knoff Strand"
+            },
+            {
+              "number": 13,
+              "name": "Zara Langlo"
+            },
+            {
+              "number": 16,
+              "name": "Anna Akerø Svenslid"
+            },
+            {
+              "number": 21,
+              "name": "Milla Vikestrand"
+            },
+            {
+              "number": 32,
+              "name": "Amelia Solowinska"
+            },
+            {
+              "number": 110,
+              "name": "Elise Hildre Grytten"
+            },
+            {
+              "number": 10,
+              "name": "Zara Volstad"
+            },
+            {
+              "number": 22,
+              "name": "Amanda Kolbensen Alvestad"
+            },
+            {
+              "number": 39,
+              "name": "Ane Skarsbø"
+            }
+          ],
+          "bench": [
+            {
+              "number": 2,
+              "name": "Vibecke Koppen Krogsæter"
+            },
+            {
+              "number": 3,
+              "name": "Aurora Gjerset Holmeseth"
+            },
+            {
+              "number": 4,
+              "name": "Alice Sofie Longva Koppen"
+            },
+            {
+              "number": 14,
+              "name": "Sirhild Flem Dalhaug"
+            },
+            {
+              "number": 15,
+              "name": "Aurora Austbø Skaar"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Carmen Håhjem Taylor"
+            },
+            {
+              "number": 2,
+              "name": "Hanna Molvær Melland"
+            },
+            {
+              "number": 5,
+              "name": "Maria Tomren"
+            },
+            {
+              "number": 19,
+              "name": "Sofie Lill Knutsen"
+            },
+            {
+              "number": 20,
+              "name": "Marie Vangen"
+            },
+            {
+              "number": 7,
+              "name": "Andrea Lie Kirkhorn"
+            },
+            {
+              "number": 8,
+              "name": "Helene Skodje"
+            },
+            {
+              "number": 14,
+              "name": "Randi-Elise Lilleås Grønningsæter"
+            },
+            {
+              "number": 22,
+              "name": "Maria Molvær Vassbotn"
+            },
+            {
+              "number": 25,
+              "name": "Julie Dybdal Fylling"
+            },
+            {
+              "number": 17,
+              "name": "Julie Helene Hellevik"
+            }
+          ],
+          "bench": []
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-8984126",
+      "fiksId": "8984126",
+      "matchNumber": "23120501125",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984126",
+      "date": "2026-10-15",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "5. div. menn",
+      "competitionId": "senior-2026-5-div-menn-sunnmore",
+      "venue": "Stranda stadion kg 11er",
+      "home": "Stranda",
+      "away": "HaNo",
+      "homeScore": 2,
+      "awayScore": 2,
+      "halfTime": "1–2",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Brian Fjørtoft",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Brian Fjørtoft",
+          "label": "Spillemål",
+          "minute": 32
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Øyvind Kjellstad Fjørstad",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Daniel Aal Norangshol",
+          "label": "Spillemål",
+          "minute": 50
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Cato Andersen (Trener)",
+          "label": "Advarsel for Leder",
+          "minute": 77
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Henning Nygård",
+        "assistant1": "Øystein Lied Lunde",
+        "assistant2": "Iliyan Diyanov Dinev"
+      },
+      "referee": "Henning Nygård",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Nicklas Sturk Lyse"
+            },
+            {
+              "number": 5,
+              "name": "Anders Lie Kirkhorn"
+            },
+            {
+              "number": 16,
+              "name": "Øyvind Kjellstad Fjørstad"
+            },
+            {
+              "number": 17,
+              "name": "Levi Habostad"
+            },
+            {
+              "number": 25,
+              "name": "Jens Løken"
+            },
+            {
+              "number": 6,
+              "name": "Robin Aal Norangshol"
+            },
+            {
+              "number": 7,
+              "name": "Tobias Lillebø Hjelle"
+            },
+            {
+              "number": 29,
+              "name": "Brede Wollen"
+            },
+            {
+              "number": 4,
+              "name": "Vegard Aasbø"
+            },
+            {
+              "number": 22,
+              "name": "Luca Engeset Sanchez"
+            },
+            {
+              "number": 34,
+              "name": "Samuel Danhel"
+            }
+          ],
+          "bench": [
+            {
+              "number": 11,
+              "name": "Aagash Nithiyaselvan"
+            },
+            {
+              "number": 13,
+              "name": "Haakon Lid Berget"
+            },
+            {
+              "number": 14,
+              "name": "Daniel Aal Norangshol"
+            },
+            {
+              "number": 15,
+              "name": "Henrik Langlo Johnsen"
+            },
+            {
+              "number": 27,
+              "name": "Tom Furset Johansen"
+            },
+            {
+              "number": 32,
+              "name": "Mikael Nykrem Dalen"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Axel Mario Akselsen"
+            },
+            {
+              "number": 2,
+              "name": "Eric Longva Husevåg"
+            },
+            {
+              "number": 3,
+              "name": "Audun Høistad Aakre"
+            },
+            {
+              "number": 14,
+              "name": "Noah Lausund Klokk"
+            },
+            {
+              "number": 47,
+              "name": "Noah Longva Hagen"
+            },
+            {
+              "number": 7,
+              "name": "Kasper Dalhaug Ulla"
+            },
+            {
+              "number": 12,
+              "name": "Oskar Jakub Zachara"
+            },
+            {
+              "number": 13,
+              "name": "Amund Longva Otterlei"
+            },
+            {
+              "number": 18,
+              "name": "Markus Fjørtoft"
+            },
+            {
+              "number": 4,
+              "name": "Brian Fjørtoft"
+            },
+            {
+              "number": 11,
+              "name": "Nicolai Norvoll Longva"
+            }
+          ],
+          "bench": [
+            {
+              "number": 6,
+              "name": "Este Kuma Lumbanziladio"
+            },
+            {
+              "number": 9,
+              "name": "Julian Nogva Vedeld"
+            },
+            {
+              "number": 16,
+              "name": "Vegard Alexander Halkjelsvik"
+            },
+            {
+              "number": 21,
+              "name": "Jon Håvard Bjørdal Sylte"
+            },
+            {
+              "number": 31,
+              "name": "Ruben Molnes"
+            },
+            {
+              "number": 33,
+              "name": "Knut Olger Nyhus Aksnes"
+            },
+            {
+              "number": 41,
+              "name": "Sebastian Hildre Grønmyr"
+            },
+            {
+              "number": 55,
+              "name": "Martin Blomvik Tvedt"
+            },
+            {
+              "number": 72,
+              "name": "Adrian Vedeld Molnes"
+            }
+          ]
         }
       },
       "goalTimelineVerified": true

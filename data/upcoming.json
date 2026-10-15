@@ -1,50 +1,6 @@
 {
-  "generatedAt": "2026-10-15T20:20:09+02:00",
+  "generatedAt": "2026-10-15T23:32:32+02:00",
   "matches": [
-    {
-      "date": "2026-10-15",
-      "time": "18:30",
-      "age": "G13",
-      "competition": "G13 1. div høst",
-      "venue": "Spjelkavik kunstgress",
-      "home": "Spjelkavik",
-      "away": "Brattvåg",
-      "matchNumber": "23113123037",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201530"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Nordøyhallen",
-      "home": "HaNo/Lepsøy/Harøy 9er",
-      "away": "Skodje 2 7er",
-      "matchNumber": "23214107044",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200076"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "18:30",
-      "age": "KVINNER",
-      "competition": "4. div. kvinner",
-      "venue": "Uggedal kunstgras",
-      "home": "Brattvåg/Norborg/Ravn",
-      "away": "SIF/Hessa",
-      "matchNumber": "23220410084",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983356"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Stranda stadion kg 11er",
-      "home": "Stranda",
-      "away": "HaNo",
-      "matchNumber": "23120501125",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984126"
-    },
     {
       "date": "2026-10-16",
       "time": "18:30",

@@ -1,6 +1,18 @@
 {
   "version": 3,
   "reports": {
+    "23113123037": {
+      "title": "Spjelkavik vann 2–0 mot Brattvåg",
+      "lead": "Spjelkavik vann 2–0 mot Brattvåg i G13 1. div høst.",
+      "paragraphs": [
+        "SAKARIAS LORGEN SÆTH gav Spjelkavik leiinga i det 50. minuttet.",
+        "SAKARIAS LORGEN SÆTH auka til 2–0 for Spjelkavik i det 66. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23113126026": {
       "title": "Skodje vann 4–1 mot Brattvåg 2",
       "lead": "Skodje vann 4–1 mot Brattvåg 2 i G13 3. div avd. 2 høst.",
@@ -10,6 +22,54 @@
         "Til pause stod det 1–1.",
         "Christian Solholm sende Skodje i leiinga i det 59. minuttet.",
         "Skodje auka leiinga med mål i minutta 68 og 69."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23214107044": {
+      "title": "Olivia Sue Sherman avgjorde seint for HaNo/Lepsøy/Harøy 9er",
+      "lead": "HaNo/Lepsøy/Harøy 9er vann 5–4 mot Skodje 2 7er i J15 3. div høst. Vinnarmålet kom i det 75. minuttet.",
+      "paragraphs": [
+        "Alva Gausdal Vik gav Skodje 2 7er leiinga i det 10. minuttet.",
+        "Pia Fjørtoft utlikna til 1–1 for HaNo/Lepsøy/Harøy 9er i det 15. minuttet.",
+        "Pia Fjørtoft sende HaNo/Lepsøy/Harøy 9er i leiinga i det 26. minuttet.",
+        "Julia Lausund Klokk auka til 3–1 for HaNo/Lepsøy/Harøy 9er i det 29. minuttet.",
+        "Til pause stod det 3–1.",
+        "Alva Gausdal Vik reduserte til 3–2 for Skodje 2 7er i det 42. minuttet.",
+        "Pia Fjørtoft auka til 4–2 for HaNo/Lepsøy/Harøy 9er i det 46. minuttet.",
+        "Alva Gausdal Vik reduserte til 4–3 for Skodje 2 7er i det 51. minuttet.",
+        "Oline Skotheim Gjerdsbakk utlikna til 4–4 for Skodje 2 7er i det 67. minuttet.",
+        "Olivia Sue Sherman skåra vinnarmålet for HaNo/Lepsøy/Harøy 9er i det 75. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23220410084": {
+      "title": "Vibecke Koppen Krogsæter avgjorde seint for Brattvåg/Norborg/Ravn",
+      "lead": "Brattvåg/Norborg/Ravn vann 2–1 mot SIF/Hessa i 4. div. kvinner. Vinnarmålet kom i det 88. minuttet.",
+      "paragraphs": [
+        "Zara Langlo gav Brattvåg/Norborg/Ravn leiinga i det 13. minuttet.",
+        "Helene Skodje utlikna til 1–1 for SIF/Hessa i det 80. minuttet.",
+        "Vibecke Koppen Krogsæter skåra vinnarmålet for Brattvåg/Norborg/Ravn i det 88. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120501125": {
+      "title": "Poengdeling mellom Stranda og HaNo",
+      "lead": "Stranda og HaNo spelte 2–2 i 5. div. menn.",
+      "paragraphs": [
+        "Brian Fjørtoft gav HaNo leiinga i det 23. minuttet.",
+        "Brian Fjørtoft auka til 0–2 for HaNo i det 32. minuttet.",
+        "Øyvind Kjellstad Fjørstad reduserte til 1–2 for Stranda i det 40. minuttet.",
+        "Til pause stod det 1–2.",
+        "Daniel Aal Norangshol utlikna til 2–2 for Stranda i det 50. minuttet."
       ],
       "mode": "automatic",
       "basis": "NFF-kampdata",
