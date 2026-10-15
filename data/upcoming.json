@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T02:02:28+02:00",
+  "generatedAt": "2026-10-15T06:26:52+02:00",
   "matches": [
     {
       "date": "2026-10-15",
@@ -83,22 +83,22 @@
       "time": "18:30",
       "age": "MENN",
       "competition": "4. div. menn",
-      "venue": "Brattvåg kunstgress",
-      "home": "Brattvåg 2",
-      "away": "Hovdebygda",
-      "matchNumber": "23120401122",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983880"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "4. div. menn",
       "venue": "Kirkebø stadion KGB",
       "home": "Stordal",
       "away": "Ravn",
       "matchNumber": "23120401125",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983883"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "19:00",
+      "age": "MENN",
+      "competition": "4. div. menn",
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg 2",
+      "away": "Hovdebygda",
+      "matchNumber": "23120401122",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983880"
     },
     {
       "date": "2026-10-17",
@@ -121,17 +121,6 @@
       "away": "Hareid",
       "matchNumber": "23116124037",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196249"
-    },
-    {
-      "date": "2026-10-17",
-      "time": "15:00",
-      "age": "G16",
-      "competition": "G16 2. div høst",
-      "venue": "Spjelkavik kunstgress",
-      "home": "Spjelkavik",
-      "away": "Ørskog/Stordal",
-      "matchNumber": "23116124038",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196250"
     },
     {
       "date": "2026-10-18",
@@ -165,6 +154,17 @@
       "away": "Brattvåg 2",
       "matchNumber": "23113126014",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204230"
+    },
+    {
+      "date": "2026-10-19",
+      "time": "20:00",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "venue": "Spjelkavik stadion",
+      "home": "Spjelkavik",
+      "away": "Ørskog/Stordal",
+      "matchNumber": "23116124038",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196250"
     },
     {
       "date": "2026-10-20",
