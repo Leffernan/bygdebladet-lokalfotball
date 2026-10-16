@@ -1,7 +1,394 @@
 {
-  "generatedAt": "2026-10-16T21:00:21+02:00",
+  "generatedAt": "2026-10-16T23:59:58+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-8983880",
+      "fiksId": "8983880",
+      "matchNumber": "23120401122",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983880",
+      "date": "2026-10-16",
+      "time": "19:00",
+      "age": "MENN",
+      "competition": "4. div. menn",
+      "competitionId": "senior-2026-4-div-menn-sunnmore",
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg 2",
+      "away": "Hovdebygda",
+      "homeScore": 0,
+      "awayScore": 3,
+      "halfTime": "0–1",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sigurd Sekkesæter Salvesson",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Kim Alvestad",
+          "label": "Spillemål",
+          "minute": 50
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Audun Lillebø",
+          "label": "Spillemål",
+          "minute": 79
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Haakon Javier Tronstad",
+        "assistant1": "Petter Krumsvik Aamaas",
+        "assistant2": "Meder Ergul"
+      },
+      "referee": "Haakon Javier Tronstad",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Fredrik Sørli"
+            },
+            {
+              "number": 2,
+              "name": "Elias Austbø Seth"
+            },
+            {
+              "number": 5,
+              "name": "Erlend Dahl Otterlei"
+            },
+            {
+              "number": 18,
+              "name": "Filip Hyrycz"
+            },
+            {
+              "number": 25,
+              "name": "Alexander Hesselberg Hatzikiriakidis"
+            },
+            {
+              "number": 8,
+              "name": "Thomas Eriksen Aarsund"
+            },
+            {
+              "number": 14,
+              "name": "Elias Vikestrand"
+            },
+            {
+              "number": 16,
+              "name": "Adrian Belden"
+            },
+            {
+              "number": 23,
+              "name": "Nicholas Akbar Kvammen"
+            },
+            {
+              "number": 10,
+              "name": "Magnus Austbø Seth"
+            },
+            {
+              "number": 11,
+              "name": "Martin Fylling Koch"
+            }
+          ],
+          "bench": [
+            {
+              "number": 3,
+              "name": "Stian Fjørtoft Klokk"
+            },
+            {
+              "number": 15,
+              "name": "Arman Maksumic"
+            },
+            {
+              "number": 19,
+              "name": "Kristoffer Holmeset Søviknes"
+            },
+            {
+              "number": 20,
+              "name": "Oliver Indredavik Karlsnes"
+            },
+            {
+              "number": 22,
+              "name": "Bartosz Wojciech Zlotnicki"
+            },
+            {
+              "number": 27,
+              "name": "Håkon Otterlei Sønderland"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Rikard Johannes Osnes"
+            },
+            {
+              "number": 16,
+              "name": "Sondre Meek Lillenes"
+            },
+            {
+              "number": 17,
+              "name": "Henrik Vinjevoll Amdam"
+            },
+            {
+              "number": 20,
+              "name": "Skjalg Eiksund Digernes"
+            },
+            {
+              "number": 4,
+              "name": "Gustav Bjørlykke Kløvning"
+            },
+            {
+              "number": 15,
+              "name": "Elias Rypdal"
+            },
+            {
+              "number": 18,
+              "name": "Snorre Midttun"
+            },
+            {
+              "number": 39,
+              "name": "Emil Henden Drageset"
+            },
+            {
+              "number": 7,
+              "name": "Anton Sumin"
+            },
+            {
+              "number": 10,
+              "name": "Kim Alvestad"
+            },
+            {
+              "number": 27,
+              "name": "Sigurd Sekkesæter Salvesson"
+            }
+          ],
+          "bench": [
+            {
+              "number": 9,
+              "name": "Tadele Simon Reath"
+            },
+            {
+              "number": 11,
+              "name": "Illia Kabo"
+            },
+            {
+              "number": 19,
+              "name": "Noah Hahn Antonsen"
+            },
+            {
+              "number": 22,
+              "name": "Audun Lillebø"
+            },
+            {
+              "number": 24,
+              "name": "Nikolai Lund"
+            },
+            {
+              "number": 25,
+              "name": "Magnus Vadstein Viddal"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9201538",
+      "fiksId": "9201538",
+      "matchNumber": "23113123040",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201538",
+      "date": "2026-10-16",
+      "time": "18:30",
+      "age": "G13",
+      "competition": "G13 1. div høst",
+      "competitionId": "g13-1-div-host",
+      "venue": "Aurstad Arena Kunstgras",
+      "home": "Ørsta",
+      "away": "Ravn/Norborg",
+      "homeScore": 8,
+      "awayScore": 1,
+      "halfTime": "7–1",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Christian B Skare",
+          "label": "Spillemål",
+          "minute": 1
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Dominic Mino-Martinsen",
+          "label": "Spillemål",
+          "minute": 8
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Fredrik Moltudal",
+          "label": "Spillemål",
+          "minute": 12
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Christian B Skare",
+          "label": "Spillemål",
+          "minute": 13
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Olav Alun Akkhakraisi Roth",
+          "label": "Spillemål",
+          "minute": 16
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 19
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Isaac Yumvagusenga",
+          "label": "Spillemål",
+          "minute": 33
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 56
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Nikolai Midtbø Sørvik"
+      },
+      "referee": "Nikolai Midtbø Sørvik",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 10,
+              "name": "Christian B Skare"
+            },
+            {
+              "number": 16,
+              "name": "Isaac Yumvagusenga"
+            },
+            {
+              "number": 17,
+              "name": "Natan Mikael Tesfay"
+            },
+            {
+              "number": 21,
+              "name": "Alexander Rudi Stokke"
+            },
+            {
+              "number": 2,
+              "name": "Ruben Mohara"
+            },
+            {
+              "number": 7,
+              "name": "Joakim Tran Winjevoll"
+            },
+            {
+              "number": 8,
+              "name": "Fredrik Moltudal"
+            },
+            {
+              "number": 11,
+              "name": "Liam Olai Hammond-Vatle"
+            },
+            {
+              "number": 14,
+              "name": "Olav Alun Akkhakraisi Roth"
+            },
+            {
+              "number": 19,
+              "name": "Dominic Mino-Martinsen"
+            }
+          ],
+          "bench": []
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 99,
+              "name": "Sebastian Thomassen Eide"
+            },
+            {
+              "number": 4,
+              "name": "Axel Fjørtoft Østraat"
+            },
+            {
+              "number": 6,
+              "name": "Vinjar Krogsethagen Ringstad"
+            },
+            {
+              "number": 20,
+              "name": "Bendik Helle Nygård"
+            },
+            {
+              "number": 30,
+              "name": "Jesper Aarseth"
+            },
+            {
+              "number": 7,
+              "name": "Petter Amdam Misund"
+            },
+            {
+              "number": 8,
+              "name": "Ulrik Hammerbekk Eidsvik"
+            },
+            {
+              "number": 9,
+              "name": "Rubin-Augustin Kleiven"
+            },
+            {
+              "number": 11,
+              "name": "David Kjerstad Nesje"
+            },
+            {
+              "number": 26,
+              "name": "Kevin Rogne"
+            }
+          ],
+          "bench": []
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-8983883",
       "fiksId": "8983883",

@@ -1,6 +1,40 @@
 {
   "version": 3,
   "reports": {
+    "23120401122": {
+      "title": "Hovdebygda vann 3–0 mot Brattvåg 2",
+      "lead": "Hovdebygda vann 3–0 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Sigurd Sekkesæter Salvesson gav Hovdebygda leiinga i det 12. minuttet.",
+        "Til pause stod det 0–1.",
+        "Kim Alvestad auka til 0–2 for Hovdebygda i det 50. minuttet.",
+        "Audun Lillebø auka til 0–3 for Hovdebygda i det 79. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23113123040": {
+      "title": "Ørsta vann stort mot Ravn/Norborg",
+      "lead": "Ørsta vann 8–1 mot Ravn/Norborg i G13 1. div høst.",
+      "paragraphs": [
+        "Christian B Skare gav Ørsta leiinga i det 1. minuttet.",
+        "Dominic Mino-Martinsen auka til 2–0 for Ørsta i det 8. minuttet.",
+        "Fredrik Moltudal auka til 3–0 for Ørsta i det 12. minuttet.",
+        "Christian B Skare auka til 4–0 for Ørsta i det 13. minuttet.",
+        "Olav Alun Akkhakraisi Roth auka til 5–0 for Ørsta i det 16. minuttet.",
+        "Ravn/Norborg reduserte til 5–1 i det 19. minuttet.",
+        "Ørsta auka leiinga til 6–1 i det 23. minuttet.",
+        "Isaac Yumvagusenga auka til 7–1 for Ørsta i det 33. minuttet.",
+        "Til pause stod det 7–1.",
+        "Ørsta auka leiinga til 8–1 i det 56. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23120401125": {
       "title": "Stordal vann 1–0 mot Ravn",
       "lead": "Stordal vann 1–0 mot Ravn i 4. div. menn.",
