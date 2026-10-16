@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-10-16T17:35:41+02:00",
+  "generatedAt": "2026-10-16T21:00:21+02:00",
   "matches": [
-    {
-      "date": "2026-10-16",
-      "time": "18:30",
-      "age": "G13",
-      "competition": "G13 1. div høst",
-      "venue": "Aurstad Arena Kunstgras",
-      "home": "Ørsta",
-      "away": "Ravn/Norborg",
-      "matchNumber": "23113123040",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201538"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "4. div. menn",
-      "venue": "Kirkebø stadion KGB",
-      "home": "Stordal",
-      "away": "Ravn",
-      "matchNumber": "23120401125",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983883"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "19:00",
-      "age": "MENN",
-      "competition": "4. div. menn",
-      "venue": "Brattvåg kunstgress",
-      "home": "Brattvåg 2",
-      "away": "Hovdebygda",
-      "matchNumber": "23120401122",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983880"
-    },
     {
       "date": "2026-10-17",
       "time": "14:00",
