@@ -1,28 +1,6 @@
 {
-  "generatedAt": "2026-10-17T14:29:06+02:00",
+  "generatedAt": "2026-10-17T17:52:09+02:00",
   "matches": [
-    {
-      "date": "2026-10-17",
-      "time": "14:00",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Vestnes idrettspark",
-      "home": "Vestnes Varfjell",
-      "away": "Malmefjorden",
-      "matchNumber": "15120501088",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8991179"
-    },
-    {
-      "date": "2026-10-17",
-      "time": "15:00",
-      "age": "G16",
-      "competition": "G16 2. div høst",
-      "venue": "Harøy Kunstgrasbane",
-      "home": "HaNo/Harøy/Lepsøy",
-      "away": "Hareid",
-      "matchNumber": "23116124037",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196249"
-    },
     {
       "date": "2026-10-18",
       "time": "16:00",

@@ -1,6 +1,49 @@
 {
   "version": 3,
   "reports": {
+    "23116124037": {
+      "title": "HaNo/Harøy/Lepsøy vann stort mot Hareid",
+      "lead": "HaNo/Harøy/Lepsøy vann 7–0 mot Hareid i G16 2. div høst.",
+      "paragraphs": [
+        "Andreas Silseth Harnes gav HaNo/Harøy/Lepsøy leiinga i det 27. minuttet.",
+        "Til pause stod det 1–0.",
+        "Markus Fjørtoft auka til 2–0 for HaNo/Harøy/Lepsøy i det 45. minuttet.",
+        "Andreas Silseth Harnes auka til 3–0 for HaNo/Harøy/Lepsøy i det 51. minuttet.",
+        "Aron Leander Nogva auka til 4–0 for HaNo/Harøy/Lepsøy i det 57. minuttet.",
+        "Markus Steinshamn auka til 5–0 for HaNo/Harøy/Lepsøy i det 58. minuttet.",
+        "Markus Steinshamn auka til 6–0 for HaNo/Harøy/Lepsøy i det 60. minuttet.",
+        "Ruben Molnes auka til 7–0 for HaNo/Harøy/Lepsøy i det 79. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "15120501088": {
+      "title": "Hattrick av Florian Hill då Vestnes Varfjell vann",
+      "lead": "Vestnes Varfjell vann 13–1 mot Malmefjorden i 5. div. menn. Florian Hill skåra tre av måla.",
+      "paragraphs": [
+        "Florian Hill gav Vestnes Varfjell leiinga i det 2. minuttet.",
+        "Erlend Hagås Sørengen utlikna til 1–1 for Malmefjorden i det 9. minuttet.",
+        "Florian Hill sende Vestnes Varfjell i leiinga i det 16. minuttet.",
+        "Casper Rolf Hellstrøm Andreassen auka til 3–1 for Vestnes Varfjell i det 20. minuttet.",
+        "Casper Rolf Hellstrøm Andreassen auka til 4–1 for Vestnes Varfjell i det 31. minuttet.",
+        "Florian Hill auka til 5–1 for Vestnes Varfjell i det 34. minuttet.",
+        "Tor-Bjarne Løvik Salte auka til 6–1 for Vestnes Varfjell i det 42. minuttet.",
+        "Didrik Selnes Sæter auka til 7–1 for Vestnes Varfjell i det 47. minuttet.",
+        "Til pause stod det 7–1.",
+        "Tommy Kanishi Andreassen auka til 8–1 for Vestnes Varfjell i det 49. minuttet.",
+        "Leo Villa Krogseth auka til 9–1 for Vestnes Varfjell i det 66. minuttet.",
+        "Tommy Kanishi Andreassen auka til 10–1 for Vestnes Varfjell i det 71. minuttet.",
+        "Tommy Kanishi Andreassen auka til 11–1 for Vestnes Varfjell i det 74. minuttet.",
+        "Henrik Leao Tomren auka til 12–1 for Vestnes Varfjell i det 91. minuttet.",
+        "Leo Villa Krogseth auka til 13–1 for Vestnes Varfjell i det 93. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23120401122": {
       "title": "Hovdebygda vann 3–0 mot Brattvåg 2",
       "lead": "Hovdebygda vann 3–0 mot Brattvåg 2 i 4. div. menn.",
