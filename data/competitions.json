@@ -1304,10 +1304,22 @@
     "senior-2026-5-div-menn-romsdal": {
       "name": "5. div. menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-10-17T20:01:23+02:00",
+      "updatedAt": "2026-10-17T22:29:16+02:00",
       "standings": [
         {
           "position": 1,
+          "team": "Bud/Bryn",
+          "played": 18,
+          "wins": 16,
+          "draws": 1,
+          "losses": 1,
+          "gf": 80,
+          "ga": 21,
+          "gd": 59,
+          "points": 49
+        },
+        {
+          "position": 2,
           "team": "Vestnes Varfjell",
           "played": 18,
           "wins": 16,
@@ -1317,18 +1329,6 @@
           "ga": 16,
           "gd": 55,
           "points": 49
-        },
-        {
-          "position": 2,
-          "team": "Bud/Bryn",
-          "played": 17,
-          "wins": 15,
-          "draws": 1,
-          "losses": 1,
-          "gf": 65,
-          "ga": 21,
-          "gd": 44,
-          "points": 46
         },
         {
           "position": 3,
@@ -1381,13 +1381,13 @@
         {
           "position": 7,
           "team": "Kårvåg/Havørn/Averøykameratene",
-          "played": 17,
+          "played": 18,
           "wins": 5,
           "draws": 1,
-          "losses": 11,
+          "losses": 12,
           "gf": 29,
-          "ga": 64,
-          "gd": -35,
+          "ga": 79,
+          "gd": -50,
           "points": 16
         },
         {
