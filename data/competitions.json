@@ -1304,7 +1304,7 @@
     "senior-2026-5-div-menn-romsdal": {
       "name": "5. div. menn",
       "tournamentId": "205959",
-      "updatedAt": "2026-10-17T17:51:57+02:00",
+      "updatedAt": "2026-10-17T20:01:23+02:00",
       "standings": [
         {
           "position": 1,
@@ -1333,14 +1333,14 @@
         {
           "position": 3,
           "team": "Batnfjord",
-          "played": 17,
-          "wins": 11,
+          "played": 18,
+          "wins": 12,
           "draws": 3,
           "losses": 3,
-          "gf": 55,
+          "gf": 56,
           "ga": 27,
-          "gd": 28,
-          "points": 36
+          "gd": 29,
+          "points": 39
         },
         {
           "position": 4,
@@ -1369,13 +1369,13 @@
         {
           "position": 6,
           "team": "Hjelset-Kleive",
-          "played": 17,
+          "played": 18,
           "wins": 6,
           "draws": 1,
-          "losses": 10,
+          "losses": 11,
           "gf": 23,
-          "ga": 39,
-          "gd": -16,
+          "ga": 40,
+          "gd": -17,
           "points": 19
         },
         {
