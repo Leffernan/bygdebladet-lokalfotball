@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T02:17:42+02:00",
+  "generatedAt": "2026-10-17T06:40:49+02:00",
   "matches": [
     {
       "date": "2026-10-17",
@@ -266,17 +266,6 @@
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983362"
     },
     {
-      "date": "2026-10-22",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "5. div. menn",
-      "venue": "Harøy Kunstgrasbane",
-      "home": "HaNo",
-      "away": "Giske",
-      "matchNumber": "23120501132",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984133"
-    },
-    {
       "date": "2026-10-23",
       "time": "18:30",
       "age": "G13",
@@ -319,6 +308,17 @@
       "away": "Spjelkavik 2",
       "matchNumber": "23120401132",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983890"
+    },
+    {
+      "date": "2026-10-23",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "5. div. menn",
+      "venue": "Harøy Kunstgrasbane",
+      "home": "HaNo",
+      "away": "Giske",
+      "matchNumber": "23120501132",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8984133"
     },
     {
       "date": "2026-10-24",
