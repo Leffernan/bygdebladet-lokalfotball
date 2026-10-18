@@ -1,6 +1,24 @@
 {
   "version": 3,
   "reports": {
+    "23127001024": {
+      "title": "Skodje vann 4–3 mot Godøy",
+      "lead": "Skodje vann 4–3 mot Godøy i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Alexander Engebretsen Jensen gav Skodje leiinga i det 13. minuttet.",
+        "Mathias Johann Fjørtoft Remmen utlikna til 1–1 for Godøy i det 23. minuttet.",
+        "Jakob Kjerstad sende Skodje i leiinga i det 31. minuttet.",
+        "Sivert Godø utlikna til 2–2 for Godøy i det 43. minuttet.",
+        "Til pause stod det 2–2.",
+        "Håkon Bjørdal Leine sende Skodje i leiinga i det 57. minuttet.",
+        "Håkon Bjørdal Leine auka til 4–2 for Skodje i det 68. minuttet.",
+        "Mathias Johann Fjørtoft Remmen reduserte til 4–3 for Godøy i det 70. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "99120201168": {
       "title": "Bjarg snudde kampen og vann 4–1",
       "lead": "Bjarg vann 4–1 mot Brattvåg i 2. divisjon menn avd. 1. Bjarg måtte hente inn eit underlag før sigeren var sikra.",

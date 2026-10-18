@@ -1,7 +1,259 @@
 {
-  "generatedAt": "2026-10-18T18:34:33+02:00",
+  "generatedAt": "2026-10-18T20:53:28+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9193933",
+      "fiksId": "9193933",
+      "matchNumber": "23127001024",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193933",
+      "date": "2026-10-18",
+      "time": "18:00",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "competitionId": "senior-2026-7-div-menn-host-1",
+      "venue": "Skodje Kunstgras 1",
+      "home": "Skodje",
+      "away": "Godøy",
+      "homeScore": 4,
+      "awayScore": 3,
+      "halfTime": "2–2",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Alexander Engebretsen Jensen",
+          "label": "Spillemål",
+          "minute": 13
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Mathias Johann Fjørtoft Remmen",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Jakob Kjerstad",
+          "label": "Spillemål",
+          "minute": 31
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sivert Godø",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Bjørdal Leine",
+          "label": "Spillemål",
+          "minute": 57
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Olav Glomset Vikhagen",
+          "label": "Advarsel",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Håkon Bjørdal Leine",
+          "label": "Spillemål",
+          "minute": 68
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Mathias Johann Fjørtoft Remmen",
+          "label": "Spillemål",
+          "minute": 70
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Mathias Johann Fjørtoft Remmen",
+          "label": "Advarsel",
+          "minute": 75
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Magnus Strømmen",
+          "label": "Advarsel",
+          "minute": 80
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Kristoffer Solheimsnes"
+      },
+      "referee": "Kristoffer Solheimsnes",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Brede Waag"
+            },
+            {
+              "number": 4,
+              "name": "Adrian Andrukiewicz"
+            },
+            {
+              "number": 5,
+              "name": "Erik Hessen Midtbø"
+            },
+            {
+              "number": 15,
+              "name": "Olav Glomset Vikhagen"
+            },
+            {
+              "number": 41,
+              "name": "Sindre Giske"
+            },
+            {
+              "number": 2,
+              "name": "Henrik Vestnes Berge"
+            },
+            {
+              "number": 7,
+              "name": "Jan Erik Hellevik"
+            },
+            {
+              "number": 13,
+              "name": "Jakob Kjerstad"
+            },
+            {
+              "number": 17,
+              "name": "Levi Raanes Ludvigsen"
+            },
+            {
+              "number": 34,
+              "name": "Martin Buset Knudsen"
+            },
+            {
+              "number": 19,
+              "name": "Alexander Engebretsen Jensen"
+            }
+          ],
+          "bench": [
+            {
+              "number": 1,
+              "name": "Niklas Solevågseide Nylén"
+            },
+            {
+              "number": 3,
+              "name": "Magnus Kvalsund Erstad"
+            },
+            {
+              "number": 8,
+              "name": "Eivind Fjørtoft Floen"
+            },
+            {
+              "number": 9,
+              "name": "Håkon Bjørdal Leine"
+            },
+            {
+              "number": 10,
+              "name": "Magnus Strømmen"
+            },
+            {
+              "number": 16,
+              "name": "Martin Giske"
+            },
+            {
+              "number": 18,
+              "name": "Eben Jensen"
+            },
+            {
+              "number": 21,
+              "name": "Andreas Larsen Beite"
+            },
+            {
+              "number": 27,
+              "name": "Sondre Sandnes Beite"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Johan Rørvik Godø"
+            },
+            {
+              "number": 3,
+              "name": "Sivert Godø"
+            },
+            {
+              "number": 11,
+              "name": "Ole Andreas Albito Dyb"
+            },
+            {
+              "number": 14,
+              "name": "Jonas Myhre Fagervoll"
+            },
+            {
+              "number": 26,
+              "name": "Magnus Raunholm"
+            },
+            {
+              "number": 5,
+              "name": "Kevin Silbernagel"
+            },
+            {
+              "number": 7,
+              "name": "Isak Austnes"
+            },
+            {
+              "number": 10,
+              "name": "Christian Olav Nyvoll"
+            },
+            {
+              "number": 13,
+              "name": "Ludvik Skodje"
+            },
+            {
+              "number": 17,
+              "name": "Kristoffer Holmen Dyb"
+            },
+            {
+              "number": 9,
+              "name": "Mathias Johann Fjørtoft Remmen"
+            }
+          ],
+          "bench": [
+            {
+              "number": 2,
+              "name": "Marco Alexander Lillebostad-Piccolin"
+            },
+            {
+              "number": 16,
+              "name": "Tobias Støbakk Valkvæ"
+            },
+            {
+              "number": 20,
+              "name": "Magnus Alnes Optun"
+            },
+            {
+              "number": 23,
+              "name": "Nikolai Dyb Støbakk"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-8987154",
       "fiksId": "8987154",
