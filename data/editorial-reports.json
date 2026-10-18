@@ -1,6 +1,22 @@
 {
   "version": 3,
   "reports": {
+    "99120201168": {
+      "title": "Bjarg snudde kampen og vann 4–1",
+      "lead": "Bjarg vann 4–1 mot Brattvåg i 2. divisjon menn avd. 1. Bjarg måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Eit sjølvmål frå Bjarg i det 14. minuttet gav Brattvåg leiinga.",
+        "Markus Eiane utlikna til 1–1 for Bjarg i det 43. minuttet.",
+        "Til pause stod det 1–1.",
+        "Markus Eiane sende Bjarg i leiinga i det 64. minuttet.",
+        "Sander Hopsdal auka til 1–3 for Bjarg i det 71. minuttet.",
+        "Axel Ahlander auka til 1–4 for Bjarg i det 90. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23116124037": {
       "title": "HaNo/Harøy/Lepsøy vann stort mot Hareid",
       "lead": "HaNo/Harøy/Lepsøy vann 7–0 mot Hareid i G16 2. div høst.",

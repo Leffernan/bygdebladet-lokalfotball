@@ -1,7 +1,287 @@
 {
-  "generatedAt": "2026-10-18T15:14:03+02:00",
+  "generatedAt": "2026-10-18T18:34:33+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-8987154",
+      "fiksId": "8987154",
+      "matchNumber": "99120201168",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987154",
+      "date": "2026-10-18",
+      "time": "16:00",
+      "age": "MENN",
+      "competition": "2. divisjon menn avd. 1",
+      "competitionId": "senior-2026-2-div-menn-avd-1",
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg",
+      "away": "Bjarg",
+      "homeScore": 1,
+      "awayScore": 4,
+      "halfTime": "1–1",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Morgan Ahmer",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "away",
+          "minute": 14
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Markus Eiane",
+          "label": "Advarsel",
+          "minute": 40
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Karim Magdy Bata",
+          "label": "Advarsel",
+          "minute": 41
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Markus Eiane",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Kristoffer Stephensen",
+          "label": "Advarsel",
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Markus Eiane",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Sander Hopsdal",
+          "label": "Spillemål",
+          "minute": 71
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Sander Hopsdal",
+          "label": "Advarsel",
+          "minute": 72
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Vegard Halset",
+          "label": "Advarsel",
+          "minute": 77
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Torbjørn Birkelund (Trener)",
+          "label": "Advarsel for Leder",
+          "minute": 90
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Axel Ahlander",
+          "label": "Spillemål",
+          "minute": 90
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Andreas Flückiger",
+        "assistant1": "Magnus Smørdal",
+        "assistant2": "Andreas Skeistrand Bakkelid",
+        "refereeObserver": "Tor Søvik Sannes"
+      },
+      "referee": "Andreas Flückiger",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Iaroslav Sundling"
+            },
+            {
+              "number": 2,
+              "name": "Iver Krogh Hagen"
+            },
+            {
+              "number": 3,
+              "name": "Jonas Skjerven Valland"
+            },
+            {
+              "number": 16,
+              "name": "Ruben Kolseth Myers"
+            },
+            {
+              "number": 21,
+              "name": "Diedrick Bubahe"
+            },
+            {
+              "number": 4,
+              "name": "Karim Magdy Bata"
+            },
+            {
+              "number": 8,
+              "name": "Jacob Steinsland Kvarven"
+            },
+            {
+              "number": 20,
+              "name": "Leandro Elvestad Neto"
+            },
+            {
+              "number": 7,
+              "name": "Andreas Tveiten"
+            },
+            {
+              "number": 9,
+              "name": "Rasmus Sørensen Løvseth"
+            },
+            {
+              "number": 23,
+              "name": "Sivert Solli"
+            }
+          ],
+          "bench": [
+            {
+              "number": 1,
+              "name": "Owen Hjelme Connor"
+            },
+            {
+              "number": 5,
+              "name": "Adrian Cortes Ugelvik"
+            },
+            {
+              "number": 6,
+              "name": "Fredrik Vinje"
+            },
+            {
+              "number": 10,
+              "name": "Emil Dahle"
+            },
+            {
+              "number": 11,
+              "name": "Oliver Odde Henriksrud"
+            },
+            {
+              "number": 15,
+              "name": "Andreas Eikrem Myklebust"
+            },
+            {
+              "number": 17,
+              "name": "John Ruud Norvik"
+            },
+            {
+              "number": 18,
+              "name": "Jørgen Havig"
+            },
+            {
+              "number": 19,
+              "name": "Samuel James Tattum"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Petter Mossestad"
+            },
+            {
+              "number": 4,
+              "name": "Morgan Ahmer"
+            },
+            {
+              "number": 13,
+              "name": "Simen Hopsdal"
+            },
+            {
+              "number": 14,
+              "name": "Simen Aleksander Aanonsen"
+            },
+            {
+              "number": 22,
+              "name": "Mads Christophersen"
+            },
+            {
+              "number": 7,
+              "name": "Sander Hopsdal"
+            },
+            {
+              "number": 8,
+              "name": "Jacob Jørgensen"
+            },
+            {
+              "number": 29,
+              "name": "Kristoffer Stephensen"
+            },
+            {
+              "number": 6,
+              "name": "Vegard Halset"
+            },
+            {
+              "number": 9,
+              "name": "Markus Eiane"
+            },
+            {
+              "number": 18,
+              "name": "Axel Ahlander"
+            }
+          ],
+          "bench": [
+            {
+              "number": 12,
+              "name": "Erlend Johansen"
+            },
+            {
+              "number": 5,
+              "name": "Henrik Røssevold Mildestveit"
+            },
+            {
+              "number": 10,
+              "name": "David Flygel Tufta"
+            },
+            {
+              "number": 11,
+              "name": "Edvin Dvergsdal Brattreit"
+            },
+            {
+              "number": 15,
+              "name": "Alexander Bømark Hanssen"
+            },
+            {
+              "number": 16,
+              "name": "Embrik Fromreide Aasbø"
+            },
+            {
+              "number": 17,
+              "name": "Moutaz Ali Alzubi"
+            },
+            {
+              "number": 19,
+              "name": "Sindre Strønstad-Løseth"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9196249",
       "fiksId": "9196249",
