@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T08:19:59+02:00",
+  "generatedAt": "2026-10-19T21:29:00+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -530,6 +530,157 @@
               "name": "Sindre Strønstad-Løseth"
             }
           ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9204230",
+      "fiksId": "9204230",
+      "matchNumber": "23113126014",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204230",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "age": "G13",
+      "competition": "G13 3. div avd. 2 høst",
+      "competitionId": "g13-3-div-avd-2-host",
+      "venue": "Nørvebana KGB",
+      "home": "Guard/Rollon 2",
+      "away": "Brattvåg 2",
+      "homeScore": 6,
+      "awayScore": 0,
+      "halfTime": "2–0",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 17
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Gustav Steinsvik",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 38
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Ohad Kikyarito",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Ohad Kikyarito",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Arne-Johann Barstad-Solberg",
+          "label": "Spillemål",
+          "minute": 69
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Emil Murati"
+      },
+      "referee": "Emil Murati",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 99,
+              "name": "Danielius Rakauskas"
+            },
+            {
+              "number": 11,
+              "name": "Colin Crevisier"
+            },
+            {
+              "number": 15,
+              "name": "Jørgen Sandvik Myklebust"
+            },
+            {
+              "number": 16,
+              "name": "Gustav Steinsvik"
+            },
+            {
+              "number": 19,
+              "name": "Ohad Kikyarito"
+            },
+            {
+              "number": 28,
+              "name": "Matheo Balsnes"
+            },
+            {
+              "number": 33,
+              "name": "Stefan Løkka"
+            },
+            {
+              "number": 20,
+              "name": "Wilhelm Sakse Simlenes Opshaug"
+            }
+          ],
+          "bench": [
+            {
+              "number": 5,
+              "name": "Leaozinho Finnøy"
+            },
+            {
+              "number": 21,
+              "name": "Arne-Johann Barstad-Solberg"
+            },
+            {
+              "number": 44,
+              "name": "Sahal Abdullahi Hussein"
+            },
+            {
+              "number": 49,
+              "name": "Jean Philip Ariew Endresen"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Kai-Leander Reistad Giske"
+            },
+            {
+              "number": 3,
+              "name": "Kevin Bjørshol Skjønberg"
+            },
+            {
+              "number": 21,
+              "name": "Even Endré Frøysadal Hånde"
+            },
+            {
+              "number": 25,
+              "name": "Egide Ntumba Ushindi"
+            },
+            {
+              "number": 4,
+              "name": "Cian Lucas Pagara"
+            }
+          ],
+          "bench": []
         }
       },
       "goalTimelineVerified": true
