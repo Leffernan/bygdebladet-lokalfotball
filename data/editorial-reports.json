@@ -1,6 +1,25 @@
 {
   "version": 3,
   "reports": {
+    "23116124038": {
+      "title": "Hattrick av Leon Stavseng då Ørskog/Stordal vann",
+      "lead": "Ørskog/Stordal vann 5–3 mot Spjelkavik i G16 2. div høst. Leon Stavseng skåra tre av måla.",
+      "paragraphs": [
+        "Leon Stavseng gav Ørskog/Stordal leiinga i det 1. minuttet.",
+        "Leon Stavseng auka til 0–2 for Ørskog/Stordal i det 6. minuttet.",
+        "Nikolai Sand Wiig reduserte til 1–2 for Spjelkavik i det 8. minuttet.",
+        "Johan Sunde Heggstad utlikna til 2–2 for Spjelkavik i det 16. minuttet.",
+        "Jaden Alexander Grüner sende Ørskog/Stordal i leiinga i det 20. minuttet.",
+        "Leon Stavseng auka til 2–4 for Ørskog/Stordal i det 29. minuttet.",
+        "Til pause stod det 2–4.",
+        "Aron Tuva Holkestad reduserte til 3–4 for Spjelkavik i det 53. minuttet.",
+        "Jørgen Nordli Sivertsen auka til 3–5 for Ørskog/Stordal i det 60. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23127001024": {
       "title": "Skodje vann 4–3 mot Godøy",
       "lead": "Skodje vann 4–3 mot Godøy i 7. div. menn høst avd. 1.",

@@ -1,7 +1,252 @@
 {
-  "generatedAt": "2026-10-19T21:29:00+02:00",
+  "generatedAt": "2026-10-20T01:01:28+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9196250",
+      "fiksId": "9196250",
+      "matchNumber": "23116124038",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196250",
+      "date": "2026-10-19",
+      "time": "20:00",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "competitionId": "g16-2-div-host",
+      "venue": "Spjelkavik stadion",
+      "home": "Spjelkavik",
+      "away": "Ørskog/Stordal",
+      "homeScore": 3,
+      "awayScore": 5,
+      "halfTime": "2–4",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leon Stavseng",
+          "label": "Spillemål",
+          "minute": 1
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leon Stavseng",
+          "label": "Spillemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Nikolai Sand Wiig",
+          "label": "Spillemål",
+          "minute": 8
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Johan Sunde Heggstad",
+          "label": "Spillemål",
+          "minute": 16
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jaden Alexander Grüner",
+          "label": "Spillemål",
+          "minute": 20
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leon Stavseng",
+          "label": "Spillemål",
+          "minute": 29
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Leon Moss Nguyen Karlsen",
+          "label": "Advarsel",
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Aron Tuva Holkestad",
+          "label": "Spillemål",
+          "minute": 53
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jørgen Nordli Sivertsen",
+          "label": "Spillemål",
+          "minute": 60
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Tor Henning Andersen"
+      },
+      "referee": "Tor Henning Andersen",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Bård André Pedersen Ørstavik"
+            },
+            {
+              "number": 4,
+              "name": "Leon Moss Nguyen Karlsen"
+            },
+            {
+              "number": 9,
+              "name": "Isak Horn"
+            },
+            {
+              "number": 18,
+              "name": "Noa Steien Seljeset"
+            },
+            {
+              "number": 5,
+              "name": "Stian Nykrem"
+            },
+            {
+              "number": 6,
+              "name": "Vetle Spjelkavik"
+            },
+            {
+              "number": 7,
+              "name": "Aron Tuva Holkestad"
+            },
+            {
+              "number": 16,
+              "name": "Adnan Kvassheim Kutluca"
+            },
+            {
+              "number": 30,
+              "name": "Tobias Olander Bunes"
+            },
+            {
+              "number": 22,
+              "name": "Elliott Bøe Indrevåg"
+            },
+            {
+              "number": 66,
+              "name": "Johan Sunde Heggstad"
+            }
+          ],
+          "bench": [
+            {
+              "number": 2,
+              "name": "Liam Hormazabal Svindseth"
+            },
+            {
+              "number": 10,
+              "name": "Liam Dahl Østerbø"
+            },
+            {
+              "number": 14,
+              "name": "Nikolai Sand Wiig"
+            },
+            {
+              "number": 15,
+              "name": "Storm Tuva Holkestad"
+            },
+            {
+              "number": 110,
+              "name": "Malte Tennfjord"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Nathaniel Nybø Skjegstad"
+            },
+            {
+              "number": 2,
+              "name": "Antoni Mateusz Adamiec"
+            },
+            {
+              "number": 9,
+              "name": "Julian André Uhlen"
+            },
+            {
+              "number": 11,
+              "name": "Sondre Hove Bull"
+            },
+            {
+              "number": 18,
+              "name": "Syver Midtbust-Dyrkorn"
+            },
+            {
+              "number": 20,
+              "name": "Mateo Fernando Dyrkorn"
+            },
+            {
+              "number": 6,
+              "name": "Eriam Abelseth Søvik"
+            },
+            {
+              "number": 7,
+              "name": "Magnus Sjøholt Alstadsæter"
+            },
+            {
+              "number": 16,
+              "name": "Jaden Alexander Grüner"
+            },
+            {
+              "number": 17,
+              "name": "Leon Stavseng"
+            },
+            {
+              "number": 21,
+              "name": "Marcus Karl Cevallos"
+            }
+          ],
+          "bench": [
+            {
+              "number": 22,
+              "name": "Trym Vaksvik Sandberg"
+            },
+            {
+              "number": 37,
+              "name": "Adrian Tennfjord Myklebust"
+            },
+            {
+              "number": 4,
+              "name": "Trym Falling Møller"
+            },
+            {
+              "number": 5,
+              "name": "Lars Joakim Hole Sjåstad"
+            },
+            {
+              "number": 10,
+              "name": "Filip Hjelle Busengdal"
+            },
+            {
+              "number": 14,
+              "name": "Magnus Vad"
+            },
+            {
+              "number": 15,
+              "name": "Jørgen Gjerde Ramsvik"
+            },
+            {
+              "number": 38,
+              "name": "Jørgen Nordli Sivertsen"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9193933",
       "fiksId": "9193933",

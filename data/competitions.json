@@ -209,7 +209,7 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-10-18T18:34:27+02:00",
+      "updatedAt": "2026-10-20T01:01:19+02:00",
       "standings": [
         {
           "position": 1,
@@ -226,25 +226,25 @@
         {
           "position": 2,
           "team": "Ørskog/Stordal",
-          "played": 7,
-          "wins": 6,
+          "played": 8,
+          "wins": 7,
           "draws": 1,
           "losses": 0,
-          "gf": 34,
-          "ga": 8,
-          "gd": 26,
-          "points": 19
+          "gf": 39,
+          "ga": 11,
+          "gd": 28,
+          "points": 22
         },
         {
           "position": 3,
           "team": "Spjelkavik",
-          "played": 7,
+          "played": 8,
           "wins": 5,
           "draws": 1,
-          "losses": 1,
-          "gf": 35,
-          "ga": 15,
-          "gd": 20,
+          "losses": 2,
+          "gf": 38,
+          "ga": 20,
+          "gd": 18,
           "points": 16
         },
         {
@@ -820,19 +820,19 @@
     "senior-2026-4-div-kvinner-sunnmore": {
       "name": "4. div. kvinner",
       "tournamentId": "205920",
-      "updatedAt": "2026-10-18T06:42:40+02:00",
+      "updatedAt": "2026-10-20T01:01:19+02:00",
       "standings": [
         {
           "position": 1,
           "team": "Aksla/Guard",
-          "played": 15,
-          "wins": 12,
+          "played": 16,
+          "wins": 13,
           "draws": 1,
           "losses": 2,
-          "gf": 55,
+          "gf": 64,
           "ga": 11,
-          "gd": 44,
-          "points": 37
+          "gd": 53,
+          "points": 40
         },
         {
           "position": 2,
@@ -921,13 +921,13 @@
         {
           "position": 9,
           "team": "Hovdebygda",
-          "played": 14,
+          "played": 15,
           "wins": 0,
           "draws": 0,
-          "losses": 14,
+          "losses": 15,
           "gf": 7,
-          "ga": 54,
-          "gd": -47,
+          "ga": 63,
+          "gd": -56,
           "points": 0
         }
       ]
@@ -1431,7 +1431,7 @@
     "senior-2026-5-div-menn-sunnmore": {
       "name": "5. div. menn",
       "tournamentId": "205921",
-      "updatedAt": "2026-10-18T06:42:40+02:00",
+      "updatedAt": "2026-10-20T01:01:19+02:00",
       "standings": [
         {
           "position": 1,
@@ -1507,6 +1507,18 @@
         },
         {
           "position": 7,
+          "team": "Sande",
+          "played": 21,
+          "wins": 10,
+          "draws": 2,
+          "losses": 9,
+          "gf": 52,
+          "ga": 56,
+          "gd": -4,
+          "points": 32
+        },
+        {
+          "position": 8,
           "team": "Volda 2",
           "played": 21,
           "wins": 9,
@@ -1516,18 +1528,6 @@
           "ga": 48,
           "gd": 6,
           "points": 30
-        },
-        {
-          "position": 8,
-          "team": "Sande",
-          "played": 20,
-          "wins": 9,
-          "draws": 2,
-          "losses": 9,
-          "gf": 47,
-          "ga": 52,
-          "gd": -5,
-          "points": 29
         },
         {
           "position": 9,
@@ -1568,13 +1568,13 @@
         {
           "position": 12,
           "team": "NTNUIÅ",
-          "played": 20,
+          "played": 21,
           "wins": 3,
           "draws": 3,
-          "losses": 14,
-          "gf": 28,
-          "ga": 66,
-          "gd": -38,
+          "losses": 15,
+          "gf": 32,
+          "ga": 71,
+          "gd": -39,
           "points": 12
         }
       ]
