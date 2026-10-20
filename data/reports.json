@@ -1,3 +1,13 @@
 {
-  "reports": {}
+  "reports": {
+    "23113123044": {
+      "title": "Rollon/Guard vann 4–0",
+      "summary": "Rollon/Guard vann 4–0 mot Ravn/Norborg. Til pause stod det 0–3. For Rollon/Guard stod Personinfo ikkje tilgjengeleg (2), Magnus Øksenvåg Sand og Sahal Abdullahi Hussein for måla. Klubbreferatet er brukt som tilleggsgrunnlag.",
+      "sourceName": "IL Norborg",
+      "sourceUrl": "https://www.norborg.com/herrer-a/kampreferat/kampreferat-2025/",
+      "mode": "auto",
+      "detectedAt": "2026-10-20T23:52:39+00:00",
+      "confidence": 26
+    }
+  }
 }
