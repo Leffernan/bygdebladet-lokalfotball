@@ -1,6 +1,38 @@
 {
   "version": 3,
   "reports": {
+    "23214107047": {
+      "title": "Emblem vann 5–1 mot HaNo/Lepsøy/Harøy 9er",
+      "lead": "Emblem vann 5–1 mot HaNo/Lepsøy/Harøy 9er i J15 3. div høst.",
+      "paragraphs": [
+        "Dia Naderpour gav Emblem leiinga i det 2. minuttet.",
+        "Pia Fjørtoft utlikna til 1–1 for HaNo/Lepsøy/Harøy 9er i det 20. minuttet.",
+        "Silje Grimstad sende Emblem i leiinga i det 28. minuttet.",
+        "Til pause stod det 2–1.",
+        "Dia Naderpour auka til 3–1 for Emblem i det 44. minuttet.",
+        "NIKOLINE FOSS BLINDHEIM auka til 4–1 for Emblem i det 46. minuttet.",
+        "Nikoline Hatløy auka til 5–1 for Emblem i det 74. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23113123044": {
+      "title": "Rollon/Guard vann 4–0 mot Ravn/Norborg",
+      "lead": "Rollon/Guard vann 4–0 mot Ravn/Norborg i G13 1. div høst.",
+      "paragraphs": [
+        "Rollon/Guard tok leiinga i det 16. minuttet.",
+        "Rollon/Guard auka leiinga til 0–2 i det 34. minuttet.",
+        "Magnus Øksenvåg Sand auka til 0–3 for Rollon/Guard i det 35. minuttet.",
+        "Til pause stod det 0–3.",
+        "Sahal Abdullahi Hussein auka til 0–4 for Rollon/Guard i det 55. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23116124038": {
       "title": "Hattrick av Leon Stavseng då Ørskog/Stordal vann",
       "lead": "Ørskog/Stordal vann 5–3 mot Spjelkavik i G16 2. div høst. Leon Stavseng skåra tre av måla.",
