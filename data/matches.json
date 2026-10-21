@@ -1,7 +1,257 @@
 {
-  "generatedAt": "2026-10-21T22:50:18+02:00",
+  "generatedAt": "2026-10-22T01:44:38+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9193958",
+      "fiksId": "9193958",
+      "matchNumber": "23127001049",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193958",
+      "date": "2026-10-21",
+      "time": "20:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "competitionId": "senior-2026-7-div-menn-host-1",
+      "venue": "Color Line Stadion",
+      "home": "Guard",
+      "away": "Brattvåg 3",
+      "homeScore": 4,
+      "awayScore": 3,
+      "halfTime": "1–1",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Subhanullah Malekzai",
+          "label": "Advarsel",
+          "minute": 24
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Fredrik Søgård Iversen",
+          "label": "Spillemål",
+          "minute": 32
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Isak Kvennes Vinje",
+          "label": "Advarsel",
+          "minute": 39
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Akram Hassan Ahmed",
+          "label": "Spillemål",
+          "minute": 45
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Magnus Austbø Seth",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Magnus Austbø Seth",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sander Bøe",
+          "label": "Spillemål",
+          "minute": 64
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Martin Løken Lie",
+          "label": "Advarsel",
+          "minute": 75
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Fredrik Søgård Iversen",
+          "label": "Spillemål",
+          "minute": 83
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Isak Kvennes Vinje",
+          "label": "Spillemål",
+          "minute": 90
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Nicholas Walderhaug",
+          "label": "Advarsel",
+          "minute": 90
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Elias Austbø Seth",
+          "label": "Advarsel",
+          "minute": 90
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Arve Toven"
+      },
+      "referee": "Arve Toven",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Mathias Tomren Farstad"
+            },
+            {
+              "number": 4,
+              "name": "Erik Farstad Hamnes"
+            },
+            {
+              "number": 5,
+              "name": "Andreas Kjerstad Mortensen"
+            },
+            {
+              "number": 16,
+              "name": "Sverre Bratholm Skorgevik"
+            },
+            {
+              "number": 30,
+              "name": "Subhanullah Malekzai"
+            },
+            {
+              "number": 17,
+              "name": "Hans-Kristian Malmedal"
+            },
+            {
+              "number": 32,
+              "name": "Elias Øvretveit Larsen"
+            },
+            {
+              "number": 88,
+              "name": "Sander Bøe"
+            },
+            {
+              "number": 11,
+              "name": "Fredrik Søgård Iversen"
+            },
+            {
+              "number": 14,
+              "name": "Isak Kvennes Vinje"
+            },
+            {
+              "number": 77,
+              "name": "Glenn Are Nerland Elveseter"
+            }
+          ],
+          "bench": [
+            {
+              "number": 7,
+              "name": "Stian Sila Øster"
+            },
+            {
+              "number": 10,
+              "name": "Nicholas Walderhaug"
+            },
+            {
+              "number": 20,
+              "name": "Thomas Slettedal-Longva"
+            },
+            {
+              "number": 23,
+              "name": "Victor Kringstad Karoliussen"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Håkon Otterlei Sønderland"
+            },
+            {
+              "number": 2,
+              "name": "Samir Pajevic"
+            },
+            {
+              "number": 3,
+              "name": "Stian Fjørtoft Klokk"
+            },
+            {
+              "number": 7,
+              "name": "Martin Løken Lie"
+            },
+            {
+              "number": 24,
+              "name": "Oliver Indredavik Karlsnes"
+            },
+            {
+              "number": 4,
+              "name": "Bjørnar Fondevik Grimstad"
+            },
+            {
+              "number": 9,
+              "name": "Elias Austbø Seth"
+            },
+            {
+              "number": 11,
+              "name": "Arman Maksumic"
+            },
+            {
+              "number": 21,
+              "name": "Jørgen Yksnøy"
+            },
+            {
+              "number": 25,
+              "name": "Alexander Hesselberg Hatzikiriakidis"
+            },
+            {
+              "number": 30,
+              "name": "Magnus Austbø Seth"
+            }
+          ],
+          "bench": [
+            {
+              "number": 5,
+              "name": "Erlend Dahl Otterlei"
+            },
+            {
+              "number": 8,
+              "name": "Eirik Laverton Vestre"
+            },
+            {
+              "number": 10,
+              "name": "Kevin Kajendran"
+            },
+            {
+              "number": 19,
+              "name": "Even Flem Dalhaug"
+            },
+            {
+              "number": 28,
+              "name": "Akram Hassan Ahmed"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9204265",
       "fiksId": "9204265",

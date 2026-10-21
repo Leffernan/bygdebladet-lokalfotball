@@ -1,6 +1,24 @@
 {
   "version": 3,
   "reports": {
+    "23127001049": {
+      "title": "Isak Kvennes Vinje avgjorde seint for Guard",
+      "lead": "Guard vann 4–3 mot Brattvåg 3 i 7. div. menn høst avd. 1. Vinnarmålet kom i det 90. minuttet.",
+      "paragraphs": [
+        "Fredrik Søgård Iversen gav Guard leiinga i det 32. minuttet.",
+        "Akram Hassan Ahmed utlikna til 1–1 for Brattvåg 3 i det 45. minuttet.",
+        "Til pause stod det 1–1.",
+        "Magnus Austbø Seth sende Brattvåg 3 i leiinga i det 48. minuttet.",
+        "Magnus Austbø Seth auka til 1–3 for Brattvåg 3 i det 62. minuttet.",
+        "Sander Bøe reduserte til 2–3 for Guard i det 64. minuttet.",
+        "Fredrik Søgård Iversen utlikna til 3–3 for Guard i det 83. minuttet.",
+        "Isak Kvennes Vinje skåra vinnarmålet for Guard i det 90. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23113126028": {
       "title": "Seint vinnarmål sikra Aksla 2 sigeren",
       "lead": "Aksla 2 vann 5–3 mot Skodje i G13 3. div avd. 2 høst. Vinnarmålet kom i det 66. minuttet.",
