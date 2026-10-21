@@ -1,6 +1,130 @@
 {
   "version": 3,
   "reports": {
+    "23113126028": {
+      "title": "Seint vinnarmål sikra Aksla 2 sigeren",
+      "lead": "Aksla 2 vann 5–3 mot Skodje i G13 3. div avd. 2 høst. Vinnarmålet kom i det 66. minuttet.",
+      "paragraphs": [
+        "Aksla 2 tok leiinga i det 1. minuttet.",
+        "Aksla 2 auka leiinga til 2–0 i det 24. minuttet.",
+        "Christian Solholm reduserte til 2–1 for Skodje i det 30. minuttet.",
+        "Til pause stod det 2–1.",
+        "Tor Lopez Ukkelberg utlikna til 2–2 for Skodje i det 47. minuttet.",
+        "Iver Hotvedt Lundbø sende Skodje i leiinga i det 57. minuttet.",
+        "Isak Juliebø Ekelund utlikna til 3–3 for Aksla 2 i det 60. minuttet.",
+        "Aksla 2 skåra vinnarmålet i det 66. minuttet.",
+        "Aksla 2 auka leiinga til 5–3 i det 69. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23214107046": {
+      "title": "Skodje 2 7er vann 5–4 mot Giske/Øyne 4 9er",
+      "lead": "Skodje 2 7er vann 5–4 mot Giske/Øyne 4 9er i J15 3. div høst.",
+      "paragraphs": [
+        "Til pause stod det 2–2.",
+        "Nokre mål er registrerte på same minutt, så den innbyrdes rekkjefølgja er ikkje stadfesta.",
+        "Alva Gausdal Vik noterte seg for to av måla til Skodje 2 7er."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23214107049": {
+      "title": "Hattrick av Pia Fjørtoft då Harøy/HaNo/Lepsøy 2 9er vann",
+      "lead": "Harøy/HaNo/Lepsøy 2 9er vann 8–4 mot Ørskog i J15 3. div høst. Pia Fjørtoft skåra tre av måla.",
+      "paragraphs": [
+        "Til pause stod det 3–1.",
+        "Nokre mål er registrerte på same minutt, så den innbyrdes rekkjefølgja er ikkje stadfesta.",
+        "Pia Fjørtoft noterte seg for tre mål for Harøy/HaNo/Lepsøy 2 9er og sikra seg hattrick."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23220602014": {
+      "title": "Hattrick av Beathe Berge Østrem då Sula/Langevåg vann",
+      "lead": "Sula/Langevåg vann 5–0 mot Stordal/Ørskog/Skodje i 5. div. kvinner høst A. Beathe Berge Østrem skåra tre av måla.",
+      "paragraphs": [
+        "Anna Kristin Brenne gav Sula/Langevåg leiinga i det 10. minuttet.",
+        "Ella Madelen Dale auka til 2–0 for Sula/Langevåg i det 13. minuttet.",
+        "Beathe Berge Østrem auka til 3–0 for Sula/Langevåg i det 44. minuttet.",
+        "Til pause stod det 3–0.",
+        "Beathe Berge Østrem auka til 4–0 for Sula/Langevåg i det 58. minuttet.",
+        "Beathe Berge Østrem auka til 5–0 for Sula/Langevåg i det 64. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120604049": {
+      "title": "Målfest og poengdeling mellom Ellingsøy og Norborg",
+      "lead": "Ellingsøy og Norborg spelte 3–3 i 6. div. menn høst. Heile seks mål vart registrerte.",
+      "paragraphs": [
+        "Ravn Kasias Haugene-Sperre gav Ellingsøy leiinga i det 12. minuttet.",
+        "Norborg utlikna til 1–1 i det 21. minuttet.",
+        "Erik Leonhard Skjong Andersen sende Ellingsøy i leiinga i det 27. minuttet.",
+        "Robert Constantin Dulgheru utlikna til 2–2 for Norborg i det 44. minuttet.",
+        "Til pause stod det 2–2.",
+        "Noah Gangstad Larsen sende Ellingsøy i leiinga i det 51. minuttet.",
+        "Norborg utlikna til 3–3 i det 89. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001048": {
+      "title": "Godøy vann 2–1 mot Ørskog/Stordal 2",
+      "lead": "Godøy vann 2–1 mot Ørskog/Stordal 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Ole Andreas Albito Dyb gav Godøy leiinga i det 5. minuttet.",
+        "Simen Støbakk Valkvæ auka til 2–0 for Godøy i det 17. minuttet.",
+        "Patrik Høiberg Aasen reduserte til 2–1 for Ørskog/Stordal 2 i det 40. minuttet.",
+        "Til pause stod det 2–1."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001050": {
+      "title": "Valldal vann 3–0 mot Sykkylven 2",
+      "lead": "Valldal vann 3–0 mot Sykkylven 2 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Olai Hjelle Reiten gav Valldal leiinga i det 27. minuttet.",
+        "Sivert Vikene auka til 0–2 for Valldal i det 31. minuttet.",
+        "Til pause stod det 0–2.",
+        "Magnus Kaldhusdal auka til 0–3 for Valldal i det 78. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23113126030": {
+      "title": "Hattrick av Trym Urke Reite då Hareid 2 vann",
+      "lead": "Hareid 2 vann 5–2 mot Ørskog/Stordal i G13 3. div avd. 2 høst. Trym Urke Reite skåra tre av måla.",
+      "paragraphs": [
+        "Trym Urke Reite gav Hareid 2 leiinga i det 26. minuttet.",
+        "Even Vestre Braute utlikna til 1–1 for Ørskog/Stordal i det 30. minuttet.",
+        "Trym Urke Reite sende Hareid 2 i leiinga i det 35. minuttet.",
+        "Til pause stod det 2–1.",
+        "Adrian Fylling Sjøholt utlikna til 2–2 for Ørskog/Stordal i det 38. minuttet.",
+        "Trym Urke Reite sende Hareid 2 i leiinga i det 50. minuttet.",
+        "Emil Grimstad Beiermann auka til 4–2 for Hareid 2 i det 51. minuttet.",
+        "Hans Theodor Gaasø Teigene auka til 5–2 for Hareid 2 i det 69. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23214107047": {
       "title": "Emblem vann 5–1 mot HaNo/Lepsøy/Harøy 9er",
       "lead": "Emblem vann 5–1 mot HaNo/Lepsøy/Harøy 9er i J15 3. div høst.",
