@@ -326,19 +326,22 @@
       "reason": "window_expired"
     },
     "23127001043": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-18T14:34:32+00:00",
-      "nextCheckAt": "2026-10-19T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-21T15:14:08+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23127001044": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-18T14:34:40+00:00",
-      "nextCheckAt": "2026-10-19T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-21T15:14:17+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "15149017044": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-19T01:17:05+00:00",
-      "nextCheckAt": "2026-10-19T18:00:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-21T15:14:23+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23113123037": {
       "attempts": 6,
@@ -380,9 +383,10 @@
       "nextCheckAt": "2026-10-21T18:30:00+00:00"
     },
     "23120501125": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-19T01:16:56+00:00",
-      "nextCheckAt": "2026-10-20T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-21T15:14:07+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "15120501088": {
       "attempts": 5,
@@ -405,9 +409,9 @@
       "nextCheckAt": "2026-10-21T18:00:00+00:00"
     },
     "23113126014": {
-      "attempts": 4,
-      "lastCheckAt": "2026-10-20T23:52:39+00:00",
-      "nextCheckAt": "2026-10-21T14:00:00+00:00"
+      "attempts": 5,
+      "lastCheckAt": "2026-10-21T15:14:05+00:00",
+      "nextCheckAt": "2026-10-23T14:00:00+00:00"
     },
     "23116124038": {
       "attempts": 4,
@@ -415,9 +419,9 @@
       "nextCheckAt": "2026-10-22T20:00:00+00:00"
     },
     "23214107047": {
-      "attempts": 2,
-      "lastCheckAt": "2026-10-21T04:46:42+00:00",
-      "nextCheckAt": "2026-10-21T12:30:00+00:00"
+      "attempts": 3,
+      "lastCheckAt": "2026-10-21T15:14:04+00:00",
+      "nextCheckAt": "2026-10-22T06:30:00+00:00"
     },
     "23113123044": {
       "attempts": 1,
@@ -425,5 +429,5 @@
       "done": true
     }
   },
-  "lastRunAt": "2026-10-21T10:08:04+00:00"
+  "lastRunAt": "2026-10-21T15:14:23+00:00"
 }
