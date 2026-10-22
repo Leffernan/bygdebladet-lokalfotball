@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-10-22T19:55:09+02:00",
+  "generatedAt": "2026-10-22T23:10:47+02:00",
   "matches": [
-    {
-      "date": "2026-10-22",
-      "time": "18:30",
-      "age": "G13",
-      "competition": "G13 1. div høst",
-      "venue": "Brattvåg kunstgress",
-      "home": "Brattvåg",
-      "away": "Valder",
-      "matchNumber": "23113123042",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201543"
-    },
-    {
-      "date": "2026-10-22",
-      "time": "18:30",
-      "age": "KVINNER",
-      "competition": "4. div. kvinner",
-      "venue": "Harøy Kunstgrasbane",
-      "home": "HaNo",
-      "away": "Sykkylven",
-      "matchNumber": "23220410089",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983361"
-    },
-    {
-      "date": "2026-10-22",
-      "time": "18:30",
-      "age": "KVINNER",
-      "competition": "4. div. kvinner",
-      "venue": "Hovdebygda Kunstgras",
-      "home": "Hovdebygda",
-      "away": "Brattvåg/Norborg/Ravn",
-      "matchNumber": "23220410090",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983362"
-    },
     {
       "date": "2026-10-23",
       "time": "18:00",
@@ -171,18 +138,7 @@
       "time": "18:30",
       "age": "J15",
       "competition": "J15 3. div høst",
-      "venue": "Kiwihallen",
-      "home": "Ørsta 2 7er",
-      "away": "Harøy/HaNo/Lepsøy 2 9er",
-      "matchNumber": "23214107052",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200084"
-    },
-    {
-      "date": "2026-10-28",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Tjørvåg stadion 9er A",
+      "venue": "Gurskøy kunstgras 7ar",
       "home": "MTG 7er",
       "away": "Skodje 2 7er",
       "matchNumber": "23214107055",
@@ -253,6 +209,17 @@
       "away": "Træff",
       "matchNumber": "99120201182",
       "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8987168"
+    },
+    {
+      "date": "2026-11-01",
+      "time": "14:00",
+      "age": "J15",
+      "competition": "J15 3. div høst",
+      "venue": "Kiwihallen",
+      "home": "Ørsta 2 7er",
+      "away": "Harøy/HaNo/Lepsøy 2 9er",
+      "matchNumber": "23214107052",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200084"
     }
   ]
 }

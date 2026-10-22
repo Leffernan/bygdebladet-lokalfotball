@@ -1,6 +1,52 @@
 {
   "version": 3,
   "reports": {
+    "23113123042": {
+      "title": "Poengdeling mellom Brattvåg og Valder",
+      "lead": "Brattvåg og Valder spelte 2–2 i G13 1. div høst.",
+      "paragraphs": [
+        "Julian Markus Longva gav Valder leiinga i det 4. minuttet.",
+        "Alexander Huang Nuo Risnes utlikna til 1–1 for Brattvåg i det 6. minuttet.",
+        "Brattvåg tok leiinga i det 27. minuttet.",
+        "Til pause stod det 2–1.",
+        "Kian-Tharcy Bizumuremyi utlikna til 2–2 for Valder i det 66. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23220410089": {
+      "title": "HaNo vann stort mot Sykkylven",
+      "lead": "HaNo vann 5–0 mot Sykkylven i 4. div. kvinner.",
+      "paragraphs": [
+        "Line Flem gav HaNo leiinga i det 24. minuttet.",
+        "Emma Lausund Klokk auka til 2–0 for HaNo i det 44. minuttet.",
+        "Til pause stod det 2–0.",
+        "Jenny Flem auka til 3–0 for HaNo i det 62. minuttet.",
+        "Elsa Farstad Rogne auka til 4–0 for HaNo i det 67. minuttet.",
+        "Line Flem auka til 5–0 for HaNo i det 74. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23220410090": {
+      "title": "Hovdebygda snudde kampen og vann 3–1",
+      "lead": "Hovdebygda vann 3–1 mot Brattvåg/Norborg/Ravn i 4. div. kvinner. Hovdebygda måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Aurora Austbø Skaar gav Brattvåg/Norborg/Ravn leiinga i det 40. minuttet.",
+        "Andrea Førde Totland utlikna til 1–1 for Hovdebygda i det 43. minuttet.",
+        "Til pause stod det 1–1.",
+        "Marie Barstad Steinnes sende Hovdebygda i leiinga i det 70. minuttet.",
+        "Andrea Aarsheim Johnsen auka til 3–1 for Hovdebygda i det 90. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23127001049": {
       "title": "Isak Kvennes Vinje avgjorde seint for Guard",
       "lead": "Guard vann 4–3 mot Brattvåg 3 i 7. div. menn høst avd. 1. Vinnarmålet kom i det 90. minuttet.",

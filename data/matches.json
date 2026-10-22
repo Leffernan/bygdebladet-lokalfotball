@@ -1,7 +1,563 @@
 {
-  "generatedAt": "2026-10-22T19:55:09+02:00",
+  "generatedAt": "2026-10-22T23:10:47+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9201543",
+      "fiksId": "9201543",
+      "matchNumber": "23113123042",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9201543",
+      "date": "2026-10-22",
+      "time": "18:30",
+      "age": "G13",
+      "competition": "G13 1. div høst",
+      "competitionId": "g13-1-div-host",
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg",
+      "away": "Valder",
+      "homeScore": 2,
+      "awayScore": 2,
+      "halfTime": "2–1",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julian Markus Longva",
+          "label": "Spillemål",
+          "minute": 4
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Alexander Huang Nuo Risnes",
+          "label": "Spillemål",
+          "minute": 6
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 27
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Julian Markus Longva",
+          "label": "Advarsel",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Kian-Tharcy Bizumuremyi",
+          "label": "Spillemål",
+          "minute": 66
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Elle Louise Ytredal"
+      },
+      "referee": "Elle Louise Ytredal",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "André Flem Dalhaug"
+            },
+            {
+              "number": 14,
+              "name": "Vebjørn Helland Otterlei"
+            },
+            {
+              "number": 26,
+              "name": "Mathias Døving"
+            },
+            {
+              "number": 34,
+              "name": "Henrik Alvestad Lillestøl"
+            },
+            {
+              "number": 35,
+              "name": "Dan Arthur Magdaraog Overland"
+            },
+            {
+              "number": 36,
+              "name": "Youel Bahabelom Okubay"
+            },
+            {
+              "number": 38,
+              "name": "Edvard Frostad Myklebust"
+            },
+            {
+              "number": 40,
+              "name": "Lucas Bjørnland Remme"
+            },
+            {
+              "number": 43,
+              "name": "Julian Renè Krogsæter Zarif"
+            },
+            {
+              "number": 37,
+              "name": "Alexander Huang Nuo Risnes"
+            }
+          ],
+          "bench": [
+            {
+              "number": 28,
+              "name": "Leon Lorgen Moa"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 30,
+              "name": "Ludvik Dyb Giil"
+            },
+            {
+              "number": 4,
+              "name": "Kian-Tharcy Bizumuremyi"
+            },
+            {
+              "number": 9,
+              "name": "Ask Gausdal Lübbe"
+            },
+            {
+              "number": 5,
+              "name": "Filip Husevåg-Alnes"
+            },
+            {
+              "number": 8,
+              "name": "Moses Tegen Roaldsnes Bremer"
+            },
+            {
+              "number": 17,
+              "name": "Julian Markus Longva"
+            },
+            {
+              "number": 18,
+              "name": "Vetle Vincent Eikrem"
+            },
+            {
+              "number": 23,
+              "name": "Isaac Mcqueen Honningsvåg"
+            },
+            {
+              "number": 47,
+              "name": "Mathyas Tibi Milu"
+            },
+            {
+              "number": 6,
+              "name": "Sander Armando van der Klaauw"
+            },
+            {
+              "number": 16,
+              "name": "Adnan Khartabil"
+            }
+          ],
+          "bench": []
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-8983361",
+      "fiksId": "8983361",
+      "matchNumber": "23220410089",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983361",
+      "date": "2026-10-22",
+      "time": "18:30",
+      "age": "KVINNER",
+      "competition": "4. div. kvinner",
+      "competitionId": "senior-2026-4-div-kvinner-sunnmore",
+      "venue": "Harøy Kunstgrasbane",
+      "home": "HaNo",
+      "away": "Sykkylven",
+      "homeScore": 5,
+      "awayScore": 0,
+      "halfTime": "2–0",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Line Flem",
+          "label": "Spillemål",
+          "minute": 24
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Emma Lausund Klokk",
+          "label": "Spillemål",
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Jenny Flem",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Elsa Farstad Rogne",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Line Flem",
+          "label": "Spillemål",
+          "minute": 74
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Abubakar Abdullahi Ali"
+      },
+      "referee": "Abubakar Abdullahi Ali",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 13,
+              "name": "Helene Kalvøy"
+            },
+            {
+              "number": 2,
+              "name": "Birgitte Ranvik"
+            },
+            {
+              "number": 3,
+              "name": "Jenny Flem"
+            },
+            {
+              "number": 8,
+              "name": "Johanne Farstad Rogne"
+            },
+            {
+              "number": 23,
+              "name": "Andrine Otterlei Austnes"
+            },
+            {
+              "number": 25,
+              "name": "Ragnhild Kolseth"
+            },
+            {
+              "number": 26,
+              "name": "Live Høistad Aakre"
+            },
+            {
+              "number": 29,
+              "name": "Maria Rønstad"
+            },
+            {
+              "number": 4,
+              "name": "Linda Mariana Hellevik"
+            },
+            {
+              "number": 6,
+              "name": "Ingrid Uri Standal"
+            },
+            {
+              "number": 14,
+              "name": "Emma Lausund Klokk"
+            }
+          ],
+          "bench": [
+            {
+              "number": 16,
+              "name": "Hedda Ulla Otterlei"
+            },
+            {
+              "number": 19,
+              "name": "Lone Otterlei Austnes"
+            },
+            {
+              "number": 24,
+              "name": "Sandra Fjørtoft"
+            },
+            {
+              "number": 31,
+              "name": "June Siren Nogva"
+            },
+            {
+              "number": 18,
+              "name": "Elsa Farstad Rogne"
+            },
+            {
+              "number": 20,
+              "name": "Line Flem"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Kathrine Tafjord Lien"
+            },
+            {
+              "number": 4,
+              "name": "Anne Marie Bagol Sjøholt"
+            },
+            {
+              "number": 6,
+              "name": "Synneva Lien Sogge"
+            },
+            {
+              "number": 8,
+              "name": "Mia Leirvik Hemmingsen"
+            },
+            {
+              "number": 20,
+              "name": "Tilde Kristina Laabak-Tynes"
+            },
+            {
+              "number": 7,
+              "name": "Madelene Aune Hansen"
+            },
+            {
+              "number": 10,
+              "name": "Mari Holmen Rørhuus-Øie"
+            },
+            {
+              "number": 17,
+              "name": "Frida Orre"
+            },
+            {
+              "number": 9,
+              "name": "Freyja Sjøli-Grebstad"
+            },
+            {
+              "number": 13,
+              "name": "Maja Lunde"
+            },
+            {
+              "number": 29,
+              "name": "Ylva Hovet Arntzen"
+            }
+          ],
+          "bench": [
+            {
+              "number": 21,
+              "name": "Linnea Marie Blakstad Saugestad"
+            },
+            {
+              "number": 28,
+              "name": "Sanna Naustenget Hagebakk"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-8983362",
+      "fiksId": "8983362",
+      "matchNumber": "23220410090",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=8983362",
+      "date": "2026-10-22",
+      "time": "18:30",
+      "age": "KVINNER",
+      "competition": "4. div. kvinner",
+      "competitionId": "senior-2026-4-div-kvinner-sunnmore",
+      "venue": "Hovdebygda Kunstgras",
+      "home": "Hovdebygda",
+      "away": "Brattvåg/Norborg/Ravn",
+      "homeScore": 3,
+      "awayScore": 1,
+      "halfTime": "1–1",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Sara Nagell-Hågensen",
+          "label": "Advarsel",
+          "minute": 35
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Aurora Austbø Skaar",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andrea Førde Totland",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Marie Barstad Steinnes",
+          "label": "Spillemål",
+          "minute": 70
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Andrea Aarsheim Johnsen",
+          "label": "Spillemål",
+          "minute": 90
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Vibeke Flem",
+          "label": "Advarsel",
+          "minute": 90
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Jan Helge Lund",
+        "assistant1": "Helena Marie Kristiansen",
+        "assistant2": "Felix Vatne Kjøde"
+      },
+      "referee": "Jan Helge Lund",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 3,
+              "name": "Anja Renate Hjelle Følsvik"
+            },
+            {
+              "number": 11,
+              "name": "Svanhild Steinnes"
+            },
+            {
+              "number": 11,
+              "name": "Silje Steinnes Øye"
+            },
+            {
+              "number": 16,
+              "name": "Ellen Kristine Rebbestad"
+            },
+            {
+              "number": 20,
+              "name": "Emma-Torine Brenne"
+            },
+            {
+              "number": 22,
+              "name": "Marie Barstad Steinnes"
+            },
+            {
+              "number": 24,
+              "name": "Tiril Bjerkvik"
+            },
+            {
+              "number": 28,
+              "name": "Oda Koppen"
+            },
+            {
+              "number": 31,
+              "name": "Fride Vatne Bjørkedal"
+            },
+            {
+              "number": 7,
+              "name": "Andrea Aarsheim Johnsen"
+            },
+            {
+              "number": 29,
+              "name": "Andrea Førde Totland"
+            }
+          ],
+          "bench": [
+            {
+              "number": 32,
+              "name": "Solveig Bratten Stennes"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Sara Nagell-Hågensen"
+            },
+            {
+              "number": 2,
+              "name": "Leah Berit Knoff Strand"
+            },
+            {
+              "number": 4,
+              "name": "Alice Sofie Longva Koppen"
+            },
+            {
+              "number": 5,
+              "name": "Kristiana Rudovska"
+            },
+            {
+              "number": 7,
+              "name": "Anne Margrethe Ulla Staurset"
+            },
+            {
+              "number": 6,
+              "name": "Elise Hildre Grytten"
+            },
+            {
+              "number": 8,
+              "name": "Amanda Kolbensen Alvestad"
+            },
+            {
+              "number": 11,
+              "name": "Amelia Solowinska"
+            },
+            {
+              "number": 9,
+              "name": "Ane Skarsbø"
+            },
+            {
+              "number": 23,
+              "name": "Vibecke Koppen Krogsæter"
+            },
+            {
+              "number": 27,
+              "name": "Aurora Austbø Skaar"
+            }
+          ],
+          "bench": [
+            {
+              "number": 12,
+              "name": "Amalie Vatvedt Krogsethagen"
+            },
+            {
+              "number": 14,
+              "name": "Sirhild Flem Dalhaug"
+            },
+            {
+              "number": 24,
+              "name": "Silva Espnes Alnes"
+            },
+            {
+              "number": 29,
+              "name": "Vibeke Flem"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9193958",
       "fiksId": "9193958",
