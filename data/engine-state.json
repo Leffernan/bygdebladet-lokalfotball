@@ -1274,7 +1274,7 @@
       "homeScore": 7,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "15149017004": {
       "fiksId": "9177155",
@@ -1310,7 +1310,7 @@
       "homeScore": 5,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23113123003": {
       "fiksId": "9201467",
@@ -1672,7 +1672,7 @@
       "homeScore": 4,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23214107006": {
       "fiksId": "9200038",
@@ -2056,7 +2056,7 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -2275,7 +2275,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -4198,7 +4198,7 @@
       "homeScore": 6,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23116124010": {
       "fiksId": "9196222",
@@ -4210,7 +4210,7 @@
       "homeScore": 3,
       "awayScore": 9,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23113126009": {
       "fiksId": "9204218",
@@ -4478,7 +4478,7 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -4682,7 +4682,7 @@
       "homeScore": 2,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -5401,7 +5401,7 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -5934,7 +5934,7 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23214107018": {
       "fiksId": "9200050",
@@ -6303,7 +6303,7 @@
       "homeScore": 3,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -6676,7 +6676,7 @@
       "homeScore": 6,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23214107025": {
       "fiksId": "9200057",
@@ -7837,7 +7837,7 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23214107021": {
       "fiksId": "9200053",
@@ -8129,7 +8129,7 @@
       "homeScore": 5,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23116124019": {
       "fiksId": "9196231",
@@ -8141,7 +8141,7 @@
       "homeScore": 7,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -8357,7 +8357,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23116124020": {
       "fiksId": "9196232",
@@ -8369,7 +8369,7 @@
       "homeScore": 15,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -9360,7 +9360,7 @@
       "homeScore": 1,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23116124021": {
       "fiksId": "9196233",
@@ -9372,7 +9372,7 @@
       "homeScore": 3,
       "awayScore": 8,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23113123023": {
       "fiksId": "9201496",
@@ -10182,7 +10182,7 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detailFetches": 4,
       "detail": {
         "events": [
@@ -10567,7 +10567,7 @@
       "homeScore": 3,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23113123021": {
       "fiksId": "9201490",
@@ -10591,7 +10591,7 @@
       "homeScore": 1,
       "awayScore": 9,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -10851,7 +10851,7 @@
       "homeScore": 7,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -11211,7 +11211,7 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23214107032": {
       "fiksId": "9200064",
@@ -11611,7 +11611,7 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23214107031": {
       "fiksId": "9200063",
@@ -12183,7 +12183,7 @@
       "homeScore": 2,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23116124030": {
       "fiksId": "9196242",
@@ -12197,7 +12197,7 @@
       "homeScore": 8,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23116124029": {
       "fiksId": "9196241",
@@ -12209,7 +12209,7 @@
       "homeScore": 2,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -12462,7 +12462,7 @@
       "homeScore": 3,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23214107036": {
       "fiksId": "9200068",
@@ -13528,7 +13528,7 @@
       "homeScore": 0,
       "awayScore": 6,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -14249,7 +14249,7 @@
       "homeScore": 6,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23113126023": {
       "fiksId": "9204253",
@@ -14384,7 +14384,7 @@
       "homeScore": 0,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23116124034": {
       "fiksId": "9196246",
@@ -14396,7 +14396,7 @@
       "homeScore": 1,
       "awayScore": 7,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "15149017036": {
       "fiksId": "9177187",
@@ -14430,7 +14430,7 @@
       "homeScore": 7,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -16042,7 +16042,7 @@
       "homeScore": 6,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "15149017041": {
       "fiksId": "9177192",
@@ -16080,7 +16080,7 @@
       "homeScore": 7,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -16302,7 +16302,7 @@
       "homeScore": 3,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -16552,7 +16552,7 @@
       "homeScore": 1,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-10-20T01:01:19+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23113126014": {
       "fiksId": "9204230",
@@ -17479,7 +17479,10 @@
       "time": "18:00",
       "home": "Herd",
       "away": "Valder 2",
-      "venue": "AMFI Moa Stadion"
+      "venue": "AMFI Moa Stadion",
+      "attempts": 1,
+      "lastAttemptAt": "2026-10-22T19:55:04+02:00",
+      "nextCheckAt": "2026-10-22T20:05:04+02:00"
     },
     "23113123041": {
       "fiksId": "9201540",
@@ -33508,7 +33511,7 @@
       "homeScore": 2,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001002": {
@@ -33521,7 +33524,7 @@
       "homeScore": 7,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001004": {
@@ -33534,7 +33537,7 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001003": {
@@ -33547,7 +33550,7 @@
       "homeScore": 5,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001005": {
@@ -33560,7 +33563,7 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23127001007": {
       "fiksId": "9193916",
@@ -33572,7 +33575,7 @@
       "homeScore": 1,
       "awayScore": 4,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001008": {
@@ -33585,7 +33588,7 @@
       "homeScore": 1,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001010": {
@@ -33598,7 +33601,7 @@
       "homeScore": 5,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23127001009": {
       "fiksId": "9193918",
@@ -33610,7 +33613,7 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001006": {
@@ -33634,7 +33637,7 @@
       "homeScore": 1,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001014": {
@@ -33647,7 +33650,7 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001011": {
@@ -33660,7 +33663,7 @@
       "homeScore": 1,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001012": {
@@ -33673,7 +33676,7 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001015": {
@@ -33686,7 +33689,7 @@
       "homeScore": 3,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23127001019": {
       "fiksId": "9193928",
@@ -33698,7 +33701,7 @@
       "homeScore": 5,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001020": {
@@ -33711,7 +33714,7 @@
       "homeScore": 6,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001017": {
@@ -33724,7 +33727,7 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001016": {
@@ -33737,7 +33740,7 @@
       "homeScore": 6,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001018": {
@@ -33750,7 +33753,7 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001022": {
@@ -33763,7 +33766,7 @@
       "homeScore": 4,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001021": {
@@ -33776,7 +33779,7 @@
       "homeScore": 2,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001023": {
@@ -33789,7 +33792,7 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001025": {
@@ -33802,7 +33805,7 @@
       "homeScore": 0,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001024": {
@@ -33815,7 +33818,7 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -34064,7 +34067,7 @@
       "homeScore": 3,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001026": {
@@ -34077,7 +34080,7 @@
       "homeScore": 0,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001029": {
@@ -34090,7 +34093,7 @@
       "homeScore": 1,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001027": {
@@ -34103,7 +34106,7 @@
       "homeScore": 4,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001028": {
@@ -34127,7 +34130,7 @@
       "homeScore": 1,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001031": {
@@ -34140,7 +34143,7 @@
       "homeScore": 4,
       "awayScore": 8,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23127001033": {
       "fiksId": "9193942",
@@ -34152,7 +34155,7 @@
       "homeScore": 9,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001035": {
@@ -34165,7 +34168,7 @@
       "homeScore": 1,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23127001032": {
       "fiksId": "9193941",
@@ -34177,7 +34180,7 @@
       "homeScore": 1,
       "awayScore": 2,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "goalTimelineVerified": false
     },
     "23127001037": {
@@ -34201,7 +34204,7 @@
       "homeScore": 3,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -34387,7 +34390,7 @@
       "homeScore": 6,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -34614,7 +34617,7 @@
       "homeScore": 2,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -34813,7 +34816,7 @@
       "homeScore": 7,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23127001041": {
       "fiksId": "9193950",
@@ -34836,7 +34839,7 @@
       "homeScore": 5,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -35075,7 +35078,7 @@
       "homeScore": 2,
       "awayScore": 5,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -35323,7 +35326,7 @@
       "homeScore": 2,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -35542,7 +35545,7 @@
       "homeScore": 1,
       "awayScore": 0,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00"
+      "resultAt": "2026-10-22T19:55:04+02:00"
     },
     "23127001048": {
       "fiksId": "9193957",
@@ -35554,7 +35557,7 @@
       "homeScore": 2,
       "awayScore": 1,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -35747,7 +35750,7 @@
       "homeScore": 0,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
@@ -35939,9 +35942,9 @@
       "home": "Ravn 2",
       "away": "Aksla 2",
       "venue": "Ravn kunstgras",
-      "attempts": 5,
-      "lastAttemptAt": "2026-10-22T14:58:48+02:00",
-      "nextCheckAt": "2026-10-22T16:58:48+02:00"
+      "attempts": 6,
+      "lastAttemptAt": "2026-10-22T19:55:04+02:00",
+      "nextCheckAt": "2026-10-23T07:00:00+02:00"
     },
     "23127001047": {
       "fiksId": "9193956",
@@ -35950,9 +35953,9 @@
       "home": "Skodje",
       "away": "Stranda 2",
       "venue": "Skodje Kunstgras 1",
-      "attempts": 5,
-      "lastAttemptAt": "2026-10-22T14:58:48+02:00",
-      "nextCheckAt": "2026-10-22T16:58:48+02:00"
+      "attempts": 6,
+      "lastAttemptAt": "2026-10-22T19:55:04+02:00",
+      "nextCheckAt": "2026-10-23T07:00:00+02:00"
     },
     "23127001049": {
       "fiksId": "9193958",
@@ -35966,7 +35969,7 @@
       "homeScore": 4,
       "awayScore": 3,
       "status": "completed",
-      "resultAt": "2026-10-22T14:58:48+02:00",
+      "resultAt": "2026-10-22T19:55:04+02:00",
       "detail": {
         "events": [
           {
