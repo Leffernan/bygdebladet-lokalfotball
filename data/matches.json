@@ -1,7 +1,182 @@
 {
-  "generatedAt": "2026-10-23T16:21:32+02:00",
+  "generatedAt": "2026-10-23T20:31:11+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9204268",
+      "fiksId": "9204268",
+      "matchNumber": "23113126029",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9204268",
+      "date": "2026-10-23",
+      "time": "18:30",
+      "age": "G13",
+      "competition": "G13 3. div avd. 2 høst",
+      "competitionId": "g13-3-div-avd-2-host",
+      "venue": "Brattvåg kunstgress",
+      "home": "Brattvåg 2",
+      "away": "Guard/Rollon 2",
+      "homeScore": 2,
+      "awayScore": 6,
+      "halfTime": "1–2",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 15
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 18
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 33
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Magnus Øksenvåg Sand",
+          "label": "Spillemål",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 42
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Danielius Rakauskas",
+          "label": "Spillemål",
+          "minute": 47
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Personinfo ikkje tilgjengeleg",
+          "label": "Spillemål",
+          "personUnavailable": true,
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Wilhelm Sakse Simlenes Opshaug",
+          "label": "Spillemål",
+          "minute": 68
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Lukasz Anuszkiewicz"
+      },
+      "referee": "Lukasz Anuszkiewicz",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Kai-Leander Reistad Giske"
+            },
+            {
+              "number": 3,
+              "name": "Kevin Bjørshol Skjønberg"
+            },
+            {
+              "number": 15,
+              "name": "Cezary Mikolaj Piotrowski"
+            },
+            {
+              "number": 21,
+              "name": "Even Endré Frøysadal Hånde"
+            },
+            {
+              "number": 25,
+              "name": "Egide Ntumba Ushindi"
+            },
+            {
+              "number": 45,
+              "name": "Kajus Kuvikas"
+            },
+            {
+              "number": 4,
+              "name": "Cian Lucas Pagara"
+            }
+          ],
+          "bench": []
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Gustav Steinsvik"
+            },
+            {
+              "number": 14,
+              "name": "Elias Skårbrevik Gjermundrød"
+            },
+            {
+              "number": 29,
+              "name": "Danielius Rakauskas"
+            },
+            {
+              "number": 19,
+              "name": "Ohad Kikyarito"
+            },
+            {
+              "number": 25,
+              "name": "Magnus Øksenvåg Sand"
+            },
+            {
+              "number": 33,
+              "name": "Stefan Løkka"
+            },
+            {
+              "number": 37,
+              "name": "Colin Crevisier"
+            },
+            {
+              "number": 20,
+              "name": "Wilhelm Sakse Simlenes Opshaug"
+            },
+            {
+              "number": 26,
+              "name": "Arthur Cervinski"
+            }
+          ],
+          "bench": [
+            {
+              "number": 5,
+              "name": "Leaozinho Finnøy"
+            },
+            {
+              "number": 10,
+              "name": "Sahal Abdullahi Hussein"
+            },
+            {
+              "number": 49,
+              "name": "Jean Philip Ariew Endresen"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9201543",
       "fiksId": "9201543",

@@ -1,6 +1,25 @@
 {
   "version": 3,
   "reports": {
+    "23113126029": {
+      "title": "Fire mål av Wilhelm Sakse Simlenes Opshaug då Guard/Rollon 2 vann",
+      "lead": "Guard/Rollon 2 vann 6–2 mot Brattvåg 2 i G13 3. div avd. 2 høst. Wilhelm Sakse Simlenes Opshaug skåra fire av måla.",
+      "paragraphs": [
+        "Wilhelm Sakse Simlenes Opshaug gav Guard/Rollon 2 leiinga i det 15. minuttet.",
+        "Wilhelm Sakse Simlenes Opshaug auka til 0–2 for Guard/Rollon 2 i det 18. minuttet.",
+        "Brattvåg 2 reduserte til 1–2 i det 33. minuttet.",
+        "Til pause stod det 1–2.",
+        "Magnus Øksenvåg Sand auka til 1–3 for Guard/Rollon 2 i det 40. minuttet.",
+        "Wilhelm Sakse Simlenes Opshaug auka til 1–4 for Guard/Rollon 2 i det 42. minuttet.",
+        "Danielius Rakauskas auka til 1–5 for Guard/Rollon 2 i det 47. minuttet.",
+        "Brattvåg 2 reduserte til 2–5 i det 48. minuttet.",
+        "Wilhelm Sakse Simlenes Opshaug auka til 2–6 for Guard/Rollon 2 i det 68. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23113123042": {
       "title": "Poengdeling mellom Brattvåg og Valder",
       "lead": "Brattvåg og Valder spelte 2–2 i G13 1. div høst.",
