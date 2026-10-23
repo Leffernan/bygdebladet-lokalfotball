@@ -20,6 +20,75 @@
       "completeGoalTimeline": true,
       "generatorVersion": 3
     },
+    "23120401128": {
+      "title": "Rollon vann 3–0 mot Stordal",
+      "lead": "Rollon vann 3–0 mot Stordal i 4. div. menn.",
+      "paragraphs": [
+        "Mohamed Babo Ali Maridi gav Rollon leiinga i det 5. minuttet.",
+        "Magnus Østrem Furevik auka til 2–0 for Rollon i det 36. minuttet.",
+        "Til pause stod det 2–0.",
+        "Theodor Rongved Østrem auka til 3–0 for Rollon i det 85. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401131": {
+      "title": "Ørsta vann 3–0 mot Brattvåg 2",
+      "lead": "Ørsta vann 3–0 mot Brattvåg 2 i 4. div. menn.",
+      "paragraphs": [
+        "Lasse Rebbestad gav Ørsta leiinga i det 31. minuttet.",
+        "Eirik Grevsnes Bjørdal auka til 2–0 for Ørsta i det 41. minuttet.",
+        "Til pause stod det 2–0.",
+        "Marius Liaskar Bjerkvik auka til 3–0 for Ørsta i det 62. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120401132": {
+      "title": "Ravn snudde kampen og vann 4–1",
+      "lead": "Ravn vann 4–1 mot Spjelkavik 2 i 4. div. menn. Ravn måtte hente inn eit underlag før sigeren var sikra.",
+      "paragraphs": [
+        "Jørgen Vad Johannessen gav Spjelkavik 2 leiinga i det 30. minuttet.",
+        "Ruben Grytten Holmeset utlikna til 1–1 for Ravn i det 44. minuttet.",
+        "Til pause stod det 1–1.",
+        "Nikolas Arne Fjørtoft sende Ravn i leiinga i det 49. minuttet.",
+        "Matias Mork Vatneødegård auka til 3–1 for Ravn i det 68. minuttet.",
+        "Christoffer Marcus Longva auka til 4–1 for Ravn i det 75. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120501132": {
+      "title": "Hattrick av Nicolai Norvoll Longva då HaNo vann",
+      "lead": "HaNo vann 10–4 mot Giske i 5. div. menn. Nicolai Norvoll Longva skåra tre av måla.",
+      "paragraphs": [
+        "Preben Austnes Lorgen gav HaNo leiinga i det 11. minuttet.",
+        "Nicolai Norvoll Longva auka til 2–0 for HaNo i det 13. minuttet.",
+        "Nicolai Norvoll Longva auka til 3–0 for HaNo i det 15. minuttet.",
+        "Nicolai Norvoll Longva auka til 4–0 for HaNo i det 25. minuttet.",
+        "Markus Fjørtoft auka til 5–0 for HaNo i det 45. minuttet.",
+        "Til pause stod det 5–0.",
+        "Jan Ove Austnes reduserte til 5–1 for Giske i det 46. minuttet.",
+        "Jan Ove Austnes reduserte til 5–2 for Giske i det 56. minuttet.",
+        "Brian Fjørtoft auka til 6–2 for HaNo i det 62. minuttet.",
+        "Julian Nogva Vedeld auka til 7–2 for HaNo i det 67. minuttet.",
+        "Julian Nogva Vedeld auka til 8–2 for HaNo i det 74. minuttet.",
+        "Preben Giske Olsen reduserte til 8–3 for Giske i det 76. minuttet.",
+        "Sebastian Hildre Grønmyr auka til 9–3 for HaNo i det 77. minuttet.",
+        "Sebastian Hildre Grønmyr auka til 10–3 for HaNo i det 83. minuttet.",
+        "Svein Arve Thalberg Alnes reduserte til 10–4 for Giske i det 85. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23113123042": {
       "title": "Poengdeling mellom Brattvåg og Valder",
       "lead": "Brattvåg og Valder spelte 2–2 i G13 1. div høst.",
