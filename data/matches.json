@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T01:58:51+02:00",
+  "generatedAt": "2026-10-24T06:19:01+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -1175,6 +1175,101 @@
         }
       },
       "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9193956",
+      "fiksId": "9193956",
+      "matchNumber": "23127001047",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193956",
+      "date": "2026-10-23",
+      "time": "18:00",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "competitionId": "senior-2026-7-div-menn-host-1",
+      "venue": "Skodje Kunstgras 1",
+      "home": "Skodje",
+      "away": "Stranda 2",
+      "homeScore": 0,
+      "awayScore": 3,
+      "halfTime": null,
+      "localTeam": "home",
+      "events": [],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Niklas Solevågseide Nylén"
+            },
+            {
+              "number": 3,
+              "name": "Magnus Kvalsund Erstad"
+            },
+            {
+              "number": 5,
+              "name": "Erik Hessen Midtbø"
+            },
+            {
+              "number": 15,
+              "name": "Olav Glomset Vikhagen"
+            },
+            {
+              "number": 17,
+              "name": "Levi Raanes Ludvigsen"
+            },
+            {
+              "number": 2,
+              "name": "Henrik Vestnes Berge"
+            },
+            {
+              "number": 7,
+              "name": "Jan Erik Hellevik"
+            },
+            {
+              "number": 8,
+              "name": "Eivind Fjørtoft Floen"
+            },
+            {
+              "number": 10,
+              "name": "Magnus Strømmen"
+            },
+            {
+              "number": 27,
+              "name": "Sondre Sandnes Beite"
+            },
+            {
+              "number": 21,
+              "name": "Andreas Larsen Beite"
+            }
+          ],
+          "bench": [
+            {
+              "number": 4,
+              "name": "Adrian Andrukiewicz"
+            },
+            {
+              "number": 9,
+              "name": "Håkon Bjørdal Leine"
+            },
+            {
+              "number": 13,
+              "name": "Jakob Kjerstad"
+            },
+            {
+              "number": 19,
+              "name": "Alexander Engebretsen Jensen"
+            },
+            {
+              "number": 41,
+              "name": "Sindre Giske"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": false
     },
     {
       "id": "match-9201543",
