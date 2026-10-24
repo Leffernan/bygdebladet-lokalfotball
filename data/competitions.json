@@ -645,7 +645,7 @@
     "senior-2026-2-div-menn-avd-1": {
       "name": "2. divisjon menn avd. 1",
       "tournamentId": "206007",
-      "updatedAt": "2026-10-24T06:18:11+02:00",
+      "updatedAt": "2026-10-24T15:09:26+02:00",
       "standings": [
         {
           "position": 1,
@@ -661,6 +661,18 @@
         },
         {
           "position": 2,
+          "team": "Brattvåg",
+          "played": 25,
+          "wins": 16,
+          "draws": 3,
+          "losses": 6,
+          "gf": 55,
+          "ga": 34,
+          "gd": 21,
+          "points": 51
+        },
+        {
+          "position": 3,
           "team": "Bjarg",
           "played": 24,
           "wins": 16,
@@ -672,51 +684,39 @@
           "points": 50
         },
         {
-          "position": 3,
+          "position": 4,
           "team": "Mjøndalen",
-          "played": 24,
+          "played": 25,
           "wins": 16,
           "draws": 2,
-          "losses": 6,
-          "gf": 47,
-          "ga": 29,
-          "gd": 18,
-          "points": 50
-        },
-        {
-          "position": 4,
-          "team": "Brattvåg",
-          "played": 24,
-          "wins": 15,
-          "draws": 3,
-          "losses": 6,
-          "gf": 51,
+          "losses": 7,
+          "gf": 48,
           "ga": 33,
-          "gd": 18,
-          "points": 48
+          "gd": 15,
+          "points": 50
         },
         {
           "position": 5,
           "team": "Sotra",
-          "played": 24,
-          "wins": 13,
+          "played": 25,
+          "wins": 14,
           "draws": 3,
           "losses": 8,
-          "gf": 53,
-          "ga": 29,
-          "gd": 24,
-          "points": 42
+          "gf": 58,
+          "ga": 31,
+          "gd": 27,
+          "points": 45
         },
         {
           "position": 6,
           "team": "Notodden",
-          "played": 24,
+          "played": 25,
           "wins": 10,
           "draws": 5,
-          "losses": 9,
-          "gf": 36,
-          "ga": 29,
-          "gd": 7,
+          "losses": 10,
+          "gf": 38,
+          "ga": 34,
+          "gd": 4,
           "points": 35
         },
         {

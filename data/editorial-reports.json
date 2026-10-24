@@ -1,6 +1,22 @@
 {
   "version": 3,
   "reports": {
+    "99120201172": {
+      "title": "Brattvåg vann 4–1 mot Mjøndalen",
+      "lead": "Brattvåg vann 4–1 mot Mjøndalen i 2. divisjon menn avd. 1.",
+      "paragraphs": [
+        "Ruben Kolseth Myers gav Brattvåg leiinga i det 4. minuttet.",
+        "Tobias Bjørnebye utlikna til 1–1 for Mjøndalen i det 39. minuttet.",
+        "Rasmus Sørensen Løvseth sende Brattvåg i leiinga i det 40. minuttet.",
+        "Til pause stod det 1–2.",
+        "Rasmus Sørensen Løvseth auka til 1–3 for Brattvåg i det 64. minuttet.",
+        "Andreas Tveiten auka til 1–4 for Brattvåg i det 74. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23113126029": {
       "title": "Fire mål av Wilhelm Sakse Simlenes Opshaug då Guard/Rollon 2 vann",
       "lead": "Guard/Rollon 2 vann 6–2 mot Brattvåg 2 i G13 3. div avd. 2 høst. Wilhelm Sakse Simlenes Opshaug skåra fire av måla.",
