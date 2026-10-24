@@ -1,6 +1,19 @@
 {
   "version": 3,
   "reports": {
+    "23116124043": {
+      "title": "Poengdeling mellom Ørskog/Stordal og HaNo/Harøy/Lepsøy",
+      "lead": "Ørskog/Stordal og HaNo/Harøy/Lepsøy spelte 1–1 i G16 2. div høst.",
+      "paragraphs": [
+        "Marcus Karl Cevallos gav Ørskog/Stordal leiinga i det 26. minuttet.",
+        "Til pause stod det 1–0.",
+        "Julian Nogva Vedeld utlikna til 1–1 for HaNo/Harøy/Lepsøy i det 50. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "99120201172": {
       "title": "Brattvåg vann 4–1 mot Mjøndalen",
       "lead": "Brattvåg vann 4–1 mot Mjøndalen i 2. divisjon menn avd. 1.",

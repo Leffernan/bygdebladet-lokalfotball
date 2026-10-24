@@ -209,31 +209,31 @@
     "g16-2-div-host": {
       "name": "G16 2. div høst",
       "tournamentId": "209864",
-      "updatedAt": "2026-10-24T06:18:11+02:00",
+      "updatedAt": "2026-10-24T18:34:34+02:00",
       "standings": [
         {
           "position": 1,
           "team": "HaNo/Harøy/Lepsøy",
-          "played": 8,
+          "played": 9,
           "wins": 8,
-          "draws": 0,
+          "draws": 1,
           "losses": 0,
-          "gf": 51,
-          "ga": 14,
+          "gf": 52,
+          "ga": 15,
           "gd": 37,
-          "points": 24
+          "points": 25
         },
         {
           "position": 2,
           "team": "Ørskog/Stordal",
-          "played": 8,
+          "played": 9,
           "wins": 7,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "gf": 39,
-          "ga": 11,
+          "gf": 40,
+          "ga": 12,
           "gd": 28,
-          "points": 22
+          "points": 23
         },
         {
           "position": 3,
@@ -250,37 +250,37 @@
         {
           "position": 4,
           "team": "Sykkylven",
-          "played": 8,
-          "wins": 4,
+          "played": 9,
+          "wins": 5,
           "draws": 2,
           "losses": 2,
-          "gf": 27,
-          "ga": 19,
-          "gd": 8,
-          "points": 14
+          "gf": 31,
+          "ga": 20,
+          "gd": 11,
+          "points": 17
         },
         {
           "position": 5,
           "team": "Hareid",
-          "played": 8,
+          "played": 9,
           "wins": 3,
           "draws": 1,
-          "losses": 4,
-          "gf": 26,
-          "ga": 42,
-          "gd": -16,
+          "losses": 5,
+          "gf": 27,
+          "ga": 46,
+          "gd": -19,
           "points": 10
         },
         {
           "position": 6,
           "team": "Bergsøy",
-          "played": 8,
+          "played": 9,
           "wins": 2,
           "draws": 3,
-          "losses": 3,
-          "gf": 24,
-          "ga": 30,
-          "gd": -6,
+          "losses": 4,
+          "gf": 30,
+          "ga": 37,
+          "gd": -7,
           "points": 9
         },
         {
@@ -297,6 +297,18 @@
         },
         {
           "position": 8,
+          "team": "Stranda 9er",
+          "played": 8,
+          "wins": 3,
+          "draws": 0,
+          "losses": 5,
+          "gf": 36,
+          "ga": 64,
+          "gd": -28,
+          "points": 9
+        },
+        {
+          "position": 9,
           "team": "Sykkylven 2",
           "played": 9,
           "wins": 2,
@@ -306,18 +318,6 @@
           "ga": 31,
           "gd": -3,
           "points": 7
-        },
-        {
-          "position": 9,
-          "team": "Stranda 9er",
-          "played": 7,
-          "wins": 2,
-          "draws": 0,
-          "losses": 5,
-          "gf": 29,
-          "ga": 58,
-          "gd": -29,
-          "points": 6
         },
         {
           "position": 10,
@@ -336,10 +336,22 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-10-24T10:56:59+02:00",
+      "updatedAt": "2026-10-24T18:34:34+02:00",
       "standings": [
         {
           "position": 1,
+          "team": "Molde 2",
+          "played": 7,
+          "wins": 5,
+          "draws": 1,
+          "losses": 1,
+          "gf": 22,
+          "ga": 10,
+          "gd": 12,
+          "points": 16
+        },
+        {
+          "position": 2,
           "team": "Elnesvågen/Bryn/Bud 2",
           "played": 7,
           "wins": 4,
@@ -351,27 +363,15 @@
           "points": 15
         },
         {
-          "position": 2,
-          "team": "Surnadal/Søya 1",
-          "played": 5,
-          "wins": 4,
-          "draws": 1,
-          "losses": 0,
-          "gf": 33,
-          "ga": 10,
-          "gd": 23,
-          "points": 13
-        },
-        {
           "position": 3,
-          "team": "Molde 2",
+          "team": "Surnadal/Søya 1",
           "played": 6,
           "wins": 4,
           "draws": 1,
           "losses": 1,
-          "gf": 19,
-          "ga": 9,
-          "gd": 10,
+          "gf": 34,
+          "ga": 13,
+          "gd": 21,
           "points": 13
         },
         {
@@ -645,7 +645,7 @@
     "senior-2026-2-div-menn-avd-1": {
       "name": "2. divisjon menn avd. 1",
       "tournamentId": "206007",
-      "updatedAt": "2026-10-24T15:09:26+02:00",
+      "updatedAt": "2026-10-24T18:34:34+02:00",
       "standings": [
         {
           "position": 1,
@@ -722,13 +722,13 @@
         {
           "position": 7,
           "team": "Kvik Halden",
-          "played": 24,
+          "played": 25,
           "wins": 10,
           "draws": 4,
-          "losses": 10,
+          "losses": 11,
           "gf": 34,
-          "ga": 32,
-          "gd": 2,
+          "ga": 35,
+          "gd": -1,
           "points": 34
         },
         {
@@ -745,6 +745,18 @@
         },
         {
           "position": 9,
+          "team": "Pors",
+          "played": 25,
+          "wins": 8,
+          "draws": 6,
+          "losses": 11,
+          "gf": 32,
+          "ga": 35,
+          "gd": -3,
+          "points": 30
+        },
+        {
+          "position": 10,
           "team": "Arendal",
           "played": 24,
           "wins": 8,
@@ -756,64 +768,52 @@
           "points": 30
         },
         {
-          "position": 10,
-          "team": "Pors",
-          "played": 24,
-          "wins": 8,
-          "draws": 5,
-          "losses": 11,
-          "gf": 32,
-          "ga": 35,
-          "gd": -3,
-          "points": 29
-        },
-        {
           "position": 11,
           "team": "Sandviken",
-          "played": 24,
+          "played": 25,
           "wins": 7,
-          "draws": 4,
+          "draws": 5,
           "losses": 13,
           "gf": 34,
           "ga": 49,
           "gd": -15,
-          "points": 25
+          "points": 26
         },
         {
           "position": 12,
           "team": "Lysekloster",
-          "played": 24,
-          "wins": 4,
+          "played": 25,
+          "wins": 5,
           "draws": 7,
           "losses": 13,
-          "gf": 32,
+          "gf": 34,
           "ga": 52,
-          "gd": -20,
-          "points": 15
+          "gd": -18,
+          "points": 18
         },
         {
           "position": 13,
           "team": "Vidar",
-          "played": 24,
+          "played": 25,
           "wins": 3,
           "draws": 4,
-          "losses": 17,
+          "losses": 18,
           "gf": 23,
-          "ga": 63,
-          "gd": -40,
+          "ga": 65,
+          "gd": -42,
           "points": 13
         },
         {
           "position": 14,
           "team": "FK Eik Tønsberg 871",
-          "played": 24,
-          "wins": 3,
+          "played": 25,
+          "wins": 4,
           "draws": 1,
           "losses": 20,
-          "gf": 25,
+          "gf": 28,
           "ga": 56,
-          "gd": -31,
-          "points": 7
+          "gd": -28,
+          "points": 10
         }
       ]
     },

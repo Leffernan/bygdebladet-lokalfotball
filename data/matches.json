@@ -1,7 +1,207 @@
 {
-  "generatedAt": "2026-10-24T15:09:29+02:00",
+  "generatedAt": "2026-10-24T18:34:43+02:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9196255",
+      "fiksId": "9196255",
+      "matchNumber": "23116124043",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9196255",
+      "date": "2026-10-24",
+      "time": "15:00",
+      "age": "G16",
+      "competition": "G16 2. div høst",
+      "competitionId": "g16-2-div-host",
+      "venue": "Kirkebø stadion KGB",
+      "home": "Ørskog/Stordal",
+      "away": "HaNo/Harøy/Lepsøy",
+      "homeScore": 1,
+      "awayScore": 1,
+      "halfTime": "1–0",
+      "localTeam": "both",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Marcus Karl Cevallos",
+          "label": "Straffemål",
+          "minute": 26
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Julian Nogva Vedeld",
+          "label": "Spillemål",
+          "minute": 50
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Christoffer Lervåg"
+      },
+      "referee": "Christoffer Lervåg",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Nathaniel Nybø Skjegstad"
+            },
+            {
+              "number": 2,
+              "name": "Julian André Uhlen"
+            },
+            {
+              "number": 8,
+              "name": "Syver Midtbust-Dyrkorn"
+            },
+            {
+              "number": 9,
+              "name": "Antoni Mateusz Adamiec"
+            },
+            {
+              "number": 16,
+              "name": "Sondre Hove Bull"
+            },
+            {
+              "number": 17,
+              "name": "Mateo Fernando Dyrkorn"
+            },
+            {
+              "number": 4,
+              "name": "Eriam Abelseth Søvik"
+            },
+            {
+              "number": 7,
+              "name": "Marcus Karl Cevallos"
+            },
+            {
+              "number": 11,
+              "name": "Trym Vaksvik Sandberg"
+            },
+            {
+              "number": 14,
+              "name": "Jaden Alexander Grüner"
+            },
+            {
+              "number": 25,
+              "name": "Adrian Tennfjord Myklebust"
+            }
+          ],
+          "bench": [
+            {
+              "number": 30,
+              "name": "Markus Hovden Ulvestad"
+            },
+            {
+              "number": 43,
+              "name": "Leon Stavseng"
+            },
+            {
+              "number": 99,
+              "name": "Magnus Sjøholt Alstadsæter"
+            },
+            {
+              "number": 13,
+              "name": "Jørgen Gjerde Ramsvik"
+            },
+            {
+              "number": 15,
+              "name": "Magnus Vad"
+            },
+            {
+              "number": 19,
+              "name": "Jørgen Nordli Sivertsen"
+            },
+            {
+              "number": 26,
+              "name": "Lars Joakim Hole Sjåstad"
+            },
+            {
+              "number": 66,
+              "name": "Filip Hjelle Busengdal"
+            },
+            {
+              "number": 98,
+              "name": "Trym Falling Møller"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Axel Mario Akselsen"
+            },
+            {
+              "number": 24,
+              "name": "Tor Sandø Otterlei"
+            },
+            {
+              "number": 5,
+              "name": "Jonas Sandøy"
+            },
+            {
+              "number": 17,
+              "name": "Konrad Finnøy"
+            },
+            {
+              "number": 19,
+              "name": "Noah Longva Hagen"
+            },
+            {
+              "number": 21,
+              "name": "Aron Leander Nogva"
+            },
+            {
+              "number": 6,
+              "name": "Liam Morsund Buchinski"
+            },
+            {
+              "number": 8,
+              "name": "Markus Fjørtoft"
+            },
+            {
+              "number": 10,
+              "name": "Markus Steinshamn"
+            },
+            {
+              "number": 11,
+              "name": "Kristoffer Lee Sherman"
+            },
+            {
+              "number": 14,
+              "name": "Zen Kjerstad"
+            }
+          ],
+          "bench": [
+            {
+              "number": 15,
+              "name": "Oleksandr Karavatskyi"
+            },
+            {
+              "number": 18,
+              "name": "Nathaniel Szmyd"
+            },
+            {
+              "number": 22,
+              "name": "Ruben Molnes"
+            },
+            {
+              "number": 4,
+              "name": "Julian Nogva Vedeld"
+            },
+            {
+              "number": 9,
+              "name": "Andreas Silseth Harnes"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-8987158",
       "fiksId": "8987158",
