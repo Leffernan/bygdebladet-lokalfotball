@@ -1,6 +1,25 @@
 {
   "version": 3,
   "reports": {
+    "23120604025": {
+      "title": "Vanylven vann 5–3 mot Norborg",
+      "lead": "Vanylven vann 5–3 mot Norborg i 6. div. menn høst.",
+      "paragraphs": [
+        "Christoffer Andreas Ervik Røys gav Vanylven leiinga i det 21. minuttet.",
+        "Magnus Andreas Nordal Vik auka til 2–0 for Vanylven i det 41. minuttet.",
+        "Til pause stod det 2–0.",
+        "Robert Constantin Dulgheru reduserte til 2–1 for Norborg i det 47. minuttet.",
+        "Eit sjølvmål frå Norborg i det 51. minuttet auka leiinga til 3–1 for Vanylven.",
+        "Christoffer Andreas Ervik Røys auka til 4–1 for Vanylven i det 63. minuttet.",
+        "Birk Sætre auka til 5–1 for Vanylven i det 65. minuttet.",
+        "Fredrik Endré Rogne reduserte til 5–2 for Norborg i det 68. minuttet.",
+        "Tarjei Gjerset Urkedal reduserte til 5–3 for Norborg i det 91. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23116124043": {
       "title": "Poengdeling mellom Ørskog/Stordal og HaNo/Harøy/Lepsøy",
       "lead": "Ørskog/Stordal og HaNo/Harøy/Lepsøy spelte 1–1 i G16 2. div høst.",

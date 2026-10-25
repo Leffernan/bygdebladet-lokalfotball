@@ -1,7 +1,259 @@
 {
-  "generatedAt": "2026-10-25T13:04:58+01:00",
+  "generatedAt": "2026-10-25T17:06:04+01:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9192681",
+      "fiksId": "9192681",
+      "matchNumber": "23120604025",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192681",
+      "date": "2026-10-25",
+      "time": "13:00",
+      "age": "MENN",
+      "competition": "6. div. menn høst",
+      "competitionId": "senior-2026-6-div-menn-host",
+      "venue": "Eidsåvoll stadion",
+      "home": "Vanylven",
+      "away": "Norborg",
+      "homeScore": 5,
+      "awayScore": 3,
+      "halfTime": "2–0",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Christoffer Andreas Ervik Røys",
+          "label": "Spillemål",
+          "minute": 21
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Magnus Andreas Nordal Vik",
+          "label": "Spillemål",
+          "minute": 41
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Robert Constantin Dulgheru",
+          "label": "Spillemål",
+          "minute": 47
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Tobias Remme Jensen",
+          "label": "Sjølvmål",
+          "ownGoal": true,
+          "playerTeam": "away",
+          "minute": 51
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Birk Sætre",
+          "label": "Advarsel",
+          "minute": 56
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Christoffer Andreas Ervik Røys",
+          "label": "Spillemål",
+          "minute": 63
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Birk Sætre",
+          "label": "Spillemål",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Fredrik Endré Rogne",
+          "label": "Spillemål",
+          "minute": 68
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Robert Constantin Dulgheru",
+          "label": "Advarsel",
+          "minute": 84
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Lars Alvestad Mikalsen",
+          "label": "Advarsel",
+          "minute": 85
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Isak Gjøsdal",
+          "label": "Advarsel",
+          "minute": 90
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Tarjei Gjerset Urkedal",
+          "label": "Spillemål",
+          "minute": 91
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Jan Erik Myklebust"
+      },
+      "referee": "Jan Erik Myklebust",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Kent Olav Brenne"
+            },
+            {
+              "number": 5,
+              "name": "Oskar Johan Sundsli Vik"
+            },
+            {
+              "number": 6,
+              "name": "Anders Ystebakk Midtbø"
+            },
+            {
+              "number": 9,
+              "name": "Isak Gjøsdal"
+            },
+            {
+              "number": 15,
+              "name": "Vetle Johan Dagfinrud"
+            },
+            {
+              "number": 18,
+              "name": "Birk Sætre"
+            },
+            {
+              "number": 21,
+              "name": "Simen Sylte Bellen"
+            },
+            {
+              "number": 10,
+              "name": "Christoffer Andreas Ervik Røys"
+            },
+            {
+              "number": 18,
+              "name": "Jonathan Loke Vaksdal"
+            },
+            {
+              "number": 20,
+              "name": "Magnus Andreas Nordal Vik"
+            }
+          ],
+          "bench": [
+            {
+              "number": 12,
+              "name": "Jørgen Andre Ytrøy Vikebakk"
+            },
+            {
+              "number": 2,
+              "name": "Benjamin Ervik Røys"
+            },
+            {
+              "number": 4,
+              "name": "Ole Johnny Lauvstad"
+            },
+            {
+              "number": 13,
+              "name": "Geir Jonny Nakken"
+            },
+            {
+              "number": 14,
+              "name": "Martinus Krøvel"
+            },
+            {
+              "number": 17,
+              "name": "Ole-Martin Lillebø Thunem"
+            },
+            {
+              "number": 21,
+              "name": "Ole Per Kragset"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Ronald Søvik Olsen"
+            },
+            {
+              "number": 51,
+              "name": "Slawomir Szoma"
+            },
+            {
+              "number": 6,
+              "name": "Lars Alvestad Mikalsen"
+            },
+            {
+              "number": 7,
+              "name": "Tarjei Gjerset Urkedal"
+            },
+            {
+              "number": 19,
+              "name": "Anders Toven"
+            },
+            {
+              "number": 45,
+              "name": "Tobias Remme Jensen"
+            },
+            {
+              "number": 49,
+              "name": "Davis Keiss"
+            },
+            {
+              "number": 11,
+              "name": "Robert Constantin Dulgheru"
+            },
+            {
+              "number": 18,
+              "name": "Kai Kitsadakon Grytten"
+            },
+            {
+              "number": 42,
+              "name": "Trym Ekroll Nyland"
+            },
+            {
+              "number": 44,
+              "name": "Sander Rognsø Furstrand"
+            }
+          ],
+          "bench": [
+            {
+              "number": 4,
+              "name": "Marius-Iulian Dulgheru"
+            },
+            {
+              "number": 27,
+              "name": "Alexander Hildre Urkedal"
+            },
+            {
+              "number": 41,
+              "name": "Fredrik Endré Rogne"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9196255",
       "fiksId": "9196255",
