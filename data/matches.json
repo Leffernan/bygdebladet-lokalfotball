@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T02:35:27+01:00",
+  "generatedAt": "2026-10-26T07:55:27+01:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
     {
@@ -1890,8 +1890,8 @@
       "venue": "Skodje Kunstgras 1",
       "home": "Skodje",
       "away": "Stranda 2",
-      "homeScore": 0,
-      "awayScore": 3,
+      "homeScore": 3,
+      "awayScore": 0,
       "halfTime": null,
       "localTeam": "home",
       "events": [],

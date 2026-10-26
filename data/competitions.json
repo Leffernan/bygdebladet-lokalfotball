@@ -336,10 +336,22 @@
     "j14-9er-2-div-avd-2-host": {
       "name": "J14 9er 2.div Avd 2 Høst",
       "tournamentId": "210122",
-      "updatedAt": "2026-10-25T07:45:52+01:00",
+      "updatedAt": "2026-10-26T07:55:23+01:00",
       "standings": [
         {
           "position": 1,
+          "team": "Surnadal/Søya 1",
+          "played": 7,
+          "wins": 5,
+          "draws": 1,
+          "losses": 1,
+          "gf": 41,
+          "ga": 16,
+          "gd": 25,
+          "points": 16
+        },
+        {
+          "position": 2,
           "team": "Molde 2",
           "played": 7,
           "wins": 5,
@@ -351,7 +363,7 @@
           "points": 16
         },
         {
-          "position": 2,
+          "position": 3,
           "team": "Elnesvågen/Bryn/Bud 2",
           "played": 7,
           "wins": 4,
@@ -361,18 +373,6 @@
           "ga": 19,
           "gd": 13,
           "points": 15
-        },
-        {
-          "position": 3,
-          "team": "Surnadal/Søya 1",
-          "played": 6,
-          "wins": 4,
-          "draws": 1,
-          "losses": 1,
-          "gf": 34,
-          "ga": 13,
-          "gd": 21,
-          "points": 13
         },
         {
           "position": 4,
@@ -413,13 +413,13 @@
         {
           "position": 7,
           "team": "Træff 2 7er",
-          "played": 6,
+          "played": 7,
           "wins": 1,
           "draws": 0,
-          "losses": 5,
-          "gf": 18,
-          "ga": 34,
-          "gd": -16,
+          "losses": 6,
+          "gf": 21,
+          "ga": 41,
+          "gd": -20,
           "points": 3
         },
         {
@@ -2042,7 +2042,7 @@
     "senior-2026-7-div-menn-host-1": {
       "name": "7. div. menn høst avd. 1",
       "tournamentId": "210497",
-      "updatedAt": "2026-10-25T07:45:52+01:00",
+      "updatedAt": "2026-10-26T07:55:23+01:00",
       "standings": [
         {
           "position": 1,
@@ -2082,6 +2082,18 @@
         },
         {
           "position": 4,
+          "team": "Skodje",
+          "played": 8,
+          "wins": 5,
+          "draws": 0,
+          "losses": 3,
+          "gf": 25,
+          "ga": 25,
+          "gd": 0,
+          "points": 15
+        },
+        {
+          "position": 5,
           "team": "Sykkylven 2",
           "played": 9,
           "wins": 5,
@@ -2091,18 +2103,6 @@
           "ga": 21,
           "gd": 0,
           "points": 15
-        },
-        {
-          "position": 5,
-          "team": "Skodje",
-          "played": 8,
-          "wins": 4,
-          "draws": 0,
-          "losses": 4,
-          "gf": 22,
-          "ga": 28,
-          "gd": -6,
-          "points": 12
         },
         {
           "position": 6,
@@ -2130,18 +2130,6 @@
         },
         {
           "position": 8,
-          "team": "Stranda 2",
-          "played": 8,
-          "wins": 2,
-          "draws": 2,
-          "losses": 4,
-          "gf": 10,
-          "ga": 19,
-          "gd": -9,
-          "points": 8
-        },
-        {
-          "position": 9,
           "team": "Ørskog/Stordal 2",
           "played": 8,
           "wins": 2,
@@ -2151,6 +2139,18 @@
           "ga": 25,
           "gd": -7,
           "points": 6
+        },
+        {
+          "position": 9,
+          "team": "Stranda 2",
+          "played": 8,
+          "wins": 1,
+          "draws": 2,
+          "losses": 5,
+          "gf": 7,
+          "ga": 22,
+          "gd": -15,
+          "points": 5
         },
         {
           "position": 10,
