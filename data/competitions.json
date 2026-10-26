@@ -2042,7 +2042,7 @@
     "senior-2026-7-div-menn-host-1": {
       "name": "7. div. menn høst avd. 1",
       "tournamentId": "210497",
-      "updatedAt": "2026-10-26T07:55:23+01:00",
+      "updatedAt": "2026-10-27T00:21:31+01:00",
       "standings": [
         {
           "position": 1,
@@ -2107,13 +2107,13 @@
         {
           "position": 6,
           "team": "Ravn 2",
-          "played": 8,
+          "played": 9,
           "wins": 3,
           "draws": 2,
-          "losses": 3,
+          "losses": 4,
           "gf": 26,
-          "ga": 16,
-          "gd": 10,
+          "ga": 19,
+          "gd": 7,
           "points": 11
         },
         {
@@ -2130,6 +2130,18 @@
         },
         {
           "position": 8,
+          "team": "Stranda 2",
+          "played": 9,
+          "wins": 2,
+          "draws": 2,
+          "losses": 5,
+          "gf": 10,
+          "ga": 22,
+          "gd": -12,
+          "points": 8
+        },
+        {
+          "position": 9,
           "team": "Ørskog/Stordal 2",
           "played": 8,
           "wins": 2,
@@ -2139,18 +2151,6 @@
           "ga": 25,
           "gd": -7,
           "points": 6
-        },
-        {
-          "position": 9,
-          "team": "Stranda 2",
-          "played": 8,
-          "wins": 1,
-          "draws": 2,
-          "losses": 5,
-          "gf": 7,
-          "ga": 22,
-          "gd": -15,
-          "points": 5
         },
         {
           "position": 10,

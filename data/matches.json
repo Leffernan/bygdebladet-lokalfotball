@@ -1,7 +1,205 @@
 {
-  "generatedAt": "2026-10-26T20:40:13+01:00",
+  "generatedAt": "2026-10-27T00:21:35+01:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9193964",
+      "fiksId": "9193964",
+      "matchNumber": "23127001055",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193964",
+      "date": "2026-10-26",
+      "time": "19:00",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "competitionId": "senior-2026-7-div-menn-host-1",
+      "venue": "Stranda stadion kg 11er",
+      "home": "Stranda 2",
+      "away": "Ravn 2",
+      "homeScore": 3,
+      "awayScore": 0,
+      "halfTime": "2–0",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Kai-Ronny Vikan",
+          "label": "Spillemål",
+          "minute": 14
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Kai-Ronny Vikan",
+          "label": "Spillemål",
+          "minute": 33
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Sebastian Røyr Stølen",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Kristoffer Nitter Joranger",
+          "label": "Advarsel",
+          "minute": 60
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Morten Berge Digernes"
+      },
+      "referee": "Morten Berge Digernes",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Nerijus Marcinkevicius"
+            },
+            {
+              "number": 3,
+              "name": "Omar Sebastian Søholt Berge"
+            },
+            {
+              "number": 14,
+              "name": "Kristoffer Nitter Joranger"
+            },
+            {
+              "number": 16,
+              "name": "Øyvind Kjellstad Fjørstad"
+            },
+            {
+              "number": 19,
+              "name": "Magnus Westby Svensen"
+            },
+            {
+              "number": 4,
+              "name": "Joakim Fivelstad"
+            },
+            {
+              "number": 7,
+              "name": "Tobias Lillebø Hjelle"
+            },
+            {
+              "number": 8,
+              "name": "Luca Engeset Sanchez"
+            },
+            {
+              "number": 18,
+              "name": "Levi Habostad"
+            },
+            {
+              "number": 20,
+              "name": "Aagash Nithiyaselvan"
+            },
+            {
+              "number": 22,
+              "name": "Kai-Ronny Vikan"
+            }
+          ],
+          "bench": [
+            {
+              "number": 5,
+              "name": "Mikael Nykrem Dalen"
+            },
+            {
+              "number": 6,
+              "name": "Sebastian Røyr Stølen"
+            },
+            {
+              "number": 11,
+              "name": "Arturas Sagalovas"
+            },
+            {
+              "number": 15,
+              "name": "Odd-Rune Opsvik"
+            },
+            {
+              "number": 17,
+              "name": "Leo Øverås Bjørdal"
+            },
+            {
+              "number": 21,
+              "name": "Jens Løken"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Benjamin Rørhus"
+            },
+            {
+              "number": 3,
+              "name": "Tomas Skaar Vadset"
+            },
+            {
+              "number": 5,
+              "name": "Øystein Longva Tennfjord"
+            },
+            {
+              "number": 27,
+              "name": "Olve Skogrand"
+            },
+            {
+              "number": 46,
+              "name": "Yngve Lilleås Midthjell"
+            },
+            {
+              "number": 7,
+              "name": "Martin Hatlehol"
+            },
+            {
+              "number": 13,
+              "name": "Sander Devold"
+            },
+            {
+              "number": 30,
+              "name": "Jonatan Klokset Lilleng"
+            },
+            {
+              "number": 40,
+              "name": "Jørn Magnus Midthjell"
+            },
+            {
+              "number": 41,
+              "name": "Mathias Johann Otterlei Sønderland"
+            },
+            {
+              "number": 26,
+              "name": "Jørgen Titlestad Skarbø"
+            }
+          ],
+          "bench": [
+            {
+              "number": 2,
+              "name": "Thomas Kvammen Bjørlykhaug"
+            },
+            {
+              "number": 16,
+              "name": "Fredrik Koppen Grande"
+            },
+            {
+              "number": 20,
+              "name": "Torjus Vatne"
+            },
+            {
+              "number": 28,
+              "name": "Trym Helle Nordstoga"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9192681",
       "fiksId": "9192681",
