@@ -439,22 +439,34 @@
     "j15-3-div-host": {
       "name": "J15 3. div høst",
       "tournamentId": "209873",
-      "updatedAt": "2026-10-24T06:18:11+02:00",
+      "updatedAt": "2026-10-27T23:54:53+01:00",
       "standings": [
         {
           "position": 1,
           "team": "Ellingsøy/Vigra/Valder 3",
-          "played": 9,
+          "played": 10,
           "wins": 8,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "gf": 43,
-          "ga": 15,
+          "gf": 46,
+          "ga": 18,
           "gd": 28,
-          "points": 24
+          "points": 25
         },
         {
           "position": 2,
+          "team": "HaNo/Lepsøy/Harøy 9er",
+          "played": 10,
+          "wins": 6,
+          "draws": 2,
+          "losses": 2,
+          "gf": 52,
+          "ga": 40,
+          "gd": 12,
+          "points": 20
+        },
+        {
+          "position": 3,
           "team": "Giske/Øyne 4 9er",
           "played": 9,
           "wins": 6,
@@ -463,18 +475,6 @@
           "gf": 41,
           "ga": 27,
           "gd": 14,
-          "points": 19
-        },
-        {
-          "position": 3,
-          "team": "HaNo/Lepsøy/Harøy 9er",
-          "played": 9,
-          "wins": 6,
-          "draws": 1,
-          "losses": 2,
-          "gf": 49,
-          "ga": 37,
-          "gd": 12,
           "points": 19
         },
         {
@@ -2042,31 +2042,31 @@
     "senior-2026-7-div-menn-host-1": {
       "name": "7. div. menn høst avd. 1",
       "tournamentId": "210497",
-      "updatedAt": "2026-10-27T08:52:05+01:00",
+      "updatedAt": "2026-10-27T23:54:53+01:00",
       "standings": [
         {
           "position": 1,
-          "team": "Valldal",
-          "played": 8,
+          "team": "Guard",
+          "played": 9,
           "wins": 6,
           "draws": 1,
-          "losses": 1,
-          "gf": 21,
-          "ga": 10,
-          "gd": 11,
+          "losses": 2,
+          "gf": 35,
+          "ga": 20,
+          "gd": 15,
           "points": 19
         },
         {
           "position": 2,
-          "team": "Guard",
-          "played": 8,
-          "wins": 5,
+          "team": "Valldal",
+          "played": 9,
+          "wins": 6,
           "draws": 1,
           "losses": 2,
-          "gf": 32,
-          "ga": 19,
-          "gd": 13,
-          "points": 16
+          "gf": 22,
+          "ga": 13,
+          "gd": 9,
+          "points": 19
         },
         {
           "position": 3,
@@ -2106,6 +2106,18 @@
         },
         {
           "position": 6,
+          "team": "Godøy",
+          "played": 9,
+          "wins": 4,
+          "draws": 2,
+          "losses": 3,
+          "gf": 19,
+          "ga": 18,
+          "gd": 1,
+          "points": 14
+        },
+        {
+          "position": 7,
           "team": "Ravn 2",
           "played": 9,
           "wins": 3,
@@ -2114,18 +2126,6 @@
           "gf": 26,
           "ga": 19,
           "gd": 7,
-          "points": 11
-        },
-        {
-          "position": 7,
-          "team": "Godøy",
-          "played": 8,
-          "wins": 3,
-          "draws": 2,
-          "losses": 3,
-          "gf": 16,
-          "ga": 17,
-          "gd": -1,
           "points": 11
         },
         {
@@ -2155,13 +2155,13 @@
         {
           "position": 10,
           "team": "Brattvåg 3",
-          "played": 8,
+          "played": 9,
           "wins": 1,
           "draws": 1,
-          "losses": 6,
-          "gf": 14,
-          "ga": 27,
-          "gd": -13,
+          "losses": 7,
+          "gf": 15,
+          "ga": 30,
+          "gd": -15,
           "points": 4
         }
       ]

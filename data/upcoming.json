@@ -1,39 +1,6 @@
 {
-  "generatedAt": "2026-10-27T19:59:53+01:00",
+  "generatedAt": "2026-10-27T23:55:03+01:00",
   "matches": [
-    {
-      "date": "2026-10-27",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Lepsøy kunstgress",
-      "home": "HaNo/Lepsøy/Harøy 9er",
-      "away": "Ellingsøy/Vigra/Valder 3",
-      "matchNumber": "23214107053",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200085"
-    },
-    {
-      "date": "2026-10-27",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "venue": "Brattvåg kunstgress",
-      "home": "Brattvåg 3",
-      "away": "Godøy",
-      "matchNumber": "23127001053",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193962"
-    },
-    {
-      "date": "2026-10-27",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "venue": "Valldal kunstgras",
-      "home": "Valldal",
-      "away": "Guard",
-      "matchNumber": "23127001052",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193961"
-    },
     {
       "date": "2026-10-28",
       "time": "18:30",

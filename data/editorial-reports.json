@@ -1,6 +1,53 @@
 {
   "version": 3,
   "reports": {
+    "23214107053": {
+      "title": "Målfest og poengdeling mellom HaNo/Lepsøy/Harøy 9er og Ellingsøy/Vigra/Valder 3",
+      "lead": "HaNo/Lepsøy/Harøy 9er og Ellingsøy/Vigra/Valder 3 spelte 3–3 i J15 3. div høst. Heile seks mål vart registrerte.",
+      "paragraphs": [
+        "Julie Leine Giske gav Ellingsøy/Vigra/Valder 3 leiinga i det 11. minuttet.",
+        "Astri Longva Davik utlikna til 1–1 for HaNo/Lepsøy/Harøy 9er i det 29. minuttet.",
+        "Julie Leine Giske sende Ellingsøy/Vigra/Valder 3 i leiinga i det 40. minuttet.",
+        "Til pause stod det 1–2.",
+        "Sandra Berge Kvam auka til 1–3 for Ellingsøy/Vigra/Valder 3 i det 52. minuttet.",
+        "Leah Indiane Farstad Dyb reduserte til 2–3 for HaNo/Lepsøy/Harøy 9er i det 60. minuttet.",
+        "Elsa Farstad Rogne utlikna til 3–3 for HaNo/Lepsøy/Harøy 9er i det 67. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001053": {
+      "title": "Godøy vann 3–1 mot Brattvåg 3",
+      "lead": "Godøy vann 3–1 mot Brattvåg 3 i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Mathias Johann Fjørtoft Remmen gav Godøy leiinga i det 2. minuttet.",
+        "Arman Maksumic utlikna til 1–1 for Brattvåg 3 i det 42. minuttet.",
+        "Til pause stod det 1–1.",
+        "Kristoffer Holmen Dyb sende Godøy i leiinga i det 66. minuttet.",
+        "Simen Støbakk Valkvæ auka til 1–3 for Godøy i det 71. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001052": {
+      "title": "Guard vann 3–1 mot Valldal",
+      "lead": "Guard vann 3–1 mot Valldal i 7. div. menn høst avd. 1.",
+      "paragraphs": [
+        "Glenn Are Nerland Elveseter gav Guard leiinga i det 19. minuttet.",
+        "Til pause stod det 0–1.",
+        "Jens Eirik Hjelset auka til 0–2 for Guard i det 48. minuttet.",
+        "Fredrik Søgård Iversen auka til 0–3 for Guard i det 78. minuttet.",
+        "Magnus Kaldhusdal reduserte til 1–3 for Valldal i det 79. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23127001055": {
       "title": "Stranda 2 vann 3–0 mot Ravn 2",
       "lead": "Stranda 2 vann 3–0 mot Ravn 2 i 7. div. menn høst avd. 1.",
