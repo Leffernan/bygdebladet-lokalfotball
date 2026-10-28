@@ -479,34 +479,40 @@
       "reason": "window_expired"
     },
     "23113126029": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-26T19:19:15+00:00",
-      "nextCheckAt": "2026-10-28T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-28T21:04:40+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23120401128": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-26T19:19:16+00:00",
-      "nextCheckAt": "2026-10-28T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-28T21:04:41+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23120401131": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-26T19:19:17+00:00",
-      "nextCheckAt": "2026-10-28T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-28T21:04:42+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23120401132": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-26T19:19:24+00:00",
-      "nextCheckAt": "2026-10-28T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-28T21:04:49+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23120501132": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-26T19:19:26+00:00",
-      "nextCheckAt": "2026-10-28T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-28T21:04:50+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23127001047": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-26T19:19:32+00:00",
-      "nextCheckAt": "2026-10-28T18:00:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-10-28T21:04:55+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23116124043": {
       "attempts": 5,
@@ -556,5 +562,5 @@
       "nextCheckAt": "2026-10-29T06:30:00+00:00"
     }
   },
-  "lastRunAt": "2026-10-28T16:02:25+00:00"
+  "lastRunAt": "2026-10-28T21:04:55+00:00"
 }
