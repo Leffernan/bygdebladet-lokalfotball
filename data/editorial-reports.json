@@ -1,6 +1,56 @@
 {
   "version": 3,
   "reports": {
+    "23214107055": {
+      "title": "Seks mål av Lilly Hjelvik då Skodje 2 7er vann",
+      "lead": "Skodje 2 7er vann 8–1 mot MTG 7er i J15 3. div høst. Lilly Hjelvik skåra seks av måla.",
+      "paragraphs": [
+        "Kornelia Idec gav Skodje 2 7er leiinga i det 23. minuttet.",
+        "Frøya Torset Bakken utlikna til 1–1 for MTG 7er i det 30. minuttet.",
+        "Lilly Hjelvik sende Skodje 2 7er i leiinga i det 34. minuttet.",
+        "Til pause stod det 1–2.",
+        "Lilly Hjelvik auka til 1–3 for Skodje 2 7er i det 41. minuttet.",
+        "Lilly Hjelvik auka til 1–4 for Skodje 2 7er i det 44. minuttet.",
+        "Lilly Hjelvik auka til 1–5 for Skodje 2 7er i det 62. minuttet.",
+        "Lilly Hjelvik auka til 1–6 for Skodje 2 7er i det 65. minuttet.",
+        "Leah Emilie Myren Lianes auka til 1–7 for Skodje 2 7er i det 67. minuttet.",
+        "Lilly Hjelvik auka til 1–8 for Skodje 2 7er i det 75. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23120604053": {
+      "title": "Norborg vann 2–1 mot Herd 2",
+      "lead": "Norborg vann 2–1 mot Herd 2 i 6. div. menn høst.",
+      "paragraphs": [
+        "Tarjei Gjerset Urkedal gav Norborg leiinga i det 21. minuttet.",
+        "Tobias Remme Jensen auka til 2–0 for Norborg i det 24. minuttet.",
+        "Til pause stod det 2–0.",
+        "Thomas Valaas reduserte til 2–1 for Herd 2 i det 50. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
+    "23127001054": {
+      "title": "Jakob Kjerstad avgjorde seint for Skodje",
+      "lead": "Skodje vann 3–2 mot Ørskog/Stordal 2 i 7. div. menn høst avd. 1. Vinnarmålet kom i det 87. minuttet.",
+      "paragraphs": [
+        "Markus Hovden Ulvestad gav Ørskog/Stordal 2 leiinga i det 16. minuttet.",
+        "Dennis Lid Bozkurt auka til 2–0 for Ørskog/Stordal 2 i det 43. minuttet.",
+        "Til pause stod det 2–0.",
+        "Alexander Engebretsen Jensen reduserte til 2–1 for Skodje i det 48. minuttet.",
+        "Magnus Strømmen utlikna til 2–2 for Skodje i det 50. minuttet.",
+        "Jakob Kjerstad skåra vinnarmålet for Skodje i det 87. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23214107053": {
       "title": "Målfest og poengdeling mellom HaNo/Lepsøy/Harøy 9er og Ellingsøy/Vigra/Valder 3",
       "lead": "HaNo/Lepsøy/Harøy 9er og Ellingsøy/Vigra/Valder 3 spelte 3–3 i J15 3. div høst. Heile seks mål vart registrerte.",

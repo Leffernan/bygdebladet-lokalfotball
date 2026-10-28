@@ -1,7 +1,688 @@
 {
-  "generatedAt": "2026-10-28T16:12:21+01:00",
+  "generatedAt": "2026-10-28T21:16:45+01:00",
   "photoSubmitUrl": "https://tally.so/r/aQRDJ9",
   "matches": [
+    {
+      "id": "match-9200087",
+      "fiksId": "9200087",
+      "matchNumber": "23214107055",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200087",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "age": "J15",
+      "competition": "J15 3. div høst",
+      "competitionId": "j15-3-div-host",
+      "venue": "Gurskøy kunstgras 7ar",
+      "home": "MTG 7er",
+      "away": "Skodje 2 7er",
+      "homeScore": 1,
+      "awayScore": 8,
+      "halfTime": "1–2",
+      "localTeam": "away",
+      "events": [
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Kornelia Idec",
+          "label": "Spillemål",
+          "minute": 23
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Frøya Torset Bakken",
+          "label": "Spillemål",
+          "minute": 30
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lilly Hjelvik",
+          "label": "Spillemål",
+          "minute": 34
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lilly Hjelvik",
+          "label": "Spillemål",
+          "minute": 41
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lilly Hjelvik",
+          "label": "Spillemål",
+          "minute": 44
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lilly Hjelvik",
+          "label": "Spillemål",
+          "minute": 62
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lilly Hjelvik",
+          "label": "Spillemål",
+          "minute": 65
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Leah Emilie Myren Lianes",
+          "label": "Spillemål",
+          "minute": 67
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Lilly Hjelvik",
+          "label": "Spillemål",
+          "minute": 75
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Oddbjørn Aam"
+      },
+      "referee": "Oddbjørn Aam",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 22,
+              "name": "Tyra Kleppe"
+            },
+            {
+              "number": 17,
+              "name": "Klara Elisabeth Voldnes"
+            },
+            {
+              "number": 20,
+              "name": "Ada Kvalsund Aksnes"
+            },
+            {
+              "number": 28,
+              "name": "Kiara Mariam Khoury"
+            },
+            {
+              "number": 41,
+              "name": "Line Sandanger"
+            },
+            {
+              "number": 60,
+              "name": "Bertine Baugstø Vonheim"
+            },
+            {
+              "number": 14,
+              "name": "Sigrun Elisa Wiencke"
+            },
+            {
+              "number": 26,
+              "name": "Jessica Maria Kleppestrand"
+            },
+            {
+              "number": 29,
+              "name": "Cassandra Hauge Vike"
+            },
+            {
+              "number": 30,
+              "name": "Serine Ulfstein"
+            },
+            {
+              "number": 7,
+              "name": "Frøya Torset Bakken"
+            }
+          ],
+          "bench": [
+            {
+              "number": 10,
+              "name": "Rebecka Sandnes Pettersen"
+            },
+            {
+              "number": 11,
+              "name": "Jelena Sofi Manlapaz Tandberg"
+            },
+            {
+              "number": 34,
+              "name": "Vanessa Fugledal"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 12,
+              "name": "Belinda Petrine Sæthre Græsdal"
+            },
+            {
+              "number": 5,
+              "name": "Alina Elouise Kjerstad Farstad"
+            },
+            {
+              "number": 20,
+              "name": "Elle Louise Ytredal"
+            },
+            {
+              "number": 23,
+              "name": "Sofie Nydal"
+            },
+            {
+              "number": 9,
+              "name": "Alva Gausdal Vik"
+            },
+            {
+              "number": 14,
+              "name": "Oline Skotheim Gjerdsbakk"
+            },
+            {
+              "number": 16,
+              "name": "Teoline Næs Tafjord"
+            },
+            {
+              "number": 17,
+              "name": "Lilly Hjelvik"
+            },
+            {
+              "number": 18,
+              "name": "Kornelia Idec"
+            },
+            {
+              "number": 19,
+              "name": "Betty Munkvold"
+            },
+            {
+              "number": 22,
+              "name": "Leah Emilie Myren Lianes"
+            }
+          ],
+          "bench": []
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9192709",
+      "fiksId": "9192709",
+      "matchNumber": "23120604053",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192709",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "6. div. menn høst",
+      "competitionId": "senior-2026-6-div-menn-host",
+      "venue": "Uggedal kunstgras",
+      "home": "Norborg",
+      "away": "Herd 2",
+      "homeScore": 2,
+      "awayScore": 1,
+      "halfTime": "2–0",
+      "localTeam": "home",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Tarjei Gjerset Urkedal",
+          "label": "Spillemål",
+          "minute": 21
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Tobias Remme Jensen",
+          "label": "Spillemål",
+          "minute": 24
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Thomas Valaas",
+          "label": "Straffemål",
+          "minute": 50
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Aksel Sommerdalen",
+          "label": "Advarsel",
+          "minute": 52
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Anders Toven",
+          "label": "Advarsel",
+          "minute": 69
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Aleksander Artur Wozny",
+          "label": "Advarsel",
+          "minute": 83
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Robert Constantin Dulgheru",
+          "label": "Advarsel",
+          "minute": 83
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Tobias Remme Jensen",
+          "label": "Advarsel",
+          "minute": 89
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Niklas Bertil Hurlen Spets"
+      },
+      "referee": "Niklas Bertil Hurlen Spets",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Ronald Søvik Olsen"
+            },
+            {
+              "number": 6,
+              "name": "Lars Alvestad Mikalsen"
+            },
+            {
+              "number": 7,
+              "name": "Tarjei Gjerset Urkedal"
+            },
+            {
+              "number": 19,
+              "name": "Anders Toven"
+            },
+            {
+              "number": 45,
+              "name": "Tobias Remme Jensen"
+            },
+            {
+              "number": 49,
+              "name": "Davis Keiss"
+            },
+            {
+              "number": 11,
+              "name": "Robert Constantin Dulgheru"
+            },
+            {
+              "number": 18,
+              "name": "Kai Kitsadakon Grytten"
+            },
+            {
+              "number": 20,
+              "name": "William Jenssen Grytten"
+            },
+            {
+              "number": 30,
+              "name": "Jonas Holmeset"
+            },
+            {
+              "number": 38,
+              "name": "Thomas Toven"
+            }
+          ],
+          "bench": [
+            {
+              "number": 42,
+              "name": "Trym Ekroll Nyland"
+            },
+            {
+              "number": 44,
+              "name": "Sander Rognsø Furstrand"
+            },
+            {
+              "number": 27,
+              "name": "Alexander Hildre Urkedal"
+            },
+            {
+              "number": 41,
+              "name": "Fredrik Endré Rogne"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 77,
+              "name": "Peder Stokkan Hamnøy"
+            },
+            {
+              "number": 4,
+              "name": "Axel Aarønes"
+            },
+            {
+              "number": 6,
+              "name": "Teo Ekeberg"
+            },
+            {
+              "number": 8,
+              "name": "Aksel Waage Molvær"
+            },
+            {
+              "number": 19,
+              "name": "Daniel Ngongo Mudingaie"
+            },
+            {
+              "number": 5,
+              "name": "Elias Aasen Holmelid"
+            },
+            {
+              "number": 10,
+              "name": "Thomas Valaas"
+            },
+            {
+              "number": 29,
+              "name": "Aksel Sommerdalen"
+            },
+            {
+              "number": 9,
+              "name": "Peder Espeseth Meyer"
+            },
+            {
+              "number": 20,
+              "name": "Peter Spangen Hustad"
+            },
+            {
+              "number": 28,
+              "name": "Noah Ian Elkington"
+            }
+          ],
+          "bench": [
+            {
+              "number": 13,
+              "name": "Lukas Johan Bakker"
+            },
+            {
+              "number": 14,
+              "name": "Nikolai Lien Kleppe"
+            },
+            {
+              "number": 17,
+              "name": "Aleksander Artur Wozny"
+            },
+            {
+              "number": 40,
+              "name": "Kevin Holte Grah"
+            },
+            {
+              "number": 67,
+              "name": "Jesper Lervik"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
+    {
+      "id": "match-9193963",
+      "fiksId": "9193963",
+      "matchNumber": "23127001054",
+      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193963",
+      "date": "2026-10-28",
+      "time": "18:30",
+      "age": "MENN",
+      "competition": "7. div. menn høst avd. 1",
+      "competitionId": "senior-2026-7-div-menn-host-1",
+      "venue": "Ørskogbanken stadion",
+      "home": "Ørskog/Stordal 2",
+      "away": "Skodje",
+      "homeScore": 2,
+      "awayScore": 3,
+      "halfTime": "2–0",
+      "localTeam": "both",
+      "events": [
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Markus Hovden Ulvestad",
+          "label": "Spillemål",
+          "minute": 16
+        },
+        {
+          "type": "yellow_card",
+          "team": "home",
+          "player": "Omar Viddal Krogsæter",
+          "label": "Advarsel",
+          "minute": 19
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Eivind Fjørtoft Floen",
+          "label": "Advarsel",
+          "minute": 25
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Sindre Giske",
+          "label": "Advarsel",
+          "minute": 40
+        },
+        {
+          "type": "goal",
+          "team": "home",
+          "player": "Dennis Lid Bozkurt",
+          "label": "Spillemål",
+          "minute": 43
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Adrian Andrukiewicz",
+          "label": "Advarsel",
+          "minute": 45
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Alexander Engebretsen Jensen",
+          "label": "Spillemål",
+          "minute": 48
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Magnus Strømmen",
+          "label": "Spillemål",
+          "minute": 50
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Herman Brungot Sandvik",
+          "label": "Advarsel",
+          "minute": 60
+        },
+        {
+          "type": "goal",
+          "team": "away",
+          "player": "Jakob Kjerstad",
+          "label": "Spillemål",
+          "minute": 87
+        },
+        {
+          "type": "yellow_card",
+          "team": "away",
+          "player": "Jakob Kjerstad",
+          "label": "Advarsel",
+          "minute": 87
+        }
+      ],
+      "summary": null,
+      "nextMatch": null,
+      "source": "fotball.no",
+      "officials": {
+        "referee": "Arve Toven"
+      },
+      "referee": "Arve Toven",
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Nathaniel Nybø Skjegstad"
+            },
+            {
+              "number": 17,
+              "name": "Oliver Brautehaug Jakobsen"
+            },
+            {
+              "number": 29,
+              "name": "Omar Viddal Krogsæter"
+            },
+            {
+              "number": 36,
+              "name": "Magnus Stokke"
+            },
+            {
+              "number": 8,
+              "name": "Markus Hovden Ulvestad"
+            },
+            {
+              "number": 10,
+              "name": "Dennis Lid Bozkurt"
+            },
+            {
+              "number": 13,
+              "name": "Sigve Alfer"
+            },
+            {
+              "number": 14,
+              "name": "Antoni Mateusz Adamiec"
+            },
+            {
+              "number": 30,
+              "name": "Ole-Gunnar Stavseng"
+            },
+            {
+              "number": 15,
+              "name": "Jonas Solheim Nicolaisen"
+            },
+            {
+              "number": 16,
+              "name": "Isak Søvik Benjaminsen"
+            }
+          ],
+          "bench": [
+            {
+              "number": 18,
+              "name": "Jaden Alexander Grüner"
+            },
+            {
+              "number": 27,
+              "name": "Jon Espen Nitter Ulvestad"
+            },
+            {
+              "number": 32,
+              "name": "Syver Midtbust-Dyrkorn"
+            }
+          ]
+        },
+        "away": {
+          "starters": [
+            {
+              "number": 1,
+              "name": "Niklas Solevågseide Nylén"
+            },
+            {
+              "number": 4,
+              "name": "Adrian Andrukiewicz"
+            },
+            {
+              "number": 5,
+              "name": "Erik Hessen Midtbø"
+            },
+            {
+              "number": 15,
+              "name": "Olav Glomset Vikhagen"
+            },
+            {
+              "number": 41,
+              "name": "Sindre Giske"
+            },
+            {
+              "number": 7,
+              "name": "Jan Erik Hellevik"
+            },
+            {
+              "number": 8,
+              "name": "Eivind Fjørtoft Floen"
+            },
+            {
+              "number": 10,
+              "name": "Magnus Strømmen"
+            },
+            {
+              "number": 13,
+              "name": "Jakob Kjerstad"
+            },
+            {
+              "number": 17,
+              "name": "Levi Raanes Ludvigsen"
+            },
+            {
+              "number": 19,
+              "name": "Alexander Engebretsen Jensen"
+            }
+          ],
+          "bench": [
+            {
+              "number": 12,
+              "name": "Brede Waag"
+            },
+            {
+              "number": 69,
+              "name": "Sten Robert Tennfjord"
+            },
+            {
+              "number": 3,
+              "name": "Magnus Kvalsund Erstad"
+            },
+            {
+              "number": 11,
+              "name": "Tobias Vadset Knotten"
+            },
+            {
+              "number": 14,
+              "name": "Herman Brungot Sandvik"
+            },
+            {
+              "number": 16,
+              "name": "Martin Giske"
+            },
+            {
+              "number": 18,
+              "name": "Eben Jensen"
+            },
+            {
+              "number": 21,
+              "name": "Andreas Larsen Beite"
+            },
+            {
+              "number": 45,
+              "name": "Alexander Strand Lunde"
+            }
+          ]
+        }
+      },
+      "goalTimelineVerified": true
+    },
     {
       "id": "match-9200085",
       "fiksId": "9200085",

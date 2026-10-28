@@ -1,50 +1,6 @@
 {
-  "generatedAt": "2026-10-28T16:12:21+01:00",
+  "generatedAt": "2026-10-28T21:16:45+01:00",
   "matches": [
-    {
-      "date": "2026-10-28",
-      "time": "18:30",
-      "age": "J15",
-      "competition": "J15 3. div høst",
-      "venue": "Gurskøy kunstgras 7ar",
-      "home": "MTG 7er",
-      "away": "Skodje 2 7er",
-      "matchNumber": "23214107055",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9200087"
-    },
-    {
-      "date": "2026-10-28",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "6. div. menn høst",
-      "venue": "Uggedal kunstgras",
-      "home": "Norborg",
-      "away": "Herd 2",
-      "matchNumber": "23120604053",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9192709"
-    },
-    {
-      "date": "2026-10-28",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "venue": "Ratvika 1",
-      "home": "Aksla 2",
-      "away": "Harøy/Lepsøy/HaNo 2",
-      "matchNumber": "23127001051",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193960"
-    },
-    {
-      "date": "2026-10-28",
-      "time": "18:30",
-      "age": "MENN",
-      "competition": "7. div. menn høst avd. 1",
-      "venue": "Ørskogbanken stadion",
-      "home": "Ørskog/Stordal 2",
-      "away": "Skodje",
-      "matchNumber": "23127001054",
-      "sourceUrl": "https://www.fotball.no/fotballdata/kamp/?fiksId=9193963"
-    },
     {
       "date": "2026-10-29",
       "time": "18:30",
