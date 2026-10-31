@@ -1,6 +1,26 @@
 {
   "version": 3,
   "reports": {
+    "99120201182": {
+      "title": "Sindre Heggstad avgjorde seint for Træff",
+      "lead": "Træff vann 5–4 mot Brattvåg i 2. divisjon menn avd. 1. Vinnarmålet kom i det 90. minuttet.",
+      "paragraphs": [
+        "Mathias Silseth Mork gav Træff leiinga i det 10. minuttet.",
+        "Andreas Tveiten utlikna til 1–1 for Brattvåg i det 28. minuttet.",
+        "Andreas Tveiten sende Brattvåg i leiinga i det 42. minuttet.",
+        "Til pause stod det 2–1.",
+        "Magnus Fjørtoft Løvik utlikna til 2–2 for Træff i det 58. minuttet.",
+        "Filip Heggdal Kristoffersen sende Træff i leiinga i det 63. minuttet.",
+        "Filip Heggdal Kristoffersen auka til 2–4 for Træff i det 66. minuttet.",
+        "John Ruud Norvik reduserte til 3–4 for Brattvåg i det 74. minuttet.",
+        "Andreas Tveiten utlikna til 4–4 for Brattvåg i det 80. minuttet.",
+        "Sindre Heggstad skåra vinnarmålet for Træff i det 90. minuttet."
+      ],
+      "mode": "automatic",
+      "basis": "NFF-kampdata",
+      "completeGoalTimeline": true,
+      "generatorVersion": 3
+    },
     "23214107051": {
       "title": "Fem mål av Maria Oselie Mjelde Solevåg då Spjelkavik 2 vann",
       "lead": "Spjelkavik 2 vann 9–5 mot Ørskog i J15 3. div høst. Maria Oselie Mjelde Solevåg skåra fem av måla.",
