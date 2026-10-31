@@ -645,19 +645,19 @@
     "senior-2026-2-div-menn-avd-1": {
       "name": "2. divisjon menn avd. 1",
       "tournamentId": "206007",
-      "updatedAt": "2026-10-31T15:47:43+01:00",
+      "updatedAt": "2026-10-31T19:51:14+01:00",
       "standings": [
         {
           "position": 1,
           "team": "Jerv",
-          "played": 25,
-          "wins": 17,
+          "played": 26,
+          "wins": 18,
           "draws": 5,
           "losses": 3,
-          "gf": 53,
+          "gf": 60,
           "ga": 30,
-          "gd": 23,
-          "points": 56
+          "gd": 30,
+          "points": 59
         },
         {
           "position": 2,
@@ -806,13 +806,13 @@
         {
           "position": 14,
           "team": "FK Eik Tønsberg 871",
-          "played": 25,
+          "played": 26,
           "wins": 4,
           "draws": 1,
-          "losses": 20,
+          "losses": 21,
           "gf": 28,
-          "ga": 56,
-          "gd": -28,
+          "ga": 63,
+          "gd": -35,
           "points": 10
         }
       ]
