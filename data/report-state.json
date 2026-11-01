@@ -554,14 +554,16 @@
       "reason": "window_expired"
     },
     "23214107053": {
-      "attempts": 5,
-      "lastCheckAt": "2026-11-01T07:31:57+00:00",
-      "nextCheckAt": "2026-11-01T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-11-01T23:35:42+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23127001053": {
-      "attempts": 5,
-      "lastCheckAt": "2026-11-01T07:31:57+00:00",
-      "nextCheckAt": "2026-11-01T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-11-01T23:35:42+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23214107055": {
       "attempts": 5,
@@ -589,10 +591,10 @@
       "nextCheckAt": "2026-11-02T01:00:00+00:00"
     },
     "23214107052": {
-      "attempts": 1,
-      "lastCheckAt": "2026-11-01T19:39:56+00:00",
-      "nextCheckAt": "2026-11-01T22:00:00+00:00"
+      "attempts": 2,
+      "lastCheckAt": "2026-11-01T23:35:40+00:00",
+      "nextCheckAt": "2026-11-02T08:00:00+00:00"
     }
   },
-  "lastRunAt": "2026-11-01T19:40:11+00:00"
+  "lastRunAt": "2026-11-01T23:35:42+00:00"
 }
