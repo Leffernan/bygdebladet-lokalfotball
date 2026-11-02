@@ -566,14 +566,16 @@
       "reason": "window_expired"
     },
     "23214107055": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-31T21:33:41+00:00",
-      "nextCheckAt": "2026-11-02T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-11-02T23:29:47+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23120604053": {
-      "attempts": 5,
-      "lastCheckAt": "2026-10-31T21:33:49+00:00",
-      "nextCheckAt": "2026-11-02T18:30:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-11-02T23:29:57+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23127001054": {
       "attempts": 5,
@@ -596,5 +598,5 @@
       "nextCheckAt": "2026-11-03T02:00:00+00:00"
     }
   },
-  "lastRunAt": "2026-11-02T15:51:32+00:00"
+  "lastRunAt": "2026-11-02T23:29:57+00:00"
 }
