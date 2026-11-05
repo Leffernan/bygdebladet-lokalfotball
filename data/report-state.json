@@ -590,9 +590,10 @@
       "reason": "window_expired"
     },
     "99120201182": {
-      "attempts": 5,
-      "lastCheckAt": "2026-11-03T15:06:55+00:00",
-      "nextCheckAt": "2026-11-05T13:00:00+00:00"
+      "attempts": 6,
+      "lastCheckAt": "2026-11-05T20:39:52+00:00",
+      "done": true,
+      "reason": "window_expired"
     },
     "23214107052": {
       "attempts": 5,
@@ -600,5 +601,5 @@
       "nextCheckAt": "2026-11-06T14:00:00+00:00"
     }
   },
-  "lastRunAt": "2026-11-04T17:14:51+00:00"
+  "lastRunAt": "2026-11-05T20:39:52+00:00"
 }
